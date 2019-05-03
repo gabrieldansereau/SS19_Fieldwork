@@ -2,8 +2,9 @@
 Data-driven ecological synthesis 2019 summer school project on the distance between ecologists' institutions and their fieldwork
 
 ### Members of the group project
-- Aurelie !!  
+- Aurelie !!
 - Yasmine Hourlier
 - Fares
 - Gabriel
--New branch ready!
+- New branch ready!
+- New branch on Atom
