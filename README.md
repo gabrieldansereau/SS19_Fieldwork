@@ -6,3 +6,4 @@ Data-driven ecological synthesis 2019 summer school project on the distance betw
 - Yasmine Hourlier
 - Fares
 - Gabriel
+-New branch ready!
