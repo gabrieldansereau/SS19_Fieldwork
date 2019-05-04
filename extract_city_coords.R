@@ -6,6 +6,7 @@ library(rjson)
 library(geonames)
 library(sp)
 library(raster)
+library(geosphere)
 
 #ici je me connecte à Geonames (je me suis créé un compte sur geonames.org)
 options(geonamesUsername=username)
@@ -74,3 +75,4 @@ sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data
 ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
 proj4string(sp_tout) <- proj4string(ERA)
 
+distGeo(p1= c(sp_tout$lng[1], sp_tout$lat[1]), p2= c(sp_tout$fw_lng[1], sp_tout$fw_lng[1]))
