@@ -7,10 +7,10 @@ library(tidyverse)
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
 qy_1 <- dataone::query(cn, list(
-  rows = "", 
+  rows = "5000", 
   q    = "keywords:Disturbance +OR+ keywords:Fire + OR+  keywords:Forest + OR+  keywords:Vegetation + OR+  keywords:Canopy + OR+  keywords:Structure + OR+  keywords:Demography + OR+  keywords:Fire + OR+   keywords:Management + OR+  keywords:Dynamic + OR+  keywords:Growth+ OR+  keywords:Ecology + OR+  keywords:Inventories+ OR + keywords:Gis", #keyword
   fq   = "", #filter keyword
-  fl   = "id, checksum, dataUrl, title, keywords"), 
+  fl   = "id, checksum, dataUrl, title, keywords, author, site"), 
   as = "data.frame")
 View(qy_1)
 
