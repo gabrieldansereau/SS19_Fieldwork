@@ -7,6 +7,7 @@ library(geonames)
 library(sp)
 library(raster)
 library(geosphere)
+library(WriteXLS)
 
 #ici je me connecte à Geonames (je me suis créé un compte sur geonames.org)
 options(geonamesUsername=username)
@@ -68,11 +69,17 @@ for (i in 1:length(tout$city)){
 coords_tout <- tout[,c(4,5,10,11)]
 coords_tout$lat <- as.numeric(coords_tout$lat)
 coords_tout$lng <- as.numeric(coords_tout$lng)
-sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data = coords_tout)
+# sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data = coords_tout)
 
 
 #pour avoir une référence de projection : 
-ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
-proj4string(sp_tout) <- proj4string(ERA)
+# ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
+# proj4string(sp_tout) <- proj4string(ERA)
+spUNI <- cbind(coords_tout$lng, coords_tout$lat)
+spFW <- cbind(coords_tout$fw_lng, coords_tout$fw_lat)
+dist <- distGeo(p1=spUNI, p2=spFW)
+tab_final  <- cbind(tout, dist/1000)
+tab_final<- tab_final[,c(1,2,5,4,10:12)]
+names(tab_final)<- c("country", "city", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
 
-distGeo(p1= c(sp_tout$lng[1], sp_tout$lat[1]), p2= c(sp_tout$fw_lng[1], sp_tout$fw_lng[1]))
+WriteXLS(tab_final, ExcelFileName = "tab_dist_coord")
