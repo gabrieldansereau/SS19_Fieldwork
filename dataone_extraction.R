@@ -6,13 +6,25 @@ library(tidyverse)
 # Getting the ID of the articles
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
-(qy <- dataone::query(cn, list(
-  rows = "10000", 
-  q    = "title:forest", #keyword
-  fq   = "wildlife", #filter keyword
-  fl   = ""), 
-  as = "data.frame"))
+qy <- dataone::query(cn, list(
+  rows = "5000", 
+  q    = "keywords:Disturbance +OR+ keywords:Fire + OR+  keywords:Forest +
+  OR+  keywords:Vegetation + OR+  keywords:Canopy + OR+  keywords:Structure +
+  OR+  keywords:Demography + OR+  keywords:Fire + OR+   keywords:Management + OR+
+  keywords:Dynamic + OR+  keywords:Growth+ OR+  keywords:Ecology + OR+
+  keywords:Inventories+ OR + keywords:Gis+
+  OR + keywords:niche +OR + keywords:habitat +OR + keywords:community +
+  OR + keywords:ecosystem +OR + keywords:capacity +OR + keywords:biosphere +
+  OR + keywords:symbiosis +OR + keywords:mutualism +OR + keywords:consumers +
+  OR + keywords:organism +OR + keywords:food +OR + keywords:prey +
+  OR + keywords:density +OR + keywords:chlorophyll +OR + keywords:decomposers", #keyword
+  fq   = "", #filter keyword
+  fl   = "id, checksum, dataUrl, title, keywords, author, site"), 
+  as = "data.frame")
 View(qy)
+
+qy <- qy %>% distinct(title, .keep_all = TRUE)
+View(my_data)
 
 id <- qy[,'id']
 dataUrl <- qy[,'dataUrl']
@@ -28,20 +40,28 @@ checksum <- qy[,"checksum"]
 # curl::curl_download(dataUrl[33], destfile = 'test_33.xml')
 # eml_URL$metadata[[33]][["result"]] %>% View
 
-# download all the files at once! 
-walk2(dataUrl, checksum, ~ curl::curl_download(url = .x, destfile = paste0("xml/", .y, ".xml")))
+# download all the files at once!
+for (i in 1500:length(dataUrl)) {
+  curl::curl_fetch_disk(dataUrl[i], paste0("xml2/", checksum[i], ".xml"))
+}
+263:264,317:339,624,651,1077:1120,1134:1499
+
+walk2(dataUrl, checksum, ~ curl::curl_fetch_disk(.x, paste0("xml/", .y, ".xml")))
 
 
+# Remove error files (rerun as often as needed)
 # for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
-#   dir(path = "xml/", full.names = TRUE)[i] %>% 
-#     set_names(., basename(.)) %>% 
-#           read_file_raw() %>% 
+#   dir(path = "xml/", full.names = TRUE)[i] %>%
+#     set_names(., basename(.)) %>%
+#           read_file_raw() %>%
 #           rawToChar %>%
-#           xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
-#           xmlRoot %>% 
-#           xmlToList
+#           xmlTreeParse(., asText=TRUE, trim = TRUE, ignoreBlanks = TRUE, error = xmlErrorCumulator(immediate = FALSE)) # %>%
+#           # xmlRoot %>%
+#           # xmlToList
 # }
 # file.remove(dir(path = "xml/", full.names = TRUE)[i])
+
+# Parse files for metadata
 parsed_files <- dir(path = "xml/", full.names = TRUE) %>% 
   set_names(., basename(.)) %>% 
   map(~.x %>% 
@@ -53,9 +73,10 @@ parsed_files <- dir(path = "xml/", full.names = TRUE) %>%
 
 parsed_files <- parsed_files %>% tibble::enframe()
 
-
+# Set map_chr default parameters
 mc <- partial(map_chr, .default = NA_character_)
 
+# Organize metadata as columns
 parsed_data <- parsed_files %>% 
   mutate(city_contact = mc(value, pluck, "dataset", "contact", "address", "city"),
          country_contact = mc(value, pluck, "dataset", "contact", "address", "country"),
@@ -67,29 +88,14 @@ parsed_data <- parsed_files %>%
          east = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "eastBoundingCoordinate"),
          north = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "northBoundingCoordinate"),
          south = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "southBoundingCoordinate")) 
-  # unnest(city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
-         # west, east, north, south) %>% 
-  # select(name, city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
-         # keyword, west, east, north, south)
-  # mutate(df_contact = map(from_contact, safely(flatten_df))) %>% 
-  # mutate(df_creator = map(from_creator, safely(flatten_df)))
 
+# Export to csv
 parsed_data %>% 
   select(-value) %>% 
-  write_csv("data/data1.csv")
+  write_csv("data/data3.csv")
 
-data <- parsed_data %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  filter(!map_lgl(df_result, is_null)) %>% 
-  select(name, df_result) %>% 
-  unnest(df_result) %>% 
-  select(name, city, country)
 
+###### Older versions of code #####
 ### GetObject version
 # qy_1 <- slice(qy, grep("^https", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
 # qy_1 <- slice(qy_1, grep("^knb", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
