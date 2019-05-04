@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.58.20" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.58.20</shortName>
+    <title>Fine root respiration on the floodplain in Bonanza Creek Experimental Forest</title>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <givenName>W.</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-0180</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7153</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <!--No other people associated with this dataset found on file (pers/lastname/lead_contact=0)-->
+    <pubDate>2003-09-10</pubDate>
+    <abstract>
+      <para>This dataset comtains soil temperature, Root Respiration, and root nitrogen.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>fine root respiration</keyword>
+      <keyword>fine root nitrogen</keyword>
+      <keyword>fibric</keyword>
+      <keyword>mesic</keyword>
+      <keyword>humic</keyword>
+      <keywordThesaurus>Primary Production</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/58</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.2640747</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1426888</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7241989</northBoundingCoordinate>
+          <southBoundingCoordinate>64.68195711</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000-08-02</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2000-09-13</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Completed</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods</title>
+            <para>Fine root respiration was measured in the field as CO2 production throughout the 1999 growing season at each site (Burton et al. 2002). Black spruce roots (less than 1mm diameter, approximately 2 g fresh weight) were excised from the near-surface fibric horizon, brushed free of soil and organic material, and placed immediately in an aluminum cuvette (5.4 cm diameter X 15 cm in length) coupled to a LICOR-6200 photosynthesis system (LICOR, Lincoln, NE). The cuvette contained a solid aluminum plug (263 cm3), and was cooled on ice prior to measurements to facilitate equilibration of the cuvette to ambient soil temperatures. Both soil and cuvette temperatures were monitored and cuvette temperature was adjusted to ambient soil temperature prior to measurements by burying the cuvette closer to or away from the permafrost layer. This enabled root respiration to be measured at ambient soil temperatures, so that thermal acclimation responses throughout the growing season could be incorporated into our seasonal temperature response relationship (Tjoelker et al. 1999). Cuvette CO2 concentration was adjusted to 1000 ppm and respiration rates were measured after stabilized readings were observed, which typically took 10 minutes. Root respiration was measured on 4 to 5 root samples collected at locations selected randomly at each site during each sampling period. After measurements, roots were placed on ice and transported to the laboratory, where samples were washed free of adhering soil and organic matter, dried at 60 degC for 48 hr, and analyzed for total N on a LECO 2000 CNS Autoanlyzer (St. Joseph, MI).  Respiration rates (nmol CO2 gDWT fine root-1 s-1) collected from all sites throughout the season were related to soil temperatures using non-linear regression (PROC NLIN) (SAS, 1999). The slope, k, of the non-linear regression (RFR = a * e-k*TSOIL) was used to estimate Q10, (Q10 = e10*k), and the standard error of Q10, SE(Q10), was derived as SE(Q10) = SE(k) * 10(Q10). An estimate of total growing season (15 May to 15 September) fine root respiration (g C m-2 growing season-1) was obtained by combining this equation with daily soil temperature means, and live fine root biomass values obtained from soil cores. During late July 1999, soil cores (5 cm diameter * 20 cm length) were taken from each site and hand-sorted into live and dead roots. Because of the large amount of organic debris and the extreme fineness of the roots, soil cores were washed through a series of successively smaller sieves (800, 400, 250 and 125 mm) after sorting out the larger fine root fragments. The largest fractions were sorted completely, while the smaller fractions were sub-sampled. Because each core required approximately 1 week to sort, we were limited to processing only 5 cores per site.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2490622</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2490622</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68147876</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68147876</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5C -- FP5C is located on an older terrace of the Tanana River on the south side of the river opposite Sam Charley Island.  The climate station and neighboring research plots were burned in August of 2010 by the Willow Creek Wildfire..  Site alternate names:  253, BCEFY3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1472629</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1472629</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71361404</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71361404</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5D -- This is a mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  254, BCEFM3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.19274</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.19274</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72541</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72541</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2000-08-02</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2000-09-13</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>unknown</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>175_1587_Root_Respiration.txt</entityName>
+      <entityDescription>This dataset comtains soil temperature, Root Respiration, and root nitrogen.</entityDescription>
+      <physical>
+        <objectName>175_1587_Root_Respiration.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/58/20/07341e51f9d4964273cf8883db0fe582</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Day</attributeName>
+          <attributeLabel>Day</attributeLabel>
+          <attributeDefinition>Day </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ddd</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Soiltemp</attributeName>
+          <attributeLabel>Soiltemp</attributeLabel>
+          <attributeDefinition>Soil Temperture</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Rootresp</attributeName>
+          <attributeLabel>Rootresp</attributeLabel>
+          <attributeDefinition>Root respiration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>ROOTN</attributeName>
+          <attributeLabel>ROOTN</attributeLabel>
+          <attributeDefinition>Root Nitrogen</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="ddd"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

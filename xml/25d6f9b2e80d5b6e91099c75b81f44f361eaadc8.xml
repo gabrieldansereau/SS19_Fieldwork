@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4792.3"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HT006</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/7dc5e1f888281081de71818082bd0c78</alternateIdentifier>
+    <title>Stream temperature at core phenology stream sites in the Andrews Experimental Forest, 2009 - 2014</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Judith</givenName>
+        <givenName>L.</givenName>
+        <surName>Li</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries &amp;amp; Wildlife;104 Nash Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1093</phone>
+      <electronicMailAddress>judyli@comcast.net</electronicMailAddress>
+      <electronicMailAddress>judith.li@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>D</givenName>
+        <surName>Schulze</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+      </address>
+      <phone>541-822-6336</phone>
+      <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ivan</givenName>
+        <surName>Arismendi</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>3100 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>Oregon</administrativeArea>
+        <postalCode>97330</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-750-7443</phone>
+      <phone>541-231-8921</phone>
+      <electronicMailAddress>ivan.arismendi@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>ivanarsmendi@gmail.com</electronicMailAddress>
+      <onlineUrl>https://sites.google.com/site/ivanarismendi/</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christina</givenName>
+        <surName>Murphy</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <electronicMailAddress>christina.a.murphy@gmail.com</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2017-07-14</pubDate>
+    <abstract>
+      <para>The H.J Andrews phenology research included this study of stream temperatures at six headwater streams where springtime emergence of stream macroinvertebrates were collected. Streams were selected across an elevational gradient and with young riparian forests as well as old growth riparian forests. One site was a stream that originated in a cold water spring and the site was a stream that drys late in the summer. Stream temperature loggers were placed in protective housings and stream temperatures collected year-round starting May 2009-July 2014.  Data were evaluated for quality control and missing periods were filled. These data document the thermal environment that stream macroinvertebrates experience and that influence their timing of emergence (database SA025).</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Forest-stream interactions</keyword>
+      <keyword keywordType="theme">Phenology</keyword>
+      <keyword keywordType="theme">Water temperature</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released to the public domain under the Creative Commons license CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/).   Creative Commons license CC0 1.0 - No Rights Reserved states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. </para>
+      <para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=HT006</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>HJ Andrews Experimental Forest streams - phenology emergence sites</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25750000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.12050000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.26640000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20700000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>457</altitudeMinimum>
+            <altitudeMaximum>1000</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-07-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>These stream temperature data were collected to support phenological research focused on increasing our understanding of factors that influence instream insect responses across the Andrews Experimental Forest.  Species, taxa and communities within and across trophic levels are likely responding differently to thermal conditions.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2011-01-25</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Daily and hourly data for the stream temperature phenology emergence sites is posted from 2009 through July 31, 2014.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2016-06-09</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata for abstract, purpose, experimental design and methods including program documentation are added.  EML will include updated intellectual rights and check sums for both entities.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2017-07-14</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HT006</para>
+          <para>Temperature sensors (Onset Hobo U22-001 (accuracy 0.2 C)) were programmed to record instantaneous temperatures at 30 min intervals and placed in protective flow through housings and secured into the streams. Data were downloaded at a minimum of twice per year.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Quality Assurance - HT006</para>
+          <para>After sensors were downloaded, high resolution data were put through a series of programs for quality control and for filling missing values before generating the hourly averages.  A major concern of quality control was to detect when the sensors were not in the stream and recording air temperatures. When data anomalies or gaps in data were found, data were filled using the regression relationships with other sensors from this project and from stream temperature data from stream gages. Regressions were calculated using the best fit with other sensors during periods of time when the full data were available.</para>
+          <para>After the averaging and filling, data were also visually evaluated for outliers. If outliers were found, estimates were calculated and inserted.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Statistics - HT006</para>
+          <para>Evaluation of the high resolution temperatures (15 and 20 minute intervals) were conducted and questionable data flagged. Before calculation of hourly averages, flagged data were removed and missing values calculated using regression relationships with other temperature data from Andrews Forest for that period.</para>
+          <para>Script name: WaTeR.py</para>
+          <para>This script was designed to flag, clean, average by hour, and fill data from air temperature sensors deployed at the HJ Andrews.  </para>
+          <para>Datasets:  The script currently creates folders: flagged, cleaned, reference, and filled.  These contain:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>flagged original data with flags</para>
+              </listitem>
+              <listitem>
+                <para>cleaned data with the flags removed</para>
+              </listitem>
+              <listitem>
+                <para>reference cleaned data averaged into hourly timesteps </para>
+              </listitem>
+              <listitem>
+                <para>filled cleaned data which has been filled using other files in the reference folder based on their respective regressions</para>
+              </listitem>
+              <listitem>
+                <para>summary daily values with min, max and mean</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>Requires: Python, SciPy and NumPy</para>
+          <para>Note: This program was written for data loggers started during June (daylight savings time). Since ONSET uses the computer clock for time stamps, raw times are in PDT not PST. Hourly averaging changes times to PST and matches reference file format (where the hour represents the average of temperatures in the preceding hour). If original logger start dates are not in PDT, there is a line of code (currently 313) which can be turned on.</para>
+          <para>Settings: This may be run for a file or folder. The file or folder should be found in the same directory as the script. Input the file or folder name (e.g. INPUTFOLDER="Folder") and comment out the unused line (e.g. #INPUTFILE). Input files should contain the site name as this name is retained through processing. Date limits should be specified under the '#Date limits' heading. These form the bookends in which the program will attempt to fill gaps using the available reference files. Reference files are stored together in a folder (e.g. REFERENCE_DIR = "RS data for PC sites") and are labeled with *reformatted* to distinguish them from reference files which have not been modified to match the required input format. All sites are added as they are run, so this should be run twice if they are not already included in the reference folder and you want them as reference files for sites run in the same batch.
+Site files will not be used if they have *cleaned*, *filled* or *flagged* in their file name to avoid using processed data. Reference files must be in the correct format and include *reformatted* in their filename or they will not be used. These labels are consistent with the output files from this script as well as the script to convert reference data downloaded from the Andrews website (convert_reference_data.py).</para>
+          <para>Description: This script serves to flag, prune, average (by hour), and fill air temperature data as detailed below. </para>
+          <para>Step 1: Flagging (Original time steps); Output file – (input file name)_flagged_00-0000.csv, where 00-0000 is the month-year of the last data point</para>
+          <para>Flagging identifies for each line (date/time) entry:</para>
+	nodata - Date/time recorded on the logger but contains no data.
+	Interval does not equal 15 or 20 minutes – The time between samples was not as programmed
+	extreme – Any temperature exceeding 20 deg C or less than -20 deg C (outside of the sensor range)
+	jump – If the change in temperature exceeds 5 deg C in one time interval
+	air – A forward rolling window, flags when the variation in temperatures within the 24hr period is greater than the TVAR_MAX (specified at the opening of the code, currently 1.5 deg C and the temperatures are below TMIN (currently 0.2 deg C)
+	air_past – Looks back and flags if a 'Snow' flag is present in the past 24 hours
+
+<para>Step 2: Pruning (Original time step); Output file – (input file name)_cleaned_00-000.csv</para>
+          <para>Pruning removes lines containing extreme, air_past, air, jump and nodata.  
+</para>
+          <para>Step 3: Averaging (Hourly time step); Output file – (input file name)_00-0000_reformatted.csv</para>
+          <para>Averaging uses only values remaining after pruning. The number of values used to calculate the average is included as a new column.
+Notes: The command for saving this output file includes the path for the reference folder, if that folder is changed, it should also be changed in this section (or a new folder will be made with the files but they will not be used for filling). Averaging follows the convention used for Andrews weather stations where the hour represents the average of temperatures in the preceding hour. The output is in PST (while all previous outputs are in PDT, matching the raw input).</para>
+          <para>Step 4: Filling (Hourly time step); Output file – (input file name)_filled_00-000.csv</para>
+          <para>The script uses cleaned data and compares remaining entries to reference files (see Settings). This is done as a linear regression of the cleaned data with each reference file, the output includes the R2 which can be found in the text file corresponding to the input file name. Prior to filling, the script creates placeholder hours bounded by the date range specified under “Date limits” which is the range in which filling is attempted. These values are set at 1000 degrees. The script aims to fill missing (1000 degree) data by moving sequentially through the reference data in order of fit (R2). The linear regression equation is used to modify the reference value for that data point and it replaces the 1000 degree placeholder. The reference file used in the temperature value filling is listed in a neighboring column. If all reference files are examined and no data is found to replace the missing value placeholder, the placeholder is retained, thus 1000 degrees should be treated as "no data".</para>
+          <para>Step 5: Max, min, mean (Daily time step); Output file – (input file name)_daily_00-0000.csv</para>
+          <para>The script ignores 1000 degree data and calculates daily max, min and mean temperature values from the filled dataset.  The number of records (hours) used in the calculation is listed in the column 'count.'</para>
+          <para>Figures: Data points over time with flagged (and cleaned) data shown in red.  Located within the "flagged" folder as .pdfs.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Andrews Phenology sites</para>
+            <para>Sampling frequency: 30 minutes</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Six streams phenology sites were selected to evaluate the variability of springtime aquatic insect emergence and phenology (SA025) across the Andrews Forest. Stream temperature sensors were installed in these six streams and temperatures measured year round so that calculations of themal accumulation and degree days could occur. </para>
+          <para>At low elevation,  a gaged stream through old growth forest and a stream through a young forest were selected. At high elevation, a similar pair of gaged streams were selected.  Prior information on insect community composition and seasonal emergence (SA022) was used to select these sites. </para>
+          <para>Two additional sites were selected; one was a cold water stream whose hydrology and thermal regime is greatly impacted by a headwater spring. The final site was located near the cold water spring and in a stream that goes dry in the later summer. </para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 1 (WS01 stream)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25750000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25750000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20700000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20700000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>457</altitudeMinimum>
+                <altitudeMaximum>457</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 2 (WS02 stream)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24930000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24930000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21450000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21450000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>487</altitudeMinimum>
+                <altitudeMaximum>487</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 3 (WS08 stream)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17070000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17070000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26640000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26640000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>959</altitudeMinimum>
+                <altitudeMaximum>959</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 4 (WS07 stream)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17560000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17560000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26510000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26510000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>940</altitudeMinimum>
+                <altitudeMaximum>940</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 5 (Cold Creek)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12400000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12400000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22950000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22950000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1000</altitudeMinimum>
+                <altitudeMaximum>1000</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Emergence Site 6 (South Creek)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12050000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12050000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22720000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22720000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1000</altitudeMinimum>
+                <altitudeMaximum>1000</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Phenology Sites</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26083000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12205808</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.27442236</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20746456</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1314</altitudeMinimum>
+                <altitudeMaximum>1314</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <section>
+            <para>&lt;para&gt;After sensors were downloaded, high resolution data were put through a series of programs for quality control and for filling missing values before generating the hourly averages.  A major concern of quality control was to detect when the sensors were not in the stream and recording air temperatures. When data anomalies or gaps in data were found, data were filled using the regression relationships with other sensors from this project and from stream temperature data from stream gages. Regressions were calculated using the best fit with other sensors during periods of time when the full data were available.&lt;/para&gt;
+&lt;para&gt;After the averaging and filling, data were also visually evaluated for outliers. If outliers were found, estimates were calculated and inserted.&lt;/para&gt;</para>
+          </section>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hannah</givenName>
+          <surName>Gosnell</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Geosciences;Oregon State University;260 Wilkinson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>541-737-1222</phone>
+        <electronicMailAddress>gosnellh@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/gosnell/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Matthew</givenName>
+          <givenName>G</givenName>
+          <surName>Betts</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>(541) 737-3841</phone>
+        <electronicMailAddress>matt.betts@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://fes.forestry.oregonstate.edu/people?path=people/betts-matthew</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HT00601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>HT00601</entityName>
+      <entityDescription>Daily stream temperature at phenology core emergence sites: </entityDescription>
+      <physical>
+        <objectName>HT00601.csv</objectName>
+        <authentication method="MD5">6601535a8367730dacd13af5a2a50873</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4792/3/31cb7b8e3b30f483f4572954703975e7</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2009-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HT00601.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HT006</code>
+                    <definition>FSDB Database Code HT006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity Number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PE001</code>
+                    <definition>HJA Phenology Emergence Site 1 (WS01 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE002</code>
+                    <definition>HJA Phenology Emergence Site 2 (WS02 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE003</code>
+                    <definition>HJA Phenology Emergence Site 3 (WS08 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE004</code>
+                    <definition>HJA Phenology Emergence Site 4 (WS07 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE005</code>
+                    <definition>HJA Phenology Emergence Site 5 (Cold Creek)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE006</code>
+                    <definition>HJA Phenology Emergence Site 6 (South Creek)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.SITETYPE">
+          <attributeName>SITETYPE</attributeName>
+          <attributeDefinition>Type of measurement site: core phenology emergence site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PE</code>
+                    <definition>Core phenology emergence stream site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.QC_LEVEL">
+          <attributeName>QC_LEVEL</attributeName>
+          <attributeDefinition>Quality control flag indicates level of quality checking performed</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1A</code>
+                    <definition>Data is published and unlikely to change - automated range checking and manual review has been conducted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 1A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2A</code>
+                    <definition>Data is published and unlikely to change - Level 1A data has been modified such that data gaps may be filled or problem data may be removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 2A</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1/1/2009 12:00:00 AM</minimum>
+                  <maximum exclusive="false">7/31/2014 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MEAN_DAY">
+          <attributeName>WATERTEMP_MEAN_DAY</attributeName>
+          <attributeDefinition>Mean temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2000</minimum>
+                  <maximum exclusive="false">15.8000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MEAN_FLAG">
+          <attributeName>WATERTEMP_MEAN_FLAG</attributeName>
+          <attributeDefinition>Mean water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MAX_DAY">
+          <attributeName>WATERTEMP_MAX_DAY</attributeName>
+          <attributeDefinition>Maximum water temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5000</minimum>
+                  <maximum exclusive="false">16.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MAX_FLAG">
+          <attributeName>WATERTEMP_MAX_FLAG</attributeName>
+          <attributeDefinition>Maximum water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MIN_DAY">
+          <attributeName>WATERTEMP_MIN_DAY</attributeName>
+          <attributeDefinition>Minimum water temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">15.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.WATERTEMP_MIN_FLAG">
+          <attributeName>WATERTEMP_MIN_FLAG</attributeName>
+          <attributeDefinition>Minimum water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Esimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00601.REGRESSION_SITE">
+          <attributeName>REGRESSION_SITE</attributeName>
+          <attributeDefinition>Reference site used to estimate values using linear regression</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSWS01</code>
+                    <definition>Andrews Watershed  1 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS02</code>
+                    <definition>Andrews Watershed  2 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS07</code>
+                    <definition>Andrews Watershed  7 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS08</code>
+                    <definition>Andrews Watershed  8 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE003</code>
+                    <definition>HJA Phenology Emergence Site 3 (WS08 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>None</code>
+                    <definition>No estimation (actual data is used)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Manual</code>
+                    <definition>Manual editing (no specific reference site)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HT00601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HT00601.SITECODE</attributeReference>
+            <attributeReference>HT00601.DATE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HT00601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HT00601.DBCODE</attributeReference>
+            <attributeReference>HT00601.ENTITY</attributeReference>
+            <attributeReference>HT00601.SITECODE</attributeReference>
+            <attributeReference>HT00601.QC_LEVEL</attributeReference>
+            <attributeReference>HT00601.DATE</attributeReference>
+            <attributeReference>HT00601.WATERTEMP_MEAN_FLAG</attributeReference>
+            <attributeReference>HT00601.WATERTEMP_MAX_FLAG</attributeReference>
+            <attributeReference>HT00601.WATERTEMP_MIN_FLAG</attributeReference>
+            <attributeReference>HT00601.SITETYPE</attributeReference>
+            <attributeReference>HT00601.REGRESSION_SITE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>12228</numberOfRecords>
+    </dataTable>
+    <dataTable id="HT00602">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>HT00602</entityName>
+      <entityDescription>Hourly stream temperature at phenology core emergence sites: </entityDescription>
+      <physical>
+        <objectName>HT00602.csv</objectName>
+        <authentication method="MD5">03c1f3bac211c93804c0cd7138d24748</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4792/3/514aec14813bf360d90ce72d49fd2d55</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2009-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HT00602.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HT006</code>
+                    <definition>FSDB Database Code HT006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity Number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PE001</code>
+                    <definition>HJA Phenology Emergence Site 1 (WS01 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE002</code>
+                    <definition>HJA Phenology Emergence Site 2 (WS02 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE003</code>
+                    <definition>HJA Phenology Emergence Site 3 (WS08 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE004</code>
+                    <definition>HJA Phenology Emergence Site 4 (WS07 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE005</code>
+                    <definition>HJA Phenology Emergence Site 5 (Cold Creek)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE006</code>
+                    <definition>HJA Phenology Emergence Site 6 (South Creek)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.SITETYPE">
+          <attributeName>SITETYPE</attributeName>
+          <attributeDefinition>Type of measurement site: core phenology emergence site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PE</code>
+                    <definition>Core phenology emergence stream site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.QC_LEVEL">
+          <attributeName>QC_LEVEL</attributeName>
+          <attributeDefinition>Quality control flag indicates level of quality checking performed</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1A</code>
+                    <definition>Data is published and unlikely to change - automated range checking and manual review has been conducted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 1A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2A</code>
+                    <definition>Data is published and unlikely to change - Level 1A data has been modified such that data gaps may be filled or problem data may be removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 2A</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of probe reading</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1/1/2009 1:00:00 AM</minimum>
+                  <maximum exclusive="false">7/31/2014 11:00:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.WATERTEMP_MEAN">
+          <attributeName>WATERTEMP_MEAN</attributeName>
+          <attributeDefinition>Mean water temperature over the last hour</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">16.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.WATERTEMP_MEAN_FLAG">
+          <attributeName>WATERTEMP_MEAN_FLAG</attributeName>
+          <attributeDefinition>Mean water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00602.REGRESSION_SITE">
+          <attributeName>REGRESSION_SITE</attributeName>
+          <attributeDefinition>Reference site used to estimate values using linear regression</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSWS01</code>
+                    <definition>Andrews Watershed  1 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS02</code>
+                    <definition>Andrews Watershed  2 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS07</code>
+                    <definition>Andrews Watershed  7 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS08</code>
+                    <definition>Andrews Watershed  8 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PE003</code>
+                    <definition>HJA Phenology Emergence Site 3 (WS08 stream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>None</code>
+                    <definition>No estimation (actual data is used)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Manual</code>
+                    <definition>Manual editing (no specific reference site)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HT00602.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HT00602.SITECODE</attributeReference>
+            <attributeReference>HT00602.DATE_TIME</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HT00602.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HT00602.DBCODE</attributeReference>
+            <attributeReference>HT00602.ENTITY</attributeReference>
+            <attributeReference>HT00602.SITECODE</attributeReference>
+            <attributeReference>HT00602.QC_LEVEL</attributeReference>
+            <attributeReference>HT00602.WATERTEMP_MEAN_FLAG</attributeReference>
+            <attributeReference>HT00602.DATE_TIME</attributeReference>
+            <attributeReference>HT00602.SITETYPE</attributeReference>
+            <attributeReference>HT00602.REGRESSION_SITE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>293466</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

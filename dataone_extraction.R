@@ -53,8 +53,9 @@ parsed_files <- dir(path = "xml/", full.names = TRUE) %>%
 
 parsed_files <- parsed_files %>% tibble::enframe()
 
+
 parsed_data <- parsed_files %>% 
-  mutate(city_contact = map(value, pluck, "dataset", "contact", "address", "city"),
+  mutate(city_contact = map_chr(value, pluck, "dataset", "contact", "address", "city", .default = NA_character_),
          country_contact = map(value, pluck, "dataset", "contact", "address", "country"),
          city_creator = map(value, pluck, "dataset", "creator", "address", "city"),
          country_creator = map(value, pluck, "dataset", "creator", "address", "country"),
@@ -71,7 +72,11 @@ parsed_data <- parsed_files %>%
   # mutate(df_contact = map(from_contact, safely(flatten_df))) %>% 
   # mutate(df_creator = map(from_creator, safely(flatten_df)))
 
-parsed_data$west %>% flatten_chr() %>% readr::parse_number()
+parsed_data %>% 
+  select(-value) %>% 
+  mutate_at(.vars = vars(-name), purrr::flatten_chr)
+
+parsed_data$city_contact %>% length
 
 parsed_data <- parsed_data %>% 
   

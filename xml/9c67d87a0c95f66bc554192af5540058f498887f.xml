@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3169.7"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xd;&#xa;     http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>SP006</alternateIdentifier>
+    <title>Chemical and microbiological properties of soils in the Andrews Experimental Forest (1994 REU Study)</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Bruce</givenName>
+        <givenName>A.</givenName>
+        <surName>Caldwell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-3674</phone>
+      <electronicMailAddress>bruce.caldwell@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2013-12-17</pubDate>
+    <abstract>
+      <para>To conduct a comprehensive study of soil chemical and microbiological properties at the HJA during the week of July 11,1994.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Air temperature</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="taxonomic">Microbiota</keyword>
+      <keyword keywordType="theme">Nitrogen</keyword>
+      <keyword keywordType="theme">Respiration</keyword>
+      <keyword keywordType="theme">Soil chemistry</keyword>
+      <keyword keywordType="theme">Inorganic nutrients</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=SP006&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25800000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.10400000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.27700000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20500000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>1472.105</altitudeMinimum>
+            <altitudeMaximum>433.856</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994-07-11</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1994-07-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>irregular</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1994-01-04</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2002-04-10</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Converted STCODE to enumerated.  Ran QC check.  Recreate csv files for new delimiter for upload into PASTA.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2013-12-17</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Experimental Design - SP006</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description> &lt;para&gt;Sampling frequency: once only&lt;/para&gt;</description>
+        </studyExtent>
+        <samplingDescription>
+          <para>During the same 24 hour period, all 182 sites studied were sampled.  These sites represent the best possible geographical coverage from accessible roads at the HJA.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <methodStep>
+        <description>
+          <para>Field Methods - SP006</para>
+          <para>1.  The sites were located approximately every 0.5 km along all
+accessible roads on the HJA.  </para>
+          <para>2.  During the first day, we installed in incubation chambers (3
+gal plastic ice cream tubs fitted with a serum bottle septum for
+collection of headspace gas analyses) installed in the sodalime
+jars, took cores for bulk density and percent moisture and took
+soil and air temperature readings.  All vegetation except moss was
+removed from the ground covered by the incubation chambers.  Those
+chambers covering moss was noted as such.  </para>
+          <para>3.  On the second day, we took headspace gas samples and placed
+them in Vacutainers for subsequent analysis for CO<subscript>2</subscript> concentrations using a gas chromatograph.  The sodalime was retrieved, air and soil temperatures measured and cores were taken for subsequent
+chemical and biological analyses.  </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - SP006</para>
+          <para>
+            <emphasis>1.  Soil Preparation</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Before sieving the soils, subsamples were taken for DOC and laboratory respirations.  The soils were then sieved through a 2 mm sieve for subsequent analysis.  </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>2.  Respiration measurements (laboratory).</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Five g field-moist samples were placed in a 25 mL Erlenmeyer flask fitted with a serum bottle stopper.  Three separate subsamples were run for each sample.  To one, nothing was added, to another, 2 mL  distilled sterile water was added and to a third 2 mL of 10-3 M sterile glucose (dextrose) solution.    </para>
+              </listitem>
+              <listitem>
+                <para>After the samples were preincubated for one hr at 19°C, the first headspace analyses was made.  Two hours later after being incubated at the same temperature, another headspace analysis was conducted.  The net increase in CO<subscript>2</subscript> concentrations was calculated by subtracting the first reading from the second.    </para>
+              </listitem>
+              <listitem>
+                <para>The concentration of CO<subscript>2</subscript> was measured on a gas chromatograph fitted with a methanizer and a flame ionization detector. The instrument was calibrated with a standard calibration gas at 0.997 %.   </para>
+              </listitem>
+              <listitem>
+                <para>Substrate induced respiration (SIR) was calculated by subtracting the CO<subscript>2</subscript> released from the water amended soils from the CO<subscript>2</subscript> released from the glucose amended soils.  </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>3.  Dissolved organic carbon (DOC)</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Five g of wet weight soil was diluted with 15 ml of water in a 100 mL serum bottle.   </para>
+              </listitem>
+              <listitem>
+                <para>The soils are then shaken for one hour at room temperature and then allowed to stand for one hour.  One and one half ml of the slurry is removed and centrifuged in a microfuge for 5 minutes.   </para>
+              </listitem>
+              <listitem>
+                <para>After centrifuging, 0.5 ml of the supernatant was removed and placed in a 0.5 ml centrifuging tube.  Two blanks containing just deionized water are also run with the set. The samples are then frozen.   </para>
+              </listitem>
+              <listitem>
+                <para>Before analysis the samples were thawed and vortexed to suspend the precipitate.  The samples were analyzed for organic carbon using a carbon analyzer. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis> 4.  Percent moisture </emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Two 10 g field-moist soil samples are measured into Al weighing boats and dried at 100°C for 8 h before dried weight determinations were made.  Percent moisture was calculated as ((wet wt.- dry wt)/dry wt)*100. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>5.  Soil organic matter (SOM)</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>One 1-2 g subsample of dried soil (100°C for 8-12 hr) was placed in a preweighed porcelain crucible and reweighed.  The sample was fired to 550°C in a furnace for 6 h.  After firing, the samples were weighed again.  The resulting data were expressed as a percent of the weight loss relative to the initial dried wt of the sample. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>6.   PH </emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Five gdw soil was added to 50 ml deionized water.  The soil slurries were shaken for a least one h before pH measurements were made.   </para>
+              </listitem>
+              <listitem>
+                <para>The pH meter was calibrated using pH 4.0 and 7.0 standards. The samples and standards were stirred while readings were made.  </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>7.   Extractable ammonium concentrations</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Replicate 10 g field moist soils were added to 50 ml 2M KCl in 250 ml Erlenmeyer flasks and shaken for one h. in the presence of 0.4 ml 10M NaOH.   </para>
+              </listitem>
+              <listitem>
+                <para>The specific ion meter used in to make this measurements was calibrated using a set of ammonium standards made up in 2M KCl.  An Orion ammonia electrode was use to make the measurements. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>8.   Mineralizable nitrogen</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Ten g of field-moist soil was added to a large screw-topped test tube and filled with deionized water, shaken with the cap on to make sure all soil was saturated.  The tubes were then filled with water and sealed with no gas in the headspace. </para>
+              </listitem>
+              <listitem>
+                <para>The tubes were then incubated at 40°C for 1 week. </para>
+              </listitem>
+              <listitem>
+                <para>After the soils have incubated, they were placed into 250 ml flasks and an equal amount (50 ml) of 4M KCl was added.  One third ml of 10 M NaCl were added to the flasks and they are then shaken on a rotary shaker for at least one h before the ammonium concentrations were measured. </para>
+              </listitem>
+              <listitem>
+                <para>The ammonium concentrations were measured using the same technique used to measure extractable ammonium.  The net mineralizable nitrogen was calculated by subtracting the extractable ammonium concentrations from the ammonium concentrations after 1 week incubation.   </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>9.   Denitrification potential</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>The soils were prepared using the same procedure as that for laboratory respirations except nonseived soils were used and the headspace was purged with Ar for a minimum of 3 mins. at over 100 mL per min.    </para>
+              </listitem>
+              <listitem>
+                <para>The flasks were incubated for one hr at room temperature then one or two mL of a sterile solution containing 10-3 M glucose and nitrate was injected through the stopper.   </para>
+              </listitem>
+              <listitem>
+                <para>The soils were incubated for another hour at room temperature at which time the time 0 reading is taken.  </para>
+              </listitem>
+              <listitem>
+                <para>After two more hours, a second headspace analysis was made for nitrous oxide concentration using the electron capture detector.   </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>10.  Field respiration using sodalime and headspace analyses</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Eight oz wide mouth glass bottles with metal and plastic lids were filled with 30 g 6-12 mesh sodalime.  These jars were baked at 100°C for 8 h, weighed and sealed before they were placed in the incubation chambers in the field.   </para>
+              </listitem>
+              <listitem>
+                <para>After they were opened over 24 h to collect the CO<subscript>2</subscript>, they were sealed, returned to the lab and baked again with the lids off.  The jar were then reweighed that weight gain recorded. </para>
+              </listitem>
+              <listitem>
+                <para>After the incubation chambers had been in place for 24 h and the CO<subscript>2</subscript> adsorbed, a 6", 20 gauge needle and a 60 mL syringe was used to remove a headspace sample.  One syringe- full of gas was pulled into the syringe and then expelled back into the chamber and then a second syringe-full was extracted from the center of the chamber. </para>
+              </listitem>
+              <listitem>
+                <para>All but 5 mL of the 60 were used to purge a 7 mL vacutainer.  The final 5 mL were used to overpressure the tubes. </para>
+              </listitem>
+              <listitem>
+                <para>The gas in the Vacutainer was analyzed for CO<subscript>2</subscript> using the same GC set-up used to measure laboratory respiration rates.  </para>
+              </listitem>
+              <listitem>
+                <para>The total CO<subscript>2</subscript> production was calculated by subtracting out the controls for both soda-lime and headspace CO<subscript>2</subscript> (chambers that were sealed at the beginning of the incubation period). The total CO<subscript>2</subscript> released was calculated using the volume of the chambers and the area trapped under the incubation chamber.   </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>11.  Mean temperatures</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Soil temperatures (to 5 cm) and air temperatures were take during both days in the field using a simple dial thermometer. The mean values are the average for the two days.  </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>12.  Bulk density</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Bulk density measurements were made by drying 4.7 x 10 cm cores at 100°C for 8 h. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>13.  Site location and elevation</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>The site locations were estimated on a map of the HJA and digitized into the GIS system.  From these location, elevations were estimated using data already in the system. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="SP00601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>SP00601</entityName>
+      <entityDescription>Site Locations and Elevations: </entityDescription>
+      <physical>
+        <objectName>SP00601_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3169/7/aac482d2c36138c5d1a2b1d6bb2ff4fb</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1994-07-11</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1994-07-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="SP00601.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP006</code>
+                    <definition>FSDB Database Study Code SP006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00601.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00601.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>Site name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">202.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00601.LATITUDE">
+          <attributeName>LATITUDE</attributeName>
+          <attributeDefinition>Latitude of site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees latitude or longitude</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">44.2050</minimum>
+                  <maximum exclusive="false">44.2770</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00601.LONGITUDE">
+          <attributeName>LONGITUDE</attributeName>
+          <attributeDefinition>Longitude of site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(9,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees latitude or longitude</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-122.2580</minimum>
+                  <maximum exclusive="false">-122.1040</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00601.ELEVATION">
+          <attributeName>ELEVATION</attributeName>
+          <attributeDefinition>Elevation of site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(9,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">433.8560</minimum>
+                  <maximum exclusive="false">1472.1050</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="SP00601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>SP00601.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="SP00601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>SP00601.ELEVATION</attributeReference>
+            <attributeReference>SP00601.FORMAT</attributeReference>
+            <attributeReference>SP00601.LATITUDE</attributeReference>
+            <attributeReference>SP00601.LONGITUDE</attributeReference>
+            <attributeReference>SP00601.SITE</attributeReference>
+            <attributeReference>SP00601.STCODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>184</numberOfRecords>
+    </dataTable>
+    <dataTable id="SP00602">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>SP00602</entityName>
+      <entityDescription>Soil Chemical and Microbiological Properties: </entityDescription>
+      <physical>
+        <objectName>SP00602_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3169/7/6712dabb7202a0a58b0a2b4fef56b50c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1994-07-11</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1994-07-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="SP00602.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP006</code>
+                    <definition>FSDB Database Study Code SP006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>Site name</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">202.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.MOS">
+          <attributeName>MOS</attributeName>
+          <attributeDefinition>Moss presence</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>No moss present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Some moss present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mostly moss</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.MATS">
+          <attributeName>MATS</attributeName>
+          <attributeDefinition>Mat presence</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Mats not present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Mats are present</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.STANDAGE">
+          <attributeName>STANDAGE</attributeName>
+          <attributeDefinition>Stand successional stage</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Oldgrowth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mature</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Yount</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Green-tree</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Clearcut</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.PH">
+          <attributeName>PH</attributeName>
+          <attributeDefinition>Soil pH</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pH units</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.1000</minimum>
+                  <maximum exclusive="false">6.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.PERMOIST">
+          <attributeName>PERMOIST</attributeName>
+          <attributeDefinition>Percent moisture</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.6500</minimum>
+                  <maximum exclusive="false">177.7800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.AIRTEMP">
+          <attributeName>AIRTEMP</attributeName>
+          <attributeDefinition>Mean air temperature for two days</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">12.9200</minimum>
+                  <maximum exclusive="false">34.7200</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.SOILTEMP">
+          <attributeName>SOILTEMP</attributeName>
+          <attributeDefinition>Mean soil temperature for two days</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5.8500</minimum>
+                  <maximum exclusive="false">27.7800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.BULKDENS">
+          <attributeName>BULKDENS</attributeName>
+          <attributeDefinition>Bulk density</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1000</minimum>
+                  <maximum exclusive="false">1.1800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.SOM">
+          <attributeName>SOM</attributeName>
+          <attributeDefinition>Soil organic matter</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.3700</minimum>
+                  <maximum exclusive="false">90.6300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.WEEK7RSP">
+          <attributeName>WEEK7RSP</attributeName>
+          <attributeDefinition>Seven week accumulated CO2 (long-term respiration)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.5000</minimum>
+                  <maximum exclusive="false">1782.5000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.RESP">
+          <attributeName>RESP</attributeName>
+          <attributeDefinition>Field respiration by sodalime (as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1800</minimum>
+                  <maximum exclusive="false">4.5800</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.HEADSPAC">
+          <attributeName>HEADSPAC</attributeName>
+          <attributeDefinition>Headspace carbon (as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0020</minimum>
+                  <maximum exclusive="false">0.0330</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.TOTALRES">
+          <attributeName>TOTALRES</attributeName>
+          <attributeDefinition>Total field respiration (as c)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1800</minimum>
+                  <maximum exclusive="false">4.6000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.LABRESP">
+          <attributeName>LABRESP</attributeName>
+          <attributeDefinition>Laboratory respiration (no amendments, as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per gram per hour</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.8300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.H2ORESP">
+          <attributeName>H2ORESP</attributeName>
+          <attributeDefinition>Laboratory respiration (water added,  as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per gram per hour</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.0600</minimum>
+                  <maximum exclusive="false">2.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.GLUCRESP">
+          <attributeName>GLUCRESP</attributeName>
+          <attributeDefinition>Laboratory respiration (glucose in water, as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per gram per hour</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1.9000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.SIR">
+          <attributeName>SIR</attributeName>
+          <attributeDefinition>Substrate induced respiration  (as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per gram per hour</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2000</minimum>
+                  <maximum exclusive="false">0.6700</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.DENITR">
+          <attributeName>DENITR</attributeName>
+          <attributeDefinition>Denitrification potential  (as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per gram per hour</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">518.0300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.EXTR_AMM">
+          <attributeName>EXTR_AMM</attributeName>
+          <attributeDefinition>Extractable ammonium (as N, dry weight basis))</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">24.1600</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.NETMIN_N">
+          <attributeName>NETMIN_N</attributeName>
+          <attributeDefinition>Net mineralizable nitrogen (as N, dry weight basis))</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">5.3100</minimum>
+                  <maximum exclusive="false">221.9300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.LAB_SOM">
+          <attributeName>LAB_SOM</attributeName>
+          <attributeDefinition>Labresp value / SOM</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.000100</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.0520</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.GLUC_SOM">
+          <attributeName>GLUC_SOM</attributeName>
+          <attributeDefinition>Glucose enhanced respiration / SOM</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,4)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.000100</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">0.0674</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.LONG_MIN">
+          <attributeName>LONG_MIN</attributeName>
+          <attributeDefinition>Week7rsp value / mineralizable nitrogen</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.2100</minimum>
+                  <maximum exclusive="false">38.9200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00602.LONG_SOM">
+          <attributeName>LONG_SOM</attributeName>
+          <attributeDefinition>Week7rsp value / som</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.4700</minimum>
+                  <maximum exclusive="false">23.0400</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="SP00602.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>SP00602.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="SP00602.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>SP00602.AIRTEMP</attributeReference>
+            <attributeReference>SP00602.DENITR</attributeReference>
+            <attributeReference>SP00602.FORMAT</attributeReference>
+            <attributeReference>SP00602.GLUCRESP</attributeReference>
+            <attributeReference>SP00602.H2ORESP</attributeReference>
+            <attributeReference>SP00602.LABRESP</attributeReference>
+            <attributeReference>SP00602.MATS</attributeReference>
+            <attributeReference>SP00602.PERMOIST</attributeReference>
+            <attributeReference>SP00602.PH</attributeReference>
+            <attributeReference>SP00602.SIR</attributeReference>
+            <attributeReference>SP00602.SITE</attributeReference>
+            <attributeReference>SP00602.SOILTEMP</attributeReference>
+            <attributeReference>SP00602.STCODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>183</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="meters" multiplierToSI="1" name="meters"
+          parentSI="meter" unitType="length">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="degrees latitude or longitude"
+          multiplierToSI="1" name="degrees latitude or longitude"
+          parentSI="unknown" unitType="latitudeLongitude">
+          <stmml:description>degrees; latitude (parallel) or longitude (meridian)</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="grams per milliliter" multiplierToSI="1000"
+          name="grams per milliliter" parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>grams per milliliter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="grams per square meter" multiplierToSI="0.001"
+          name="grams per square meter"
+          parentSI="kilogramPerMeterSquared" unitType="arealMassDensity">
+          <stmml:description>grams per square meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="micrograms per gram" multiplierToSI="0.000001"
+          name="micrograms per gram" parentSI="gramPerGram" unitType="massPerMass">
+          <stmml:description>micrograms per gram</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="pH units" multiplierToSI="1" name="pH units"
+          parentSI="unknown" unitType="undefined">
+          <stmml:description>Scale used for pH measurements</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="micrograms per gram per hour" multiplierToSI="1"
+          name="micrograms per gram per hour" parentSI="unknown" unitType="massPerMassRate">
+          <stmml:description>micrograms per gram per hour</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="degrees Celcius" multiplierToSI="273.18"
+          name="degrees Celcius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="percent" multiplierToSI="1" name="percent"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="grams per square meter per day"
+          multiplierToSI="1" name="grams per square meter per day"
+          parentSI="kilogramPerMeterSquaredPerSecond" unitType="arealMassDensityRate">
+          <stmml:description>grams per square meter per day</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

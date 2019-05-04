@@ -1,0 +1,1580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3168.7"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xd;&#xa;     http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>SP005</alternateIdentifier>
+    <title>Synoptic soil respiration of permanent forest sites in the Andrews Experimental Forest (1993 REU Study)</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Bruce</givenName>
+        <givenName>A.</givenName>
+        <surName>Caldwell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-3674</phone>
+      <electronicMailAddress>bruce.caldwell@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2013-12-17</pubDate>
+    <abstract>
+      <para>To examine soil respiration as influenced by temperature and moisture to determine the role of CO2 evolution rates in overall carbon dynamics.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Carbon cycling</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="theme">Soil moisture</keyword>
+      <keyword keywordType="theme">Soil respiration</keyword>
+      <keyword keywordType="theme">Soil temperature</keyword>
+      <keyword keywordType="theme">Inorganic nutrients</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=SP005&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25800000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.11200000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.27700000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20800000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>424</altitudeMinimum>
+            <altitudeMaximum>1406</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1994-07-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>All Organisms                           </taxonRankName>
+          <taxonRankValue>All Organisms                                                                                                                                                                                           </taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Highest common category (ca. kingdom)   </taxonRankName>
+            <taxonRankValue>Plantae                                                                                                                                                                                                 </taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Polypodiophyta                                                                                                                                                                                          </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Filicopsida                                                                                                                                                                                             </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Polypodiales                                                                                                                                                                                            </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Dennstaedtiaceae                                                                                                                                                                                        </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pteridium                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pteridium aquilinum                                                                                                                                                                                     </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Coniferophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Pinopsida                                                                                                                                                                                               </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Taxales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Taxaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Taxus                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Taxus brevifolia                                                                                                                                                                                        </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Pinales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Pinaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Tsuga                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Tsuga heterophylla                                                                                                                                                                                      </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Tsuga mertensiana                                                                                                                                                                                       </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Abies                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies concolor                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Abies amabilis                                                                                                                                                                                          </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pinus                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pinus albicaulis                                                                                                                                                                                        </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pseudotsuga                                                                                                                                                                                             </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pseudotsuga menziesii                                                                                                                                                                                   </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Cupressaceae                                                                                                                                                                                            </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Thuja                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Thuja plicata                                                                                                                                                                                           </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Magnoliophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Magnoliopsida                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Rosidae                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Myrtales                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Onagraceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Epilobium                                                                                                                                                                                               </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Epilobium angustifolium                                                                                                                                                                                 </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Rosales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Rosaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Rubus                                                                                                                                                                                                   </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Rubus ursinus                                                                                                                                                                                           </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Geraniales                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Oxalidaceae                                                                                                                                                                                             </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Oxalis                                                                                                                                                                                                  </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Oxalis oregana                                                                                                                                                                                          </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Fabales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Fabaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Lupinus                                                                                                                                                                                                 </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Rhamnales                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Rhamnaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Ceanothus                                                                                                                                                                                               </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Ceanothus velutinus                                                                                                                                                                                     </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Sapindales                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Aceraceae                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Acer                                                                                                                                                                                                    </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Acer macrophyllum                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Acer circinatum                                                                                                                                                                                         </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Apiales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Araliaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Oplopanax                                                                                                                                                                                               </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Oplopanax horridus                                                                                                                                                                                      </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Hamamelididae                                                                                                                                                                                           </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Fagales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Betulaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Alnus                                                                                                                                                                                                   </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Alnus sinuata                                                                                                                                                                                           </taxonRankValue>
+                        </taxonomicClassification>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Alnus rubra                                                                                                                                                                                             </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Fagaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Chrysolepis                                                                                                                                                                                             </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Castanopsis chrysophylla                                                                                                                                                                                </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Magnoliidae                                                                                                                                                                                             </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Ranunculales                                                                                                                                                                                            </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Berberidaceae                                                                                                                                                                                           </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Berberis                                                                                                                                                                                                </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Berberis nervosa                                                                                                                                                                                        </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Dilleniidae                                                                                                                                                                                             </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Salicales                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Salicaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Populus                                                                                                                                                                                                 </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Populus trichocarpa                                                                                                                                                                                     </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Ericales                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Ericaceae                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Vaccinium                                                                                                                                                                                               </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Vaccinium uliginosum                                                                                                                                                                                    </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Gaultheria                                                                                                                                                                                              </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Gaultheria shallon                                                                                                                                                                                      </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Rhododendron                                                                                                                                                                                            </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Rhododendron macrophyllum                                                                                                                                                                               </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Liliopsida                                                                                                                                                                                              </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Commelinidae                                                                                                                                                                                            </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Cyperales                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Cyperaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Scirpus                                                                                                                                                                                                 </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Scirpus setaceus                                                                                                                                                                                        </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1994-04-13</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2002-04-09</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Created stcode to be enumerated, converted date to truetype and reran createcsv to recreate files with correct delimiter for uploading to PASTA.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2013-12-17</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Robert</givenName>
+        <givenName>P.</givenName>
+        <surName>Griffiths</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6559</phone>
+      <electronicMailAddress>bbgriff@peak.org</electronicMailAddress>
+      <electronicMailAddress>griff@for.orst.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - SP005</para>
+          <para>On July 14-15, 1993, CO<subscript>2</subscript> evolution rates were  measured using soda lime jars in the same chamber that have been used for the gas-flux experiments.  Sites were located approximately 0.5 km apart along HJA roads.  Locations were fixed by their location relative to road intersections and clearcuts.  Approximately every 10 sites, we put out a control to compensate for background CO<subscript>2</subscript> concentrations and CO<subscript>2</subscript> adsorbed during the drying process. </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - SP005</para>
+          <para> Predried and weighed jars were used in this experiment. After the jars were exposed to the atmosphere, they were dried and weighed at the HJA.  The control jars were taken at approximately the same elevation and in the same vegetation type as the actual samples whenever possible. Soil and air temperatures were recorded when the jars were placed out and when they were retrieved (usually 24 hours later).  Max-min thermometers were placed at each site where the controls were run, and recorded 24-hour max and min air temperatures.  Soil cores were taken to a depth of 10 cm and dried at 100°C for 12 hours. The major vegetation at each site was also noted and a desription of those sites are also listed in the site description dataset.  The positions of the sites were estimated by tracing distances along roads using a map generated by Hazel Hammond and the discriptive logs were made in the field. </para>
+          <para>Soil respiration values have been corrected for background CO<subscript>2</subscript> and CO<subscript>2</subscript> adsorbed in the drying process using the mean of the control weight differences for each of the two transects.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>Experimental Design - SP005</description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>Sites along transects are established to be representative  of the Andrews Forest as a whole.  Elevation range of the Andrews is 450 to 1450 meters. &lt;para&gt;Sampling frequency: annual&lt;/para&gt;</description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Sites were located approximately 0.5 km apart along HJA roads. Locations were fixed by their location relative to road intersections and clearcuts.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="SP00501">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>SP00501</entityName>
+      <entityDescription>Site Description: </entityDescription>
+      <physical>
+        <objectName>SP00501_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3168/7/a069ee44637c473724c0f3d35c8d309b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="SP00501.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP005</code>
+                    <definition>FSDB Database Study Code SP005</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.SITENUM">
+          <attributeName>SITENUM</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">170.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.LAT">
+          <attributeName>LAT</attributeName>
+          <attributeDefinition>Latitude</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees latitude or longitude</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">44.2080</minimum>
+                  <maximum exclusive="false">44.2770</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.LONG">
+          <attributeName>LONG</attributeName>
+          <attributeDefinition>Longitude</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees latitude or longitude</customUnit>
+              </unit>
+              <precision>0.001000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">122.1120</minimum>
+                  <maximum exclusive="false">122.2580</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.ELEV">
+          <attributeName>ELEV</attributeName>
+          <attributeDefinition>Elevation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">424.0000</minimum>
+                  <maximum exclusive="false">1406.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.ASPECT">
+          <attributeName>ASPECT</attributeName>
+          <attributeDefinition>Aspect coded by 8 cardinal directions, flat, or top of ridge</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Northeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Southeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Southwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Northwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Flat</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Top of ridge</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.STANDAGE">
+          <attributeName>STANDAGE</attributeName>
+          <attributeDefinition>Coded vegetation description</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Old growth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Mature stand</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Young growth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Green tree retention</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Clearcut</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.LOCATION">
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>Location of site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">varchar(60)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Location of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00501.ROADPOSN">
+          <attributeName>ROADPOSN</attributeName>
+          <attributeDefinition>Position of site relative to road</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">varchar(50)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Position of site relative to road</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="SP00501.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>SP00501.SITENUM</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="SP00501.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>SP00501.ASPECT</attributeReference>
+            <attributeReference>SP00501.ELEV</attributeReference>
+            <attributeReference>SP00501.FORMAT</attributeReference>
+            <attributeReference>SP00501.LAT</attributeReference>
+            <attributeReference>SP00501.LOCATION</attributeReference>
+            <attributeReference>SP00501.LONG</attributeReference>
+            <attributeReference>SP00501.SITENUM</attributeReference>
+            <attributeReference>SP00501.STANDAGE</attributeReference>
+            <attributeReference>SP00501.STCODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>131</numberOfRecords>
+    </dataTable>
+    <dataTable id="SP00502">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>SP00502</entityName>
+      <entityDescription>Soil Respiration, Temperature, and Percent Dry Weight: </entityDescription>
+      <physical>
+        <objectName>SP00502_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3168/7/83869ab6e72ac794b96e15c266b2b197</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="SP00502.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP005</code>
+                    <definition>FSDB Database Study Code SP005</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.SITENUM">
+          <attributeName>SITENUM</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">170.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date of sampling  (yyyymmdd)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>number</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">7/16/1993 12:00:00 AM</minimum>
+                  <maximum exclusive="false">7/16/1993 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.RESP">
+          <attributeName>RESP</attributeName>
+          <attributeDefinition>Soil respiration corrected for background and adsorbed CO2 (as C)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">6.2500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.SOILTEMP">
+          <attributeName>SOILTEMP</attributeName>
+          <attributeDefinition>Mean soil temperature of beginning and ending soil temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.0000</minimum>
+                  <maximum exclusive="false">17.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.AIRTEMP">
+          <attributeName>AIRTEMP</attributeName>
+          <attributeDefinition>Mean air temperature of beginning and ending air temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.0000</minimum>
+                  <maximum exclusive="false">17.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.PMOIST">
+          <attributeName>PMOIST</attributeName>
+          <attributeDefinition>Percent moisture; ((wet-dry)/dry)*100</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">14.9000</minimum>
+                  <maximum exclusive="false">189.9000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.MAXTEMP">
+          <attributeName>MAXTEMP</attributeName>
+          <attributeDefinition>Max 24-hour temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.0000</minimum>
+                  <maximum exclusive="false">32.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.MINTEMP">
+          <attributeName>MINTEMP</attributeName>
+          <attributeDefinition>Min 24-hour temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.0000</minimum>
+                  <maximum exclusive="false">10.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00502.CONTROL">
+          <attributeName>CONTROL</attributeName>
+          <attributeDefinition>Indicates whether background co2 control is also run</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No control placed at this site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Control placed at this site to compensate for background and absorbed co2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="SP00502.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>SP00502.DATE</attributeReference>
+            <attributeReference>SP00502.SITENUM</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="SP00502.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>SP00502.CONTROL</attributeReference>
+            <attributeReference>SP00502.DATE</attributeReference>
+            <attributeReference>SP00502.FORMAT</attributeReference>
+            <attributeReference>SP00502.SITENUM</attributeReference>
+            <attributeReference>SP00502.STCODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>131</numberOfRecords>
+    </dataTable>
+    <dataTable id="SP00503">
+      <alternateIdentifier>3</alternateIdentifier>
+      <entityName>SP00503</entityName>
+      <entityDescription>Tree and shrub species on plot: </entityDescription>
+      <physical>
+        <objectName>SP00503_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3168/7/00dc802dd9712fd61e308ff2cc702571</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="SP00503.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SP005</code>
+                    <definition>FSDB Database Study Code SP005</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00503.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">3.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00503.SITENUM">
+          <attributeName>SITENUM</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">170.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="SP00503.SPECIES">
+          <attributeName>SPECIES</attributeName>
+          <attributeDefinition>Tree and shrub species on plot, codes according to Garrison et al., 1972</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABAM</code>
+                    <definition>Abies amabilis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACCI</code>
+                    <definition>Acer circinatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ACMA</code>
+                    <definition>Acer macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALRU</code>
+                    <definition>Alnus rubra</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALSI</code>
+                    <definition>Alnus sinuata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BENE</code>
+                    <definition>Berberis nervosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CEVE</code>
+                    <definition>Ceanothus velutinus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GASH</code>
+                    <definition>Gaultheria shallon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OXOR</code>
+                    <definition>Oxalis oregana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POTR</code>
+                    <definition>Populus tremuloides</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PSME</code>
+                    <definition>Pseudotsuga menziesii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PTAQ</code>
+                    <definition>Pteridium aquilinum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RHMA</code>
+                    <definition>Rhododendron macrophyllum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RUUR</code>
+                    <definition>Rubus ursinus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SCSE</code>
+                    <definition>Scirpus setaceus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TABR</code>
+                    <definition>Taxus brevifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THPL</code>
+                    <definition>Thuja plicata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSHE</code>
+                    <definition>Tsuga heterophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSME</code>
+                    <definition>Tsuga mertensiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VAUL</code>
+                    <definition>Vaccinium uliginosum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACH</code>
+                    <definition>Castanopsis chrysophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EPAN</code>
+                    <definition>Epilobium angustifolium</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="SP00503.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>SP00503.SITENUM</attributeReference>
+            <attributeReference>SP00503.SPECIES</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="SP00503.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>SP00503.FORMAT</attributeReference>
+            <attributeReference>SP00503.SITENUM</attributeReference>
+            <attributeReference>SP00503.SPECIES</attributeReference>
+            <attributeReference>SP00503.STCODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>362</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="meters" multiplierToSI="1" name="meters"
+          parentSI="meter" unitType="length">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="degrees latitude or longitude"
+          multiplierToSI="1" name="degrees latitude or longitude"
+          parentSI="unknown" unitType="latitudeLongitude">
+          <stmml:description>degrees; latitude (parallel) or longitude (meridian)</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="percent" multiplierToSI="1" name="percent"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="grams per square meter" multiplierToSI="0.001"
+          name="grams per square meter"
+          parentSI="kilogramPerMeterSquared" unitType="arealMassDensity">
+          <stmml:description>grams per square meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="degrees Celcius" multiplierToSI="273.18"
+          name="degrees Celcius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

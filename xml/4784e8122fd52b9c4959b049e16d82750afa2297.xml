@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.601.2" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.601.2</shortName>
+    <title>Fates and morphometrics of snowshoe hares collared in Bonanza Creek Experimental Forest from 2008 to present</title>
+    <creator>
+      <individualName>
+        <givenName>Dashiell</givenName>
+        <givenName>Sheene</givenName>
+        <surName>Feierabend</surName>
+      </individualName>
+      <!--No position recorded in Database ( pers/position when lead_contact=1 )-->
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife, University of Alaska Fairbanks, Murie Building</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 947-5760</phone>
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <electronicMailAddress>dsfeierabend@gmail.com</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Knut</givenName>
+        <surName>Kielland</surName>
+      </individualName>
+      <positionName>Associate Professor of Ecology</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7164</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2015-11-08</pubDate>
+    <abstract>
+      <para>This dataset contains the fates and morphometric measurements of snowshoe hares collared in Bonanza Creek Experimental Forest, including dates of collaring and recovery, cause or mortality, weight, hind foot length, and sex.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>snowshoe hares</keyword>
+      <keyword>lepus americanus</keyword>
+      <keyword>boreal forests</keyword>
+      <keyword>known fate</keyword>
+      <keyword>survival</keyword>
+      <keyword>predation</keyword>
+      <keywordThesaurus>Trophic Interactions</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Access to Data</title>
+        <para>While metadata will be freely available to those requesting it, the data manager will assure that any restrictions on access to data sets in the database will be enforced. Data will not be released without proper permission first being obtained from the investigator who generated the data. </para>
+      </section>
+      <section>
+        <title>Use of data</title>
+        <para>Researchers should receive adequate acknowledgment for the use of their data by others and should be provided with copies of publications using their data. Users of data from the data base must be aware that data is not to be sold or redistributed.</para>
+      </section>
+      <section>
+        <title>Citing Bonanza Creek LTER Datasets</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. </para>
+      </section>
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data_detail.cfm?datafile_pkey=601</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/e_long is not empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.2682</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.2964</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7088</northBoundingCoordinate>
+          <southBoundingCoordinate>64.6991</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>Hares have been collared since 2008 in trapping grids located in mature black spruce forest and early successional riparian habitat.  This data enables a comparison of survival and predation rates between two contrasting habitats.</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>FIELD:  Snowshoe hares were collared with VHF radio transmitters in two trapping grids in Bonanza Creek Experimental Forest.  Collared hares were monitored on a weekly basis (at minimum) to determine survival and fate.  Transmitters on deceased hares were typically recovered within one week of death and attempts were made to identify the cause of mortality based on predator sign or lack thereof.  Weight, hind foot length, and sex were recorded at each capture event for collared hares, including incidental recaptures during seasonal trapping sessions conducted for population estimates.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>bonbs -- Site used for live-trapping snowshoe hares to monitor abundance and survival.  Located in a mature lowland black spruce stand..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2964</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2964</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7088</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7088</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>bonrip -- Bonanza Riparian is a flood zone along the Tanana River and Bonanza Mature is a mature black spruce forest approximately 1 km inland from the river and 2 km from the riparian plot. Bonanza Riparian consisted of willow (Salix spp.), paper birch (Betula papyrifera), alder (Alnus spp.), white spruce (Picea glauca), fireweed (Epilobium augustifolium) and several grasses.  Site used for live-trapping snowshoe hares to monitor abundance and survival..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2682</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2682</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6991</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6991</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2008-01-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2014-01-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Irregular</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>601_Snowshoe_Hare_Radio_Collar_History_BNZ.txt</entityName>
+      <entityDescription>Fates and morphometrics of snowshoe hares</entityDescription>
+      <physical>
+        <objectName>601_Snowshoe_Hare_Radio_Collar_History_BNZ.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/601/2/ccc02ef1314676eabfe6941e526da64f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Transmitter Frequency</attributeName>
+          <attributeLabel>Transmitter Frequency</attributeLabel>
+          <attributeDefinition>Radio frequency of the VHF transmitter deployed on the hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Radio frequency of the VHF transmitter deployed on the hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Transmitter Model</attributeName>
+          <attributeLabel>Transmitter Model</attributeLabel>
+          <attributeDefinition>Manufacturer and model of the transmitter collar.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Manufacturer and model of the transmitter collar.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Trapping Grid</attributeName>
+          <attributeLabel>Trapping Grid</attributeLabel>
+          <attributeDefinition>Name of trapping grid on which the hare was collared.  BONBS denotes Bonanza Creek Black Spruce; BONRIP denotes Bonanaza Creek Riparian.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of trapping grid on which the hare was collared.  BONBS denotes Bonanza Creek Black Spruce; BONRIP denotes Bonanaza Creek Riparian.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Collaring</attributeName>
+          <attributeLabel>Collaring</attributeLabel>
+          <attributeDefinition>Indicates whether this collaring event is the first time that individual hare carried a collar.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicates whether this collaring event is the first time that individual hare carried a collar.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>Sex of the collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex of the collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hind Foot Length</attributeName>
+          <attributeLabel>Hind Foot Length</attributeLabel>
+          <attributeDefinition>Length of the right hind foot of the collared hare.</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Average Weight</attributeName>
+          <attributeLabel>Average Weight</attributeLabel>
+          <attributeDefinition>Average of weights recorded for the collared hare.</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Body Condition Index</attributeName>
+          <attributeLabel>Body Condition Index</attributeLabel>
+          <attributeDefinition>Average weight of the collared hare divided by the hind foot length of the collared hare.</attributeDefinition>
+          <storageType>float point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeLabel>Age</attributeLabel>
+          <attributeDefinition>Age of collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Age of collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date Transmitter Deployed</attributeName>
+          <attributeLabel>Date Transmitter Deployed</attributeLabel>
+          <attributeDefinition>Date when hare was collared.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date when hare was collared.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date Fate Known</attributeName>
+          <attributeLabel>Date Fate Known</attributeLabel>
+          <attributeDefinition>Date when fate of collared hare was identified by transmitter signal or visual observation.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date when fate of collared hare was identified by transmitter signal or visual observation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date Transmitter Recovered</attributeName>
+          <attributeLabel>Date Transmitter Recovered</attributeLabel>
+          <attributeDefinition>Date when transmitter was recovered.  If recovered from a deceased hare, this is also the date when cause of mortality was determined.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date when transmitter was recovered.  If recovered from a deceased hare, this is also the date when cause of mortality was determined.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Days Collared</attributeName>
+          <attributeLabel>Days Collared</attributeLabel>
+          <attributeDefinition>Number of days that the hare carried a transmitter.</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Cause of Mortality</attributeName>
+          <attributeLabel>Cause of Mortality</attributeLabel>
+          <attributeDefinition>Cause of mortality of collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cause of mortality of collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Predator Class</attributeName>
+          <attributeLabel>Predator Class</attributeLabel>
+          <attributeDefinition>Type of predator that killed the collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Type of predator that killed the collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Predator Species</attributeName>
+          <attributeLabel>Predator Species</attributeLabel>
+          <attributeDefinition>Species of predators that killed the collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species of predators that killed the collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Collaring Location UTMX</attributeName>
+          <attributeLabel>Collaring Location UTMX</attributeLabel>
+          <attributeDefinition>X UTM coordinate of the location where the hare was collared.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>X UTM coordinate of the location where the hare was collared.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Collaring Location UTMY</attributeName>
+          <attributeLabel>Collaring Location UTMY</attributeLabel>
+          <attributeDefinition>Y UTM coordinate of the location where the hare was collared.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Y UTM coordinate of the location where the hare was collared.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Recovery Location UTMX</attributeName>
+          <attributeLabel>Recovery Location UTMX</attributeLabel>
+          <attributeDefinition>X UTM coordinate of the location where the transmitter was recovered.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>X UTM coordinate of the location where the transmitter was recovered.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Recovery Location UTMY</attributeName>
+          <attributeLabel>Recovery Location UTMY</attributeLabel>
+          <attributeDefinition>Y UTM coordinate of the location where the transmitter was recovered.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Y UTM coordinate of the location where the transmitter was recovered.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Distance Moved</attributeName>
+          <attributeLabel>Distance Moved</attributeLabel>
+          <attributeDefinition>Straight line distance between collaring and transmitter recovery locations.</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Recovery Relative to Trapping Grid</attributeName>
+          <attributeLabel>Recovery Relative to Trapping Grid</attributeLabel>
+          <attributeDefinition>Indicates whether the transmitter was recovered on or near the trapping grid in which the hare was initially collared.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicates whether the transmitter was recovered on or near the trapping grid in which the hare was initially collared.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Cover Measured</attributeName>
+          <attributeLabel>Cover Measured</attributeLabel>
+          <attributeDefinition>Indicates whether horizontal cover and canopy cover were measured at the transmitter recovery location.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicates whether horizontal cover and canopy cover were measured at the transmitter recovery location.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Comments regarding the collaring, recovery, or identification of fate of the collared hare.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments regarding the collaring, recovery, or identification of fate of the collared hare.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="UTM"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3985.4"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>SP026</alternateIdentifier>
+    <title>Soil survey (1964, revised in 1994), Andrews Experimental Forest</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>George</givenName>
+        <givenName>W.</givenName>
+        <surName>Lienkaemper</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW ResearchStation;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7343</phone>
+      <electronicMailAddress>geo@fsl.orst.edu</electronicMailAddress>
+      <electronicMailAddress>george.lienkaemper@usgs.gov</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Joel</givenName>
+        <surName>Norgren</surName>
+      </individualName>
+      <address/>
+      <phone/>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>C.</givenName>
+        <givenName>Ted</givenName>
+        <surName>Dyrness</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7325</phone>
+      <phone>(541) 928-8897</phone>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Ken</givenName>
+        <surName>Vance-Borland</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+      <role>Distributor</role>
+    </associatedParty>
+    <pubDate>2005-07-25</pubDate>
+    <abstract>
+      <para>Soils map of the H J Andrews Exp Forest modified from 1964 soil survey.  Joel Nordgen and Ted Dyrness collected additional field data in 1993 and 1994.  Joel Nordgen revised the 1964 soils polygon based on these additional data.  Ken Vance-Borland revised the original GIS soils layer based on Joel's interpretation, elevation contours, and the stream network.  Polygon attributes were not changed.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Soil classification</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=SP026&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Andrews Experimental Forest within the Willamette National Forest, western Cascades, Oregon, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.26034600</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.09953400</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.28215700</northBoundingCoordinate>
+          <southBoundingCoordinate>44.19797000</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1991-01-04</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1996-08-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To provide information on soil classification, topography and physical properties of soils in the H J Andrews Exp. Forest</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>GIS coverage creation date.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1996-08-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata files created in ARC/catalog as HTML format.  ARC/Info Export files, shape files, or other data file on ftp.fsl.orst.edu.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2004-11-03</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Upper level gis metadata (catalog, databases, entity, sub_entity, catalog_component, cross_reference, update_history) restructured and moved into SQLServer metadata database LTERMETA.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2005-06-17</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - SP026</para>
+          <para>Digitized from a 1964 map. Revised from additional data collected by Nordgen and Dyrness in 1994. Coverage was converted to a shapefile and projected to Nad83 Datum.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <spatialVector>
+      <alternateIdentifier>sp02601
+</alternateIdentifier>
+      <entityName>sp02601
+</entityName>
+      <entityDescription>Soils map of the H J Andrews Exp Forest modified from 1964 soil survey. Joel Norgren and Ted Dyrness collected additional field data in 1993 and 1994. Joel Nordgen revised the 1964 soils polygon based on these additional data. Ken Vance-Borland revised the original GIS soils layer based on Joel's interpretation, elevation contours, and the stream network. Polygon attributes were not changed.</entityDescription>
+      <physical>
+        <objectName>soil_survey</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file </formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/3985/4/a2759a04ca5c199909a6a95a73da566f</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Digitized from a 1964 map. Revised from additional data collected by Nordgen and Dyrness in 1994.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>coverage was converted to a shapefile and projected from NAD27 to NAD83</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AREA</attributeName>
+          <attributeDefinition>area of polygons in square meters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>real number,  calculated when data format was ARC/INFO coverage.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PERIMETER</attributeName>
+          <attributeDefinition>perimeter of polygon in meters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>real number,  calculated when data format was ARC/INFO coverage.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOIL_SURVE</attributeName>
+          <attributeDefinition>internal feature number, carry-over from coverage format</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOIL_SUR_1</attributeName>
+          <attributeDefinition>user defined feature number, carry-over from coverage format</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole numbers that are user generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOIL_UNIT</attributeName>
+          <attributeDefinition>combined soil series and slope codes. First digit represent soil source, third digit is slope class.  The first two digits are also represented within the MAP_UNIT code.
+
+</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number that is the combination of three codes, in order:
+SOURCE:  soil source
+       0 - alluvium
+       1 - glacial drift
+       2 - residuum/colluvium from basalt
+       4 - residuum/colluvium from greenish breccia
+       5 - residuum/colluvium from reddish breccia
+
+
+SLOPE_CLAS:  soil class
+       1 - gentle slope &lt;30%
+       2 - moderate slope 30-60%
+       3 - steep slope &gt;60%
+       4 - uneven gentle slope
+       5 - uneven moderate slope
+       6 - moderate toe slope
+       7 - ridge top moderate slope
+       8 - earthflow moderate slope
+       9 - dissected steep slope
+
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UNIT_NAME</attributeName>
+          <attributeDefinition>soils series names</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>QUARRY</code>
+                    <definition>man made item (quarries)</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CONVOY</code>
+                    <definition>Alluvial soils formed in relatively recent alluvium on low terraces adjacent to streams in  the western Cascaded of Oregon</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUENTIN</code>
+                    <definition>Brown Podzolic soils forming in medium textured alluvium from basic igneous rocks along relatively high terraces in the western Cascades of Oregon</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WETLAND</code>
+                    <definition>Areas of dark, poorly and very poorly drained soils which support dense stands of tag alder, devilsclub, vine mape, and other herbs and shrubs.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARPENTER</code>
+                    <definition>Brown Podzolic soils formed in medium textured glacial deposits resulting from local mountain glaciation in an area of basic igneous rocks </definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ROCKLAND</code>
+                    <definition>Solid bedrock (almost always basalt and andesite), talus, and fedsenmeer.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FLUNKY</code>
+                    <definition>Lithosolic Brown Podzolic soils formed in colluvium and residuum from basalt bedrock.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BLUE RIVER</code>
+                    <definition>Brown Podzolic soils formed in residuum and colluvium from basalt and andesite bedrock.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TIDBITS</code>
+                    <definition>Ando-like soils forming in resiuum and colluvium from basalt and adesite bedrock,. Developed under coniferous vegetation.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LUCKY BOY</code>
+                    <definition>Ando-like soils formed in residuum and colluvium from basalt and andesite bedrock. Formed uner mountain meadow vegetation.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LIMBERLOST</code>
+                    <definition>Regosol soils formed in colluvium from greenish tuff and breccia bedrock.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BUDWORM</code>
+                    <definition>Yellowish Brown Lateritic soils forming in residuum and colluvium from greenish tuff and breccia bedrock.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SLIPOUT</code>
+                    <definition>Imperfectly drained Yellowish Brown Lateritic soils formed in residuum and colluvius from greenish tuff and breccia bedrock.</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FRISSELL</code>
+                    <definition>Regosol soils formed in colluvium from reddish breccias. </definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MCKENZIE RIVER</code>
+                    <definition>Reddish Brown Lateritic soils forming in residuum and colluvium from reddish breccia bedrock.1</definition>
+                    <source>Soil Survey Report of the HJ Andrews Experimental Forest</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DESCRIPTIO</attributeName>
+          <attributeDefinition>Soil Texture Names for the DCODE attribute</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text field with classifications. Provides for sub-categories of the Unit Name.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DCODE</attributeName>
+          <attributeDefinition>texture code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>quarries</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>cobbly-sandy-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>gravelly-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>dark poorly drained</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>gravelly-sandy-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>bedrock-talus</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>cobbly-heavy-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>gravelly-clay-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>light-clay-loam</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SLOPE_CLAS</attributeName>
+          <attributeDefinition>slope steepness codes</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>slope &lt; 30 percent</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>slope 30 to 60 percent</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>slope &gt; 60 percent</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DEPTH_CLAS</attributeName>
+          <attributeDefinition>soild depth codes</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>soil depth &lt; 3 feet</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>soil depth 3 to 10 feet</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>soil depth &gt; 10 feet</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LANDTYPE</attributeName>
+          <attributeDefinition>landform description/type. </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text field with the descriptions of the landform phase used to increase the usefulness and signifcance of the mapping.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MAPSYMB</attributeName>
+          <attributeDefinition>soil series+slope+landform.  The mapping unit symbols are int he following categories:  a one digit number (4); a two digit number with a capital letter (12G); or a two digit number with a capital letter and a lower case letter (41Mt).
+The number signifies the soil series or miscellanious land type; the capital letter the slope class; and the lower case letter the landform
+The numbers reflect soil development.  All numbers ending in zero are miscellaneous land types and should not be considered in the following discussion.  The first (left) digit indicates the soil parent material as follows:
+       0 - alluvium
+       1 - glacial drift
+       2 - residuum/colluvium from basalt
+       4 - residuum/colluvium from greenish breccia
+       5 - residuum/colluvium from reddish breccia
+
+The capital letter in the symbol is the slope class.  Slopes are classed as follows:      
+       G - gentle slope (0 - 30% slope)
+       M - moderate slope (30 - 60% slope)
+       V - steep slope (60+% slope)
+The lower case letter was added where a landform phase would materially increase the usefulness and significance of the soil map.  The following symbols and landforms have been used:
+       d - dissected slope
+       l - landflow
+       r - ridge
+       t - toe slope
+       u - uneven slope
+</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text field with a combination of several soil and slope characteristics.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOURCE</attributeName>
+          <attributeDefinition>soil source codes</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>alluvium</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>glacial drift</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>residuum/colluvium from basalt</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>residuum/colluvium from greenish breccia</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>residuum/colluvium from reddish breccia</definition>
+                    <source>FSL metadata document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MAP_UNIT</attributeName>
+          <attributeDefinition>soil series code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>QUARRY</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>CONVOY</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>QUENTIN</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>WETLAND</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>CARPENTER</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20</code>
+                    <definition>ROCKLAND</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>21</code>
+                    <definition>FLUNKY</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>22</code>
+                    <definition>BLUE RIVER</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>24</code>
+                    <definition>TIDBITS</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>LUCKY BOY</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>41</code>
+                    <definition>LIMBERLOST</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>44</code>
+                    <definition>BUDWORM</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>SLIPOUT</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>FRISSELL</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>54</code>
+                    <definition>MCKENZIE RIVER</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>slope_code</attributeName>
+          <attributeDefinition>slope code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>gentle slope &lt;30%</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>moderate slope 30-60%</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>steep slope &gt;60%</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>uneven gentle slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>uneven moderate slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>moderate toe slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>ridge top moderate slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>earthflow moderate slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>dissected steep slope</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>393</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

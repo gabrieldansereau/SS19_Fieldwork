@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-hfr.234.2" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF234">
+    <alternateIdentifier>HF234</alternateIdentifier>
+    <title>Imputed Forest Composition Map for New England Screened by Species Range Boundaries 2001-2006</title>
+    <creator>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Duveneck</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <surName>Thompson</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>B. Tyler</givenName>
+        <surName>Wilson</surName>
+      </individualName>
+    </creator>
+    <pubDate>2015</pubDate>
+    <abstract>
+      <section>
+        <para>Initializing forest landscape models (FLMs) to simulate changes in tree species composition requires accurate fine-scale forest attribute information mapped contiguously over large areas.  Nearest-neighbor imputation maps have high potential for use as the initial condition within FLMs, but the tendency for field plots to be imputed over large geographical distances results in species frequently mapped outside of their home ranges, which is problematic.  We developed an approach for evaluating and selecting field plots for imputation based on their similarity in feature-space, their species composition, and their geographical distance between source and imputation to produce a map that is appropriate for initializing an FLM. We applied this approach to map 13m ha of forest throughout the six New England states (Rhode Island, Connecticut, Massachusetts, New Hampshire, Vermont, and Maine).  The map itself is a .img raster file of FIA plot CN numbers.  To access FIA data from this map, one has to link the mapcodes in this map to FIA data supplied by USDA FIA database  (http://apps.fs.fed.us/fiadb-downloads/datamart.html). Due to plot confidentiality and integrity concerns, pixels containing FIA plots were always assigned to some other plot than the actual one found there.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>forest dynamics</keyword>
+      <keyword>future scenarios</keyword>
+      <keyword>inventories</keyword>
+      <keyword>landscape</keyword>
+      <keyword>modeling</keyword>
+      <keyword>species composition</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>populations</keyword>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf234</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>New England</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-74.0</westBoundingCoordinate>
+          <eastBoundingCoordinate>-66.9</eastBoundingCoordinate>
+          <northBoundingCoordinate>+47.4</northBoundingCoordinate>
+          <southBoundingCoordinate>+40.9</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>0</altitudeMinimum>
+            <altitudeMaximum>2000</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2006</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Duveneck</surName>
+      </individualName>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 756-6167</phone>
+      <electronicMailAddress>mduveneck@gmail.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Study Area</title>
+            <para>Our study area includes the forested areas within the six New England states in the northeastern U.S. (Rhode Island, Connecticut, Massachusetts, New Hampshire, Vermont, and Maine).  Total forest cover within this 18 million hectare region exceeds 80% but ranges from 50% (Rhode Island) to 90% (Maine). The forests span a diverse ecological gradient that includes spruce-fir forests in northern Maine to oak-maple and pitch pine forests in southern New England (David R Foster and Aber, 2004; Tang and Beckage, 2010).  Elevations range from sea level to nearly 2000 meters above sea level in the White Mountain Range in New Hampshire.  The region experiences annual mean temperatures ranging from 3 to 10° C (mean Jan temp = -6°C; mean July temp = 19°C), and average annual precipitation from 79 to 255cm. The region was almost completely forested until the 17th C, when two centuries of logging and agricultural clearing removed more than half of the forest cover and cut-over most of the rest (D.R. Foster, 1992; Thompson, Carpenter, Cogbill, and Foster, 2013).  Forest cover reached its nadir in the mid nineteenth century, after which widespread farm abandonment and population concentration initiated a century of natural reforestation and forest growth. The modern landscape reached its apex of reforestation recently and is again experiencing a slow loss of forest cover in all six states (D. R. Foster et al., 2010).  Today, New England’s multiple land-uses include agriculture, forest conservation, wildlife habitat, timber harvest, water filtration, and development (Homer, Fry, and Barnes, 2012).</para>
+          </section>
+          <section>
+            <title>Nearest Neighbor Data Selection</title>
+            <para>We used an existing kNN imputation product recently developed for the eastern United States using equal weighting and a canonical correspondence analysis distance metric (Wilson et al. 2012).  This process used vegetation phenology derived from MODIS imagery and spatial environmental variables to impute FIA plots to each 250-m pixel across the eastern United States.  FIA plots used in this imputation were measured between 2001 and 2006.  For each 250-m pixel in our study area, we assembled the first five nearest-neighbor plots (k=5).  Because the original kNN imputation products were derived for all of the eastern United States, potential imputation plots (source plots) came from FIA plots collected throughout the eastern United States (Wilson et al. 2012).</para>
+            <para>We built a screened-selection map (ks) based on selecting the best field plot from the five nearest neighbors in feature-space for each 250-m pixel in our landscape as follows:  Because our final map product was focused on forests rather than other land uses, we included only the map pixels classified as forest within the National Land Cover Database (NLCD 2011) (Homer et al. 2012). We then removed neighbors whose source plots did not include trees.  Next, we screened out source plots that included tree species that did not match historical species range distribution (Little 1971).  Of the remaining neighbors for each pixel, we choose the closest source plot based on geographic (Euclidian) distance as the first five neighbors are approximately equidistant in feature-space (Wilson et al. 2012). If none of the five neighbors remained, we selected a correctly matched source plot from the closest neighboring pixel. Due to plot confidentiality and integrity concerns, pixels containing FIA plots were always assigned to some other plot than the actual one found there.</para>
+            <para>As a visual demonstration of the map, we built and plotted a forest type map of the landscape.  To build the forest type map, we joined our final imputation map of FIA plot numbers with plot-assigned aggregated forest types. Imputation map is not only a representation of forest type; rather each pixel represents a FIA plot.  Users of map can link to any FIA attribute measured at those plots (e.g., tree list, stem density, basal area, biomass, etc.). Non-forest classifications come from National Land Cover Database (2011)).</para>
+          </section>
+          <section>
+            <title>Citations</title>
+            <para>Foster, D. R. (1992). Land-use history and vegetation dynaimcs in central New England, USA. Journal of Ecology, 80(4), 753–771.</para>
+            <para>Foster, D. R., and Aber, J. D. (2004). Forests in time: The environmental consequences of 1,000 years of change in New England. Ecology (Vol. 36, p. 491).</para>
+            <para>Foster, D. R., Donahue, B., Kittredge, D. B., Fallon-Lambert, K., Hunter, M., Hall, B., … Hart, C. M. (2010). Wildland and Woodlands: A Forest Vision for New England (p. 36). Cambridge, MA: Harvard University Press.</para>
+            <para>Homer, C., Fry, J., and Barnes, C. (2012). The national land cover database. US Geological Survey Fact Sheet. Retrieved from http://pubs.usgs.gov/fs/2012/3020/</para>
+            <para>Little, E. L. (1971). Atlas of United States trees: Vol. 1. Conifers and important hardwoods. U.S. Department of Agriculture Miscellaneous Publication 1146 (pp. 1–877). Retrieved from http://kbd.kew.org/kbd/detailedresult.do?id=144273</para>
+            <para>Tang, G., and Beckage, B. (2010). Projecting the distribution of forests in New England in response to climate change. Diversity and Distributions, 16(1), 144–158. doi:10.1111/j.1472-4642.2009.00628.x</para>
+            <para>Thompson, J. R., Carpenter, D. N., Cogbill, C. V, and Foster, D. R. (2013). Four Centuries of Change in Northeastern United States Forests. Plos One, 8(9), e72540. doi:10.1371/journal.pone.0072540</para>
+            <para>Wilson, B. T., Lister, A. J., and Riemann, R. I. (2012). A nearest-neighbor imputation approach to mapping tree species over large areas using forest inventory plots and moderate resolution raster data. Forest Ecology and Management, 271, 182–198.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <otherEntity id="hf234-01">
+      <entityName>hf234-01-forest-imputation.img.zip</entityName>
+      <entityDescription>forest imputation map</entityDescription>
+      <physical>
+        <objectName>hf234-01-forest-imputation.img.zip</objectName>
+        <compressionMethod>zip</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>img</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/234/2/76b9e7703d267263555d9d66cb1fc185</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>img file</entityType>
+    </otherEntity>
+    <otherEntity id="hf234-02">
+      <entityName>hf234-02-forest-type.jpeg</entityName>
+      <entityDescription>forest type map</entityDescription>
+      <physical>
+        <objectName>hf234-02-forest-type.jpeg</objectName>
+        <compressionMethod>none</compressionMethod>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>jpeg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/234/2/a58aa0bc458905b60bd5bb63bd573ad3</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>jpeg file</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>conservation</researchTopic>
+        <researchTopic>informatics</researchTopic>
+        <researchTopic>regional</researchTopic>
+        <studyType>long-term measurement</studyType>
+        <studyType>modeling</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="USDA FIA DataMart">http://apps.fs.fed.us/fiadb-downloads/datamart.html</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

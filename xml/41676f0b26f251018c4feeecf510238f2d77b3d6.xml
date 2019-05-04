@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3194.7"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HF011</alternateIdentifier>
+    <title>Stream tracer experiments to assess channel and hyporheic residence times of streams in the Andrews Experimental Forest in 2001 &amp; 2002</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steven</givenName>
+        <givenName>M.</givenName>
+        <surName>Wondzell</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Pacific Northwest Research Station; Corvallis Forestry Sciences Lab; 3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-758-8753</phone>
+      <electronicMailAddress>swondzell@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/lwm/aem/people/wondzell</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/haggertr.htm</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Michael</givenName>
+        <givenName>N.</givenName>
+        <surName>Gooseff</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Civil &amp; Environmental Engineering</deliveryPoint>
+        <city>University Park</city>
+        <administrativeArea>PA</administrativeArea>
+        <postalCode>16802</postalCode>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>mgooseff@gmail.com</electronicMailAddress>
+      <electronicMailAddress>mgooseff@engr.colostate.edu</electronicMailAddress>
+      <onlineUrl>http://water.engr.psu.edu/gooseff/</onlineUrl>
+    </metadataProvider>
+    <metadataProvider>
+      <individualName>
+        <givenName>Justin</givenName>
+        <givenName>M</givenName>
+        <surName>LaNier</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;104 Wilkinson Hall;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541.737.8774</phone>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/haggertr.htm</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/haggertr.htm</onlineUrl>
+      <role>Method Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Michael</givenName>
+        <givenName>N.</givenName>
+        <surName>Gooseff</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Civil &amp; Environmental Engineering</deliveryPoint>
+        <city>University Park</city>
+        <administrativeArea>PA</administrativeArea>
+        <postalCode>16802</postalCode>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>mgooseff@gmail.com</electronicMailAddress>
+      <electronicMailAddress>mgooseff@engr.colostate.edu</electronicMailAddress>
+      <onlineUrl>http://water.engr.psu.edu/gooseff/</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Michael</givenName>
+        <givenName>N.</givenName>
+        <surName>Gooseff</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Civil &amp; Environmental Engineering</deliveryPoint>
+        <city>University Park</city>
+        <administrativeArea>PA</administrativeArea>
+        <postalCode>16802</postalCode>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>mgooseff@gmail.com</electronicMailAddress>
+      <electronicMailAddress>mgooseff@engr.colostate.edu</electronicMailAddress>
+      <onlineUrl>http://water.engr.psu.edu/gooseff/</onlineUrl>
+      <role>Method Contact</role>
+    </associatedParty>
+    <pubDate>2016-12-20</pubDate>
+    <abstract>
+      <para>Time series of tracer (Rhodamine WT) concentration data representing a "break-through curve" resulting from a stream tracer injection.  Stream tracer experiments were conducted in the lower reach of 2nd-order Watershed 3 in April, 2001, and 2 adjacent reaches of 4th-order Lookout Creek in July, 2002. Rhodamine WT dye was injected as a pulse (non-continuous injection).  Concentration data were collected in the field at early time using a field fluorometer equipped with a flow-through cell. Late-time samples collected with an ISCO auto sampler, which were analyzed in the lab with the same fluorometer (reconfigured for analysis with cuvettes) within 72 hours.  Particular care was taken to collect late-time, low-concentration data, which are useful in quantifying the residence time of secondary storage within or adjacent to the stream, such as the hyporheic zone or in-stream transient storage zones.  In the data set, Tracer 1 refers to the injection in Watershed 3; Tracer 2 refers to the injection in Reach 411 of Lookout Creek; Tracer 3 refers to the injection in the combined Reach 410/411 of Lookout Creek.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Groundwater processes</keyword>
+      <keyword keywordType="theme">Hydrologic processes</keyword>
+      <keyword keywordType="theme">Hyporheic zone</keyword>
+      <keyword keywordType="theme">Step pools</keyword>
+      <keyword keywordType="theme">Stream order</keyword>
+      <keyword keywordType="theme">Subsurface flow</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>Justin Anderson’s stream surveys, (to be added to FSL data bank) and location maps (Figures 1, 2,   &amp;   3).</para>
+      <para>Entities labeled “(E)” refer to early time data, collected in real time with a field fluorometer.  Entities labeled “(L)” refer to late time data, collected as water samples using an ISCO auto sampler and analyzed no more than 24 hours after retrieval in the laboratory with the same field fluorometer used for the early time data.  Tracer 3 has early and late time information on the same sheet to conserve the number of sheets in the database. Tracer 3 also has two sets of concentration data, one from the bottom of the 410 reach, labeled Tracer 3 (410) and data from the bottom of reach 411, labeled Tracer 3 (411).</para>
+      <para>Funding for this work was provided by National Science Foundation grant # EAR 99-09564.
+Watershed 3 data should be cited with the source:
+Haggerty, R., S.M. Wondzell, and M.A. Johnson, Power-law residence time distribution in the hyporheic zone of a 2nd-order mountain stream, Geophysical Research Letters, 29 (13), 18-1 - 18-4, 2002. DOI 10.1029/2002GL014743.
+Lookout Creek data should be cited with the source:
+Gooseff, M. N., S. M. Wondzell, R. Haggerty, and J. Anderson, Comparing transient storage modeling and residence time distribution (RTD) analysis in geomorphically varied reaches in the Lookout Creek basin, USA, submitted to Advances in Water Resources, 2002.</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Haggerty, Roy; Wondzell, Steven M.; Johnson, Matthew A. 2002. Power-law residence time distribution in the hyporheic zone of a 2nd-order mountain stream. Geophysical Research Letters. 29(13): 18-1 - 18-4.</para>
+      <para>Gooseff, Michael N. ; Wondzell, Steve M.;  Haggerty, Roy; Anderson, Justin. 2003. Comparing transient storage modeling and residence time distribution (RTD) analysis in geomorphically varied reaches in the Lookout Creek basin, Oregon, USA. Advances in Water Resources. 26: 925-937.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  hjapubs@fsl.orst.edu or Andrews Experimental Forest LTER Program, Department of Forest Ecosystems and Society, Oregon State University, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 14-40409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=HF011&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>HJA WS03 and Lookout Creek.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.24111000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.16722000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.22916700</northBoundingCoordinate>
+          <southBoundingCoordinate>44.21910000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>488</altitudeMinimum>
+            <altitudeMaximum>655</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-04-21</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2001-07-18</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>This experiment was designed to assess the residence times of water in the channel and hyporheic zones of the lower reach of Watershed 3 and two adjacent reaches of 4th-order Lookout Creek.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2002-12-04</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2002-12-18</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Need to upload dataset to PASTA.  There are 8 entities that were prepared back in 12/18/2002. 	However, these entities could be combine into 1 dataset with the given distinctions (reach,series,test). These entities were combined to upload to PASTA. Because of the connections to catalog_request_history, entities 2-8 cannont be deleted.  These have been designated as not online. Data QC'd.  Old SQL structures deleted and new one created.  Appended data into the one new entity.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2016-12-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Roy</givenName>
+        <surName>Haggerty</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Dept. of Geosciences;Wilkinson 104;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-1210</phone>
+      <electronicMailAddress>haggertr@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/haggertr.htm</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HF011</para>
+          <para>
+            <emphasis>Watershed 3 (Tracer Test 1), April 21, 2001</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para> Eleven grams of Rhodamine WT (RWT, Fomulabs, Piqua, OH) was injected into the WS03 stream reach. </para>
+              </listitem>
+              <listitem>
+                <para> Stream flow was measured at a stream gauge at the bottom of the reach for the first 15.7 hrs of the experiment </para>
+              </listitem>
+              <listitem>
+                <para> RWT fluorescence data was collected at a downstream sample point using a Turner Designs model 10AU field fluorometer. </para>
+              </listitem>
+              <listitem>
+                <para> Data was collected on a five-second interval for the first 28 hr.  For the remainder of the experiment, stream water samples were collected with programmable field auto samplers for an additional 7 days. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>Lookout Creek, Reach 411 (Tracer Test 2), July 10, 2001</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para> 10.4 g of RWT was injected at the head of the LO411 stream reach.</para>
+              </listitem>
+              <listitem>
+                <para> Stream flow was measured by wading, using a Marsh-McBirney model 200 flow meter at the end of the reach prior to the injection.</para>
+              </listitem>
+              <listitem>
+                <para> RWT fluorescence data was collected at a downstream sample point using a Turner Designs model 10AU field fluorometer.  </para>
+              </listitem>
+              <listitem>
+                <para> Data was collected on a 10-second interval for the first 6.3 hrs.  For the remainder of the experiment, stream water samples were collected with programmable field auto samplers for an additional 4 days. </para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>
+            <emphasis>Lookout Creek, Reach 410/411 (Tracer Test 3), July 18, 2001</emphasis>
+          </para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para> Seventy-five grams of RWT (Bright Dyes, Miamisburg, OH) was injected at the head of the LO410-411 stream reaches. </para>
+              </listitem>
+              <listitem>
+                <para> Stream flow was measured by wading, using a Marsh-McBirney model 200 flow meter at the end of the LO411 reach at 14 hrs prior to the tracer experiment, and 10 hrs after the start of the experiment, respectively.</para>
+              </listitem>
+              <listitem>
+                <para> RWT fluorescence data was collected at a downstream sample point using a Turner Designs model 10AU field fluorometer and a Turner Designs Model 10-005 R field fluorometer for LO411 and 410 respectively.  Both were set up with a flow-through cell.
+</para>
+              </listitem>
+              <listitem>
+                <para> Data was collected on a 10-second interval for the first seven hrs.  For the remainder of the experiment, stream water samples were collected with programmable field auto samplers for an additional 4 days.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para/>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Tracer injection and monitoring points were surveyed (Anderson, 2002), and added to the digitized maps (LO410 and 411).  Source area for each reach was calculated from a 10-meter digital elevation model (DEM).  Sinuosity was calculated as the thalweg length divided by the straight-line distance along the valley axis for each reach.  Stream discharge in reaches 410 and 410/411 was measured by wading, using a Marsh-McBirney model 200 flow meter (Marsh-McBirney, Inc., Fredrick, MD, USA).  Stream discharge in WS03 was measured at the gauge house at the bottom of the reach.  All samples collected with ISCO auto samplers (ISCO, Inc., Lincoln, NE) were analyzed with the same Turner Designs fluorometers (Turner Designs, Inc, Sunnyvale, CA) in a lab within 24 hr of retrieval.  Three slug tracer experiments were performed on separate reaches in the HJ Andrews Experimenatl Forest.  </para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Watershed  3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24194900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22402200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21994300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20803100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1080</altitudeMinimum>
+                <altitudeMaximum>1080</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  3 (Reach WS3)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24111000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23833000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21750000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21910000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>536</altitudeMinimum>
+                <altitudeMaximum>536</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek (Reach 410)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17038000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16722000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22833000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22778000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>668</altitudeMinimum>
+                <altitudeMaximum>668</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek (Reach 411)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17361000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17083000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22916700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22833000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>655</altitudeMinimum>
+                <altitudeMaximum>655</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HF01101">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>HF01101</entityName>
+      <entityDescription>Concentration data for tracer tests conducted on 3 stream reaches at the HJ Andrews Experimental Forest: Early and Late Time/Concentration series for tracer tests conducted on 3 stream reaches (WS3, Lookout Creek reaches 411 and 410)</entityDescription>
+      <physical>
+        <objectName>HF01101.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3194/7/2d0d85c1cfea1f3bc62a893efccc7c52</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2001-04-21</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2001-07-20</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HF01101.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HF011</code>
+                    <definition>FSDB Database Code HF011</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.REACH">
+          <attributeName>REACH</attributeName>
+          <attributeDefinition>Name of stream reach measured</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">varchar(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS3</code>
+                    <definition>Andrews Watershed  3 (Reach WS3)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO410</code>
+                    <definition>Lookout Creek (Reach 410)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LO411</code>
+                    <definition>Lookout Creek (Reach 411)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.SERIES">
+          <attributeName>SERIES</attributeName>
+          <attributeDefinition>Time series</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Early time/concentration series</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Late time/concentration series</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.TEST">
+          <attributeName>TEST</attributeName>
+          <attributeDefinition>Tracer test number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Tracer test 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Tracer test 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Tracer test 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.DATANUM">
+          <attributeName>DATANUM</attributeName>
+          <attributeDefinition>Sample number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">7467.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date of measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">4/21/2001 12:00:00 AM</minimum>
+                  <maximum exclusive="false">7/20/2001 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.TIME">
+          <attributeName>TIME</attributeName>
+          <attributeDefinition>Time elapsed since beginning of tracer test</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>seconds of a degree</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">511140.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.CONCEN">
+          <attributeName>CONCEN</attributeName>
+          <attributeDefinition>Concentration of rhodamine wt, corrected to near zero from background fluore escence</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per liter</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.0200</minimum>
+                  <maximum exclusive="false">318.2500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.MASSFLUX">
+          <attributeName>MASSFLUX</attributeName>
+          <attributeDefinition>Mass flux rate of rhodamine at corresponding time</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micrograms per second</customUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.6600</minimum>
+                  <maximum exclusive="false">6505.3200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.DISCHARGE">
+          <attributeName>DISCHARGE</attributeName>
+          <attributeDefinition>Streamflow rate</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>liters per second</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">19.8000</minimum>
+                  <maximum exclusive="false">346.1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HF01101.TEMP">
+          <attributeName>TEMP</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.9000</minimum>
+                  <maximum exclusive="false">15.1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HF01101.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HF01101.REACH</attributeReference>
+            <attributeReference>HF01101.SERIES</attributeReference>
+            <attributeReference>HF01101.TEST</attributeReference>
+            <attributeReference>HF01101.DATANUM</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HF01101.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HF01101.DATE</attributeReference>
+            <attributeReference>HF01101.REACH</attributeReference>
+            <attributeReference>HF01101.SERIES</attributeReference>
+            <attributeReference>HF01101.TEST</attributeReference>
+            <attributeReference>HF01101.DBCODE</attributeReference>
+            <attributeReference>HF01101.DATANUM</attributeReference>
+            <attributeReference>HF01101.ENTITY</attributeReference>
+            <attributeReference>HF01101.TIME</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>12718</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="ug/l" id="micrograms per liter"
+          multiplierToSI="0.000001" name="microgramPerLiter"
+          parentSI="kilogramPerMeterCubed" unitType="massDensity">
+          <stmml:description>micrograms per liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="l/sec" id="liters per second"
+          multiplierToSI="1" name="literPerSecond"
+          parentSI="literPerSecond" unitType="volumetricRate">
+          <stmml:description>liters per second</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ug/sec" id="micrograms per second"
+          multiplierToSI="0.000000001" name="microgramPerSecond"
+          parentSI="kilogramPerSecond" unitType="massFlux">
+          <stmml:description>micrograms per second</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="seconds" id="seconds of a degree"
+          name="degreeSecond" parentSI="unknown" unitType="latitudeLongitude">
+          <stmml:description>number of seconds (sixtieth part of a minute of a degree)</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

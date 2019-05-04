@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.127.21" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/2b7e21c5fabce35bf5b2d4d5c7ce66bf</alternateIdentifier>
+    <shortName>knb-lter-bnz.127.21</shortName>
+    <title>GIS point locations for Forest Soils Laboratory, SALRM research sites: 1967 - 2000</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Yarie</surName>
+      </individualName>
+      <positionName>Senior Investigator</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory; Department of Forest Sciences; SNRAS; University of Alaska Fairbanks</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5650</phone>
+      <phone phonetype="fax">(907) 474-6184</phone>
+      <electronicMailAddress>jayarie@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.uaf.edu/snre/faculty/yarie/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <givenName>W.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <!--No position recorded in Database ( pers/position when lead_contact=1 )-->
+      <address>
+        <deliveryPoint>Department of Forest Sciences University of Alaska Fairbanks O'Neill Bldg</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7614</phone>
+      <phone phonetype="fax">(907) 474-6184</phone>
+      <electronicMailAddress>dvalentine@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.uaf.edu/snre/faculty/valentine/</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Balser</surName>
+      </individualName>
+      <!--No position or title info on file for this person (pers/title when lead_contact=0)-->
+      <!--No address on file for this person ( pers/address when lead_contact=0 )-->
+      <!--No phone info on file for this person (pers/tel1 when lead_contact=0)-->
+      <!--No fax info on file for this person-->
+      <role>Associated party</role>
+    </associatedParty>
+    <pubDate>1999-12-01</pubDate>
+    <abstract>
+      <para>This is a collection of study site GIS locations for the Forest Soils Lab research locations.  There are sites from within BCEF and CPCRW.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>RB</keyword>
+      <keyword>spatial</keyword>
+      <keyword>locations</keyword>
+      <keyword>BCEF</keyword>
+      <keyword>caribou poker creeks research watershed (CPCRW)</keyword>
+      <keyword>frostfire</keyword>
+      <keyword>forest soils</keyword>
+      <keywordThesaurus>GIS</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/127</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3790685</westBoundingCoordinate>
+          <eastBoundingCoordinate>-147.470667</eastBoundingCoordinate>
+          <northBoundingCoordinate>65.1752259</northBoundingCoordinate>
+          <southBoundingCoordinate>64.6719571</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1967-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2005-09-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Completed</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods</title>
+            <para> Processing and attribute information done by Andrew W. Balser using ARC/INFO</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FP1A -- FP1A is located on a low early successional terrace (1.8 - 2 m above winter low river level) adjacent to the Tanana River. Vegetation establishment occurred in 1982 to 1983. Significant bank erosion has occurred since the establishment of the study area, resulting in loss of some study plots..  Site alternate names:  211, GPIIC, Gravel Pit Willow, BCII, IIIAC, IIIAT, IIIBC, IIIBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2576912</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2576912</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69859835</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69859835</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP1B -- FP1B is located on a low early successional terrace adjacent to the Tanana River..  Site alternate names:  212</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.149437</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.149437</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73146502</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73146502</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP1C -- FP1C is located on a low early successional terrace adjacent to the Tanana River..  Site alternate names:  213</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2744455</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2744455</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68671338</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68671338</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2A -- FP2A is located adjacent to the LTER-2 weather station on a terrace that formed ca 1965..  Site alternate names:  221, GPIVC, GP4C, BCIV, VAC, VAT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2524731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2524731</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69878244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69878244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2C -- Tall Balsam Poplar w/ Alder Understory Stand.  Site alternate names:  223, FSL-LD-FP2C_alder</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2698825</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2698825</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68689244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68689244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3A -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  231, FSL-LD-FP3A_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15094</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15094</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72322993</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72322993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3B -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  232, FSL-LD-FP3B_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2169588</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2169588</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69355792</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69355792</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3C -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  233, Eagle Site, FSL-LD-FP3C_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2081387</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2081387</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7081671</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7081671</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4A -- Mature white spruce.  Site alternate names:  241, SMVIIIC, FSL-LD-FP4A_ws, VIIIWS, VIIIAC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2368605</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2368605</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67878586</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67878586</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4B -- Mature white spruce.  Site alternate names:  242, FSL-LD-FP4B_ws, VIIIYI, VIIIBC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2707843</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2707843</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67129926</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67129926</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4C -- Mature white spruce.  Site alternate names:  243, LV132, FSL-LD-FP4C_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1827217</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1827217</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71354433</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71354433</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5B -- Woodland white spruce/Labrador tea-lingonberry/feathermoss community. Black spruce seedlings and saplings have invaded the site..  Site alternate names:  252</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2138057</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2138057</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68149311</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68149311</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5C -- FP5C is located on an older terrace of the Tanana River on the south side of the river opposite Sam Charley Island.  The climate station and neighboring research plots were burned in August of 2010 by the Willow Creek Wildfire..  Site alternate names:  253, BCEFY3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1472629</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1472629</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71361404</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71361404</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5D -- This is a mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  254, BCEFM3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.19274</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.19274</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72541</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72541</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1A -- UP1A was established to follow the development of vegetation following the burning of a well developed 200 year old white spruce stand on a south facing slope. The vegetation has progressed from an herbaceous community following the fire to an open hardwood stand..  Site alternate names:  111, Midslope White Spruce (MW), Rosie Creek Fire studies: Gregory stand #806, Zasada stand: Bonanza Creek #2 (white spruce seed study), Reserve West (Juday), FSL-LD-UP1A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3027284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3027284</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73554387</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73554387</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1B -- Young Paper Birch/Shrub/Herbaceous Stand.  Site alternate names:  112, FSL-LD-UP1B_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3000982</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3000982</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73463679</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73463679</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1C -- Young Aspen Forest.  Site alternate names:  113, LTER #113, Aspen Ridge (Rosie Creek Fires study), FSL-LD-UP1C_aspen</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2983546</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2983546</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71826931</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71826931</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2A -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  121, LTER #121, FSL-LD-UP2A_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.35568</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.35568</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69546067</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69546067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2B -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  122, LTER #122, FSL-LD-UP2B_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3641664</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3641664</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6905617</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6905617</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2C -- Closed Mixed Aspen - White Spruce Stand.  Site alternate names:  123, FSL-LD-UP2C_aspen</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3834237</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3834237</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68927697</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68927697</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3A -- Mature white spruce spruce stand on a south-facing slope.  Site alternate names:  131, LTER #131, Tower site: Parks Hwy, South side: Gregory stand #148, Zasada stand: Bonanza Creek - 1 (seed studies), Semi-intensive site #12, Juday, Parks Loop West, Tower Site, FSL-LD-UP3A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2795018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2795018</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76742521</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76742521</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3B -- Closed White Spruce Forest.  Site alternate names:  132, LTER #132, FSL-LD-UP3B_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2508148</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2508148</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76051099</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76051099</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3C -- Closed White Spruce Forest.  Site alternate names:  133, LTER #133, FSL-LD-UP3C_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3306337</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3306337</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72538077</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72538077</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER1 -- 100 (LTER1)  is the Bonanza Creek Experimental Forest's primary upland weather station.  More intensive climate data is collected at this station than the other upland stations..  Site alternate names:  100</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3163468</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3163468</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7429558</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7429558</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER2 -- LTER2, the second Bonanza Creek Experimental Forest full weather station, was established to monitor the climate of the floodplain region of BCEF. 
+
+This site is located adjacent to the Tanana River in BCEF..  Site alternate names:  200, LTER #200, GPIVT, Gravel Pit IV, gp4t</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2549125</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2549125</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69889576</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69889576</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-B1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5254587</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5254587</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16790166</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16790166</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-B2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5336825</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5336825</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17041191</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17041191</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-B3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5363374</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5363374</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17051115</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17051115</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-B4 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5336825</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5336825</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17042191</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17042191</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-C1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.539908</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.539908</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16875641</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16875641</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-C2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.542456</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.542456</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16881755</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16881755</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CBS-C3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5435241</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5435241</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16859627</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16859627</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4939053</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4939053</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16532242</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16532242</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4963313</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4963313</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16663476</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16663476</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5046922</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5046922</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17095311</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17095311</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B4 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5062649</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5062649</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16078312</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16078312</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B5 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5113609</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5113609</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16124101</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16124101</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-B6 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5158161</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5158161</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16301869</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16301869</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4745274</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4745274</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16810679</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16810679</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4715521</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4715521</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16769474</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16769474</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.470667</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.470667</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16908333</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16908333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C4 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5129937</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5129937</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16004324</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16004324</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C5 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5126733</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5126733</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.15921163</northBoundingCoordinate>
+                <southBoundingCoordinate>65.15921163</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>MH-C6 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5170673</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5170673</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.16327051</northBoundingCoordinate>
+                <southBoundingCoordinate>65.16327051</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-B1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5183325</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5183325</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17501215</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17501215</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-B2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5168221</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5168221</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.17363122</northBoundingCoordinate>
+                <southBoundingCoordinate>65.17363122</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-B3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.5210789</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.5210789</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.1752259</northBoundingCoordinate>
+                <southBoundingCoordinate>65.1752259</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-C1 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4863083</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4863083</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.15096377</northBoundingCoordinate>
+                <southBoundingCoordinate>65.15096377</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-C2 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4882309</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4882309</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.1507959</northBoundingCoordinate>
+                <southBoundingCoordinate>65.1507959</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>OBS-C3 -- .  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.4906721</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.4906721</eastBoundingCoordinate>
+                <northBoundingCoordinate>65.15078074</northBoundingCoordinate>
+                <southBoundingCoordinate>65.15078074</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1967-06-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2005-09-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>As Needed</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <otherEntity id="100_fsl_research_sites_utm.zip">
+      <entityName>100_fsl_research_sites_utm.zip</entityName>
+      <entityDescription>Contains a .e00 arcinfo file with study sites and a .txt file with the same data</entityDescription>
+      <physical>
+        <objectName>100_fsl_research_sites_utm.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/127/21/07aa0be299fe9ed7fdec4e55bce08c0f</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>zip file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,2013 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.179.18" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.179.18</shortName>
+    <title>Bonanza Creek Experimental Forest: Dew Point measurements: hourly (1988 - Present)</title>
+    <creator>
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Van Cleve</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory University of Alaska Fairbanks O'Neill Bldg</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <!--No phone info in Database  ( pers/tel1, tel2 or cell when lead_contact=1 )-->
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <electronicMailAddress>kvancl@rockisland.com</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>F.S.</givenName>
+        <givenName>Stuart</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7922</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://terrychapin.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <givenName>W.</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-0180</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7153</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Brian</givenName>
+        <surName>Charlton</surName>
+      </individualName>
+      <positionName>BNZ LTER Lead Field Tech </positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-6780</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5104</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Hollingsworth</surName>
+      </individualName>
+      <positionName>Bonanza Creek LTER Site Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7470</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Yarie</surName>
+      </individualName>
+      <positionName>Professor of Silviculture</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory; Department of Forest Sciences; SNRAS; University of Alaska Fairbanks</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5650</phone>
+      <phone phonetype="fax">(907) 474-6184</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Karl</givenName>
+        <surName>Olson</surName>
+      </individualName>
+      <positionName>Technician</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5540</phone>
+      <!--No fax info on file for this person-->
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2013-05-08</pubDate>
+    <abstract>
+      <para>Calculated dew point values using the air temperature and relative humidity data collected at the corresponding Bonanza Creek climate station.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>dew point</keyword>
+      <keywordThesaurus>Climate</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Access to Data</title>
+        <para>While metadata will be freely available to those requesting it, the data manager will assure that any restrictions on access to data sets in the database will be enforced. Data will not be released without proper permission first being obtained from the investigator who generated the data. </para>
+      </section>
+      <section>
+        <title>Use of data</title>
+        <para> Researchers should receive adequate acknowledgment for the use of their data by others and should be provided with copies of publications using their data. Users of data from the data base must be aware that data is not to be sold or redistributed.</para>
+      </section>
+      <section>
+        <title>Citing Bonanza Creek LTER Datasets</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. </para>
+      </section>
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data_detail.cfm?datafile_pkey=179</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Site information unavailable</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3537914</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1426888</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.76810641</northBoundingCoordinate>
+          <southBoundingCoordinate>64.67834557</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2004-03-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>The current dewpoint measurments are calculated from temperature and relative humidity using a Vaisala HMP45C at a height of 150cm.
+</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>Data is collected with Campbell Scientific dataloggers and recorded hourly.
+</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <references>geoReference</references>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2004-03-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>hourly</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP1A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP1A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/f47932e50ae5009dfba97642db9fa45d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP2A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP2A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/0a56d8707a070ee967de3a4b7b87b6f9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP3A_2009-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP3A_2009-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/a8587dd380e2d257be0294b391b0d801</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP4A_2009-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP4A_2009-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/6b56cf3725a88afe8825646977cdb254</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP5A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP5A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/f853bda70c06c9859c87466ca576c762</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_FP5C_2004-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_FP5C_2004-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/8da81080811dc8d07851ea066fdcadba</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_LTER1_2009-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_LTER1_2009-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/528c7e549ff7566273db496b7400a552</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_LTER2_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_LTER2_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/9c4d70e8859e5b83f3895dfdd0715b50</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_UP1A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_UP1A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/58c443b1f99acf2c1869f2c81ff8241c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_UP2A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_UP2A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/f927dcbb6daa6bc5c50ab9d7c3f09772</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_UP3A_2008-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_UP3A_2008-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/940e4a0d88ae98be1260d82f6773f7a4</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>179_DEWPOINT_UP4A_2005-2012.txt</entityName>
+      <entityDescription>Calculated dewpoint values using the air temperature and relative humidty data.</entityDescription>
+      <physical>
+        <objectName>179_DEWPOINT_UP4A_2005-2012.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/179/18/c312a5e4bdf3c41429e2b646cb8dce4a</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>site</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour</attributeName>
+          <attributeLabel>hour</attributeLabel>
+          <attributeDefinition>hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>measurment</attributeName>
+          <attributeLabel>measurment</attributeLabel>
+          <attributeDefinition>measurment type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>measurment type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeLabel>value</attributeLabel>
+          <attributeDefinition>Dew Point value</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>unit</attributeName>
+          <attributeLabel>unit</attributeLabel>
+          <attributeDefinition>unit of value for dew point</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unit of value for dew point</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>flag</attributeName>
+          <attributeLabel>flag</attributeLabel>
+          <attributeDefinition>data quality flag</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data quality flag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="YYYY-MM-DD"/>
+        <unit id="hhhh"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

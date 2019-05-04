@@ -1,0 +1,1492 @@
+<eml:eml packageId="knb-lter-and.4031.8" system="http://andrewsforest.oregonstate.edu/data/mastercatalog.cfm?topnav=97" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>GS006</alternateIdentifier>
+    <title>Dynamics of large wood in streams: Tagged log inventory, Mack Creek, Andrews Experimental Forest, 1985 to 2008</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stanley</givenName>
+        <givenName>V.</givenName>
+        <surName>Gregory</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;Nash Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1951</phone>
+      <electronicMailAddress>stanley.gregory@oregonstate.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>George</givenName>
+        <givenName>W.</givenName>
+        <surName>Lienkaemper</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW ResearchStation;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7343</phone>
+      <electronicMailAddress>geo@fsl.orst.edu</electronicMailAddress>
+      <electronicMailAddress>george.lienkaemper@usgs.gov</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Linda</givenName>
+        <givenName>R.</givenName>
+        <surName>Ashkenas</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;104 Nash Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1966</phone>
+      <electronicMailAddress>linda.ashkenas@oregonstate.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Linda</givenName>
+        <givenName>R.</givenName>
+        <surName>Ashkenas</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;104 Nash Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1966</phone>
+      <electronicMailAddress>linda.ashkenas@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Stanley</givenName>
+        <givenName>V.</givenName>
+        <surName>Gregory</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;Nash Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1951</phone>
+      <electronicMailAddress>stanley.gregory@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>George</givenName>
+        <givenName>W.</givenName>
+        <surName>Lienkaemper</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW ResearchStation;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7343</phone>
+      <electronicMailAddress>geo@fsl.orst.edu</electronicMailAddress>
+      <electronicMailAddress>george.lienkaemper@usgs.gov</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Randall</givenName>
+        <givenName>C.</givenName>
+        <surName>Wildman</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fish and Wildlife</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1967</phone>
+      <phone>(541) 822-3425</phone>
+      <electronicMailAddress>randy.wildman@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2013-12-17</pubDate>
+    <abstract>
+      <para>Although many studies have identified the characteristics of wood stored in streams, few have attempted to measure the long-term dynamics of large wood.  From 1982-1985, we developed a long-term study of input, storage, decomposition, and redistribution of large wood in Mack Creek. Each year from 1985 to the present, we have surveyed a 1.1 km section of this stream.  This annual survey has allowed us to quantify the standing stocks and characteristics of large wood within the stream and floodplain of an old-growth forest and an older (ca. 1963) clear-cut.  In addition, these data allow us to measure rates of input, fragmentation and movement.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Aquatic decomposition</keyword>
+      <keyword keywordType="theme">Biomass</keyword>
+      <keyword keywordType="theme">Debris dams</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Ecology</keyword>
+      <keyword keywordType="theme">Ecosystem processes</keyword>
+      <keyword keywordType="theme">Floods</keyword>
+      <keyword keywordType="theme">Geomorphology</keyword>
+      <keyword keywordType="theme">Stream ecology</keyword>
+      <keyword keywordType="theme">Wind</keyword>
+      <keyword keywordType="theme">Wood movement</keyword>
+      <keyword keywordType="theme">Woody debris</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>Field notebooks and datasheets stored in 264 Nash Hall, OSU.  Includes original sketch maps ca. 1981-1984 from implementation phase of study.</para> <para>Tagging of wood and layout of the survey grid began in the summer of 1982.  This process was quite time consuming, so the annual surveys did not begin until 1985.  Tagging and grid layout were completed in 1986. </para>
+<para>In 1994, a road culvert between the clearcut and old-growth reaches was removed, along with much of the road fill used to support it.  The culvert was replaced by a bridge.  The gaging station is located less than 20 meters below the downstream end of the culvert, and was also redesigned to handle potentially higher discharges.  The SITECODE "CT" refers to this culvert reach. </para> <para>Charlie Dewberry, Bob Speaker, Karen Luchessa, Jim Sedell, Ron Purcell, Chuck Hawkins, Nick Aumen, Cliff Dahm, Al Steinman, Kelly Moore, Gary Lamberti, Dean DiNicola, Donna D'Angelo, Art McKee, Fred Swanson, John Schwartz, Mindy Simmons, Zack Toledo, Karolyn Kolasa, Matt Booker, Sherri Johnson, Jack Burgess, Lou Reynolds, Mark Meleason, Dan Sobota.  NSF LTER grants; LTER1 Grant (1980)  DEB8012162, LTER2 Grant (1985)  DEB8514325, LTER3 Grant (1990) DEB9011663,  LTER4 Grant (1996) DEB9632921, LTER5 Grant (2002) DEB0218088.</para><para><emphasis>Related Publications</emphasis></para><para>Harmon, M. E.; Franklin, J. F.; Swanson, F. J.; Sollins, P.; Gregory, S. V.; Lattin, J. D.; Anderson, N. H.; Cline, S. P.; Aumen, N. G.; Sedell, J. R.; Lienkaemper, G. W.; Cromack, K. Jr.; Cummins, K. W. 1986. Ecology of coarse woody debris in temperate ecosystems. In: MacFadyen, A.; Ford, E. D., eds. Advances in ecological research. Orlando, FL: Academic Press, Inc.: 15: 133-302.</para><para>Triska, F. J.; Sedell, J. R.; Gregory, S. V. 1982. Coniferous forest streams. In: Edmonds, Robert L., ed. Analysis of coniferous forest ecosystems in the western United States. US/IBP Synthesis Series 14. Stroudsburg, PA: Hutchinson Ross Publishing Company: 292-332.</para><para>Lienkaemper, G. W.; Swanson, F. J. 1987. Dynamics of large woody debris in streams in old-growth Douglas-fir forests. Canadian Journal of Forest Research. 17: 150-156.</para><para>Gregory, Stanley V.; Swanson, Frederick J.; McKee, W. Arthur; Cummins, Kenneth W. 1991. An ecosystem perspective of riparian zones: focus on links between land and water. BioScience. 41(8): 540-551.</para><para>Van Sickle, John; Gregory, Stanley V. 1990. Modeling inputs of large woody debris to streams from falling trees. Canadian Journal of Forest Research. 20(10): 1593-1601.</para><para>Webster, J. R.; Blood, E. R.; Gregory, S. V.; Gurtz, M. E.; Sparks, R. E.; Thurman, E. M. 1985. Long-term research in stream ecology. Bulletin of the Ecological Society of America. 66(3): 346-353.</para><para>Gregory, Stan. 1997. Responses of fish and salamander communities to the flood of '96 [Abstract]. In: Laenen, A., ed. The Pacific Northwest floods of February 6-11, 1996: Proceedings of the Pacific Northwest water issues conference; 1997 October 7-8; Portland, OR.  St. Paul, MN: American Institute of Hydrology: 314.</para><para>Swanson, Frederick J.; Johnson, Sherri L.; Gregory, Stanley V.; Acker, Steven A. 1998. Flood disturbance in a forested mountain landscape. BioScience. 48(9): 681-689.</para><para>Faustini, J. M.; Grant, G. E.; Jones, J. A. 1997. Influence of hillslope processes and large woody debris on channel morphology and channel change in a forested third-order mountain stream [Abstract]. In: Eos, Transactions, American Geophysical Union: AGU 1997 fall meeting; 1997 December 8-12; San Francisco, CA. Washington, DC: American Geophysical Union: F307.</para><para>Meleason, Mark A.; Gregory, Stanley V.; Bolte, John. 2002. Simulation of stream wood source distance for small streams in the western Cascades, Oregon. In: Laundenslayer, William F. Jr.; Shea, Patrick J.; Valentine, Bradley E.; Weatherspoon, C. Phillip; Lisle, Thomas E., tech. coords. Proceedings of the symposium on the ecology and management of dead wood in western forests; Reno, NV. Gen. Tech. Rep. PSW-GTR-181. Albany, CA: Pacific Southwest Research Station, Forest Service, U.S. Department of Agriculture: 457-466.</para><para>Acker, S. A.; Gregory, S. V.; Lienkaemper, G.; McKee, W. A.; Swanson, F. J.; Miller, S. D. 2003. Composition, complexity, and tree mortality in riparian forests in the central western Cascades of Oregon. Forest Ecology and Management. 173: 293-308.</para><para>Meleason, M. A.; Gregory, S. V.; Bolte, J. 2000. Simulation of large wood dynamics in small streams of the Pacific Northwest [Abstract]. In: International conference on wood in world rivers; 2000 October 23-27; Corvallis, OR. Corvallis, OR: Oregon State University: 39.</para><para>Faustini, J. M.; Jones, J. A. 2000. Influence of large wood on the morphology and dynamics of a 3rd order mountain stream, western Cascades, Oregon [Abstract]. In: International conference on wood in world rivers; 2000 October 23-27; Corvallis, OR. Corvallis, OR: Oregon State University: 32.</para><para>Gregory, Stan. 2000. Modeling dynamics of wood in streams and rivers [Abstract]. In: International conference on wood in world rivers; 2000 October 23-27; Corvallis, OR. Corvallis, OR: Oregon State University: 10.</para><para>Meleason, Mark Alan. 2001. A simulation model of wood dynamics in Pacific Northwest streams. Corvallis, OR: Oregon State University. 158 p. Ph.D. dissertation.</para><para>Faustini, John M.; Jones, Julia A. 2003. Influence of large woody debris on channel morphology and dynamics in steep, boulder-rich mountain streams, western Cascades, Oregon. Geomorphology. 51: 187-205 .</para></additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+<para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+<para><itemizedlist>
+		<listitem><para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para></listitem>
+		<listitem><para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para></listitem>
+		<listitem><para> not redistribute original data and documentation; 
+		</para></listitem>
+		<listitem><para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para></listitem>
+		<listitem><para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para></listitem>		
+</itemizedlist></para>
+<para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+<para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+<para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para></intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=GS006&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Mack Creek, H. J. Andrews Experimental Forest, Western Oregon</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.16800000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.16210000</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.22170000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.21425000</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>728</altitudeMinimum>
+            <altitudeMaximum>840</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1985-10-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2008-11-10</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To provide a long-term record of large wood pieces in both an undisturbed and a modified stream channel.  Most work on in-stream wood uses a "snapshot" approach, and does not provide any temporal information.  This study was designed to monitor in-stream wood over a long time scale.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2005-04-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Moved database to SQL Server</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2005-04-19</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Update database with 2005 and 2006 data.</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>2007-08-31</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated database with 2008 data (whole database is replaced with an update)</changeScope>
+        <oldValue>Version5</oldValue>
+        <changeDate>2009-01-20</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>SITECODE is changed to place_keyword domain from an enumerated domain. DBCODE and ENTITY are added as attributes.</changeScope>
+        <oldValue>Version8</oldValue>
+        <changeDate>2013-12-17</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Linda</givenName>
+        <givenName>R.</givenName>
+        <surName>Ashkenas</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;104 Nash Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1966</phone>
+      <electronicMailAddress>linda.ashkenas@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Stanley</givenName>
+        <givenName>V.</givenName>
+        <surName>Gregory</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;Nash Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1951</phone>
+      <electronicMailAddress>stanley.gregory@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - GS006</para>
+          <para>Each piece of wood greater than 10 cm in diameter and 1 m in length is tagged in 6 locations. Holes are drilled through the bark in each "corner" of the log and round numbered tags, with letters A, B, C, or D, are nailed into each recess.  Two surface tags, one metal and the other plastic, are nailed (four nails per tag) on opposite sides of the log.  Tag colors may be orange, blue or white. During the annual autumn resurvey, investigators search for all logs within the study section.  The status of each piece is recorded; if the log is in the same reach, location and position as the previous year, other attributes are presumed to also be unchanged.  Logs which have moved within the study grid have all attributes recorded.  New input (from windthrow, snowthrow, or other mechanisms) are tagged (see above) and all attribute information recorded.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Mid-elevation, third-order stream.  Gradient of 8%- 15%.  Lower 350 m is in portion clearcut in 1963, with stream gage and flume at the top of the reach.  Upper 750 m is in 500 year-old old-growth stand dominated by Tsuga heterophylla (TSHE), Psuedotsuga menziesii (PSME), and Thuja plicata (THPL).  Study area consists of stream channel plus adjacent floodplain, and encompasses a riparian reference  stand (TV010), monumented channel cross- sections (GS002), stream discharge (HF004), water chemistry (CF002), and meteorology (MS001).</para> <para>Sampling frequency: Annual</para></description>
+        </studyExtent>
+        <samplingDescription>
+          <para>The study population consists of all pieces of wood in the stream channel and floodplain in the1.1 km study section.  Only logs greater than 10 cm in diameter and 1 m in length are tagged initially (breakage may result in smaller pieces). Each piece of wood is receives 6 colored and numbered tags, and the following attributes described: location within the survey grid, longitudinal position, geomorphic location, log dimension, decay class, moss cover, origin, rood wad, channel angle, proportion of volume in wetted channel, active channel, and floodplain.  The entire reach is re-inventoried annually in October.  New or moved pieces are tagged and complete descriptions recorded.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek wood: clear-cut forest, bottom of wood reach (0 meters)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16800000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16800000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22170000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22170000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>728</altitudeMinimum>
+                <altitudeMaximum>728</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek wood: culvert and bridge, between clear-cut and old-growth wood reaches (~360 meters)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16213300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16213300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21883300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21883300</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek wood: old-growth forest, top of wood reach (1020 meters)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16711700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16711700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21425000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21425000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>840</altitudeMinimum>
+                <altitudeMaximum>840</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+        </address>
+        <phone>
+        </phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para> 
+
+<para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+
+<para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para></abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor name="Long-Term Ecological Research" citableClassificationSystem="false">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="GS00601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>GS00601</entityName>
+      <entityDescription>Tagged log inventory at Mack Creek, HJA: </entityDescription>
+      <physical>
+        <objectName>GS00601_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://andlter.forestry.oregonstate.edu/ltermeta/ltersearch/dataaccess.aspx?docid=GS00601_v2.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1985-10-20</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2008-11-10</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="GS00601.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GS006</code>
+                    <definition>FSDB Data set code GS006</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Location of study site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CC</code>
+                    <definition>Mack Creek wood: clear-cut forest, bottom of wood reach (0 meters)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT</code>
+                    <definition>Mack Creek wood: culvert and bridge, between clear-cut and old-growth wood reaches (~360 meters)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OG</code>
+                    <definition>Mack Creek wood: old-growth forest, top of wood reach (1020 meters)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year surveyed</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>number</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">
+                  </minimum>
+                  <maximum exclusive="false">
+                  </maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.GRID">
+          <attributeName>GRID</attributeName>
+          <attributeDefinition>Reach and section within grid</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>10.000000</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">-30.0000</minimum>
+                  <maximum exclusive="false">1030.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.LOGID">
+          <attributeName>LOGID</attributeName>
+          <attributeDefinition>Log identification (tag color, number, letter (letter indicates log is broken &amp; at least one tag is missing))</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Log identification (tag color, number, letter (letter indicates log is broken &amp; at least one tag is missing))</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.STATUS">
+          <attributeName>STATUS</attributeName>
+          <attributeDefinition>Condition of log during year surveyed</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Found</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Likely still in previous location; no search due to large size &amp; floodplain location OR deep snow (2003)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Moved</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MR</code>
+                    <definition>Moved and retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NR</code>
+                    <definition>New and retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Original</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OR</code>
+                    <definition>Original and retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Probable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Overlooked</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VR</code>
+                    <definition>Overlooked and retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Not found</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XMR</code>
+                    <definition>Not found, moved, then retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XR</code>
+                    <definition>Not found and retired</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>New input</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.FRAGCODE">
+          <attributeName>FRAGCODE</attributeName>
+          <attributeDefinition>Fragmentation code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Child piece of fragmented log (portion moved from original position, or smaller of movers)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Not fragmented</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Parent piece of fragmented log (in original position or, if mover, larger than child piece)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.LOCATION">
+          <attributeName>LOCATION</attributeName>
+          <attributeDefinition>Geomorphic location code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Completely on bank in island reach</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Anchored on or in bank</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Spanning active channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Completely in active channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Completely on island</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Anchored on inboard bank of island</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Completely in side channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Anchored on outboard bank of island</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Side channel spanner</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>Completely on bank in island reach</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.POSITION">
+          <attributeName>POSITION</attributeName>
+          <attributeDefinition>Geomorphic position clode</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Left side of channel (facing upstream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Right side of channel (facing upstream)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Center of channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Head of island</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>None applicable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.SIGHTTAG">
+          <attributeName>SIGHTTAG</attributeName>
+          <attributeDefinition>Sight tag from which bearing is shot</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MA</code>
+                    <definition>Bearing taken from end of log where A tag should be located if the entire log were present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MB</code>
+                    <definition>Bearing taken from end of log where B tag should be located if the entire log were present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC</code>
+                    <definition>Bearing taken from end of log where C tag should be located if the entire log were present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MD</code>
+                    <definition>Bearing taken from end of log where D tag should be located if the entire log were present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Bearing taken from A tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AC</code>
+                    <definition>Bearing taken from AC end of log</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bearing taken from B tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BD</code>
+                    <definition>Bearing taken from BD end of log</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Bearing taken from C tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Bearing taken from D tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AXIS</code>
+                    <definition>Bearing taken along primary log axis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BANK</code>
+                    <definition>Bearing taken from nearest stream bank</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VERT</code>
+                    <definition>Log vertical, no bearing possible</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Bearing not possible due to orientation of log and/or missing sighttags</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Bearing taken, but sighttag not recorded</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.BEARING">
+          <attributeName>BEARING</attributeName>
+          <attributeDefinition>Compass bearing along one side of log</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees azimuth</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">360.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.ORIENT">
+          <attributeName>ORIENT</attributeName>
+          <attributeDefinition>Orientation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Normal to channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Parallel to channel</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>No particular orientation</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.ROOTWAD">
+          <attributeName>ROOTWAD</attributeName>
+          <attributeDefinition>Rootwad (present or absent)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Rootwad present</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Rootwad absent</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.UPSTREAM">
+          <attributeName>UPSTREAM</attributeName>
+          <attributeDefinition>Upstream-most tag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MA</code>
+                    <definition>A tag would be upstream-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MB</code>
+                    <definition>B tag would be upstream-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC</code>
+                    <definition>C tag would be upstream-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MD</code>
+                    <definition>D tag would be upstream-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>A tag is upstream most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>B tag is upstream most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>C tag is upstream most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>D tag is upstream most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Upstream determination not possible due to orientation of log or missing tags</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.INBOARD">
+          <attributeName>INBOARD</attributeName>
+          <attributeDefinition>Inboard-most tag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MA</code>
+                    <definition>A tag would be inboard-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MB</code>
+                    <definition>B tag would be inboard-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MC</code>
+                    <definition>C tag would be inboard-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MD</code>
+                    <definition>D tag would be inboard-most, but tag is missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>A tag is inboard most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>B tag is inboard most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>C tag is inboard most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>D tag is inboard most tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Inboard determination not possible due to orientation of log or missing tags</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.ORIGIN">
+          <attributeName>ORIGIN</attributeName>
+          <attributeDefinition>Origin of log if known</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Original position (fell in or missing in earlier years)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Floated</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Slash</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.ACCUM">
+          <attributeName>ACCUM</attributeName>
+          <attributeDefinition>Log in accumlation (5 or more logs, must be touching) or not</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>In an accumulation (5 or more logs touching)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Not in an accumulation</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.DECAY">
+          <attributeName>DECAY</attributeName>
+          <attributeDefinition>Decay class (based on Maser &amp; Sedell)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Bark firmly attached</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1.5</code>
+                    <definition>Intermediate between classes 1 and 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Bark loosely attached</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2.5</code>
+                    <definition>Intermediate between classes 2 and 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>No bark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3.5</code>
+                    <definition>Intermediate between classes 3 and 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Punky</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4.5</code>
+                    <definition>Intermediate between classes 4 and 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>No bark, extensive decay, log fragmenting and no longer a cylinder, soon to become soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.STABILITY1">
+          <attributeName>STABILITY1</attributeName>
+          <attributeDefinition>Stability code 1 -- unstable</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>No stabilizing factor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Some other stabilizing factor</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.STABILITY2">
+          <attributeName>STABILITY2</attributeName>
+          <attributeDefinition>Stability code 2 -- stabilized by rock</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Log stabilized by boulder</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Log not stabilized by boulder</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.STABILITY3">
+          <attributeName>STABILITY3</attributeName>
+          <attributeDefinition>Stability code 3 -- stabilized by another log</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Log stabilized by other logs</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Log not stabilized by other logs</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.STABILITY4">
+          <attributeName>STABILITY4</attributeName>
+          <attributeDefinition>Stability code 4 -- stabilized by tree</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Log stabilized by tree (bole or roots)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Log not stabilized by tree</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.MOSS">
+          <attributeName>MOSS</attributeName>
+          <attributeDefinition>Moss percent cover code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Less than 5 percent of log covered by moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Between 5 and 25 percent of log covered by moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Between 25 and 75 percent of log covered by moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>More than 75 percent of log covered with moss</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.DIAMETER">
+          <attributeName>DIAMETER</attributeName>
+          <attributeDefinition>Diameter in middle of log</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">2.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.LENGTH">
+          <attributeName>LENGTH</attributeName>
+          <attributeDefinition>Length</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.010000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">51.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.LENGPLUS">
+          <attributeName>LENGPLUS</attributeName>
+          <attributeDefinition>Length plus (one or both ends buried)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>One or both ends of log buried</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Neither end of log buried</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.PCTZONE1">
+          <attributeName>PCTZONE1</attributeName>
+          <attributeDefinition>Percent of log in zone 1 (wetted channel) (Beschta)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.PCTZONE2">
+          <attributeName>PCTZONE2</attributeName>
+          <attributeDefinition>Percent of log in zone 2 (active channel) (Beschta)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.PCTZONE3">
+          <attributeName>PCTZONE3</attributeName>
+          <attributeDefinition>Percent of log in zone 3 (suspended above active channel) (Beschta)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.PCTZONE4">
+          <attributeName>PCTZONE4</attributeName>
+          <attributeDefinition>Percent of log in zone 4 (floodplain) (Beschta)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="GS00601.COMMENTS">
+          <attributeName>COMMENTS</attributeName>
+          <attributeDefinition>Notes</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">varchar(254)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="GS00601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>GS00601.GRID</attributeReference>
+            <attributeReference>GS00601.LOGID</attributeReference>
+            <attributeReference>GS00601.YEAR</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="GS00601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>GS00601.GRID</attributeReference>
+            <attributeReference>GS00601.LOGID</attributeReference>
+            <attributeReference>GS00601.SITECODE</attributeReference>
+            <attributeReference>GS00601.STATUS</attributeReference>
+            <attributeReference>GS00601.YEAR</attributeReference>
+            <attributeReference>GS00601.DBCODE</attributeReference>
+            <attributeReference>GS00601.ENTITY</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>0</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit name="degrees azimuth" unitType="azimuth" id="degrees azimuth" parentSI="unknown" multiplierToSI="1">
+          <stmml:description>degrees azimuth (0-360)</stmml:description>
+        </stmml:unit>
+        <stmml:unit name="meters" unitType="length" id="meters" parentSI="meter" multiplierToSI="1">
+          <stmml:description>meter; SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit name="percent" unitType="dimensionless" id="percent" parentSI="dimensionless" multiplierToSI="1">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit name="number" unitType="dimensionless" id="number" parentSI="dimensionless" multiplierToSI="1">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

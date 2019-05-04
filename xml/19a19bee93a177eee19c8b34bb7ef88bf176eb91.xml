@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3162.7"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HS004</alternateIdentifier>
+    <title>Bedload data from sediment basin surveys in small gauged watersheds in the Andrews Experimental Forest, 1957 to present</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gordon</givenName>
+        <givenName>E.</givenName>
+        <surName>Grant</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7328</phone>
+      <electronicMailAddress>gordon.grant@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>ggrant@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/wpg/gordon.htm</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Craig</givenName>
+        <surName>Creel</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7326</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>ccreel@fs.fed.us</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Greg</givenName>
+        <surName>Downing</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Forestry Sciences Lab;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97333</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7283</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>greg.downing@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Julia</givenName>
+        <givenName>A.</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1224</phone>
+      <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+      <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Frederick</givenName>
+        <givenName>J.</givenName>
+        <surName>Swanson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7355</phone>
+      <electronicMailAddress>fred.swanson@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2016-08-25</pubDate>
+    <abstract>
+      <para>Forest disturbance, including timber harvest and natural disturbances, influence the rate and timing of exports from headwater basins, including dissolved, suspended, and bed load.  Bedload is the material that is bounced or dragged along the base of the channel, and ranges from gravel to boulder size. This study examines the temporal (annual) patterns of export of bedload from small headwater basins, including both harvested and reference (unharvested) basins.  Sediment debris basins were constructed below the stream gage in each basin, and these basins and the deposits of sediment within them are re-surveyed or emptied annually to measure bedload sediment production. Bedload has been measured in two reference basins (WS2 and WS9) and three harvested basins (WS1, WS3, and WS10) from 1957 to the present. Data collection is ongoing, at an annual time step. Data provided include the watershed name, year, and bedload sediment.  These data display both the chronic production of sediment, as well as pulsed, episodic bedload from landslides within the contributing basins.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Debris slides/flows</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Erosion</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="theme">Sediment budgets</keyword>
+      <keyword keywordType="theme">Sediment yield</keyword>
+      <keyword keywordType="theme">Inorganic nutrients</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>WS 1, 2, 3 data has been summarized by annual reports on file at Corvallis
+ FSL 331.   Annual calculations were originally hand calculated, 1957-1978;
+ calculated with hp 97 desk calculator,1979-1985, and calculated with Foxpro programs, 1986-present.  After 1990, field recorders are used to record the measurements (CMT recorders (1990) and Husky Hunter recorders (1994)).  
+
+WS 3 debris basin reconstructed after original installation destroyed by a
+ slide in December, 1964.  WS 1 debris basin is not believed to have
+ captured all bedload material in the immediate years following burning in
+ fall, 1966.</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Fredriksen, R. L. 1965. Sedimentation after logging road construction in a small western Oregon watershed. In: Proceedings of the federal inter-agency sedimentation conference; 1963; [Place of meeting unknown]. Misc. Publ. 970. Washington, DC: U.S. Department of Agriculture, Forest Service: 56-59.</para>
+      <para>Rothacher, Jack; Dyrness, C. T.; Fredriksen, Richard L. 1967. Hydrologic and related characteristics of three small watersheds in the Oregon Cascades. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 54 p.</para>
+      <para>Fredriksen, R. L. 1970. Erosion and sedimentation following road construction and timber harvest on unstable soils in three small western Oregon watersheds. Res. Pap. PNW-104. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station. 15 p.</para>
+      <para>Fredriksen, R. L. 1973. Impact of forest management on stream water quality in western Oregon. In: Mater, Milton H., ed. Pollution abatement and control in the forest products industry: Proceedings; [1971-1972]; [Place of publication unknown]: [Publisher unknown]: 37-50.</para>
+      <para>Swanson, Frederick J.; Fredriksen, Richard L. 1982. Sediment routing and budgets: implications for judging impacts of forestry practices. In: Swanson, Frederick J.; Janda, Richard J.; Dunne, Thomas; Swanston, Douglas N., eds. Sediment budgets and routing in forested drainage basins. Gen. Tech. Rep. PNW-141. Portland, OR: U.S. Department of Agriculture, Forest Service, Pacific Northwest Forest and Range Experiment Station: 129-137.</para>
+      <para>Grant, G. E.; Wolff, A. L. 1991. Long-term patterns of sediment transport after timber harvest, western Cascade Mountains, Oregon, USA. In: Peters, N. E.; Walling, D. E., eds. Sediment and stream water quality in a changing environment: trends and explanation, Proceedings of the Vienna IAHS symposium , Vienna, Austria. IAHS Publication No. 203. Oxfordshire, United Kingdom: International Association of Hydrological Sciences: 31-40. [Online]. Available: http://www.cig.ensmp.fr/~iahs/redbooks/203.htm</para>
+      <para>Dyrness, Ted; Swanson, Fred; Grant, Gordon; Gregory, Stan; Jones, Julia; Kurosawa, Kyoshi; Levno, Al; Henshaw, Don; Hammond, Hazel. 1996. Flood of February, 1996 in the H.J. Andrews Experimental Forest.  [Place of publication unknown]: [Publisher unknown]. [http://andrewsforest.oregonstate.edu/pubs/webdocs/reports/flood.cfm?topnav=55 (8 June 2011)].</para>
+      <para>
+        <emphasis>Related Files</emphasis>
+      </para>
+      <para>Title: WS3Sed96</para>
+      <para>Description: Calculations for 1996 Slide Deposit at H.J.A. Watershed #3</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hs04/ws3sed96.txt</para>
+      <para>Title: Problems</para>
+      <para>Description: Description of problems encountered</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/hs04/problems.txt</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=HS004&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>HJ Andrews Experimental Forest, Watersheds 1, 2, 3, 9, and 10</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.73491200</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+          <southBoundingCoordinate>43.00528900</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1958-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-09-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>The objective of this study is to quantify the effect of road construction, timber harvest and post-harvest burning on bedload production from small headwater basins. The study design (before/after, control/impacted) is intended to dsplay the effects of anthropogenic disturbance on bedload sediment production over multiple decades.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Database established in SQLServer as an "old database".  That is, legacy web pages are still in use and complete migration is still needed.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2003-10-01</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Created metadata in SQL. Uploaded data into SQL Server (format 2 only).  Removed link from "old databases".</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2011-02-17</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Reviewed dataset to upload to PASTA.  Changed place_keyword_type_id=2 for study sites in catalog_place_keyword.  Update entity 2 CSV file with new deliminator.</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2015-11-19</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HS004</para>
+          <para>The bottom of these basins is profiled annually during low streamflow. Working from a permanent benchmark near each site's gaging station, a
+level, leveling rod, and tape are used to measure bottom elevation (.01 ft)
+at each intersection of a 3-foot grid (2-foot grid on WS 3) over the
+catchment basin.  A tape is stretched across the basin from known points
+along the baselines to locate the grid points.  The basins are cleaned
+annually and resurveyed to provide a base elevation for the following year.
+Local contractors are employed and usually a front-end loader or
+clam-shovel is used to clean the basin.</para>
+          <para>Sediment basin surveys are conducted annually on the three watersheds. Basin surveys have been designed to determine a change in average bottom elevation between annual surveys.  Monumented cross sections are spaced at regular intervals along the cross section lines, three foot intervals at WS1 and WS 2, and two foot intervals at WS 3.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>WS 2 (149 ac., 60 ha), control, undisturbed; WS 1 (239 ac., 96 ha), 100% clearcut by Wyssen skyline system, fall, 1962 to summer,1966, debris burning Oct., 1966, planting; WS 3 (250 acres, 101 ha), 1.65 miles of roads constructed in 1959, high-lead logging winter 1962-63, three small clearcuts (13, 20, 28  ac), 25% of watershed, debris burning Sept., 1963; WS 9 (9 ha), control, undisturbed; WS 10 (10 ha), clearcut, no burning 1975.</para>
+            <para>Sampling frequency: annual surveys</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Sediment catchment basins were constructed below the gaging station on each stream in 1955.  WS 1 and WS 2 are earthen dams, not lined with concrete, and with no associated diversion structure.  Neither of these basins serve as the spillway for streamflow.  WS 1 basin was significantly altered in basin collection area following the February, 1996 flood.  The WS 3 basin had a wooden containment structure.  Following debris torrents in December, 1964, the catchment basin was remodeled.  Further rebuilding was necessary in 1986.  In February, 1996, a debris torrent completely destroyed the basin.  In February, 1998, the basin was reconstructed.  The newer basin is an earthen dam covered with concrete, is concrete lined and serves as the spillway.  A stream diversion structure is established at the entry.  The basin is configured to be cleaned on a storm by storm basin.</para>
+          <para>
+WS 2 is the control watershed, with WS 1 (100% skyline harvesting) and WS 3 (patch-cut high-lead logging) as treatment watersheds. WS 3 has a
+preliminary road construction treatment 3 years before logging.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  2</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24397600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22974100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21338500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20617800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1079</altitudeMinimum>
+                <altitudeMaximum>1079</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  3</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24194900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22402200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21994300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20803100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1080</altitudeMinimum>
+                <altitudeMaximum>1080</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  9</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25781500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25151500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20393300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20111000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>731</altitudeMinimum>
+                <altitudeMaximum>731</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed 10</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25996600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25443900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22015200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21678600</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>679</altitudeMinimum>
+                <altitudeMaximum>679</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HS00402">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>HS00402</entityName>
+      <entityDescription>Annual bedload: Accumulated sediment volume between surveys: </entityDescription>
+      <physical>
+        <objectName>HS00402.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3162/7/4bc931d272dea382d2c15057617d24ab</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1958-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2009-09-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HS00402.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>FSDB Database Study Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HS004</code>
+                    <definition>FSDB database code HS004</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.SITE">
+          <attributeName>SITE</attributeName>
+          <attributeDefinition>Study site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HJA</code>
+                    <definition>Andrews Experimental Forest (HJA)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC</code>
+                    <definition>Coyote Creek Watersheds</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.WATERSHED">
+          <attributeName>WATERSHED</attributeName>
+          <attributeDefinition>Watershed Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS01</code>
+                    <definition>Andrews Watershed  1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS10</code>
+                    <definition>Andrews Watershed 10</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS02</code>
+                    <definition>Andrews Watershed  2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS03</code>
+                    <definition>Andrews Watershed  3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS09</code>
+                    <definition>Andrews Watershed  9</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC01</code>
+                    <definition>Coyote Creek Watershed 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC02</code>
+                    <definition>Coyote Creek Watershed 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC03</code>
+                    <definition>Coyote Creek Watershed 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC04</code>
+                    <definition>Coyote Creek Watershed 4</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.WATERYEAR">
+          <attributeName>WATERYEAR</attributeName>
+          <attributeDefinition>Water year of current  survey (Oct 1-Sep 30); surveys are conducted in August during low flow</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>YYYY</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1957.0000</minimum>
+                  <maximum exclusive="false">2009.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.ACCUM">
+          <attributeName>ACCUM</attributeName>
+          <attributeDefinition>Annual bedload: sediment accumulated between two annual surveys</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,3)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterCubedPerHectare</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">205.2200</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HS00402.ACCUM_CODE">
+          <attributeName>ACCUM_CODE</attributeName>
+          <attributeDefinition>Accumulated bedload code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good Value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing sediment accumulation for current year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Sediment accumulation value for current year is from a debris flow deposit.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Sediment accumulation value for current year is questionable.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Logging occured in watershed during current wateryear.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HS00402.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HS00402.WATERSHED</attributeReference>
+            <attributeReference>HS00402.WATERYEAR</attributeReference>
+            <attributeReference>HS00402.SITE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HS00402.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HS00402.STCODE</attributeReference>
+            <attributeReference>HS00402.FORMAT</attributeReference>
+            <attributeReference>HS00402.WATERSHED</attributeReference>
+            <attributeReference>HS00402.WATERYEAR</attributeReference>
+            <attributeReference>HS00402.ACCUM</attributeReference>
+            <attributeReference>HS00402.SITE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>263</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="YYYY" name="year (yyyy)"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime">
+          <stmml:description>year (4 character) portion of date</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="meterCubedPerHectare" multiplierToSI="0.0001"
+          name="cubic meters per hectare"
+          parentSI="meterCubedPerMeterSquared" unitType="volumetricArea">
+          <stmml:description>cubic meters per hectare</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

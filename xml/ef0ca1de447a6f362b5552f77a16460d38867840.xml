@@ -1,0 +1,3452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.1.21" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/006bae44c88f7d8b6fabe8cfebee86ff</alternateIdentifier>
+    <shortName>knb-lter-bnz.1.21</shortName>
+    <title>Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max)  at 50 cm and 150 cm from 1988 to Present</title>
+    <creator>
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Van Cleve</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory University of Alaska Fairbanks O'Neill Bldg</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <!--No phone info in Database  ( pers/tel1, tel2 or cell when lead_contact=1 )-->
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <electronicMailAddress>kvancl@rockisland.com</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>F.</givenName>
+        <givenName>Stuart</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 455-6408</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://terrychapin.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <givenName>W.</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-0180</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7153</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://people.iab.uaf.edu/roger_ruess</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Brian</givenName>
+        <surName>Charlton</surName>
+      </individualName>
+      <positionName>BNZ LTER Lead Field Tech </positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-6780</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5104</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Hollingsworth</surName>
+      </individualName>
+      <positionName>Bonanza Creek LTER Site Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7470</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Yarie</surName>
+      </individualName>
+      <positionName>Professor of Silviculture</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory; Department of Forest Sciences; SNRAS; University of Alaska Fairbanks</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5650</phone>
+      <phone phonetype="fax">(907) 474-6184</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Karl</givenName>
+        <surName>Olson</surName>
+      </individualName>
+      <positionName>Technician</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5540</phone>
+      <!--No fax info on file for this person-->
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2017-12-29</pubDate>
+    <abstract>
+      <para>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).  Any temperature data collected in this area is reported here.  This includes Level 3 weather stations as well as smaller scale and temporal studies.  This data can be sorted and viewed by site, year, hour, height of measurement, mean, min, and max value. Updates of each site are different since some are still on going while other had only a 2-3 year life cycle.  This information can be found in the site descriptions and in the metadata.  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>air temperature</keyword>
+      <keyword>air</keyword>
+      <keyword>BCEF</keyword>
+      <keyword>Bonanza Creek Experimental Forest</keyword>
+      <keyword>temperature</keyword>
+      <keyword>air temperature</keyword>
+      <keyword>weather</keyword>
+      <keyword>climate</keyword>
+      <keyword>degree days</keyword>
+      <keywordThesaurus>Climate</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/1</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3537914</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1426888</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7666796</northBoundingCoordinate>
+          <southBoundingCoordinate>64.67834557</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1988-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>corrections</title>
+          <para>Flags denote condition of data. G = Good (flag not shown in the data file) M = Missing Q = Questionable (Use data at own risk) E = EstimatedMissing data summary:1988:FP3A:6/7/1988 - Site installed6/22/1988 - 6/27/1988 DSP(Data storage pack) error, not logging.LTER1:6/1/1988 - Site installed8/18/1988 Easylogger problems9/17/1988 - 10/4/1988 DSP error, not loggingLTER2:6/2/1988 - Site installed9/7/1988 - 9/15/1988 DSP error, not loggingUP2A:6/3/1988 - Site installed1989:FP1A:6/1/1989 - Site installed11/16/1989 - 11/21/1989 logger moved temporarily to another site.FP2A:6/06/89 - Site installed6/14/1989 - 7/5/1989 logger moved temporarily to another site.7/19/1989 - 8/21/1989 logger moved temporarily to another site.FP3A:7/18/89 - AT sensor problemsFP4A:5/16/1989 - Site installedFP5A:7/18/1989 - Site installed7/23/1989 - 7/24/1989 Easylogger problems8/16/1989 - 8/21/1989 logger moved temporarily to another site.LTER1:6/13/1989 Easylogger problems, replaced logger7/5/1989 AT sensor problems.9/6/1989 AT sensor problems.LTER2:3/25/1989 - 3/28/1989 DSP error,not logging6/22/1989 - 6/26/1989 Dead EZlogger.8/8/1989 - 8/14/1989 Dead EZlogger.10/4/1989 - 10/12/1989 DSP error, not logging.UP1A:5/11/1989 - Site installedUP2A:5/4/1989 - 5/9/1989 DSP error, not logging6/15/1989 logger moved to another location.UP3A:10/4/1989 - 12/31/1989 DSP error, not logging1990:FP2A:11/11/1990 - 11/13/1990 DSP error, not logging11/23/1990 - 12/4/1990 Dead EZloggerFP5A:2/12/1990 - 3/6/1990 DSP full10/27/1990 - 12/31/1990 Dead BatteryLTER1:8/16/1990 - 9/5/1990 AT sensor problems, replaced12/22/1990 - 12/31/1990 AT sensor problems.UP1A:5/4/1990 - 5/9/1990 DSP error, not loggingUP2A:3/11/1990 - 3/13/1990 DSP fullUP3A:2/28/1990 - 3/20/1990 Dead EZlogger8/30/1990 - 9/4/1990 Dead EZlogger12/23/1990 - 12/31/1990 DSP full1991:FP1A:5/5/1991 - 5/14/1991 Site flooded, EZlogger destroyedFP4A:7/10/1991 - 7/16/1991 Dead EZloggerFP5A:1/1/1991 - 1/22/1991 Dead battery1/25/91 - 1/26/91 AT sensor not working properly.2/9/1991 - 3/19/1991 Dead EZlogger11/13/1991 - 12/31/1991 Dead batteryLTER1:1/1/1991 - 1/18/1991 Intermittent AT sensor wiring problem1/19/1991 - 1/23/1991 Dead EZlogger3/8/1991 - 3/12/1991 Dead EZlogger4/4/1991- 4/9/1991 Dead EZloggerLTER2:10/23/1991 - 10/28/1991 Dead EZlogger12/18/1991 - 12/22/1991 Dead EZloggerUP1A:12/18/1991 - 12/31/1991 Dead EZloggerUP3A:1/1/1991 - 3/10/1991 Dead EZlogger1992:FP1A:2/11/1992 - 4/2/1992 Intermittent AT sensor problems4/15/1992 - 4/27/1992 DSP error,not logging4/28/1992 - 5/27/1992 EZlogger removed (potential flooding)5/29/1992 - 6/10/1992 EZlogger removed (potential flooding)5/29/1992 - 6/10/1992 Datapod removed (potential flooding)FP5A:1/1/1992 - 2/24/1992 Dead battery3/3/1992 - 3/9/1992 Dead EZloggerLTER1:6/13/1992 - 6/15/1992 Dead EZlogger8/18/1992 - 8/22/1992 Dead EZloggerUP3A:7/8/1992 - 7/20/1992 Dead EZlogger1993:FP1A:1/2/1993 - 3/15/1993 Intermittent AT sensor problemsFP3A:6/3/1993 - 7/6/1993 DSP error, not loggingFP5C:8/11/1993 - Site installed11/17/1993 12/31/1993 Dead batteryLTER1:6/23/1993 - 6/28/1993 AT sensor wiring problems11/20/1993 - 11/23/1993 Dead EZloggerUP1A:2/20/1993 - 3/2/1993 DSP full4/18/1993 - 5/5/1993 Dead battery11/19/1993 - 11/30/1991 Dead batteryUP2A:4/8/1993 - 5/10/1993 Dead EZloggerUP3A:11/18/1993 - 12/01/1993 Dead EZlogger12/15/1993 - 12/31/1993 Dead EZlogger1994:FP3A:8/4/1994 - 9/6/1994 DSP errorFP4A:7/7/1994 - 7/12/1994 DSP errorFP5C:1/1/1994 - 2/9/1994 Dead battery2/10/1994 - 5/18/1994 AT sensor problems2/12/1994 - 2/24/1994 Easylogger not functioning, replaced7/14/1994 - 7/20/1994 Data storage pack error, not logging LTER1:8/3/1994 installed Campbell 21X10/11/1994 - 10/12/1994 programming errorLTER2:1/12/1994 - 1/27/1994 loose wire UP1A:8/30/1994 - 9/9/1994 DSP error11/23/1994 - 12/02/1994 Dead battery12/22/1994 - 12/31/1994 DSP errorUP2A:1/6/1994 - 2/2/1994 Dead batteryUP3A:1/1/1994 - 1/12/1994 Dead EZlogger2/14/1994 - 3/10/1994 Dead EZlogger7/6/1994 - 7/11/1994 DSP error1995:FP1A:1/27/1995 - 1/31/1995 Dead EZlogger3/9/1995 - 3/21/1995 Dead EZlogger6/21/1995 Campbell cr10 and HMP Vaisala sensor installed11/29/1995 installed HMP-35C Vaisala sensorFP2A:5/23/1995 Campbell cr10 installedFP3A:5/23/1995 Campbell cr10 installedFP4A:5/31/1995 Campbell cr10 installedFP5A:5/31/1995 Campbell cr10 installed7/27/1995 AT sensor problemFP5C:3/29/1995 - 5/10/1995 DSP error, not logging7/12/1995 Campbell cr10 and HMP-C Vaisala installedLTER2:3/2/1995 - 3/7/1995 Dead battery4/6/1995 - 4/18/1995 DSP error6/15/1995 Campbell 21x installed6/15/1995 - 6/20/1995 programming errors7/14/1995 - 7/15/1995 logger problemsUP1A:1/1/1995 - 1/11/1995 DSP error6/6/1995 installed Campbell cr10 and HMP-C Vaisala9/9/1995 - 9/25/1995 power surging problems with solar panel. Broken wires shorting.UP2A:1/31/1995 EZlogger problems2/2/1995 - 2/28/1995 DSP error, not logging6/6/1995 installed Campbell cr10 and HMP-C VaisalaUP3A:3/9/1995 - 4/6/1995 Dead EZlogger6/13/1995 Campbell cr10 and HMP-C Vaisala installed1996:FP1A: 5/1/1996 - 5/7/1996 logger removed during breakup. 6/18/1996 - 6/26/1996 incomplete dump resulted in lost data.FP2A:4/27/1996 - 5/1/1996 intermittent AT sensor problemFP5C: 11/25/1996 - 12/31/1996 dead battery.LTER1: 9/10/1996 - 4 hours missing during change to winter program11/21/1996 - 16 hours missing, sensor problemsLTER2: 9/9/1996 - 18 hours missing, lost data during program change. data from 6 hours of data for that day. 9/10/1996 - 6 hours missing, data from remaining 18 hours.UP2A: 7/23/1996 - 8/13/1996 broken wire on at sensor.1997:FP1A-- 8/9/1997 - 8/20/1997 logger removed because of floodingFP2A-- 4/26/1997 - 4/30/1997 loose wire caused erroneous readingsFP3A-- 9/10/1997 - 9/12/1997 storage module full when collected in January, 2 days of data were written over.FP5C-- 1/1/1997 - 1/15/1997 dead batteryLTER1-- 4/11/1997,4/12/1997 sensor not working properly, installed new sensor. 5/6/1997,5/7/1997 program changed for summer, sensor programmed incorrectly, corrected the following day. 5/27/1997 working on logger, lost 6 hours.FP5C-- 3/18/1998 installed new Vaisala AT/RH sensor,1 hour missing.LTER1-- 4/22/1998 Summer program change, 1 hour missing. 9/15/1998 Winter program change, 1 hour missing.LTER2-- 4/16/1998 Summer program change, 1 hour missing. 9/16/1998 Winter program change, 1 hour missing.UP3A-- 11/27/1998 Incomplete dump, 14 hours missing. FP1A--5/5/1999 - 5/19/1999 Data garbled, reason unknown.14 hours missing on 5/5/1999, 11 hours missing on 5/19/1999.7/7/1999 - 7/14/1999 Dead battery on storage module.14 hours missing on 7/7/1999, 8 hours missing on 7/14/1999.9/9/1999 - 9/14/1999 Battery wire chewed.15 hours missing on 9/9/1999, 10 hours missing on 9/14/1999.FP3A--9/14/1999 - 9/22/1999 Data overwrited on storage module.16 hours missing on 9/14/1999, 12 hours missing on 9/22/1999.11/3/1999 6 hours missing, reason unknown.11/4/1999 9 hours missing, reason unknown.FP4A--5/19/1999 - 6/9/1999 Dead battery on storage module.5/19/1999 12 hours missing, 6/9/1999 9 hours missing.9/14/1999 - 10/2/1999 data overwrited on storage module.9/14/1999 12 hours missing, 10/2/1999 11 hours missing.FP5C-- 5/23/1999 3 hours missing, reason unknown.5/24/1999 15 hours missing, reason unknown.LTER1--4/22/1999 18 hours missing, reason unknown.4/23/1999 10 hours missing, reason unknown.UP1A--4/17/1999 10 hours missing, reason unknown.4/18/1999 missing, reason unknown.5/9/1999 - 5/11/1999 Data garbled, may be low battery on Storage module.5/9/1999 21 hours missing, 5/11/1999 9 hours missing.FP1A--11/14/2000 13 hours missing, reason unknownFP3A--9/14/2000 - 9/16/2000 data overwriten on storage module.UP1A--8/3/2000 - 8/7/2000 data missing, battery flooded.
+FP1A--5/16/2002 - 5/22/2002 missing, battery flooded, logger down.
+6/14/2002 missing, reason unknown.
+9/5/2002 - 9/6/2002, missing, reason unknown.
+FP2A--9/4/2002 - 11/11/2002 missing, wires chewed,logger down.
+FP4A--3/31/2002 - 4/1/2002 missing, reason unknown.
+4/27/2002 - 5/22/2002 missing, wind storm brought tree down on site.
+FP5A--11/8/2002 - 12/31/2002 AT sensor giving erroneous readings, data removed.
+FP5C: 11/18/2002 - 12/31/2002 battery died.
+LTER2: 2/26/2002- 3/4/2002 missing, reason unknown.
+5/21/2002 -5/22/2002 missing, reason unknown.
+11/19/2002 - 11/21/2002 missing, reason unknown.
+12/14/2002 - 12/23/2002 missing, reason unknown.
+UP1A: 11/2/2002 - 11/3/2002 missing, dead battery.
+UP3A: 12/31/2002 missing, dead battery.</para>
+        </section>
+        <section>
+          <title>additional</title>
+          <para>FP4A: Missing 09/06/2001 ? 09/12/2001 Dead battery; FP5A: Missing 10/02/2001 ? 11/28/2001 AT/RH sensor stopped functioning.; LTER1: Missing 05/19/2001 ? 05/22/2001 vandalism to site, sensor broken.; LTER2: Missing 06/05/2001 reason unknown.; UP1A: Missing 01/19/2001 ? 03/15/2001 bad sensor.</para>
+        </section>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods</title>
+            <para>Data were recorded with Omnidata EL-824 Easyloggers (1988-1994), Campbell 21X (LTER1 and LTER2), and Campbell CR10 (Upland and Floodplain sites, 1995). Air Temperature and relative humidities were recorded using the following sensors: Omnidata ES-110 (1988-1994), ES-110 were replaced with HMP Vaisala sensors (aka ES-120, 1991 - 1995), HMP-C Vaisala sensors were installed in all sites with the exception of UP3A and FP5C. These sites had the ES-120 sensor. UP3A and FP5C had HMP-35C Vaisala sensors installed in 1998.
+</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LTER2 -- LTER2, the second Bonanza Creek Experimental Forest full weather station, was established to monitor the climate of the floodplain region of BCEF. 
+
+This site is located adjacent to the Tanana River in BCEF..  Site alternate names:  200, LTER #200, GPIVT, Gravel Pit IV, gp4t</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2549125</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2549125</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69889576</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69889576</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER1 -- 100 (LTER1)  is the Bonanza Creek Experimental Forest's primary upland weather station.  More intensive climate data is collected at this station than the other upland stations..  Site alternate names:  100</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3163468</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3163468</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7429558</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7429558</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP1A -- FP1A is located on a low early successional terrace (1.8 - 2 m above winter low river level) adjacent to the Tanana River. Vegetation establishment occurred in 1982 to 1983. Significant bank erosion has occurred since the establishment of the study area, resulting in loss of some study plots..  Site alternate names:  211, GPIIC, Gravel Pit Willow, BCII, IIIAC, IIIAT, IIIBC, IIIBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2576912</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2576912</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69859835</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69859835</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2A -- FP2A is located adjacent to the LTER-2 weather station on a terrace that formed ca 1965..  Site alternate names:  221, GPIVC, GP4C, BCIV, VAC, VAT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2524731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2524731</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69878244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69878244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3A -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  231, FSL-LD-FP3A_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15094</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15094</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72322993</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72322993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4A -- Mature white spruce.  Site alternate names:  241, SMVIIIC, FSL-LD-FP4A_ws, VIIIWS, VIIIAC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2368605</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2368605</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67878586</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67878586</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2490622</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2490622</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68147876</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68147876</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5C -- FP5C is located on an older terrace of the Tanana River on the south side of the river opposite Sam Charley Island.  The climate station and neighboring research plots were burned in August of 2010 by the Willow Creek Wildfire..  Site alternate names:  253, BCEFY3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1472629</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1472629</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71361404</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71361404</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1A -- UP1A was established to follow the development of vegetation following the burning of a well developed 200 year old white spruce stand on a south facing slope. The vegetation has progressed from an herbaceous community following the fire to an open hardwood stand..  Site alternate names:  111, Midslope White Spruce (MW), Rosie Creek Fire studies: Gregory stand #806, Zasada stand: Bonanza Creek #2 (white spruce seed study), Reserve West (Juday), FSL-LD-UP1A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3027284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3027284</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73554387</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73554387</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2A -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  121, LTER #121, FSL-LD-UP2A_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.35568</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.35568</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69546067</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69546067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3A -- Mature white spruce spruce stand on a south-facing slope.  Site alternate names:  131, LTER #131, Tower site: Parks Hwy, South side: Gregory stand #148, Zasada stand: Bonanza Creek - 1 (seed studies), Semi-intensive site #12, Juday, Parks Loop West, Tower Site, FSL-LD-UP3A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2795018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2795018</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76742521</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76742521</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1988-06-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2016-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Scanned every 5 minutes and reported hourly.</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>1_AT_FP1A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP1A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/80cda45153bfe8241613dc8e373c6edf</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_FP2A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP2A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/4f92fbda3526f20d643602133d20448b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_FP3A_1988-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP3A_1988-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/be13df2929a539ac0d985f303690f8b0</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_FP4A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP4A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/63beb44f006b89a9ab8c4f2596fc538d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_FP5A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP5A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/8bb1b7533750c9906fbded4e5d5f2817</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_LTER1_1988-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_LTER1_1988-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/2c4161437142c556d984c124b02831ab</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_LTER2_1988-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_LTER2_1988-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/7ac758e3ee44388deeb2ddcf009c7bdf</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_UP1A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_UP1A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/cd9d2bf6023a608aa8078f2d27877e71</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_UP2A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_UP2A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/b81cddb928bdb6589fcfa84f1231fee5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_UP3A_1989-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_UP3A_1989-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/99d639a3b7220465118ad2a3322739c5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_FP5C_1993-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_FP5C_1993-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/adc43a4f55f7d7a178bf61ad0892ae0c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>1_AT_UP4A_2005-2016.txt</entityName>
+      <entityDescription>This dataset contains the hourly output from Vaisala HMP35 and HMP45 temperature sensors for the Bonanza Creek Experimental Forest (BCEF).</entityDescription>
+      <physical>
+        <objectName>1_AT_UP4A_2005-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/1/21/755afd2ef7053ef9385b7624fe0738f5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id</attributeName>
+          <attributeLabel>site_id</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Date of reading</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>hour    </attributeName>
+          <attributeLabel>hour    </attributeLabel>
+          <attributeDefinition>Hour of reading</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp</attributeName>
+          <attributeLabel>airtemp</attributeLabel>
+          <attributeDefinition>Hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_flag</attributeName>
+          <attributeLabel>airtemp_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_max</attributeName>
+          <attributeLabel>airtemp_max</attributeLabel>
+          <attributeDefinition>Maximum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>max_flag</attributeName>
+          <attributeLabel>max_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly maximum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>airtemp_min</attributeName>
+          <attributeLabel>airtemp_min</attributeLabel>
+          <attributeDefinition>Minimum hourly air temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-50.000</minimum>
+                  <maximum exclusive="false">50.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>min_flag</attributeName>
+          <attributeLabel>min_flag</attributeLabel>
+          <attributeDefinition>Error Flag for hourly minimum air temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>height</attributeName>
+          <attributeLabel>height</attributeLabel>
+          <attributeDefinition>height of sensor in cm above surface</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1000.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="YYYY-MM-DD"/>
+        <unit id="hhhh"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

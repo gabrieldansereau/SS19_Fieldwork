@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.438.18" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/d889e5f8ba778836c8e18e1c70d8c30c</alternateIdentifier>
+    <shortName>knb-lter-bnz.438.18</shortName>
+    <title>Bonanza Creek Experimental Forest GIS Data:  Stream Lines</title>
+    <creator>
+      <individualName>
+        <givenName>F.</givenName>
+        <givenName>Stuart</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 455-6408</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://terrychapin.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Hollingsworth</surName>
+      </individualName>
+      <positionName>Site Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7470</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <electronicMailAddress>jhollingsworth@alaska.edu</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <!--No other people associated with this dataset found on file (pers/lastname/lead_contact=0)-->
+    <pubDate>2010-03-19</pubDate>
+    <abstract>
+      <para>This data package contains the streams lines generated for 63,360 Digital Line Grafics (DLG) in and near our research areas in the Bonanza Creek Experimental forest.  Geospatial_Data_Presentation_Form: vector digital data.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Geographic Information Systems</keyword>
+      <keyword>spatial</keyword>
+      <keywordThesaurus>GIS</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/438</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3537914</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1468545</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.76810641</northBoundingCoordinate>
+          <southBoundingCoordinate>64.67834557</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-04-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-03-19</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Completed</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>Grapical display of streams in and around our reseach area.</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>Spatial_Reference_Information:  Grid_Coordinate_System:  Universal Transverse Mercator Zone_Number: 6     Planar_Coordinate_Information:  Planar_Coordinate_Encoding_Method: coordinate pair;  Planar_Distance_Units: meters     Geodetic_Model:  Horizontal_Datum_Name: North American Datum of 1983.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FP1A -- FP1A is located on a low early successional terrace (1.8 - 2 m above winter low river level) adjacent to the Tanana River. Vegetation establishment occurred in 1982 to 1983. Significant bank erosion has occurred since the establishment of the study area, resulting in loss of some study plots..  Site alternate names:  211, GPIIC, Gravel Pit Willow, BCII, IIIAC, IIIAT, IIIBC, IIIBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2576912</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2576912</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69859835</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69859835</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2A -- FP2A is located adjacent to the LTER-2 weather station on a terrace that formed ca 1965..  Site alternate names:  221, GPIVC, GP4C, BCIV, VAC, VAT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2524731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2524731</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69878244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69878244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3A -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  231, FSL-LD-FP3A_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15094</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15094</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72322993</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72322993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4A -- Mature white spruce.  Site alternate names:  241, SMVIIIC, FSL-LD-FP4A_ws, VIIIWS, VIIIAC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2368605</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2368605</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67878586</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67878586</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2490622</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2490622</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68147876</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68147876</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP0A -- Newly vegetated sandbar.  Site alternate names:  281, FP0A</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1530229</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1530229</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.70611029</northBoundingCoordinate>
+                <southBoundingCoordinate>64.70611029</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1A -- UP1A was established to follow the development of vegetation following the burning of a well developed 200 year old white spruce stand on a south facing slope. The vegetation has progressed from an herbaceous community following the fire to an open hardwood stand..  Site alternate names:  111, Midslope White Spruce (MW), Rosie Creek Fire studies: Gregory stand #806, Zasada stand: Bonanza Creek #2 (white spruce seed study), Reserve West (Juday), FSL-LD-UP1A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3027284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3027284</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73554387</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73554387</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2A -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  121, LTER #121, FSL-LD-UP2A_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.35568</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.35568</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69546067</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69546067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3A -- Mature white spruce spruce stand on a south-facing slope.  Site alternate names:  131, LTER #131, Tower site: Parks Hwy, South side: Gregory stand #148, Zasada stand: Bonanza Creek - 1 (seed studies), Semi-intensive site #12, Juday, Parks Loop West, Tower Site, FSL-LD-UP3A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2795018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2795018</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76742521</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76742521</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP4A -- This is a subxeric-mesic, black spruce site..  Site alternate names:  BCEFM4</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2986802</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2986802</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76810641</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76810641</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER1 -- 100 (LTER1)  is the Bonanza Creek Experimental Forest's primary upland weather station.  More intensive climate data is collected at this station than the other upland stations..  Site alternate names:  100</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3163468</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3163468</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7429558</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7429558</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER2 -- LTER2, the second Bonanza Creek Experimental Forest full weather station, was established to monitor the climate of the floodplain region of BCEF. 
+
+This site is located adjacent to the Tanana River in BCEF..  Site alternate names:  200, LTER #200, GPIVT, Gravel Pit IV, gp4t</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2549125</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2549125</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69889576</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69889576</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1999-04-14</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2010-03-19</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Once</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <spatialVector>
+      <alternateIdentifier>bcef_stream</alternateIdentifier>
+      <entityName>bcef_stream</entityName>
+      <entityDescription>
+USGS streams lines from topo maps from area around Bonanza Creek Experimental Forest
+</entityDescription>
+      <physical>
+        <objectName>bcef_stream.shp</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/438/18/d2af98c708459fe024e8e22316888e42</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>
+digitized from USGS topo maps
+</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>
+projected from NAD27 to NAD83
+</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Sequential unique whole numbers that are automatically generated.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FROMNODE</attributeName>
+          <attributeDefinition>Number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TONODE</attributeName>
+          <attributeDefinition>Number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LEFTPOLYG</attributeName>
+          <attributeDefinition>Number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RIGHTPOLY</attributeName>
+          <attributeDefinition>Number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>MultiLineString</geometry>
+      <geometricObjectCount>371</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 6N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-147.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+    <otherEntity id="438_bcef_stream.zip">
+      <entityName>438_bcef_stream.zip</entityName>
+      <entityDescription>GIS Data:  Stream Lines</entityDescription>
+      <physical>
+        <objectName>438_bcef_stream.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/438/18/3857e6f982227c0effcad6bb86cec935</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>zip file</entityType>
+    </otherEntity>
+    <otherEntity id="438_bcef_stream.htm.txt">
+      <entityName>438_bcef_stream.htm.txt</entityName>
+      <entityDescription>text version of ArcGIS HTML metadata for the dataset</entityDescription>
+      <physical>
+        <objectName>438_bcef_stream.htm.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>txt file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/438/18/0000108d0c49f746b01bf7003f24ebf4</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>txt file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

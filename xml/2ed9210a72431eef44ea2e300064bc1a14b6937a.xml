@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.5.24" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/0c60c37f60d7f77f8646018d821e6481</alternateIdentifier>
+    <shortName>knb-lter-bnz.5.24</shortName>
+    <title>Bonanza Creek Experimental Forest: Hourly Soil Moisture at varying depths from 2002 to Present</title>
+    <creator>
+      <individualName>
+        <givenName>F.</givenName>
+        <givenName>Stuart</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 455-6408</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://terrychapin.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <givenName>W.</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-0180</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7153</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://people.iab.uaf.edu/roger_ruess</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Hollingsworth</surName>
+      </individualName>
+      <positionName>Bonanza Creek LTER Site Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7470</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Brian</givenName>
+        <surName>Charlton</surName>
+      </individualName>
+      <positionName>BNZ LTER Lead Field Tech </positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-6780</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5104</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jennifer</givenName>
+        <givenName>W.</givenName>
+        <surName>Harden</surName>
+      </individualName>
+      <positionName>USGS, Adjunct Professor of Soil Science, University of Alaska Fairbanks</positionName>
+      <address>
+        <deliveryPoint>U.S. Geological Survey 345 Middlefield Road, MS 962</deliveryPoint>
+        <city>Menlo Park</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>94025</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(650) 329-4949</phone>
+      <phone phonetype="fax">(650) 329-4920</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Karl</givenName>
+        <surName>Olson</surName>
+      </individualName>
+      <positionName>Technician</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5540</phone>
+      <!--No fax info on file for this person-->
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2018-01-04</pubDate>
+    <abstract>
+      <para>A collection of soil moisture from upland and floodplain sites.  Moisture is recorded from a range of depths: 5, 10, 20, and 50 cm.  Data was recorded using Campbell Scientific dataloggers. The sensors in use are CS615 water content reflectometers. The period average is recorded and converted to volumetric water content using the Topp's equation. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>soil moisture</keyword>
+      <keyword>soil water</keyword>
+      <keywordThesaurus>Soils</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/5</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3537914</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1468545</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7666796</northBoundingCoordinate>
+          <southBoundingCoordinate>64.67834557</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2002-09-18</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>additional</title>
+          <para>FP1A: sensors installed 7/17/2002 FP2A: sensors installed 7/18/2002, 9/5/2002-11/11/2002 missing. Chewed battery wires.  FP3A: sensors installed 7/27/2002  FP4A: sensors installed 8/15/2002  FP5A: sensors installed 8/01/2002  LTER1: sensors installed 9/19/2002  UP2A: sensors installed 6/27/2002  UP3A: sensors installed 6/27/2002, 12/30 and 12/31 missing, dead battery</para>
+        </section>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods</title>
+            <para>Data was recorded using Campbell Scientific dataloggers. The sensors in use are CS615 water content reflectometers. The period average is recorded and converted to volumetric water content using the Topp's equation.  Topp,G.C.,Electromagnetic Determination of Soil Water Content: Measurements in Coaxial Transmission Lines, Water Resources Research,Vol 16,No.3, pages 574-582, June 1980 Land Resources Research Institute,Agriculture Canada, Ottawa,Canada KIA OC6
+</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FP1A -- FP1A is located on a low early successional terrace (1.8 - 2 m above winter low river level) adjacent to the Tanana River. Vegetation establishment occurred in 1982 to 1983. Significant bank erosion has occurred since the establishment of the study area, resulting in loss of some study plots..  Site alternate names:  211, GPIIC, Gravel Pit Willow, BCII, IIIAC, IIIAT, IIIBC, IIIBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2576912</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2576912</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69859835</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69859835</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2A -- FP2A is located adjacent to the LTER-2 weather station on a terrace that formed ca 1965..  Site alternate names:  221, GPIVC, GP4C, BCIV, VAC, VAT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2524731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2524731</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69878244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69878244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3A -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  231, FSL-LD-FP3A_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15094</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15094</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72322993</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72322993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4A -- Mature white spruce.  Site alternate names:  241, SMVIIIC, FSL-LD-FP4A_ws, VIIIWS, VIIIAC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2368605</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2368605</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67878586</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67878586</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2490622</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2490622</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68147876</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68147876</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1A -- UP1A was established to follow the development of vegetation following the burning of a well developed 200 year old white spruce stand on a south facing slope. The vegetation has progressed from an herbaceous community following the fire to an open hardwood stand..  Site alternate names:  111, Midslope White Spruce (MW), Rosie Creek Fire studies: Gregory stand #806, Zasada stand: Bonanza Creek #2 (white spruce seed study), Reserve West (Juday), FSL-LD-UP1A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3027284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3027284</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73554387</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73554387</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2A -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  121, LTER #121, FSL-LD-UP2A_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.35568</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.35568</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69546067</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69546067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3A -- Mature white spruce spruce stand on a south-facing slope.  Site alternate names:  131, LTER #131, Tower site: Parks Hwy, South side: Gregory stand #148, Zasada stand: Bonanza Creek - 1 (seed studies), Semi-intensive site #12, Juday, Parks Loop West, Tower Site, FSL-LD-UP3A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2795018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2795018</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76742521</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76742521</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER1 -- 100 (LTER1)  is the Bonanza Creek Experimental Forest's primary upland weather station.  More intensive climate data is collected at this station than the other upland stations..  Site alternate names:  100</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3163468</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3163468</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7429558</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7429558</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>LTER2 -- LTER2, the second Bonanza Creek Experimental Forest full weather station, was established to monitor the climate of the floodplain region of BCEF. 
+
+This site is located adjacent to the Tanana River in BCEF..  Site alternate names:  200, LTER #200, GPIVT, Gravel Pit IV, gp4t</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2549125</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2549125</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69889576</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69889576</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2002-09-18</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2016-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Scanned every 5 minutes and reported hourly.</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>5_SM_FP1A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_FP1A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/c9d218d597e131dcdbc8614894cc29b5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_FP2A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_FP2A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/aa659a279252a7cef7f4164c394f279c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_FP3A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_FP3A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/bae60f62594a2817c7d1476cd333da40</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_FP4A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_FP4A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/32f62d5baed88161dc44160ecc2c8c57</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_FP5A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_FP5A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/7e099497bf1c4eeea2492189d0b895ec</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_LTER1_2002-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_LTER1_2002-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/2a3c4eb42be072d413240a49c0385807</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_LTER2_2004-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_LTER2_2004-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/0f3243688052c78e7674ce73a8d06392</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_UP1A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_UP1A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/4f9967688d4fccd7236b636f2af60f99</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_UP2A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_UP2A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/7e500efb4180707640bd46345a0bbba6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>5_SM_UP3A_2003-2016.txt</entityName>
+      <entityDescription>Soil moisture data from upland and floodplain sites.</entityDescription>
+      <physical>
+        <objectName>5_SM_UP3A_2003-2016.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/5/24/45d385eef0bf17cbe31f6cdac949e96e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site of Soil Moisture measurments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site of Soil Moisture measurments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of measurment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Hour</attributeName>
+          <attributeLabel>Hour</attributeLabel>
+          <attributeDefinition>Hour of measurment</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>hhhh</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeLabel>Value</attributeLabel>
+          <attributeDefinition>The recored value of percent moisture at a given depth</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.000</minimum>
+                  <maximum exclusive="false">1.000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeLabel>Depth</attributeLabel>
+          <attributeDefinition>Depth of moisture sensor </attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Depth of moisture sensor </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeLabel>Unit</attributeLabel>
+          <attributeDefinition>Unit of soil moisture measurment</attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unit of soil moisture measurment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Flag</attributeName>
+          <attributeLabel>Flag</attributeLabel>
+          <attributeDefinition>Error Flag for houlry Soil moisture </attributeDefinition>
+          <storageType>String</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Good</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="YYYY-MM-DD"/>
+        <unit id="hhhh"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
