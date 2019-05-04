@@ -54,17 +54,19 @@ parsed_files <- dir(path = "xml/", full.names = TRUE) %>%
 parsed_files <- parsed_files %>% tibble::enframe()
 
 
+mc <- partial(map_chr, .default = NA_character_)
+
 parsed_data <- parsed_files %>% 
-  mutate(city_contact = map_chr(value, pluck, "dataset", "contact", "address", "city", .default = NA_character_),
-         country_contact = map(value, pluck, "dataset", "contact", "address", "country"),
-         city_creator = map(value, pluck, "dataset", "creator", "address", "city"),
-         country_creator = map(value, pluck, "dataset", "creator", "address", "country"),
-         deliveryPoint_creator = map(value, pluck, "dataset", "creator", "address", "deliveryPoint"),
-         keyword = map(value, pluck, "dataset", "keywordSet", "keyword"),
-         west = map(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "westBoundingCoordinate"),
-         east = map(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "eastBoundingCoordinate"),
-         north = map(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "northBoundingCoordinate"),
-         south = map(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "southBoundingCoordinate")) 
+  mutate(city_contact = mc(value, pluck, "dataset", "contact", "address", "city"),
+         country_contact = mc(value, pluck, "dataset", "contact", "address", "country"),
+         city_creator = mc(value, pluck, "dataset", "creator", "address", "city"),
+         country_creator = mc(value, pluck, "dataset", "creator", "address", "country"),
+         deliveryPoint_creator = mc(value, pluck, "dataset", "creator", "address", "deliveryPoint"),
+         # keyword = mc(value, pluck, "dataset", "keywordSet", "keyword"),
+         west = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "westBoundingCoordinate"),
+         east = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "eastBoundingCoordinate"),
+         north = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "northBoundingCoordinate"),
+         south = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "southBoundingCoordinate")) 
   # unnest(city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
          # west, east, north, south) %>% 
   # select(name, city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
@@ -74,12 +76,7 @@ parsed_data <- parsed_files %>%
 
 parsed_data %>% 
   select(-value) %>% 
-  mutate_at(.vars = vars(-name), purrr::flatten_chr)
-
-parsed_data$city_contact %>% length
-
-parsed_data <- parsed_data %>% 
-  
+  write_csv("data/data1.csv")
 
 data <- parsed_data %>% 
   mutate(df_result = map(df_contact, "result")) %>% 
