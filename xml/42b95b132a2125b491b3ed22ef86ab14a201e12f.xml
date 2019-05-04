@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.29.19" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.29.19</shortName>
+    <title>Bonanza Creek Experimental Forest Beetle Population Counts</title>
+    <creator>
+      <individualName>
+        <givenName>Richard</givenName>
+        <givenName>A.</givenName>
+        <surName>Werner</surName>
+      </individualName>
+      <positionName>Affiliate Scientist</positionName>
+      <address>
+        <deliveryPoint>8080 NW Ridgewood Drive</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97330</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(541) 758-1045</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <electronicMailAddress>wernerr@peak.org</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Richard</givenName>
+        <givenName>A.</givenName>
+        <surName>Werner</surName>
+      </individualName>
+      <positionName>Agricultural Science Research Technician</positionName>
+      <address>
+        <deliveryPoint>8080 NW Ridgewood Drive</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97330</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(541) 758-1045</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2003-08-12</pubDate>
+    <abstract>
+      <para>Defoliating insect population levels for the Bonanza Creeek Experimental Forest for the Summers of 2001 - Present.  The datafile has trap types, species counts...  This is a more detailed datafile then the previous method of reporting found in the datafile:  Bonanza Creek Experimental Forest Defoliating Insect Population Levels Per Trap: 1975 - 2002</para>
+    </abstract>
+    <keywordSet>
+      <keyword>insects</keyword>
+      <keyword>populations</keyword>
+      <keyword>Alaska</keyword>
+      <keyword>bark</keyword>
+      <keyword>beetles</keyword>
+      <keyword>defoliate</keyword>
+      <keyword>trees</keyword>
+      <keyword>pheromones</keyword>
+      <keyword>funnel</keyword>
+      <keyword>trap</keyword>
+      <keywordThesaurus>Climate</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/29</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Site information unavailable. {datafile/e_long is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.233156</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.233156</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.748597</northBoundingCoordinate>
+          <southBoundingCoordinate>64.748597</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-08-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>Plots were systematically selected because of preferred host type and accessibility in 1976 and 1980. Each plot consisted of 5 trees of shrubs. A 15-inch branch sample was collected from each tree/shrub at mid-crown on each side in respect to the four cardinal directions. Samples were placed in polyethylene bags and chilled until insect counts could be made. Samples were be collected monthly from May to September and preserved in 70 percent ethanol.</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>Sampling for bark beetles utilized pheromone-baited multiple funnel traps. Several different baits were used for the various species of bark beetles. Traps were erected in May and monitored at monthly intervals until September of each year for which the monitoring was scheduled.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BNZ_Insect_A_Zasada5 -- This site is used for insect population monitoring within BCEF.  It is located 5 miles down Zasada Road..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.233156</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.233156</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.748597</northBoundingCoordinate>
+                <southBoundingCoordinate>64.748597</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>BNZ_Insect_B_Zasada2 -- This site is used for insect population monitoring within BCEF.  It is located 2 miles down Zasada Road..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.211755</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.211755</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.761187</northBoundingCoordinate>
+                <southBoundingCoordinate>64.761187</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>BNZ_Insect_C_Zasada3 -- This site is used for insect population monitoring within BCEF.  It is located 3 miles down Zasada Road..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.224941</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.224941</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76412</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76412</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2001-06-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2009-08-20</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>yearly</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>29_BNZ_BeetleCounts_2001-2009.txt</entityName>
+      <entityDescription>Defoliating insect population levels</entityDescription>
+      <physical>
+        <objectName>29_BNZ_BeetleCounts_2001-2009.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>2</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/29/19/b99152d3d48724ceef245bb27fbf40c8</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>A code for site location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Zasada Road mile 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> B</code>
+                    <definition>Zasada Extension mile 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> C</code>
+                    <definition>Zasada Extension mile 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Trap</attributeName>
+          <attributeLabel>Trap</attributeLabel>
+          <attributeDefinition>Trap type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Trap type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Bait</attributeName>
+          <attributeLabel>Bait</attributeLabel>
+          <attributeDefinition>Bait used to attrack insects</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SB</code>
+                    <definition>spruce beetle (alpha pinene + frontalin)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> IPS</code>
+                    <definition>Ips perturbatus (ipsdienol + ipsenol)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> WBA</code>
+                    <definition>wood borer (alcohol + turpentine)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> WBB</code>
+                    <definition>wood borer (ethanol + turpentine)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> PFT</code>
+                    <definition>open pitfall trap</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>DENDROCTONUS RUFIPENNIS</attributeName>
+          <attributeLabel>DENDROCTONUS RUFIPENNIS</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>IPS PERTURBATUS</attributeName>
+          <attributeLabel>IPS PERTURBATUS</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>`</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TRYPODENDRUM LINEATUM</attributeName>
+          <attributeLabel>TRYPODENDRUM LINEATUM</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>THANASIMUS DUBIUS</attributeName>
+          <attributeLabel>THANASIMUS DUBIUS</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>CERAMBYCIDAE</attributeName>
+          <attributeLabel>CERAMBYCIDAE</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Count of individuals for species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>CARABIDAE</attributeName>
+          <attributeLabel>CARABIDAE</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Count of individuals for species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>CURCULIONIDAE</attributeName>
+          <attributeLabel>CURCULIONIDAE</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>COLEOPHORA</attributeName>
+          <attributeLabel>COLEOPHORA</attributeLabel>
+          <attributeDefinition>Count of individuals for species</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="29_WoodBorers_BNZ.pdf">
+      <entityName>29_WoodBorers_BNZ.pdf</entityName>
+      <entityDescription>List of wood borers in Bonanza Creek Experimental Forest</entityDescription>
+      <physical>
+        <objectName>29_WoodBorers_BNZ.pdf</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/29/19/af8c7909bc20cf73788dc026f99198fe</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf</entityType>
+    </otherEntity>
+    <otherEntity id="29_BarkBeetles_BNZ.pdf">
+      <entityName>29_BarkBeetles_BNZ.pdf</entityName>
+      <entityDescription>List of bark beetles in Bonanza Creek Experimental Forest</entityDescription>
+      <physical>
+        <objectName>29_BarkBeetles_BNZ.pdf</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/29/19/67629c247017e7ef5e5f959f4dfcbc60</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf</entityType>
+    </otherEntity>
+    <otherEntity id="29_BNZ_InsectSiteMap.pdf">
+      <entityName>29_BNZ_InsectSiteMap.pdf</entityName>
+      <entityDescription>Image showing plot locations.</entityDescription>
+      <physical>
+        <objectName>29_BNZ_InsectSiteMap.pdf</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/29/19/a7e00276c6b4c4d533d8e2507ccfa124</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf file</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="mm/dd/yyyy"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
