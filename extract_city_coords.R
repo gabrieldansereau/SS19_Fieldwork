@@ -20,7 +20,8 @@ countries <- countries[,c(1,5)]
 names(countries)<- c("CC", "country")
 
 #importer PIB (GDB)
-gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = F)
+gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = T)
+names(gdb)<- c("country", "GDB")
 
 # créer une table test pour les villes avec noms de pays
 
@@ -68,18 +69,13 @@ for (i in 1:length(tout$city)){
   tout[i,11] <- mean(as.numeric(tout[i,c(6,7)])) #long
   
 }
+
 tout$lat <- as.numeric(tout$lat)
 tout$lng <- as.numeric(tout$lng)
-coords_tout <- tout[,c(4,5,10,11)]
 
-# sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data = coords_tout)
-
-
-#pour avoir une référence de projection : 
-# ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
-# proj4string(sp_tout) <- proj4string(ERA)
-spUNI <- cbind(coords_tout$lng, coords_tout$lat)
-spFW <- cbind(coords_tout$fw_lng, coords_tout$fw_lat)
+#séparer en objet par type de point
+spUNI <- cbind(tout$lng, tout$lat)
+spFW <- cbind(tout$fw_lng, tout$fw_lat)
 dist <- distGeo(p1=spUNI, p2=spFW)
 tab_final  <- cbind(tout, dist/1000)
 tab_final<- tab_final[,c(1,2,5,4,10:12)]
@@ -88,6 +84,8 @@ tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_u
 ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
 proj4string(tab_final_sp) <- proj4string(ERA)
 
-rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
+# rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
 
-WriteXLS(tab_final, ExcelFileName = "tab_dist_coord")
+WriteXLS(tab_final, ExcelFileName = "tab_dist_coord.xls")
+
+
