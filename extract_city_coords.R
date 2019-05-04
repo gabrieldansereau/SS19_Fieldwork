@@ -8,6 +8,7 @@ library(sp)
 library(raster)
 library(geosphere)
 library(WriteXLS)
+library(rgdal)
 
 #ici je me connecte à Geonames (je me suis créé un compte sur geonames.org)
 options(geonamesUsername=username)
@@ -19,7 +20,8 @@ countries <- countries[,c(1,5)]
 names(countries)<- c("CC", "country")
 
 #importer PIB (GDB)
-gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = T)
+gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = F)
+
 # créer une table test pour les villes avec noms de pays
 
 tab_city <- data.frame(city = c("New York", "Montreal", "Burlington", "London", "Waterloo"), country =c("United States", "Canada", "United States", "United Kingdom", "Belgium"))
@@ -52,6 +54,7 @@ tab_coords <- cbind (tab_ref, coord)
 #ajouter coordonnées fieldwork
 fw_coords <- read.table ("fw_coords.txt", sep = "\t", dec = ".", header = T)
 
+#
 tout <- cbind(tab_coords,fw_coords)
 
 #créer lat long pour les sites d'échantillonnage
@@ -65,10 +68,10 @@ for (i in 1:length(tout$city)){
   tout[i,11] <- mean(as.numeric(tout[i,c(6,7)])) #long
   
 }
-
+tout$lat <- as.numeric(tout$lat)
+tout$lng <- as.numeric(tout$lng)
 coords_tout <- tout[,c(4,5,10,11)]
-coords_tout$lat <- as.numeric(coords_tout$lat)
-coords_tout$lng <- as.numeric(coords_tout$lng)
+
 # sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data = coords_tout)
 
 
@@ -81,5 +84,10 @@ dist <- distGeo(p1=spUNI, p2=spFW)
 tab_final  <- cbind(tout, dist/1000)
 tab_final<- tab_final[,c(1,2,5,4,10:12)]
 names(tab_final)<- c("country", "city", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
+tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_uni", "lat_fw", "lng_fw")], data = tab_final)
+ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
+proj4string(tab_final_sp) <- proj4string(ERA)
+
+rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
 
 WriteXLS(tab_final, ExcelFileName = "tab_dist_coord")
