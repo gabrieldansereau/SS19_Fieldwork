@@ -6,13 +6,25 @@ library(tidyverse)
 # Getting the ID of the articles
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
-(qy <- dataone::query(cn, list(
-  rows = "10000", 
-  q    = "title:forest", #keyword
-  fq   = "wildlife", #filter keyword
-  fl   = ""), 
-  as = "data.frame"))
+qy <- dataone::query(cn, list(
+  rows = "5000", 
+  q    = "keywords:Disturbance +OR+ keywords:Fire + OR+  keywords:Forest +
+  OR+  keywords:Vegetation + OR+  keywords:Canopy + OR+  keywords:Structure +
+  OR+  keywords:Demography + OR+  keywords:Fire + OR+   keywords:Management + OR+
+  keywords:Dynamic + OR+  keywords:Growth+ OR+  keywords:Ecology + OR+
+  keywords:Inventories+ OR + keywords:Gis+
+  OR + keywords:niche +OR + keywords:habitat +OR + keywords:community +
+  OR + keywords:ecosystem +OR + keywords:capacity +OR + keywords:biosphere +
+  OR + keywords:symbiosis +OR + keywords:mutualism +OR + keywords:consumers +
+  OR + keywords:organism +OR + keywords:food +OR + keywords:prey +
+  OR + keywords:density +OR + keywords:chlorophyll +OR + keywords:decomposers", #keyword
+  fq   = "", #filter keyword
+  fl   = "id, checksum, dataUrl, title, keywords, author, site"), 
+  as = "data.frame")
 View(qy)
+
+qy <- qy %>% distinct(title, .keep_all = TRUE)
+View(my_data)
 
 id <- qy[,'id']
 dataUrl <- qy[,'dataUrl']
@@ -28,20 +40,25 @@ checksum <- qy[,"checksum"]
 # curl::curl_download(dataUrl[33], destfile = 'test_33.xml')
 # eml_URL$metadata[[33]][["result"]] %>% View
 
-# download all the files at once! 
+# download all the files at once!
+for (i in 1500:length(dataUrl)) {
+  curl::curl_fetch_disk(dataUrl[i], paste0("xml2/", checksum[i], ".xml"))
+}
+263:264,317:339,624,651,1077:1120,1134:1499
+
 walk2(dataUrl, checksum, ~ curl::curl_fetch_disk(.x, paste0("xml/", .y, ".xml")))
 
 
 # Remove error files (rerun as often as needed)
-for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
-  dir(path = "xml/", full.names = TRUE)[i] %>%
-    set_names(., basename(.)) %>%
-          read_file_raw() %>%
-          rawToChar %>%
-          xmlTreeParse(., asText=TRUE, trim = TRUE, ignoreBlanks = TRUE, error = xmlErrorCumulator(immediate = FALSE)) # %>%
-          # xmlRoot %>%
-          # xmlToList
-}
+# for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
+#   dir(path = "xml/", full.names = TRUE)[i] %>%
+#     set_names(., basename(.)) %>%
+#           read_file_raw() %>%
+#           rawToChar %>%
+#           xmlTreeParse(., asText=TRUE, trim = TRUE, ignoreBlanks = TRUE, error = xmlErrorCumulator(immediate = FALSE)) # %>%
+#           # xmlRoot %>%
+#           # xmlToList
+# }
 # file.remove(dir(path = "xml/", full.names = TRUE)[i])
 
 # Parse files for metadata
@@ -75,7 +92,7 @@ parsed_data <- parsed_files %>%
 # Export to csv
 parsed_data %>% 
   select(-value) %>% 
-  write_csv("data/data2.csv")
+  write_csv("data/data3.csv")
 
 
 ###### Older versions of code #####
