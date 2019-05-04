@@ -1,28 +1,26 @@
 
 
 ## dans cette section, j'installe et active les librairies nécessaires
-install.packages("ggmap")
-install.packages("rjson")
 library(dplyr)
 library(rjson)
 library(geonames)
-
+library(sp)
+library(raster)
+library(geosphere)
+library(WriteXLS)
+library(rgdal)
 
 #ici je me connecte à Geonames (je me suis créé un compte sur geonames.org)
-options(geonamesUsername="aureliecl")
-
+options(geonamesUsername=username)
 #importer table de codes de pays
 countries <- read.table("Countries2.txt", sep="\t", dec=".", header = FALSE) # ici je dis où est le document, + par quoi les colonnes sont séparées (sep="\t"), qu'est-ce qui définit les décimales, et si la première ligne est une entête
 
 #garder juste les colonnes nécessaires et les renommer
 countries <- countries[,c(1,5)]
-countries[,2]<- as.character(countries[,2])
-countries[16,2]<- "Aland"
 names(countries)<- c("CC", "country")
 
-gdb <- read.table("GDB.txt", sep="\t", dec=".", header = T)
-names(gdb) <-c ("country", "GDB")
-countries_gdb <- left_join(countries, gdb)
+#importer PIB (GDB)
+gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = F)
 
 # créer une table test pour les villes avec noms de pays
 
@@ -30,9 +28,7 @@ tab_city <- data.frame(city = c("New York", "Montreal", "Burlington", "London", 
 
 # fusionner les deux tables pour faire une table de référence dans laquelle piger les mots de recherche
 
-tab_ref <- left_join(tab_city, countries_gdb)
-
-
+tab_ref <- left_join(tab_city, countries)
 # Warning message:
 #   Column `country` joining factors with different levels, coercing to character vector 
 # ^^^^^^ message d'erreur normal ^^^^^^
@@ -41,10 +37,11 @@ tab_ref <- left_join(tab_city, countries_gdb)
 # boucle pour extraire coordonnée des villes
 
 #création d'un tableau où entreposer les données
+
 coord <- data.frame()
-# i=1
+
 #effectuer une recherche pour chaque ligne 
-for (i in 1:length(tab_ref$city)){
+for (i in 1:length(tab_ref$city)) {
   latlong <- GNsearch(name = as.character(tab_ref[i,1]), 
                      country = as.character(tab_ref[i,3]))[1, 
                      c("lng", "lat")]
@@ -54,14 +51,43 @@ for (i in 1:length(tab_ref$city)){
 #ajouter les colonnes de coordonnées aux autres données
 tab_coords <- cbind (tab_ref, coord)
 
+#ajouter coordonnées fieldwork
+fw_coords <- read.table ("fw_coords.txt", sep = "\t", dec = ".", header = T)
 
 #
-##
-### code ref
-df <- GNsearch(name = "New York", country = "US")
-coords <- df[1, c("lng", "lat")]
+tout <- cbind(tab_coords,fw_coords)
+
+#créer lat long pour les sites d'échantillonnage
+#créer colonnes vides
+tout$fw_lat <- NA
+tout$fw_lng <- NA
+#boucle sur chaque ligne
+for (i in 1:length(tout$city)){
+  
+  tout[i,10] <- mean(as.numeric(tout[i,c(8,9)])) #lat
+  tout[i,11] <- mean(as.numeric(tout[i,c(6,7)])) #long
+  
+}
+tout$lat <- as.numeric(tout$lat)
+tout$lng <- as.numeric(tout$lng)
+coords_tout <- tout[,c(4,5,10,11)]
+
+# sp_tout <- SpatialPointsDataFrame(coords = coords_tout[ , c("lat", "lng")], data = coords_tout)
 
 
+#pour avoir une référence de projection : 
+# ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
+# proj4string(sp_tout) <- proj4string(ERA)
+spUNI <- cbind(coords_tout$lng, coords_tout$lat)
+spFW <- cbind(coords_tout$fw_lng, coords_tout$fw_lat)
+dist <- distGeo(p1=spUNI, p2=spFW)
+tab_final  <- cbind(tout, dist/1000)
+tab_final<- tab_final[,c(1,2,5,4,10:12)]
+names(tab_final)<- c("country", "city", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
+tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_uni", "lat_fw", "lng_fw")], data = tab_final)
+ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
+proj4string(tab_final_sp) <- proj4string(ERA)
 
-(lanc_df <- GNsearch(name = "Lancaster", country = "UK"))
-lanc_coords <- lanc_df[1, c("lng", "lat")]
+rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
+
+WriteXLS(tab_final, ExcelFileName = "tab_dist_coord")
