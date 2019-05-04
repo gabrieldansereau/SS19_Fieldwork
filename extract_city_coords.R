@@ -12,7 +12,7 @@ library(geonames)
 options(geonamesUsername="aureliecl")
 
 #importer table de codes de pays
-countries <- read.table("/Users/aureliechagnon-lafortune/Desktop/data_driven_analysis/SS19_Fieldwork/Countries2.txt", sep="\t", dec=".", header = FALSE) # ici je dis où est le document, + par quoi les colonnes sont séparées (sep="\t"), qu'est-ce qui définit les décimales, et si la première ligne est une entête
+countries <- read.table("Countries2.txt", sep="\t", dec=".", header = FALSE) # ici je dis où est le document, + par quoi les colonnes sont séparées (sep="\t"), qu'est-ce qui définit les décimales, et si la première ligne est une entête
 
 #garder juste les colonnes nécessaires et les renommer
 countries <- countries[,c(1,5)]
