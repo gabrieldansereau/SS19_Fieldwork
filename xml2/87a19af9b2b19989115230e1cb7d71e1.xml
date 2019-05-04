@@ -1,0 +1,1699 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>BP.x750.000-0011-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString />
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString />
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>361-825-3604</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString />
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString><![CDATA[Harte Research Institute for Gulf of Mexico Studies, Texas A and M University - Corpus Christi, 6300 Ocean Drive]]></gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Texas</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>78412</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>bpdata_griidc@gomri.org</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2017-11-15T14:42:51+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/BP.x750.000:0011</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Coastal wetland vegetation assessment data collected to characterize marsh vegetative communities throughout coastal Louisiana, Mississippi, and Alabama from Fall 2010 to Fall 2013</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>Coastal Wetland Vegetation Assessment (CWVA)</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2014-03-31</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This report contains coastal wetland vegetation assessment data, and provides additional context for the posted dataset, including information about the collection, analysis, and organization of the data. Characteristics of this dataset include the following: The coastal wetland vegetation assessment data characterize the marsh vegetative community at multiple points in space and time. This dataset consists of data collected cooperatively with the Trustees. Before posting, extensive work was done independently by BP contractors to verify some aspects of the posted data (e.g., positional coordinates and field data). The focus of this data posting is coastal wetland vegetation assessment data collected to characterize marsh vegetative communities at 202 sites throughout coastal Louisiana (164 sites including 14 sites established in Barataria Bay), Mississippi (22 sites), and Alabama (16 sites). Data collection was initially conducted in Fall 2010 at 150 of the 164 sites in Louisiana and in Spring 2011 at all of the previously established 150 Louisiana sites, the 14 remaining sites in Louisiana (Barataria Bay) as well as all of the sites in Alabama and Mississippi. During fall 2011, fall 2012, and fall 2013, monitoring was repeated at all 202 sites. The data were collected under the work plan titled Sampling and Monitoring Plan for the Assessment of MC252 Oil Impacts to Coastal Wetland Vegetation in the Gulf of Mexico, including three addenda. The work plan was cooperatively developed and implemented as part of the NRDA for the DWH Horizon accident. This dataset includes data associated with field observations: Visual estimates and counts of vegetative conditions Instrument-based measurements of environmental conditions (e.g., reduction-oxidation potential [REDOX], light-adapted fluorescence [LAF], and chlorophyll content [CC]) Vegetation and sediment sampling (biomass and nutrient data1) Soil condition data Sampling variations may exist across observers, methods, locations, and times. For example, erosion and site flooding occasionally limited or completely inhibited sampling so only a portion of or no data could be collected.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>The purpose of the data were to assess impacts to Coastal Wetland Vegetation in the Gulf of Mexico as part of a Natural Resource Damage Assessment (NRDA). These data were collected by BP to help guide cleanup operations under the direction of the U.S. Coast Guard and to support the Natural Resource Damage Assessment efforts by federal and state agencies and BP to evaluate potential injury to natural resources in the Gulf. The data and supplemental information are being made available to the public in a format that will facilitate the use of the data for research and other studies. GRIIDC is making these data available following the shutdown of the Gulf Science Data Portal. This will ensure that the data are available and searchable through GRIIDC data discovery.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString />
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>BP</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString />
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString />
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString />
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString><![CDATA[501 Westlake Park Boulevard]]></gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Houston</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Texas</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>77079</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>bpdata_griidc@gomri.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006">originator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>coastal wetland vegetation</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>marsh vegetative community</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>mangrove</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>redox</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>light adapted flourescence</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>chlorophyll</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>biomass</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>nutrients</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Louisiana</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Mississippi</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Alabama</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Barataria Bay</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Bay Jimmy</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Breton Sound</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Chandeleur</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Terrebonne</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng;USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-91.11185</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-87.45787</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>28.9977</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>30.3875</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="Multipoint1">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point1">
+                                            <gml:pos srsDimension="2">29.12244 -90.88768</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point2">
+                                            <gml:pos srsDimension="2">29.47878 -89.85246</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point3">
+                                            <gml:pos srsDimension="2">29.15533 -90.27</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point4">
+                                            <gml:pos srsDimension="2">29.31734 -90.56402</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point5">
+                                            <gml:pos srsDimension="2">29.31728 -90.54983</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point6">
+                                            <gml:pos srsDimension="2">30.27939 -87.54148</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point7">
+                                            <gml:pos srsDimension="2">30.30127 -87.48053</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point8">
+                                            <gml:pos srsDimension="2">29.32701 -89.78505</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point9">
+                                            <gml:pos srsDimension="2">29.3215 -89.78557</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point10">
+                                            <gml:pos srsDimension="2">29.55739 -90.04156</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point11">
+                                            <gml:pos srsDimension="2">30.30005 -87.45805</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point12">
+                                            <gml:pos srsDimension="2">29.48843 -89.92767</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point13">
+                                            <gml:pos srsDimension="2">29.40067 -89.72604</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point14">
+                                            <gml:pos srsDimension="2">29.45475 -89.79077</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point15">
+                                            <gml:pos srsDimension="2">29.45708 -89.78902</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point16">
+                                            <gml:pos srsDimension="2">29.45562 -89.77371</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point17">
+                                            <gml:pos srsDimension="2">30.33799 -88.25371</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point18">
+                                            <gml:pos srsDimension="2">30.338 -88.25372</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point19">
+                                            <gml:pos srsDimension="2">29.45866 -89.75833</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point20">
+                                            <gml:pos srsDimension="2">29.13411 -89.08694</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point21">
+                                            <gml:pos srsDimension="2">29.11772 -90.88095</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point22">
+                                            <gml:pos srsDimension="2">30.33258 -88.26144</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point23">
+                                            <gml:pos srsDimension="2">30.33258 -88.26144</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point24">
+                                            <gml:pos srsDimension="2">30.33258 -88.26145</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point25">
+                                            <gml:pos srsDimension="2">29.48202 -89.86837</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point26">
+                                            <gml:pos srsDimension="2">30.32051 -88.2206</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point27">
+                                            <gml:pos srsDimension="2">30.3205 -88.22061</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point28">
+                                            <gml:pos srsDimension="2">30.3205 -88.22061</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point29">
+                                            <gml:pos srsDimension="2">29.2048 -89.04693</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point30">
+                                            <gml:pos srsDimension="2">29.33081 -89.78036</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point31">
+                                            <gml:pos srsDimension="2">29.48528 -90.01833</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point32">
+                                            <gml:pos srsDimension="2">29.31677 -89.97041</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point33">
+                                            <gml:pos srsDimension="2">30.35753 -88.25688</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point34">
+                                            <gml:pos srsDimension="2">30.35751 -88.25689</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point35">
+                                            <gml:pos srsDimension="2">30.35752 -88.25687</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point36">
+                                            <gml:pos srsDimension="2">29.20032 -89.0537</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point37">
+                                            <gml:pos srsDimension="2">29.20031 -89.05371</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point38">
+                                            <gml:pos srsDimension="2">29.13559 -89.10058</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point39">
+                                            <gml:pos srsDimension="2">29.4068 -89.80572</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point40">
+                                            <gml:pos srsDimension="2">29.46806 -89.90806</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point41">
+                                            <gml:pos srsDimension="2">29.45677 -89.88371</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point42">
+                                            <gml:pos srsDimension="2">29.45749 -89.81161</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point43">
+                                            <gml:pos srsDimension="2">29.47917 -89.9071</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point44">
+                                            <gml:pos srsDimension="2">29.19063 -89.08928</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point45">
+                                            <gml:pos srsDimension="2">29.19063 -89.0893</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point46">
+                                            <gml:pos srsDimension="2">29.47015 -89.92516</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point47">
+                                            <gml:pos srsDimension="2">29.4411 -89.90162</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point48">
+                                            <gml:pos srsDimension="2">29.06461 -90.45343</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point49">
+                                            <gml:pos srsDimension="2">29.06253 -90.4622</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point50">
+                                            <gml:pos srsDimension="2">29.18401 -91.06257</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point51">
+                                            <gml:pos srsDimension="2">29.44771 -89.92546</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point52">
+                                            <gml:pos srsDimension="2">28.9977 -89.16042</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point53">
+                                            <gml:pos srsDimension="2">30.36231 -88.25862</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point54">
+                                            <gml:pos srsDimension="2">30.36231 -88.25862</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point55">
+                                            <gml:pos srsDimension="2">30.36231 -88.25861</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point56">
+                                            <gml:pos srsDimension="2">29.13895 -90.73948</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point57">
+                                            <gml:pos srsDimension="2">29.47361 -89.85748</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point58">
+                                            <gml:pos srsDimension="2">29.45818 -89.81321</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point59">
+                                            <gml:pos srsDimension="2">29.29571 -90.60009</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point60">
+                                            <gml:pos srsDimension="2">29.14176 -89.10644</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point61">
+                                            <gml:pos srsDimension="2">29.18804 -89.11516</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point62">
+                                            <gml:pos srsDimension="2">29.20259 -91.10454</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point63">
+                                            <gml:pos srsDimension="2">29.35095 -90.01435</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point64">
+                                            <gml:pos srsDimension="2">29.44826 -89.92118</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point65">
+                                            <gml:pos srsDimension="2">29.45762 -89.88334</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point66">
+                                            <gml:pos srsDimension="2">29.34168 -89.99737</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point67">
+                                            <gml:pos srsDimension="2">29.35107 -90.01505</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point68">
+                                            <gml:pos srsDimension="2">29.20849 -91.11185</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point69">
+                                            <gml:pos srsDimension="2">29.46767 -89.89126</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point70">
+                                            <gml:pos srsDimension="2">29.00794 -89.1472</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point71">
+                                            <gml:pos srsDimension="2">29.01367 -89.15825</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point72">
+                                            <gml:pos srsDimension="2">29.13675 -89.09663</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point73">
+                                            <gml:pos srsDimension="2">29.24272 -90.39454</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point74">
+                                            <gml:pos srsDimension="2">29.30376 -89.97639</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point75">
+                                            <gml:pos srsDimension="2">29.09349 -89.11994</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point76">
+                                            <gml:pos srsDimension="2">29.30277 -90.35939</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point77">
+                                            <gml:pos srsDimension="2">29.31052 -90.35766</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point78">
+                                            <gml:pos srsDimension="2">29.28465 -90.33661</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point79">
+                                            <gml:pos srsDimension="2">29.07652 -89.15894</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point80">
+                                            <gml:pos srsDimension="2">29.07652 -89.15894</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point81">
+                                            <gml:pos srsDimension="2">29.34706 -90.43221</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point82">
+                                            <gml:pos srsDimension="2">29.00469 -89.15068</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point83">
+                                            <gml:pos srsDimension="2">29.18639 -89.05718</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point84">
+                                            <gml:pos srsDimension="2">29.87527 -89.27786</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point85">
+                                            <gml:pos srsDimension="2">29.93184 -89.25364</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point86">
+                                            <gml:pos srsDimension="2">29.93183 -89.25364</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point87">
+                                            <gml:pos srsDimension="2">29.1193 -90.76255</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point88">
+                                            <gml:pos srsDimension="2">30.1932 -89.47264</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point89">
+                                            <gml:pos srsDimension="2">30.19201 -89.47431</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point90">
+                                            <gml:pos srsDimension="2">30.38399 -88.80872</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point91">
+                                            <gml:pos srsDimension="2">30.38396 -88.80871</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point92">
+                                            <gml:pos srsDimension="2">30.36528 -88.77083</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point93">
+                                            <gml:pos srsDimension="2">30.36528 -88.77082</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point94">
+                                            <gml:pos srsDimension="2">30.36104 -88.6104</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point95">
+                                            <gml:pos srsDimension="2">30.36786 -88.60049</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point96">
+                                            <gml:pos srsDimension="2">30.36786 -88.6005</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point97">
+                                            <gml:pos srsDimension="2">30.36105 -88.60184</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point98">
+                                            <gml:pos srsDimension="2">30.21489 -89.0991</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point99">
+                                            <gml:pos srsDimension="2">30.21371 -89.10078</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point100">
+                                            <gml:pos srsDimension="2">30.37353 -88.83658</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point101">
+                                            <gml:pos srsDimension="2">30.37392 -88.8365</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point102">
+                                            <gml:pos srsDimension="2">30.36314 -88.66772</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point103">
+                                            <gml:pos srsDimension="2">30.36313 -88.66771</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point104">
+                                            <gml:pos srsDimension="2">30.36508 -88.39711</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point105">
+                                            <gml:pos srsDimension="2">30.36503 -88.39712</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point106">
+                                            <gml:pos srsDimension="2">30.35451 -88.41008</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point107">
+                                            <gml:pos srsDimension="2">30.35451 -88.4101</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point108">
+                                            <gml:pos srsDimension="2">30.32532 -88.46473</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point109">
+                                            <gml:pos srsDimension="2">30.32531 -88.46472</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point110">
+                                            <gml:pos srsDimension="2">30.31856 -88.48101</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point111">
+                                            <gml:pos srsDimension="2">30.31856 -88.481</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point112">
+                                            <gml:pos srsDimension="2">30.3195 -88.48837</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point113">
+                                            <gml:pos srsDimension="2">30.31944 -88.48839</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point114">
+                                            <gml:pos srsDimension="2">30.18729 -89.45715</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point115">
+                                            <gml:pos srsDimension="2">30.18723 -89.45732</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point116">
+                                            <gml:pos srsDimension="2">30.38437 -88.39997</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point117">
+                                            <gml:pos srsDimension="2">30.3843 -88.39997</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point118">
+                                            <gml:pos srsDimension="2">30.2317 -88.6355</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point119">
+                                            <gml:pos srsDimension="2">30.23053 -88.63717</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point120">
+                                            <gml:pos srsDimension="2">30.3875 -88.40915</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point121">
+                                            <gml:pos srsDimension="2">30.38746 -88.40914</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point122">
+                                            <gml:pos srsDimension="2">30.38192 -88.39668</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point123">
+                                            <gml:pos srsDimension="2">30.38188 -88.39667</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point124">
+                                            <gml:pos srsDimension="2">30.25673 -89.41544</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point125">
+                                            <gml:pos srsDimension="2">30.25554 -89.41713</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point126">
+                                            <gml:pos srsDimension="2">30.23311 -89.43737</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point127">
+                                            <gml:pos srsDimension="2">30.23309 -89.43737</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point128">
+                                            <gml:pos srsDimension="2">30.24302 -88.76646</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point129">
+                                            <gml:pos srsDimension="2">30.24182 -88.76814</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point130">
+                                            <gml:pos srsDimension="2">30.26529 -89.39177</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point131">
+                                            <gml:pos srsDimension="2">30.26407 -89.39348</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point132">
+                                            <gml:pos srsDimension="2">30.29499 -87.53629</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point133">
+                                            <gml:pos srsDimension="2">30.27969 -87.53548</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point134">
+                                            <gml:pos srsDimension="2">30.28615 -87.51485</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point135">
+                                            <gml:pos srsDimension="2">30.3066 -87.45787</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point136">
+                                            <gml:pos srsDimension="2">30.29217 -87.49162</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point137">
+                                            <gml:pos srsDimension="2">29.26395 -90.63509</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point138">
+                                            <gml:pos srsDimension="2">29.24082 -91.04946</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point139">
+                                            <gml:pos srsDimension="2">29.23554 -90.64573</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point140">
+                                            <gml:pos srsDimension="2">30.37553 -88.30352</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point141">
+                                            <gml:pos srsDimension="2">30.37552 -88.30352</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point142">
+                                            <gml:pos srsDimension="2">30.37551 -88.30352</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point143">
+                                            <gml:pos srsDimension="2">29.2173 -90.25272</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point144">
+                                            <gml:pos srsDimension="2">30.34487 -88.25642</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point145">
+                                            <gml:pos srsDimension="2">30.34487 -88.2564</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point146">
+                                            <gml:pos srsDimension="2">29.1401 -90.26537</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point147">
+                                            <gml:pos srsDimension="2">30.32562 -88.25562</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point148">
+                                            <gml:pos srsDimension="2">30.32562 -88.25562</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point149">
+                                            <gml:pos srsDimension="2">29.10891 -90.23571</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point150">
+                                            <gml:pos srsDimension="2">29.1076 -90.25041</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point151">
+                                            <gml:pos srsDimension="2">29.12277 -90.85607</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point152">
+                                            <gml:pos srsDimension="2">29.9805 -88.83349</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point153">
+                                            <gml:pos srsDimension="2">29.17381 -89.09539</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point154">
+                                            <gml:pos srsDimension="2">29.955 -88.83113</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point155">
+                                            <gml:pos srsDimension="2">29.95086 -88.83029</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point156">
+                                            <gml:pos srsDimension="2">29.94778 -88.83071</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point157">
+                                            <gml:pos srsDimension="2">29.94647 -88.83554</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point158">
+                                            <gml:pos srsDimension="2">29.17395 -89.09523</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point159">
+                                            <gml:pos srsDimension="2">29.36254 -90.3186</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point160">
+                                            <gml:pos srsDimension="2">29.14114 -90.70155</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point161">
+                                            <gml:pos srsDimension="2">29.94368 -88.82704</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point162">
+                                            <gml:pos srsDimension="2">29.14373 -90.70582</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point163">
+                                            <gml:pos srsDimension="2">29.94312 -88.83213</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point164">
+                                            <gml:pos srsDimension="2">29.13034 -90.69729</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point165">
+                                            <gml:pos srsDimension="2">29.18105 -89.08175</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point166">
+                                            <gml:pos srsDimension="2">29.94245 -88.83224</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point167">
+                                            <gml:pos srsDimension="2">29.13156 -90.70979</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point168">
+                                            <gml:pos srsDimension="2">29.11688 -90.71143</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point169">
+                                            <gml:pos srsDimension="2">29.92863 -88.8236</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point170">
+                                            <gml:pos srsDimension="2">29.9296 -88.82435</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point171">
+                                            <gml:pos srsDimension="2">29.31846 -89.81296</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point172">
+                                            <gml:pos srsDimension="2">29.12954 -90.74016</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point173">
+                                            <gml:pos srsDimension="2">29.13821 -90.72714</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point174">
+                                            <gml:pos srsDimension="2">29.89079 -88.82789</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point175">
+                                            <gml:pos srsDimension="2">29.87629 -88.82887</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point176">
+                                            <gml:pos srsDimension="2">29.87516 -88.83358</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point177">
+                                            <gml:pos srsDimension="2">29.17855 -89.07033</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point178">
+                                            <gml:pos srsDimension="2">29.17203 -90.67803</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point179">
+                                            <gml:pos srsDimension="2">29.85121 -88.86188</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point180">
+                                            <gml:pos srsDimension="2">29.856 -88.86271</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point181">
+                                            <gml:pos srsDimension="2">29.85599 -88.8627</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point182">
+                                            <gml:pos srsDimension="2">29.85437 -88.86222</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point183">
+                                            <gml:pos srsDimension="2">29.84823 -88.86263</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point184">
+                                            <gml:pos srsDimension="2">29.84823 -88.86263</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point185">
+                                            <gml:pos srsDimension="2">29.84622 -88.86263</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point186">
+                                            <gml:pos srsDimension="2">29.49126 -89.80603</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point187">
+                                            <gml:pos srsDimension="2">29.46884 -89.82578</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point188">
+                                            <gml:pos srsDimension="2">29.12308 -90.80556</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point189">
+                                            <gml:pos srsDimension="2">29.46078 -89.884</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point190">
+                                            <gml:pos srsDimension="2">29.46377 -89.88094</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point191">
+                                            <gml:pos srsDimension="2">29.30226 -90.35842</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point192">
+                                            <gml:pos srsDimension="2">30.15254 -89.19302</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point193">
+                                            <gml:pos srsDimension="2">29.14175 -90.69392</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point194">
+                                            <gml:pos srsDimension="2">29.11199 -90.79804</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point195">
+                                            <gml:pos srsDimension="2">29.13969 -90.69312</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point196">
+                                            <gml:pos srsDimension="2">30.14269 -89.20667</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point197">
+                                            <gml:pos srsDimension="2">29.13885 -90.70875</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point198">
+                                            <gml:pos srsDimension="2">29.19839 -89.05186</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point199">
+                                            <gml:pos srsDimension="2">29.65404 -89.55047</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point200">
+                                            <gml:pos srsDimension="2">29.11857 -90.78669</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point201">
+                                            <gml:pos srsDimension="2">29.82119 -89.39073</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point202">
+                                            <gml:pos srsDimension="2">29.81526 -89.3531</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point203">
+                                            <gml:pos srsDimension="2">29.19645 -90.64882</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point204">
+                                            <gml:pos srsDimension="2">29.20855 -90.6581</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point205">
+                                            <gml:pos srsDimension="2">30.12953 -89.43015</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point206">
+                                            <gml:pos srsDimension="2">29.30508 -90.56412</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point207">
+                                            <gml:pos srsDimension="2">29.29525 -90.54484</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point208">
+                                            <gml:pos srsDimension="2">29.31682 -90.54731</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point209">
+                                            <gml:pos srsDimension="2">29.96472 -88.83626</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point210">
+                                            <gml:pos srsDimension="2">29.95872 -88.8358</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point211">
+                                            <gml:pos srsDimension="2">29.95465 -88.83077</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point212">
+                                            <gml:pos srsDimension="2">29.94264 -88.82869</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point213">
+                                            <gml:pos srsDimension="2">29.95452 -88.82599</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point214">
+                                            <gml:pos srsDimension="2">29.94999 -88.82649</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point215">
+                                            <gml:pos srsDimension="2">29.14001 -90.26436</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point216">
+                                            <gml:pos srsDimension="2">29.89151 -88.82784</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point217">
+                                            <gml:pos srsDimension="2">29.06939 -90.31589</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point218">
+                                            <gml:pos srsDimension="2">29.25322 -89.12689</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point219">
+                                            <gml:pos srsDimension="2">29.27256 -90.37331</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point220">
+                                            <gml:pos srsDimension="2">29.25671 -89.12259</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point221">
+                                            <gml:pos srsDimension="2">29.25673 -89.12258</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point222">
+                                            <gml:pos srsDimension="2">29.50267 -89.88042</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point223">
+                                            <gml:pos srsDimension="2">29.21175 -90.65745</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point224">
+                                            <gml:pos srsDimension="2">29.4702 -89.8806</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point225">
+                                            <gml:pos srsDimension="2">29.14524 -90.6998</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point226">
+                                            <gml:pos srsDimension="2">29.46821 -89.8825</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point227">
+                                            <gml:pos srsDimension="2">29.46846 -89.88562</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point228">
+                                            <gml:pos srsDimension="2">29.45647 -89.88704</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point229">
+                                            <gml:pos srsDimension="2">29.44529 -89.90196</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point230">
+                                            <gml:pos srsDimension="2">29.4587 -89.94245</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point231">
+                                            <gml:pos srsDimension="2">29.46202 -89.81677</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point232">
+                                            <gml:pos srsDimension="2">29.44726 -89.93781</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point233">
+                                            <gml:pos srsDimension="2">29.44724 -89.93781</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point234">
+                                            <gml:pos srsDimension="2">29.44494 -89.93623</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point235">
+                                            <gml:pos srsDimension="2">29.44494 -89.93622</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point236">
+                                            <gml:pos srsDimension="2">29.44576 -89.92841</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point237">
+                                            <gml:pos srsDimension="2">29.44581 -89.92835</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point238">
+                                            <gml:pos srsDimension="2">29.44764 -89.92356</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point239">
+                                            <gml:pos srsDimension="2">29.44764 -89.49235</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point240">
+                                            <gml:pos srsDimension="2">29.46033 -89.92084</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point241">
+                                            <gml:pos srsDimension="2">29.46035 -89.92076</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point242">
+                                            <gml:pos srsDimension="2">29.45977 -89.91959</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point243">
+                                            <gml:pos srsDimension="2">29.45977 -89.91958</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point244">
+                                            <gml:pos srsDimension="2">29.46401 -89.91887</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point245">
+                                            <gml:pos srsDimension="2">29.464 -89.91887</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point246">
+                                            <gml:pos srsDimension="2">29.441 -89.90381</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point247">
+                                            <gml:pos srsDimension="2">29.44098 -89.9038</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point248">
+                                            <gml:pos srsDimension="2">29.44024 -89.90512</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point249">
+                                            <gml:pos srsDimension="2">29.44007 -89.90515</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point250">
+                                            <gml:pos srsDimension="2">29.44112 -89.90299</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point251">
+                                            <gml:pos srsDimension="2">29.44109 -89.90305</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point252">
+                                            <gml:pos srsDimension="2">29.44275 -89.90045</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point253">
+                                            <gml:pos srsDimension="2">29.44273 -89.90046</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point254">
+                                            <gml:pos srsDimension="2">29.45315 -89.89428</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point255">
+                                            <gml:pos srsDimension="2">29.45313 -89.89432</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point256">
+                                            <gml:pos srsDimension="2">29.45042 -89.89698</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point257">
+                                            <gml:pos srsDimension="2">29.45041 -89.89697</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point258">
+                                            <gml:pos srsDimension="2">29.44911 -89.89983</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point259">
+                                            <gml:pos srsDimension="2">29.44911 -89.89996</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point260">
+                                            <gml:pos srsDimension="2">29.44824 -89.92119</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point261">
+                                            <gml:pos srsDimension="2">29.47916 -89.9071</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point262">
+                                            <gml:pos srsDimension="2">29.44108 -89.90162</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point263">
+                                            <gml:pos srsDimension="2">29.98844 -89.92767</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>ground condition</gml:description>
+                                    <gml:beginPosition>2010-09-16</gml:beginPosition>
+                                    <gml:endPosition>2013-12-11</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>&gt;10% Beyond 30m (Y/N) Oil Penetration Distance = Whether or not more than 10% of oil was observed over 30 meters inland from marsh edge (Yes/No, NA = Not Applicable, ND = No Data); Aboveground Biomass Dry Weight Density kg/m² = Aboveground biomass dry weight density in kilograms per square meter; Additional Info = Additional notes recorded; AEL DryWeight g = Dry weight reported by Advanced Environmental Laboratories in grams; AEL ID = Sample identification code assigned to the sample by Advanced Environmental Laboratories; Agalinis maritima_DEAD = Percent cover of dead Agalinis maritima (%); Agalinis maritima_LIVE = Percent cover of live Agalinis maritima (%); Alternanthera philoxeroides_DEAD = Percent cover of dead Alternanthera philoxeroides (%); Alternanthera philoxeroides_LIVE = Percent cover of live Alternanthera philoxeroides (%); Analyte Name = Name of analyte (Sulfate as SO4; Ammonia as N; Bulk Density; Nitrate/Nitrite as N; Organic Matter; pH; Salinity; Total Phophorus) Analyte Type = Type of analyte (SPK or TRG); Analytical Method = Method used to analyze the sample by Advanced Environmental Laboratories; Arrival Date = Data sample arrived at laboratory (MM/D/YYYY); Aster sp_DEAD = Percent cover of dead Aster sp. observed (%); Aster sp_LIVE = Percent cover of live Aster sp. observed (%); Avicennia germinans_DEAD = Percent cover of dead Avicennia germinans observed (%); Avicennia germinans_LIVE = Percent cover of live Avicennia germinans observed (%); Avicennia pneumatophores_DEAD = Number of dead Avicennia pneumatophores (%); Avicennia pneumatophores_LIVE = Number of live Avicennia pneumatophores (%); Baccharis halimifolia_DEAD = Percent cover of dead Baccharis halimifolia (%); Baccharis halimifolia_LIVE = Percent cover of live Baccharis halimifolia (%); Baccharis sp_DEAD = Percent cover of dead Baccharis sp. (%); Baccharis sp_LIVE = Percent cover of live Baccharis sp. (%); Batis maritima_DEAD = Percent cover of dead Batis maritima observed (%); Batis maritima_LIVE = Percent cover of live Batis maritima observed (%); Bearing Inland Stake to Shoreline Stake (°) = Directional bearing of the inland stake to the shoreline stake (degrees); Bearing to Inland Stake (°) = Directional bearing of the inland stake from the shoreline (degrees); Bearing to Inland Stake (°) = Directional bearing from the shoreline to the inland stake (degrees); Belowground Biomass Dry Weight Density kg/m³ = Belowground biomass dry weight density in kilograms per square meter; Blutaparon vermiculare_DEAD = Percent cover of dead Blutaparon vermiculare observed (%); Blutaparon vermiculare_LIVE = Percent cover of live Blutaparon vermiculare observed (%); Boom = Amount of boom cover in plot (%); Borrichia frutescens_DEAD = Percent cover of dead Borrichia frutescens observed (%); Borrichia frutescens_LIVE = Percent cover of live Borrichia frutescens observed (%); C1 Latitude = Latitude of C1 (front cover plot) stake if stake was replaced decimal degrees (WGS84).; C1 Longitude = Longitude of C1 (front cover plot) stake if stake was replaced decimal degrees (WGS84).; C1 Stake Latitude = Latitude of C1 stake (front cover plot [for field observations], typically established 1 to 1.5 meters from shoreline) at time of site establishment (decimal degrees; WGS84) (NA = Not Applicable, ND = No Data, TBD = To Be Determined); C1 Stake Longitude = Longitude of C1 stake (front cover plot) at time of site establishment (decimal degrees; WGS84); C2 Latitude = Latitude of C2 (middle cover plot) stake if stake was replaced decimal degrees (WGS84).; C2 Longitude = Longitude of C2 (middle cover plot) stake if stake was replaced decimal degrees (WGS84).; C2 Stake Latitude = Latitude of C2 stake (middle cover plot, typically established at 50% of the length of the transect) at time of site establishment (decimal degrees; WGS84); C2 Stake Longitude = Longitude of C2 stake (middle cover plot) at time of site establishment (decimal degrees; WGS84); C3 Latitude = Latitude of C3 (back cover plot) stake if stake was replaced decimal degrees (WGS84).; C3 Longitude = Longitude of C3 (back cover plot) stake if stake was replaced decimal degrees (WGS84).; C3 Stake Latitude = Latitude of C3 stake (back cover plot, typically established at 80% of the length of the transect) at time of site establishment (decimal degrees; WGS84); C3 Stake Longitude = Longitude of C3 stake (back cover plot) at time of site establishment (decimal degrees; WGS84); C4 Stake Latitude = Latitude of C4 stake (pre-wrack cover plot, typically established before the wrack line; only established for the 14 cleanup sites in Barataria Bay) at time of site establishment (decimal degrees; WGS84); C4 Stake Longitude = Longitude of C4 stake (pre-wrack cover plot) at time of site establishment (decimal degrees; WGS84); Calculated %Solids = Calculated solids reported as a percentage; CAS Number = Number assigned to the analyte by Chemical Abstracts Services; CC = Index of relative chlorophyll content between -9.9 and 199.; CC Qualifiers = Chlorophyll content result qualifiers (NA = Not Applicable, ND = No Data); Centosema virginianum_DEAD = Percent cover of dead Centrosema virginianum (%); Centosema virginianum_LIVE = Percent cover of live Centrosema virginianum (%); Cladium mariscus_DEAD = Percent cover of dead Cladium mariscus (%); Cladium mariscus_LIVE = Percent cover of live Cladium mariscus (%); Client Sample ID = Identification code of samples collected assigned by field teams; Co-Dominant Species Canopy Height (cm) = Measurement of the height of the codominant species observed in centimeters; Collection Date Time = Date and time at which sample was collected; Comment = Comment provided by Water and Air Research laboratory; Count Unknown_DEAD = Count of all distinct unknown dead species recorded at the time of observation (%); Count Unknown_LIVE = Count of all distinct unknown living species recorded at the time of observation (%); Data Publication Date = Date associated with the current data posting date (M/D/YYYY); Data Publication Reference = A general description of data provided in the data posting and a version control number; Date = Date on which data were collected (M/D/YYYY); Date Analyzed = Date sample analyzed by laboratory (M/D/YYYY); Date Collected = Date sampled collected; Date Prepared = Date sample prepared for analysis by laboratory (M/D/YYYY); Date Validated = Date that the data were validated (M/D/YYYY); Debris = Amount of debris cover in plot (%); Depth (cm) = Measurement of the depth of water observed at the plot in centimeters.; Detect Flag = Detection limit at which analyte is flagged by Advanced Environmental Laboratories; Detection Limit = Detection limit of analyte; Dilution Factor = Dilution factor of analyte; Distance from Inland Stake to Marsh Edge (m) = The measured distance from the inland stake to the edge of the marsh in meters.; Distichlis spicata_DEAD = Percent cover of dead Distichlis spicata observed (%); Distichlis spicata_LIVE = Percent cover of live Distichlis spicata observed (%); Dominant Herbaceous Avg Live Canopy Height (cm) = Average live canopy height of dominant herbaceous species observed in cover plots in centimeters; Dominant Species Avg Height (cm) = The average height of dominant species observed in cover plots in centimeters; Dominant Species Canopy Height (cm) = Measurement of the height of the dominant species observed in centimeters; EPA Validation Stage = U.S. Environmental Protection Agency (EPA) validation stage (2A = EPA Validation Stage 2A [http://www.epa.gov/quality/qs-docs/g8-final.pdf]); Evidence of Erosion in C1 = Whether or not there was visual evidence of erosion in C1 plot (Yes/No).; Evidence of Erosion in C2 = Whether or not there was visual evidence of erosion in C2 plot (Yes/No).; Evidence of Erosion in C3 = Whether or not there was visual evidence of erosion in C3 plot (Yes/No).; Evidence of Erosion in C4 = Whether or not there was visual evidence of erosion in C4 plot (Yes/No).; Evidence of Erosion in P1 = Whether or not there was visual evidence of erosion in P1 plot (Yes/No).; Evidence of Erosion in P2 = Whether or not there was visual evidence of erosion in P2 plot (Yes/No).; Evidence of Erosion in P3 = Whether or not there was visual evidence of erosion in P3 plot (Yes/No).; Evidence of Erosion in P4 = Whether or not there was visual evidence of erosion in P4 plot (Yes/No).; Extent of Erosion in C1 = Extent of erosion (%) in C1 plot.; Extent of Erosion in C2 = Extent of erosion (%) in C2 plot.; Extent of Erosion in C3 = Extent of erosion (%) in C3 plot.; Extent of Erosion in C4 = Extent of erosion (%) in C4 plot.; Extent of Erosion in P1 = Extent of erosion (%) in P1 plot.; Extent of Erosion in P2 = Extent of erosion (%) in P2 plot.; Extent of Erosion in P3 = Extent of erosion (%) in P3 plot.; Extent of Erosion in P4 = Extent of erosion (%) in P4 plot.; F2012 Marsh Edge Coordinates Latitude = Latitude of Fall 2012 marsh edge, decimal degrees; F2012 Marsh Edge Coordinates Longitude = Longitude of Fall 2012 marsh edge, decimal degrees; Fall 2012 Marsh Edge Stake = Whether or not Fall 2012 marsh edge stake was present or absent (Present / Absent); Fall 2012 Stake Replaced = Whether or not inland stake was replaced if absent; Field Data Verification Status = Summary of the data verification process status described in Appendix B; Final Volume = Final volume of sample; Gear Type = Type of equipment used to obtain sample (large core, 1/4-meter quadrat, or Russian peat corer); Geographic Location = Location of the sites along the Gulf cost; Habitat Type = The habitat of the site (Phragmites, Mangrove, Spartina, Mixed, Back Barrier); Height = Height of tagged trees in plot (in centimeters); Height (cm) = Height (in centimeters) of tagged seedlings in plot; Height Units = Units of measure for height of tagged trees (centimeters or meters); Heliotropium curassavicum_DEAD = Percent cover of dead Heliotropium curassavicum (%); Heliotropium curassavicum_LIVE = Percent cover of live Heliotropium curassavicum (%); Herbaceous Vegetation Species_DEAD = Percent cover of dead herbaceous species (%); Herbaceous Vegetation Species_LIVE = Percent cover of live herbaceous species (%); Herbaceous Vegetation Stature = Observation of whether herbaceous vegetation (grasses and non-woody vegetation) in plot is standing (ST) or laid over (LO); Hydrocotyle bonariensis_DEAD = Percent cover of dead Hydrocotyle bonariensis (%); Hydrocotyle bonariensis_LIVE = Percent cover of live Hydrocotyle bonariensis (%); If Inland Stake Absent, Was Inland Stake replaced = Whether or not inland stake was replaced if absent; If Shoreline Stake Absent, Was Shoreline Stake replaced = Whether or not shoreline stake was replaced if absent.; Initial Weight = Initial weight of sample; Inland plot from Shoreline Stake (m) = Distance of the inland plot from the shoreline stake; Inland Stake = Whether or not inland stake was present or absent (Present / Absent); Inland Stake Latitude = Latitude of inland stake at time of site establishment (decimal degrees; WGS84); Inland Stake Longitude = Longitude of inland stake at time of site establishment (decimal degrees; WGS84) (NA = Not Applicable, ND = No Data, TBD = To Be Determined); Ipomea cordatotriloba_DEAD = Percent cover of dead Ipomea cordatotriloba (%); Ipomea cordatotriloba_LIVE = Percent cover of live Ipomea cordatotriloba (%); Ipomea sagittata_DEAD = Percent cover of dead Ipomea sagittata observed (%); Ipomea sagittata_LIVE = Percent cover of live Ipomea sagittata observed (%); Iva frutescens_DEAD = Percent cover of dead Iva frutescens observed (%); Iva frutescens_LIVE = Percent cover of live Iva frutescens observed (%); Juncus roemarianus_DEAD = Percent cover of dead Juncus roemarianus observed (%); Juncus roemarianus_LIVE = Percent cover of live Juncus roemarianus observed (%); Lab Name = Laboratory where sample was analyzed (Advanced Environmental Laboratories); Lab Sample = Sample identification code assigned to the sample by Water and Air Research laboratory; Laboratory Qualifiers = Qualifiers assigned by Advanced Environmental Laboratories; Laboratory Sample ID = Identification code of samples collected assigned by Advanced Environmental Laboratories; LAF = Unitless measurement of light-adapted fluorescence; LAF Qualifiers = Light-adapted fluorescence result qualifiers (BL = Brown Leaf, HO = Heavily Oiled, NL = No Leaf, UW = Under Water, SB = Stubble, NA = Not Applicable, ND = No Data); Largest Diameter = Largest diameter of tagged trees in plot in centimeters; Leaf Rep = Which of two representative leaves from each vertical segment were sampled; Life Stage = Whether plant from which the data were collected were adult or seedling. (NA = Not Applicable, ND = No Data); Longest Stem cm = Length of longest stem (centimeters) associated with sample; Mainstem Diameter (cm) @ 10 cm Height = Diameter (in centimeters) of mainstem of tagged trees in plot at 10 centimeters height (NA = Not Applicable, ND = No Data); Mainstem Diameter (cm) @ 5 cm Height = Diameter (in centimeters) of mainstem of tagged seedlings at a height of 5&#160;centimeters. (UW = Under Water, NA = Not Applicable, ND = No Data); Mainstem Internodal Dist (cm) = Measure of distance (in centimeters) between nodes on mainstem; Mangrove Avg Live Height (cm) = Average height of mangroves in mangrove plots in centimeters; Marsh Morning Glory_DEAD = Percent cover of dead marsh morning glory (%); Marsh Morning Glory_LIVE = Percent cover of live marsh morning glory (%); Matrix = Type of material sampled or analyzed (soil, leachate, water); Max Live Tree Height (cm) = Measurement of the maximum height of live trees observed in the plot in centimeters; Measurement Basis = Whether sample was analyzed wet or dry; Mid-plot from Shoreline Stake (m) = Distance of the middle of the plot from the shoreline stake; New Tree Tag No. = New Tag identification on adult mangrove trees tagged in plot. (only in Fall 2011); No. Dead Primary Branches off Main Stem = Count of dead primary branches off mainstem of tagged trees in plot; No. Main Stem Nodes = Count of mainstem nodes on tagged seedlings in a plot; No. of C1 Stakes Absent = The number of C1 (front cover plot) stakes that were absent; No. of C1 Stakes Replaced = The number of C1 (front cover plot) stakes that were replaced; No. of C2 Stakes Absent = The number of C2 (middle cover plot) stakes that were absent; No. of C2 Stakes Replaced = The number of C2 (middle cover plot) stakes that were replaced; No. of C3 Stakes Absent = The number of C3 (back cover plot) stakes that were absent; No. of C3 Stakes Replaced = The number of C3 (back cover plot) stakes that were replaced; No. of C4 Stakes Absent = The number of C4 (pre-wrack cover plot) stakes that were absent; No. of C4 Stakes Replaced = The number of C4 (pre-wrack cover plot) stakes that were replaced; No. of Live Adult Trees (≥50cm). = Count of live adult mangrove trees (≥ 50 centimeters in height) in plot; No. of Live Primary Branches off Main Stem = Count of live primary branches off mainstem of tagged trees in plot; No. of Live Seedlings (&lt;50cm) = Count of live mangrove seedlings (&lt; 50 centimeters in height) in plot; No. of Live Tagged Adult Trees = Count of live adult mangrove trees tagged in plot; No. of Live Tagged Seedlings = Count of live mangrove seedlings tagged in plot; No. of Living Leaves = Count of living leaves on tagged seedlings in a plot; No. of P1 Stakes Absent = The number of P1 (front productivity plot) stakes that were absent; No. of P1 Stakes Replaced = The number of P1 (front productivity plot) stakes that were replaced; No. of P2 Stakes Absent = The number of P2 (middle productivity plot) stakes that were absent; No. of P2 Stakes Replaced = The number of P2 (middle productivity plot) stakes that were replaced; No. of P3 Stakes Absent = The number of P3 (back productivity plot) stakes that were absent; No. of P3 Stakes Replaced = The number of P3 (back productivity plot) stakes that were replaced; No. of P4 Stakes Absent = The number of P4 (pre-wrack productivity plot) stakes that were absent; No. of P4 Stakes Replaced = The number of P4 (pre-wrack productivity plot) stakes that were replaced; No. of Pneumatophores = Count of all pneumatophores within entire plot; NOAA ID = Identification code assigned to the sample by NOAA; Notes = Additional notes recorded; Oil Cleaned ? = Was oil cleaned off of sample (Yes, No); Oil Distance from Inland Stake (m) = The distance of oiling beyond the inland stake.; Oil Distribution Beyond Inland Stake = Whether or not oil was present beyond the inland stake.; Oil Present ? = Observation of oil on sample (Yes, No); Oil Sheen ? = Observation of sheen on sample (Yes, No); OilHt (cm) = Measured height of oil observed on plants in centimeters; OilHt 2010 culms (cm) = Measured oiling height on Fall 2010 vegetation (culms) during the Spring 2011 Event (in centimeters); Oiling Category = Percentage of oil cover observed at the site (None, 0-10%, 10-50%, 50-90%, 90-100%, Clean Up); Oiling Height = The height of oiling observed at the time of data collection in centimeters; Old Tag No. = Tag identification number on tagged mangrove seedlings from previous sampling event. (NA = Not Applicable, ND = No Data); P1 Latitude = Latitude of P1 (front productivity plot) stake if stake was replaced decimal degrees (WGS84).; P1 Longitude = Longitude of P1 (front productivity plot) stake if stake was replaced decimal degrees (WGS84).; P1 Stake Latitude = Latitude of P1 stake (front productivity plot [for laboratory sampling], typically established 1 to 1.5 meters from shoreline) at time of site establishment (decimal degrees; WGS84); P1 Stake Longitude = Longitude of P1 stake (front productivity plot) at time of site establishment (decimal degrees; WGS84); P2 Latitude = Latitude of P2 (middle productivity plot) stake if stake was replaced decimal degrees (WGS84).; P2 Longitude = Longitude of P2 (middle productivity plot) stake if stake was replaced decimal degrees (WGS84).; P2 Stake Latitude = Latitude of P2 stake (middle productivity plot, typically established at 50% of the length of the transect) at time of site establishment (decimal degrees; WGS84); P2 Stake Longitude = Longitude of P2 stake (middle productivity plot) at time of site establishment (decimal degrees; WGS84); P3 Latitude = Latitude of P3 (back productivity plot) stake if stake was replaced decimal degrees (WGS84).; P3 Longitude = Longitude of P3 (back productivity plot) stake if stake was replaced decimal degrees (WGS84).; P3 Stake Latitude = Latitude of P3 stake (back productivity plot, typically established at 80% of the length of the transect) at time of site establishment (decimal degrees; WGS84); P3 Stake Longitude = Longitude of P3 stake (back productivity plot) at time of site establishment (decimal degrees; WGS84); P4 Stake Latitude = Latitude of P4 stake (pre-wrack productivity plot, typically established before the wrack line; only established for the 14 cleanup sites in Barataria Bay) at time of site establishment (decimal degrees; WGS84); P4 Stake Longitude = Longitude of P4 stake (pre-wrack productivity plot) at time of site establishment (decimal degrees; WGS84); Panicum repens_DEAD = Percent cover of dead Panicum repens observed (%); Panicum repens_LIVE = Percent cover of live Panicum repens observed (%); Pennywort_DEAD = Percent cover of dead pennywort (%); Pennywort_LIVE = Percent cover of live pennywort (%); Percent Recovery = Percent of spiked concentration recovered; Perpendicular Diameter = Perpendicular diameter of tagged trees in plot in centimeters.; Phragmites australis_DEAD = Percent cover of dead Phragmites australis observed (%); Phragmites australis_LIVE = Percent cover of live Phragmites australis observed (%); Plant Level = Which of three equidistant vertical segments were sampled (top, mid, or bottom); Plot Distance Relative to Transect A (m) = The distance of the plot from Transect A (only applicable to Mangrove sites); Plot Distance Relative to Transect B (m) = The distance of the plot from Transect B (only applicable to Mangrove sites); Plot Distance Relative to Transect C (m) = The distance of the plot from Transect C (only applicable to Mangrove sites); Plot Distance Relative to Transect D (m) = The distance of the plot from Transect D (only applicable to Mangrove sites); Plot Distance Relative to Transect E (m) = The distance of the plot from Transect E (only applicable to Mangrove sites); Plot Distance Relative to Transect F (m) = The distance of the plot from Transect F (only applicable to Mangrove sites); Plot ID = Identification code of the plot at which data were collected (ND = No Data); Plot ID = Identification code of the plot at which the samples were collected; Plot ID = Identification of sample plot, including whether the plot was primarily for field observations (Cover [C]) or laboratory sampling (Productivity [P]) and the position along the perpendicular transect from shoreline (stake 1 closest to shoreline; stake 2 mid-point of transect, stake 3 farthest from the shoreline; 4 positioned in wrack line of cleanup sites); Pneumatophore Ave Height (cm) = Average height of observable pneumatophores within plot in centimeters; PPE = Count estimate of propagule production; Preparation Method = Method used to prepare the sample by Advanced Environmental Laboratories.; Project Name = Name of project per Advanced Environmental Laboratories; Propagule Production Estimate = Estimated number of propagules produced (range); R1@10cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 10&#160;centimeters (Replicate 1); R1@10cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); R1@1cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 1&#160;centimeter (Replicate 1); R1@1cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); R2@10cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 10&#160;centimeters (Replicate 2); R2@10cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); R2@1cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 1&#160;centimeter (Replicate 2); R2@1cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); R3@10cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 10 centimeters (Replicate 3); R3@10cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); R3@1cm = Measurement of soil oxidation-reduction (millivolts) taken at soil depth of 1&#160;centimeter (Replicate 3); R3@1cm Qualifiers = Qualifier for REDOX measurement value (NA = Not Applicable, ND = Non-Detect NULL = Not Recorded in Dataset); Reason Code = Validation reason code (1 = Holding time/sample preservation, 8 = Matrix spike [MS &amp; MSD] recoveries, 9 = Precision [all replicates], 14 = Other [defined in validation report]. Note that designations of “a” and “b” with the reason code number are further defined by the validating organization in the validation reports.);" Reason Code = Validation reason code (9 = Precision [all replicates], 14 = Other [defined in validation report]. Note that a designation of “a” with the reason code number is further defined by the validating organization in the validation reports.); Reporting Limit = Reporting limit of analyte (mg/L, % by Weight, Salinity units, pH Units, g/cubic cm); Result = Result of analysis; RPD = Relative percent difference; Salicornia sp_DEAD = Percent cover of dead Salicornia sp. observed (%); Salicornia sp_LIVE = Percent cover of live Salicornia sp. observed (%); Sample Delivery Group = Sample delivery group assigned by Advanced Environmental Laboratories; Sample ID = Identification code assigned to the sample by NOAA; Sample Rinsed ? = Was sample rinsed (Yes, No); Sample Type = Aboveground or belowground marsh vegetation sample; Sampler Team Code = NOAA-assigned code of team that collected data/sample; Sarcocornia sp_DEAD = Percent cover of dead Sarcocornia sp. (%); Sarcocornia sp_LIVE = Percent cover of live Sarcocornia sp. (%); Schoenoplectus americanus_DEAD = Percent cover of dead Schoenoplectus americanus (%); Schoenoplectus americanus_LIVE = Percent cover of live Schoenoplectus americanus (%); Schoenoplectus robustus_DEAD = Percenet cover of dead Schoenoplectus robustus (%); Schoenoplectus robustus_LIVE = Percent cover of live Schoenoplectus robustus (%); Schoenoplectus spp_DEAD = Percent cover of dead Schoenoplectus sp. observed (%); Schoenoplectus spp_LIVE = Percent cover of live Schoenoplectus sp. observed (%); Seedling Tag No. = Tag identification code on mangrove seedlings that were tagged in the plot; Shoreline Stake = Whether or not shoreline stake was present or absent. (Present / Absent); Shoreline Stake Latitude = Latitude of shoreline stake at time of site establishment (decimal degrees; WGS84) (NA = Not Applicable, ND = No Data, TBD = To Be Determined); Shoreline Stake Longitude = Longitude of shoreline stake at time of site establishment (decimal degrees; WGS84) (NA = Not Applicable, ND = No Data, TBD = To Be Determined); Shortest Stem cm = Length of shortest stem (centimeters) associated with sample; Site ID = Name of the site; Site ID = Identification code of the site at which data were collected; Site ID = Identification code of the site at which the samples were collected; Solidago sempervirens_DEAD = Percent cover of dead Solidago sempervirens (%); Solidago sempervirens_LIVE = Percent cover of live Solidago sempervirens (%); Spartina alterniflora_LIVE = Percent cover of live Spartina alterniflora observed (%); Spartina patens_DEAD = Percent cover of dead Spartina patens observed (%); Spartina patens_LIVE = Percent cover of live Spartina patens observed (%); Spartina_alterniflora_DEAD = Percent cover of dead Spartina alterniflora observed (%); Spike Conc = Spike concentration; SSOC = Sediment Surface Oiling Coverage (%); Status = Status of trees measured in plot. (Live, Dead, Missing, New); Status = The biological status of the mangrove seedling (Live, Dead, Missing, New); Stem Count = Count of stems associated with sample; Stem Density stems/m² = Density of stems per square meter associated with sample; Stem Rep = Which of three representative stems were sampled (1, 2, 3); Study Name = Name of the study used in the database.; Study Reference No. = Study reference number (SRN) assigned by BP to provide a link between the data provided in the data file and the associated work plans and study descriptions provided on the Gulf Science Data website (gulfsciencedata.bp.com).; SubSample Fraction = Species of plant analyzed and, on occasion, the type of plant tissue sampled; Sum Unknown_DEAD = Percent cover of the total unknown dead species recorded at the time of observation (%); Sum Unknown_LIVE = Percent cover of the total unknown living species recorded at the time of; Team # = Identification number of team that collected data; Team ID = National Oceanic and Atmospheric Administration (NOAA)-assigned code for the team that collected data/sample; Time (24 hr) = Time at which data were collected (24-hour format); Time (24hr) = Time at which data were taken based on 24-hour clock; Total Aboveground Biomass (Dead) = Total aboveground biomass (dead) dry weight in grams; Total Aboveground Biomass (Live) = Total aboveground biomass (live) dry weight in grams; Total Aboveground Biomass Density (kg/m²) = Total aboveground biomass density in kilograms per square meter; Total Aboveground Biomass Dry Weight (g) = Total aboveground biomass dry weight in grams; Total Belowground Biomass Density (kg/m³) = Total belowground biomass density in kilograms per square meter; Total Belowground Biomass Dry Weight (g) = Total belowground biomass dry weight in grams (NA = Not Applicable); Total CalcDryWeight g = Total calculated dry weight in grams; Total Dead Aboveground Biomass Density (kg/m²) = Total dead aboveground biomass density in kilograms per square meter; Total Dead Vegetation = Total dead vegetation cover in plot (%); Total Live Aboveground Biomass Density (kg/m²) = Total live aboveground biomass density in kilograms per square meter; Total Live Vegetation (%) = Total live vegetation cover in plot (%); Total or Dissolved = Fraction of metals extract analyzed; Total Vegetation = Total vegetation cover in plot (%); Transect Length (m) = The length of the transect that was established at the site in meters; Tree Tag No. = Tag identification code on adult mangrove trees tagged in plot; Units = Units of results (percentage by weight, grams per cubic centimeter, milligram per liter, pH units, salinity units, micrograms per liter); Validated by = Name of the organization that performed the data validation; Validation Qualifier = Validation qualifier (J = Estimated, R = Rejected/Unusable); Validation Reason Code = Validation reason code (9 = Precision [all replicates], 14 = Other [defined in validation report]. Note that a designation of “a” with the reason code number is further defined by the validating organization in the validation reports.); VCI = Measurement of Vegetation Condition Index (degree of chlorosis) (0 = comparable to reference, 0.5 = intensely speckled with yellow, 1.0 = green with considerable yellowing (50%), 2.0 = alive but &gt;50% yellowing of leaves/stems, 3.0 = vegetation dead) (NA = Not Applicable, ND = No Data); VCI Adult = Measurement of Vegetation Condition Index (degree of chlorosis) on adult mangroves ≥50 centimeters tall (0 = comparable to reference, 0.5 = intensely speckled with yellow, 1.0 = green with considerable yellowing (50%), 2.0 = alive but &gt;50% yellowing of leaves/stems, 3.0 = vegetation dead) (NA = Not Applicable, ND = No Data); VCI CODOMSP = Measurement of Vegetation Condition Index (degree of chlorosis) on codominant species (0 = comparable to reference, 0.5 = intensely speckled with yellow, 1.0 = green with considerable yellowing (50%), 2.0 = alive but &gt;50% yellowing of leaves/stems, 3.0 = vegetation dead) (NA = Not Applicable, ND = No Data); VCI Seedling = Measurement of Vegetation Condition Index (degree of chlorosis) on mangrove seedlings &lt;50 centimeters tall (0 = comparable to reference, 0.5 = intensely speckled with yellow, 1.0 = green with considerable yellowing (50%), 2.0 = alive but &gt;50% yellowing of leaves/stems, 3.0 = vegetation dead) (NA = Not Applicable, ND = No Data); Vegetation Stature = Observation of whether vegetation in plot is standing (ST) or laid over (LO); Vigna luteola_DEAD = Percent cover of dead Vigna luteola (%); Vigna luteola_LIVE = Percent cover of live Vigna luteola (%); Vitality = Was sample dead or alive when received at the laboratory?; VOEI = Measurement of Vegetation Oiling Extent Index (0 = no oil in plot, 0.5 = intermittent oil on stems, 1.0 = oil present on 5-25% of stems, 2.0 = oil on &gt;25-50% of stems, 3.0 = oil present on &gt;50% of stems (NA = Not Applicable, ND = No Data); VOEI 2010 Culms = Measurement of Vegetation Oiling Extent Index on 2010 Vegetation (culms)(0 = no oil in plot, 0.5 = intermittent oil on stems, 1.0 = oil present on 5-25% of stems, 2.0 = oil on &gt;25-50% of stems, 3.0 = oil present on &gt;50% of stems (NA = Not Applicable, ND = No Data); VOEI Adult = Measurement of Vegetation Oiling Extent Index on adult mangroves (0 = no oil in plot, 0.5 = intermittent oil on stems, 1.0 = oil present on 5-25% of stems, 2.0 = oil on &gt;25-50% of stems, 3.0 = oil present on &gt;50% of stems (NA = Not Applicable, ND = No Data); VOEI Seedling = Measurement of Vegetation Oiling Extend Index (VOEI) on mangrove seedlings (&lt;50 centimeters) (0 = no oil in plot, 0.5 = intermittent oil on stems, 1.0 = oil present on 5-25% of stems, 2.0 = oil on &gt;25-50% of stems, 3.0 = oil present on &gt;50% of stems (NA = Not Applicable, ND = No Data); WAR Aliquot Wet Weight g = Aliquot wet weight reported by Water and Air Research laboratory in grams; WAR ID = Sample identification code assigned to the sample by Water and Air Research laboratory; WAR Subsample ID = Subsample identification code assigned to the sample by Water and Air Research laboratory; WAR Total Wet Weight g = Total wet weight reported by Water and Air Research laboratory in grams; Water on Marsh = Observation of presence or absence of water at the plot. (Y = yes, N = no); Wrack = Amount of wrack cover in plot (%); |Sulfate, EPA 300.0, SOP-054-Rev-06, IC; Total Phosphorus, Total EPA 365.3, SOP-059-Rev-01, Spectrophotometer; Ammonia, Total (as N) EPA 350.1, , SOP WC-019-Rev-05, Flow Analyzer; Soil Organic Matter, MC252 Coastal Wetland Plan; Salinity, SM2520B, SOP WC-066-Rev-00, Salinity Meter; pH EPA 9040/SM4500H+B, SOP-002-Rev-08, pH Meter; Bulk Density, ASTM D2937-10; Nitrate-Nitrite, Total EPA 353.2/SM4500 NO3-F, SOP-WC-012-Rev-10, Autoanalyzer; ||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString><![CDATA[6300 Ocean Drive
+Unit 5869]]></gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString />
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>pdf, xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable" />
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>11.93</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/BP.x750.000:0011</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString />
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown" />
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Save to File' (no form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-05-03T21:24:00+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Save to File' (no form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-06-14T12:30:29+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Save to File' (no form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2017-11-10T22:38:54+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-sev.301.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Monsoon Rainfall Manipulation Experiment (MRME) Meteorology Data from a Chihuahuan Desert Grassland                                                                                                                                                                                                                                                                                   
+         at the Sevilleta National Wildlife Refuge, New Mexico (2010- present)</title>
+    <creator>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Collins</surName>
+      </individualName>
+      <organizationName>Sevilleta LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+      </address>
+    </creator>
+    <pubDate>2015</pubDate>
+    <abstract>
+      <para>The Monsoon Rainfall Manipulation Experiment (MRME) is to understand changes in ecosystem structure                                                                                                                                                                                                                                                                                 
+            and function of a semiarid grassland caused by increased precipitation variability, which alters                                                                                                                                                                                                                                                                                       
+            the pulses of soil moisture that drive primary productivity, community composition, and ecosystem                                                                                                                                                                                                                                                                                      
+            functioning. The overarching hypothesis being tested is that changes in event size and variability                                                                                                                                                                                                                                                                                     
+            will alter grassland productivity, ecosystem processes, and plant community dynamics. In                                                                                                                                                                                                                                                                                               
+            particular, we predict that many small events will increase soil CO2 effluxes by stimulating                                                                                                                                                                                                                                                                                           
+            microbial processes but not plant growth, whereas a small number of large events will increase                                                                                                                                                                                                                                                                                         
+            aboveground NPP and soil respiration by providing sufficient deep soil moisture to sustain plant                                                                                                                                                                                                                                                                                       
+            growth for longer periods of time during the summer monsoon. These data were collected from a                                                                                                                                                                                                                                                                                          
+            meteorological station located at the Monsoon experimental site.                                                                                                                                                                                                                                                                                                                       
+            Imported data from a Campbell Scientifics Instruments model CR1000 data logger operated at station                                                                                                                                                                                                                                                                                     
+            Monsoon_CR1000 on 23-Nov-2015.  Observations were recorded from 08-Jul-2010 to 09-Jul-2010 for 9                                                                                                                                                                                                                                                                                       
+            variables, including: Date, RECORD, batt_Avg, aTemp_Avg, rhPercent, vPressure, bPressure_Avg,                                                                                                                                                                                                                                                                                          
+            parDensity_Avg and precip_Tot.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>ecosystem</keyword>
+      <keyword>meteorology</keyword>
+    </keywordSet>
+    <intellectualRights/>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-07-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-11-23</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Sevilleta LTER, University of New Mexico</organizationName>
+      <positionName>Sevilleta LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Department of Biology, University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+      </address>
+    </contact>
+    <publisher>
+      <organizationName>Sevilleta Long Term Ecological Research Project</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>These data were collected via a standard meteorological station, no information about which has                                                                                                                                                                                                                                                                            
+                     been provided by the project PIs.</para>
+          </section>
+        </description>
+        <instrumentation>Electronic data logger (make: Campbell Scientific Instruments, model: CR1000, serial number: 8997,                                                                                                                                                                                                                                                                    
+               firmware: CR1000.Std.19)</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2010-07-08</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2015-11-23</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>Monsoon Study Site</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-106.414890</westBoundingCoordinate>
+                <eastBoundingCoordinate>-106.414890</eastBoundingCoordinate>
+                <northBoundingCoordinate>34.201430</northBoundingCoordinate>
+                <southBoundingCoordinate>34.201430</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <para>These data were collected via a standard meteorological station, no information about which has                                                                                                                                                                                                                                                                            
+                     been provided by the project PIs.</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>Sevilleta Long Term Ecological Research Project</title>
+      <personnel>
+        <individualName>
+          <givenName>Will</givenName>
+          <surName>Pockman</surName>
+        </individualName>
+        <organizationName>Department of Biology, University of New Mexico</organizationName>
+        <positionName>Lead PI</positionName>
+        <address>
+          <deliveryPoint>MSC03 2020</deliveryPoint>
+          <city>Albuquerque</city>
+          <administrativeArea>New Mexico</administrativeArea>
+          <postalCode>87131</postalCode>
+        </address>
+        <role>project leader</role>
+      </personnel>
+    </project>
+    <dataTable>
+      <entityName>data</entityName>
+      <entityDescription>Main data table from Monsoon Rainfall Manipulation Experiment (MRME) Meteorology Data from a                                                                                                                                                                                                                                                                           
+            Chihuahuan Desert Grassland at the Sevilleta National Wildlife Refuge, New Mexico (2010- present)</entityDescription>
+      <physical>
+        <objectName>data</objectName>
+        <size unit="byte">0</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>5</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sev/301/1/8d777f385d3dfec8815d20f7496026dc</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data processing using the GCE Data Toolbox for MATLAB</para>
+          </description>
+          <software>
+            <title>GCE Data Toolbox for MATLAB</title>
+            <creator>
+              <organizationName>Georgia Coastal Ecosystems LTER</organizationName>
+              <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+            </creator>
+            <abstract>
+              <para>The GCE Data Toolbox is a comprehensive library of functions for metadata-based analysis quality                                                                                                                                                                                                                                                                        
+                        control, transformation and management of ecological data sets. The toolbox is based on the GCE                                                                                                                                                                                                                                                                            
+                        Data Structure, a MATLAB specification for storing tabular data along with all information required                                                                                                                                                                                                                                                                        
+                        to interpret the data and generate formatted metadata (documentation). Metadata fields in the                                                                                                                                                                                                                                                                              
+                        structure are queried by toolbox functions for all operations, allowing functions to process and                                                                                                                                                                                                                                                                           
+                        format values appropriately based on the type of information they represent. This semantic                                                                                                                                                                                                                                                                                 
+                        processing approach supports highly automated and intelligent data analysis and ensures data set                                                                                                                                                                                                                                                                           
+                        validity throughout all processing steps.</para>
+            </abstract>
+            <implementation>
+              <distribution>
+                <online>
+                  <url function="information">https://gce-svn.marsci.uga.edu/trac/GCE_Toolbox</url>
+                </online>
+              </distribution>
+            </implementation>
+            <version>Toolbox Version 3.9.4b (09-Nov-2015)</version>
+          </software>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data                                                                                                                                                                                                                                                                         
+                     types are validated upon importing the table into MATLAB, and qualifier flags are automatically                                                                                                                                                                                                                                                                               
+                     generated for data values based on QA/QC criteria for each data column pre-defined in metadata                                                                                                                                                                                                                                                                                
+                     templates (e.g. value range checks, sanity checks, pattern checks). Automatically-assigned                                                                                                                                                                                                                                                                                    
+                     qualifier flags are reviewed graphically and revised or augmented as deemed appropriate by GCE                                                                                                                                                                                                                                                                                
+                     information management staff, based on metadata information from the contributor, values of other                                                                                                                                                                                                                                                                             
+                     measured variables, or statistical tests. Qualifier flags are also assigned to values that are                                                                                                                                                                                                                                                                                
+                     imputed or derived, revised, or otherwise differ from values in the original data submission. A                                                                                                                                                                                                                                                                               
+                     column of coded qualifier flags is generated and included in the data table if flags are assigned                                                                                                                                                                                                                                                                             
+                     to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date and time of data collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>batt_Avg</attributeName>
+          <attributeDefinition>batt_Avg</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>aTemp_Avg</attributeName>
+          <attributeDefinition>aTemp_Avg</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">-30</minimum>
+                  <maximum exclusive="true">45</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Flag_aTemp_Avg</attributeName>
+          <attributeDefinition>QA/QC flags for aTemp_Avg (flagging criteria, where "x" is aTemp_Avg: x&lt;-30="I", x&gt;45="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>invalid value (out of range)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>rhPercent</attributeName>
+          <attributeDefinition>rhPercent</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="true">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Flag_rhPercent</attributeName>
+          <attributeDefinition>QA/QC flags for rhPercent (flagging criteria, where "x" is rhPercent: x&lt;0="I", x&gt;100="I")</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>invalid value (out of range)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vPressure</attributeName>
+          <attributeDefinition>vPressure</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kiloPascal</customUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="true">2.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>bPressure_Avg</attributeName>
+          <attributeDefinition>bPressure_Avg</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millibar</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">800</minimum>
+                  <maximum exclusive="true">900</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>parDensity_Avg</attributeName>
+          <attributeDefinition>parDensity_Avg</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="true">3000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_Tot</attributeName>
+          <attributeDefinition>precip_Tot</attributeDefinition>
+          <storageType>floating-point</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <maximum exclusive="true">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or censored based on quality control analysis (see methods)</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/stmml.xsd">
+        <stmml:unit id="kiloPascal" name="kiloPascal">
+          <stmml:description>user defined unit kiloPascal</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="micromolePerMeterSquaredPerSecond" name="micromolePerMeterSquaredPerSecond">
+          <stmml:description>user defined unit micromolePerMeterSquaredPerSecond</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

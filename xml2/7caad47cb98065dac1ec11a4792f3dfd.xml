@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<eml:eml
+      packageId="knb.292.1" system="knb"
+      xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+      xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+      xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">
+<!-- Person who filled in the catalog entry form: USA National  Phenology Network -->
+<!-- Form filled out at Tue Jun 12 02:50:47 2012 GMT -->
+<access authSystem="knb" order="denyFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>cn=esa-moderators,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=arosemratin,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>read</permission>
+<permission>write</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier system="USA National Phenology Network">Plant and Animal Phenology Data for the United States</alternateIdentifier>
+<title>Plant and Animal Phenology Data for the United States</title>
+<creator>
+<organizationName>USA National Phenology Network</organizationName>
+</creator>
+<creator>
+<individualName>
+<givenName>Ellen G.</givenName>
+<surName>Denny</surName>
+</individualName>
+<organizationName>USA National Phenology Network</organizationName>
+<address>
+<deliveryPoint>USA National Phenology Network, University of Arizona, 1955 E. 6th Street</deliveryPoint>
+<city>Tucson</city>
+<administrativeArea>Arizona</administrativeArea>
+<postalCode>85721</postalCode>
+<country>USA</country>
+</address>
+<phone>207-475-2365 </phone>
+<electronicMailAddress>ellen@usanpn.org</electronicMailAddress>
+</creator>
+<metadataProvider><individualName>
+<givenName>USA National </givenName>
+<surName>Phenology Network</surName>
+</individualName>
+</metadataProvider>
+<associatedParty><individualName>
+<givenName>Ellen G.</givenName>
+<surName>Denny</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<pubDate>2012-06-11</pubDate>
+<abstract>
+<para>Phenology data for 252 species of plants (2009 and 2010) and 58 species of animals (2010) are collected at 1,000 locations across the United States. Protocols used for plant species are documented in Thomas et. al., 2010. Protocols used for animal species (and recently added palm and live oak plant species) are documented in Denny et. al., In prep. (contact nco@usanpn.org for current information). Data were collected using the phenophase status approach (Thomas et. al., 2010). Latitude and longitude (WGS84 Datum) have been rounded to 0.1 degrees to protect observer privacy. This is a suite of five data sets (Plants 2009, Plants 2010, Plants 2011, Animals 2010, Animals 2011) each provided with and without full phenophase definitions. </para>
+</abstract>
+<keywordSet>
+<keyword >plants</keyword>
+<keyword >animals</keyword>
+<keyword >ground stations</keyword>
+<keyword >migratory routes</keyword>
+<keyword >migratory rates</keyword>
+<keyword >Species life history</keyword>
+<keyword >biosphere</keyword>
+<keyword >biota</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>USA National Phenology Network. 2010. Plant and Animal Phenology Data for the United States. Tucson, Arizona, USA: USA-NPN. Data set accessed YYYY-MM-DD at &lt;http://www.usanpn.org/results/data&gt;. </para>
+</additionalInfo>
+<intellectualRights>
+<para>Obtain permission from data set owner(s)</para>
+</intellectualRights>
+<distribution>
+<online>
+<url>http://www.usanpn.org/results/data</url>
+</online>
+</distribution>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>2009-03-02</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>West_Bounding_Coordinate: -124.36
+East_Bounding_Coordinate: -52.78
+North_Bounding_Coordinate: 49.25
+South_Bounding_Coordinate: 29.53
+Latitude and longitude are in a WGS84 Datum, and have been rounded to 0.1 degrees to protect observer privacy. </geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-124.3600</westBoundingCoordinate>
+<eastBoundingCoordinate>52.7800</eastBoundingCoordinate>
+<northBoundingCoordinate>49.2500</northBoundingCoordinate>
+<southBoundingCoordinate>-29.5300</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact>
+<individualName>
+<givenName>Alyssa</givenName>
+<surName>Rosemartin</surName>
+</individualName>
+<organizationName>USA National Phenology Network</organizationName>
+<address>
+<deliveryPoint>USA National Phenology Network, University of Arizona, 1955 E. 6th Street</deliveryPoint>
+<city>Tucson</city>
+<administrativeArea>Arizona</administrativeArea>
+<postalCode>85721</postalCode>
+<country>USA</country>
+</address>
+<phone>(520) 626-3821</phone>
+<electronicMailAddress>nco@usanpn.org</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>USA National Phenology Network</title>
+<para>In response to the growing need to understand the response of plant and animal species to environmental variation and climate change and to develop a widespread baseline against which future phenological change may be measured, a consortium of scientists and agencies organized the USA-NPN, with a mandate to collect and share phenology data. More information on the USA-NPN and our mandate in our strategic plan (&lt;http://www.usanpn.org/files/shared/files/USA-NPN_Strategic_Plan_2011-2015_8-6-10.pdf&gt;). 
+
+These data sets are formatted such that each record gives the phenophase status (yes, no or uncertain) for a given phenophase, for a given species (for animals) or individual organism (for plants), on a given day. Additionally, on the animal data sets auxillary information on the methods and duration of search is given. Contact the distributor (nco@usanpn.org), for further auxillary information (characteristics of sites and individual plants). </para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>In response to the growing need to understand the response of plant and animal species to environmental variation and climate change and to develop a widespread baseline against which future phenological change may be measured, a consortium of scientists and agencies organized the USA-NPN, with a mandate to collect and share phenology data. More information on the USA-NPN and our mandate in our strategic plan (&lt;http://www.usanpn.org/files/shared/files/USA-NPN_Strategic_Plan_2011-2015_8-6-10.pdf&gt;). 
+
+These data sets are formatted such that each record gives the phenophase status (yes, no or uncertain) for a given phenophase, for a given species (for animals) or individual organism (for plants), on a given day. Additionally, on the animal data sets auxillary information on the methods and duration of search is given. Contact the distributor (nco@usanpn.org), for further auxillary information (characteristics of sites and individual plants). </para>
+</description></studyExtent>
+<samplingDescription>
+<para>In response to the growing need to understand the response of plant and animal species to environmental variation and climate change and to develop a widespread baseline against which future phenological change may be measured, a consortium of scientists and agencies organized the USA-NPN, with a mandate to collect and share phenology data. More information on the USA-NPN and our mandate in our strategic plan (&lt;http://www.usanpn.org/files/shared/files/USA-NPN_Strategic_Plan_2011-2015_8-6-10.pdf&gt;). 
+
+These data sets are formatted such that each record gives the phenophase status (yes, no or uncertain) for a given phenophase, for a given species (for animals) or individual organism (for plants), on a given day. Additionally, on the animal data sets auxillary information on the methods and duration of search is given. Contact the distributor (nco@usanpn.org), for further auxillary information (characteristics of sites and individual plants). </para>
+</samplingDescription>
+</sampling>
+</methods>
+</dataset>
+</eml:eml>

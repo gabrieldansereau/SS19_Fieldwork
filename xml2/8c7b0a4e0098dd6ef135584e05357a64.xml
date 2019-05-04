@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml
+      packageId="knb.1258.1" system="knb"
+      xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+      xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+      xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+<!-- Person who filled in the catalog entry form:   -->
+<!-- Form filled out at Fri Feb 17 14:58:30 2017 GMT -->
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=jsta,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Florida Bay Water Quality Estimated by Underway Flow-through Measurement</title>
+<creator id="731597940095294">
+<individualName>
+<givenName>Christopher</givenName>
+<surName>Madden</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+<electronicMailAddress>cmadden@sfmwd.gov</electronicMailAddress>
+</creator>
+<creator id="2766616574171533">
+<individualName>
+<givenName>Joseph</givenName>
+<surName>Stachelek</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+<electronicMailAddress>stachel2@msu.edu</electronicMailAddress>
+</creator>
+<creator id="2776147413008508">
+<individualName>
+<givenName>Stephen</givenName>
+<surName>Kelly</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+<electronicMailAddress>skelly@sfwmd.gov</electronicMailAddress>
+</creator>
+<creator id="6415259784626117">
+<individualName>
+<givenName>Michelle</givenName>
+<surName>Blaha</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+</creator>
+<metadataProvider id="7692214476793531">
+<individualName>
+<givenName>Christopher</givenName>
+<surName>Madden</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+<electronicMailAddress>cmadden@sfmwd.gov</electronicMailAddress>
+</metadataProvider>
+<pubDate>2017-02-17</pubDate>
+<abstract>
+<para>Data was collected using a boat-mounted Dataflow onboard flow-through collection system (Madden and Day 1992). While the boat is underway, the Dataflow receives a continuous stream of water from an onboard pump that is routed to a series of sensors operating in flow-through mode. These sensors measure the physical and optical properties of water passing through the system at 6 second intervals (approximately every 70 m of boat travel). Measurements are georeferenced by an onboard GPS unit with a horizontal accuracy of Â± 250 cm. Each Dataflow survey is supplemented by a set of discrete grab samples. These samples were collected from the Dataflow outflow hose while underway and were analyzed for chlorophyll concentration, total suspended solids, as well as a suite of organic and inorganic nutrient species. Dataflow surveys took place on a quarterly to bimonthly interval from 2008 to 2015.</para>
+</abstract>
+<keywordSet>
+<keyword >water quality</keyword>
+<keyword >salinity</keyword>
+<keyword >estuary</keyword>
+<keyword >chlorophyll</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2008-08-26</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2015-09-14</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Florida Bay, USA</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-80.8558</westBoundingCoordinate>
+<eastBoundingCoordinate>-80.3392</eastBoundingCoordinate>
+<northBoundingCoordinate>25.2525</northBoundingCoordinate>
+<southBoundingCoordinate>24.9733</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact id="208274604638809">
+<individualName>
+<givenName>Christopher</givenName>
+<surName>Madden</surName>
+</individualName>
+<organizationName>South Florida Water Management District</organizationName>
+<address></address>
+<electronicMailAddress>cmadden@sfmwd.gov</electronicMailAddress>
+</contact>
+<methods><methodStep><description><section>
+<title>Dataflow underway flow-through water quality mapping</title>
+<para>Data was collected using a boat-mounted Dataflow onboard flow-through collection system (Madden and Day 1992). While the boat is underway, the Dataflow receives a continuous stream of water from an onboard pump that is routed tp a series of sensors operating in flow-through mode. These sensors measure the physical and optical properties of water passing through the system at 6 second intervals (approximately every 70 m of boat travel). Specifically, the primary optical sensor package includes probes to measure CDOM, phycocyanin (PC), phycoerythrin (PE), turbidity, and chlorophyll fluorescence (Cyclops-7 Series; Turner Designs; Sunnyvale CA, USA). A second optical sensor package includes probes to measure CDOM and chlorophyll fluorescence (Manufacturer-GEOSAI). Measurements are georeferenced by an onboard GPS unit with a horizontal accuracy of Â± 250 cm. Each Dataflow survey is supplemented by a set of discrete grab samples. These samples were collected from the Dataflow outflow hose while underway and were analyzed for chlorophyll concentration, total suspended solids, as well as a suite of organic and inorganic nutrient species.</para>
+</section></description></methodStep>
+<sampling><studyExtent><description>
+<para>This data product includes collections from 2008 to 2015 at approximately quarterly intervals (4 times per year) within Florida Bay, USA.
+</para>
+</description></studyExtent>
+<samplingDescription>
+<para>Sampling took place along line transects in select basins of Florida Bay. </para>
+</samplingDescription>
+</sampling>
+</methods>
+<otherEntity id="7a1cce3b00e304de765dfc6bfddf3e75135b302e001" scope="document">
+            <entityName>SFWMD-Dataflow-KNB.zip</entityName>
+            <physical scope="document">
+                <objectName>SFWMD-Dataflow-KNB.zip</objectName>
+                <size>12649761</size>
+                <authentication method="SHA1">7a1cce3b00e304de765dfc6bfddf3e75135b302e</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/zip</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="7a1cce3b00e304de765dfc6bfddf3e75135b302e002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1257.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>uid=jsta,o=unaffiliated,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</eml:eml>

@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cwt.1062.11"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>cwt-user</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Variation in the relative effects of top-down and bottom-up forces on herbivores and herbivory along an elevational gradient in the southern Appalachian mountains in 2001</title>
+    <creator id="CWT-LTER">
+      <organizationName>Coweeta Long Term Ecological Research Program</organizationName>
+      <address>
+        <deliveryPoint>Daniel B. Warnell School of Forestry and Natural Resources</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+      <onlineUrl>http://coweeta.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>John</givenName>
+        <givenName>F.</givenName>
+        <surName>Chamblee</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <address>
+        <deliveryPoint>250 Baldwin Hall</deliveryPoint>
+        <deliveryPoint>355 South Jackson Street</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>GA</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>chamblee@uga.edu</electronicMailAddress>
+      <onlineUrl>http://myweb.uga.edu/~chamblee/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark D.</givenName>
+        <surName>Hunter</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <address/>
+      <electronicMailAddress>mdhunter@uga.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <references>CWT-LTER</references>
+    </metadataProvider>
+    <pubDate>2005</pubDate>
+    <abstract>
+      <para>It is a well established fact that top-down (predation), bottom-up (resource availability) and lateral (interference) interactions are the dominant biotic forces in terrestrial ecosystems in addition to a host of other interactions like mutualism and symbiosis. The primary emphasis has always been to look for a singular mechanistic explanation in determining community dynamics. The ecological literature is replete with controversy on the subject of whether top-down or bottom-up forces predominate in ecosystems and their role in dynamics of ecological communities. The emerging consensus is that both top-down and bottom-up forces act in concert and the impetus is shifting towards the elucidation of the context, biotic and abiotic, under which these forces come into play. There are very few studies that have addressed this question and looked at the simultaneous interaction of these forces. I propose to study the effects of spatial heterogeneity in biotic and abiotic factors along an elevation gradient on the relative impacts of top-down and bottom-up forces and the result of their interactive effects on folivory. Specifically, I shall address the effects of spatial variation in plant quality and predation pressure and their interactive impacts on insect herbivore biomass and consumption. I shall also address the effects of complexity within/among trophic levels on the impact of these forces. The study aims to bring about a greater understanding of the role played by abiotic factors and complexity in community dynamics.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">lignin</keyword>
+      <keyword keywordType="theme">phenolics</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="place">North Carolina</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="theme">CWT</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">biomass</keyword>
+      <keyword keywordType="theme">carbon</keyword>
+      <keyword keywordType="theme">cellulose</keyword>
+      <keyword keywordType="theme">communities</keyword>
+      <keyword keywordType="theme">consumers</keyword>
+      <keyword keywordType="theme">elevation</keyword>
+      <keyword keywordType="theme">gradient</keyword>
+      <keyword keywordType="theme">herbivores</keyword>
+      <keyword keywordType="theme">nitrogen</keyword>
+      <keyword keywordType="theme">populations</keyword>
+      <keyword keywordType="theme">predation</keyword>
+      <keyword keywordType="theme">spatial variability</keyword>
+      <keyword keywordType="theme">species interactions</keyword>
+      <keyword keywordType="theme">terrestrial</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population Dynamics</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>publicly available</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://coweeta.uga.edu/dbpublic/dataset_details.asp?accession=1062</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Overall bounding box describing the geographic region within the Coweeta LTER study domain represented in data set 1062, based on the maximum geographic extents of all site polygons referenced in the data set</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.477492</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.432059</eastBoundingCoordinate>
+          <northBoundingCoordinate>35.070155</northBoundingCoordinate>
+          <southBoundingCoordinate>35.050324</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2001-08-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Coweeta LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Department of Anthropology</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>CWT-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>The study design would consist primarily of four treatments repeated for fertilized and unfertilized regimes, bringing the total number of treatments to eight. The treatments are as follows 1. Bird exclusion 2. Arthropod predator exclusion 3. Total predator exclusion 4. Control Each treatment will have 10 replicates and will be conducted under two regimes, fertilized and unfertilized. Each treatment will be conducted at three different sites - low elevation (2350 ft), mid elevation (3458ft) and high elevation (4843ft), totaling 240 replicates.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Methods</title>
+            <para>This will involve a series of manipulative factorial experiments consisting of two levels of each factor viz., present or absent and the experiments will be carried out on oak saplings. 1. Predator exclusion a) Exclusion of Birds: Bird exclusion will be carried out by constructing exclosures consisting of mesh cages as prescribed in Floyd (1996). The Mesh size used will be 1.25cm, which is noted to exclude even the smallest insectivorous birds yet is large enough to permit transits of the largest arthropod predators and ground beetles. b) Exclusion of arthropods: Arthropod predators will be excluded by weekly hand removal, which has been found to be effective by Floyd (1996). c) Total exclusion: This would consist of bird exclosures wherein arthropod-predator exclusions will also be carried out. 2. Nutrient addition treatments will be carried out at each site to look at the effect of increased nutrient availability on plant quality. The primary goal is to explore the influence of changes in plant quality, by nutrient availability, on the interaction between herbivory and predation. The nutrient additions would involve fertilization treatments using fertilization regimes as prescribed in Forkner and Hunter (2000).</para>
+          </section>
+        </description>
+        <instrumentation>15-foot pole pruner, plastic bags, mesh cages for bird exclusion</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Observational methods</title>
+            <para>This will involve sampling trees for three years to assess arthropod biomass, density and composition. Samples will be taken at 10 regular intervals along the elevation gradient using a 15-foot pole pruner and plastic bags (Reynolds and Crossley, 1997). At each point along the elevation gradient, 5 mature trees will be chosen at random. Five random samples will be taken from each tree. Sampling will be carried out four times each season in concordance with budbreak and three stages of expansion. Leaf phenology will be measured for each sample tree, every week, by collecting shoot samples and quantified as the ratio of shoot weight to unit length per unit time. The following abiotic variables will also be measured for each sample: temperature, precipitation and soil nutrient availability.</para>
+          </section>
+        </description>
+        <instrumentation>15-foot pole pruner, plastic bags, mesh cages for bird exclusion</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2001-06-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2001-08-30</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS1 -- Watershed 1, Macon County, North Carolina, USA.  Entire watershed prescribed burned in April, 1942. All trees and shrubs within the cove-hardwood type (areas adjacent to stream) deadened with chemicals in 1954. This treatment represented 25% of both land and area and total watershed basal area. Retreated as necessary for three consecutive growing seasons. All trees and shrubs cut and burned in 1956-57, no products removed; white pine planted in 1957. In subsequent years, pine released from hardwood competition by cutting and chemicals as necessary.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.436978</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.432059</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.070155</northBoundingCoordinate>
+                <southBoundingCoordinate>35.063214</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS2 -- Watershed 2, Macon County, North Carolina, USA.  Controls with mixed hardwoods stands remaining undisturbed since 1927.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.438378</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.435500</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.069895</northBoundingCoordinate>
+                <southBoundingCoordinate>35.063570</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS3 -- Watershed 3, Macon County, North Carolina, USA.  All vegetation cut and burned or removed from the watershed in 1940. Unregulated agriculture (farming and grazing) on 6 ha for a 12-year period, followed by planting yellow poplar and white pine.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.446792</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.441614</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.067984</northBoundingCoordinate>
+                <southBoundingCoordinate>35.063861</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS37 -- Watershed 37, Macon County, North Carolina, USA.  All woody vegetation cut in 1963; no products removed.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.477492</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.465968</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.057742</northBoundingCoordinate>
+                <southBoundingCoordinate>35.050324</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site WS40 -- Watershed 40, Macon County, North Carolina, USA.  Commercial selection cut with 22% of basal area removed in 1955. Control with mixed hardwoods stands remaining undisturbed since 1927.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.465476</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.457034</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.066743</northBoundingCoordinate>
+                <southBoundingCoordinate>35.060928</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Forces on herbivores along an elevational gradient</title>
+            <para>Specifically, I shall address the effects of spatial variation in plant quality and predation pressure and their interactive impacts on insect herbivore biomass and consumption. I shall also address the effects of complexity within/among trophic levels on the impact of these forces. The study aims to bring about a greater understanding of the role played by abiotic factors and complexity in community dynamics. This will involve sampling trees for three years to assess arthropod biomass, density and composition. Samples will be taken at 10 regular intervals along the elevation gradient using a 15-foot pole pruner and plastic bags (Reynolds and Crossley, 1997). At each point along the elevation gradient, 5 mature trees will be chosen at random. Five random samples will be taken from each tree. Sampling will be carried out four times each season in concordance with budbreak and three stages of expansion. Leaf phenology will be measured for each sample tree, every week, by collecting shoot samples and quantified as the ratio of shoot weight to unit length per unit time. The following abiotic variables will also be measured for each sample: temperature, precipitation and soil nutrient availability.</para>
+            <para>not specified</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>1062.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Coweeta LTER Program V</title>
+      <personnel>
+        <individualName>
+          <givenName>Ted</givenName>
+          <givenName>L</givenName>
+          <surName>Gragson</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Vose</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Brian</givenName>
+          <surName>Kloeppel</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <givenName>Barrie</givenName>
+          <surName>Collins</surName>
+        </individualName>
+        <role>informationManager</role>
+      </personnel>
+      <abstract>
+        <para>The Coweeta LTER Research Program has evolved since 1980 from a site-based to a site- and region-based project examining the effects of disturbance and environmental gradients on biogeochemical cycling, and the underlying watershed ecosystem processes that regulate and respond to those cycles. The current interdisciplinary research integrates ecological and socioeconomic components across 54,000 km2 of the southern Appalachian Mountains, a biogeophysical and socioeconomic region in which evolutionary and historical processes converge (Whittaker 1956, Markusen 1987, Barnes 1991, Kretzschmar et al. 1993, Bailey 1996). Our research objective in 2002-2008 is to advance scientific understanding of the spatial, temporal, and decision-making components of land use and land-use change in the southern Appalachian Mountains over the last 200 years, and forecast patterns into the future 30 years. Our guiding hypothesis is that the frequency, intensity, and extent of land use represents human decision-making in response to socioeconomic and biogeophysical conditions with consequences that cascade through ecosystems.</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant number OCE-9982133. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>1062</entityName>
+      <entityDescription>Main data table for data set 1062</entityDescription>
+      <physical>
+        <objectName>1062_1_0.TXT</objectName>
+        <size unit="rows"/>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/1062/11/cd89fef7ffdd490db800357f47722b20</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>cwt-user</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the CWT-LTER Information Management Office</para>
+          </description>
+          <subStep>
+            <description>
+              <para>09/18/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: 76 rows imported from ASCII data file '1062.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: 76 rows imported from ASCII data file '1062.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: 76 rows imported from ASCII data file '1062.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: 76 rows imported from ASCII data file '1062.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: 76 rows imported from ASCII data file '1062.csv' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: automatically assigned numerical types and precisions for columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol; assigned data types of columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: automatically assigned numerical types and precisions for columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol; assigned data types of columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: automatically assigned numerical types and precisions for columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol; assigned data types of columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: automatically assigned numerical types and precisions for columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol; assigned data types of columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: automatically assigned numerical types and precisions for columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol; assigned data types of columns C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Chew, Gall, Suck, Pred, Others, Allinsects, Aphids, Cats, Hoppers, Spiders, Nonspids and Defol to 'f' (floating-point) ('assign_numtype')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated title ('newtitle')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated 1 metadata fields in the Dataset sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated 1 metadata fields in the Dataset sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated 1 metadata fields in the Dataset sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated 1 metadata fields in the Dataset sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: updated 1 metadata fields in the Dataset sections ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: Descriptions of columns Date, elevation, Code, Tree, C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Allinsects and Nonspids edited; Name of column elevation changed to Elevation; Name of column Code changed to Site_and_tree_ID_code; Name of column C changed to Percent_Carbon_concentration; Name of column N changed to Percent_Nitrogen_concentration; Name of column CN changed to C_to_N_ratio; Name of column CT changed to Relative_concentrations_condensed_tannin; Name of column HT changed to Relative_concentrations_hydrolysable_tannin; Name of column TP changed to Relative_concentrations_total_phenolics; Name of column Hemi changed to Percent_hemicellulose; Name of column Cell changed to Percent_cellulose; Name of column Lig changed to Percent_lignin; Name of column Allinsects changed to All_insects; Name of column Nonspids changed to Non_spiders;Units of column Elevation changed from '' to 'm'; Units of column Percent_Carbon_concentration changed from '' to '%'; Units of column Percent_Nitrogen_concentration changed from '' to '%'; Units of column C_to_N_ratio changed from '' to 'Ratio'; Units of column Percent_hemicellulose changed from '' to '%'; Units of column Percent_cellulose changed from '' to '%'; Units of column Percent_lignin changed from '' to '%';Variable Type of column Date changed from 'data' to 'code'; Variable Type of column Tree changed from 'data' to 'ordinal'; Variable Type of column Percent_Carbon_concentration changed from 'data' to 'calculation'; Variable Type of column Percent_Nitrogen_concentration changed from 'data' to 'calculation'; Variable Type of column C_to_N_ratio changed from 'data' to 'calculation ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: Descriptions of columns Date, elevation, Code, Tree, C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Allinsects and Nonspids edited; Name of column elevation changed to Elevation; Name of column Code changed to Site_and_tree_ID_code; Name of column C changed to Percent_Carbon_concentration; Name of column N changed to Percent_Nitrogen_concentration; Name of column CN changed to C_to_N_ratio; Name of column CT changed to Relative_concentrations_condensed_tannin; Name of column HT changed to Relative_concentrations_hydrolysable_tannin; Name of column TP changed to Relative_concentrations_total_phenolics; Name of column Hemi changed to Percent_hemicellulose; Name of column Cell changed to Percent_cellulose; Name of column Lig changed to Percent_lignin; Name of column Allinsects changed to All_insects; Name of column Nonspids changed to Non_spiders;Units of column Elevation changed from '' to 'm'; Units of column Percent_Carbon_concentration changed from '' to '%'; Units of column Percent_Nitrogen_concentration changed from '' to '%'; Units of column C_to_N_ratio changed from '' to 'Ratio'; Units of column Percent_hemicellulose changed from '' to '%'; Units of column Percent_cellulose changed from '' to '%'; Units of column Percent_lignin changed from '' to '%';Variable Type of column Date changed from 'data' to 'code'; Variable Type of column Tree changed from 'data' to 'ordinal'; Variable Type of column Percent_Carbon_concentration changed from 'data' to 'calculation'; Variable Type of column Percent_Nitrogen_concentration changed from 'data' to 'calculation'; Variable Type of column C_to_N_ratio changed from 'data' to 'calculation ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: Descriptions of columns Date, elevation, Code, Tree, C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Allinsects and Nonspids edited; Name of column elevation changed to Elevation; Name of column Code changed to Site_and_tree_ID_code; Name of column C changed to Percent_Carbon_concentration; Name of column N changed to Percent_Nitrogen_concentration; Name of column CN changed to C_to_N_ratio; Name of column CT changed to Relative_concentrations_condensed_tannin; Name of column HT changed to Relative_concentrations_hydrolysable_tannin; Name of column TP changed to Relative_concentrations_total_phenolics; Name of column Hemi changed to Percent_hemicellulose; Name of column Cell changed to Percent_cellulose; Name of column Lig changed to Percent_lignin; Name of column Allinsects changed to All_insects; Name of column Nonspids changed to Non_spiders;Units of column Elevation changed from '' to 'm'; Units of column Percent_Carbon_concentration changed from '' to '%'; Units of column Percent_Nitrogen_concentration changed from '' to '%'; Units of column C_to_N_ratio changed from '' to 'Ratio'; Units of column Percent_hemicellulose changed from '' to '%'; Units of column Percent_cellulose changed from '' to '%'; Units of column Percent_lignin changed from '' to '%';Variable Type of column Date changed from 'data' to 'code'; Variable Type of column Tree changed from 'data' to 'ordinal'; Variable Type of column Percent_Carbon_concentration changed from 'data' to 'calculation'; Variable Type of column Percent_Nitrogen_concentration changed from 'data' to 'calculation'; Variable Type of column C_to_N_ratio changed from 'data' to 'calculation ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: Descriptions of columns Date, elevation, Code, Tree, C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Allinsects and Nonspids edited; Name of column elevation changed to Elevation; Name of column Code changed to Site_and_tree_ID_code; Name of column C changed to Percent_Carbon_concentration; Name of column N changed to Percent_Nitrogen_concentration; Name of column CN changed to C_to_N_ratio; Name of column CT changed to Relative_concentrations_condensed_tannin; Name of column HT changed to Relative_concentrations_hydrolysable_tannin; Name of column TP changed to Relative_concentrations_total_phenolics; Name of column Hemi changed to Percent_hemicellulose; Name of column Cell changed to Percent_cellulose; Name of column Lig changed to Percent_lignin; Name of column Allinsects changed to All_insects; Name of column Nonspids changed to Non_spiders;Units of column Elevation changed from '' to 'm'; Units of column Percent_Carbon_concentration changed from '' to '%'; Units of column Percent_Nitrogen_concentration changed from '' to '%'; Units of column C_to_N_ratio changed from '' to 'Ratio'; Units of column Percent_hemicellulose changed from '' to '%'; Units of column Percent_cellulose changed from '' to '%'; Units of column Percent_lignin changed from '' to '%';Variable Type of column Date changed from 'data' to 'code'; Variable Type of column Tree changed from 'data' to 'ordinal'; Variable Type of column Percent_Carbon_concentration changed from 'data' to 'calculation'; Variable Type of column Percent_Nitrogen_concentration changed from 'data' to 'calculation'; Variable Type of column C_to_N_ratio changed from 'data' to 'calculation ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>09/18/2013: Descriptions of columns Date, elevation, Code, Tree, C, N, CN, CT, HT, TP, Hemi, Cell, Lig, Allinsects and Nonspids edited; Name of column elevation changed to Elevation; Name of column Code changed to Site_and_tree_ID_code; Name of column C changed to Percent_Carbon_concentration; Name of column N changed to Percent_Nitrogen_concentration; Name of column CN changed to C_to_N_ratio; Name of column CT changed to Relative_concentrations_condensed_tannin; Name of column HT changed to Relative_concentrations_hydrolysable_tannin; Name of column TP changed to Relative_concentrations_total_phenolics; Name of column Hemi changed to Percent_hemicellulose; Name of column Cell changed to Percent_cellulose; Name of column Lig changed to Percent_lignin; Name of column Allinsects changed to All_insects; Name of column Nonspids changed to Non_spiders;Units of column Elevation changed from '' to 'm'; Units of column Percent_Carbon_concentration changed from '' to '%'; Units of column Percent_Nitrogen_concentration changed from '' to '%'; Units of column C_to_N_ratio changed from '' to 'Ratio'; Units of column Percent_hemicellulose changed from '' to '%'; Units of column Percent_cellulose changed from '' to '%'; Units of column Percent_lignin changed from '' to '%';Variable Type of column Date changed from 'data' to 'code'; Variable Type of column Tree changed from 'data' to 'ordinal'; Variable Type of column Percent_Carbon_concentration changed from 'data' to 'calculation'; Variable Type of column Percent_Nitrogen_concentration changed from 'data' to 'calculation'; Variable Type of column C_to_N_ratio changed from 'data' to 'calculation ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: Description of column Date edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: Description of column Date edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: Description of column Date edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: Description of column Date edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/15/2013: Description of column Date edited ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: Units of column Date changed from '' to 'none'; Units of column Site_and_tree_ID_code changed from '' to 'none'; Units of column Tree changed from '' to 'none'; Units of column Relative_concentrations_condensed_tannin changed from '' to 'none'; Units of column Relative_concentrations_hydrolysable_tannin changed from '' to 'none'; Units of column Relative_concentrations_total_phenolics changed from '' to 'none'; Units of column Chew changed from '' to 'none'; Units of column Mine changed from '' to 'none'; Units of column Gall changed from '' to 'none'; Units of column Suck changed from '' to 'none'; Units of column Pred changed from '' to 'none'; Units of column Others changed from '' to 'none'; Units of column All_insects changed from '' to 'none'; Units of column Aphids changed from '' to 'none'; Units of column Beetles changed from '' to 'none'; Units of column Cats changed from '' to 'none'; Units of column Hoppers changed from '' to 'none'; Units of column Spiders changed from '' to 'none'; Units of column Non_spiders changed from '' to 'none'; Units of column Defol changed from '' to 'none';Data Type of column Elevation changed from 'd' to 'f';Numeric Type of column Elevation changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: Units of column Date changed from '' to 'none'; Units of column Site_and_tree_ID_code changed from '' to 'none'; Units of column Tree changed from '' to 'none'; Units of column Relative_concentrations_condensed_tannin changed from '' to 'none'; Units of column Relative_concentrations_hydrolysable_tannin changed from '' to 'none'; Units of column Relative_concentrations_total_phenolics changed from '' to 'none'; Units of column Chew changed from '' to 'none'; Units of column Mine changed from '' to 'none'; Units of column Gall changed from '' to 'none'; Units of column Suck changed from '' to 'none'; Units of column Pred changed from '' to 'none'; Units of column Others changed from '' to 'none'; Units of column All_insects changed from '' to 'none'; Units of column Aphids changed from '' to 'none'; Units of column Beetles changed from '' to 'none'; Units of column Cats changed from '' to 'none'; Units of column Hoppers changed from '' to 'none'; Units of column Spiders changed from '' to 'none'; Units of column Non_spiders changed from '' to 'none'; Units of column Defol changed from '' to 'none';Data Type of column Elevation changed from 'd' to 'f';Numeric Type of column Elevation changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: Units of column Date changed from '' to 'none'; Units of column Site_and_tree_ID_code changed from '' to 'none'; Units of column Tree changed from '' to 'none'; Units of column Relative_concentrations_condensed_tannin changed from '' to 'none'; Units of column Relative_concentrations_hydrolysable_tannin changed from '' to 'none'; Units of column Relative_concentrations_total_phenolics changed from '' to 'none'; Units of column Chew changed from '' to 'none'; Units of column Mine changed from '' to 'none'; Units of column Gall changed from '' to 'none'; Units of column Suck changed from '' to 'none'; Units of column Pred changed from '' to 'none'; Units of column Others changed from '' to 'none'; Units of column All_insects changed from '' to 'none'; Units of column Aphids changed from '' to 'none'; Units of column Beetles changed from '' to 'none'; Units of column Cats changed from '' to 'none'; Units of column Hoppers changed from '' to 'none'; Units of column Spiders changed from '' to 'none'; Units of column Non_spiders changed from '' to 'none'; Units of column Defol changed from '' to 'none';Data Type of column Elevation changed from 'd' to 'f';Numeric Type of column Elevation changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: Units of column Date changed from '' to 'none'; Units of column Site_and_tree_ID_code changed from '' to 'none'; Units of column Tree changed from '' to 'none'; Units of column Relative_concentrations_condensed_tannin changed from '' to 'none'; Units of column Relative_concentrations_hydrolysable_tannin changed from '' to 'none'; Units of column Relative_concentrations_total_phenolics changed from '' to 'none'; Units of column Chew changed from '' to 'none'; Units of column Mine changed from '' to 'none'; Units of column Gall changed from '' to 'none'; Units of column Suck changed from '' to 'none'; Units of column Pred changed from '' to 'none'; Units of column Others changed from '' to 'none'; Units of column All_insects changed from '' to 'none'; Units of column Aphids changed from '' to 'none'; Units of column Beetles changed from '' to 'none'; Units of column Cats changed from '' to 'none'; Units of column Hoppers changed from '' to 'none'; Units of column Spiders changed from '' to 'none'; Units of column Non_spiders changed from '' to 'none'; Units of column Defol changed from '' to 'none';Data Type of column Elevation changed from 'd' to 'f';Numeric Type of column Elevation changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: Units of column Date changed from '' to 'none'; Units of column Site_and_tree_ID_code changed from '' to 'none'; Units of column Tree changed from '' to 'none'; Units of column Relative_concentrations_condensed_tannin changed from '' to 'none'; Units of column Relative_concentrations_hydrolysable_tannin changed from '' to 'none'; Units of column Relative_concentrations_total_phenolics changed from '' to 'none'; Units of column Chew changed from '' to 'none'; Units of column Mine changed from '' to 'none'; Units of column Gall changed from '' to 'none'; Units of column Suck changed from '' to 'none'; Units of column Pred changed from '' to 'none'; Units of column Others changed from '' to 'none'; Units of column All_insects changed from '' to 'none'; Units of column Aphids changed from '' to 'none'; Units of column Beetles changed from '' to 'none'; Units of column Cats changed from '' to 'none'; Units of column Hoppers changed from '' to 'none'; Units of column Spiders changed from '' to 'none'; Units of column Non_spiders changed from '' to 'none'; Units of column Defol changed from '' to 'none';Data Type of column Elevation changed from 'd' to 'f';Numeric Type of column Elevation changed from 'discrete' to 'continuous ('ui_editor')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>10/29/2013: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date code</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>June 2001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>July 2001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>August 2001</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Elevation</attributeName>
+          <attributeDefinition>Site elevation; meters (m)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Site_and_tree_ID_code</attributeName>
+          <attributeDefinition>Site + tree identification code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site + tree identification code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Tree</attributeName>
+          <attributeDefinition>Tree number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tree number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Percent_Carbon_concentration</attributeName>
+          <attributeDefinition>Percent Carbon concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percentabbr.</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>Percent_Nitrogen_concentration</attributeName>
+          <attributeDefinition>Percent of Nitrogen concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percentabbr.</customUnit>
+              </unit>
+              <precision>0.00001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>C_to_N_ratio</attributeName>
+          <attributeDefinition>Carbon to nitrogen ratio</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.8">
+          <attributeName>Relative_concentrations_condensed_tannin</attributeName>
+          <attributeDefinition>Relative concentrations condensed tannin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.9">
+          <attributeName>Relative_concentrations_hydrolysable_tannin</attributeName>
+          <attributeDefinition>Relative concentrations hydrolysable tannin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.10">
+          <attributeName>Relative_concentrations_total_phenolics</attributeName>
+          <attributeDefinition>Relative concentrations total phenolics</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.11">
+          <attributeName>Percent_hemicellulose</attributeName>
+          <attributeDefinition>Percent of hemicellulose</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percentabbr.</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.12">
+          <attributeName>Percent_cellulose</attributeName>
+          <attributeDefinition>Percent of cellulose </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percentabbr.</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.13">
+          <attributeName>Percent_lignin</attributeName>
+          <attributeDefinition>Percent of lignin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>percentabbr.</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.14">
+          <attributeName>Chew</attributeName>
+          <attributeDefinition>Chew</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.15">
+          <attributeName>Mine</attributeName>
+          <attributeDefinition>Mine</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Mine</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.16">
+          <attributeName>Gall</attributeName>
+          <attributeDefinition>Gall</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.17">
+          <attributeName>Suck</attributeName>
+          <attributeDefinition>Suck</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.18">
+          <attributeName>Pred</attributeName>
+          <attributeDefinition>Pred</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.19">
+          <attributeName>Others</attributeName>
+          <attributeDefinition>Others</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.20">
+          <attributeName>All_insects</attributeName>
+          <attributeDefinition>All insects</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.21">
+          <attributeName>Aphids</attributeName>
+          <attributeDefinition>Aphids</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.22">
+          <attributeName>Beetles</attributeName>
+          <attributeDefinition>Beetles</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Beetles</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.23">
+          <attributeName>Cats</attributeName>
+          <attributeDefinition>Cats</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.24">
+          <attributeName>Hoppers</attributeName>
+          <attributeDefinition>Hoppers</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.25">
+          <attributeName>Spiders</attributeName>
+          <attributeDefinition>Spiders</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.26">
+          <attributeName>Non_spiders</attributeName>
+          <attributeDefinition>Non-spiders</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.27">
+          <attributeName>Defol</attributeName>
+          <attributeDefinition>Defol</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="1062.kml">
+      <entityName>1062.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-cwt.1062.1.1</entityDescription>
+      <physical>
+        <objectName>1062.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/1062/11/f95609538d13a196495c4ed27522820f</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>cwt-user</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/stmml.xsd">
+        <!--note that the unitTypes here are taken from the eml-unitDictionary.xml-->
+        <stmml:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" id="percentabbr."
+          multiplierToSI="1" name="percent" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

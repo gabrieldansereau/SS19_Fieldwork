@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cce.143.2" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>143</alternateIdentifier>
+    <title>Assembled file of one minute averages for high resolution surface meteorological (Met) and sea water intake (SWI) data from continuous underway measurements from CCE LTER process cruises in the CCE region, 2006 - 2014 (ongoing).</title>
+    <creator>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ralf</givenName>
+        <surName>Goericke</surName>
+      </individualName>
+      <organizationName>SIO</organizationName>
+      <electronicMailAddress>rgoericke@ucsd.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2016</pubDate>
+    <abstract>As the research vessel is underway for the duration of a CCE Process Cruise (since 2006, ongoing), 30 parameters are continuously measured regarding the oceanographic surface and atmospheric and navigational environment of the vessel, along the ship's trackline in the CCE region. </abstract>
+    <keywordSet>
+      <keyword>measurements</keyword>
+      <keyword>radiation</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>weather</keyword>
+      <keyword>habitats</keyword>
+      <keyword>marine</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+    with the express understanding that data users will properly acknowledge the originating investigator. Use or
+    reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+    from the responsible party.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/data/ccelter/datasets?action=summary&amp;id=143</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>CCE LTER Information Manager</positionName>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <electronicMailAddress>ccelter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Raw Data and Processing of the Raw Data</title>
+            <para>The ship’s data system stored the data in .MET files, which are text files with the data.  Data from the .MET files were processed in Matlab.  he generated data files contained a subset of the data, one deemed useful for our applications.  In addition blank columns were inserted to maintain consistency with similar data from previous cruises (e.g. BeamTransmission).  The data were not changed during this processing with the exception of the GMT_Date and GMT_DateTime data objects, that were generated from file information.  For compatibility with data from previous cruises where 30 second raw data were binned into 1 min bins in MS Access.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Data Quality</title>
+            <para>Those parts of the MET system that measured properties of the ship’s clean seawater were not well maintained during the cruise.  Problems ranged from intermittent flow, malfunctioning sensors and likely sensors compromised by biofouling.  Based on this experience all other MET data should be viewed with caution.  No effort has been made to correct the data for these artifacts. </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Oxygen Measurement (1408 cruise)</title>
+            <para>Oxygen - the sensor was significantly affected by flow rate and may have been unstable as well.  Not to be trusted.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="dat_143">
+      <entityName>UnderwaySeaWaterIntakeandMeteorologicalData1MinuteAverages</entityName>
+      <entityDescription>Main data table for dataset</entityDescription>
+      <physical>
+        <objectName>143.2.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cce/143/2/dfdb965d1a694ed6fc314625afcb14fd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="studyName">
+          <attributeName>studyName</attributeName>
+          <attributeDefinition>Sampling expedition from which data were collected, generated, etc.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling expedition from which data were collected, generated, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="col_2263">
+          <attributeName>Datetime</attributeName>
+          <attributeDefinition>Date and time (UTC)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">dateTime</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date and time (UTC)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2264">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>latitude measured from the equator in decimal degrees, South is negative</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2265">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>longitude measured from the Prime Meridian in decimal degrees, West is negative</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2270">
+          <attributeName>SST</attributeName>
+          <attributeDefinition>temperature of the seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-99</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>missing </codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>missing </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2273">
+          <attributeName>Salinity</attributeName>
+          <attributeDefinition>practical salinity</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>practicalSalinityUnit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2274">
+          <attributeName>Fluorescence</attributeName>
+          <attributeDefinition>fluorescence of Chlorophyll and other material in units of volts</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_4686">
+          <attributeName>Oxygen</attributeName>
+          <attributeDefinition>concentration of dissolved oxygen</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milliliterPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2280">
+          <attributeName>PAR</attributeName>
+          <attributeDefinition>photosynthetically available radiation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microeinsteinPerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2277">
+          <attributeName>Air Temperature</attributeName>
+          <attributeDefinition>temperature of the air</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2282">
+          <attributeName>Wind Speed</attributeName>
+          <attributeDefinition>absolute speed of wind</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_2283">
+          <attributeName>Wind Direction</attributeName>
+          <attributeDefinition>wind direction</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_4687">
+          <attributeName>WindU</attributeName>
+          <attributeDefinition>magnitude of the wind vector in the East-West direction</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_4688">
+          <attributeName>WindV</attributeName>
+          <attributeDefinition>magnitude of the wind vector in the North-South direction</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="angle" name="angle">
+          <stmml:dimension name="angle"/>
+        </stmml:unitType>
+        <stmml:unitType id="temperature" name="temperature">
+          <stmml:dimension name="temperature"/>
+        </stmml:unitType>
+        <stmml:unitType id="dimensionless" name="dimensionless">
+          <stmml:dimension name="dimensionless"/>
+        </stmml:unitType>
+        <stmml:unitType id="potentialDifference" name="potentialDifference">
+          <stmml:dimension name="length" power="2"/>
+          <stmml:dimension name="mass"/>
+          <stmml:dimension name="time" power="-2"/>
+          <stmml:dimension name="current" power="-1"/>
+        </stmml:unitType>
+        <stmml:unitType id="volumePerVolume" name="volumePerVolume">
+          <stmml:dimension name="length" power="3"/>
+          <stmml:dimension name="mass" power="-3"/>
+        </stmml:unitType>
+        <stmml:unitType id="illuminance" name="illuminance">
+          <stmml:dimension name="length" power="-2"/>
+          <stmml:dimension name="luminosity"/>
+        </stmml:unitType>
+        <stmml:unitType id="speed" name="speed">
+          <stmml:dimension name="length"/>
+          <stmml:dimension name="time" power="-1"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="rad" id="radian" name="radian" unitType="angle">
+          <stmml:description>2 pi radians comprise a unit circle.</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="K" id="kelvin" name="kelvin" unitType="temperature">
+          <stmml:description>SI unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="º" constantToSI="0" id="degree"
+          multiplierToSI="0.0174533" name="degree" parentSI="radian" unitType="angle">
+          <stmml:description>360 degrees comprise a unit circle</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>A common unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="PSU" id="practicalSalinityUnit"
+          name="practicalSalinityUnit" unitType="dimensionless">
+          <stmml:description>practical salinity units</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="V" id="volt" name="volt" unitType="potentialDifference">
+          <stmml:description>volt</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ml/L" id="milliliterPerLiter"
+          name="milliliterPerLiter" unitType="volumePerVolume">
+          <stmml:description>milliters of solution per total volume</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µE/m²/s"
+          id="microeinsteinPerMeterSquaredPerSecond"
+          name="microeinsteinPerMeterSquaredPerSecond" unitType="illuminance">
+          <stmml:description>micro Einsteins (1E-06 moles of photons) per square meter per second (radiant flux density)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m/s" id="meterPerSecond"
+          name="meterPerSecond" unitType="speed">
+          <stmml:description>meters per second</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

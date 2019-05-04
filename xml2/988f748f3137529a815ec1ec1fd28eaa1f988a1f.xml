@@ -1,0 +1,1036 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="doi:10.18739/A25D5R" system="https://arcticdata.io" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <access order="allowFirst" authSystem="knb">
+    <allow>
+      <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>http://orcid.org/0000-0002-6244-5991</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Plant community composition in the ARCSS grid at Barrow and Atqasuk, Alaska</title>
+    <creator id="101544372949165">
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Hollister</surName>
+      </individualName>
+      <organizationName>Grand Valley State University</organizationName>
+      <positionName>Associate Professor</positionName>
+      <address>
+        <deliveryPoint>1 Campus Drive</deliveryPoint>
+        <city>Allendale</city>
+        <administrativeArea>Michigan</administrativeArea>
+        <postalCode>49401</postalCode>
+        <country>United States of America</country>
+      </address>
+      <phone phonetype="voice">1/616/331-8582</phone>
+      <phone phonetype="facsimile">616 331-3446</phone>
+      <electronicMailAddress>hollistr@gvsu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider id="6807206213447614">
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Hollister</surName>
+      </individualName>
+      <organizationName>Grand Valley State University</organizationName>
+      <positionName>Associate Professor</positionName>
+      <address>
+        <deliveryPoint>1 Campus Drive</deliveryPoint>
+        <city>Allendale</city>
+        <administrativeArea>Michigan</administrativeArea>
+        <postalCode>49401</postalCode>
+        <country>United States of America</country>
+      </address>
+      <phone phonetype="voice">1/616/331-8582</phone>
+      <phone phonetype="facsimile">616 331-3446</phone>
+      <electronicMailAddress>hollistr@gvsu.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2016-11-29</pubDate>
+    <abstract>
+      <para>These files contain data representing the plant community composition and structure of ARCSS grid plots at Barrow and Atqasuk in a CSV format.  The 2010 and 2013 data were collected on all plots that were not under water: 98 plots at Barrow and 88 plots at Atqasuk.  The 2012, 2014 and 2015 data were only collected on a subset of 30 plots at Barrow and 30 plots at Atqasuk. The data were gathered by placing a Point Frame over each plot and recording the plant species at each location.  The height of the species was recorded relative to the ground at that location.  The grids were spaced 7 cm apart and started at 3.5 cm from the edge of the square 70 cm frame.  All hits and all the species that were encountered were recorded.  Occasionally it was difficult to distinguish which species was on the ground because there were several intertwined individuals. Therefore preference was given to vascular plants, then lichens, and then mosses.  Due to the limitations of field identification many species were lumped into larger taxa.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>ARCSS</keyword>
+      <keyword>Atqasuk</keyword>
+      <keyword>Barrow</keyword>
+      <keyword>Alaska</keyword>
+      <keyword>pointframing</keyword>
+      <keyword>community</keyword>
+      <keyword>vegetation</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+This work is dedicated to the public domain under the Creative Commons Universal 1.0 Public Domain Dedication.
+To view a copy of this dedication, visit https://creativecommons.org/publicdomain/zero/1.0/.
+</para>
+    </intellectualRights>
+    <distribution>
+      <offline>
+        <mediumName>digital </mediumName>
+      </offline>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Barrow, AK &amp; Atqasuk, AK</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-156.6167</westBoundingCoordinate>
+          <eastBoundingCoordinate>-156.6167</eastBoundingCoordinate>
+          <northBoundingCoordinate>71.3167</northBoundingCoordinate>
+          <southBoundingCoordinate>71.3167</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="407173371376714">
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Hollister</surName>
+      </individualName>
+      <organizationName>Grand Valley State University</organizationName>
+      <positionName>Associate Professor</positionName>
+      <address>
+        <deliveryPoint>1 Campus Drive</deliveryPoint>
+        <city>Allendale</city>
+        <administrativeArea>Michigan</administrativeArea>
+        <postalCode>49401</postalCode>
+        <country>United States of America</country>
+      </address>
+      <phone phonetype="voice">1/616/331-8582</phone>
+      <phone phonetype="facsimile">616 331-3446</phone>
+      <electronicMailAddress>hollistr@gvsu.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Point Frame with 100 points</title>
+            <para>The data were gathered by placing a Point Frame over each plot and recording the plant species at each location.  The height of the species was recorded relative to the ground at that location.  The grids were spaced 7 cm apart and started at 3.5 cm from the edge of the square 70 cm frame.  All hits and all the species that were encountered were recorded.  Occasionally it was difficult to distinguish which species was on the ground because there were several intertwined individuals. Therefore preference was given to vascular plants, then lichens, and then mosses.  Due to the limitations of field identification many species were lumped into larger taxa.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The taxa provided are relatively robust, however given the difficulty of field identification during sampling we provide the secure taxon that we are confident in. Note that the field identification did lump bryophytes and lichens into relatively easily recognizable groups. Although the data were preliminarily quality checked for errors, the vast volume of the data collected clearly ensures that there are remaining errors.   </para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>The following prefixes have been used to designate data type. 
+str indicates string (text) data
+num indicates numeric data
+
+All string data within a column contain the same number of characters.  The meaning of each character is defined at each position by stating the length of the identifier with a numeric and placing all the data codes used within parentheses directly after the numeric.  For example:
+strYear - year of recording 4 (2010, 2012, 2013, 2014, 2015)
+
+The above example describes a column that represents the year the data was recorded, it is string data that is always four characters in length and the only data codes used are 2010, 2012, 2013, 2014 and 2015.
+  
+COLUMN DESCRIPTIONS
+strUTC  - universal time constant (UTC)
+year 4 (20XX)
+month 2 (06-08)
+day 2 (01-31)
+strIdLo  - the location of the recording
+site 2 (BG=Barrow Grid, AG=Atqasuk Grid)
+treatment 1 (C=Contro1)
+plot 3 (Ex: F03) 
+strSite  - site community
+site 2 (see above)
+numYear  - the year of the recording 
+year 4 (20XX)
+numJulian  - Julian day of year 
+3 (001-365)
+numMonth  - month of the year
+1 or 2 (1-12)
+numNS  - location of point along the North/South axis
+numEW  - location of point along the East/West axis
+numHit  - level of the hit 
+1 (1-7; most hits where only 1)
+strType  - type of hit 
+1 (A=Animal, F=Feces, G=Ground, H=Human, L=Litter,
+   N=Non vascular, U=Unknown, V=Vascular)
+strBFun  - broad functional type 
+4 (ALGA=Algae, BARE=Bare Ground, BRYO=Bryophyte, CHAM=Flux Chamber Base, DSHR=Woody deciduous, ESHR=Woody evergreen, FORB=Forb, FUNG=Fungus, GRAM=Graminoid, LICH=Lichen, LITT=Leaf Litter, MISS=Missing Data, PLTA=Plant Tag, POOP=Feces, POTA=Point Frame Tag, PROB=Probe)
+strNFun  - narrow functional group 
+4 (ACRO=Acrocarpous Moss, ALGA=Algae, BARE=Bare Ground, CAGR=Caespitose Graminoid, CHAM=Flux Chamber Base, CRUS=Crustose Lichen, CUFO=Cushion Forb, DESH=Deciduous Shrub, ERFO=Errect Forb, EVSH=Evergreen Shrub, FOLI=Foliose Lichen, FRUT=Fruticose Lichen, FUNG=Fungus, LEAF=Leafy liverwort, LITT=Leaf Litter, MAFO=Mat Forb, MISS=Missing Data, PLEU=Pleurocarpous Moss, PLTA=Plant Tag, POOP=Feces, POTA=Point Frame Tag, PROB=Probe, ROFO=Rossette Forb, SIGR=Single Graminoid, SPHA=Sphagnum Moss, THAL=Thalloid Liverwort, UNBR=Unidentified Bryophyte, UNGR=Unidentified Graminoid, UNLI=Unidentified Lichen)
+strTaxon  - taxon 
+6 (see listing above)
+strStat  - status 
+1 (A=Live, D=Dead, O=Other)
+numHeight  - height of the hit relative to the ground at that point (cm)
+numGround  - distance of the ground from the level point frame (cm)
+
+NOTE
+       -999.9 - indicates missing data
+</para>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>Plant community composition in the ARCSS grid at Barrow and Atqasuk, Alaska</title>
+      <personnel>
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Hollister</surName>
+        </individualName>
+        <role>originator</role>
+      </personnel>
+      <funding>
+        <para>1432277</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>2015 Barrow Atqasuk ARCSS Plant Communty v1.csv</entityName>
+      <entityDescription>These files contain data representing the plant community composition and structure of ARCSS grid plots at Barrow and Atqasuk in a CSV format.  
+      </entityDescription>
+      <attributeList>
+        <attribute>
+          <attributeName>strUTC</attributeName>
+          <attributeDefinition>sampling date</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sampling date universal time constant: YYYYMMDD</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strIdLo</attributeName>
+          <attributeDefinition>the location of the recording</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>plot identifier: BGCD02 is Control plot in Barrow Grid</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strSite</attributeName>
+          <attributeDefinition>site community</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BG</code>
+                    <definition>Barrow Grid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AG</code>
+                    <definition>Atqasuk Grid</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numYear</attributeName>
+          <attributeDefinition>Year of recording</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Year of recording: YYYY</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numJulian</attributeName>
+          <attributeDefinition>Julian day of year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Julian day of year: 001-365</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numMonth</attributeName>
+          <attributeDefinition>month of year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>month of year: 1-12</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numNS</attributeName>
+          <attributeDefinition>longitude</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>location of point along the North/South axis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numEW</attributeName>
+          <attributeDefinition>latitude</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>location of point along the East/West axis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numHit</attributeName>
+          <attributeDefinition>level of the hit (see strType attributes)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>1-7; most hits where only 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strType</attributeName>
+          <attributeDefinition>type of hit</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Animal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Feces</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Ground</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Human</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Litter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Non-vascular</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>U</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Vascular</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strBFun</attributeName>
+          <attributeDefinition>broad functional type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ALGA</code>
+                    <definition>algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BARE</code>
+                    <definition>bare ground</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BRYO</code>
+                    <definition>bryophyte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHAM</code>
+                    <definition>flux chamber base</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DSHR</code>
+                    <definition>Woody deciduous</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ESHR</code>
+                    <definition>Woody evergreen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FORB</code>
+                    <definition>Forb</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FUNG</code>
+                    <definition>Fungus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GRAM</code>
+                    <definition>graminoid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LICH</code>
+                    <definition>lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LITT</code>
+                    <definition>leaf litter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MISS</code>
+                    <definition>missing data</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PLTA</code>
+                    <definition>Plant tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOP</code>
+                    <definition>feces</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POTA</code>
+                    <definition>Point frame tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PROB</code>
+                    <definition>probe</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strNFun</attributeName>
+          <attributeDefinition>narrow functional group</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ACRO</code>
+                    <definition>Acrocarpous Moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALGA</code>
+                    <definition>Algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BARE</code>
+                    <definition>Bare Ground</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAGR</code>
+                    <definition>Caespitose Graminoid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHAM</code>
+                    <definition>Flux Chamber Base</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CRUS</code>
+                    <definition>Crustose Lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CUFO</code>
+                    <definition>Cushion Forb</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DESH</code>
+                    <definition>Deciduous Shrub</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ERFO</code>
+                    <definition>Errect Forb</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EVSH</code>
+                    <definition>Evergreen Shrub</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FOLI</code>
+                    <definition>Foliose Lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FRUT</code>
+                    <definition>Fruticose Lichen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FUNG</code>
+                    <definition>Fungus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LEAF</code>
+                    <definition>Leafy liverwort</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LITT</code>
+                    <definition>Leaf Litter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAFO</code>
+                    <definition>Mat For</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PLEU</code>
+                    <definition>Pleurocarpous Moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PLTA</code>
+                    <definition>Plant Tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNBR</code>
+                    <definition>Unidentified Bryophyte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNGR</code>
+                    <definition>Unidentified Graminoid</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNLI</code>
+                    <definition>Unidentified Lichen</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>MISS</code>
+            <codeExplanation>Missing Data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>strTaxon</attributeName>
+          <attributeDefinition>type of hit</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Animal</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Feces</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Ground</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Human</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Litter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Non-vascular</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>U</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Vascular</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strTaxon</attributeName>
+          <attributeDefinition>taxon code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ACRMOS</code>
+                    <definition>Acrocarpous moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALECOM</code>
+                    <definition>Alectoria complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ALOALP</code>
+                    <definition>Alopecurus alpinus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ANDPOL</code>
+                    <definition>Andromeda polifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ANTFRI</code>
+                    <definition>Antennaria friesiana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ARCLAT</code>
+                    <definition>Arctagrostis latifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BARGRO</code>
+                    <definition>Bare ground</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BETNAN</code>
+                    <definition>Betula nana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARAQU</code>
+                    <definition>Carex aquatilis complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARBIG</code>
+                    <definition>Carex bigelowii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARPRA</code>
+                    <definition>Cardamine pratensis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CASTET</code>
+                    <definition>Cassiope tetragona</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CERAST</code>
+                    <definition>Cerastium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CETCUC</code>
+                    <definition>Cetraria cucullata complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CETISL</code>
+                    <definition>Cetraria islandica complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHABAS</code>
+                    <definition>Flux chamber base</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CHRTET</code>
+                    <definition>Chrysosplenium tetrandrum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CLACOM</code>
+                    <definition>Cladonia complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CLADINA</code>
+                    <definition>Cladonia complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>COCOFF</code>
+                    <definition>Cochlearia officinalis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DACTYL</code>
+                    <definition>Dactylina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DIALAP</code>
+                    <definition>Diapensia lapponica </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DRALAC</code>
+                    <definition>Draba lactea </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DRECOM</code>
+                    <definition>Drepanocladus complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DUPFIS</code>
+                    <definition>Dupontia fisheri </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EMPNIG</code>
+                    <definition>Empetrum nigrum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ERIANG</code>
+                    <definition>Eriophorum angustifolium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ERIRUS</code>
+                    <definition>Eriophorum russeolum complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ERIVAG</code>
+                    <definition>Eriophorum vaginatum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FUNGIX</code>
+                    <definition>Fungi spp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>HIEALP</code>
+                    <definition>Hierochloe alpina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JUNBIG</code>
+                    <definition>Juncus biglumis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LEALIV</code>
+                    <definition>Leafy liverwort</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LEDPAL</code>
+                    <definition>Ledum palustre</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LITTER</code>
+                    <definition>Leaf litter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LUZARC</code>
+                    <definition>Luzula arctica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LUZCON</code>
+                    <definition>Luzula confusa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LUZWAH</code>
+                    <definition>Luzula wahlenbergii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MINOBT</code>
+                    <definition>Minuartia obtusiloba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NOSTOC</code>
+                    <definition>Nostoc spp</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PAPHUL</code>
+                    <definition>Papaver hultenii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PARMEL</code>
+                    <definition>Parmelia complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PEDKAN</code>
+                    <definition>Pedicularis kanei</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PEDLAP</code>
+                    <definition>Pedicularis lapponica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PEDSUD</code>
+                    <definition>Pedicularis sudetica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PERUSA</code>
+                    <definition>Pertusariaceae complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PLEMOS</code>
+                    <definition>Pleurocarpous moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POACEA</code>
+                    <definition>Poaceae complex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POITAG</code>
+                    <definition>Point frame tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POLBIS</code>
+                    <definition>Polygonum bistorta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POLVIV</code>
+                    <definition>Polygonum viviparum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOBIR</code>
+                    <definition>Bird poop</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOCAR</code>
+                    <definition>Caribou poo</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOLEM</code>
+                    <definition>Lemming poo</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOOWL</code>
+                    <definition>Owl pellet</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOPTA</code>
+                    <definition>Ptarmigan poo</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POTHYP</code>
+                    <definition>Potentilla hyparctica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PYRGRA</code>
+                    <definition>Pryola grandiflora </definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RANNIV</code>
+                    <definition>Ranunculus nivalis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RANPAL</code>
+                    <definition>Ranunculus pallasii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RANPYG</code>
+                    <definition>Ranunculus pygmaeus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RUBCHA</code>
+                    <definition>Rubus chamaemorus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SALPHL</code>
+                    <definition>Salix phlebophylla</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SALPOL</code>
+                    <definition>Salix polaris</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SALPUL</code>
+                    <definition>Salix pulchra</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SALROT</code>
+                    <definition>Salix rotundifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAXCER</code>
+                    <definition>Saxifraga cernua</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAXFOL</code>
+                    <definition>Saxifraga foliolosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAXHIE</code>
+                    <definition>Saxifraga hieracifolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAXHIR</code>
+                    <definition>Saxifraga hirculus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAXPUN</code>
+                    <definition>Saxifraga punctata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SENATR</code>
+                    <definition>Senecio atropurpureus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SIPHUL</code>
+                    <definition>Siphula</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPHAER</code>
+                    <definition>Sphaerophorus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPHAGN</code>
+                    <definition>Sphagnum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STADEA</code>
+                    <definition>Standing dead plants</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STEREO</code>
+                    <definition>Stereocaulon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>STRARC</code>
+                    <definition>Sticta arctica</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THAMNO</code>
+                    <definition>Thamnolia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>THAMOS</code>
+                    <definition>Thallus moss</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VACVIT</code>
+                    <definition>Vaccinium vitis-idaea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATERO</code>
+                    <definition>Water</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>strStat</attributeName>
+          <attributeDefinition>status</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Live</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>O</code>
+                    <definition>Other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numHeight</attributeName>
+          <attributeDefinition>height of the hit relative to the ground at that point</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>numGround</attributeName>
+          <attributeDefinition>distance of the ground from the level point frame</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="arctic-data.9844.1" scope="document">
+      <entityName>2015 Barrow Atqasuk ARCSS Plant Communty v1.csv</entityName>
+      <physical scope="document">
+        <objectName>2015 Barrow Atqasuk ARCSS Plant Communty v1.csv</objectName>
+        <size>801942</size>
+        <authentication method="MD5">e505c587b025df89fe69586a182b8898</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.9844.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="arctic-data.9861.1" scope="document">
+      <entityName>2010-20XX Barrow Atqasuk ARCSS Plant Community metadata - Copy.txt</entityName>
+      <physical scope="document">
+        <objectName>2010-20XX Barrow Atqasuk ARCSS Plant Community metadata - Copy.txt</objectName>
+        <size>12959</size>
+        <authentication method="MD5">c9db74b01ab06d778f2d52a3df2fb53a</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.9861.1</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

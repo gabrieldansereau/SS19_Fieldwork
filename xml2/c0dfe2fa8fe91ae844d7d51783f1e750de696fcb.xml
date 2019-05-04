@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-hfr.164.10" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF164">
+    <alternateIdentifier>HF164</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/fd859d17c406db004e528cf61921272f</alternateIdentifier>
+    <title>Umbilicaria Mammulata and Nitrogen Deposition at Harvard Forest 2006</title>
+    <creator>
+      <individualName>
+        <givenName>Fern</givenName>
+        <surName>Perkins</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Howard</givenName>
+        <surName>Neufeld</surName>
+      </individualName>
+    </creator>
+    <pubDate>2010</pubDate>
+    <abstract>
+      <section>
+        <para>Atmospheric N has quadrupled due to anthropogenic inputs and is projected to double again by 2050. The lichen Umbilicaria mammulata relies primarily on atmospheric deposition for nutrients, including N. Much of this species’ geographic distribution coincides with the N deposition gradient in the eastern US. We were interested in the potential impacts of N deposition on this species under realistic field conditions. Lichens were collected at six sites, ranging from Maine (low deposition) to West Virginia (high deposition).  Thalli were analyzed for %C, %N, C:N, specific thallus weight (a measure of thickness), chlorophyll content, and chlorophyll fluorescence. Using stepwise regression we identified the most predictive model(s) using N deposition, environmental variables, and climate to predict differences in lichen ecophysiology and biochemistry across the gradient. While N deposition was important in predicting some responses, the model that best predicted %N in lichen only included mean minimum temperature, mean annual precipitation, and substrate slope. In controlled experiments at Grandfather Mountain (Linville NC) lichens were fertilized in situ with N to mimic deposition projected for 2050. There were no significant differences between control and fertilized thalli for any response variables, but differences did exist among sites.  The results of this study highlight the complexities associated with sampling along a gradient of one factor in a multivariate environment.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>carbon</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>lichens</keyword>
+      <keyword>nitrogen deposition</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public under Creative Commons license CC BY (Attribution). Please keep the designated contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf164</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Simes Tract (Harvard Forest)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.212</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.212</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.469</northBoundingCoordinate>
+          <southBoundingCoordinate>+42.469</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>245</altitudeMinimum>
+            <altitudeMaximum>245</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2006</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Umbilicaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>mammulata</taxonRankValue>
+            <commonName>rock tripe lichen</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Fern</givenName>
+        <surName>Perkins</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>828 Buttermilk Rd.</deliveryPoint>
+        <city>Trade</city>
+        <administrativeArea>TN</administrativeArea>
+        <postalCode>37691</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(828)773-9007</phone>
+      <electronicMailAddress>fernperkins@yahoo.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Lichen thalli were collected from rock substrate using a putty knife.  Thalli were collected in a manner so that their absence was not obvious (e.g. neighboring thalli were not collected).  Chlorophyll was extracted in DMF.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf164-01">
+      <entityName>hf164-01-nitrogen.csv</entityName>
+      <entityDescription>nitrogen</entityDescription>
+      <physical id="1296240212428">
+        <objectName>hf164-01-nitrogen.csv</objectName>
+        <authentication method="MD5">aaadd7904c878908bce28f0655be257c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/164/10/bc812374749d3c52337fd6df60edc7d3</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1296241419951">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1296241419967">
+          <attributeName>code</attributeName>
+          <attributeDefinition>code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1296241419982">
+          <attributeName>c</attributeName>
+          <attributeDefinition>percent carbon in lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241419998">
+          <attributeName>n</attributeName>
+          <attributeDefinition>percent nitrogen in lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420014">
+          <attributeName>c.n</attributeName>
+          <attributeDefinition>ratio of carbon to nitrogen in lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420029">
+          <attributeName>fv.fm</attributeName>
+          <attributeDefinition>variable divided by maximum chlorophyll fluorescence</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420045">
+          <attributeName>area</attributeName>
+          <attributeDefinition>area of the plastiquinone pool</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMillimeters</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420060">
+          <attributeName>stw</attributeName>
+          <attributeDefinition>lichen thickness</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420076">
+          <attributeName>chla.area</attributeName>
+          <attributeDefinition>ug of chlorophyll a per mm^2 of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMillimeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420092">
+          <attributeName>chla.weight</attributeName>
+          <attributeDefinition>ug of chlorophyll a per mg of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMilligram</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420107">
+          <attributeName>chlb.area</attributeName>
+          <attributeDefinition>ug of chlorophyll b per mm^2 of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMillimeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420123">
+          <attributeName>chlb.weight</attributeName>
+          <attributeDefinition>ug of chlorophyll b per mg of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMilligram</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420139">
+          <attributeName>chlab.area</attributeName>
+          <attributeDefinition>ug of chlorophyll per mm^2 of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMillimeterSquared</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420154">
+          <attributeName>chlab.weight</attributeName>
+          <attributeDefinition>ug of chlorophyll b per mg of lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerMilligram</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1296241420170">
+          <attributeName>ph.chl</attributeName>
+          <attributeDefinition>ratio of phaeophytin to chlorophyll in lichen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>community</researchTopic>
+        <studyType>short-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="microgramPerMilligram" multiplierToSI="0.001"
+          name="microgramPerMilligram" parentSI="gramsPerGram" unitType="massPerMass"/>
+        <unit id="microgramPerMillimeterSquared" multiplierToSI="0.001"
+          name="microgramPerMillimeterSquared"
+          parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

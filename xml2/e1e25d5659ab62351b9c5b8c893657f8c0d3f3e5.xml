@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111174.0"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV-ADMIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems Gigante Soil Sample Data on N, P, K and Micronutrient Treated Plots 16S rRNA Resampled
+</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Kaspari</surName>
+      </individualName>
+      <organizationName>University of Oklahoma - Kaspari Ant Lab</organizationName>
+      <electronicMailAddress>mkaspari@ou.edu</electronicMailAddress>
+      <role>associated researcher</role>
+    </associatedParty>
+    <pubDate>2016-04-20</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures abundance of OTUs (Operational Taxonomic Units) sampled for in forest soils at the Gigante plots on Barro Colorado Island, Panama. Prior to macrosystems collection, these plots had been fertilized with N, P, K, and micronutrients for 14 years. This data represents abundance of 16S rRNA genes in soil samples at Gigante processed by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">rRNA</keyword>
+      <keyword keywordType="theme">16S</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">OTUs</keyword>
+      <keyword keywordType="theme">Bacteria</keyword>
+      <keyword keywordType="theme">Abundance</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">Nitrogen</keyword>
+      <keyword keywordType="theme">Potassium</keyword>
+      <keyword keywordType="theme">Phosphorus</keyword>
+      <keyword keywordType="theme">Micronutrients</keyword>
+      <keyword keywordType="theme">Barro Colorado Island</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-gigante-soil-sample-data-n-p-k-and-micronutrient-treated-plots-16s-rrna-0
+</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Daliang</givenName>
+        <surName>Ning</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>ningdaliang@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+This experiment was a joint effort of the Kaspari Lab and the Institute for Environmental Genomics at the University of Oklahoma. The soil samples were originally taken by the Kaspari Lab at the Gigante plots on Barro Colorado Island, Panama. How does 14 years of N, P, K, and micronutrient fertilization change the diversity (species, gene) of the brown food web? How does 14 years of tree inputs, broken down by species, affect species and gene diversity? What is the relative role of tree and biogeochemistry inputs? Fertilization treatment: 40x40 m plots, 4: N, P, K, NP, NK, PK, NPK, Control, Micronutrient Tree Treatment: on each plot: 3: 1m2 litter traps, censused every 2 weeks for leaf inputs Samples: June-July 2012 Sample Size: 36*3=108 soil samples in IEC freezer, 108 invertebrate samples in Kaspari lab The Genetics Lab then analyzed the soil samples as follows: To determine the biodiversity of microbial communities, three genes targeting different taxonomic groups with different taxonomic resolutions were sequenced: The first of these are the V3-V4 regions of the 16S rRNA genes for determining the biodiversity of bacteria and archaea. All of the target genes were amplified and sequenced to a great depth using Illumina MiSeq. An average of 64K sequence reads were obtained for the 16S gene. The numbers of OTUs (Operational Taxonomic Units) obtained varied considerably (1.6-5.8 times) based on different sequence similarity thresholds. Such sequencing efforts appear to be reasonably sufficient to estimate the diversity of the microbial communities examined, at least for the dominant populations, as indicated by rarefaction analysis, which showed that the rarefaction curves approached to saturation at different cutoffs for the three target genes. Amplicon Sequencing Analysis protocols are as follows: Detail steps: 1. Raw data. The raw data includes three files: R1.fastq, R2.fastq, and I1.fastq. The first files are read files contains real sequences in FASTQ format and the third file is the index file which contains the barcode sequence information for each corresponding reads in the first two files. Here, to make an example, we trim the files and only included 10000 entries in each file. 2. Upload. All the files need to be uploaded into our sequencing analysis server. Big files larger than 2GB need to be uploaded through an ftp server. 3. Remove PhiX sequences. The PhiX sequences are added to increase the diversity of the nucleotides in each position and enhance the sequencing accuracy. These sequences are removed here using BLAST against the PhiX genome sequences. (Output: Galaxy8-10) 4. Split sequence by barcodes. A barcode list needs to be provided to extract these barcode from the index file so each sequence will be assigned to the sample its barcode represents. After this step, the sample name (barcode name) will be attached to every sequence ID linked by "--". (Output: Galaxy13, 14) 5. Remove Primer (optional). This step is only needed if the primers are included in the reads. It depends on the sequencing strategy. If proceeds, the primers will be removed from the beginning of the reads within a certain range. (Output: Galaxy16,17) 6. Join pair-end reads. A program called FLASH is used to join the forward and reversed reads together. (Output: Galaxy20) 7. Quality trim. The quality trimming process is carried out by Btrim . (Output: Galaxy24) 8. Extract FASTA from FASTQ. The FASTQ format contains information of both sequences and their quality. For further analysis based, sequences in FASTA files are the only information needed, though users can still get the quality files here if they want. (Output: Galaxy26) 9. Remove sequences contain N. N is undetermined base which could indicate unreliable sequences after it. User can choose to remove completely or trim at the position of N to keep the remaining part of the sequences. (Output: Galaxy27) 10. Filter sequences by length. If the sequences are too short (this usually doesn't happen for Illumina sequences after joining pair-ends reads), they will greatly affect the clustering results when generating OTUs and induce errors. And if the sequences are too long usually means they are sequencing errors. (Output: Galaxy29) 11. Remove potential chimeras using Uchime . To remove chimeras, which are commonly created during DNA sample amplification by PCR, U-CHIME is used. There are two modes in the U-CHIME algorithm: de novo and reference database. The de novo mode uses abundance information to detect chimeras on the assumption that chimeras are less abundant than their parents because they must've undergone fewer rounds of amplification. We usually use the reference database mode to save computational time. The Greengene 16S dataset is used as reference for 16S sequencing analysis. To save more computational time, all the identical sequences are removed from the dataset and a redundancy map contains all the identical sequence ID is also generated for future use. (Output: Galaxy32,33) 12. Correct frame shifts for protein encoding sequences (optional). When the sequences are from protein encoding genes, correct open reading frames (ORFs) need to be assured to allow accurate translation and alignment in the future analysis. A program called FrameBot (developed by RDP, not published yet) is used to perform this process. A reference file of protein sequences needs to be provided, and frame shift-corrected protein and DNA sequences are generated. 13. Resample (optional). Resample the sequences so that each sample has the same sequence number. 14. Pick OTUs. This step will use clustering methods to form OTUs (operational taxonomy units) based on sequence similarity. Now we have three methods that users can choose from: CD-HIT, UCLUST, McClust. McClust is a complete lineage algorithm which provides more accurate clustering results, but it is very time and space consuming. For large sequence datasets, CD-HIT and UCLUST are recommended. For millions of sequences generated from Illumina platform, UCLUST should be chosen to do the clustering. The clusters generated from this step will be treated as OTUs for further analysis. (Output: Galaxy35) 15. Generate OTU table. In the OTU table, the rows represent OTUs and columns are samples, the values between are the sequence numbers belong to the corresponding OTUs as well as corresponding samples. The redundancy map from the UCHIME step is also needed to add back the identical sequences. OTU tables w/o singlets are generated and also their corresponding representative sequences. (Output: Galaxy36-39)
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>
+Macrosystems Gigante Soil Sample Data on N, P, K and Micronutrient Treated Plots 16S rRNA Resampled
+</entityName>
+      <entityDescription>
+This data set captures abundance of OTUs (Operational Taxonomic Units) for 16S rRNA sampled for in forest soils at the Gigante plots treated with N, P, K, and micronutrients on Barro Colorado Island, Panama.</entityDescription>
+      <physical>
+        <objectName>GG16S.csv</objectName>
+        <size>67191016</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111174/0/5afd3e93105384f41348894350267732</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2012-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>OTU</attributeName>
+          <attributeLabel>OTU</attributeLabel>
+          <attributeDefinition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Domain</attributeName>
+          <attributeLabel>Domain</attributeLabel>
+          <attributeDefinition>The taxonomic domain of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic domain of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The taxonomic phylum of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic phylum of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The taxonomic class of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic class of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>samples</attributeName>
+          <attributeLabel>samples</attributeLabel>
+          <attributeDefinition>
+The sample code of each identified gene, showing treatment (C = control, N = nitrogen, P = phosphorus, K = potassium), plot number, and coordinates (XXX_XXX).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The sample code of each identified gene, showing treatment (C = control, N = nitrogen, P = phosphorus, K = potassium), plot number, and coordinates (XXX_XXX).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>abundance</attributeName>
+          <attributeLabel>abundance</attributeLabel>
+          <attributeDefinition>
+The abundance of the identified gene at each location.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The abundance of the identified gene at each location.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>Gigante Treatment - 16S rRNA Resampled</entityName>
+      <entityDescription>
+This spreadsheet breaks down the sample codes for the abundance data to show the N, P, K, and micronutrient treatments applied to each plot and subplot.
+</entityDescription>
+      <physical>
+        <objectName>GGtreatment.csv</objectName>
+        <size>5570</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111174/0/dc12f12289f501fc2314a3e611d13dc6</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2012-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>Sample Storage ID</attributeName>
+          <attributeLabel>Sample Storage ID</attributeLabel>
+          <attributeDefinition>
+An ID number assigned by the lab for each sample ID when stored.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+An ID number assigned by the lab for each sample ID when stored.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SampleID</attributeName>
+          <attributeLabel>SampleID</attributeLabel>
+          <attributeDefinition>
+A code made up of a letter denoting either C (control group), N (nitrogen treated), P (phosphorus treated), K (potassium treated), or M (micronutrient treated) or some combination thereof, plus a plot number and coordinates in (XXX_XXX) format.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A code made up of a letter denoting either C (control group), N (nitrogen treated), P (phosphorus treated), K (potassium treated), or M (micronutrient treated) or some combination thereof, plus a plot number and coordinates in (XXX_XXX) format.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treat.element</attributeName>
+          <attributeLabel>treat.element</attributeLabel>
+          <attributeDefinition>
+The treatment element. Either C (control group), N (nitrogen treated), P (phosphorus treated), K (potassium treated), or M (micronutrient treated) or some combination thereof
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The treatment element. Either C (control group), N (nitrogen treated), P (phosphorus treated), K (potassium treated), or M (micronutrient treated) or some combination thereof
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeLabel>plot</attributeLabel>
+          <attributeDefinition>The plot number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The plot number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Coordinates</attributeName>
+          <attributeLabel>Coordinates</attributeLabel>
+          <attributeDefinition>
+The coordinates of the treatment subplot in XXX_XXX format.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The coordinates of the treatment subplot in XXX_XXX format.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N</attributeName>
+          <attributeLabel>Nitrogen</attributeLabel>
+          <attributeDefinition>
+A value of 0 means that the sample area was NOT treated with Nitrogen. A value of 1 means that the sample was treated with Nitrogen.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A value of 0 means that the sample area was NOT treated with Nitrogen. A value of 1 means that the sample was treated with Nitrogen.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>P</attributeName>
+          <attributeLabel>Phosphorus</attributeLabel>
+          <attributeDefinition>
+A value of 0 means that the sample area was NOT treated with Phosphorus. A value of 1 means that the sample was treated with Phosphorus.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A value of 0 means that the sample area was NOT treated with Phosphorus. A value of 1 means that the sample was treated with Phosphorus.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K</attributeName>
+          <attributeLabel>Potassium</attributeLabel>
+          <attributeDefinition>
+A value of 0 means that the sample area was NOT treated with Potassium. A value of 1 means that the sample was treated with Potassium.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A value of 0 means that the sample area was NOT treated with Potassium. A value of 1 means that the sample was treated with Potassium.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>M</attributeName>
+          <attributeLabel>Micronutrients</attributeLabel>
+          <attributeDefinition>
+A value of 0 means that the sample area was NOT treated with Micronutrients. A value of 1 means that the sample was treated with Micronutrients.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A value of 0 means that the sample area was NOT treated with Micronutrients. A value of 1 means that the sample was treated with Micronutrients.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>Gigante 16S rRNA Resampled Phylogenetic Tree File</entityName>
+      <entityDescription>
+This file contains the code for building a phylogenetic tree from the 16S rRNA Gigante data.
+</entityDescription>
+      <physical>
+        <objectName>GG-16S-resampledOTU-Tree-Galaxy280-FastTreenwk.txt</objectName>
+        <size>2893186</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>none</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111174/0/48b5c1fa533b86afa911fa0ee6a1897b</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>FASTA rRNA Sequence File for Gigante 16S Sampling</entityName>
+      <entityDescription>
+This file contains the exact sequence of the four nucleotides for each Operational Taxonomic Unit (OTU). A, C, G, and T represent the four nucleotide bases of a DNA strand — adenine, cytosine, guanine, thymine.
+</entityDescription>
+      <physical>
+        <objectName>GG-16S-resampledOTU-sequence-fasta.txt</objectName>
+        <size>24377177</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>none</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111174/0/0f26edf57db743c29f31e72d02592c26</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

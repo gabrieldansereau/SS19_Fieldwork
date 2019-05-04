@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-pie.360.1"
+  system="https://pasta.lternet.edu"
+  xmlns:cit="eml://ecoinformatics.org/literature-2.1.0"
+  xmlns:doc="eml://ecoinformatics.org/documentation-2.1.0"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:prot="eml://ecoinformatics.org/protocol-2.1.0"
+  xmlns:res="eml://ecoinformatics.org/resource-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml"
+  xmlns:sw="eml://ecoinformatics.org/software-2.1.0"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>STP-SO-sedimentchl.01</alternateIdentifier>
+    <title>Bottom sediment, chlorophyll and pheophytin survey Plum Island Sound, Massachusetts, September 10 - 15, 2010</title>
+    <creator id="pers-1">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Sergio</givenName>
+        <surName>Fagherazzi</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Boston University</deliveryPoint>
+        <deliveryPoint>Department of Earth and Environment</deliveryPoint>
+        <deliveryPoint>675 Commonwealth Avenue</deliveryPoint>
+        <city>Boston</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02245</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="pers-2">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Robinson W</givenName>
+        <surName>Fulweiler</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Boston University</deliveryPoint>
+        <deliveryPoint>Department of Earth and Environment</deliveryPoint>
+        <deliveryPoint>675 Commonwealth Avenue</deliveryPoint>
+        <city>Boston</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02245</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="pers-3">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Giulio</givenName>
+        <surName>Mariotti</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Louisiana State University</deliveryPoint>
+        <deliveryPoint>Department of Oceanography and Coastal Sciences</deliveryPoint>
+        <deliveryPoint>1002-Y Energy, Coast and Environment Bldg.</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </metadataProvider>
+    <pubDate>2015</pubDate>
+    <abstract>
+      <para>Tidal bars and tidal flats in shallow, mesotidal estuaries are subject to the action of tidal currents and waves. This complex forcing gives rise to large variations in bottom sediments and related benthic ecosystems. In this research we study the spatial relationships among tidal currents, waves, sediment characteristics, chlorophyll a, and pheophytin in the shallow bars and flats of Plum Island Sound, Massachusetts, USA. Waves and tides have a mild effect on the sand grain size and percent of silt and mud of these shallow deposits. Average wave conditions are more important than extreme events, like Nor’easters, in sediment sorting. The spatial distribution of pheophytin, an indicator of dead microphytobenthos, mimics that of silt and mud whereas chlorophyll a, a proxy for the live microphytobenthos stock, is greatest in sandy areas characterized by intermediate values of tidal velocity.Tidal currents and waves were computed using the numerical model Delf3D.-SWAN. See http://dx.doi.org/10.1016/j.ecss.2014.04.003 for reference.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>PIE</keyword>
+      <keyword>Plum Island Ecosystems</keyword>
+      <keyword>primary production</keyword>
+      <keyword>sediment</keyword>
+      <keyword>grain size</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>pheophytin</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout>
+            </para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/STP/STP-SO-sedimentchl.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>Four corner boundary box for PIE LTER, Plum Island Sound estuary sampling areas.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.93</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.72</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.8</northBoundingCoordinate>
+          <southBoundingCoordinate>42.67</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-09-10</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-09-14</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Data set complete for 2010</para>
+        <para>Version 01: April 29, 2015, data and metadata updates to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Jan2015.xlsm 1/15/15 4:26 PM for QA/QC to EML 2.1.0</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="im" system="knb">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+Sediment samples for grain size, chlorophyll a, and pheophytin analyses were collected in exposed tidal bars and tidal flats in Plum Island Sound during low tide. The entire survey was carried out in three days in September 2010 (10 Sep 2010, 14 Sep 2010, and 15 Sep 2010) to minimize possible temporal variations in biological and parameters. The chosen period is just after the average peak in water temperature that usually occurs in the second week of August (NODC Coastal Water Temperature Guide).
+To measure chlorophyll a and pheophytin, one sediment core was taken at each location , paired with the sediment sample, using a 50 cm3 syringe with the top cut off. Each sediment core was sliced in 1 cm sections for the top 5 cm of the core. Briefly, samples were stored on ice in the dark, transported to the lab, and frozen until analysis. For chlorophyll analysis samples were thawed, 25 mL of 92% acetone was added to each, and they sat overnight (~12 h) on ice in a dark cooler. The next day samples were sonicated for 30 s, allowed to settle upright, and 2 mL of liquid only was pipetted into 3 replicate vials for absorbance measurement using a TURNER Trilogy laboratory fluorometer. For pheophytin analysis 25 µL of 0.300N HCl was added to each replicate, allowed to sit for 3 min, and then fluorometer measurement was repeated. Raw absorbance values were converted to concentration of chl a (µg cm-3).
+We chose to take two sediment samples at each location, one for sediment analysis and one to determine concentrations of chlorophyll and pheophytin, in order to maximize the number of sites visited in a single low tide, thus controlling for the possible temporal variability in biological and sedimentological parameters. We partially compensate for the lack of replicates with the high spatial density of measured points, implicitly assuming that the measured parameters are homogenous on a small-scale. Essentially this study provides a high spatial resolution, but a lower temporal resolution “snapshot” of chlorophyll and pheophytin distribution in this estuary.
+See  http://dx.doi.org/10.1016/j.ecss.2014.04.003 for reference.
+</literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565, OCE-1058747, OCE-1238212. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>STP-SO-sedimentchl.csv</entityName>
+      <entityDescription>Bottom sediment, chlorophyll and pheophytin survey Plum Island Sound, Massachusetts, September 10 - 15, 2010</entityDescription>
+      <physical>
+        <objectName>STP-SO-sedimentchl.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-pie/360/1/f4b6a4b73286bb2cdf5799754b79cdbf</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>Sampling_Point</attributeName>
+          <attributeLabel>Sampling_Point</attributeLabel>
+          <attributeDefinition>Sample point locations</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude of sample point locations (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latutude of sample point locations (decimal degrees)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>Grain_Size</attributeName>
+          <attributeLabel>Grain_Size</attributeLabel>
+          <attributeDefinition>Size of sediment grains</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>micron</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>Sorting_SD</attributeName>
+          <attributeLabel>Sorting_SD</attributeLabel>
+          <attributeDefinition>Standard deviation of the grain sizes computed with the logarithmic method of moments</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>micron</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>Mud%</attributeName>
+          <attributeLabel>Mud%</attributeLabel>
+          <attributeDefinition>Percent of silt and mud (diameter &lt; 63 microns)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>Density</attributeName>
+          <attributeLabel>Density</attributeLabel>
+          <attributeDefinition>Density of sediment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>Chl_1cm</attributeName>
+          <attributeLabel>Chl_1cm</attributeLabel>
+          <attributeDefinition>Sediment chlorophyll concentration at 1 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>Pheophytin_1cm</attributeName>
+          <attributeLabel>Pheophytin_1cm</attributeLabel>
+          <attributeDefinition>Sediment pheophytin concentration at 1 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.10">
+          <attributeName>Chl_5cm</attributeName>
+          <attributeLabel>Chl_5cm</attributeLabel>
+          <attributeDefinition>Sediment chlorophyll concentration at 5 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.11">
+          <attributeName>Pheophytin_5cm</attributeName>
+          <attributeLabel>Pheophytin_5cm</attributeLabel>
+          <attributeDefinition>Sediment pheophytin concentration at 5 cm depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerCentimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.12">
+          <attributeName>Marsh_Distance</attributeName>
+          <attributeLabel>Marsh_Distance</attributeLabel>
+          <attributeDefinition>Distance from closest marsh</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.13">
+          <attributeName>Velocity_Max</attributeName>
+          <attributeLabel>Velocity_Max</attributeLabel>
+          <attributeDefinition>Maximum velocity of tidal current</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.14">
+          <attributeName>Bottom_Shear_Max_TidalCurrent</attributeName>
+          <attributeLabel>Bottom_Shear_Max_TidalCurrent</attributeLabel>
+          <attributeDefinition>Maximum bottom shear stress of tidal current</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>pascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.15">
+          <attributeName>Bottom_Shear_Max_Waves</attributeName>
+          <attributeLabel>Bottom_Shear_Max_Waves</attributeLabel>
+          <attributeDefinition>Max bottom shear stress of waves (weighted average)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>pascal</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.16">
+          <attributeName>Wave_Height</attributeName>
+          <attributeLabel>Wave_Height</attributeLabel>
+          <attributeDefinition>Wave height (weighted average)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>32</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="percent" multiplierToSI="1" name="percent" parentSI="" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="gramPerCentimeterCubed" multiplierToSI="1000"
+          name="gramPerCentimeterCubed" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <description>grams per cubic centimeter</description>
+        </unit>
+        <unit id="microgramPerCentimeterCubed" multiplierToSI="1000000"
+          name="microgramPerCentimeterCubed"
+          parentSI="kilogramsPerCubicMeter" unitType="massDensity">
+          <description>micrograms per cubic centimeter</description>
+        </unit>
+        <unit id="meterPerSecond" multiplierToSI=""
+          name="meterPerSecond" parentSI="" unitType="speed">
+          <description>meters per second</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

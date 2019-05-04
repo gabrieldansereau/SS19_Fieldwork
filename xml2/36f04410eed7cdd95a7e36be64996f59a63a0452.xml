@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.354.3"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0  http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/0efdbb6ca8c77533d4fe4cbcc1417cfc</alternateIdentifier>
+    <title>Cascade Project at North Temperate Lakes LTER Core Data Process Data 1984 - 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jim</givenName>
+        <surName>Kitchell</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-3014</phone>
+      <electronicMailAddress>kitchell@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/personnel/kitchell/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jon</givenName>
+        <surName>Cole</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <address>
+        <city>Milbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mike</givenName>
+        <surName>Pace</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences</deliveryPoint>
+        <city>Charlottsville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22901</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">https://orcid.org/0000-0001-5945-6131</userId>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Kurzweil</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>j.kurtzweil@gmail.com</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2017-11-02</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Data useful for calculating and evaluating primary production processes were collected from 6 lakes from 1984-2015. Chlorophyll a and pheophytin were measured by the same fluorometric method from 1984-2015. In some years chlorophyll and pheophytin were separated into size fractions (total, and a 'small' fraction that passed a 35 um mesh screen). Primary production was measured by the 14C method from 1984-1998. Dissolved inorganic carbon for primary production calculation was calculated from Gran alkalinity titration and air-equilibrated pH until 1987 when this method was replaced by gas chromatography. Until 1995 alkaline phosphatase activity was measured as an indicator of phosphorus deficiency.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>NTL Associated Datasets</keyword>
+      <keyword>Related Projects</keyword>
+      <keyword>Cascade</keyword>
+      <keyword>biological (all)</keyword>
+      <keyword>primary production</keyword>
+      <keywordThesaurus>NTL Themes</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Primary Production</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>carbon</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>lakes</keyword>
+      <keyword>phaeophytin</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>This information is released to the public domain under the Creative Commons license CC-BY 4.0 (see: https://creativecommons.org/licenses/by/4.0/). It may be distributed, remixed, and built upon. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The consumer of these data ("Data User" herein) should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://lter.limnology.wisc.edu/content/cascade-project-north-temperate-lakes-lter-core-data-process-data-1984-2016</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4985</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4985</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2362</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2362</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Vilas county, Wisconsin, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4737</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4737</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2096</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2096</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4948</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4948</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2364</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2364</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.5059</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.5059</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2436</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2436</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.5034</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.5034</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2512</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2512</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.5035</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.5035</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2532</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2532</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.4972</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4972</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2512</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2512</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Upper peninsula, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.5021</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.5021</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.236</northBoundingCoordinate>
+          <southBoundingCoordinate>46.236</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1984-06-03</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-08-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Mike</givenName>
+        <surName>Pace</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences</deliveryPoint>
+        <city>Charlottsville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22901</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">https://orcid.org/0000-0001-5945-6131</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </contact>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>General: Bade, D., J. Houser, and S. Scanga (editors). 1998. Methods of the Cascading Trophic Interactions Project. 5th edition. Center for Limnology, University of Wisconsin-Madison, and Cary Institute of Ecosystem Studies, Millbrook, NY.</literalLayout>
+            </para>
+            <para>
+              <literalLayout>Primary production: Carpenter, S.R. and J.F. Kitchell (eds.). 1993. The Trophic Cascade in Lakes. Cambridge University Press, Cambridge, England. </literalLayout>
+            </para>
+            <para>
+              <literalLayout>Alkaline phosphatase: Elser, J.J., M.M. Elser, N.A. MacKay, and S.R. Carpenter. 1988. Zooplankton mediated transitions between N and P limited algal growth. Limnology and Oceanography 33: 1 14.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Data were collected under approximately 15 grants. This database was compiled under the grant entitled “OPUS: Collaborative Research: Analysis of Cross-Boundary Fluxes, Trophic Cascades and Ecosystem Stability Based on 32 Years of Whole-Lake Experiments</title>
+      <personnel>
+        <individualName>
+          <givenName>Stephen</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation DEB-1455461</funding>
+    </project>
+    <dataTable>
+      <entityName>cascade_processData_V0.4_upload.csv</entityName>
+      <entityDescription>Data useful for calculating and evaluating primary production processes</entityDescription>
+      <physical>
+        <objectName>cascade_processData_V0.4_upload.csv</objectName>
+        <size>1031813</size>
+        <authentication method="MD5">aa5c796ed6cfa296995036585abaa10e</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/354/3/f8d6f5308b4d0f5437ffa62725b6fc8e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lakeid</attributeLabel>
+          <attributeDefinition>lakeid</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Paul Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Peter Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East Long Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West Long Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Tuesday Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Central Long Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>Hummingbird Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Crampton Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ward</code>
+                    <definition>Ward Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TBog</code>
+                    <definition>Tender Bog</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lakename</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daynum</attributeName>
+          <attributeLabel>day of year</attributeLabel>
+          <attributeDefinition>day of year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">366</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeLabel>depth</attributeLabel>
+          <attributeDefinition>water depth at which sample was taken</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth_id</attributeName>
+          <attributeLabel>depth_id</attributeLabel>
+          <attributeDefinition>Numerical sequence of depths starting from the depth closest to the lake surface</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Numerical sequence of depths starting from the depth closest to the lake surface. M and Meta designate a metalimnetic sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DIC_mg</attributeName>
+          <attributeLabel>DIC_mg</attributeLabel>
+          <attributeDefinition>Dissolved inorganic carbon</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>primary_prod_rep1</attributeName>
+          <attributeLabel>primary_prod_rep1</attributeLabel>
+          <attributeDefinition>14C primary production replicate 1</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>primary_prod_rep2</attributeName>
+          <attributeLabel>primary_prod_rep2</attributeLabel>
+          <attributeDefinition>14C primary production replicate 2</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerCubicMeterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>chla</attributeName>
+          <attributeLabel>chla</attributeLabel>
+          <attributeDefinition>Chlorophyll a concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>phaeo</attributeName>
+          <attributeLabel>phaeo</attributeLabel>
+          <attributeDefinition>Phaeopigment concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>chla_lt_35um</attributeName>
+          <attributeLabel>chla_lt_35um</attributeLabel>
+          <attributeDefinition>Chlorophyll a that passes a 35 um screen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>phaeo_lt_35um</attributeName>
+          <attributeLabel>phaeo_lt_35um</attributeLabel>
+          <attributeDefinition>Phaeopigment that passes a 35 um screen</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>alk_phosphatase</attributeName>
+          <attributeLabel>alk_phosphatase</attributeLabel>
+          <attributeDefinition>Alkaline phosphatase activity</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanomolesPerMinute</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>11627</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>CascadeManual1998.pdf</entityName>
+      <entityDescription>Methods descriptions for samplind and analyses used in the CASCADE project</entityDescription>
+      <physical>
+        <objectName>CascadeManual1998.pdf</objectName>
+        <authentication method="MD5">6c7d138ed31ca6dd4aa6b99abf9dfabf</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/354/3/6840b59648316328a62555a0c31d9a5f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1     http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="mg/m³/h"
+          id="milligramsPerCubicMeterPerHour"
+          name="milligramsPerCubicMeterPerHour" unitType="volumetricMassDensityRate">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit id="nanomolesPerMinute">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111179.0"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV-ADMIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems Results for 16S in 7 Plot Soil Samples (UPARSE - Resampled)
+</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <pubDate>2016-06-13</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures abundance of OTUs (Operational Taxonomic Units) sampled for in forest soils at the original six sampling sites (HJ Andrews, Niwot, Harvard Forest, Coweeta, Luquillo, Barro Colorado Island) plus the new site set up by the Enquist Lab at Mt. Bigelow near Tucson, AZ. This data represents abundance of 16S (bacteria) genes in soil samples processed by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">16S</keyword>
+      <keyword keywordType="theme">Bacteria</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">OTUs</keyword>
+      <keyword keywordType="theme">Abundance</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">HJ Andrews LTER</keyword>
+      <keyword keywordType="theme">Niwot Ridge LTER</keyword>
+      <keyword keywordType="theme">Luquillo LTER</keyword>
+      <keyword keywordType="theme">Harvard Forest LTER</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">Barro Colorado Island</keyword>
+      <keyword keywordType="theme">Mt. Bigelow, Arizona</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-results-16s-7-plot-soil-samples-uparse-resampled-0
+</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-01-15</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-02-15</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Daliang</givenName>
+        <surName>Ning</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>ningdaliang@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+An array of 21 1m2 subplots was used to sample leaf litter invertebrates and soil microbes at each experimental site. The subplots were directed 1m, 10m, 50m, 100m and 200m from a central subplot where the "1m" plots shared an edge with the central subplot. The leaf litter and litter soil interface were sifted and placed in berlese funnel extractors for 48 hours, with litter invertebrates extracted into 95% ethanol. Within each 1m2 plot, 9 soil cores (2cm diameter, ~8cm depth) were taken with all 9 pooled and mixed. The Genetics Lab then analyzed the soil samples as follows: To determine the biodiversity of microbial communities, three genes targeting different taxonomic groups with different taxonomic resolutions were sequenced: The first of these are the V3-V4 regions of the 16S rRNA genes for determining the biodiversity of bacteria and archaea. All of the target genes were amplified and sequenced to a great depth using Illumina MiSeq. An average of 64K sequence reads were obtained for the 16S gene. The numbers of OTUs (Operational Taxonomic Units) obtained varied considerably (1.6-5.8 times) based on different sequence similarity thresholds. Such sequencing efforts appear to be reasonably sufficient to estimate the diversity of the microbial communities examined, at least for the dominant populations, as indicated by rarefaction analysis, which showed that the rarefaction curves approached to saturation at different cutoffs for the three target genes.
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>
+Macrosystems Results for 16S in 7 Plot Soil Samples (UPARSE - Resampled)
+</entityName>
+      <entityDescription>
+This data set captures abundance of OTUs (Operational Taxonomic Units) sampled for in forest soils at the original six sampling sites (HJ Andrews, Niwot, Harvard Forest, Coweeta, Luquillo, Barro Colorado Island) plus the new site set up by the Enquist Lab at Mt. Bigelow near Tucson, AZ. This data represents abundance of 16S (bacteria) genes in soil samples.
+</entityDescription>
+      <physical>
+        <objectName>MP716SUPARSEclass3.csv</objectName>
+        <size>45733645</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111179/0/b2835cb10c69e2e9b40801bbffa3a3cd</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2016-01-15</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-02-15</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>otus</attributeName>
+          <attributeLabel>OTUs</attributeLabel>
+          <attributeDefinition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Domain</attributeName>
+          <attributeLabel>Domain</attributeLabel>
+          <attributeDefinition>The taxonomic domain of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic domain of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The taxonomic phylum of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic phylum of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The taxonomic class of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic class of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>samples</attributeName>
+          <attributeLabel>Sampling location</attributeLabel>
+          <attributeDefinition>
+Code defining the sampling location consisting of one letter specifying the site (A = HJ Andrews, B = Barro Colorado, C = Coweeta, H = Harvard Forest, L = Luquillo, M = Mt. Bigelow, N = Niwot Ridge) and then a number that shows the location in meters of the subplot (1m, 10m, 50m, 100m and 200m from a central subplot where the "1m" plots shared an edge with the central subplot), and a letter defining direction (N = North, S = South, E = East, W = West). Example: C200N = Coweeta, 200 meters north of the exact center of the plot. Example: LC = Luquillo, exact enter of the plot. Example: M1S = Mt. Bigelow, 1 meter south of the exact center of the plot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Code defining the sampling location consisting of one letter specifying the site (A = HJ Andrews, B = Barro Colorado, C = Coweeta, H = Harvard Forest, L = Luquillo, M = Mt. Bigelow, N = Niwot Ridge) and then a number that shows the location in meters of the subplot (1m, 10m, 50m, 100m and 200m from a central subplot where the "1m" plots shared an edge with the central subplot), and a letter defining direction (N = North, S = South, E = East, W = West). Example: C200N = Coweeta, 200 meters north of the exact center of the plot. Example: LC = Luquillo, exact enter of the plot. Example: M1S = Mt. Bigelow, 1 meter south of the exact center of the plot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>abundance</attributeName>
+          <attributeLabel>Abundance</attributeLabel>
+          <attributeDefinition>
+The abundance of the identified gene at each location.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The abundance of the identified gene at each location.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>Macrosystems 16S 7 Plot (UPARSE) Aligned Sequence</entityName>
+      <entityDescription>
+This file contains the exact sequence of the four nucleotides for each Operational Taxonomic Unit (OTU) after alignment. A, C, G, and T represent the four nucleotide bases of a DNA strand — adenine, cytosine, guanine, thymine. Note: The original file extension is .fasta (it was changed to .txt in order to upload).
+</entityDescription>
+      <physical>
+        <objectName>MP7.16S.UPARSE.rep_seq_aligned.res_.txt</objectName>
+        <size>193811030</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>none</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111179/0/7c96e9174ca862f1f0967db401c429dc</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Macrosystems 16S 7 Plot (UPARSE) Sequence</entityName>
+      <entityDescription>
+This file contains the non-aligned sequence of the four nucleotides for each Operational Taxonomic Unit (OTU). A, C, G, and T represent the four nucleotide bases of a DNA strand — adenine, cytosine, guanine, thymine. Note: The original file extension is .fasta (it was changed to .txt in order to upload).
+</entityDescription>
+      <physical>
+        <objectName>MP7.16S.UPARSE.rep_seq.res_.txt</objectName>
+        <size>6694317</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>none</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111179/0/e0114475c40abf8496ce1d99730d2bf8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Macrosystems 16S 7 Plot (UPARSE) Phylogenetic Tree</entityName>
+      <entityDescription>
+Phylogenetic tree file generated by FastTree. Note: The original file extension for this file is .nwk (it was changed to .txt for upload purposes).
+</entityDescription>
+      <physical>
+        <objectName>MP7.16S.UPARSE.tree_.res_.txt</objectName>
+        <size>788064</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>none</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111179/0/1706b5a53af6a5cece784bcf00a19167</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-pie.13.10"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=PIE,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/1b17a05a1b603167c9c4d770a4fac686</alternateIdentifier>
+    <shortName>HTL-PIE-YearlyIsotopeSurvey</shortName>
+    <title>PIE LTER, stable isotope chemistry (carbon, nitrogen and sulfur) for food web analysis of functional groups in the Plum Island Sound Estuary, Massachusetts.</title>
+    <creator>
+      <individualName>
+        <givenName>Linda</givenName>
+        <surName>Deegan</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Woods Hole Research Center</deliveryPoint>
+        <city>Falmouth</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02540</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">508-444-1557</phone>
+      <electronicMailAddress>ldeegan@whrc.org</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0002-1017-9599</userId>
+    </creator>
+    <creator>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu/</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu/</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Charles</givenName>
+        <surName>Hopkinson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>University of Georgia, 289A Marine Sciences Building</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>GA</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(706) 542-1855</phone>
+      <electronicMailAddress>chopkins@uga.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0002-7331-8322</userId>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Lab, 7 MBL Street</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(508) 289-7485</phone>
+      <phone phonetype="facsimile">(508) 457-1548</phone>
+      <electronicMailAddress>hgarritt@mbl.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-5912-0769</userId>
+      <role>associated researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Biology, University of Louisiana at Lafayette, PO Box 43602</deliveryPoint>
+        <city>Lafayette</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70504</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(337) 482-6642</phone>
+      <electronicMailAddress>nelson@Louisiana.edu</electronicMailAddress>
+      <onlineUrl>https://jamesanelson.wordpress.com/contact/</onlineUrl>
+      <role>associated researcher</role>
+    </associatedParty>
+    <pubDate>2019</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Stable isotopes of primary producers will be compared to stable isotopes of functional groups of organisms at primarily three sites within the estuary that have different dominant sources of organic matter.
+The three sites are: Lower (IBYC, SO-3, mouth of Plum Island Sound, 2-3 km upstream of the mouth of the estuary), Middle (OTL, PR-10.1, upper Sound, lower Parker, 8-11 km upstream of the mouth of the estuary) and Upper (P2, PR-21.9, upper Parker, above Middle Rd Bridge (22 km upstream of the mouth of the estuary).  The Lower site is dominated by marine phytoplankton, the Middle site is dominated by a mixture of salt marsh and phytoplankton and the Upper site is dominated by oligohaline phytoplankton and fresh marsh.
+Ten functional groups will be sampled at each site (Surface sediment, benthic diatoms, Nereis, mummichog, ribbed mussels, POM, blue mussels, pelagic copepods (Acartia), silversides and soft shell clams (Mya).  Marsh, benthic algae and phytoplankton inputs or benthic vs. pelagic pathways will be evident in the isotopic signals of these functional groups.  Samples will be collected between the middle and end of August to reflect a growing season using recently produced OM.  Samples of 15 – 20 individuals will be pooled for analysis. Some silverside samplings will have 3 different pooled samples for determination of variance.  Often times the same species are not collected at each site due to habitat differences (salinity/discharge) so additional species are collected to try to accomplish task of getting functional groups collected.
+ </literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>Population Dynamics</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>population dynamics</keyword>
+      <keyword>estuaries</keyword>
+      <keyword>salt marshes</keyword>
+      <keyword>carbon</keyword>
+      <keyword>nitrogen</keyword>
+      <keyword>sulfur</keyword>
+      <keyword>stable isotopes</keyword>
+      <keyword>organic matter</keyword>
+      <keyword>trophic</keyword>
+      <keyword>Massachusetts</keyword>
+      <keyword>organic</keyword>
+      <keyword>algae</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>fishes</keyword>
+      <keyword>zooplankton</keyword>
+      <keyword>food webs</keyword>
+      <keyword>consumers</keyword>
+      <keyword>particulate</keyword>
+      <keyword>PIE LTER</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>PIE LTER Data Use Agreement</para>
+        <para>This work is licensed under the Creative Commons Attribution 4.0 International License, CC BY - Attribution. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</para>
+        <para>The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms:</para>
+        <para>
+          <itemizedlist>
+            <listitem>
+              <para>1) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier.</para>
+            </listitem>
+            <listitem>
+              <para>For example: Giblin, Anne; Hopkinson, Charles (2000): Rates of benthic metabolism and nutrient cycling in the Parker and Rowley Rivers of the Plum Island Sound estuary. Plum Island Ecosystems LTER, Long Term Ecological Research
+Network. http://dx.doi.org/10.6073/pasta/17fa8b4fef50c7b85cac3d61482a7cb6</para>
+            </listitem>
+            <listitem>
+              <para>2) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. The Data User should contact the Data Set Contact to ensure the appropriate Granting Programs are acknowledged.</para>
+            </listitem>
+            <listitem>
+              <para>For example: Data sets were provided by the Plum Island Ecosystems LTER. This material is based upon funding supported by the National Science Foundation under Grants #OCE-9726921, OCE-0423565, OCE-1058747, OCE-1238212, OCE-1637630.</para>
+            </listitem>
+            <listitem>
+              <para>3) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work.</para>
+            </listitem>
+            <listitem>
+              <para>4) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+            </listitem>
+            <listitem>
+              <para>5) Disclaimer. While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://pie-lter.ecosystems.mbl.edu/content/stable-isotope-carbon-nitrogen-and-sulfur-data-functional-groups-plum-island-sound-estuary</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Mud flat/river channel in upper Parker River, near Triton High School, Newbury, MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.914436340332</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.914436340332</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.748905181885</northBoundingCoordinate>
+          <southBoundingCoordinate>42.748905181885</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Mud flat/river channel on Parker River, below Mill River confluence and upstream of railroad bridge</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.870391845703</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.870391845703</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.755428314209</northBoundingCoordinate>
+          <southBoundingCoordinate>42.755428314209</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Sand flat/river channel on Parker River downstream of Old Town Landing, Newbury, MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.831039428711</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.831039428711</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.761257171631</northBoundingCoordinate>
+          <southBoundingCoordinate>42.761257171631</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Sand flat/Plum Island Sound near end Stackyard Rd, Rowley MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.821189880371</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.821189880371</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.746608734131</northBoundingCoordinate>
+          <southBoundingCoordinate>42.746608734131</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Intertidal sand flat in Plum Island Sound, across from Ipswich Bay Yacht Club, near Stage Island, Ipswich, MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.787498474121</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.787498474121</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.709751129150</northBoundingCoordinate>
+          <southBoundingCoordinate>42.709751129150</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-08-23</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-09-06</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>
+        <literalLayout> </literalLayout>
+      </para>
+    </purpose>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>Study conducted annually, mid August to early September
+Version 1, July 16, 2007, Data for 2005 and 2006 added, metadata updates using June 2007, Laundre Excel template and macro Version 2, Dec. 17, 2009, added 2007/2008 data Version 03: February 19, 2014, data and metadata updated to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Sep2013.xlsm 9/30/13 02:57 PM for QA/QC to EML 2.1.0
+Version 03: February 19, 2014, data and metadata updated to comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Sep2013.xlsm 9/30/13 02:57 PM for QA/QC to EML 2.1.0
+Version 04: January 19, 2016, data and metadata updates, comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Jan2015.xlsm 1/15/15 4:26 PM for QA/QC to EML 2.1.0
+Version 05: September 13, 2018, added in 2014 and 2015 34S data. Data and metadata updates comply with importation to Drupal and LTER PASTA. Used MarcrosExportEML_HTML (working)pie_excel2007_Jan2018.xlsm 6/21/18 3:53 PM for QA/QC to EML 2.1.0
+Version 06: March 13, 2019, data and metadata updates to comply with importation to DEIMS7 and LTER Data Portal. Used MarcrosExportEML_HTML (working)pie_excel2007_Jan2018.xlsm 6/21/18 3:53 PM for QA/QC to EML 2.1.0
+Version 07: March 15, 2019, updated publication to date edits were made, data and metadata updates to comply with importation to DEIMS7 and LTER Data Portal. Used MarcrosExportEML_HTML
+Version 08: March 15, 2019, edit Juncus 13C data, sample #s 391 and 524 to NA, data and metadata updates to comply with importation to DEIMS7 and LTER Data Portal. Used MarcrosExportEML_HTML (working)pie_excel2007_Jan2018.xlsm 6/21/18 3:53 PM for QA/QC to EML 2.1.0</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <onlineUrl>http://pie-lter.ecosystems.mbl.edu/</onlineUrl>
+    </publisher>
+    <pubPlace>Plum Island Ecosystems</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Functional Groups Collected
+Sediments
+Pool top 2cm from 5, 60 ml syringe cores, put in 4 oz Qorpack jar and dry @ 50o C
+Benthic diatoms
+Nitex migration, at low tide lay down 210u Nitex on sediment surface, wait 20 min for diatoms to migrate, rinse diatoms onto GFF at lab, dry @ 50o C
+Nereis
+Using shovels, dig up15-20, 2-5 cm lengths, place in jar with ambient water to purge guts for 24 hr, dry @ 50o C
+Mummichog
+Using seine, collect 15-20, 35-50 mm lengths, fillet and save flesh tissue (tail end), dry @ 50o C
+Ribbed mussel
+Pool 15-20, below S. alt. on main stem, abductor muscle, dry @ 50o C
+POM
+mid ebb, water column water filtered, clogged on GFF, dry @ 50o C
+Blue mussel
+Pool 15-20, on front edge of main stem, abductor muscle, dry @ 50o C
+Pelagic copepod
+mid ebb, Plankton net, 150 u, light migration, GFF, dry @ 50o C
+Silverside
+Seine, pool 15-20, flesh tissue (tail end) like mummichogs, dry @ 50o C
+Mya (softshell clam)
+Pool 15-20 from tidal flats, abductor muscle, dry @ 50o C
+Bivalves (all species)
+Pool 15-20, measure length, abductor muscle, rinse in DI H2O, dry @ 50o C
+Marsh plants (species will vary in estuary)
+Aboveground biomass, green tissue, cut into 5” pieces, soak in bucket of tap water 5 minutes, rinse with DI H2O, dry @ 50o C
+ 
+Other fish species
+From seine, flesh tissue, rinse in DI H2O, dry @ 50o C
+ 
+Stable Isotope Food Web Monitoring Sample Collection and Processing
+Sediments
+Collect 5 surface (2cm) cores using 60 ml syringe, place cores in a labeled (date, station, sample type) 4 oz Qorpack jar and in a cooler for transport back to the lab. Freeze if the sample cannot be dried soon.
+Dry sediments @ 50o C. After the sample is dried, use a dissecting microscope and check sediment for carbonates using a few drops of 10% HCl on a small subsample, if bubbling occurs then a larger subsample should be acidified and redried for isotope analysis.  If carbonates exist it is necessary to remove them, as they will interfere with the 13C analysis. Grind a subsample of the sediments (Wig-L-Bug) for stable isotope analysis and place in a clean scint vial.
+ 
+Benthic diatoms
+Collect benthic diatoms by laying down several (5-7) separate pieces of 210u Nitex on the sediment surface at low tide.  Pick a sediment surface that has a golden sheen and still looks fairly wet.  If the surface is wet enough the diatoms will migrate up through the Nitex and there will be a fairly pure sample on one side of the Nitex.  Use a 500 ml squirt bottle filled with ambient water from the site and gently squirt drops onto the Nitex to get it to lay on the sediment surface without air gaps.  After 20 minutes or so, peel the Nitex from the sediment surface and check for an adequate golden sheen on the Nitex, be careful not to contaminate the diatom side with the under side mud or sand.  Fold the Nitex (diatom side) carefully in on itself and place in a labeled (date, station, sample type) ziplock bag and put bag in a cooler for transport back to the lab.
+At the lab unfold the Nitex with the diatom side on the outside, fold it so that the middle of the Nitex forms a corner facing down and carefully using the ambient water squirt bottle, rinse the diatoms off onto an ashed 25 mm GFF filter that has been set up in a 25mm Gelman filter tower and flask (need replicate filters).  When the filter/liquid looks green suction it dry and place the filters into separate labeled (date, station, sample type) small petri dishes. Put petri dishes in a freezer if the samples cannot be dried soon. Dry the filters @ 50o C. After the sample is dried, use a dissecting microscope and check the filters for carbonates using a drop of 10% HCl on a portion of the filter, if bubbling occurs then the whole filter should be acidified and re-dried for isotope analysis. If carbonates exist it is necessary to remove them, as they will interfere with the 13C analysis.
+ 
+Nereis
+Collect Nereis worms by digging with a shovel in the tidal flat sediments; often the peat chunks have more worms. Collect 15 to 20 worms of 2-5 cm lengths and place in a jar with ambient water. Place the jar in a cooler for transport back to the lab.
+At the lab transfer the worms to another jar and put clean ambient water in the jar, let the worms sit overnight to purge their guts, then count and record the lengths of worms, towel blot and place worms in a labeled (date, station, sample type) glass scint vial and freeze.  Dry the worms @ 50o C and then grind the worms (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+ 
+Mummichog
+Using a seine collect 15 to 20 mummichogs, 35-50 mm lengths and place in a labeled (date, station, sample type) ziplock bag and place in cooler for transport back to the lab. At the lab, count and record the lengths of the mummichogs, fillet and save tissue in a labeled (date, station, sample type) glass scint vial and freeze.  Dry the mummichogs @ 50o C and then grind the mummichogs (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+ 
+Ribbed mussel
+Collect 15 to 20 ribbed mussels from below the Spartina alterniflora channel bank edge and place in a labeled (date, station, sample type) ziplock bag and place in cooler for transport back to the lab.
+At the lab, count and record the lengths of the mussels, cut out the abductor muscle and rinse/dip in DI water.  Save muscle tissue in a labeled (date, station, sample type) glass scint vial and freeze.  Be careful not to get shell fragments mixed in with the abductor muscle.  Dry the tissue @ 50o C and then grind the tissue (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+ 
+Particulate Organic Matter (POM)
+Collect between 1 liter and 4 liters (depends on station) of mid ebb channel water into labeled (date, station, sample type) bottles recording date and time of day, place in cooler for transport back to the lab.
+At the lab, shake the bottles thoroughly and filter water onto ashed, 25 mm GFF filters until clogged, rinse with DI H2O (need replicates) and place filters into separate labeled (date, station, sample type) small petri dishes. Put petri dishes in a freezer if the samples cannot be dried soon. Dry the tissue @ 50o C.
+ 
+Plankton Tow 20u (POM, 20u for 34S)
+Use 20u plankton net and either pour buckets or tow net (tow slowly or net will tear) to get noticeable amount of material for 34S analysis. POM GFF filters do not have enough mass for 34S analysis. Transfer out of cod end into labeled jar. In lab, concentrate on 20u Nitex, 3 rinses with DI H2O (3x the volume of sample) and transfer to labeled scint vial and freeze. Dry @ 50o C, check particle size before submitting for analysis.
+ 
+Blue mussel
+Collect 15 to 20 blue mussels from the front edge of the channel and place in a labeled (date, station, sample type) ziplock bag and place in cooler for transport back to the lab.
+At the lab, count and record the lengths of the mussels, cut out the abductor muscle and rinse/dip in DI water.  Save muscle tissue in a labeled (date, station, sample type) glass scint vial and freeze.  Be careful not to get shell fragments mixed in with the abductor muscle.  Dry the tissue @ 50o C and then grind the tissue (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+ 
+Zooplankton (pelagic copepods)
+Collect zooplankton from mid channel at mid ebb tide using 150u plankton net.  Pour cod end sample into a labeled (date, station, sample type) wide mouth jar, recording date and time of day, place in cooler for transport back the lab.  Don’t let jar overheat, the zooplankton must be kept alive.
+At the lab, we will conduct a zooplankton light migration technique procedure to purify the sample.  Place the jar on a counter and let it settle.  When you see a lot of zooplankton in the water column, pour off the water and zooplankton into two glass 250 ml graduated cylinders that have been wrapped with tin foil within 3” of the top.  The water height should be about 2 cm above the height of tin foil.  Aim a dissecting scope light or flash light at the water surface and let the zooplankton migrate to the light.  Set up a vacuum flask for 25 mm filter rig.  When there is a dense mass of clean zooplankton at the surface, while avoiding detritus, pipette the zooplankton onto ashed, 25 mm GFF filters (need replicates), squirt filter surface occasionally to migrate zooplankton to the middle of the filter and place filters into separate labeled (date, station, sample type) small petri dishes. Put the petri dishes in a freezer if the samples cannot be dried soon. Dry the filters @ 50o C.
+ 
+Silversides
+Using a seine collect 45 to 60 silversides, 30 – 70 mm lengths and place in a labeled (date, station, sample type) ziplock bag and place in cooler for transport back to the lab.  At the lab separate the silversides into 3 subsamples, then count and record the lengths of the silversides for each subsample, then fillet and save the tissue in three separately labeled (date, station, sample type) glass scint vials and freeze.  Dry the silversides @ 50o C and then grind them (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+ 
+Mya (softshell clam)
+Collect 15 to 20 soft shell clams by digging in the tidal flats and place in a labeled (date, station, sample type) ziplock bag and place in cooler for transport back to the lab.  At the lab, count and record the lengths of the clams, cut out the abductor muscle, and rinse/dip in DI water.  Save muscle tissue in a labeled (date, station, sample type) glass scint vial and freeze.  Be careful not to get shell fragments mixed in with the abductor muscle.  Dry the tissue @ 50o C and then grind the tissue (Wig-L-Bug) for stable isotope analysis and place back in the labeled (date, station, sample type) scint vial.
+Marsh plants
+Above ground biomass, want fresh green leaves. Use anvil clippers to clip stalks/stems, place biomass in plastic bag. Sort plants, separating out green leaves and different species that may be mixed in (S. patens vs Distichlis). Rinse/soak leaves in bucket of tap water to remove sea salt SO4, then rinse with DI H2O. Air dry leaves on bench then place into labeled paper bag with Date, Station, Species and analyses needed. Place paper bag in large drying oven @ 50o C for a few days. Grind plant tissue for stable isotope analysis (Wiley Mill or Wig-L bug check with Marshall Otter for particle size).
+ 
+Other Organisms
+Collect other organisms/species as deemed necessary and follow the above methodology/logic of saving meat/tissue without shell and rinsing adequately with DI H2O to remove seawater sulfate. Care should also be taken to NOT include guts with the tissue samples.
+ 
+ 
+Field Gear and Field lab supplies
+Jon boat, 25 HP Honda
+150 u plankton net with cod end
+Cooler with ice
+Dry cooler
+Field notebook
+Pencils
+Sharpies (fine and large)
+Label tape
+3 buckets
+thermometer
+Box of 1 gallon ziplock bags
+Box of 4 oz Qorpack jars, minimum of 6 jars
+2, 60 ml syringe cores
+5, 6” x 6” squares of 210u Nitex
+500 ml squirt bottle with fine nozzle
+shovel
+small seine
+4, one liter bottles for POM
+4, one liter wide mouth Nalgene bottles for zooplankton tows
+box of ashed 25 mm GFF filters
+filter forceps
+small petri dishes for 25 mm filters
+hand vacuum pump/flask and Gelman tower set up for 25 mm filters
+dissecting kit with scalpels and tweezers
+flat of glass scint vials with caps
+tin foil
+2, 250 ml glass graduated cylinders
+2, dissecting scope lights or flash lights (with batteries)</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long Term Ecological Research (PIE LTER IV, 2016-2022)</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Biological Lab, 7 MBL Street</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(508) 289-7488</phone>
+        <phone phonetype="facsimile">(508) 457-1548</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0003-3851-2178</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Wilfred</givenName>
+          <surName>Wollheim</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>WSAG Institute for the Study of Earth, Oceans, and Space,Morse Hall, Room 452, 8 College Road</deliveryPoint>
+          <city>Durham</city>
+          <administrativeArea>NH</administrativeArea>
+          <postalCode>03824</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(603) 862-0812</phone>
+        <electronicMailAddress>Wil.Wollheim@unh.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-5009-3212</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jim</givenName>
+          <surName>Morris</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Bell Baruch Institute for Marine and Coastal Sciences, University of South Carolina</deliveryPoint>
+          <city>Columbia</city>
+          <administrativeArea>SC</administrativeArea>
+          <postalCode>29208</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(803) 777-5288</phone>
+        <phone phonetype="facsimile">(803) 777-4002</phone>
+        <electronicMailAddress>morris@inlet.geol.sc.edu</electronicMailAddress>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Nathaniel</givenName>
+          <surName>Weston</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Geography and the Environment ,Villanova University, 800 Lancaster Avenue</deliveryPoint>
+          <city>Villanova</city>
+          <administrativeArea>PA</administrativeArea>
+          <postalCode>19085</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(610) 519-8009</phone>
+        <electronicMailAddress>nathaniel.weston@villanova.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-6837-360X</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Linda</givenName>
+          <surName>Deegan</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Woods Hole Research Center</deliveryPoint>
+          <city>Falmouth</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02540</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">508-444-1557</phone>
+        <electronicMailAddress>ldeegan@whrc.org</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-1017-9599</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joe</givenName>
+          <surName>Vallino</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Marine Biological Laboratory, 7 MBL Street</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(508) 289-7648</phone>
+        <phone phonetype="facsimile">(508) 457-1548</phone>
+        <electronicMailAddress>jvallino@mbl.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-4184-4512</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Pontius</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Clark University, School of Geography, 950 Main Street</deliveryPoint>
+          <city>Worcester</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>01610</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(508) 793-7761</phone>
+        <phone phonetype="facsimile">(508) 793-8881</phone>
+        <electronicMailAddress>rpontius@clarku.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-7287-5875</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jarrett</givenName>
+          <surName>Byrnes</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>University of Massachusetts, College of Science and Mathematics,100 Morrissey Blvd</deliveryPoint>
+          <city>Boston</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02125</postalCode>
+          <country>US</country>
+        </address>
+        <phone phonetype="voice">(617) 287-3145</phone>
+        <electronicMailAddress>Jarrett.Byrnes@umb.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-9791-9472</userId>
+        <role>principalInvestigator</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>The Plum Island Ecosystems (PIE) LTER is developing a predictive understanding of the response of a linked watershed-marsh-estuarine system in northeastern Massachusetts to rapid environmental change. Over the last 30 years, surface sea water temperatures in the adjacent Gulf of Maine have risen at 3 times the global average, rates of sea-level rise have accelerated, and precipitation has increased. Coupled with these changes in climate and sea level are substantial changes within the rapidly urbanizing watersheds that influence water, sediment, and nutrient delivery to the marsh and estuary. In PIE IV our focus is on: Dynamics of coastal ecosystems in a region of rapid climate change, sea-level rise, and human impacts.</literalLayout>
+        </para>
+        <para>
+          <literalLayout>NSF OCE LTER-Plum Island Ecosystems:
+Dynamics of coastal ecosystems in a region of rapid climate change, sea-level rise, and human impacts.</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>1637630</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>HTL-PIE-YearlyIsotopeSurvey_csv</entityName>
+      <entityDescription>Stable isotope (carbon, nitrogen and sulfur) data for functional groups in the Plum Island Sound Estuary.</entityDescription>
+      <physical>
+        <objectName>HTL-PIE-YearlyIsotopeSurvey.csv</objectName>
+        <size>116951</size>
+        <authentication method="MD5">5470b843b31ef2e251622e68824e7362</authentication>
+        <authentication method="SHA-1">3b20609e229f477f5aa517d12be4948c039e0587</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-pie/13/10/d12d65b894bcdec6fcfa0c7427399aa0</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SampleNum</attributeName>
+          <attributeLabel>SampleNum</attributeLabel>
+          <attributeDefinition>Sample number identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample number identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>date of sampling (YYYY-MM-DD)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of sampling site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Kilometer</attributeName>
+          <attributeLabel>Kilometer</attributeLabel>
+          <attributeDefinition>Two letter location-kilometer name relative to the mouth of the estuary, mouth is 0 kilometers</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Two letter location-kilometer name relative to the mouth of the estuary, mouth is 0 kilometers</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common_name</attributeName>
+          <attributeLabel>Common_name</attributeLabel>
+          <attributeDefinition>Common name of organisms sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Common name of organisms sampled</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species identified to the lowest taxonomic level</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ANR</code>
+                    <definition>Anguilla rostrata American eel|PUP= Pungitius pungitius Ninespine stickleback|FUH= Fundulus heteroclitus Common mummuchog|GRC=Carcinus maenas Green crab|MEM=Menidia menidia Atlantic silverside|PAP=Palaemonetes pugio Grass shrimp|SYF=Syngnathus fuscus Commom pipefish|APQ= Apeltes quadracus Four-spined stickleback|CRS=Crangon septemspinosa Sand shrimp|CLU=Clupeid Herring menhaden etc|XAN=Xanthidae Walking crab spp</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>13C</attributeName>
+          <attributeLabel>13C</attributeLabel>
+          <attributeDefinition>delta 13C, isotope ratio 13C/12C</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>15N</attributeName>
+          <attributeLabel>15N</attributeLabel>
+          <attributeDefinition>delta 15N, isotope ratio 15N/14N</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>34S</attributeName>
+          <attributeLabel>34S</attributeLabel>
+          <attributeDefinition>d34S of sample (per mil), isotope ratio 34S/32S</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Salinity</attributeName>
+          <attributeLabel>Salinity</attributeLabel>
+          <attributeDefinition>Salinity of sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Temp</attributeName>
+          <attributeLabel>Temp</attributeLabel>
+          <attributeDefinition>Temperature of water</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SortNum</attributeName>
+          <attributeLabel>SortNum</attributeLabel>
+          <attributeDefinition>Sorting number, used to return data to original sequence format</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Comments about sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments about sample collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>670</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>HTL-PIE-YearlyIsotopeSurvey_xls</entityName>
+      <entityDescription>Excel metadata and data file associated with the csv data source file. Excel file after downloading is to be used for adding/editing new metadata and data.</entityDescription>
+      <physical>
+        <objectName>HTL-PIE-YearlyIsotopeSurvey.xls</objectName>
+        <size>294400</size>
+        <authentication method="MD5">23605156b94c601974a122a80074e311</authentication>
+        <authentication method="SHA-1">50c863ab0ada6c490290b5fe2bd7dfa62420e21e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.ms-excel</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-pie/13/10/1f9f16d81bee0f1a51fdf16e7e46c2bf</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>document</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="partPerThousand">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

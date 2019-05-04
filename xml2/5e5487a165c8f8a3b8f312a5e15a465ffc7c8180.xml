@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.138.2" system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=EDI,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/656a02e249383dd4d2045260109637a9</alternateIdentifier>
+    <title>Standardized directory for US LTER sites. Data for climate, ecosystem, history, and
+      research focus. 2016</title>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Nelson</surName>
+      </individualName>
+      <organizationName>AND LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gaius</givenName>
+        <surName>Shaver</surName>
+      </individualName>
+      <organizationName>ARC LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Steward</givenName>
+        <surName>Pickett</surName>
+      </individualName>
+      <organizationName>BES LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <organizationName>BNZ LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nancy</givenName>
+        <surName>Grimm</surName>
+      </individualName>
+      <organizationName>CAP LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Tilman</surName>
+      </individualName>
+      <organizationName>CDR LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ted</givenName>
+        <surName>Gragson</surName>
+      </individualName>
+      <organizationName>CWT LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Evelyn</givenName>
+        <surName>Gaiser</surName>
+      </individualName>
+      <organizationName>FCE LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Merryl</givenName>
+        <surName>Alber</surName>
+      </individualName>
+      <organizationName>GCE LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Charles</givenName>
+        <surName>Driscoll</surName>
+      </individualName>
+      <organizationName>HBR LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Foster</surName>
+      </individualName>
+      <organizationName>HFR LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Debra</givenName>
+        <surName>Peters</surName>
+      </individualName>
+      <organizationName>JRN LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Phil</givenName>
+        <surName>Robertson</surName>
+      </individualName>
+      <organizationName>KBS LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Blair</surName>
+      </individualName>
+      <organizationName>KNZ LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jess</givenName>
+        <surName>Zimmerman</surName>
+      </individualName>
+      <organizationName>LUQ LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Gooseff</surName>
+      </individualName>
+      <organizationName>MCM LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Waide</surName>
+      </individualName>
+      <organizationName>LNO LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Emily</givenName>
+        <surName>Stanley</surName>
+      </individualName>
+      <organizationName>NTL LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Katharine</givenName>
+        <surName>Suding</surName>
+      </individualName>
+      <organizationName>NWT LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Hugh</givenName>
+        <surName>Ducklow</surName>
+      </individualName>
+      <organizationName>PAL LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Anne</givenName>
+        <surName>Giblin</surName>
+      </individualName>
+      <organizationName>PIE LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <organizationName>SBC LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>William</givenName>
+        <surName>Pockman</surName>
+      </individualName>
+      <organizationName>SEV LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Moore</surName>
+      </individualName>
+      <organizationName>SGS LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Karen</givenName>
+        <surName>McGlathery</surName>
+      </individualName>
+      <organizationName>VCR LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Ohman</surName>
+      </individualName>
+      <organizationName>CCE LTER</organizationName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Russell</givenName>
+        <surName>Schmitt</surName>
+      </individualName>
+      <organizationName>MCR LTER</organizationName>
+    </creator>
+    <pubDate>2018-01-12</pubDate>
+    <abstract>
+      <para> This dataset includes exports from what was known as LTER siteDB and from the ILTER
+        database. Both efforts are network databases that are intended to provide a common
+        cross-site view and simple access to LTER site descriptions, history, research themes, and
+        parameters specific to the respective research locations. These exports contain somewhat
+        duplicated information and have a varying degree of completeness. Both provide a snapshot in
+        time of site profiles containing key information on research, history, institutional
+        affiliations, and location for each LTER site, plus average biotic and abiotic site
+        characteristics, and ecosystem classifications. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>site characteristics</keyword>
+      <keyword>abiotic</keyword>
+      <keyword>biotic</keyword>
+      <keyword>ecosystem</keyword>
+      <keyword>climate</keyword>
+      <keyword>primary productivity</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released under the Creative Commons license - Attribution - CC BY
+        (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User"
+        herein) is required to cite it appropriately in any publication that results from its use.
+        The Data User should realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplicate publication. The Data
+        User is urged to contact the authors of these data if any questions about methodology or
+        results occur. Where appropriate, the Data User is encouraged to consider collaboration or
+        co-authorship with the authors. The Data User should realize that misinterpretation of data
+        may occur if used out of context of the original study. While substantial efforts are made
+        to ensure the accuracy of data and associated documentation, complete accuracy of data sets
+        cannot be guaranteed. All data are made available "as is." The Data User should be aware,
+        however, that data are updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data. The data authors and the repository where these data
+        were obtained shall not be liable for damages resulting from any use or misinterpretation of
+        the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>US LTER sites in 2016</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.82612</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.783</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.62826</northBoundingCoordinate>
+          <southBoundingCoordinate>-77</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Suzanne</givenName>
+        <surName>Remillard</surName>
+      </individualName>
+      <organizationName>AND LTER</organizationName>
+      <electronicMailAddress>hjafacilities@fsl.orst.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <organizationName>ARC LTER</organizationName>
+      <electronicMailAddress>mseifert@mbl.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <surName>Walsh</surName>
+      </individualName>
+      <organizationName>BES LTER</organizationName>
+      <electronicMailAddress>BeyarH@caryinstitute.org</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Downing</surName>
+      </individualName>
+      <organizationName>BNZ LTER</organizationName>
+      <electronicMailAddress>jhollingsworth@alaska.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Stevan</givenName>
+        <surName>Earl</surName>
+      </individualName>
+      <organizationName>CAP LTER</organizationName>
+      <electronicMailAddress>caplter.outreach@asu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Bahauddin</surName>
+      </individualName>
+      <organizationName>CDR LTER</organizationName>
+      <electronicMailAddress>retilman@umn.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Brian</givenName>
+        <surName>Herndon</surName>
+      </individualName>
+      <organizationName>CWT LTER</organizationName>
+      <electronicMailAddress>tgragson@uga.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Kristin</givenName>
+        <surName>Vanderbilt</surName>
+      </individualName>
+      <organizationName>FCE LTER</organizationName>
+      <electronicMailAddress>fcelter@fiu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Wade</givenName>
+        <surName>Sheldon</surName>
+      </individualName>
+      <organizationName>GCE LTER</organizationName>
+      <electronicMailAddress>gcelter@uga.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Mary</givenName>
+        <surName>Martin</surName>
+      </individualName>
+      <organizationName>HBR LTER</organizationName>
+      <electronicMailAddress>ihalm@fs.fed.us</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Emery</givenName>
+        <surName>Boose</surName>
+      </individualName>
+      <organizationName>HFR LTER</organizationName>
+      <electronicMailAddress>drfoster@fas.harvard.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ken</givenName>
+        <surName>Ramsey</surName>
+      </individualName>
+      <organizationName>JRN LTER</organizationName>
+      <electronicMailAddress>debpeter@nmsu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Sven</givenName>
+        <surName>Bohm</surName>
+      </individualName>
+      <organizationName>KBS LTER</organizationName>
+      <electronicMailAddress>lter.data.manager@kbs.msu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Yang</givenName>
+        <surName>Xia</surName>
+      </individualName>
+      <organizationName>KNZ LTER</organizationName>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Eda</givenName>
+        <surName>Melendez-Colom</surName>
+      </individualName>
+      <organizationName>LUQ LTER</organizationName>
+      <electronicMailAddress>jesskz@ites.upr.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Inigo</givenName>
+        <surName>San Gil</surName>
+      </individualName>
+      <organizationName>MCM LTER</organizationName>
+      <electronicMailAddress>mcmlter@lternet.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Brunt</surName>
+      </individualName>
+      <organizationName>LNO LTER</organizationName>
+      <electronicMailAddress>office_support@lternet.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Corinna</givenName>
+        <surName>Gries</surName>
+      </individualName>
+      <organizationName>NTL LTER</organizationName>
+      <electronicMailAddress>oferell@wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Hope</givenName>
+        <surName>Humphries</surName>
+      </individualName>
+      <organizationName>NWT LTER</organizationName>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Conners</surName>
+      </individualName>
+      <organizationName>PAL LTER</organizationName>
+      <electronicMailAddress>hducklow@mbl.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Hap</givenName>
+        <surName>Garritt</surName>
+      </individualName>
+      <organizationName>PIE LTER</organizationName>
+      <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Margaret</givenName>
+        <surName>O'Brien</surName>
+      </individualName>
+      <organizationName>SBC LTER</organizationName>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Kristin</givenName>
+        <surName>Vanderbilt</surName>
+      </individualName>
+      <organizationName>SEV LTER</organizationName>
+      <electronicMailAddress>webmaster@sevilleta.unm.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Porter</surName>
+      </individualName>
+      <organizationName>VCR LTER</organizationName>
+      <electronicMailAddress>JPorter@lternet.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Conners</surName>
+      </individualName>
+      <organizationName>CCE LTER</organizationName>
+      <electronicMailAddress>mohman@ucsd.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Mary</givenName>
+        <surName>Gastil-Buhl</surName>
+      </individualName>
+      <organizationName>MCR LTER</organizationName>
+      <electronicMailAddress>brooks@msi.ucsb.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> This 2nd version of these data include updates for KNZ. Otherwise change dates are
+            recorded in the data tables. </para>
+          <para> Development and goals of the LTER Site Description Directory is discussed in: Karen
+            S. Baker, Barbara J. Benson, Don L. Henshaw, Darrell Blodgett, John H. Porter, Susan G.
+            Stafford; Evolution of a Multisite Network Information System: The LTER Information
+            Management Paradigm, BioScience, Volume 50, Issue 11, 1 November 2000, Pages 963–978,
+            https://doi.org/10.1641/0006-3568(2000)050[0963:EOAMNI]2.0.CO;2 The ILTER database
+            export was obtained from https://data.lter-europe.net/deims/site. </para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>AND</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-122.256</westBoundingCoordinate>
+                <eastBoundingCoordinate>-122.256</eastBoundingCoordinate>
+                <northBoundingCoordinate>44.212</northBoundingCoordinate>
+                <southBoundingCoordinate>44.212</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>ARC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-149.59598</westBoundingCoordinate>
+                <eastBoundingCoordinate>-149.59598</eastBoundingCoordinate>
+                <northBoundingCoordinate>68.62826</northBoundingCoordinate>
+                <southBoundingCoordinate>68.62826</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BES</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-76.3</westBoundingCoordinate>
+                <eastBoundingCoordinate>-76.3</eastBoundingCoordinate>
+                <northBoundingCoordinate>39.1</northBoundingCoordinate>
+                <southBoundingCoordinate>39.1</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>BNZ</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-147.84668</westBoundingCoordinate>
+                <eastBoundingCoordinate>-147.84668</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.85848</northBoundingCoordinate>
+                <southBoundingCoordinate>64.85848</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CAP</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-111.933</westBoundingCoordinate>
+                <eastBoundingCoordinate>-111.933</eastBoundingCoordinate>
+                <northBoundingCoordinate>33.427</northBoundingCoordinate>
+                <southBoundingCoordinate>33.427</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CDR</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-93.201</westBoundingCoordinate>
+                <eastBoundingCoordinate>-93.201</eastBoundingCoordinate>
+                <northBoundingCoordinate>45.401</northBoundingCoordinate>
+                <southBoundingCoordinate>45.401</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CWT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.5</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.5</eastBoundingCoordinate>
+                <northBoundingCoordinate>35</northBoundingCoordinate>
+                <southBoundingCoordinate>35</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FCE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-80.85328</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.85328</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.46821</northBoundingCoordinate>
+                <southBoundingCoordinate>25.46821</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>GCE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.371</westBoundingCoordinate>
+                <eastBoundingCoordinate>-81.371</eastBoundingCoordinate>
+                <northBoundingCoordinate>31.427</northBoundingCoordinate>
+                <southBoundingCoordinate>31.427</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HBR</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-71.751</westBoundingCoordinate>
+                <eastBoundingCoordinate>-71.751</eastBoundingCoordinate>
+                <northBoundingCoordinate>43.94</northBoundingCoordinate>
+                <southBoundingCoordinate>43.94</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>HFR</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-72.19</westBoundingCoordinate>
+                <eastBoundingCoordinate>-72.19</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.53</northBoundingCoordinate>
+                <southBoundingCoordinate>42.53</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>JRN</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-106.73985</westBoundingCoordinate>
+                <eastBoundingCoordinate>-106.73985</eastBoundingCoordinate>
+                <northBoundingCoordinate>32.61785</northBoundingCoordinate>
+                <southBoundingCoordinate>32.61785</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>KBS</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-85.4</westBoundingCoordinate>
+                <eastBoundingCoordinate>-85.4</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.4</northBoundingCoordinate>
+                <southBoundingCoordinate>42.4</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>KNZ</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-96.575</westBoundingCoordinate>
+                <eastBoundingCoordinate>-96.575</eastBoundingCoordinate>
+                <northBoundingCoordinate>39.093</northBoundingCoordinate>
+                <southBoundingCoordinate>39.093</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LUQ</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-65.8</westBoundingCoordinate>
+                <eastBoundingCoordinate>-65.8</eastBoundingCoordinate>
+                <northBoundingCoordinate>18.3</northBoundingCoordinate>
+                <southBoundingCoordinate>18.3</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MCM</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>163.783</westBoundingCoordinate>
+                <eastBoundingCoordinate>163.783</eastBoundingCoordinate>
+                <northBoundingCoordinate>-77</northBoundingCoordinate>
+                <southBoundingCoordinate>-77</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>LNO</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-106.62</westBoundingCoordinate>
+                <eastBoundingCoordinate>-106.62</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.084</northBoundingCoordinate>
+                <southBoundingCoordinate>35.084</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NTL</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-89.672</westBoundingCoordinate>
+                <eastBoundingCoordinate>-89.672</eastBoundingCoordinate>
+                <northBoundingCoordinate>46.0124</northBoundingCoordinate>
+                <southBoundingCoordinate>46.0124</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>NWT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-105.375</westBoundingCoordinate>
+                <eastBoundingCoordinate>-105.375</eastBoundingCoordinate>
+                <northBoundingCoordinate>39.993</northBoundingCoordinate>
+                <southBoundingCoordinate>39.993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PAL</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-64.0545</westBoundingCoordinate>
+                <eastBoundingCoordinate>-64.0545</eastBoundingCoordinate>
+                <northBoundingCoordinate>-64.77417</northBoundingCoordinate>
+                <southBoundingCoordinate>-64.77417</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>PIE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-70.891</westBoundingCoordinate>
+                <eastBoundingCoordinate>-70.891</eastBoundingCoordinate>
+                <northBoundingCoordinate>42.759</northBoundingCoordinate>
+                <southBoundingCoordinate>42.759</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SBC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-119.8422</westBoundingCoordinate>
+                <eastBoundingCoordinate>-119.8422</eastBoundingCoordinate>
+                <northBoundingCoordinate>34.4125</northBoundingCoordinate>
+                <southBoundingCoordinate>34.4125</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SEV</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-106.882</westBoundingCoordinate>
+                <eastBoundingCoordinate>-106.882</eastBoundingCoordinate>
+                <northBoundingCoordinate>34.353</northBoundingCoordinate>
+                <southBoundingCoordinate>34.353</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SGS</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-104.724</westBoundingCoordinate>
+                <eastBoundingCoordinate>-104.724</eastBoundingCoordinate>
+                <northBoundingCoordinate>40.827</northBoundingCoordinate>
+                <southBoundingCoordinate>40.827</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>VCR</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-75.913</westBoundingCoordinate>
+                <eastBoundingCoordinate>-75.913</eastBoundingCoordinate>
+                <northBoundingCoordinate>37.283</northBoundingCoordinate>
+                <southBoundingCoordinate>37.283</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CCE</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-120.2798</westBoundingCoordinate>
+                <eastBoundingCoordinate>-120.2798</eastBoundingCoordinate>
+                <northBoundingCoordinate>32.8736</northBoundingCoordinate>
+                <southBoundingCoordinate>32.8736</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>MCR</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-149.82612</westBoundingCoordinate>
+                <eastBoundingCoordinate>-149.82612</eastBoundingCoordinate>
+                <northBoundingCoordinate>-17.49085</northBoundingCoordinate>
+                <southBoundingCoordinate>-17.49085</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>Geographic coordinates of sampling sites</samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>climate_parameter.csv</entityName>
+      <entityDescription>Climate parameters for US LTER sites</entityDescription>
+      <physical>
+        <objectName>climate_parameter.csv</objectName>
+        <size unit="byte">31862</size>
+        <authentication method="MD5">c5f851902fd281db881246dd2f690a5c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/6e758bec855bee71685c7d2a36db1081</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id_text</attributeName>
+          <attributeDefinition>three letter LTER site acronym</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>three letter LTER site acronym</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>theme</attributeName>
+          <attributeDefinition>ecological research theme</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ecological research theme</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_mean</attributeName>
+          <attributeDefinition>mean annual temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-19</minimum>
+                  <maximum exclusive="false">32</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_low</attributeName>
+          <attributeDefinition>annual minimum temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-65.7</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_high</attributeName>
+          <attributeDefinition>annual maximum temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.4</minimum>
+                  <maximum exclusive="false">40.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_mean</attributeName>
+          <attributeDefinition>annual mean precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">100</minimum>
+                  <maximum exclusive="false">3460</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>aet</attributeName>
+          <attributeDefinition>Actual Evapotranspiration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">252</minimum>
+                  <maximum exclusive="false">1234</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pet</attributeName>
+          <attributeDefinition>potential evapotranspiration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">423</minimum>
+                  <maximum exclusive="false">1666</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>mod_date</attributeName>
+          <attributeDefinition>date data were last modified</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_min</attributeName>
+          <attributeDefinition>annual minimum precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">106</minimum>
+                  <maximum exclusive="false">1500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_max</attributeName>
+          <attributeDefinition>annual maximum precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">325</minimum>
+                  <maximum exclusive="false">13662</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>di</attributeName>
+          <attributeDefinition>Desertification Index</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-848</minimum>
+                  <maximum exclusive="false">837</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_mean_comment</attributeName>
+          <attributeDefinition>data source for temperature data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for temperature data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_mean_comment</attributeName>
+          <attributeDefinition>data source for precipitation data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for precipitation data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>aet_comment</attributeName>
+          <attributeDefinition>data source for actual evapotranspiration</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for actual evapotranspiration</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pet_comment</attributeName>
+          <attributeDefinition>data source for potential evapotranspiration</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for potential evapotranspiration</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>di_comment</attributeName>
+          <attributeDefinition>data source for desertification index</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for desertification index</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>anpp</attributeName>
+          <attributeDefinition>Annual Net Primary Productivity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.9</minimum>
+                  <maximum exclusive="false">3181</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>anpp_comment</attributeName>
+          <attributeDefinition>data source for Annual Net Primary Productivity</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for Annual Net Primary Productivity</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ecosystem</attributeName>
+          <attributeDefinition>ecosystem the LTER site is located in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ecosystem the LTER site is located in</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ecosystem_comment</attributeName>
+          <attributeDefinition>data source for ecosystem classification</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for ecosystem classification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_min_comment</attributeName>
+          <attributeDefinition>data source min precipitation data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source min precipitation data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>precip_max_comment</attributeName>
+          <attributeDefinition>data source max precipitation data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source max precipitation data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_low_comment</attributeName>
+          <attributeDefinition>data source min temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source min temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_high_comment</attributeName>
+          <attributeDefinition>data source max temperature</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source max temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>grow</attributeName>
+          <attributeDefinition>Growing Season in days</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">55</minimum>
+                  <maximum exclusive="false">365</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>grow_comment</attributeName>
+          <attributeDefinition>data source for Growing Season</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for Growing Season</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>26</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>export_us_lter_complete_export.csv</entityName>
+      <entityDescription>Export from ILTER database of site characteristics for US LTER sites</entityDescription>
+      <physical>
+        <objectName>export_us_lter_complete_export.csv</objectName>
+        <size unit="byte">34983</size>
+        <authentication method="MD5">0672ebed5802389408463db5cc906fbc</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/f3f5fa24a9d09201e1ef9a72e9d9b5c9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Site_Code</attributeName>
+          <attributeDefinition>three letter LTER site acronym</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>three letter LTER site acronym</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Name</attributeName>
+          <attributeDefinition>full name for LTER site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>full name for LTER site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Country</attributeName>
+          <attributeDefinition>country the site  is located</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>country the site  is located</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>General_Site_Description</attributeName>
+          <attributeDefinition>general site description</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>general site description</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UUID</attributeName>
+          <attributeDefinition>Unique ID for the site given by the ILTER system</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique ID for the site given by the ILTER system</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Status</attributeName>
+          <attributeDefinition>site status - existing or discontinued</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site status - existing or discontinued</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year_Established</attributeName>
+          <attributeDefinition>year the site was established</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1876</minimum>
+                  <maximum exclusive="false">2005</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Size</attributeName>
+          <attributeDefinition>size of the entire site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1500</minimum>
+                  <maximum exclusive="false">27500000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation_Range_FROM</attributeName>
+          <attributeDefinition>lowest elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5000</minimum>
+                  <maximum exclusive="false">5241</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation_Range_TO</attributeName>
+          <attributeDefinition>highest elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5546</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation_Average</attributeName>
+          <attributeDefinition>average elevation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5394</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature_Range_Monthly_Minimum_FROM</attributeName>
+          <attributeDefinition>Temperature Range (Monthly Minimum)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-65.7</minimum>
+                  <maximum exclusive="false">18.15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature_Average_Annual</attributeName>
+          <attributeDefinition>Temperature: Average Annual</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-19</minimum>
+                  <maximum exclusive="false">28.96</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature_Range_Monthly_Maximum_TO</attributeName>
+          <attributeDefinition>Temperature Range (Monthly Maximum)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">11.8</minimum>
+                  <maximum exclusive="false">40.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Precipitation_Maximum_Monthly</attributeName>
+          <attributeDefinition>maximum monthly precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">42.4</minimum>
+                  <maximum exclusive="false">2628</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Precipitation_Minimum_Monthly</attributeName>
+          <attributeDefinition>minimum monthly precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1211</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Precipitation_Annual</attributeName>
+          <attributeDefinition>annual average precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">100</minimum>
+                  <maximum exclusive="false">3460</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ILTER_Biome</attributeName>
+          <attributeDefinition>biome the site is located in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>biome the site is located in</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GEO_BON_Biome</attributeName>
+          <attributeDefinition>GEO-BON biome</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>GEO-BON biome</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Biogeographic_Region</attributeName>
+          <attributeDefinition>biogeographic region</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>biogeographic region</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Geology</attributeName>
+          <attributeDefinition>geology of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>geology of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hydrology</attributeName>
+          <attributeDefinition>hydrology of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>hydrology of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Vegetation</attributeName>
+          <attributeDefinition>vegetation of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>vegetation of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Soils</attributeName>
+          <attributeDefinition>soils of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>soils of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Networks_In_addition_to_or_Other_than_ILTER</attributeName>
+          <attributeDefinition>networks in addition to or other than ilter</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>networks in addition to or other than ilter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Classification_or_Category</attributeName>
+          <attributeDefinition>site classification or category</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site classification or category</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Short_name</attributeName>
+          <attributeDefinition>other short names</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>other short names</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Coordinates</attributeName>
+          <attributeDefinition>coordinates of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>coordinates of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Boundaries</attributeName>
+          <attributeDefinition>site boundaries</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site boundaries</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Upload_Shapefile</attributeName>
+          <attributeDefinition>URL for uploaded shapefile</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>URL for uploaded shapefile</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>26</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>site_paramters.csv</entityName>
+      <entityDescription>Description, address and location of US LTER sites</entityDescription>
+      <physical>
+        <objectName>site_paramters.csv</objectName>
+        <size unit="byte">16332</size>
+        <authentication method="MD5">89e6d72173cffe6551ccbef13b662264</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/5e88b1508627d2618eadb56852a188f9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site_id_text</attributeName>
+          <attributeDefinition>three letter LTER site acronym</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>three letter LTER site acronym</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site_name</attributeName>
+          <attributeDefinition>full name of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>full name of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>address1</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>address2</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>address3</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>address4</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>address5</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>city</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>state</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zip</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>country</attributeName>
+          <attributeDefinition>site mailing address</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site mailing address</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>decmial degree latitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-77</minimum>
+                  <maximum exclusive="false">68.63</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>decmial degree longitude</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-149.83</minimum>
+                  <maximum exclusive="false">163.78</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>network_name</attributeName>
+          <attributeDefinition>US LTER network</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>US LTER network</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>elevation</attributeName>
+          <attributeDefinition>Elevation of site</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3528</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ecosystem</attributeName>
+          <attributeDefinition>ecosystem classification of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ecosystem classification of site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude_comment</attributeName>
+          <attributeDefinition>data source for location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude_comment</attributeName>
+          <attributeDefinition>data source for location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>elevation_comment</attributeName>
+          <attributeDefinition>data source for elevation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for elevation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ecosystem_comment</attributeName>
+          <attributeDefinition>data source for ecosystem data</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>data source for ecosystem data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>27</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>site_description.zip</entityName>
+      <entityDescription>zip file containing one csv file with description of each LTER site</entityDescription>
+      <physical>
+        <objectName>site_description.zip</objectName>
+        <authentication method="MD5">e8986a5a97488391ff0a077bed941559</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>compressed zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/7afd4c4acd2e4d9feff70d9aa016ac4b</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>site_history.zip</entityName>
+      <entityDescription>zip file containing one csv file with the history of each LTER site</entityDescription>
+      <physical>
+        <objectName>site_history.zip</objectName>
+        <authentication method="MD5">595f4eac0dd2bd4a4df410496294c7af</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>compressed zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/289594d16d6981bf204f6a7e536cd226</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>site_research.zip</entityName>
+      <entityDescription>zip file containing one csv file with research focus of each LTER site</entityDescription>
+      <physical>
+        <objectName>site_research.zip</objectName>
+        <authentication method="MD5">9b5acdfd9667b6169846f5b7fceae502</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>compressed zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/138/2/b8948497698d021dec750ba0d5a3f700</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/csv</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

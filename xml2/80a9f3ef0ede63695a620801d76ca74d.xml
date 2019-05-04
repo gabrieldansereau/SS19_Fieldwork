@@ -1,0 +1,111 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:ds="eml://ecoinformatics.org/dataset-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="nceas.945.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd" scope="system"><!-- Person who filled in the catalog entry form: Elsa Cleland --><!-- Form filled out at Tue Sep 30 22:37:42 2008 GMT -->
+
+
+<dataset scope="document">
+<title>USFS F. 2008. Forest Inventory and Analysis National Program. </title>
+<creator scope="document">
+<organizationName>NCEAS 12070: Cleland: Ushering in a new era of functional ecology: Dynamics in a changing environment</organizationName>
+</creator>
+<creator scope="document">
+<organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+</creator>
+<creator scope="document">
+<individualName>
+<givenName>FIA</givenName>
+<surName>USFS</surName>
+</individualName>
+</creator>
+<metadataProvider scope="document"><individualName>
+<givenName>Elsa</givenName>
+<surName>Cleland</surName>
+</individualName>
+</metadataProvider>
+<associatedParty scope="document"><individualName>
+<givenName>FIA</givenName>
+<surName>USFS</surName>
+</individualName>
+<role>associatedParty</role>
+</associatedParty>
+<associatedParty scope="document"><individualName>
+<givenName>FIA</givenName>
+<surName>USFS</surName>
+</individualName>
+<role>User</role>
+</associatedParty>
+<pubDate>2008-09-30</pubDate>
+<abstract>
+<para>FIA reports on status and trends in forest area and location; in the species, size, and health of trees; in total tree growth, mortality, and removals by harvest; in wood production and utilization rates by various products; and in forest land ownership. FIA is managed by the Research and Development organization within the USDA Forest Service in cooperation with State and Private Forestry and National Forest Systems. FIA has been in operation under various names (Forest Survey, Forest Inventory and Analysis) for some 70 years. We cover forests on all forest lands within the US.
+Keywords:</para>
+</abstract>
+<keywordSet>
+<keyword keywordType="theme">Forest</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<additionalInfo>
+<para>This dataset was used in NCEAS Project 12070 Spatial location of forests plots is &quot;fuzzed,&quot; but researchers can work with the USFS Spatial Data Service on an individual basis to develop spatial data sets for particular analyses. Note that there is also information for forest pests and soils for some monitoring plots.</para>
+</additionalInfo>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution scope="document">
+<online>
+<url function="download">http://fiatools.fs.fed.us/fiadb-downloads/fiadb.html</url>
+</online>
+</distribution>
+<distribution scope="document">
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage scope="document">
+<temporalCoverage scope="document">
+<singleDateTime>
+<calendarDate>1930</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage scope="document">
+<geographicDescription>United States Forests</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-180.0000
+</westBoundingCoordinate>
+<eastBoundingCoordinate>-60.0000
+</eastBoundingCoordinate>
+<northBoundingCoordinate>80.0000
+</northBoundingCoordinate>
+<southBoundingCoordinate>-20.0000
+</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage scope="document">
+<taxonomicClassification>
+  <taxonRankName>kingdom</taxonRankName>
+  <taxonRankValue>Plant</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact scope="document">
+<individualName>
+<givenName>FIA</givenName>
+<surName>USFS</surName>
+</individualName>
+</contact>
+<methods><methodStep><description><section>
+<title>Forest Inventory</title>
+<para>Background
+Basic Forest Inventory: Phase 1 is a remote sensing phase aimed at classifying the land into forest and non-forest and taking spatial measurements such as fragmentation, urbanization, and distance variables. This phase has historically been done using aerial photography, but is changing to a system based on satellite imagery. Phase 2 consists of a set of field sample locations distributed across the landscape with approximately one sample location (FIA plot) every 6,000 acres. Forested sample locations are visited by field crews who collect a variety of forest ecosystem data. Non forest locations are also visited as necessary to quantify rates of land use change. Forest Health Indicators: Phase 3 consists of a subset of the phase two plots (approximately 1 every 96,000 acres) which are visited during the growing season in order to collect an extended suite of ecological data including full vegetation inventory, tree and crown condition, soil data, lichen diversity, coarse woody debris, and ozone damage.</para>
+<para></para>
+</section></description></methodStep>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document">
+<allow>
+  <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>uid=reeves,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+</dataset>
+</eml:eml>

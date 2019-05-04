@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.325.2"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>LAGOS - Chlorophyll, TP, and water color summer epilimnetic concentrations and lake and catchment data for inland lakes in WI, MI, NY, and ME â€“ a subset of lake data from LAGOSLimno v.1.040.1</title>
+    <creator>
+      <individualName>
+        <givenName>Emi</givenName>
+        <surName>Fergus</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Department of Fisheries and Wildlife</deliveryPoint>
+        <city>East Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>fergusca@msu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Finley</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Michigan State University</deliveryPoint>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>finleya@msu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Patricia</givenName>
+        <surName>Soranno</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Department of Fisheries and Wildlife</deliveryPoint>
+        <city>East Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>soranno@anr.msu.edu</electronicMailAddress>
+      <onlineUrl>http://www.soranno.fw.msu.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Tyler</givenName>
+        <surName>Wagner</surName>
+      </individualName>
+      <organizationName>Pennsylvania State University</organizationName>
+      <address>
+        <deliveryPoint>419 Forest Resources Building</deliveryPoint>
+        <city>University Park</city>
+        <administrativeArea>PA</administrativeArea>
+        <postalCode>16802</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>txw19@psu.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Ed</givenName>
+        <surName>Bissell</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Michigan State University</deliveryPoint>
+        <city>Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>bissell3@msu.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Nicole</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>nicole.j.smith@gmail.com</electronicMailAddress>
+      <role>GIS technician</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Stopyak</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Michigan State University</deliveryPoint>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>stopyak.scott@gmail.com</electronicMailAddress>
+      <role>GIS technician</role>
+    </associatedParty>
+    <pubDate>2016-07-05</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>This dataset includes lake total phosphorus (TP), true water color, and chlorophyll a (CHLa) concentrations from summer, epilimnetic water samples and is a subset of the larger LAGOS database (Lake multi-scaled geospatial and temporal database, described in Soranno et al. 2015). LAGOS compiles multiple, individual lake water chemistry datasets into an integrated database. We accessed LAGOSLIMNO version 1.040.0 for lake water chemistry data and LAGOSGEO version 1.02 for lake catchment geographic data. In the LAGOSLIMNO database, lake water chemistry data were collected from individual state agency sampling and volunteer programs designed to monitor lake water quality. Water chemistry analyses follow standard lab methods. In the LAGOSGEO database geographic data were collected from national scale geographic information systems (GIS) data layers. Lake catchments, defined as 'The area of land that drains directly into a lake, and into all upstream-connected, permanent streams to that lake exclusive of any upstream lake watersheds for lakes greater than or equal to 10 ha that are connected via permanent streams', were delineated for lakes greater than or equal to 4 ha. Lake-stream connectivity type was assigned to lakes greater than or equal to 4 ha using GIS tools that use the National Hydrology Dataset (See Soranno et al. 2015 for LAGOS geographic processing steps). A subset of lake and geographic data was created to examine spatial variation in TP and water color relationships with CHLa across broad geographic extents using spatially-varying coefficient models with a Bayesian framework. Lakes were selected that had complete records for summer epilimnetic total TP, true water color, and CHLa. In addition we selected lakes with surface area greater than or equal to 4 ha and less than 10,000 ha to exclude very small and very large lakes from the analyses. The resulting dataset includes 838 lakes in Wisconsin, Michigan, New York, and Maine with 7395 observations. The majority of lakes in the data subset have only one water chemistry observation (~72% of lakes). There are 228 lakes with more than one water chemistry observation taken on different sampling occasions over time (average of 29 observations per lake with repeated measures). The dataset reports the original, individual measurements. The proportion of agriculture and wetlands in the lake catchment were derived from land cover and land use data in the National Land Cover Dataset (2006). For the analyses we withheld ten percent of the observations for model validation and to assess prediction accuracy. The remaining observations were used in the model building steps. The 'dataset' column in the data indicates whether the observation belongs to the model-building ('mb') or hold-out dataset ('h').</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>color</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>chemical limnology</keyword>
+      <keyword>regional studies</keyword>
+      <keywordThesaurus>NTL Themes</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>chlorophyll</keyword>
+      <keyword>chlorophyll a</keyword>
+      <keyword>lakes</keyword>
+      <keyword>total phosphorus</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>This information is released to the public under the Creative Commons license Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/) and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the data creators or contacts. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators. The Data User must realize that the data may be misinterpreted if taken out of context. The Data User must acknowledge use of the data by an appropriate citation (suggested format includes the DOI). While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The creators shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets. By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://lter6.limnology.wisc.edu/content/lagos-chlorophyll-tp-and-water-color-summer-epilimnetic-concentrations-and-lake-and</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Wisconsin, Michigan, New York, Maine, United States</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-92.55</westBoundingCoordinate>
+          <eastBoundingCoordinate>-68.4</eastBoundingCoordinate>
+          <northBoundingCoordinate>47.24</northBoundingCoordinate>
+          <southBoundingCoordinate>40.32</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1986-06-16</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-08-14</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Patricia</givenName>
+        <surName>Soranno</surName>
+      </individualName>
+      <organizationName>Michigan State University</organizationName>
+      <address>
+        <deliveryPoint>Department of Fisheries and Wildlife</deliveryPoint>
+        <city>East Lansing</city>
+        <administrativeArea>MI</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>soranno@anr.msu.edu</electronicMailAddress>
+      <onlineUrl>http://www.soranno.fw.msu.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>North Temperate Lakes (dev)</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Limnological water chemistry samples were collected through individual monitoring programs carried out or overseen by state agencies. Water chemistry analyses were performed using standard methods by individual labs. Methods for integrating the disparate state datasets are described in detail in Soranno et al. 2015 Building a multi-scaled geospatial temporal ecology database from disparate data sources: fostering open science and data reuse, GigaScience20154:28 DOI: 10.1186/s13742-015-0067-4</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>laketpcolordata.csv</entityName>
+      <entityDescription>Total phosphorus (TP), true water color, and chlorophyll a (CHLa) concentrations from summer, epilimnetic water samples and is a subset of the larger LAGOS database</entityDescription>
+      <physical>
+        <objectName>laketpcolordata.csv</objectName>
+        <size>1156232</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/325/2/bce1d767cb097f5554711351d06d3b87</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>recordID</attributeName>
+          <attributeLabel>arbitrary record ID</attributeLabel>
+          <attributeDefinition>arbitrary record ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>arbitrary record ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lagoslakeid</attributeName>
+          <attributeLabel>lagoslakeid</attributeLabel>
+          <attributeDefinition>lake ID used in the LAGOS database</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake ID used in the LAGOS database</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhdid</attributeName>
+          <attributeLabel>nhdid</attributeLabel>
+          <attributeDefinition>National Hydrology Unique Lake ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>National Hydrology Unique Lake ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_lat</attributeName>
+          <attributeLabel>nhd_lat</attributeLabel>
+          <attributeDefinition>Latitude of lake</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>nhd_long</attributeName>
+          <attributeLabel>nhd_long</attributeLabel>
+          <attributeDefinition>Latitude of lake</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>eventida10400</attributeName>
+          <attributeLabel>eventida10400</attributeLabel>
+          <attributeDefinition>LAGOS Unique Sampling Event ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>LAGOS Unique Sampling Event ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sampledate</attributeLabel>
+          <attributeDefinition>Date of sampling event</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-mm-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chla</attributeName>
+          <attributeLabel>chla</attributeLabel>
+          <attributeDefinition>Chlorophyll a summer epilimnetic concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>colort</attributeName>
+          <attributeLabel>colort</attributeLabel>
+          <attributeDefinition>True Water Color summer epilimentic concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PlatinumCobaltUnit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tp</attributeName>
+          <attributeLabel>tp</attributeLabel>
+          <attributeDefinition>Total Phosphorus summer epilimentic concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lk.conn</attributeName>
+          <attributeLabel>lk.conn</attributeLabel>
+          <attributeDefinition>Lake surface connectivity type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Isolated</code>
+                    <definition>lakes without surface inlets</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Drainage</code>
+                    <definition>lakes with surface inlets and outlets</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>maxdepth</attributeName>
+          <attributeLabel>maxdepth</attributeLabel>
+          <attributeDefinition>Maximum lake depth</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CALK</attributeName>
+          <attributeLabel>CALK</attributeLabel>
+          <attributeDefinition>Lake catchment to lake surface area ratio</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>iws_areaha</attributeName>
+          <attributeLabel>iws_areaha</attributeLabel>
+          <attributeDefinition>Lake catchment area</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>iws_lakeareaha</attributeName>
+          <attributeLabel>iws_lakeareaha</attributeLabel>
+          <attributeDefinition>Lake surface area</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>hectare</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AG.pct</attributeName>
+          <attributeLabel>AG.pct</attributeLabel>
+          <attributeDefinition>Proportion agriculture land use NLCD (2006) in lake catchment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WET.pct</attributeName>
+          <attributeLabel>WET.pct</attributeLabel>
+          <attributeDefinition>Proportion wetland land cover NLCD (2006) in lake catchment</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dataset</attributeName>
+          <attributeLabel>dataset</attributeLabel>
+          <attributeDefinition>Indicates the model process the observation was used in</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>mb</code>
+                    <definition>model building dataset</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>h</code>
+                    <definition>hold out dataset</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="PlatinumCobaltUnit">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

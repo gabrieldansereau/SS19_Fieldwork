@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cce.19.2" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>19</alternateIdentifier>
+    <title>Final chlorophyll and temperature measurements at 10m depth, offshore of Dana Point, California as part of an Ocean Institute time series, 2006 - 2013 (ongoing).</title>
+    <creator>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Leslie</givenName>
+        <surName>Kretschmar</surName>
+      </individualName>
+      <organizationName>Ocean Institute</organizationName>
+      <electronicMailAddress>lkretschmar@ocean-institute.org</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2016</pubDate>
+    <abstract>Time series of chlorophyll and temperature at 10m offshore of Dana Point, California. Measurements made as part of education/outreach programs involving students and teachers in oceanographic sampling and analytic sensitivity to time series. Cruises are conducted twice, monthly (or other) where sampling is performed by students assisted by technicians and supervisors.</abstract>
+    <keywordSet>
+      <keyword>chlorophyll</keyword>
+      <keyword>weather</keyword>
+      <keyword>ocean biogeochemistry</keyword>
+      <keyword>measurements</keyword>
+      <keyword>depth</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+    with the express understanding that data users will properly acknowledge the originating investigator. Use or
+    reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+    from the responsible party.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/data/ccelter/datasets?action=summary&amp;id=19</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>CCE LTER Information Manager</positionName>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <electronicMailAddress>ccelter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office</deliveryPoint>
+        <deliveryPoint>Scripps Institution of Oceanography</deliveryPoint>
+        <deliveryPoint>University of California, San Diego</deliveryPoint>
+        <deliveryPoint>9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>General Methods</title>
+            <para>Chlorophyll determined using chlorophyll extraction methodology. Samples concentrated on GF/F filters.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Ocean Institute Chlorophyll and Temperature Timeseries
+</title>
+            <para>CCE - CalCOFI Methods Manual
+CCE Education, Outreach, and Capacity Building
+Ocean Institute Chlorophyll and Temperature Timeseries</para>
+          </section>
+        </description>
+        <protocol>
+          <title>Ocean Institute Chlorophyll and Temperature Timeseries
+</title>
+          <creator>
+            <organizationName>CCE LTER</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="information">http://cce.lternet.edu/data/methods-manual/outreach/ocean-institute-chlorophyll</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Frequency</title>
+            <para>multiple/week</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="dat_19">
+      <entityName>OceanInstituteChlorophyll</entityName>
+      <entityDescription>Main data table for dataset</entityDescription>
+      <physical>
+        <objectName>19.2.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cce/19/2/ee2a40eccf60b4e6d9b3f93525157847</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="col_235">
+          <attributeName>Event</attributeName>
+          <attributeDefinition>sequence of cruise happenings ordered by time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_237">
+          <attributeName>Datetime PST</attributeName>
+          <attributeDefinition>datetime in pacific Standard Time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">dateTime</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>datetime in pacific Standard Time</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_238">
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>latitude measured from the equator in decimal degrees, South is negative</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_239">
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>longitude measured from the Prime Meridian in decimal degrees, West is negative</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_240">
+          <attributeName>T Chla</attributeName>
+          <attributeDefinition>chlorophyll a concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_3601">
+          <attributeName>Chla &gt; 3µm</attributeName>
+          <attributeDefinition>chlorophyll a concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_753">
+          <attributeName>Chla &lt; 3µm</attributeName>
+          <attributeDefinition>percent of chlorophyll</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_241">
+          <attributeName>Chla &gt; 3µm</attributeName>
+          <attributeDefinition>percent of chlorophyll</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_242">
+          <attributeName>Sample Temp</attributeName>
+          <attributeDefinition>temperature measurement</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_243">
+          <attributeName>Sea Surface Temp</attributeName>
+          <attributeDefinition>temperature measurement</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_245">
+          <attributeName>Station Depth</attributeName>
+          <attributeDefinition>measurement or sample collection distance from water column surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_246">
+          <attributeName>Sample Depth</attributeName>
+          <attributeDefinition>measurement or sample collection distance from water column surface</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_247">
+          <attributeName>Program</attributeName>
+          <attributeDefinition>name of program</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of program</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_248">
+          <attributeName>Water Collection School</attributeName>
+          <attributeDefinition>name of school</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of school</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_249">
+          <attributeName>Sample Analysis School</attributeName>
+          <attributeDefinition>name of school</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>name of school</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="col_250">
+          <attributeName>Number of Students</attributeName>
+          <attributeDefinition>students</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="dimensionless" name="dimensionless">
+          <stmml:dimension name="dimensionless"/>
+        </stmml:unitType>
+        <stmml:unitType id="angle" name="angle">
+          <stmml:dimension name="angle"/>
+        </stmml:unitType>
+        <stmml:unitType id="massDensity" name="massDensity">
+          <stmml:dimension name="length" power="-3"/>
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unitType id="temperature" name="temperature">
+          <stmml:dimension name="temperature"/>
+        </stmml:unitType>
+        <stmml:unitType id="length" name="length">
+          <stmml:dimension name="length"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="rad" id="radian" name="radian" unitType="angle">
+          <stmml:description>2 pi radians comprise a unit circle.</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="kilogramPerCubicMeter"
+          name="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>kilogram per cubic meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="num/num" constantToSI="0"
+          id="numberPerNumber" multiplierToSI="1" name="numberPerNumber"
+          parentSI="gramsPerGram" unitType="dimensionless">
+          <stmml:description>ratio with no scaling</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="K" id="kelvin" name="kelvin" unitType="temperature">
+          <stmml:description>SI unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="number" name="number" unitType="dimensionless">
+          <stmml:description>a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="º" constantToSI="0" id="degree"
+          multiplierToSI="0.0174533" name="degree" parentSI="radian" unitType="angle">
+          <stmml:description>360 degrees comprise a unit circle</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>A common unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml
+      packageId="knb.92094.1" system="knb"
+      xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+      xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+      xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+<!-- Person who filled in the catalog entry form:   -->
+<!-- Form filled out at Wed Nov 15 19:23:56 2017 GMT -->
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>http://orcid.org/0000-0002-1368-4160</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Mya arenaria and Mercenaria mercenaria predator-prey dynamics</title>
+<creator id="9142273892399026">
+<individualName>
+<givenName>Cassandra</givenName>
+<surName>Glaspie</surName>
+</individualName>
+<organizationName>Oregon State University</organizationName>
+<positionName>Postdoctoral Scholar</positionName>
+<address><city>Corvalis</city>
+<administrativeArea>Oregon</administrativeArea>
+<postalCode>97330</postalCode>
+<country>United States</country>
+</address>
+<electronicMailAddress>glaspiec@oregonstate.edu</electronicMailAddress>
+<onlineUrl>http://cowfish.org/cnglaspie/</onlineUrl>
+</creator>
+<metadataProvider id="2492324075169279">
+<individualName>
+<givenName>Cassandra</givenName>
+<surName>Glaspie</surName>
+</individualName>
+<organizationName>Oregon State University</organizationName>
+<positionName>Postdoctoral Scholar</positionName>
+<address><city>Corvalis</city>
+<administrativeArea>Oregon</administrativeArea>
+<postalCode>97330</postalCode>
+<country>United States</country>
+</address>
+<electronicMailAddress>glaspiec@oregonstate.edu</electronicMailAddress>
+<onlineUrl>http://cowfish.org/cnglaspie/</onlineUrl>
+</metadataProvider>
+<associatedParty id="4911389973868872">
+<individualName>
+<givenName>Rochelle</givenName>
+<surName>Seitz</surName>
+</individualName>
+<organizationName>Virginia Institute of Marine Science</organizationName>
+<address></address>
+<role>coPrincipalInvestigator</role>
+</associatedParty>
+<pubDate>2017-11-15</pubDate>
+<abstract>
+<para>R code and data sets support/recreate all analysis in the following manuscript: Glaspie, C.N. and Seitz, R.D. Habitat complexity mediates benthic predator-prey interactions in Chesapeake Bay. Submitted to PLOS ONE. We examined the potential for habitat and predators to drive densities and distributions of bivalves in a field caging experiment (Mya arenaria) and laboratory mesocosm experiments (Mya arenaria and Mercenaria mercenaria). A caging study was conducted with juvenile Mya in patchy seagrass, sand, and mud near-shore habitats (1.5-2 m depth mean high water) in May 2014 near the mouth of the York River, VA (between 37.258323, -76.428047 and 37.275197, -76.370150). Cages were designed to elucidate the impacts of major predators, including blue crabs Callinectes sapidus and cownose rays Rhinoptera bonasus. Mya (thin-shelled deep infaunal) and Mercenaria (armored shallow infaunal) were exposed to blue crab C. sapidus predation in mesocosm tanks of 0.87 m diameter and 0.59 m height. For half of the trials (n = 3 for each treatment) predator behavior was recorded using an infrared-sensitive camera system. Metadata for all files in this data package can be found in the metadata.txt file.</para>
+</abstract>
+<keywordSet>
+<keyword >Chesapeake Bay</keyword>
+<keyword >bivalve</keyword>
+<keyword >seagrass</keyword>
+<keyword >habitat</keyword>
+<keyword >predator-prey</keyword>
+<keyword >mesocosm</keyword>
+<keyword >caging</keyword>
+<keywordThesaurus>None</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2012-06-09</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2015-11-04</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Caging: data were collected in the lower York River in patchy seagrass, sand, and mud near-shore habitats (1.5-2 m depth mean high water between 37.258323, -76.428047 and 37.275197, -76.370150). Mesocosm: this study was conducted in the Virginia Institute of Marine Science Seawater Research Laboratory.</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-76.4281</westBoundingCoordinate>
+<eastBoundingCoordinate>-76.3700</eastBoundingCoordinate>
+<northBoundingCoordinate>37.2750</northBoundingCoordinate>
+<southBoundingCoordinate>37.2583</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<taxonomicCoverage>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Mya arenaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Mercenaria mercenaria</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Callinectes sapidus</taxonRankValue>
+</taxonomicClassification>
+<taxonomicClassification>
+  <taxonRankName>Species</taxonRankName>
+  <taxonRankValue>Rhinoptera bonasus</taxonRankValue>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="3409360797113052">
+<individualName>
+<givenName>Cassandra</givenName>
+<surName>Glaspie</surName>
+</individualName>
+<organizationName>Oregon State University</organizationName>
+<positionName>Postdoctoral Scholar</positionName>
+<address><city>Corvalis</city>
+<administrativeArea>Oregon</administrativeArea>
+<postalCode>97330</postalCode>
+<country>United States</country>
+</address>
+<electronicMailAddress>glaspiec@oregonstate.edu</electronicMailAddress>
+<onlineUrl>http://cowfish.org/cnglaspie/</onlineUrl>
+</contact>
+<otherEntity id="370e8f94f421974610b426f37e6f0cf28403648a001" scope="document">
+            <entityName>metadata.txt</entityName>
+            <physical scope="document">
+                <objectName>metadata.txt</objectName>
+                <size>5811</size>
+                <authentication method="SHA1">370e8f94f421974610b426f37e6f0cf28403648a</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/plain</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="370e8f94f421974610b426f37e6f0cf28403648a002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92091.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1368-4160</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="58277f0df98f5bccdfa10caf4071aa1fcfc18682001" scope="document">
+            <entityName>Mya_Caging_MASTER.csv</entityName>
+            <physical scope="document">
+                <objectName>Mya_Caging_MASTER.csv</objectName>
+                <size>9701</size>
+                <authentication method="SHA1">58277f0df98f5bccdfa10caf4071aa1fcfc18682</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="58277f0df98f5bccdfa10caf4071aa1fcfc18682002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92093.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1368-4160</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="fc41f098579f88c7a15d2b48d2ee2676f9516974001" scope="document">
+            <entityName>Mesocosm.functional.response.csv</entityName>
+            <physical scope="document">
+                <objectName>Mesocosm.functional.response.csv</objectName>
+                <size>11314</size>
+                <authentication method="SHA1">fc41f098579f88c7a15d2b48d2ee2676f9516974</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>text/csv</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="fc41f098579f88c7a15d2b48d2ee2676f9516974002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92092.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1368-4160</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="266bd1fd7aa488bf07bd634679e2305718c6cfd7001" scope="document">
+            <entityName>Analysis.R</entityName>
+            <physical scope="document">
+                <objectName>Analysis.R</objectName>
+                <size>43494</size>
+                <authentication method="SHA1">266bd1fd7aa488bf07bd634679e2305718c6cfd7</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/octet-stream</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="266bd1fd7aa488bf07bd634679e2305718c6cfd7002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.92090.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1368-4160</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </allow>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</eml:eml>

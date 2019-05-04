@@ -1,0 +1,2733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cce.78.3" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=CCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>78</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/3eb40f915c3ec1d5f1fcb53a1eaaa6ff</alternateIdentifier>
+    <title>Measurements from CalCOFI cruises in the California Current System, including log of station information, weather, sea conditions as well as physical, chemical and biological measurements including including temperature, salinity, oxygen, density, sigma theta, phosphate, silicate, nitrite, nitrate, ammonia, chlorophyll a, integrated chlorophyll a, primary productivity, and integrated primary production. 1949 - 2015 (ongoing).
+</title>
+    <creator>
+      <organizationName>CalCOFI - Scripps Institution of Oceanography</organizationName>
+      <address>
+        <deliveryPoint>CalCOFI
+Scripps Institution of Oceanography
+8880 Biological Grade
+(235 MESOM Laboratory)</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92037</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Wilkinson</surName>
+      </individualName>
+      <organizationName>SIO</organizationName>
+      <electronicMailAddress>jwilkinson@ucsd.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office
+Scripps Institution of Oceanography
+University of California, San Diego
+9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2017-03-28</pubDate>
+    <abstract>Since 1949, hydrographic and biological data of the California Current System have been collected on quarterly CalCOFI cruises.  The 59+ year hydrographic time-series includes weather, temperature, salinity, oxygen and phosphate observations.  In 1961, nutrient analysis expanded to include silicate, nitrate and nitrite; in 1973, chlorophyll was added; in 1984, C14 primary productivity incubations were added.
+
+These data are being provided here in collaboration with CalCOFI-SIO in order to provide an additional queriable interface to the data. The data are updated on a regular basis from the CalCOFI hydrographic database. </abstract>
+    <keywordSet>
+      <keyword>habitats</keyword>
+      <keyword>marine</keyword>
+      <keyword>measurements</keyword>
+      <keyword>temperature</keyword>
+      <keyword>weather</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>carbon</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+                with the express understanding that data users will properly acknowledge the originating investigator. Use or
+                reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+                from the responsible party.
+            </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/catalogs/ccelter/datasets/78</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1949</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>CCE LTER Information Manager</positionName>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <electronicMailAddress>ccelter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>California Current Ecosystem LTER</organizationName>
+      <address>
+        <deliveryPoint>California Current Ecosystem LTER Program Office
+Scripps Institution of Oceanography
+University of California, San Diego
+9500 Gilman Dr.</deliveryPoint>
+        <city>La Jolla</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>92093-0218</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>CalCOFI Methods Manual</para>
+        </description>
+        <protocol>
+          <title>CalCOFI Methods Manual</title>
+          <creator>
+            <organizationName>California Cooperative Oceanic Fisheries Investigations, SIO</organizationName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="information">http://calcofi.org/publications/clmethods.html</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <dataTable id="78.table_268">
+      <entityName>Cast Log</entityName>
+      <entityDescription>Hydrographic cast station info: time/date, lat/lon, Line/Sta, meterological data, single-point data such as sta averages. This table connects to "Bottle Data" on the Cst_Cnt field.</entityDescription>
+      <physical>
+        <objectName>table_268.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cce/78/3/2965577db2ff3c12a4fd7d6686c78991</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="78.table_268.studyName">
+          <attributeName>studyName</attributeName>
+          <attributeDefinition>Sampling expedition from which data were collected, generated, etc.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling expedition from which data were collected, generated, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="78.table_268.col_5138">
+          <attributeName>Cst_Cnt</attributeName>
+          <attributeDefinition>Cast Count - all casts consecutively numbered</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cast Count - all casts consecutively numbered</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5140">
+          <attributeName>Cruise</attributeName>
+          <attributeDefinition>Cruise name (4 digit year followed by a 2-digit month)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cruise name (4 digit year followed by a 2-digit month)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5141">
+          <attributeName>Cruz_Sta</attributeName>
+          <attributeDefinition>Cruise name and station (century year month line and station ccyymmllllssss)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cruise name and station (century year month line and station ccyymmllllssss)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5142">
+          <attributeName>DbSta_ID</attributeName>
+          <attributeDefinition>4 digit line and 4 digit station</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>4 digit line and 4 digit station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5190">
+          <attributeName>Cast_ID</attributeName>
+          <attributeDefinition>Cast Identifier: Values [Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta]</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cast Identifier: Values [Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta]</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5143">
+          <attributeName>Sta_ID</attributeName>
+          <attributeDefinition>CalCOFI sampling grid line and station (4 digit Line and 4 digit Station)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>CalCOFI sampling grid line and station (4 digit Line and 4 digit Station)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5144">
+          <attributeName>Quarter</attributeName>
+          <attributeDefinition>Quarter of the year: Winter (1) Spring (2) Summer (3) Fall (4)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Quarter of the year: Winter (1) Spring (2) Summer (3) Fall (4)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5189">
+          <attributeName>Distance</attributeName>
+          <attributeDefinition>Distance from coast intercept, calculated from est. lat and lon</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>mile</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5145">
+          <attributeName>Sta_Code</attributeName>
+          <attributeDefinition>"ST"=Standard CalCOFI Station, "SCO"=SCCOOS 20m Station, "NRO"=Not Regularly Occupied Original CalCOFI Station, "OCO"=Occasionally CalCOFI Occupied, "IMX"=IMECOCAL Occupied, "NST"=Non-Standard Station, "MBR"=MBARI Occupied Station
+
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>"ST"=Standard CalCOFI Station, "SCO"=SCCOOS 20m Station, "NRO"=Not Regularly Occupied Original CalCOFI Station, "OCO"=Occasionally CalCOFI Occupied, "IMX"=IMECOCAL Occupied, "NST"=Non-Standard Station, "MBR"=MBARI Occupied Station
+
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5146">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date of cast</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date of cast</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5148">
+          <attributeName>Julian_Date</attributeName>
+          <attributeDefinition>OA Date: days since December 30, 1899</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>OA Date: days since December 30, 1899</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5149">
+          <attributeName>Julian_Day</attributeName>
+          <attributeDefinition>Julian day of year</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Julian day of year</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5150">
+          <attributeName>Time</attributeName>
+          <attributeDefinition>UTC time CTD is at terminal depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>UTC time CTD is at terminal depth</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5151">
+          <attributeName>Lat_Dec</attributeName>
+          <attributeDefinition>Observed Latitude in decimal degrees</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5152">
+          <attributeName>Lat_Hem</attributeName>
+          <attributeDefinition>Observed latitude hemisphere</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Observed latitude hemisphere</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5153">
+          <attributeName>Lon_Dec</attributeName>
+          <attributeDefinition>Observed longitude in decimal degrees</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>degree</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5154">
+          <attributeName>Lon_Hem</attributeName>
+          <attributeDefinition>Observed longitude hemisphere</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Observed longitude hemisphere</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5155">
+          <attributeName>Rpt_Line</attributeName>
+          <attributeDefinition>Reported CalCOFI sampling grid line (4 digit number)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reported CalCOFI sampling grid line (4 digit number)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5156">
+          <attributeName>St_Line</attributeName>
+          <attributeDefinition>Nearest CalCOFI sampling grid line</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nearest CalCOFI sampling grid line</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5157">
+          <attributeName>Ac_Line</attributeName>
+          <attributeDefinition>Calculated actual CalCOFI sampling grid line from observed lat and lon</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Calculated actual CalCOFI sampling grid line from observed lat and lon</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5158">
+          <attributeName>Rpt_Sta</attributeName>
+          <attributeDefinition>Reported CalCOFI sampling grid station (4 digit number)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reported CalCOFI sampling grid station (4 digit number)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5159">
+          <attributeName>St_Station</attributeName>
+          <attributeDefinition>Nearest standard CalCOFI grid station</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Nearest standard CalCOFI grid station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5160">
+          <attributeName>Ac_Sta</attributeName>
+          <attributeDefinition>Calculated actual CalCOFI sampling grid station from observed lat and long</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Calculated actual CalCOFI sampling grid station from observed lat and long</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5161">
+          <attributeName>Bottom_D</attributeName>
+          <attributeDefinition>Bottom depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5162">
+          <attributeName>Ship Name</attributeName>
+          <attributeDefinition>Ship's name</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Ship's name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5163">
+          <attributeName>Ship Code</attributeName>
+          <attributeDefinition>NODC ship code</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NODC ship code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5164">
+          <attributeName>Data Type</attributeName>
+          <attributeDefinition>PR= Productivity, HY= Hydrographic, CT= Compressed CTD, 10= 10 Meter, MX= Mixed CTD and Bottle Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>PR= Productivity, HY= Hydrographic, CT= Compressed CTD, 10= 10 Meter, MX= Mixed CTD and Bottle Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5165">
+          <attributeName>Order_Occ</attributeName>
+          <attributeDefinition>Order of stations occupied per cruise</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Order of stations occupied per cruise</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5191">
+          <attributeName>Event_Num</attributeName>
+          <attributeDefinition>Sequence of cruise happenings ordered by time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequence of cruise happenings ordered by time</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5192">
+          <attributeName>Cruz_Leg</attributeName>
+          <attributeDefinition>Sections of a cruise usually broken up due to personnel transfers</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sections of a cruise usually broken up due to personnel transfers</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5166">
+          <attributeName>Orig_Sta_ID</attributeName>
+          <attributeDefinition>IEH reported station ID</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>IEH reported station ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5167">
+          <attributeName>Data_Or</attributeName>
+          <attributeDefinition>Data origin code</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Data origin code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5168">
+          <attributeName>Cruz_Num</attributeName>
+          <attributeDefinition>Cruise designation by year and month</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cruise designation by year and month</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5169">
+          <attributeName>IntChl</attributeName>
+          <attributeDefinition>Integrated chlorophyll</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5170">
+          <attributeName>IntC14</attributeName>
+          <attributeDefinition>Integrated primary production (milligrams carbon per square meter)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5171">
+          <attributeName>Inc_Str</attributeName>
+          <attributeDefinition>Incubation start time (PST)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Incubation start time (PST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5172">
+          <attributeName>Inc_End</attributeName>
+          <attributeDefinition>Incubation end time (PST)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Incubation end time (PST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5173">
+          <attributeName>PST_LAN</attributeName>
+          <attributeDefinition>Time of local apparent noon (PST)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of local apparent noon (PST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5174">
+          <attributeName>Civil_T</attributeName>
+          <attributeDefinition>Time of civil twilight (PST)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of civil twilight (PST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5175">
+          <attributeName>TimeZone</attributeName>
+          <attributeDefinition>Time zone</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time zone</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5176">
+          <attributeName>Wave_Dir</attributeName>
+          <attributeDefinition>Wave direction reported using an abbreviated 360-degree azimuth circle with 00 representing true north, 18 represents 180 degrees (01-36)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Wave direction reported using an abbreviated 360-degree azimuth circle with 00 representing true north, 18 represents 180 degrees (01-36)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5177">
+          <attributeName>Wave_Ht</attributeName>
+          <attributeDefinition>Wave height in feet</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>foot</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5178">
+          <attributeName>Wave_Prd</attributeName>
+          <attributeDefinition>Wave period in seconds</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>second</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5179">
+          <attributeName>Wind_Dir</attributeName>
+          <attributeDefinition>Wave direction reported using an abbreviated 360-degree azimuth circle with 00 representing true north, 18 represents 180 degrees (01-36)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Wave direction reported using an abbreviated 360-degree azimuth circle with 00 representing true north, 18 represents 180 degrees (01-36)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5180">
+          <attributeName>Wind_Spd</attributeName>
+          <attributeDefinition>Wind speed in knots</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>knot</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5181">
+          <attributeName>Barometer</attributeName>
+          <attributeDefinition>Atmospheric pressure</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millibar</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5182">
+          <attributeName>Dry_T</attributeName>
+          <attributeDefinition>Dry air temperature from a sling psychrometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5183">
+          <attributeName>Wet_T</attributeName>
+          <attributeDefinition>Wet air temperature from a sling psychrometer</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5184">
+          <attributeName>Wea</attributeName>
+          <attributeDefinition>Weather: 1 digit code from the Wolrd Meteorological Organization. Code source WMO 4501 (0-9)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Weather: 1 digit code from the Wolrd Meteorological Organization. Code source WMO 4501 (0-9)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5185">
+          <attributeName>Cloud_Typ</attributeName>
+          <attributeDefinition>Cloud type: 1 digit code from the World Meteorological Organization. Code source WMO 0500 (0-9)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cloud type: 1 digit code from the World Meteorological Organization. Code source WMO 0500 (0-9)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5193">
+          <attributeName>Cloud_Amt</attributeName>
+          <attributeDefinition>Cloud amount: 1 digit code from the World Meteorological Organization. Code source WMO 2700 in oktas</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Cloud amount: 1 digit code from the World Meteorological Organization. Code source WMO 2700 in oktas</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5186">
+          <attributeName>Visibility</attributeName>
+          <attributeDefinition>Visibility: 1 digit code from the World Meteorlogical Organization. Code source WMO 4300</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Visibility: 1 digit code from the World Meteorlogical Organization. Code source WMO 4300</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5187">
+          <attributeName>Secchi</attributeName>
+          <attributeDefinition>Secchi disk depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_268.col_5188">
+          <attributeName>ForelU</attributeName>
+          <attributeDefinition>Water color, Forel_Ule scale. Only used in this dataset from 1988-10 through 1998-04</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Water color, Forel_Ule scale. Only used in this dataset from 1988-10 through 1998-04</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable id="78.table_269">
+      <entityName>Bottle Data</entityName>
+      <entityDescription>Core hydrographic measurements. This table connects to "Cast Log" on the Cst_Cnt field.</entityDescription>
+      <physical>
+        <objectName>table_269.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cce/78/3/13e1029e99b3c45fcaab0943a81764fc</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="78.table_269.studyName">
+          <attributeName>studyName</attributeName>
+          <attributeDefinition>Sampling expedition from which data were collected, generated, etc.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling expedition from which data were collected, generated, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="78.table_269.col_5194">
+          <attributeName>Cst_Cnt</attributeName>
+          <attributeDefinition> Auto-numbered Cast Count - all casts consecutively numbered. 1 is first station done</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition> Auto-numbered Cast Count - all casts consecutively numbered. 1 is first station done</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5195">
+          <attributeName>Btl_Cnt</attributeName>
+          <attributeDefinition> Auto-numbered Bottle count- all bottles ever sampled, consecutively numbered</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition> Auto-numbered Bottle count- all bottles ever sampled, consecutively numbered</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5196">
+          <attributeName>Sta_ID</attributeName>
+          <attributeDefinition>CalCOFI sampling grid Line and Station</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>CalCOFI sampling grid Line and Station</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5197">
+          <attributeName>Depth_ID</attributeName>
+          <attributeDefinition>[Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta][Depth][Bottle]-[Rec_Ind]</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>[Century]-[YY][MM][ShipCode]-[CastType][Julian Day]-[CastTime]-[Line][Sta][Depth][Bottle]-[Rec_Ind]</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5198">
+          <attributeName>Depthm</attributeName>
+          <attributeDefinition>Sample depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5199">
+          <attributeName>T_degC</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5200">
+          <attributeName>Salnty</attributeName>
+          <attributeDefinition>Salinity of water: Practical salinity scale, 1978 (UNESCO, 1981a)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>practicalSalinityUnit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5201">
+          <attributeName>O2ml_L</attributeName>
+          <attributeDefinition>Milliliters of dissolved oxygen per Liter seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5202">
+          <attributeName>STheta</attributeName>
+          <attributeDefinition>Potential Density of Water</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Potential Density of Water</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5203">
+          <attributeName>O2Sat</attributeName>
+          <attributeDefinition>Percent oxygen saturation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5204">
+          <attributeName>Oxy_µmol/Kg</attributeName>
+          <attributeDefinition>Oxygen in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5205">
+          <attributeName>BtlNum</attributeName>
+          <attributeDefinition>Bottle number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Bottle number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5206">
+          <attributeName>RecInd</attributeName>
+          <attributeDefinition>Record Indicator: found in the Bottle Table or csv: 3=Observed Data, 4=Educated office guess (ghost), 5=Data from STD or CTD device, 6=Duplicate Depth, 7=Interpolated to a standard depth
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record Indicator: found in the Bottle Table or csv: 3=Observed Data, 4=Educated office guess (ghost), 5=Data from STD or CTD device, 6=Duplicate Depth, 7=Interpolated to a standard depth
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5207">
+          <attributeName>T_prec</attributeName>
+          <attributeDefinition>Temperature units of precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Temperature units of precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5208">
+          <attributeName>T_qual</attributeName>
+          <attributeDefinition>T_degC quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>T_degC quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5209">
+          <attributeName>S_prec</attributeName>
+          <attributeDefinition>Salinity units of precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Salinity units of precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5210">
+          <attributeName>S_qual</attributeName>
+          <attributeDefinition>Salnty quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Salnty quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5211">
+          <attributeName>P_qual</attributeName>
+          <attributeDefinition>Pressure quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pressure quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5212">
+          <attributeName>O_qual</attributeName>
+          <attributeDefinition>Oxy_µmol/Kg quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Oxy_µmol/Kg quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5213">
+          <attributeName>SThtaq</attributeName>
+          <attributeDefinition>STheta quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>STheta quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5214">
+          <attributeName>O2Satq</attributeName>
+          <attributeDefinition>O2Sat quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>O2Sat quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5215">
+          <attributeName>ChlorA</attributeName>
+          <attributeDefinition>Acetone extracted chlorophyll-a measured fluorometrically</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5216">
+          <attributeName>Chlqua</attributeName>
+          <attributeDefinition>ChlorA quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ChlorA quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5217">
+          <attributeName>Phaeop</attributeName>
+          <attributeDefinition>Phaeophytin concentration measured fluorometrically</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5218">
+          <attributeName>Phaqua</attributeName>
+          <attributeDefinition>Phaeop quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Phaeop quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5219">
+          <attributeName>PO4uM</attributeName>
+          <attributeDefinition>Phosphate concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5220">
+          <attributeName>PO4q</attributeName>
+          <attributeDefinition>PO4uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>PO4uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5221">
+          <attributeName>SiO3uM</attributeName>
+          <attributeDefinition>Silicate concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5222">
+          <attributeName>SiO3qu</attributeName>
+          <attributeDefinition>SiO3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>SiO3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5223">
+          <attributeName>NO2uM</attributeName>
+          <attributeDefinition>Nitrite concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5224">
+          <attributeName>NO2q</attributeName>
+          <attributeDefinition>NO2uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NO2uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5225">
+          <attributeName>NO3uM</attributeName>
+          <attributeDefinition>Nitrate concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5226">
+          <attributeName>NO3q</attributeName>
+          <attributeDefinition>NO3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NO3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5227">
+          <attributeName>NH3uM</attributeName>
+          <attributeDefinition>Ammonium concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5228">
+          <attributeName>NH3q</attributeName>
+          <attributeDefinition>NH3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>NH3uM quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5229">
+          <attributeName>C14As1</attributeName>
+          <attributeDefinition>14C Assimilation of replicate 1</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5230">
+          <attributeName>C14A1p</attributeName>
+          <attributeDefinition>14C Assimilation of replicate 1 precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>14C Assimilation of replicate 1 precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5231">
+          <attributeName>C14A1q</attributeName>
+          <attributeDefinition>C14As1 quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>C14As1 quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5232">
+          <attributeName>C14As2</attributeName>
+          <attributeDefinition>14C Assimilation of replicate 2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>14C Assimilation of replicate 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5233">
+          <attributeName>C14A2p</attributeName>
+          <attributeDefinition>14C Assimilation of replicate 2 precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>14C Assimilation of replicate 2 precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5234">
+          <attributeName>C14A2q</attributeName>
+          <attributeDefinition>C14As2 quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>C14As2 quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5235">
+          <attributeName>DarkAs</attributeName>
+          <attributeDefinition>14C Assimilation Dark Bottle</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5236">
+          <attributeName>DarkAp</attributeName>
+          <attributeDefinition>14C Assimilation Dark Bottle precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>14C Assimilation Dark Bottle precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5237">
+          <attributeName>DarkAq</attributeName>
+          <attributeDefinition>DarkAs quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>DarkAs quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5238">
+          <attributeName>MeanAs</attributeName>
+          <attributeDefinition>Mean 14C Assimilation of Bottle 1 and 2</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5239">
+          <attributeName>MeanAp</attributeName>
+          <attributeDefinition>Mean 14C Assimilation of Bottle 1 and 2 precision</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Mean 14C Assimilation of Bottle 1 and 2 precision</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5240">
+          <attributeName>MeanAq</attributeName>
+          <attributeDefinition>MeanAs quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>MeanAs quality: Blank=Data OK, 4=Zeroed due to value below detection limit, 6=Data taken from CTD device, 8=Originator thinks value is suspect, 9=Missing Data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5241">
+          <attributeName>IncTim</attributeName>
+          <attributeDefinition>Incubation time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Incubation time</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5242">
+          <attributeName>LightP</attributeName>
+          <attributeDefinition>Light intensities expressed as a percentage</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5243">
+          <attributeName>R_Depth</attributeName>
+          <attributeDefinition>Reported Depth in Meters</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5244">
+          <attributeName>R_TEMP</attributeName>
+          <attributeDefinition>Reported TemperatureNULL</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5245">
+          <attributeName>R_POTEMP</attributeName>
+          <attributeDefinition>Reported Potential Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5246">
+          <attributeName>R_SALINITY</attributeName>
+          <attributeDefinition>Reported Salinity, Practical Salinity Scale, 1978 (UNESCO, 1981a)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>practicalSalinityUnit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5247">
+          <attributeName>R_SIGMA</attributeName>
+          <attributeDefinition>Reported Potential Density of water</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reported Potential Density of water</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5248">
+          <attributeName>R_SVA</attributeName>
+          <attributeDefinition>Reported Specific Volume Anomaly</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reported Specific Volume Anomaly</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5249">
+          <attributeName>R_DYNHT</attributeName>
+          <attributeDefinition>Reported Dynamic Height</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reported Dynamic Height</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5250">
+          <attributeName>R_O2</attributeName>
+          <attributeDefinition>Reported milliliters of oxygen per liter of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milliliterPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5251">
+          <attributeName>R_O2Sat</attributeName>
+          <attributeDefinition>Reported Oxygen Saturation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5252">
+          <attributeName>R_SIO3</attributeName>
+          <attributeDefinition>Reported Silicate Concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5253">
+          <attributeName>R_PO4</attributeName>
+          <attributeDefinition>Reported Phosphate Concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5254">
+          <attributeName>R_NO3</attributeName>
+          <attributeDefinition>Reported Nitrate Concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5255">
+          <attributeName>R_NO2</attributeName>
+          <attributeDefinition>Reported Nitrite Concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5256">
+          <attributeName>R_NH4</attributeName>
+          <attributeDefinition>Reported Ammonium Concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5257">
+          <attributeName>R_CHLA</attributeName>
+          <attributeDefinition>Reported Chlorophyll-a</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5258">
+          <attributeName>R_PHAEO</attributeName>
+          <attributeDefinition>Reported Phaeophytin</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5259">
+          <attributeName>R_PRES</attributeName>
+          <attributeDefinition>Pressure in decibars</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>decibar</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5260">
+          <attributeName>R_SAMP</attributeName>
+          <attributeDefinition>Sample number</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5261">
+          <attributeName>R_Oxy_µmol/Kg</attributeName>
+          <attributeDefinition>Reported Oxygen in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5262">
+          <attributeName>DIC1</attributeName>
+          <attributeDefinition>Replicate 1 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5263">
+          <attributeName>DIC2</attributeName>
+          <attributeDefinition>Replicate 2 - Dissolved Inorganic Carbon in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5264">
+          <attributeName>TA1</attributeName>
+          <attributeDefinition>Replicate 1 - Total Alkalinity in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5265">
+          <attributeName>TA2</attributeName>
+          <attributeDefinition>Replicate 2 - Total Alkalinity in micro moles per kilogram of seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerKilogram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="78.table_269.col_5268">
+          <attributeName>DIC Quality Comment</attributeName>
+          <attributeDefinition>Quality Comments associated with DIC sampling, drawing and analysis</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Quality Comments associated with DIC sampling, drawing and analysis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="length" name="length">
+          <stmml:dimension name="length"/>
+        </stmml:unitType>
+        <stmml:unitType id="angle" name="angle">
+          <stmml:dimension name="angle"/>
+        </stmml:unitType>
+        <stmml:unitType id="arealMassDensity" name="arealMassDensity">
+          <stmml:dimension name="length" power="-2"/>
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unitType id="time" name="time">
+          <stmml:dimension name="time"/>
+        </stmml:unitType>
+        <stmml:unitType id="speed" name="speed">
+          <stmml:dimension name="length"/>
+          <stmml:dimension name="time" power="-1"/>
+        </stmml:unitType>
+        <stmml:unitType id="pressure" name="pressure">
+          <stmml:dimension name="length"/>
+          <stmml:dimension name="mass"/>
+          <stmml:dimension name="time" power="-2"/>
+        </stmml:unitType>
+        <stmml:unitType id="temperature" name="temperature">
+          <stmml:dimension name="temperature"/>
+        </stmml:unitType>
+        <stmml:unitType id="dimensionless" name="dimensionless">
+          <stmml:dimension name="dimensionless"/>
+        </stmml:unitType>
+        <stmml:unitType id="amountOfSubstanceConcentration" name="amountOfSubstanceConcentration">
+          <stmml:dimension name="length" power="-3"/>
+          <stmml:dimension name="amount"/>
+        </stmml:unitType>
+        <stmml:unitType id="massDensity" name="massDensity">
+          <stmml:dimension name="length" power="-3"/>
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unitType id="volumePerVolume" name="volumePerVolume">
+          <stmml:dimension name="length" power="3"/>
+          <stmml:dimension name="mass" power="-3"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="rad" id="radian" name="radian" unitType="angle">
+          <stmml:description>2 pi radians comprise a unit circle.</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="kg/m²" id="kilogramsPerSquareMeter"
+          name="kilogramsPerSquareMeter" unitType="arealMassDensity">
+          <stmml:description>kilograms per square meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m/s" id="metersPerSecond"
+          name="metersPerSecond" unitType="speed">
+          <stmml:description>meters per second</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="Pa" id="pascal" name="pascal" unitType="pressure">
+          <stmml:description>pascal</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="K" id="kelvin" name="kelvin" unitType="temperature">
+          <stmml:description>SI unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="num/num" constantToSI="0"
+          id="numberPerNumber" multiplierToSI="1" name="numberPerNumber"
+          parentSI="gramsPerGram" unitType="dimensionless">
+          <stmml:description>ratio with no scaling</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mol" id="mole" name="mole" unitType="amount">
+          <stmml:description>SI unit of substance amount</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="kilogramPerCubicMeter"
+          name="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>kilogram per cubic meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="M" constantToSI="0" id="molarity"
+          multiplierToSI="1000" name="molarity"
+          parentSI="molePerCubicMeter" unitType="amountOfSubstanceConcentration">
+          <stmml:description>molarity = moles/liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mile" constantToSI="0" id="mile"
+          multiplierToSI="1609.34" name="mile" parentSI="meter" unitType="length">
+          <stmml:description>5280 ft or 1609.344 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="º" constantToSI="0" id="degree"
+          multiplierToSI="0.0174533" name="degree" parentSI="radian" unitType="angle">
+          <stmml:description>360 degrees comprise a unit circle</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/m²" constantToSI="0"
+          id="milligramPerMeterSquared" multiplierToSI="0.000001"
+          name="milligramPerMeterSquared"
+          parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity">
+          <stmml:description>milligrams Per Square Meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ft" constantToSI="0" id="foot"
+          multiplierToSI="0.3048" name="foot" parentSI="meter" unitType="length">
+          <stmml:description>12 inches</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="sec" id="second" name="second" unitType="time">
+          <stmml:description>SI unit of time</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" constantToSI="0" id="knot"
+          multiplierToSI="0.514444" name="knot"
+          parentSI="metersPerSecond" unitType="speed">
+          <stmml:description>knots</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mbar" constantToSI="0" id="millibar"
+          multiplierToSI="100" name="millibar" parentSI="pascal" unitType="pressure">
+          <stmml:description>millibar</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>A common unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="PSU" id="practicalSalinityUnit"
+          name="practicalSalinityUnit" unitType="dimensionless">
+          <stmml:description>practical salinity units</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="number" name="number" unitType="dimensionless">
+          <stmml:description>a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" constantToSI="0"
+          id="micromolesPerKilogram" multiplierToSI="0.001"
+          name="micromolesPerKilogram" parentSI="mole" unitType="amountOfSubstanceConcentration">
+          <stmml:description>concentration, used in oceanography</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µmol/L" constantToSI="0"
+          id="micromolePerLiter" multiplierToSI="0.000001"
+          name="micromolePerLiter" parentSI="molarity" unitType="amountOfSubstanceConcentration">
+          <stmml:description>micromoles per liter of solution</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/m³" constantToSI="0"
+          id="milligramPerMeterCubed" multiplierToSI="0.000001"
+          name="milligramPerMeterCubed" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>milligrams Per Cubic Meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="ml/L" id="milliliterPerLiter"
+          name="milliliterPerLiter" unitType="volumePerVolume">
+          <stmml:description>milliters of solution per total volume</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="dbar" constantToSI="0" id="decibar"
+          multiplierToSI="10000" name="decibar" parentSI="pascal" unitType="pressure">
+          <stmml:description>pressure, oceanography</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µmol/kg" id="micromolePerKilogram"
+          name="micromolePerKilogram" unitType="amountOfSubstanceConcentration">
+          <stmml:description>µmol/kg = micro moles per kilogram of substance</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

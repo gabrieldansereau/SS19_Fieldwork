@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.ltern.org.au/knb/metacat/ltern.32.35/html" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" ">
+    <dataset>
+        <title>Three Parks Savanna Fire-effects Plot Network: Fire Scar Mapping, Kakadu National Park, Northern Territory, Australia, 2012</title>
+        <creator id="1412120493053">
+            <individualName>
+                <salutation>Professor</salutation>
+                <givenName>Jeremy</givenName>
+                <surName>Russell-Smith</surName>
+            </individualName>
+            <organizationName>Charles Darwin University</organizationName>
+            <positionName>Plot Leader</positionName>
+            <address>
+                <city>Darwin</city>
+                <administrativeArea>NT</administrativeArea>
+                <postalCode>0909</postalCode>
+            </address>
+            <phone phonetype="voice">08 8988 6215</phone>
+            <electronicMailAddress>jeremy.russell-smith@cdu.edu.au</electronicMailAddress>
+        </creator>
+        <creator id="1415083738831">
+            <organizationName>Director of National Parks (Parks Australia)</organizationName>
+        </creator>
+        <creator id="1433123208720">
+            <organizationName>Darwin Centre for Bushfires Research, Charles Darwin University</organizationName>
+        </creator>
+        <associatedParty id="1412120671807">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Andrew</givenName>
+                <surName>Edwards</surName>
+            </individualName>
+            <organizationName>Charles Darwin University</organizationName>
+            <positionName>Participant</positionName>
+            <address>
+                <city>Darwin</city>
+                <administrativeArea>Northern Territory</administrativeArea>
+                <postalCode>0909</postalCode>
+            </address>
+            <electronicMailAddress>andrew.edwards@cdu.edu.au</electronicMailAddress>
+            <role>Content Provider</role>
+        </associatedParty>
+        <pubDate>2014-09-26</pubDate>
+        <abstract>
+            <para>Geotiff Images of fire affected areas in Kakadu National Park for the years 2012 based on the NASA Moderate Resolution Imaging Spectroradiometer (MODIS).  These Images are clipped from geotiff images of fire affected areas in far northern Australia available from North Australian Fire Information (NAFI) website. The images have a resolution of 250 m (pixel size) and each burnt pixel is tagged with the month that covers the largest part of the date interval in which the burnt pixel was detected. These data cover Kakadu National Park, but are part of a larger data set that extends across far northern WA down to 21 degrees S, across the entire NT (down to 26 degrees S) and all of Qld (down to 29 degrees S). The NAFI mapping covers the years 2000 to present and since 2012, the mapping also includes northern SA down to 29 degrees S. Mapping landscapes north of 20 degrees S in WA, NT and Qld has been validated by aerial and on-ground transects across northern Australia.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>North Australia Fire Information</keyword>
+            <keyword>NAFI</keyword>
+            <keyword>History</keyword>
+            <keyword>Fire</keyword>
+            <keywordThesaurus>Keywords List</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Earth Science &gt; Biosphere &gt; Ecological Dynamics &gt; Fire Ecology</keyword>
+            <keyword>Earth Science &gt; Biosphere &gt; Terrestrial Ecosystems &gt; Savannas</keyword>
+            <keywordThesaurus>GCMD</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Fire</keyword>
+            <keywordThesaurus>LTERN Monitoring Themes</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0502</keyword>
+            <keywordThesaurus>ANZSRC-FOR</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use. Special Conditions: Prior to publication of research utilising these data — the data provider (Jeremy Russell-Smith) must be consulted and provide consent. Attribution as displayed in the LTERN data portal.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.ltern.org.au/knb/metacat/ltern.32.35/html</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Kakadu National Park: the mapping is clipped to the boundary of Kakadu National Park, NT from fire scar mapping that extends across northern Australia, inclusive of all the Northern Territory.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>131.88766</westBoundingCoordinate>
+                    <eastBoundingCoordinate>133.00257</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-12.11059</northBoundingCoordinate>
+                    <southBoundingCoordinate>-13.94659</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2012</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact id="1408532894172">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Peter</givenName>
+                <surName>Jacklyn</surName>
+            </individualName>
+            <organizationName>Charles Darwin University</organizationName>
+            <positionName>Fire North coordinator</positionName>
+            <address>
+                <city>Darwin</city>
+                <administrativeArea>Northern Territory</administrativeArea>
+                <postalCode>0909</postalCode>
+            </address>
+            <electronicMailAddress>peter.jacklyn@cdu.edu.au</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Fire Mapping</title>
+                        <para>Imagery from NASA (MODIS) and NOAA (AVHRR) satellites is downloaded and processed using GIS software to identify and map fire scars for each month of the year. The processing includes detecting hot spots from current fires and using difference images to highlight previous fire scars.</para>
+                    </section>
+                </description>
+                <instrumentation>ArcGIS 10.1, eCognition Developer8.6</instrumentation>
+            </methodStep>
+        </methods>
+        <project>
+            <title>North Australian Fire Information NAFI</title>
+            <personnel>
+                <references>1408532894172</references>
+                <role>Content Provider</role>
+            </personnel>
+            <personnel>
+                <references>1412120493053</references>
+                <role>Principal Investigator</role>
+            </personnel>
+            <funding>
+                <para>These data is collected as part of an ongoing program to map fire scars across northern Australian savannas and all of the NT. All fire scar mapping is available on the NAFI website and funded directly by the Federal Government and through Territory NRM. The site is hosted at Charles Darwin University. Hotspot data from Landgate W.A. and Geoscience Australia is used to present hotspots and to highlight fires in the process of mapping fire scars.</para>
+            </funding>
+        </project>
+        <dataTable id="1411698315225">
+            <entityName>tpsk_satellite_derived_fire_mapping_2012_p145t595.zip (Zipped ESRI Shapefile)</entityName>
+            <physical>
+                <objectName>tpsk_satellite_derived_fire_mapping_2012_p145t595.zip</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/zip</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.32.35/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList id="bce75bcd-5f2b-4abe-a224-6b51870fde11">
+                <attribute id="1412120853833">
+                    <attributeName>id</attributeName>
+                    <attributeDefinition>Unique code for each fire scar</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1412120922179">
+                    <attributeName>gridcode</attributeName>
+                    <attributeDefinition>Gridcode number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1412121049859">
+                    <attributeName>month</attributeName>
+                    <attributeDefinition>Month of fire</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>MM</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <additionalLinks>
+                <url name="Three Parks Savanna Fire-effects Plot Network homepage">http://www.ltern.org.au/index.php/ltern-plot-networks/three-parks-savanna</url>
+            </additionalLinks>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

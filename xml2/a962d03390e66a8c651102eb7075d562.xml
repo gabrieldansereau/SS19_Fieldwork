@@ -1,0 +1,38 @@
+<DryadDataFile xmlns="http://purl.org/dryad/schema/terms/v3.1" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bibo="http://purl.org/dryad/schema/dryad-bibo/v3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/dryad/schema/terms/v3.1 http://datadryad.org/profile/v3.1/dryad.xsd">
+  <dcterms:type>file</dcterms:type>
+  <dcterms:creator>Kaltenpoth, Martin</dcterms:creator>
+  <dcterms:creator>Steiger, Sandra</dcterms:creator>
+  <dcterms:title>Alignment of 16S rRNA sequences of the 50 most abundant bacterial OTUs associated with the hindgut of carrion beetles (Coleoptera, Silphidae)</dcterms:title>
+  <dcterms:identifier>https://doi.org/10.5061/dryad.2m854/1</dcterms:identifier>
+  <dcterms:rights>http://creativecommons.org/publicdomain/zero/1.0/</dcterms:rights>
+  <dcterms:description>Genomic DNA was extracted from the hindguts of males and females of eight species of carrin beetles (Coleoptera, Silphidae), respectively, and subjected to bacterial tag-encoded FLX amplicon pyrosequencing. Reads were quality-trimmed and analyzed using QIIME (Caporaso et al. 2010). After a multi-step OTU picking strategy with cdhit (Li &amp; Godzik 2006) and uclust (Edgar 2010), an OTU table was generated describing the occurrence of bacterial phylotypes within the samples, and all OTUs that amounted to less than 0.1% in all of the samples (=2166 OTUs) were excluded from further analysis. Of the remaining OTUs, 23 were removed due to their likely chimeric origin as identified by UCHIME, which left 522 OTUs for the final analysis. For phylogenetic reconstruction, the 50 most abundant OTUs across host taxa were selected, and their representative sequences (picked with –m longest using pick_rep_set.py in QIIME) were trimmed to 300 bp in order to remove low-quality end regions. The resulting sequences as well as closely related sequences identified by BLASTn against the NCBI nr database were aligned to the SILVA SSU database (Pruesse et al. 2007) using the SINA aligner (Pruesse et al. 2012) and imported into ARB (Ludwig et al. 2004). Further representative relatives were included, and the final alignment was exported, and common gaps were removed.</dcterms:description>
+  <dcterms:subject>Bacteria</dcterms:subject>
+  <dcterms:subject>Coevolution</dcterms:subject>
+  <dcterms:subject>Host Parasite Interactions</dcterms:subject>
+  <dcterms:subject>Insects</dcterms:subject>
+  <dcterms:subject>Microbial Biology</dcterms:subject>
+  <dcterms:subject>Species Interactions</dcterms:subject>
+  <dcterms:subject>Mutualism</dcterms:subject>
+  <dcterms:subject>symbiosis</dcterms:subject>
+  <dcterms:subject>microbiota</dcterms:subject>
+  <dcterms:subject>burying beetle</dcterms:subject>
+  <dwc:scientificName>Silphidae</dwc:scientificName>
+  <dwc:scientificName>Silphinae</dwc:scientificName>
+  <dwc:scientificName>Nicrophorinae</dwc:scientificName>
+  <dwc:scientificName>Nicrophorus</dwc:scientificName>
+  <dwc:scientificName>Necrophila</dwc:scientificName>
+  <dwc:scientificName>Oiceoptoma</dwc:scientificName>
+  <dwc:scientificName>Ignatzschineria</dwc:scientificName>
+  <dwc:scientificName>Schineria</dwc:scientificName>
+  <dwc:scientificName>Wohlfahrtiimonas</dwc:scientificName>
+  <dwc:scientificName>Tissierella</dwc:scientificName>
+  <dwc:scientificName>Koukoulia</dwc:scientificName>
+  <dwc:scientificName>Xanthomonadecae</dwc:scientificName>
+  <dcterms:spatial>USA</dcterms:spatial>
+  <dcterms:spatial>Germany</dcterms:spatial>
+  <dcterms:dateSubmitted>2013-07-24T18:28:52Z</dcterms:dateSubmitted>
+  <dcterms:available>2013-09-18T19:22:29Z</dcterms:available>
+  <dcterms:provenance>Made available in DSpace on 2013-07-24T18:28:52Z (GMT). No. of bitstreams: 1
+Bacteria_top50_OTUs_ARB_alignment_with_additional_seqs_renamed_trimmed.fasta: 79839 bytes, checksum: 107fa1c86f429ebabfba72b7f7d1237e (MD5)</dcterms:provenance>
+  <dcterms:isPartOf>https://doi.org/10.5061/dryad.2m854</dcterms:isPartOf>
+</DryadDataFile>

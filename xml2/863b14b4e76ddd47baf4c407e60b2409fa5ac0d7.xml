@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111183.0"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV-ADMIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea in 6 Plot Soil Samples
+</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <pubDate>2016-06-24</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures temperature-dependent latitudinal microbial diversity sampled for in forest soils based on taxonomic and phylogenetic diversity observed on 16S rRNA genes for bacteria and archaea in the V3-V4 regions by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">16S</keyword>
+      <keyword keywordType="theme">rRNA</keyword>
+      <keyword keywordType="theme">bacteria</keyword>
+      <keyword keywordType="theme">archaea</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">OTUs</keyword>
+      <keyword keywordType="theme">Diversity</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">HJ Andrews LTER</keyword>
+      <keyword keywordType="theme">Niwot Ridge LTER</keyword>
+      <keyword keywordType="theme">Luquillo LTER</keyword>
+      <keyword keywordType="theme">Harvard Forest LTER</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">Barro Colorado Island</keyword>
+      <keyword keywordType="theme">Mt. Bigelow, Arizona</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-16s-rrna-genes-bacteria-and-archaea-6-plot-soil-samples
+</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ye</givenName>
+        <surName>Deng</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>dengye@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+To determine whether soil microbes exhibit latitudinal diversity gradients and whether such patterns are temperature dependent, we examined the latitudinal diversity patterns of microbes (bacteria, fungi, N fixing bacteria) in 126 soil samples from the six experimental sites (HJ Andrews, Luquillo, Barro Colorado, Niwot Ridge, Harvard Forest, and Coweeta). At each site, a central subplot was located first and then laid out 1-m2 subplots in four directions with distances of 1m, 10m, 50m, 100m and 200m from the central subplot. To determine the biodiversity of microbial communities, three genes targeting different taxonomic groups with different taxonomic resolutions were sequenced: The first of these are the V3-V4 regions of the 16S rRNA genes for determining the biodiversity of bacteria and archaea. All of the target genes were amplified and sequenced to a great depth using Illumina MiSeq. An average of 64K sequence reads were obtained for the 16S gene. The numbers of OTUs (Operational Taxonomic Units) obtained varied considerably (1.6-5.8 times) based on different sequence similarity thresholds. Such sequencing efforts appear to be reasonably sufficient to estimate the diversity of the microbial communities examined, at least for the dominant populations, as indicated by rarefaction analysis, which showed that the rarefaction curves approached to saturation at different cutoffs for the three target genes. Amplicon Sequencing Analysis protocols are as follows: Detail steps: 1.	Raw data. The raw data includes three files: R1.fastq, R2.fastq, and I1.fastq. The first files are read files contains real sequences in FASTQ format and the third file is the index file which contains the barcode sequence information for each corresponding reads in the first two files. Here, to make an example, we trim the files and only included 10000 entries in each file. 2.	Upload. All the files need to be uploaded into our sequencing analysis server. Big files larger than 2GB need to be uploaded through an ftp server. 3.	Remove PhiX sequences. The PhiX sequences are added to increase the diversity of the nucleotides in each position and enhance the sequencing accuracy. These sequences are removed here using BLAST against the PhiX genome sequences. (Output: Galaxy8-10) 4.	Split sequence by barcodes. A barcode list needs to be provided to extract these barcode from the index file so each sequence will be assigned to the sample its barcode represents. After this step, the sample name (barcode name) will be attached to every sequence ID linked by "--". (Output: Galaxy13, 14) 5.	Remove Primer (optional). This step is only needed if the primers are included in the reads. It depends on the sequencing strategy. If proceeds, the primers will be removed from the beginning of the reads within a certain range. (Output: Galaxy16,17) 6.	Join pair-end reads. A program called FLASH is used to join the forward and reversed reads together. (Output: Galaxy20) 7.	Quality trim. The quality trimming process is carried out by Btrim . (Output: Galaxy24) 8.	Extract FASTA from FASTQ. The FASTQ format contains information of both sequences and their quality. For further analysis based, sequences in FASTA files are the only information needed, though users can still get the quality files here if they want. (Output: Galaxy26) 9.	Remove sequences contain N. N is undetermined base which could indicate unreliable sequences after it. User can choose to remove completely or trim at the position of N to keep the remaining part of the sequences. (Output: Galaxy27) 10.	Filter sequences by length. If the sequences are too short (this usually doesn't happen for Illumina sequences after joining pair-ends reads), they will greatly affect the clustering results when generating OTUs and induce errors. And if the sequences are too long usually means they are sequencing errors. (Output: Galaxy29) 11.	Remove potential chimeras using Uchime . To remove chimeras, which are commonly created during DNA sample amplification by PCR, U-CHIME is used. There are two modes in the U-CHIME algorithm: de novo and reference database. The de novo mode uses abundance information to detect chimeras on the assumption that chimeras are less abundant than their parents because they must've undergone fewer rounds of amplification. We usually use the reference database mode to save computational time. The Greengene 16S dataset is used as reference for 16S sequencing analysis. To save more computational time, all the identical sequences are removed from the dataset and a redundancy map contains all the identical sequence ID is also generated for future use. (Output: Galaxy32,33) 12.	Correct frame shifts for protein encoding sequences (optional). When the sequences are from protein encoding genes, correct open reading frames (ORFs) need to be assured to allow accurate translation and alignment in the future analysis. A program called FrameBot (developed by RDP, not published yet) is used to perform this process. A reference file of protein sequences needs to be provided, and frame shift-corrected protein and DNA sequences are generated. 13.	Resample (optional). Resample the sequences so that each sample has the same sequence number. 14.	Pick OTUs. This step will use clustering methods to form OTUs (operational taxonomy units) based on sequence similarity. Now we have three methods that users can choose from: CD-HIT, UCLUST, McClust. McClust is a complete lineage algorithm which provides more accurate clustering results, but it is very time and space consuming. For large sequence datasets, CD-HIT and UCLUST are recommended. For millions of sequences generated from Illumina platform, UCLUST should be chosen to do the clustering. The clusters generated from this step will be treated as OTUs for further analysis. (Output: Galaxy35) 15.	Generate OTU table. In the OTU table, the rows represent OTUs and columns are samples, the values between are the sequence numbers belong to the corresponding OTUs as well as corresponding samples. The redundancy map from the UCHIME step is also needed to add back the identical sequences. OTU tables w/o singlets are generated and also their corresponding representative sequences. (Output: Galaxy36-39)
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <otherEntity>
+      <entityName>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea in 6 Plot Soil Samples - UParse Resample 20K
+</entityName>
+      <entityDescription>
+The results of sampling for OTUs all locations for diversity of 16S rRNA Genes for Bacteria and Archaea using UParse method - resampled.
+</entityDescription>
+      <physical>
+        <objectName>UParse_resample_20K.txt</objectName>
+        <size>9730450</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111183/0/58198587a80e1bd2dbdb96e806cdb2bc</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-09-23</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-26</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea in 6 Plot Soil Samples - UClust Resample 34K
+</entityName>
+      <entityDescription>
+The results of sampling for OTUs all locations for diversity of 16S rRNA Genes for Bacteria and Archaea using UClust method - resampled.
+</entityDescription>
+      <physical>
+        <objectName>UClust_resample_34954.txt</objectName>
+        <size>76915649</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111183/0/22e5217a28e11ead63837afb79ce8f1d</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-01-16</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-01-18</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea in 6 Plot Soil Samples - UParse Original
+</entityName>
+      <entityDescription>
+The results of sampling for OTUs all locations for diversity of 16S rRNA Genes for Bacteria and Archaea using UParse method (original).
+</entityDescription>
+      <physical>
+        <objectName>UParse_original.txt</objectName>
+        <size>10892367</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111183/0/d70effffcfee47d080d9e48d028a261b</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-09-09</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-11</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea in 6 Plot Soil Samples - UClust Original
+</entityName>
+      <entityDescription>
+The results of sampling for OTUs all locations for diversity of 16S rRNA Genes for Bacteria and Archaea using UClust method (original).
+</entityDescription>
+      <physical>
+        <objectName>UClust_original.txt</objectName>
+        <size>113312193</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111183/0/c154335780464eae0428e580ae95e812</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-09-11</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-13</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

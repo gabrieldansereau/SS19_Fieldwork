@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-pal.247.1" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=PAL,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>247</alternateIdentifier>
+    <title>Bacterial abundance and produciton at the Palmer Station LTER sites B and E in May 2011 and 2012</title>
+    <creator>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Cottrell</surName>
+      </individualName>
+      <organizationName>University of Delaware</organizationName>
+      <electronicMailAddress>mattcott@udel.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2016</pubDate>
+    <abstract>The data described here were collected as part of a study of photoheterotrophic microbes in Antarctic waters (NSF OPP 0838830).  This sampling was conducted in May outside of the LTER sampling season at Palmer Station.  Samplng was conducted by pumping water from a depth of 1 m into carboys that were returned to the lab.</abstract>
+    <keywordSet>
+      <keyword>bacteria</keyword>
+      <keyword>abundance</keyword>
+      <keyword>bacterial abundance</keyword>
+      <keyword>production</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>chlorophyll a</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+    with the express understanding that data users will properly acknowledge the originating investigator. Use or
+    reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+    from the responsible party.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/data/pallter/datasets?action=summary&amp;id=247</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>PAL LTER Information Manager</positionName>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <electronicMailAddress>pallter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office</deliveryPoint>
+        <deliveryPoint>208 Geoscience</deliveryPoint>
+        <deliveryPoint>61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>DAPI direct counts</title>
+            <para>Seawater samples preserved with formaldehyde were stained with DAPI and bacteria were counted on polycarbonate filters by epifluorescence microscopy</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Bacterial production</title>
+            <para>Seawater samples were incubated with 3H-leucine and then macromolecules were extracted using TCA using the centrifuge method.  Radioativity taken up was assyed by liquid scintillation counting.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="dat_247">
+      <entityName>PalmerStationMicrobialData</entityName>
+      <entityDescription>Main data table for dataset</entityDescription>
+      <physical>
+        <objectName>247.1.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-pal/247/1/d33123b0f4e403ff5cdd0c4a590f049b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="dat_247.studyName">
+          <attributeName>studyName</attributeName>
+          <attributeDefinition>Sampling expedition from which data were collected, generated, etc.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling expedition from which data were collected, generated, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="dat_247.col_4670">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Year/month/day when sample was collected</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4671">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Palmer LTER site</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Palmer LTER site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4672">
+          <attributeName>Actual Depth</attributeName>
+          <attributeDefinition>Actual sampling depth</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4673">
+          <attributeName>Salinity</attributeName>
+          <attributeDefinition>Salinity</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>practicalSalinityUnit</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4674">
+          <attributeName>T</attributeName>
+          <attributeDefinition>Temperature</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4675">
+          <attributeName>Chl a</attributeName>
+          <attributeDefinition>Chlorophyll a concentration</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4680">
+          <attributeName>Chl a SD</attributeName>
+          <attributeDefinition>Chlorophyll a concentration standard deviation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4676">
+          <attributeName>Leu Incorp</attributeName>
+          <attributeDefinition>Leucine incorporation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>picomolePerLiterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4681">
+          <attributeName>Leu Incorp SD</attributeName>
+          <attributeDefinition>Leucine incorporation standard deviation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>picomolePerLiterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4677">
+          <attributeName>TdR Incorp</attributeName>
+          <attributeDefinition>Thymidine incorporation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>picomolePerLiterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>Not done</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4682">
+          <attributeName>TdR Incorp SD</attributeName>
+          <attributeDefinition>Thymidine incorporation standard deviation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>picomolePerLiterPerHour</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4678">
+          <attributeName>Bacterial Abundance</attributeName>
+          <attributeDefinition>Bacterial Abundance</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cells/ml</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="dat_247.col_4683">
+          <attributeName>Bacterial Abundance SD</attributeName>
+          <attributeDefinition>Bacterial Abundance standard deviation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>cells/ml</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="length" name="length">
+          <stmml:dimension name="length"/>
+        </stmml:unitType>
+        <stmml:unitType id="dimensionless" name="dimensionless">
+          <stmml:dimension name="dimensionless"/>
+        </stmml:unitType>
+        <stmml:unitType id="temperature" name="temperature">
+          <stmml:dimension name="temperature"/>
+        </stmml:unitType>
+        <stmml:unitType id="massDensity" name="massDensity">
+          <stmml:dimension name="length" power="-3"/>
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unitType id="amountOfSubstanceWeightFlux" name="amountOfSubstanceWeightFlux">
+          <stmml:dimension name="mass" power="-1"/>
+          <stmml:dimension name="time" power="-1"/>
+          <stmml:dimension name="amount"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="K" id="kelvin" name="kelvin" unitType="temperature">
+          <stmml:description>SI unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="kilogramPerCubicMeter"
+          name="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>kilogram per cubic meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="PSU" id="practicalSalinityUnit"
+          name="practicalSalinityUnit" unitType="dimensionless">
+          <stmml:description>practical salinity units</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>A common unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="pmol/L/hr"
+          id="picomolePerLiterPerHour" name="picomolePerLiterPerHour" unitType="amountOfSubstanceWeightFlux">
+          <stmml:description>picomoles per liter of solution per hour (concentration flux)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="cells/ml" name="cells/ml" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

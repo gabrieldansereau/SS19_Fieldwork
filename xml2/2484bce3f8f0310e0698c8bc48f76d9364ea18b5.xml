@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.360.1"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/5a8c6398661fad0bc8f1f5119b1150d6</alternateIdentifier>
+    <title>Cascade Project at North Temperate Lakes LTER High Frequency Sonde Data from Food Web Resilience Experiment 2008 - 2011</title>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mike</givenName>
+        <surName>Pace</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <address>
+        <deliveryPoint>Department of Environmental Sciences</deliveryPoint>
+        <city>Charlottsville</city>
+        <administrativeArea>VA</administrativeArea>
+        <postalCode>22901</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">https://orcid.org/0000-0001-5945-6131</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jon</givenName>
+        <surName>Cole</surName>
+      </individualName>
+      <organizationName>Cary Institute of Ecosystem Studies</organizationName>
+      <address>
+        <city>Milbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>colej@caryinstitute.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Ryan</givenName>
+        <surName>Batt</surName>
+      </individualName>
+      <organizationName>Rutgers University</organizationName>
+      <address>
+        <deliveryPoint>Department of Ecology, Evolution, and Natural Resources</deliveryPoint>
+        <city>New Brunswick</city>
+        <administrativeArea>NJ</administrativeArea>
+        <postalCode>08901</postalCode>
+        <country>US</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cal</givenName>
+        <surName>Buelo</surName>
+      </individualName>
+      <organizationName>University of Virginia</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>cbuelo10@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">https://orcid.org/0000-0001-7909-1440</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jason</givenName>
+        <surName>Kurzweil</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>j.kurtzweil@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2018-09-11</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>High-frequency sonde data collected from the surface waters of two lakes in Upper Peninsula of Michigan during the summers of 2008-2011. The food web of Peter Lake was slowly transformed by gradual additions of Largemouth bass (Micropterus salmoides)  while Paul Lake was an unmanipulated  reference. Sonde data were used to calculate resilience indicators to evaluate the stability of the food web and to calculate ecosystem metabolism.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keyword>NTL related project</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Related Projects</keyword>
+      <keyword>Cascade</keyword>
+      <keyword>instrumented buoys</keyword>
+      <keywordThesaurus>NTL Themes</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>chlorophyll</keyword>
+      <keyword>dissolved oxygen</keyword>
+      <keyword>lakes</keyword>
+      <keyword>ph</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>temperature</keyword>
+      <keyword>wind speed</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>This information is released to the public domain under the Creative Commons license CC-BY 4.0 (see: https://creativecommons.org/licenses/by/4.0/). It may be distributed, remixed, and built upon. You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. The consumer of these data ("Data User" herein) should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://lter.limnology.wisc.edu/content/cascade-project-north-temperate-lakes-lter-high-frequency-sonde-data-food-web-resilience</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>University of Notre Dame Environmental Research Center, Vilas County, WI and Gogebic County, MI, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.506</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.4951</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.2547</northBoundingCoordinate>
+          <southBoundingCoordinate>46.2501</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-05-04</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-09-03</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="facsimile">(608) 265-2340</phone>
+      <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+      <onlineUrl>http://limnology.wisc.edu/steve_carpenter.htm</onlineUrl>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8097-8700</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>NTL</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ntl.infomgr@gmail.com</electronicMailAddress>
+    </contact>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Data were collected at 5 minute intervals using in-situ automated sensors (sondes). All measurements and samples were collected from a stationary raft over the deepest part of the lake.
+Sondes were suspended from floats with probes at a depth of 0.75m below the surface. Sonde sensors were cleaned daily in the field and calibrated monthly following manufacturer guidelines. Peter and Paul lakes were each monitored with two YSI multiparameter sondes (model 6600 V2-4) fitted with optical DO (model 6150), pH (model 6561), optical Chl-a (model 6025), and conductivity-temperature (model 6560) probes. Sensor measurements were made at 0.75 m every 5 min and were calibrated weekly. PAR was measured and the UNDERC meteorology station maintained by the University of Notre Dame or by the North Temperate Lakes Weather Station at Woodruff Airport.
+Outliers were replaced by NA. Occasional gaps in the record due to instrument cleaning are NA.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>For more information see this paper and its online appendix:
+Batt, R. D., S. R. Carpenter, J. J. Cole, M. L. Pace, and R. A. Johnson. 2013. Changes in ecosystem resilience detected in automated measures of ecosystem metabolism during a whole-lake manipulation. Proceedings of the National Academy of Sciences 110: 17398-17403.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Important note on dissolved oxygen saturation:  YSI uses the convention that % saturation be measured relative to sea level. Because the lake surfaces are at elevation, atmospheric pressure is generally lower than at sea level. As a result, even if the dissolved oxygen is in equilibrium with the atmosphere, at these lakes the YSI doSat will read appr. 94.2 percent (because atmospheric pressure is appr. 94.2percent at UNDERC elevation relative to sea level atmospheric pressure).</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative Research: Leading Indicators of Regime Shift - an Ecosystem Experiment</title>
+      <personnel>
+        <individualName>
+          <givenName>Stephen</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <electronicMailAddress>steve.carpenter@wisc.edu</electronicMailAddress>
+        <userId directory="https://orcid.org">https://orcid.org/0000-0001-8097-8700</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation NSF DEB 0715042</funding>
+      <relatedProject>
+        <title>Collaborative Research: Leading Indicators of Regime Shift - an Ecosystem Experiment</title>
+        <personnel>
+          <individualName>
+            <givenName>Mike</givenName>
+            <surName>Pace</surName>
+          </individualName>
+          <electronicMailAddress>pacem@virginia.edu</electronicMailAddress>
+          <userId directory="http://orcid.org">https://orcid.org/0000-0001-5945-6131</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>National Science Foundation NSF DEB 0715054</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>squealSondesMet_08to11_forOPUS.csv</entityName>
+      <entityDescription>Five minute met data from buoy in Peter and Paul Lakes 2008 - 2011</entityDescription>
+      <physical>
+        <objectName>squealSondesMet_08to11_forOPUS.csv</objectName>
+        <size>34216860</size>
+        <authentication method="MD5">ae94f3ff2914357292e22e9f55137ea6</authentication>
+        <authentication method="SHA-1">677b921b9568fd6b72c6e17cddd98047b9e4dc44</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/360/1/592195c90b43a36ba3f09cd99021225e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lake</attributeName>
+          <attributeLabel>lake</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Peter</code>
+                    <definition>Peter Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Paul</code>
+                    <definition>Paul Lake</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year of sampling</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>doy</attributeName>
+          <attributeLabel>doy</attributeLabel>
+          <attributeDefinition>day of year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalDay</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>datetime</attributeName>
+          <attributeLabel>datetime</attributeLabel>
+          <attributeDefinition>date and time of sampling</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wind</attributeName>
+          <attributeLabel>wind</attributeLabel>
+          <attributeDefinition>Wind velocity measured 2 m above lake surface</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>metersPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>par</attributeName>
+          <attributeLabel>par</attributeLabel>
+          <attributeDefinition>Photosynthetically active radiation at surface</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerSquareMeterPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>zmix</attributeName>
+          <attributeLabel>zmix</attributeLabel>
+          <attributeDefinition>Depth of mixed layer</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>stemp</attributeName>
+          <attributeLabel>stemp</attributeLabel>
+          <attributeDefinition>Lake water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>chl</attributeName>
+          <attributeLabel>chl</attributeLabel>
+          <attributeDefinition>Water chlorophyll concentration</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeLabel>pH</attributeLabel>
+          <attributeDefinition>Negative log [H+]</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>doSat</attributeName>
+          <attributeLabel>doSat</attributeLabel>
+          <attributeDefinition>dissolved oxygen percent saturation, as measured by optical DO probe on YSI sonde in percent</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>254526</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="umol/m^2/s"
+          id="micromolesPerSquareMeterPerSecond"
+          name="micromolesPerSquareMeterPerSecond" unitType="">
+          <stmml:description>A measure of mass per area per time</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

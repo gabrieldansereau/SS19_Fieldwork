@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" 
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  packageId="knb-lter-mcr.1041.1" scope="system" system="knb" 
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="1041">
+    <alternateIdentifier>knb-lter-mcr.1041</alternateIdentifier>
+    <shortName>Oecologica Fish and Coral Change</shortName>
+    <title>MCR LTER: Coral Reef: Changes in the abundance of fish functional groups: Adam et al. 2014 Oecologia</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="tadam">
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Adam</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>thomas.adam@lifesci.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="abrooks">
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Brooks</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.7670</phone>
+      <phone phonetype="fax">805.893.3777</phone>
+      <electronicMailAddress>brooks@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator id="pedmunds">
+      <individualName>
+        <givenName>Peter</givenName>
+        <surName>Edmunds</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology</deliveryPoint>
+        <deliveryPoint>California State University</deliveryPoint>
+        <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+        <city>Northridge</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>91330-8303</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">+1(818)677-2502</phone>
+      <phone phonetype="fax">+1(818)677-2034</phone>
+      <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2014-06-03</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data were generated from two long-term time series (knb-lter-mcr.4 and knb-lter-mcr.6) in order to analyze the relationship between the cover of live and dead branching corals and changes in the abundance of different functional groups of fishes following the loss of coral on the fore reef of Moorea due to an outbreak of corallivorous crown-of-thorns sea stars (<emphasis>Acanthaster planci</emphasis>) and a tropical cylcone.  Analyses were conducted in support of an ecological manuscript published in Oecologia</para>
+      <para>Adam, T. C., Brooks, A. J., Holbrook, S. J., Schmitt, R. J., Washburn, L., Bernardi, G. How will coral reef fish communities respond to climate-driven disturbances? Insight from landscape-scale perturbations.</para>
+      <para>Global climate change is rapidly altering disturbance regimes in many ecosystems including coral reefs, yet the long-term impacts of these changes on ecosystem structure and function are difficult to predict.  A major ecosystem service provided by coral reefs is the provisioning of physical habitat for other organisms, and consequently, many of the effects of climate change on coral reefs will be mediated by their impacts on habitat structure. Therefore, there is urgent need to understand the independent and combined effects of coral mortality and loss of physical habitat on reef-associated biota.  Here, we use a unique series of events affecting the coral reefs around the Pacific island of Moorea, French Polynesia to differentiate between the impacts of coral mortality and the degradation of physical habitat on the structure of reef fish communities.  We found that by removing large amounts of physical habitat, a tropical cyclone had larger impacts on reef fish communities than an outbreak of coral-eating sea stars that caused widespread coral mortality but left the physical structure intact.  In addition, the impacts of declining structural complexity on reef fish assemblages accelerated as structure became increasingly rare. Structure provided by dead coral colonies can take up to decades to erode following coral mortality, and consequently our results suggest that predictions based on short-term studies are likely to grossly underestimate the long-term impacts of coral decline on reef fish communities.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Abundance</keyword>
+      <keyword keywordType="theme">branching corals</keyword>
+      <keyword keywordType="theme">Corallivores</keyword>
+      <keyword keywordType="theme">Detritivores</keyword>
+      <keyword keywordType="theme">Invertivores</keyword>
+      <keyword keywordType="theme">Long-term Time Series</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+      <keyword keywordType="theme">Pescivores</keyword>
+      <keyword keywordType="theme">Planktivores</keyword>
+      <keyword keywordType="theme">Primary Consumers</keyword>
+      <keyword keywordType="theme">Secondary Consumers</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">California State University Northridge</keyword>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community</keyword>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Trophic Dynamics</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Abundance (organisms)</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Biomass</keyword>
+      <keyword keywordType="theme">Coral Reefs</keyword>
+      <keyword keywordType="theme">Detritus feeders</keyword>
+      <keyword keywordType="theme">Fishes</keyword>
+      <keyword keywordType="theme">Herbivores</keyword>
+      <keyword keywordType="theme">Omnivores</keyword>
+      <keyword keywordType="theme">Plankton feeders</keyword>
+      <keyword keywordType="theme">Species Richness</keyword>
+      <keyword keywordType="theme">Trophic levels</keyword>
+      <keyword keywordType="theme">Tropical Fishes</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">abundance</keyword>
+      <keyword keywordType="theme">biodiversity</keyword>
+      <keyword keywordType="theme">consumers</keyword>
+      <keyword keywordType="theme">corals</keyword>
+      <keyword keywordType="theme">species interactions</keyword>
+      <keywordThesaurus>LTER Network Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Populations</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Time Series Program</keyword>
+      <keywordThesaurus>MCR Core Activity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public
+				after primary publication, or at most two years after the completion of the study
+				unless proprietary restrictions are warranted. Use of MCR LTER data is subject to
+				acceptance of the following conditions: <itemizedlist><listitem><para>1. The user agrees to provide valid name and contact information prior
+							to downloading online data. This information will be used to contact the
+							user in case of changes to the data, and may also be used by data set
+							authors and MCR LTER project administrators to document data
+							usage.</para></listitem><listitem><para>2. The user agrees to cite the data set author and MCR LTER in all
+							publications in which the data are used, as per the instructions in the
+							data documentation. If no specific instructions are provided in the data
+							documentation, the user is requested to include the following statement:
+							"Data sets were provided by the Moorea Coral Reef Ecosystem LTER,
+							funded by the US National Science Foundation (OCE-0417412)."</para></listitem><listitem><para>3. The user agrees to provide one copy of any manuscript based on MCR
+							LTER data to the data set author prior to submitting it for
+							publication.</para></listitem><listitem><para>4. The user agrees to send two hard copies of any published manuscript
+							based on MCR LTER data to the following address: Dr. Andrew J. Brooks
+							Deputy Program Director, MCR LTER Marine Science Institute University of
+							California Santa Barbara, CA 93106-6150 The user also agrees to send one
+							electronic copy (pdf format) to the following e-mail address:
+							brooks@msi.ucsb.edu</para></listitem><listitem><para>5. Users are prohibited from selling or redistributing any data
+							provided by MCR LTER without explicit prior permission.</para></listitem><listitem><para>6. Users are encouraged to contact original investigators responsible
+							for data. Where appropriate, researchers whose projects are integrally
+							dependent on MCR LTER data are encouraged to consider collaboration
+							and/or co-authorship with original investigators.</para></listitem><listitem><para>7. Extensive efforts are made to ensure that online data are accurate
+							and up to date, but the authors and the MCR LTER will not take
+							responsibility for any errors that may exist in data provided online.
+							Furthermore, the user assumes all responsibility for errors in analysis
+							or judgment resulting from use of the data.</para></listitem><listitem><para> 8. Any violation of the terms of this agreement will result in
+							immediate forfeiture of the data and loss of access privileges to other
+							MCR LTER data sets.</para></listitem></itemizedlist>
+			</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_1_poly_for_public">
+        <geographicDescription>LTER 1 polygon including LTER 0 on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8455917</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.829821</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.47185366</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48641792</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.845591714532,-17.47414056509442 -149.8444519643552,-17.48505989649701 -149.8383270457441,-17.48426840091165 -149.8338147432263,-17.48641791890627 -149.829821007306,-17.48494822551147 -149.8320709284201,-17.4740284807948 -149.832080184047,-17.47322775964911 -149.8320960734944,-17.47185366062079 -149.8453810009447,-17.47265313575251 -149.845591714532,-17.47414056509442</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_2_poly_for_public">
+        <geographicDescription>LTER 2 polygon on north shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8116849</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7961685</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.46576169</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.48131958</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8116848616027,-17.46714573056912 -149.8098855542298,-17.48075290854079 -149.8077576500829,-17.48063908230724 -149.8051572586888,-17.48109313281079 -149.8032635045001,-17.47984289373148 -149.802788348976,-17.47893280566117 -149.800666445604,-17.48131957607722 -149.7967627437853,-17.48063739528508 -149.7961685287123,-17.48006903867057 -149.7977614186906,-17.4665681148313 -149.7978767224803,-17.4657616891053 -149.8115671676133,-17.46645490408906 -149.8116848616027,-17.46714573056912</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_3_poly_for_public">
+        <geographicDescription>LTER 3 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7708619</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7519968</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50382025</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52087158</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7651175463783,-17.50382025297242 -149.7678423598084,-17.50875380773254 -149.7667902177228,-17.51063544149844 -149.7669457242864,-17.51352653327354 -149.7680022773823,-17.51554750188549 -149.7696581238419,-17.51655737992495 -149.7708619294637,-17.51771051529938 -149.7570438798842,-17.52087157901452 -149.7519967916629,-17.50642816971748 -149.7651175463783,-17.50382025297242</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_4_poly_for_public">
+        <geographicDescription>LTER 4 polygon on southeast shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.7772857</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.7566866</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.53305021</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.55064263</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.7622436536396,-17.55064263311045 -149.7566865755679,-17.54030521526718 -149.7725152866376,-17.53305020659341 -149.7738607602216,-17.53618639472932 -149.7729632073118,-17.53903159324447 -149.7772857215906,-17.54541678116018 -149.7622436536396,-17.55064263311045</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_5_poly_for_public">
+        <geographicDescription>LTER 5 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.8869755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.8561009</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.56818162</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.59182383</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.8869754806263,-17.5791218519215 -149.8721550223573,-17.59182383151219 -149.8561009265408,-17.58082674989516 -149.857889567124,-17.57926925045853 -149.8629652034573,-17.57586562315693 -149.8697101743941,-17.56818162129872 -149.8869754806263,-17.5791218519215</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <geographicCoverage id="MCR_LTER_6_poly_for_public">
+        <geographicDescription>LTER 6 polygon on southwest shore</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.934537</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.9115336</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.50735955</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.52839766</southBoundingCoordinate>
+        </boundingCoordinates>
+        <datasetGPolygon>
+          <datasetGPolygonOuterGRing>
+            <gRing>-149.9345370155986,-17.51082689018308 -149.926650263849,-17.52839766454106 -149.911533605555,-17.52424708128931 -149.9123038125004,-17.521372978089 -149.9121789695375,-17.51762943552821 -149.9138547197788,-17.51474296559537 -149.9153872941645,-17.5112724943681 -149.9163231743256,-17.50735954783784 -149.9345370155986,-17.51082689018308</gRing>
+          </datasetGPolygonOuterGRing>
+        </datasetGPolygon>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2007</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Corallimorpharia</taxonRankValue>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acropora</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Astreopora</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Montipora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Agariciidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Gardinoseris</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Leptoseris</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pachyseris</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pavona</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Astrocoeniidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Stylocoeniella</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Dendrophyllidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Tubastrea</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Faviidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Cyphastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Favia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Leptastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Montastrea</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Fungiidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Fungia</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Herpolitha</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Sandolitha</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Mussidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acanthastrea</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Lobophyllia</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pocillopora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Poritidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Porites</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Porites irregularis</taxonRankValue>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Porites rus</taxonRankValue>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Porites spp. Massive</taxonRankValue>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Siderastreidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Psammacora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Hydrozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Hyroida</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Milleporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Millepora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>PHYLUM</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>CLASS</taxonRankName>
+              <taxonRankValue>Actinopterygii</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Anguilliformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Muraenidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Aulopiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Synodontidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Beloniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Exocoetidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Hemiramphidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Beryciformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Holocentridae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Gasterosteiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Aulostomidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Fistulariidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Syngnathidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Gonorynchiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Chanidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Perciformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Acanthuridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Apogonidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Blenniidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Callionymidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Carangidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Chaetodontidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Cirrhitidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Echeneidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Ephippidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Gobiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Kyphosidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Labridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Lethrinidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Lutjanidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Mullidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pinguipedidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Polynemidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pomacanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pomacentridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Scaridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Serranidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Siganidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Sphyraenidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Zanclidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Scorpaeniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Caracanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Scorpaenidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Tetraodontiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Balistidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Diodontidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Monacanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Ostraciidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Tetraodontidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>CLASS</taxonRankName>
+              <taxonRankValue>Chondrichthyes</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Carcharhiniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Carcharhinidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>For complete methods see Adam et al. 2014</para>
+          <para>These data were generated from two MCR core time series data sets (knb-lter-mcr.4 and knb-lter-mcr.6) in order to analyze the relationship between the cover of live and dead branching corals and changes in the abundance of different functional groups of fishes following the loss of coral on the fore reef of Moorea due to an outbreak of corallivorous crown-of-thorns sea stars (<emphasis>Acanthaster planci</emphasis>) and a tropical cyclone.</para>
+          <para>The amount of living and dead branching corals belonging to the genera <emphasis>Pocillopora</emphasis> and <emphasis>Acropora</emphasis> were quantified from annual photoquadrats (N = 10 for each site-year combination) from each of the six fore reef sites (depth = 10 m) from 2006 to 2012.  Quadrats were initially chosen randomly from the 40 quadrats photographed in support of knb-lter-mcr.4 and then repeatedly sampled each year.</para>
+          <para>The cumulative change in the mean abundance of fish in each functional group was calculated as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal  Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) MCR I #OCE-0417412, MCR II #OCE-1026851, and MCR IIb #OCE-1236905</para>
+      </funding>
+    </project>
+    <dataTable id="deltas">
+      <entityName>Changes in the abundance of fish functional groups</entityName>
+      <entityDescription>Changes in the abundance of fish functional groups.  These data are published in a paper in Oecologia by Adam et al., 2014.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Fish_Coral_Abundance_Change_20140605.csv</objectName>
+        <size unit="Kb">2.4</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1041&amp;entityindex=1</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="year">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of Observation</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1 Year</dateTimePrecision>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="location_site">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Name of the site</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>LTER 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>LTER 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>LTER 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>LTER 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>LTER 5</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>LTER 6</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="Mean_live_coral">
+          <attributeName>Mean_live_coral</attributeName>
+          <attributeLabel>Mean live</attributeLabel>
+          <attributeDefinition>Mean cover (percent) of live branching corals (Acropora spp. and Pocillopora spp.)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="Mean_total_coral">
+          <attributeName>Mean_total_coral</attributeName>
+          <attributeLabel>Mean cover live coral</attributeLabel>
+          <attributeDefinition>Mean cover (percent) of live plus dead branching corals (Acropora spp. and Pocillopora spp.)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="Coral_Dweller">
+          <attributeName>Coral_Dweller</attributeName>
+          <attributeLabel>Delta coral dweller</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of coral dwellers (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Corallivore">
+          <attributeName>Corallivore</attributeName>
+          <attributeLabel>Delta corallivore</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of corallivores (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Piscivore_primarily">
+          <attributeName>Piscivore_primarily</attributeName>
+          <attributeLabel>Delta piscivore</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of piscivores (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Planktivore">
+          <attributeName>Planktivore</attributeName>
+          <attributeLabel>Delta planktivore</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of planktivores (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Roving_Herbivore">
+          <attributeName>Roving_Herbivore</attributeName>
+          <attributeLabel>Delta roving herbivore</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of roving herbivores (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Invertebrate_Consumer">
+          <attributeName>Invertebrate_Consumer</attributeName>
+          <attributeLabel>Delta invertebrate consumer</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of invertebrate consumers (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="Territorial_Herbivore">
+          <attributeName>Territorial_Herbivore</attributeName>
+          <attributeLabel>Delta territorial herbivore</attributeLabel>
+          <attributeDefinition>Cumulative change in the mean abundance of territorial herbivores (expressed as the natural log of the abundance in 2006 subtracted from the natural log of the abundance in the current year)</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>36</numberOfRecords>
+    </dataTable>
+    <otherEntity id="R_code">
+      <entityName>Delta fish abundance R code</entityName>
+      <entityDescription>R code which uses these data as input</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Delta_fish_abundance_Rcode.txt</objectName>
+        <size unit="Kb">6.7</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Text File</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.1041&amp;entityindex=2</url>
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Text File</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" name="number" unitType="dimensionless">
+          <stmml:description>a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" id="percent" multiplierToSI="1" name="percent" constantToSI="0" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

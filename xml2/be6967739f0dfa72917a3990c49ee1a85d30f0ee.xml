@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.42.3" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>KFH01</alternateIdentifier>
+    <title>KFH01 Konza Prairie Fire History, ongoing since 1972</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <givenName>M.</givenName>
+        <surName>Briggs</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>785-532-0140</phone>
+      <electronicMailAddress>Jbriggs1@ksu.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2014</pubDate>
+    <language>english</language>
+    <abstract>
+      <section>
+        <para>A record of fire history on the Konza Prairie watersheds is in listed in three
+                    seperateWord Perfect 5.1 files. It has the date of a fire in a watershed. In
+                    addition, information on whether the fire was planned or accidental is noted.
+                    Prior to 1988, detailed information on each burn on Konza is available in hard
+                    copy from the Konza Prairie Office (Bushnell Room 203; (785) 532- 6729).</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">LTER</keyword>
+      <keyword keywordType="place">KNZ</keyword>
+      <keyword keywordType="place">Konza Prairie Biological Station</keyword>
+      <keyword keywordType="place">Kansas</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Fire</keyword>
+      <keyword>Konza Prairie</keyword>
+      <keyword>Fire history</keyword>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url>http://www.konza.ksu.edu/KNZ/pages/data/Knzdsdetail.aspx?datasetCode=KFH01</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1972-04-23</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-12-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="im">
+      <positionName>KNZ-LTER Data Manager</positionName>
+      <address>
+        <deliveryPoint> Division of Biology</deliveryPoint>
+        <deliveryPoint> Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+      </address>
+      <phone phonetype="voice">(785)532-6729</phone>
+      <phone phonetype="fax">(785)532-6653</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://www.konza.ksu.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>For additional metadata see:
+                            <ulink>http://www.konza.ksu.edu/KNZ/docs/DC.pdf</ulink>
+          </para>
+          <para>For additional methods information see:
+                            <ulink>http://www.konza.ksu.edu/KNZ/docs/MM.pdf</ulink>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>KFH011</alternateIdentifier>
+      <entityName>Konza Prairie Fire History</entityName>
+      <entityDescription>Konza Prairie Fire History</entityDescription>
+      <physical>
+        <objectName>KFH011</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/42/3/b4ab8b91e7fc5cfcf65a8a1ac1ae2837</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1972-04-23</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2020-12-30</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of Burn</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1
+                </dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>month of Burn</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>day of Burn</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Type</attributeName>
+          <attributeDefinition>Fire type code</attributeDefinition>
+          <storageType>char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Fire type code</definition>
+                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PP</code>
+                    <definition>prescriptive planned</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PU</code>
+                    <definition>prescriptive unplanned</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WP</code>
+                    <definition>wild planned</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WU</code>
+                    <definition>wild unplanned</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hectares</attributeName>
+          <attributeDefinition>Burning area in hectares</attributeDefinition>
+          <storageType>numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Acres</attributeName>
+          <attributeDefinition>Burning area in acres</attributeDefinition>
+          <storageType>numeric(8,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Name</attributeName>
+          <attributeDefinition>Name of watersheds</attributeDefinition>
+          <storageType>varchar (18)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of watersheds</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Code</attributeName>
+          <attributeDefinition>Watershed code</attributeDefinition>
+          <storageType>varchar(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Watershed code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="year (yyyy)" multiplierToSI="1"
+          name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="month of year" multiplierToSI="1"
+          name="month of year" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="day of month" multiplierToSI="1"
+          name="day of month" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="hour of observation" multiplierToSI="1"
+          name="hour of observation" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

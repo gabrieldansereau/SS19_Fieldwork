@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  packageId="knb-lter-mcr.6001.4" scope="system" system="knb"
+  xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="knb" order="allowFirst">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="6001">
+    <alternateIdentifier>knb-lter-mcr.6001</alternateIdentifier>
+    <shortName>Fish Taxonomy Reference</shortName>
+    <title>MCR LTER: Reference: Fish Taxonomy, Trophic Groups and Morphometry</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+			<onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="abrooks">
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Brooks</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.7670</phone>
+      <phone phonetype="fax">805.893.3777</phone>
+      <electronicMailAddress>brooks@msi.ucsb.edu</electronicMailAddress>
+	  <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <associatedParty id="tadam">
+      <individualName>
+        <givenName>Tom</givenName>
+        <surName>Adam</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Post-Doctoral Scholar</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+	    <role>Post-Doctoral Scholar</role>
+    </associatedParty>
+    <associatedParty id="jnielsen">
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Nielsen</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Graduate Student</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+	  <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+      <role>Field Technician</role>
+    </associatedParty>
+    <pubDate>2014-01-16</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These reference data document the maximum length, length to weight conversion
+        parameters, trophic status, and items consumed for fish species observed in the Annual Fish
+        Survey Time-series core data set (knb-lter-mcr.6). With knb-lter-mcr.6, these data enable
+        the investigation of temporal trends in the biomass of taxa as well as the abundance and
+        biomass of different trophic groups.</para>
+    </abstract>
+	  <keywordSet>
+	    <keyword keywordType="theme">MCR</keyword>
+	    <keyword keywordType="theme">LTER</keyword>
+	    <keyword keywordType="theme">Long-term Time Series</keyword>
+	  </keywordSet>
+		<keywordSet>
+	  	<keyword keywordType="theme">University of California Santa Barbara</keyword>
+	  	<keyword keywordType="theme">California State University Northridge</keyword>
+	  	<keyword keywordType="theme">NSF</keyword>
+	  	<keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+	  	<keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+	  </keywordSet>
+	  <keywordSet>
+	    <keyword keywordType="theme">Primary Consumers</keyword>
+	    <keyword keywordType="theme">Secondary Consumers</keyword>
+	    <keyword keywordType="theme">Corallivores</keyword>
+	    <keyword keywordType="theme">Planktivores</keyword>
+	    <keyword keywordType="theme">Detritivores</keyword>
+	    <keyword keywordType="theme">Invertivores</keyword>
+	  </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Community</keyword>
+      <keyword keywordType="theme">Marine</keyword>
+      <keyword keywordType="theme">Trophic Dynamics</keyword>
+      <keywordThesaurus>KNB</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Abundance (organisms)</keyword>
+      <keyword keywordType="theme">Biomass</keyword>
+      <keyword keywordType="theme">Coral Reef</keyword>
+      <keyword keywordType="theme">Detritus feeders</keyword>
+      <keyword keywordType="theme">Fishes</keyword>
+      <keyword keywordType="theme">Herbivores</keyword>
+      <keyword keywordType="theme">Omnivores</keyword>
+      <keyword keywordType="theme">Plankton feeders</keyword>
+      <keyword keywordType="theme">Trophic levels</keyword>
+      <keyword keywordType="theme">Tropical Fishes</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">abundance</keyword>
+      <keyword keywordType="theme">biodiversity</keyword>
+      <keyword keywordType="theme">consumers</keyword>
+      <keyword keywordType="theme">species interactions</keyword>
+      <keywordThesaurus>LTER Network Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Populations</keyword>
+      <keywordThesaurus>LTER Core Research Area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Reef Resistance and Resilience</keyword>
+      <keywordThesaurus>MCR Research Theme</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population and Community Dynamics</keyword>
+      <keywordThesaurus>MCR-LTER Working Group</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data collected under the auspices of the MCR LTER are available to the public after
+        primary publication, or at most two years after the completion of the study unless
+        proprietary restrictions are warranted. Use of MCR LTER data is subject to acceptance of the
+        following conditions: <itemizedlist>
+          <listitem>
+            <para>1. The user agrees to provide valid name and contact information prior to
+              downloading online data. This information will be used to contact the user in case of
+              changes to the data, and may also be used by data set authors and MCR LTER project
+              administrators to document data usage.</para>
+          </listitem>
+          <listitem>
+            <para>2. The user agrees to cite the data set author and MCR LTER in all publications in
+              which the data are used, as per the instructions in the data documentation. If no
+              specific instructions are provided in the data documentation, the user is requested to
+              include the following statement: "Data sets were provided by the Moorea Coral Reef
+              Ecosystem LTER, funded by the US National Science Foundation (OCE-0417412)."</para>
+          </listitem>
+          <listitem>
+            <para>3. The user agrees to provide one copy of any manuscript based on MCR LTER data to
+              the data set author prior to submitting it for publication.</para>
+          </listitem>
+          <listitem>
+            <para>4. The user agrees to send two hard copies of any published manuscript based on
+              MCR LTER data to the following address: Dr. Andrew J. Brooks Deputy Program Director,
+              MCR LTER Marine Science Institute University of California Santa Barbara, CA
+              93106-6150 The user also agrees to send one electronic copy (pdf format) to the
+              following e-mail address: brooks@msi.ucsb.edu</para>
+          </listitem>
+          <listitem>
+            <para>5. Users are prohibited from selling or redistributing any data provided by MCR
+              LTER without explicit prior permission.</para>
+          </listitem>
+          <listitem>
+            <para>6. Users are encouraged to contact original investigators responsible for data.
+              Where appropriate, researchers whose projects are integrally dependent on MCR LTER
+              data are encouraged to consider collaboration and/or co-authorship with original
+              investigators.</para>
+          </listitem>
+          <listitem>
+            <para>7. Extensive efforts are made to ensure that online data are accurate and up to
+              date, but the authors and the MCR LTER will not take responsibility for any errors
+              that may exist in data provided online. Furthermore, the user assumes all
+              responsibility for errors in analysis or judgment resulting from use of the
+              data.</para>
+          </listitem>
+          <listitem>
+            <para> 8. Any violation of the terms of this agreement will result in immediate
+              forfeiture of the data and loss of access privileges to other MCR LTER data
+              sets.</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-10-26</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-01-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>PHYLUM</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>CLASS</taxonRankName>
+              <taxonRankValue>Actinopterygii</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Anguilliformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Muraenidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Aulopiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Synodontidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Beloniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Exocoetidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Hemiramphidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Beryciformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Holocentridae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Gasterosteiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Aulostomidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Fistulariidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Syngnathidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Gonorynchiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Chanidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Perciformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Acanthuridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Apogonidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Blenniidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Callionymidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Carangidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Chaetodontidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Cirrhitidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Echeneidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Ephippidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Gobiidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Kyphosidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Labridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Lethrinidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Lutjanidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Mullidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pinguipedidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Polynemidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pomacanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Pomacentridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Scaridae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Serranidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Siganidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Sphyraenidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Zanclidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Scorpaeniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Caracanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Scorpaenidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Tetraodontiformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Balistidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Diodontidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Monacanthidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Ostraciidae</taxonRankValue>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Tetraodontidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>CLASS</taxonRankName>
+              <taxonRankValue>Chondrichthyes</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>ORDER</taxonRankName>
+                <taxonRankValue>Carcharhiniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>FAMILY</taxonRankName>
+                  <taxonRankValue>Carcharhinidae</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+		<maintenance>
+			<description>
+				<para>This is a one-time dataset.</para>
+			</description>
+		  <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+		</maintenance>
+
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title> References for taxonomy </title>
+            <para> Definitive source of taxonomic levels from family to species: Eschmeyer, W. N.
+              (ed.) 'Catalog of Fishes' electronic version (6 May 2010).
+              http://research.calacademy.org/ichthyology/catalog/fishcatmain.asp </para>
+            <para> Citation for taxonomic levels from phylum to family: Nelson, J.S., 'Fishes of the
+              World', 4th Ed. John Wiley &amp; Sons, Inc., Hoboken, New Jersey, 601 p., 2006 as well
+              as recent rulings by the ICZN http://iczn.org/</para>
+            <para> Citation for taxonomic levels below family: Randall, J.E., 'Reef and Shore Fishes
+              of the South Pacific', University of Hawaii Press, Honolulu, Hawaii, 707 p.,
+              2005.</para>
+          </section>
+          <section>
+            <title>References for trophic groups and biomass from length</title>
+            <para>Karplus I, Thompson AR (2010) The partnership between gobiid fishes and burrowing
+              alpheid shrimps. In: Patzner RA, VanTassell JL, Larson HK, Kapoor BG (eds) The biology
+              of gobies. Science Publishers, Inc., New Hampshire</para>
+            <para>Kulbicki M., N. Guillemot M. Amand, 2005, A general approach to length-weight
+              relationships for New Caledonian lagoon fishes, Cybium, 29: 235-252</para>
+            <para>Froese, R. and D. Pauly. Editors. 2010. FishBase. World Wide Web electronic
+              publication. www.fishbase.org, version (07/2010). </para>
+            <para>Used to gather historic fish lengths: Bacchet, B., T. Zysman and Y. Lefevre, 2006,
+              Guide des Poissons de Tahiti et ses Iles, Collection Nature et Environment d'Oceanie,
+              Au Vent des Iles.</para>
+            <para>See also Randall above</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Reference Data</title>
+            <para>These data pertaining to fish taxonomy, length, biomass estimation and trophic
+              group were compiled from the above-cited sources for reference. This compilation of
+              data is provided as a convenience for use in conjunction with the dataset MCR LTER:
+              Coral Reef: Long-term Population and Community Dynamics: Fishes
+              (knb-lter-mcr.6).</para>
+          </section>
+          <section>
+            <title>Estimation of biomass from length, and length conversion</title>
+            <para> Fish biomass (body weight in g, fresh not dry weight) is estimated using the
+              formula w = aL^b where L is the fish fork length (FL) in cm and parameters a and b
+              depend on species. Parameters were obtained primarily from Kulbicki et al. 2005. Diver
+              observations of fish length are collected and reported in this dataset as total
+              length. Fork length (FL), defined as the length of a fish to its tail fin fork, is
+              calculated from total length (TL) using the formula FL = Lb*TL. The conversion factor
+              Lb was determined primarily using FishBase. Where the length conversion source is
+              listed as photograph, this means Lb was estimated from a photograph of a single
+              individual photograph from FishBase. </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Quality Assurance</title>
+            <para> These data were entered into a relational database in fourth normal form with
+              constrained domains on controlled vocabularies for taxonomy, taxonomic resolution,
+              reference citations, methods, and trophic levels. Cross reference queries checked
+              these data for completeness and appropriateness of entries within this reference
+              dataset and in cross-reference to the fish survey dataset. These data for historic
+              length are used as quality assurance to flag lengths observed in annual surveys beyond
+              the expected range. </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF (LTER) OCE-0417412 and OCE-1026851</para>
+      </funding>
+    </project>
+    <dataTable id="ent01">
+      <entityName>Reference_Fish_Historic_Length</entityName>
+      <entityDescription>Maximum total length (mm) reported for each species.</entityDescription>
+      <physical>
+        <objectName>Reference_Fish_Historic_Length_20140116.txt</objectName>
+        <size unit="Kb">16</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"
+              >http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=1</url>
+            <!-- http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=1 -->
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      
+      <attributeList>
+        <attribute id="family_1">
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acanthuridae</code>
+                    <definition>Acanthuridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Actinopterygii</code>
+                    <definition>Actinopterygii family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Apogonidae</code>
+                    <definition>Apogonidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Aulostomidae</code>
+                    <definition>Aulostomidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Balistidae</code>
+                    <definition>Balistidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Beryciformes</code>
+                    <definition>Beryciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Blenniidae</code>
+                    <definition>Blenniidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bothidae</code>
+                    <definition>Bothidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Callionymidae</code>
+                    <definition>Callionymidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Caracanthidae</code>
+                    <definition>Caracanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carangidae</code>
+                    <definition>Carangidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carcharhinidae</code>
+                    <definition>Carcharhinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chaetodontidae</code>
+                    <definition>Chaetodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chanidae</code>
+                    <definition>Chanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cirrhitidae</code>
+                    <definition>Cirrhitidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Craniata</code>
+                    <definition>Craniata family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Diodontidae</code>
+                    <definition>Diodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Echeneidae</code>
+                    <definition>Echeneidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ephippidae</code>
+                    <definition>Ephippidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Exocoetidae</code>
+                    <definition>Exocoetidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fistulariidae</code>
+                    <definition>Fistulariidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gobiidae</code>
+                    <definition>Gobiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hemiramphidae</code>
+                    <definition>Hemiramphidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Holocentridae</code>
+                    <definition>Holocentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Kyphosidae</code>
+                    <definition>Kyphosidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Labridae</code>
+                    <definition>Labridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lethrinidae</code>
+                    <definition>Lethrinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lutjanidae</code>
+                    <definition>Lutjanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Microdesmidae</code>
+                    <definition>Microdesmidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monacanthidae</code>
+                    <definition>Monacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mullidae</code>
+                    <definition>Mullidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Muraenidae</code>
+                    <definition>Muraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ostraciidae</code>
+                    <definition>Ostraciidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Perciformes</code>
+                    <definition>Perciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pinguipedidae</code>
+                    <definition>Pinguipedidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Polynemidae</code>
+                    <definition>Polynemidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacanthidae</code>
+                    <definition>Pomacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacentridae</code>
+                    <definition>Pomacentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scaridae</code>
+                    <definition>Scaridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaenidae</code>
+                    <definition>Scorpaenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaeniformes</code>
+                    <definition>Scorpaeniformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Serranidae</code>
+                    <definition>Serranidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Siganidae</code>
+                    <definition>Siganidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sphyraenidae</code>
+                    <definition>Sphyraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synanceiidae</code>
+                    <definition>Synanceiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Syngnathidae</code>
+                    <definition>Syngnathidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synodontidae</code>
+                    <definition>Synodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontidae</code>
+                    <definition>Tetraodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontiformes</code>
+                    <definition>Tetraodontiformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Zanclidae</code>
+                    <definition>Zanclidae family</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="species_1">
+          <attributeName>species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species binomial</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="length_randall">
+          <attributeName>length_randall</attributeName>
+          <attributeLabel>Length from Randall</attributeLabel>
+          <attributeDefinition>The fish total length according to the book by Randall, Reef and Shore Fishes of the South Pacific</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="length_poissons_de_tahiti">
+          <attributeName>length_poissons_de_tahiti</attributeName>
+          <attributeLabel>Length from Poissons de Tahiti</attributeLabel>
+          <attributeDefinition>The fish total length according to the book by Bacchet,et al., Poissons de Tahiti.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="length_accepted">
+          <attributeName>length_accepted</attributeName>
+          <attributeLabel>Length Accepted</attributeLabel>
+          <attributeDefinition>The total length chosen from the two sources to define expected range of lengths, usually the larger of the two lengths or the largest length observed so far in Moorea.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+			<constraint>
+				<primaryKey>
+				  <constraintName>Species Primary Key</constraintName>
+				  <key>
+				    <attributeReference>species_1</attributeReference>
+				  </key>
+				</primaryKey>
+			</constraint>
+      <numberOfRecords>356</numberOfRecords>
+    </dataTable>
+    <dataTable id="ent02">
+      <entityName>Reference_Fish_Weight_Conversion</entityName>
+      <entityDescription>Length to weight conversion parameters for each species.</entityDescription>
+      <physical>
+        <objectName>Reference_Fish_Weight_Conversion_20140116.txt</objectName>
+        <size unit="Kb">36</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"
+              >http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=2</url>
+            <!-- http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=2 -->
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+    
+      <attributeList>
+        <attribute id="family_2">
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acanthuridae</code>
+                    <definition>Acanthuridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Actinopterygii</code>
+                    <definition>Actinopterygii family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Apogonidae</code>
+                    <definition>Apogonidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Aulostomidae</code>
+                    <definition>Aulostomidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Balistidae</code>
+                    <definition>Balistidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Beryciformes</code>
+                    <definition>Beryciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Blenniidae</code>
+                    <definition>Blenniidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bothidae</code>
+                    <definition>Bothidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Callionymidae</code>
+                    <definition>Callionymidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Caracanthidae</code>
+                    <definition>Caracanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carangidae</code>
+                    <definition>Carangidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carcharhinidae</code>
+                    <definition>Carcharhinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chaetodontidae</code>
+                    <definition>Chaetodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chanidae</code>
+                    <definition>Chanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cirrhitidae</code>
+                    <definition>Cirrhitidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Craniata</code>
+                    <definition>Craniata family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Diodontidae</code>
+                    <definition>Diodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Echeneidae</code>
+                    <definition>Echeneidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ephippidae</code>
+                    <definition>Ephippidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Exocoetidae</code>
+                    <definition>Exocoetidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fistulariidae</code>
+                    <definition>Fistulariidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gobiidae</code>
+                    <definition>Gobiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hemiramphidae</code>
+                    <definition>Hemiramphidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Holocentridae</code>
+                    <definition>Holocentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Kyphosidae</code>
+                    <definition>Kyphosidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Labridae</code>
+                    <definition>Labridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lethrinidae</code>
+                    <definition>Lethrinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lutjanidae</code>
+                    <definition>Lutjanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Microdesmidae</code>
+                    <definition>Microdesmidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monacanthidae</code>
+                    <definition>Monacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mullidae</code>
+                    <definition>Mullidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Muraenidae</code>
+                    <definition>Muraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ostraciidae</code>
+                    <definition>Ostraciidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Perciformes</code>
+                    <definition>Perciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pinguipedidae</code>
+                    <definition>Pinguipedidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Polynemidae</code>
+                    <definition>Polynemidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacanthidae</code>
+                    <definition>Pomacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacentridae</code>
+                    <definition>Pomacentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scaridae</code>
+                    <definition>Scaridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaenidae</code>
+                    <definition>Scorpaenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaeniformes</code>
+                    <definition>Scorpaeniformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Serranidae</code>
+                    <definition>Serranidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Siganidae</code>
+                    <definition>Siganidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sphyraenidae</code>
+                    <definition>Sphyraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synanceiidae</code>
+                    <definition>Synanceiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Syngnathidae</code>
+                    <definition>Syngnathidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synodontidae</code>
+                    <definition>Synodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontidae</code>
+                    <definition>Tetraodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontiformes</code>
+                    <definition>Tetraodontiformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Zanclidae</code>
+                    <definition>Zanclidae family</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="species_2">
+          <attributeName>species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species binomial</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="length_code">
+          <attributeName>length_code</attributeName>
+          <attributeLabel>Length code</attributeLabel>
+          <attributeDefinition>Code denotes length is being used, either Fork Length or Total Length. Needed for biomass conversion.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>FL</code>
+                    <definition>Fork Length: length to the fork in the tail fin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TL</code>
+                    <definition>Total Length: length to the tip of the tail fin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NS</code>
+                    <definition>Not Stated</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="cite_bm_conversion">
+          <attributeName>cite_bm_conversion</attributeName>
+          <attributeLabel>Citation for Biomass Conversion</attributeLabel>
+          <attributeDefinition>The reference for biomass conversion parameters for this species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Brooks</code>
+                    <definition>See Methods section</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FishBase</code>
+                    <definition>Froese, R. and D. Pauly. Editors. 2010. FishBase. World Wide Web electronic publication. www.fishbase.org, version (07/2010).</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Kulbicki</code>
+                    <definition>Kulbicki M., N. Guillemot M. Amand, 2005, A general approach to length-weight relationships for New Caledonian lagoon fishes, Cybium, 29: 235-252</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="taxon_resolution">
+          <attributeName>taxon_resolution</attributeName>
+          <attributeLabel>Taxonomic Resolution</attributeLabel>
+          <attributeDefinition>Taxonomic resolution of length to weight parameters; genus means values are an average of multiple species in a genus while congener means that values are from a single species in the same genus. Family and confamily follow the same logic. Body shape means that a and b were estimated from body shape according to table IV in Kulbicki et al. 2005</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Body Shape</code>
+                    <definition>When no formula parameters are available at Family level, parameters were determined by body shape per Kulbicki method.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Confamily</code>
+                    <definition>Parameters were taken from another member of the same family.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Congener</code>
+                    <definition>Parameters were taken from another member of the same genus.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Conorder</code>
+                    <definition>Parameters were taken from another member of the same order.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Family</code>
+                    <definition>Parameters are based on a family average.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Genus</code>
+                    <definition>Parameters are based on a genus average.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Species</code>
+                    <definition>Parameters are specific to this species.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="a">
+          <attributeName>a</attributeName>
+          <attributeLabel>Parameter a</attributeLabel>
+          <attributeDefinition>Length to weight parameter a from the following equation: W = aL^b, where W is weight in grams and L is length in cm.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="b">
+          <attributeName>b</attributeName>
+          <attributeLabel>Parameter b</attributeLabel>
+          <attributeDefinition>Length to weight parameter b from the following equation: W = aL^b, where W is weight in grams and L is length in cm.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="totlen2forklen">
+          <attributeName>totlen2forklen</attributeName>
+          <attributeLabel>Total Length to Fork Length</attributeLabel>
+          <attributeDefinition>Total length to fork length parameter Lb in the equation: FL = Lb*TL</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="cite_length_conversion">
+          <attributeName>cite_length_conversion</attributeName>
+          <attributeLabel>Citation for Length Conversion</attributeLabel>
+          <attributeDefinition>Source of total length to fork length parameter; photograph means that I estimated Lb from a photograph of a single individual (photographs were obtained from Fish Base), genus average and family average mean that I took an average of the other fish in the same genus or family from our species list. Lb was assumed to be 1 for some unidentified species for which I had "No Info." Also several species (mainly from the families Labridae and Scaridae) had TL to FL relationships that vary with size (i.e., large Terminal Phase individuals have slightly forked tails). For these species I set Lb = 1 which would overestimate the FL of TP individuals.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Congener</code>
+                    <definition>Parameter value taken from a species in the same genus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Family Average</code>
+                    <definition>Parameter value is a family-wide average of species present in surveys from 2005 to 2009 for which we had information.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fishbase</code>
+                    <definition>Species-specific parameter value obtained from FishBase</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Genus Average</code>
+                    <definition>Parameter value is a genus-wide average of species present in surveys from 2005 to 2009 for which we had information.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>No Info</code>
+                    <definition>Fish unidentified specifically enough to apply morphometric information.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Photograph</code>
+                    <definition>Species-specific parameter value was determined from a single photograph.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="note_length_conversion">
+          <attributeName>note_length_conversion</attributeName>
+          <attributeLabel>Notes on Length Conversion</attributeLabel>
+          <attributeDefinition>Any notes on the length to length conversions or the length to weight conversions.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>no notes</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+		  <constraint>
+		    <primaryKey>
+		      <constraintName>Species Primary Key</constraintName>
+		      <key>
+		        <attributeReference>species_2</attributeReference>
+		      </key>
+		    </primaryKey>
+		  </constraint>
+      <numberOfRecords>366</numberOfRecords>
+    </dataTable>
+    <dataTable id="ent03">
+      <entityName>Reference_Fish_Trophic_Group</entityName>
+      <entityDescription>Coarse and fine trophic groups for each species.</entityDescription>
+      <physical>
+        <objectName>Reference_Fish_Trophic_Group_20140116.txt</objectName>
+        <size unit="Kb">28</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"
+              >http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=3</url>
+            <!--  http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=3-->
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+     
+      <attributeList>
+        <attribute id="family_3">
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acanthuridae</code>
+                    <definition>Acanthuridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Actinopterygii</code>
+                    <definition>Actinopterygii family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Apogonidae</code>
+                    <definition>Apogonidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Aulostomidae</code>
+                    <definition>Aulostomidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Balistidae</code>
+                    <definition>Balistidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Beryciformes</code>
+                    <definition>Beryciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Blenniidae</code>
+                    <definition>Blenniidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bothidae</code>
+                    <definition>Bothidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Callionymidae</code>
+                    <definition>Callionymidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Caracanthidae</code>
+                    <definition>Caracanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carangidae</code>
+                    <definition>Carangidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carcharhinidae</code>
+                    <definition>Carcharhinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chaetodontidae</code>
+                    <definition>Chaetodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chanidae</code>
+                    <definition>Chanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cirrhitidae</code>
+                    <definition>Cirrhitidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Craniata</code>
+                    <definition>Craniata family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Diodontidae</code>
+                    <definition>Diodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Echeneidae</code>
+                    <definition>Echeneidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ephippidae</code>
+                    <definition>Ephippidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Exocoetidae</code>
+                    <definition>Exocoetidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fistulariidae</code>
+                    <definition>Fistulariidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gobiidae</code>
+                    <definition>Gobiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hemiramphidae</code>
+                    <definition>Hemiramphidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Holocentridae</code>
+                    <definition>Holocentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Kyphosidae</code>
+                    <definition>Kyphosidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Labridae</code>
+                    <definition>Labridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lethrinidae</code>
+                    <definition>Lethrinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lutjanidae</code>
+                    <definition>Lutjanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Microdesmidae</code>
+                    <definition>Microdesmidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monacanthidae</code>
+                    <definition>Monacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mullidae</code>
+                    <definition>Mullidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Muraenidae</code>
+                    <definition>Muraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ostraciidae</code>
+                    <definition>Ostraciidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Perciformes</code>
+                    <definition>Perciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pinguipedidae</code>
+                    <definition>Pinguipedidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Polynemidae</code>
+                    <definition>Polynemidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacanthidae</code>
+                    <definition>Pomacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacentridae</code>
+                    <definition>Pomacentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scaridae</code>
+                    <definition>Scaridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaenidae</code>
+                    <definition>Scorpaenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaeniformes</code>
+                    <definition>Scorpaeniformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Serranidae</code>
+                    <definition>Serranidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Siganidae</code>
+                    <definition>Siganidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sphyraenidae</code>
+                    <definition>Sphyraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synanceiidae</code>
+                    <definition>Synanceiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Syngnathidae</code>
+                    <definition>Syngnathidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synodontidae</code>
+                    <definition>Synodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontidae</code>
+                    <definition>Tetraodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontiformes</code>
+                    <definition>Tetraodontiformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Zanclidae</code>
+                    <definition>Zanclidae family</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="species_3">
+          <attributeName>species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species binomial</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="coarse_trophic_group">
+          <attributeName>coarse_trophic_group</attributeName>
+          <attributeLabel>Coarse Trophic Group</attributeLabel>
+          <attributeDefinition>A broad category of trophic group into which the species fits.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Piscivore_primarily</code>
+                    <definition>Feed primarily or largely on fishes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Planktivore</code>
+                    <definition>Feed primarily on zooplankton; includes all planktivores from Fine Trophic Group; also includes many omnivores which feed primarily on zooplankton but also on benthic algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Primary Consumer</code>
+                    <definition>Feed primarily on algae and/or detritus; includes all Herbivore/Detritivores from Fine Trophic Group and some omnivores</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Secondary Consumer</code>
+                    <definition>Feed primarily on non-planktonic animals including corals and other benthic invertebrates, but not fishes (may feed on fishes to some extent)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Unknown_coarse</code>
+                    <definition>The trophic group is unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="fine_trophic_group">
+          <attributeName>fine_trophic_group</attributeName>
+          <attributeLabel>Fine Trophic Group</attributeLabel>
+          <attributeDefinition>A specific category of trophic group into which the species fits.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Benthic Invertebrate Consumer</code>
+                    <definition>Feed primarily on benthic invertebrates; may also feed on fishes to some extent</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Corallivore</code>
+                    <definition>Include scleractinian corals as a major part of their diet; Many of these species also feed on other benthic invertebrates and/or algae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fish Scale Consumer</code>
+                    <definition>Feed primarily on the mucous and scales of fish</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Herbivore/Detritivore</code>
+                    <definition>Feed exclusively on algae, plant material, and/or detritus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Omnivore</code>
+                    <definition>Includes significant amounts of animal material (including benthic invertebrates and/or zooplankton but not coral) and plant/algal material in diet.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Piscivore</code>
+                    <definition>Feed primarily or largely on fishes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Planktivore</code>
+                    <definition>Feeds on zooplankton</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Planktivore_exclusively</code>
+                    <definition>Feed exclusively on zooplankton</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Unknown</code>
+                    <definition>The trophic group is unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+		  <constraint>
+		    <primaryKey>
+		      <constraintName>Species Primary Key</constraintName>
+		      <key>
+		        <attributeReference>species_3</attributeReference>
+		      </key>
+		    </primaryKey>
+		  </constraint>
+		  <caseSensitive>no</caseSensitive>
+      <numberOfRecords>366</numberOfRecords>
+    </dataTable>
+    <dataTable id="ent04">
+      <entityName>Reference_Fish_Citation_Items_Consumed</entityName>
+      <entityDescription>Lists of specific items consumed for each species according to citations. Where multiple citations for a given species are available, table lists one row per citation.</entityDescription>
+      <physical>
+        <objectName>Reference_Fish_Citation_Items_Consumed_20140116.txt</objectName>
+        <size unit="Kb">60</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"
+              >http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=4</url>
+            <!-- http://mcr.lternet.edu/data/db/script/database/dbrequest.php?docid=knb-lter-mcr.6001&amp;entityindex=4 -->
+          </online>
+          <access authSystem="knb" order="allowFirst">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>authenticated</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+     
+      <attributeList>
+        <attribute id="family_4">
+          <attributeName>family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acanthuridae</code>
+                    <definition>Acanthuridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Actinopterygii</code>
+                    <definition>Actinopterygii family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Apogonidae</code>
+                    <definition>Apogonidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Aulostomidae</code>
+                    <definition>Aulostomidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Balistidae</code>
+                    <definition>Balistidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Beryciformes</code>
+                    <definition>Beryciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Blenniidae</code>
+                    <definition>Blenniidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Bothidae</code>
+                    <definition>Bothidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Callionymidae</code>
+                    <definition>Callionymidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Caracanthidae</code>
+                    <definition>Caracanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carangidae</code>
+                    <definition>Carangidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Carcharhinidae</code>
+                    <definition>Carcharhinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chaetodontidae</code>
+                    <definition>Chaetodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Chanidae</code>
+                    <definition>Chanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Cirrhitidae</code>
+                    <definition>Cirrhitidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Craniata</code>
+                    <definition>Craniata family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Diodontidae</code>
+                    <definition>Diodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Echeneidae</code>
+                    <definition>Echeneidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ephippidae</code>
+                    <definition>Ephippidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Exocoetidae</code>
+                    <definition>Exocoetidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Fistulariidae</code>
+                    <definition>Fistulariidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Gobiidae</code>
+                    <definition>Gobiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hemiramphidae</code>
+                    <definition>Hemiramphidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Holocentridae</code>
+                    <definition>Holocentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Kyphosidae</code>
+                    <definition>Kyphosidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Labridae</code>
+                    <definition>Labridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lethrinidae</code>
+                    <definition>Lethrinidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Lutjanidae</code>
+                    <definition>Lutjanidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Microdesmidae</code>
+                    <definition>Microdesmidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Monacanthidae</code>
+                    <definition>Monacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mullidae</code>
+                    <definition>Mullidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Muraenidae</code>
+                    <definition>Muraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Ostraciidae</code>
+                    <definition>Ostraciidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Perciformes</code>
+                    <definition>Perciformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pinguipedidae</code>
+                    <definition>Pinguipedidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Polynemidae</code>
+                    <definition>Polynemidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacanthidae</code>
+                    <definition>Pomacanthidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Pomacentridae</code>
+                    <definition>Pomacentridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scaridae</code>
+                    <definition>Scaridae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaenidae</code>
+                    <definition>Scorpaenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Scorpaeniformes</code>
+                    <definition>Scorpaeniformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Serranidae</code>
+                    <definition>Serranidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Siganidae</code>
+                    <definition>Siganidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sphyraenidae</code>
+                    <definition>Sphyraenidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synanceiidae</code>
+                    <definition>Synanceiidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Syngnathidae</code>
+                    <definition>Syngnathidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Synodontidae</code>
+                    <definition>Synodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontidae</code>
+                    <definition>Tetraodontidae family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tetraodontiformes</code>
+                    <definition>Tetraodontiformes family</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Zanclidae</code>
+                    <definition>Zanclidae family</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="species_4">
+          <attributeName>species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Taxonomic species binomial</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="citation_code">
+          <attributeName>citation_code</attributeName>
+          <attributeLabel>Citation Code</attributeLabel>
+          <attributeDefinition>Code indicating the citation source of information</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>FishBase</code>
+                    <definition>Froese, R. and D. Pauly. Editors. 2010. FishBase. World Wide Web electronic publication. www.fishbase.org, version (07/2010).</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>generalization</code>
+                    <definition>No diet information in references and/or may be generalization of broader taxonomic group.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Karplus and Thompson 2010</code>
+                    <definition>Karplus I, Thompson AR (2010) The partnership between gobiid fishes and burrowing alpheid shrimps. In: Patzner RA, VanTassell JL, Larson HK, Kapoor BG (eds) The biology of gobies. Science Publishers, Inc., New Hampshire.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Randall</code>
+                    <definition>Randall, J. E. 2005 Reef and Shore Fishes of the South Pacific New Caledonia to Tahiti and the Pitcairn Islands.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="items_consumed">
+          <attributeName>items_consumed</attributeName>
+          <attributeLabel>Items Consumed</attributeLabel>
+          <attributeDefinition>Comma-separated list of items consumed by this species.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>information not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="notes">
+          <attributeName>notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Notes on data.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>na</code>
+            <codeExplanation>no notes</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+	    <constraint>
+	      <primaryKey>
+	        <constraintName>Species Primary Key</constraintName>
+	        <key>
+	          <attributeReference>species_4</attributeReference>
+	          <attributeReference>citation_code</attributeReference>
+	        </key>
+	      </primaryKey>
+	    </constraint>
+      <numberOfRecords>519</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated
+            unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mm" id="millimeter" multiplierToSI="0.001" name="millimeter"
+          parentSI="meter">
+          <stmml:description>.001 meters</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

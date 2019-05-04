@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:eml packageId="vmc.11.2476.1" scope="system" system="vmc" xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+	
+
+	<access authSystem="knb" order="allowFirst" scope="document">
+		 
+		<allow>
+			 
+			<principal>public</principal>
+			
+ 
+			<permission>read</permission>
+			
+ 
+		</allow>
+		
+ 
+	</access>
+	
+   
+	<dataset id="2018-03-06 11:36:49,11.2476,11.2476.958">
+		<title>Forest Bird Monitoring Project (all locations)</title>
+		<creator>
+			<individualName>
+				<givenName>Steven</givenName>
+				<surName>Faccio</surName>
+			</individualName>
+			<organizationName>Vermont Center for Ecostudies, VCE</organizationName>
+		</creator>
+		<abstract>
+			<para>Forest bird monitoring point counts from 1989-present collected by Vermont Center for Ecosystem Studies. </para>
+		</abstract>
+		<keywordSet>
+			<keyword>surveys</keyword>
+			<keyword>long term monitoring</keyword>
+			<keyword>forest ecosystems</keyword>
+			<keyword>habitat</keyword>
+			<keyword>birds</keyword>
+		</keywordSet>
+		<coverage>
+			<geographicCoverage>
+				<geographicDescription>No geographic description is available for this dataset</geographicDescription>
+				<boundingCoordinates>
+					<westBoundingCoordinate>-72.8403</westBoundingCoordinate>
+					<eastBoundingCoordinate>-72.816115</eastBoundingCoordinate>
+					<northBoundingCoordinate>44.536363</northBoundingCoordinate>
+					<southBoundingCoordinate>44.527427</southBoundingCoordinate>
+				</boundingCoordinates>
+			</geographicCoverage>
+			<temporalCoverage>
+				<singleDateTime>
+					<calendarDate>1989-06-07</calendarDate>
+				</singleDateTime>
+			</temporalCoverage>
+		</coverage>
+		<contact>
+			<organizationName>Forest Ecosystem Monitoring Cooperative</organizationName>
+			<address>
+				<deliveryPoint>705 Spear Street</deliveryPoint>
+				<city>South Burlington</city>
+				<administrativeArea>Vermont</administrativeArea>
+				<postalCode>05403</postalCode>
+				<country>United States of America</country>
+			</address>
+			<phone>(802) 656-2975</phone>
+			<electronicMailAddress>femc@uvm.edu</electronicMailAddress>
+			<onlineUrl>https://www.uvm.edu/femc</onlineUrl>
+		</contact>
+		<project>
+			<title>Forest Bird Surveys</title>
+			<personnel>
+				<individualName>
+					<givenName>Charles</givenName>
+					<surName>Darmstadt</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Steven</givenName>
+					<surName>Faccio</surName>
+				</individualName>
+				<role>principalInvestigator</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Kent</givenName>
+					<surName>McFarland</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Christopher</givenName>
+					<surName>Rimmer</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<abstract>
+				<para>The primary goal is to conduct habitat-specific monitoring of forest interior breeding birds and to determine trends over time.</para>
+			</abstract>
+		</project>
+		<dataTable>
+			<entityName>Forest Bird Monitoring Project (all locations)</entityName>
+			<entityDescription>Forest bird monitoring point counts from 1989-present collected by Vermont Center for Ecosystem Studies. </entityDescription>
+			<physical>
+				<objectName>FEMC.11.2476</objectName>
+				<dataFormat>
+					<textFormat>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://www.uvm.edu/femc/data/archive/project/forest-bird-surveys/dataset/forest-bird-monitoring-project-all-locations</url>
+					</online>
+				</distribution>
+			</physical>
+			<attributeList>
+				<attribute>
+					<attributeName>Common_Name</attributeName>
+					<attributeLabel>Common_Name</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Common_Name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Count</attributeName>
+					<attributeLabel>Count</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>no data</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Data_Status</attributeName>
+					<attributeLabel>Data_Status</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Data_Status</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Date</attributeName>
+					<attributeLabel>Date</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>date</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>M/D/YYYY</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Detection_Cue</attributeName>
+					<attributeLabel>Detection_Cue</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Detection_Cue</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Distance_Bin</attributeName>
+					<attributeLabel>Distance_Bin</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Distance_Bin</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Distance_Bin_ID</attributeName>
+					<attributeLabel>Distance_Bin_ID</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Distance_Bin_ID</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>End_Time</attributeName>
+					<attributeLabel>End_Time</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>time</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>hh:mm:ss</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Observation_Note</attributeName>
+					<attributeLabel>Observation_Note</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Observation_Note</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Point</attributeName>
+					<attributeLabel>Point</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>no data</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Point_Note</attributeName>
+					<attributeLabel>Point_Note</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Point_Note</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Project</attributeName>
+					<attributeLabel>Project</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Project</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Protocol</attributeName>
+					<attributeLabel>Protocol</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Protocol</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Researcher</attributeName>
+					<attributeLabel>Researcher</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Researcher</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Scientific_Name</attributeName>
+					<attributeLabel>Scientific_Name</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Scientific_Name</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Spp</attributeName>
+					<attributeLabel>Spp</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Spp</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Start_Time</attributeName>
+					<attributeLabel>Start_Time</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>time</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>hh:mm:ss</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Study_Area</attributeName>
+					<attributeLabel>Study_Area</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Study_Area</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Time_Bin</attributeName>
+					<attributeLabel>Time_Bin</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Time_Bin</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Time_Bin_ID</attributeName>
+					<attributeLabel>Time_Bin_ID</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Time_Bin_ID</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Transect</attributeName>
+					<attributeLabel>Transect</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>Transect</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Visit</attributeName>
+					<attributeLabel>Visit</attributeLabel>
+					<attributeDefinition>No description for this attribute</attributeDefinition>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<textDomain>
+									<definition>no data</definition>
+								</textDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+</ns0:eml>

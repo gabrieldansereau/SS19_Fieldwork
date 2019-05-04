@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111163.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems VIDA Tree Growth Simulation - 100 by 100 World 30 Species
+</title>
+    <creator>
+      <organizationName>University of New Mexico</organizationName>
+    </creator>
+    <pubDate>2014-12-19</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This dataset was based on simulations run by VIDA, a software suite that attempts to model the growth of individual trees using empirically derived--or randomly chosen--values for use with allometric relationships. By modeling the behavior of an individual tree, it is possible to model population dynamics in a spatially explicit simulation space. The modeling was done by Sean Hammond at The Brown Lab (PI, Jim Brown) at the University of New Mexico as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Trees</keyword>
+      <keyword keywordType="theme">Growth</keyword>
+      <keyword keywordType="theme">Simulation</keyword>
+      <keyword keywordType="theme">VIDA</keyword>
+      <keyword keywordType="theme">software</keyword>
+      <keyword keywordType="theme">HJ Andrews</keyword>
+      <keyword keywordType="theme">Coweeta</keyword>
+      <keyword keywordType="theme">Harvard Forest</keyword>
+      <keyword keywordType="theme">Luquillo</keyword>
+      <keyword keywordType="theme">Niwot Ridge</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-vida-tree-growth-simulation-100-100-world-30-species-0
+</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>
+This simulation was done at the University of New Mexico in Albuquerque.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-106.61861</westBoundingCoordinate>
+          <eastBoundingCoordinate>-106.61861</eastBoundingCoordinate>
+          <northBoundingCoordinate>35.08389</northBoundingCoordinate>
+          <southBoundingCoordinate>35.08389</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Sean</givenName>
+        <surName>Hammond</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>seanth@gmail.com</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+Vida.py -w 100 -t 500 -s 750 -m 100000 -f a -x 9 -n 100by100-30SpeciesDensityMortalityStdDev0.0_rep -g b
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>
+Macrosystems VIDA Tree Growth Simulation - 100 by 100 World 30 Species
+</entityName>
+      <entityDescription>
+VIDA is a software suite that attempts to model the growth of individual trees using empiriclly derived--or randomly chosen--values for use with allometric relationships. By modeling the behavior of an individual tree, it is possible to model population dynamics in a spatially explicit simulation space.
+</entityDescription>
+      <physical>
+        <objectName>
+VIDA Tree Growth Simulation - 100 by 100 World 30 Species
+</objectName>
+        <size>134343999</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111163/1/d02b5ee2aa7e04c9aba86756943f8475</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-02-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-02-19</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>Cycle #</attributeName>
+          <attributeLabel>Cycle #</attributeLabel>
+          <attributeDefinition>
+Integer. The cycle number of the simulation (which is analogous to year).
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plant Name</attributeName>
+          <attributeLabel>Plant Name</attributeLabel>
+          <attributeDefinition>
+Alphanumeric. The unique name of an individual object (seed or plant). Assigned by the software.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Alphanumeric. The unique name of an individual object (seed or plant). Assigned by the software.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>
+Alphanumeric. The name of a given object's (seed or plant) genus and species.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Alphanumeric. The name of a given object's (seed or plant) genus and species.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mother Plant name</attributeName>
+          <attributeLabel>Mother Plant name</attributeLabel>
+          <attributeDefinition>
+Alphanumeric. The unique name of given object's (seed or plant) mother. Assigned by the software.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Alphanumeric. The unique name of given object's (seed or plant) mother. Assigned by the software.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>X Location</attributeName>
+          <attributeLabel>X Location</attributeLabel>
+          <attributeDefinition>
+Float. Location of the individual object (seed or plant) in the simulation space along the X axis.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Float. Location of the individual object (seed or plant) in the simulation space along the X axis.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Y Location</attributeName>
+          <attributeLabel>Y Location</attributeLabel>
+          <attributeDefinition>
+Float. Location of the individual object (seed or plant) in the simulation space along the Y axis.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Float. Location of the individual object (seed or plant) in the simulation space along the Y axis.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>is a seed</attributeName>
+          <attributeLabel>is a seed</attributeLabel>
+          <attributeDefinition>Boolean. Is the object a seed or a plant.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Boolean. Is the object a seed or a plant.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>is mature</attributeName>
+          <attributeLabel>is mature</attributeLabel>
+          <attributeDefinition>
+Boolean. Is the plant object mature enough to reproduce.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Boolean. Is the plant object mature enough to reproduce.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Age at Maturity</attributeName>
+          <attributeLabel>Age at Maturity</attributeLabel>
+          <attributeDefinition>
+Integer. The age (in years) at which the plant object is first able to reproduce.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cycles until germination</attributeName>
+          <attributeLabel>cycles until germination</attributeLabel>
+          <attributeDefinition>
+Integer. Number of cycles remaining until the seed object can germinate. Species can be configured to have a delay in germination in the species file yml under 'delayInGermination'.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Number of cycles</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeLabel>Age</attributeLabel>
+          <attributeDefinition>
+Integer. The age (in years) of the individual object in the simulation.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mass of Stem</attributeName>
+          <attributeLabel>Mass of Stem</attributeLabel>
+          <attributeDefinition>
+Float. The mass of the aboveground woody parts of a plant object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mass of Canopy</attributeName>
+          <attributeLabel>Mass of Canopy</attributeLabel>
+          <attributeDefinition>
+Float. The mass of the photosynthetic parts of a plant object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName># of Seeds</attributeName>
+          <attributeLabel># of Seeds</attributeLabel>
+          <attributeDefinition>
+Integer. The number of seed objects currently on the mother plant object.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Amount</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mass of all Seeds</attributeName>
+          <attributeLabel>Mass of all Seeds</attributeLabel>
+          <attributeDefinition>
+Float. The combined mass of all the seed objects currently on the mother plant object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mass Stem+Mass Canopy</attributeName>
+          <attributeLabel>Mass Stem+Mass Canopy</attributeLabel>
+          <attributeDefinition>
+Float. The combined mass of the the aboveground woody parts of a plant object and the photosynthetic parts of a plant object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mass Total</attributeName>
+          <attributeLabel>Mass Total</attributeLabel>
+          <attributeDefinition>
+Float. The combined mass of the the aboveground woody parts of a plant object, the photosynthetic parts of a plant object, and the combined mass of all the seed objects currently on the mother plant object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diameter Stem</attributeName>
+          <attributeLabel>Diameter Stem</attributeLabel>
+          <attributeDefinition>
+Float. The diameter of the object (seed or plant), in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Radius Canopy</attributeName>
+          <attributeLabel>Radius Canopy</attributeLabel>
+          <attributeDefinition>
+Float. The diameter of the plant object, in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Area covered</attributeName>
+          <attributeLabel>Area covered</attributeLabel>
+          <attributeDefinition>
+Float. The area of the projected area of the photosynthetic surface of plant objects which is 100% shaded by overtopping plant objects, in square meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Height Stem</attributeName>
+          <attributeLabel>Height Stem</attributeLabel>
+          <attributeDefinition>
+Float. The height of the plant object's aboveground woody parts, in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Maximum Thickness of a Leaf</attributeName>
+          <attributeLabel>Maximum Thickness of a Leaf</attributeLabel>
+          <attributeDefinition>
+Float. The thinckness of the plant object's photosynthetic surface, in meters. The thickness is defined in the species file yml under 'heightLeafMax'.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Height of Plant</attributeName>
+          <attributeLabel>Height of Plant</attributeLabel>
+          <attributeDefinition>
+Float. The combined height of a plant object's aboveground woody parts and he thickness of the plant object's photosynthetic surface, in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yearly Growth Stem (kg)</attributeName>
+          <attributeLabel>Yearly Growth Stem (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The growth of a plant object's aboveground woody parts for the given cycle(year), in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yearly Growth Canopy (kg)</attributeName>
+          <attributeLabel>Yearly Growth Canopy (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The growth of a plant object's photosynthetic parts for the given cycle(year), in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yearly Growth Stem+Canopy (kg)</attributeName>
+          <attributeLabel>Yearly Growth Stem+Canopy (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The combined growth of a plant object's aboveground woody parts and the photosynthetic parts for the given cycle(year), in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yearly Growth Stem diameter (m)</attributeName>
+          <attributeLabel>Yearly Growth Stem diameter (m)</attributeLabel>
+          <attributeDefinition>
+Float. The growth of a plant object's aboveground woody part's diameter for the given cycle(year), in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Yearly Growth Stem Height (m)</attributeName>
+          <attributeLabel>Yearly Growth Stem Height (m)</attributeLabel>
+          <attributeDefinition>
+Float. The growth of a plant object's aboveground woody part's height for the given cycle(year), in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average Growth Stem (kg)</attributeName>
+          <attributeLabel>Average Growth Stem (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The average growth of a plant object's aboveground woody parts over the lifetime of the object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average Growth Canopy (kg)</attributeName>
+          <attributeLabel>Average Growth Canopy (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The average growth of a plant object's photosynthetic parts over the lifetime of the object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average Growth Stem+Canopy (kg)</attributeName>
+          <attributeLabel>Average Growth Stem+Canopy (kg)</attributeLabel>
+          <attributeDefinition>
+Float. The average combined growth of a plant object's aboveground woody parts and the photosynthetic parts over the lifetime of the object, in kg.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average Growth Stem diameter (m)</attributeName>
+          <attributeLabel>Average Growth Stem diameter (m)</attributeLabel>
+          <attributeDefinition>
+Float. The average growth of a plant object's aboveground woody part's diameter over the lifetime of the object, in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Average Growth Stem Height (m)</attributeName>
+          <attributeLabel>Average Growth Stem Height (m)</attributeLabel>
+          <attributeDefinition>
+Float. The average growth of a plant object's aboveground woody part's height over the lifetime of the object, in meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cause of Death</attributeName>
+          <attributeLabel>Cause of Death</attributeLabel>
+          <attributeDefinition>
+Alphanumeric. Values only present in files in the 'Corpses' folder. Lists one of several possible causes of death: 'random death', 'stem off world', 'Euler-Greenhill violation', 'growth too slow', 'experimental death due to distance from mother', 'overlapping objects', 'crushed', and 'lack of light'.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Alphanumeric. Values only present in files in the 'Corpses' folder. Lists one of several possible causes of death: 'random death', 'stem off world', 'Euler-Greenhill violation', 'growth too slow', 'experimental death due to distance from mother', 'overlapping objects', 'crushed', and 'lack of light'.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Functional Area</attributeName>
+          <attributeLabel>Functional Area</attributeLabel>
+          <attributeDefinition>
+Float. The area of the photosynthetic parts of a plant object that is able to perform photosynthesis, in square meters.
+</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="Number of cycles">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit id="Amount">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

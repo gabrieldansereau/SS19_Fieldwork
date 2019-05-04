@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.279.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="NTL-DEIMS">32910</alternateIdentifier>
+    <title>WDNR Yahara Lakes Fisheries: Fish Lengths and Weights 1987-1998</title>
+    <creator>
+      <individualName>
+        <givenName>Richard</givenName>
+        <surName>Lathrop</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(608) 261-7593</phone>
+      <phone phonetype="fax">(608) 265-2340</phone>
+      <electronicMailAddress>rlathrop@wisc.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data were collected by the Wisconsin Department of Natural Resources (WDNR) from 1987-1998. Most of these data (1987-1993) precede 1995, the year that the University of Wisconsin  NTL-LTER program  took over sampling of the Yahara Lakes. However, WDNR data collected from 1997-1998  (unrelated to LTER sampling) is also included. In 1987 a joint project by the WDNR and the University of Wisconsin-Madison, Center for Limnology (CFL) was initiated on Lake Mendota. The project involved biomanipulation of fish communities within the lake, which was acheived by stocking game fish species (northern pike and walleye). The goal was to induce a trophic cascade that would improve the water clarity of Lake Mendota. See Lathrop et al.  2002. Stocking piscivores to improve fishing and water clarity: a synthesis of the Lake Mendota biomanipulation project. Freshwater Biology 47, 2410-2424. In collecting these data, the objective was to gather population data and monitor populations to track the progress of the biomanipulation. The data is dominated by an assesssment of the game fishery in Lake Mendota, however  other Yahara Lakes and non-game fish species are also represented. A combination of gear types was used to gather the population data including boom shocking, fyke netting, mini-fyke netting, seining, and gill netting. Not every sampling year includes length and weight data from all gear types. The WDNR also carried out randomized, access-point creel surveys to estimate fishing pressure, catch rates, harvest, and exploitation rates.  Five data files each include length-weight data, and are organized by the type of gear or method which was used to collect the data: 1) fyke, mini-fyke, and seine netting 2) boom shocking 3) gill netting (1993 only)  4)walleye age as determined by scale and spine analysis (1987 only), and 5) creel survey. The final data file contains creel survey information: number of anglers fishing the shoreline, and number of anglers that started and completed trips from public and private access points. 
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>abundance</keyword>
+      <keyword>age</keyword>
+      <keyword>algae</keyword>
+      <keyword>animals</keyword>
+      <keyword>aquatic</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>biology</keyword>
+      <keyword>communities</keyword>
+      <keyword>community composition</keyword>
+      <keyword>community dynamics</keyword>
+      <keyword>community patterns</keyword>
+      <keyword>consumers</keyword>
+      <keyword>ecology</keyword>
+      <keyword>ecosystems</keyword>
+      <keyword>environment</keyword>
+      <keyword>food</keyword>
+      <keyword>food webs</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>growth</keyword>
+      <keyword>human disturbance</keyword>
+      <keyword>inventories</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>lakes</keyword>
+      <keyword>length</keyword>
+      <keyword>limnology</keyword>
+      <keyword>long term</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>macroinvertebrates</keyword>
+      <keyword>nekton</keyword>
+      <keyword>oxygen</keyword>
+      <keyword>phytoplankton</keyword>
+      <keyword>population dynamics</keyword>
+      <keyword>populations</keyword>
+      <keyword>recruitment</keyword>
+      <keyword>sampling</keyword>
+      <keyword>seasonality</keyword>
+      <keyword>size</keyword>
+      <keyword>size distribution</keyword>
+      <keyword>speciation</keyword>
+      <keyword>species</keyword>
+      <keyword>species composition</keyword>
+      <keyword>species diversity</keyword>
+      <keyword>species interactions</keyword>
+      <keyword>species lists</keyword>
+      <keyword>species richness</keyword>
+      <keyword>survival</keyword>
+      <keyword>survivorship</keyword>
+      <keyword>taxa</keyword>
+      <keyword>taxonomy</keyword>
+      <keyword>trophic dynamics</keyword>
+      <keyword>trophic structure</keyword>
+      <keyword>vertebrates</keyword>
+      <keyword>water quality</keyword>
+      <keyword>weight</keyword>
+      <keyword>zooplankton</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>DO</keyword>
+      <keyword>experiments</keyword>
+      <keyword>fish</keyword>
+      <keyword>fish abundance</keyword>
+      <keyword>fish age growth</keyword>
+      <keyword>fish length</keyword>
+      <keyword>fish length frequency</keyword>
+      <keyword>fish population</keyword>
+      <keyword>fish predator</keyword>
+      <keyword>fish predator prey</keyword>
+      <keyword>fish prey</keyword>
+      <keyword>fish richness</keyword>
+      <keyword>fish scales</keyword>
+      <keyword>fish species richness</keyword>
+      <keyword>food web</keyword>
+      <keyword>invertebrate</keyword>
+      <keyword>length frequency</keyword>
+      <keyword>littoral sites</keyword>
+      <keyword>littoral zone</keyword>
+      <keyword>long-term change</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keyword>pelagic</keyword>
+      <keyword>pelagic fish</keyword>
+      <keyword>plankton</keyword>
+      <keyword>species abundance</keyword>
+      <keyword>species frequency</keyword>
+      <keyword>species presence</keyword>
+      <keyword>water clarity</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+        <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para>
+        <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para>
+        <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para>
+        <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para>
+        <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para>
+        <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.limnology.wisc.edu/node/32910</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The data was collected on the Yahara Lakes in Dane County, Wisconsin. Most of the sampling was on Lake Mendota, however, Lake Monona, Lake Waubesa, and Lake Wingra are also represented.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.222</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.484</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.147</northBoundingCoordinate>
+          <southBoundingCoordinate>42.949</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1987-03-17</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1998-10-28</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <organizationName>LTER Network Office</organizationName>
+      <positionName>LNO Information Manager</positionName>
+    </contact>
+    <contact>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>BOOM SHOCKING
+1987:
+A standard WDNR electrofishing boat was used on Lake Mendota set at 300 volts and 2.5 amps (mean) DC, with a 20 % duty cycle and 60 pulses per second.  On all sampling dates two people netted fish, the total electrofishing crew was three people. Shocking was divided into stations. For each station, the actual starting and ending time was recorded. Starting and ending points of each station were plotted on a nap. A 7.5 minute topographic map (published 1983) and a cartometer was used to develop a standardized shoreline mileage numbering scheme. Starting at the Yahara River outlet at Tenney Park and measuring counterclockwise, the shoreline was numbered according to the number of miles from the outlet. The length of shoreline shocked for each station was determined using the same maps. The objectives of the fall 1987 electrofishing was: to gather CPE data for comparison with previous surveys of the lake; develop a database for relating fall electroshocker CPE to predator density; collect fall predator diet data; make mark-recapture population estimates of YOY predators; and determine year-class-strength of some nonpredators (yellow perch, yellow bass, and white bass).
+1993:
+  Electrofishing was used to continue marking largemouth and smallmouth bass (because of low CPE in fyke nets), to recapture fish marked in fyke netting, and to mark and recapture walleyes ( less than 11.0 in.) on Lake Mendota.  Four person crews electrofished after sunset from May 05 to June 03, 1993.  A standard WDNR electrofishing boat was used, set at about 300 volts and 15.0 amps (mean) DC, with a 20 % duty cycle at 60 pulses per second.  On all sampling dates two people netted fish; thus, CPE data are given as catch per two netter hour or mile.  Shocking was divided into stations.  For each station the actual starting and ending time and the generator's meter times was recorded.  Starting and ending points of each station were plotted on a map.  7.5 minute topographic maps (published in 1983) were used in addition to a cartometer to develop a standardized shoreline mileage numbering scheme.  Starting at the Yahara River outlet at Tenney Park and measuring counterclockwise the shoreline was numbered according to the number of miles from the outlet. The length of shoreline shocked for each station was determined using these maps. The 4 person electroshocker crews were used again from September 20 to October 19.  Fall shocking had several objectives:  to gather CPE data for comparison with previous surveys of the lake; develop a database for relating fall electroshocker CPE to piscivore density; and make mark recapture population estimates of young of year (YOY) piscivores.
+1997:
+5/13/1997-5/20/1997: Electrofishing was completed at night on lakes:  Mendota, Monona, and Waubesa. A standard WDNR electrofishing boat was used, set from 320-420 volts and 16-22 amps DC, with a 20 % duty cycle at 50 pulses per second. Two netters were used for each shocking event.  At a particular station, starting and ending times where shocking took place were recorded. The location of the designated shocking stations is unknown.
+9/23/1997-10/14/1997: Electrofishing was completed at night on Mendota, Monona, Waubesa, and Wingra. A standard WDNR electrofishing boat was used, set from 315-400 volts and 16-24 amps DC, with a 20% duty cycle at 60 pulses per second. Two netters were used for each shocking event.  Starting and ending time at each shocking station was listed. The location of the designated shocking stations is unknown.
+1998:
+Electrofishing was completed at night on Mendota, Monona, Wingra, and Waubesa from 5/12/1998- 10/28/1998. A standard WDNR electrofishing boat was used, set from 240-410 volts and 15-22 amps DC, with a 20% duty cycle at 50-100 pulses per second. Two netters were used for each shocking event. Starting and ending time at each shocking station was listed. The location of the designated shocking stations is unknown. 
+ 
+FYKE NETTING
+1987:
+Fyke nets were fished daily from March 17 to April 24, 1987 on Lake Mendota.  The nets were constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  Nets were set in 48 unknown locations.  Initially, effort was concentrated around traditional northern pike spawning sites (Cherokee Marsh, Sixmile Creek, Pheasant Branch Creek, and University Bay).  As northern pike catch-per-effort (CPE) declined some nets were moved onto rocky shorelines of the lake to capture walleyes.  All adult predators (northern pike, hybrid muskie, largemouth and smallmouth bass, walleye, gar, bowfin, and channel catfish) captured were tagged and scale sampled.   Measurements on non-predator species captured in fyke nets were made one day per week.  This sampling was used to index size structure and abundance, and to collect age and growth data.  In each net, total length and weight of 20 fish of each species caught was measured, and the remaining caught were counted.
+1993:
+Same methods as 1987, except fyke nets were fished from 4/8/1993-4/29/1993 on Lake Mendota. The 1993 fyke net data also specifies the “mile” at which the fyke net was set. This is defined as the number of miles from the outlet of the Yahara River at Tenney Park, moving counterclockwise around the lake.  In addition, abundance and lengths of non-gamefish species captured in fyke nets were recorded one day per week.  Six nets were randomly selected to sample for non-gamefish data.  This sampling was used to index size structure and abundance, and to collect age and growth data.  In each randomly selected net, total length and weight was measured for 20 fish of each species, and the remaining caught were counted.
+1998:
+There is no formal documentation for the exact methods used for fyke netting from 3/3/1998-8/12/1998 on Lake Mendota. However, given that the data is similar to data collected in 1987 and 1993 it is speculated that the same methods were used.
+MINI-FYKE NETTING
+1989:
+There is no formal documentation for the exact methods used for mini-fyke netting on Lake Mendota and Lake Monona from 7/26/1989-8/25/1989. However, given that the data is similar to data collected from 1990-1993 it is speculated that the same methods were used.  In the sampling year of 1989, mini-fyke nets were placed at 22 different unknown stations.
+1990-1993:
+ Mini-fyke nets were fished on Lake Mendota and Lake Monona during July-September at 20, 29, 13, and 15 sites per month during 1990, 1991, 1992, and 1993, respectively to estimate year-class strength, relative abundance, and size structure of fishes in the littoral zone.  Nets were constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead.  Sites were comparable to seine sites used in previous surveys.  Sites included a variety of substrate types and macrophyte densities.  To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  Thus, mini-fyke net data are most accurate for YOY fishes, and should not be used to make inferences about fishes larger than the exclusion mesh size. 
+1997:
+There is no formal documentation for the mini-fyke methods which were used on Lake Waubesa and Lake Wingra from 9/16/1997-9/18/1997. However, given that the data is similar to data collected in 1989, and 1990-1993, it is speculated that the methods used during 1997 are the same. 
+SEINE NETTING
+1989, 1993:
+ Monthly shoreline seining surveys were conducted on Lake Mendota and Lake Monona during June through September to estimate year class-strength, relative abundance, and size structure of the littoral zone fish community.  Twenty sites were identified based on previous studies. Sites included a variety of substrate types and macrophyte densities.  Seine hauls were made with a 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  Twenty fish of each species were measured from each haul and any additional fish were counted.
+ 
+Gill Netting (1993)
+Experimental gill nets were fished in weekly periods during June through August, 1993.  Gill nets were used to capture piscivores for population estimates of fish marked in fyke nets.  All nets were constructed of five 2.5-4.5 in. mesh panels, and were 125 ft. long.  Nets set in water shallower than 10 ft. were 3ft. high or less; all others were 6ft. high or less.  Sampling locations were selected randomly from up to three strata: 1) offshore reef sets, 2) inshore sets, 6.0-9.9 ft. deep, and 3) mid-depth sets, 10-29.9 ft. deep. The exact location at which the gill nets were set on the lake is unknown because the latitude and longitude values which were recorded by the WDNR are invalid.   Temperature and dissolved oxygen profiles were used to monitor the development of the thermocline and guide net placement during July and August.  After the thermocline was established nets were set out to the 30 ft. contour or to the maximum depth with dissolved oxygen greater than 2 ppm.  
+Walleye Age: Scale and Spine Analysis (1987)
+ Scales were taken from walleye that were shocked during the fall of 1987 electrofishing events on Lake Mendota. Scales were taken from 10 fish per one-inch length increment. The scales were removed from behind the left pectoral fin, and from the nape on the left side on esocids.  In addition, the second dorsal spine was removed from 10 walleyes per sex and inch increment (to age and compare with scale ages for fish over 20 inches). 
+CREEL SURVEYS
+1989:
+Fishing pressure, catch rates, harvest, and exploitation rates were estimated from a randomized, access-point creel survey.  The schedule was stratified into weekday and weekend/holiday day types.  Shifts were selected randomly and were' either 07:00-15:00 h or 15:00-23:00 h.  In addition, two 23:00-03:00 h shifts and two 03:00-07:00 h shifts were sampled per month to estimate the same parameters during night time hours. During the ice fishing season (January-February) 22 access points around Lake Mendota and upstream to the Highway 113 bridge were sampled.  The clerk counted the number of anglers starting and completing trips during the scheduled stop at each access point.  During openwater (March-December) 13 access points were sampled; 10 were boat ramps and 3 were popular shore fishing sites.  At each of these sites, an instantaneous count of shore anglers was made upon arrival at the site, continuous counts of anglers starting and completing trips at public and private access points were made.  Boat occupants and ice fishing anglers were only interviewed if they were completing a trip.  Both complete and incomplete interviews were made of shore anglers.  Number caught and number kept of each species, and percent of time seeking a particular species were recorded.  All predators possessed by anglers were measured, weighed, and inspected for finclips and tags.  We measured a random sample of at least 20 fish of each non-predator species per day.
+1990-1993: Same as 1989, except 23 access points were used during the ice fishing season. In addition, 13 access points were sampled during the openwater (May-December) season; 9 sites were boat ramps and 4 sites were popular shore fishing sites. 
+1994-1999: No formal documentation exists, but given the similarity in the data and consistency through the years; it is speculated tha tthe methods are the same. 
+ 
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>wdnr_fyke_minifyke_seine_lengths_weights.csv</entityName>
+      <entityDescription>The WDNR used fyke and mini-fyke netting methods to capture fish, and lengths and weights were determined. </entityDescription>
+      <physical>
+        <objectName>wdnr_fyke_minifyke_seine_lengths_weights.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/b5b00b5be0c7936dca997bb82e8b5fb0</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Monona is located in the Yahara River watershed within Dane County.
+It is a drainage lake with muck, sand and gravel substrate. It has a surface area of 1324 hectare, 20.9 kilometers of highly developed shoreline and a maximum depth of 22.5 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.361</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.361</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.063</northBoundingCoordinate>
+            <southBoundingCoordinate>43.063</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Wingra is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 139.6 hectare, 5.9 kilometers of highly developed shoreline and a maximum depth of 6.7 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.42499</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.42499</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.05258</northBoundingCoordinate>
+            <southBoundingCoordinate>43.05258</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Waubesa is a drainage lake with predominantly sand and muck substrate. It has a surface area of 840 hectare and a maximum depth of 10 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.3244</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.3244</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.0131</northBoundingCoordinate>
+            <southBoundingCoordinate>43.0131</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1987-03-17</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1998-08-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>pull_date</attributeName>
+          <attributeLabel>net pull date</attributeLabel>
+          <attributeDefinition>The date that the fyke, mini-fyke, seine, or gill net was removed from the water. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_gearid</attributeName>
+          <attributeLabel>wdnr fish gear type</attributeLabel>
+          <attributeDefinition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_station</attributeName>
+          <attributeLabel>wdnr station</attributeLabel>
+          <attributeDefinition>The boom shock, fyke net, mini-fyke net, seine net, or gill net station number or code designated by the wdnr. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The boom shock, fyke net, mini-fyke net, seine net, or gill net station number or code designated by the wdnr. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mile_location</attributeName>
+          <attributeLabel>mile location</attributeLabel>
+          <attributeDefinition>The “mile” at which the fyke net was set. This location is defined as the number of miles from the outlet of the Yahara River at Tenney Park, moving counterclockwise around Lake Mendota.  </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>mile</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_spp_code</attributeName>
+          <attributeLabel>WDNR fish species code</attributeLabel>
+          <attributeDefinition>The code that the WDNR used to identify a particular fish species. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code that the WDNR used to identify a particular fish species. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spname</attributeName>
+          <attributeLabel>species common name</attributeLabel>
+          <attributeDefinition>species common name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeLabel>length</attributeLabel>
+          <attributeDefinition>length of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>set_time</attributeName>
+          <attributeLabel>time net was set</attributeLabel>
+          <attributeDefinition>The time at which the fyke, mini-fyke, gill or seine net was placed in the water in hh:mm:ss. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pull_time</attributeName>
+          <attributeLabel>net pull time</attributeLabel>
+          <attributeDefinition>The time at which the fyke, mini-fyke, seine, or gill net was removed from the water in hh:mm:ss. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>wdnr_boomshock_lengths_weights.csv</entityName>
+      <entityDescription>The WDNR boom shocked to capture fish, and lengths and weights were determined.</entityDescription>
+      <physical>
+        <objectName>wdnr_boomshock_lengths_weights.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/4ee9c0d862c22edd24302687fb11f5f4</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Monona is located in the Yahara River watershed within Dane County.
+It is a drainage lake with muck, sand and gravel substrate. It has a surface area of 1324 hectare, 20.9 kilometers of highly developed shoreline and a maximum depth of 22.5 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.361</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.361</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.063</northBoundingCoordinate>
+            <southBoundingCoordinate>43.063</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Waubesa is a drainage lake with predominantly sand and muck substrate. It has a surface area of 840 hectare and a maximum depth of 10 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.3244</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.3244</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.0131</northBoundingCoordinate>
+            <southBoundingCoordinate>43.0131</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Wingra is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 139.6 hectare, 5.9 kilometers of highly developed shoreline and a maximum depth of 6.7 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.42499</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.42499</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.05258</northBoundingCoordinate>
+            <southBoundingCoordinate>43.05258</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1987-09-08</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1998-10-28</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>shock_date</attributeName>
+          <attributeLabel>shock date</attributeLabel>
+          <attributeDefinition>The date when the shocking event took place, YYYY-MM-DD. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>shock_start</attributeName>
+          <attributeLabel>shock start time at station</attributeLabel>
+          <attributeDefinition>The time that shocking began at a particular station, hh:mm:ss. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>shock_end</attributeName>
+          <attributeLabel>shock end time at station</attributeLabel>
+          <attributeDefinition>The time at which boom shocking ended at a particular station.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_gearid</attributeName>
+          <attributeLabel>wdnr fish gear type</attributeLabel>
+          <attributeDefinition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_spp_code</attributeName>
+          <attributeLabel>WDNR fish species code</attributeLabel>
+          <attributeDefinition>The code that the WDNR used to identify a particular fish species. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code that the WDNR used to identify a particular fish species. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spname</attributeName>
+          <attributeLabel>species common name</attributeLabel>
+          <attributeDefinition>species common name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeLabel>length</attributeLabel>
+          <attributeDefinition>length of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_station</attributeName>
+          <attributeLabel>wdnr station</attributeLabel>
+          <attributeDefinition>The boom shock, fyke net, mini-fyke net, seine net, or gill net station number or code designated by the wdnr. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The boom shock, fyke net, mini-fyke net, seine net, or gill net station number or code designated by the wdnr. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>smile</attributeName>
+          <attributeLabel>dnr boom shock start mile</attributeLabel>
+          <attributeDefinition>The number of miles from the outlet at which boom shocking was started by wdnr. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>mile</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>emile</attributeName>
+          <attributeLabel>dnr boom shock end mile</attributeLabel>
+          <attributeDefinition>The number of miles from the outlet at which boom shocking was completed by wdnr. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>mile</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>wdnr_gillnet_lengths_weights_93.csv</entityName>
+      <entityDescription>The WDNR used gill netting as a method to capture fish, and lengths and weights were determined.</entityDescription>
+      <physical>
+        <objectName>wdnr_gillnet_lengths_weights_93.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/a88e8a98425c02a7bec8543499820783</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>wdnr_gearid</attributeName>
+          <attributeLabel>wdnr fish gear type</attributeLabel>
+          <attributeDefinition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>set_date</attributeName>
+          <attributeLabel>net set date</attributeLabel>
+          <attributeDefinition>The date that the fyke, mini-fyke, seine, or gill net was placed in the water.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pull_date</attributeName>
+          <attributeLabel>net pull date</attributeLabel>
+          <attributeDefinition>The date that the fyke, mini-fyke, seine, or gill net was removed from the water. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>set_time</attributeName>
+          <attributeLabel>time net was set</attributeLabel>
+          <attributeDefinition>The time at which the fyke, mini-fyke, gill or seine net was placed in the water in hh:mm:ss. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pull_time</attributeName>
+          <attributeLabel>net pull time</attributeLabel>
+          <attributeDefinition>The time at which the fyke, mini-fyke, seine, or gill net was removed from the water in hh:mm:ss. </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>start_mesh</attributeName>
+          <attributeLabel>start mesh size</attributeLabel>
+          <attributeDefinition>The beginning mesh size of the gill net in inches.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>end_mesh</attributeName>
+          <attributeLabel>end mesh size</attributeLabel>
+          <attributeDefinition>The mesh size at the end of the gill net in inches. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>inches</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>start-depth</attributeName>
+          <attributeLabel>shallow gill net depth</attributeLabel>
+          <attributeDefinition>The depth at which the top of the gill net was placed in feet. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>feet</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>end_depth</attributeName>
+          <attributeLabel>deep gill net depth</attributeLabel>
+          <attributeDefinition>The depth at which the bottom of the gill net was placed in feet. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>feet</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dissolved_oxygen</attributeName>
+          <attributeLabel>dissolved oxygen</attributeLabel>
+          <attributeDefinition>dissolved oxygen</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mesh_fish</attributeName>
+          <attributeLabel>mesh size fish was caught on</attributeLabel>
+          <attributeDefinition>The size of the gill net mesh where the fish was caught in feet. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>feet</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_spp_code</attributeName>
+          <attributeLabel>WDNR fish species code</attributeLabel>
+          <attributeDefinition>The code that the WDNR used to identify a particular fish species. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code that the WDNR used to identify a particular fish species. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spname</attributeName>
+          <attributeLabel>species common name</attributeLabel>
+          <attributeDefinition>species common name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeLabel>length</attributeLabel>
+          <attributeDefinition>length of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>sex</attributeLabel>
+          <attributeDefinition>sex</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sex</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>wdnr_walleye_age_lengths_weights_87.csv</entityName>
+      <entityDescription>The WDNR used boom shocking to capture walleye, scales and spines were removed to age the fish. In addition, lengths and weights were determined.</entityDescription>
+      <physical>
+        <objectName>wdnr_walleye_age_lengths_weights_87.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/3be8a290355bc7bcb45ac5743e899dab</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_gearid</attributeName>
+          <attributeLabel>wdnr fish gear type</attributeLabel>
+          <attributeDefinition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The gear that the WDNR used to collect fish population data from the Yahara Lakes prior to LTER (1987-1993) and 1997-1998. 
+
+BOOM SHOCKER= Standard WDNR electrofishing boat set at 240-210 volts and 15-22 amps DC, with a 20% duty cycle and 60 pulses per second.
+
+FYKE= Fyke net constructed of 1.25 inch (stretch) mesh with a lead length of 50 ft. (a few 25 ft. leads were used).  The hoop diameter was 3 ft. and the frame measured 3 ft. by 6 ft.  Total length of the net was 28 ft. plus the lead length.  
+
+MINIFYKE= Mini-fyke net constructed with 3/16 in. mesh, 2 ft. diameter hoops, 2 ft. x 3 ft. frame, and a 25 ft. lead. To exclude turtles and large piscivores from minifyke nets, some nets were constructed with approximately 2 in. by 2 in. mesh at the entrance to the net.  
+
+SEINE= Seine net made with 25ft bag seine with 1/8 inch mesh pulled perpendicular to shore starting from a depth of 1 m.  
+
+GILLNET= Gill nets constructed of five 2.5-4.5 in. mesh panels, 125 ft. long.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spname</attributeName>
+          <attributeLabel>species common name</attributeLabel>
+          <attributeDefinition>species common name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_spp_code</attributeName>
+          <attributeLabel>WDNR fish species code</attributeLabel>
+          <attributeDefinition>The code that the WDNR used to identify a particular fish species. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code that the WDNR used to identify a particular fish species. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>age_scale</attributeName>
+          <attributeLabel>scale fish age</attributeLabel>
+          <attributeDefinition>Fish age determined by removal and analysis of scale.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>years</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>age_spine</attributeName>
+          <attributeLabel>spine fish age </attributeLabel>
+          <attributeDefinition>Fish age determined by removal and analysis of spine</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>years</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeLabel>length</attributeLabel>
+          <attributeDefinition>length of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>sex</attributeLabel>
+          <attributeDefinition>sex</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sex</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>wdnr_creel_survey_lengths_weights.csv</entityName>
+      <entityDescription>The WDNR conducted random access creel surveys, and recorded lengths and weights. </entityDescription>
+      <physical>
+        <objectName>wdnr_creel_survey_lengths_weights.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/099812e4968e5f92c6b48aefe66a0e79</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Monona is located in the Yahara River watershed within Dane County.
+It is a drainage lake with muck, sand and gravel substrate. It has a surface area of 1324 hectare, 20.9 kilometers of highly developed shoreline and a maximum depth of 22.5 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.361</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.361</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.063</northBoundingCoordinate>
+            <southBoundingCoordinate>43.063</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Waubesa is a drainage lake with predominantly sand and muck substrate. It has a surface area of 840 hectare and a maximum depth of 10 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.3244</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.3244</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.0131</northBoundingCoordinate>
+            <southBoundingCoordinate>43.0131</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1989-12-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1999-09-27</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>creel_date</attributeName>
+          <attributeLabel>wdnr creel survey date</attributeLabel>
+          <attributeDefinition>The date on which the wdnr performed various creel surveys in YYYY-MM-DD.  </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wdnr_spp_code</attributeName>
+          <attributeLabel>WDNR fish species code</attributeLabel>
+          <attributeDefinition>The code that the WDNR used to identify a particular fish species. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code that the WDNR used to identify a particular fish species. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>spname</attributeName>
+          <attributeLabel>species common name</attributeLabel>
+          <attributeDefinition>species common name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species common name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length</attributeName>
+          <attributeLabel>length</attributeLabel>
+          <attributeDefinition>length of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>weight of individual fish</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>wdnr_creel_survey_angler_counts.csv</entityName>
+      <entityDescription>The WDNR completed random access point creel surveys from 1989-1996. During the open water season (March-December) they surveyed at boat launches and popular fishing sites. At each of these sites an instantaneous count of shore anglers was made upon arrival at the site. In addition, they also made continuous counts of anglers starting and completing trips at public and private access points. During the ice fishing season (January-February) a clerk counted the number of anglers starting and completing trips during the scheduled stop at each access point. </entityDescription>
+      <physical>
+        <objectName>wdnr_creel_survey_angler_counts.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>'</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/279/1/e7be17222d5c459797d2c8fa7d00e327</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Mendota is located in the Yahara River watershed within Dane County.
+It is a drainage lake with predominantly muck substrate. It has a surface area of 3937.7 hectare, 33.8 kilometers of highly developed shoreline and a maximum depth of 25.3 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>43.098333</westBoundingCoordinate>
+            <eastBoundingCoordinate>43.098333</eastBoundingCoordinate>
+            <northBoundingCoordinate>-89.405278</northBoundingCoordinate>
+            <southBoundingCoordinate>-89.405278</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Lake Waubesa is a drainage lake with predominantly sand and muck substrate. It has a surface area of 840 hectare and a maximum depth of 10 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.3244</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.3244</eastBoundingCoordinate>
+            <northBoundingCoordinate>43.0131</northBoundingCoordinate>
+            <southBoundingCoordinate>43.0131</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1989-01-02</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1996-03-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>creel_date</attributeName>
+          <attributeLabel>wdnr creel survey date</attributeLabel>
+          <attributeDefinition>The date on which the wdnr performed various creel surveys in YYYY-MM-DD.  </attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>no_surv</attributeName>
+          <attributeLabel>wdnr creel interviewers</attributeLabel>
+          <attributeDefinition>The number of wdnr employees completing creel surveys on a given date. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of wdnr employees completing creel surveys on a given date. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>creel_station</attributeName>
+          <attributeLabel>wdnr random access creel survey station</attributeLabel>
+          <attributeDefinition>The random access creel survey station where wdnr employees carried out creel surveys.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The random access creel survey station where wdnr employees carried out creel surveys.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>creel_start</attributeName>
+          <attributeLabel>wdnr creel survey start time</attributeLabel>
+          <attributeDefinition>The time at which wdnr employees began to survey anglers in hh:mm:ss</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>creel_end</attributeName>
+          <attributeLabel>wdnr creel survey end time</attributeLabel>
+          <attributeDefinition>The time at which wdnr employees finished surveying anglers in hh:mm:ss</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>shore</attributeName>
+          <attributeLabel>anglers fishing on shoreline</attributeLabel>
+          <attributeDefinition>The number of anglers fishing on the shoreline at a particular wdnr defined random access creel survey station.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of anglers fishing on the shoreline at a particular wdnr defined random access creel survey station.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>public_start</attributeName>
+          <attributeLabel>anglers beginning fishing trips from public access points</attributeLabel>
+          <attributeDefinition>The number of anglers beginning fishing trips from public access points at a particular wdnr defined creel survey station. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of anglers beginning fishing trips from public access points at a particular wdnr defined creel survey station. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>public_compl</attributeName>
+          <attributeLabel>nglers completing fishing trips from public access points</attributeLabel>
+          <attributeDefinition>The number of anglers completing fishing trips from public access points at a particular wdnr defined creel survey station. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of anglers completing fishing trips from public access points at a particular wdnr defined creel survey station. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>private_start</attributeName>
+          <attributeLabel>anglers beginning fishing trips from private access points</attributeLabel>
+          <attributeDefinition>The number of anglers beginning fishing trips from private access points at a particular wdnr defined creel survey station. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of anglers beginning fishing trips from private access points at a particular wdnr defined creel survey station. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>private_compl</attributeName>
+          <attributeLabel>anglers completing fishing trips from private access points</attributeLabel>
+          <attributeDefinition>The number of anglers completing fishing trips from private access points at a particular wdnr defined creel survey station. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The number of anglers completing fishing trips from private access points at a particular wdnr defined creel survey station. </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="" id="inches" name="inches" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="feet" name="feet" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/l" constantToSI="0"
+          id="milligramPerLiter" multiplierToSI="0.001"
+          name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>milligrams / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="years" name="years" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

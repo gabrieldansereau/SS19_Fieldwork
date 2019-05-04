@@ -1,0 +1,1765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nin.7.1" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>EPI</alternateIdentifier>
+    <title>LTER Epibenthos Sampling Data for North Inlet Estuary, Georgetown, South Carolina from 1981 to 1992, North Inlet LTER</title>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Dennis</givenName>
+        <surName>Allen</surName>
+      </individualName>
+      <organizationName>North Inlet LTER</organizationName>
+    </creator>
+    <creator id="siteId">
+      <organizationName>NIN-LTER</organizationName>
+    </creator>
+    <metadataProvider>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277 2535</phone>
+      <phone phonetype="fax">505 277 2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>This data package consists of Epibenthos Sampling for North Inlet Stations Bread and Butter Creek, 
+                from 1981 to 1992, and Debidue Creek from 1981 to 1984, The purpose 
+                of the long term monitoring of Epibenthos was to determine seasonal and inter-annual
+                changes in the taxonomic/life stage composition and abundance of small motile
+                epibenthic invertebrates and fishes (1-20 mm in length) in the major sub- tidal
+                habitats of North Inlet estuary. </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">North Inlet Estuary</keyword>
+      <keyword keywordType="place">Baruch Institute</keyword>
+      <keyword keywordType="place">Georgetown, South Carolina</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">epibenthos</keyword>
+      <keyword keywordType="theme">estuarine</keyword>
+      <keyword keywordType="theme">ecosystem</keyword>
+      <keyword keywordType="theme">zooplankton</keyword>
+      <keyword keywordType="theme">population dynamics</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER core research areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>LTER Network Data Access Requirements</title>
+        <para> The access to all LTER data is subject to requirements set forth by this
+                    policy document to enable data providers to track usage, evaluate its impact in
+                    the community, and confirm users' acceptance of the terms of acceptable use.
+                    These requirements are standardized across the LTER Network to provide
+                    contractual exchange of data between Site Data Providers, Network Data
+                    Providers, and Data Users that can be encoded into electronic form and exchanged
+                    between computers. This will allow direct access to data via a common portal
+                    once these requirements have been fulfilled. The following information may be
+                    required directly or by proxy prior to the transference of any data object: <itemizedlist>
+            <listitem>
+              <para> Registration </para>
+            </listitem>
+            <listitem>
+              <itemizedlist>
+                <listitem>
+                  <para> Name </para>
+                </listitem>
+                <listitem>
+                  <para> Affiliation </para>
+                </listitem>
+                <listitem>
+                  <para> Email address </para>
+                </listitem>
+                <listitem>
+                  <para> Full Contact Info </para>
+                </listitem>
+              </itemizedlist>
+            </listitem>
+            <listitem>
+              <para> Acceptance of the General Public Use Agreement or Restricted Data
+                                Use Agreement, as applicable </para>
+            </listitem>
+            <listitem>
+              <para> A Statement of Intended Use that is compliant with the above
+                                agreements. Such statements may be made submitted explicitly or made
+                                implicitly via the data access portal interface. </para>
+            </listitem>
+          </itemizedlist>
+        </para>
+      </section>
+      <section>
+        <title>Conditions of Data Use</title>
+        <para> The re-use of scientific data has the potential to greatly increase
+                    communication, collaboration and synthesis within and among disciplines, and
+                    thus is fostered, supported and encouraged. Permission to use this dataset is
+                    granted to the Data User free of charge subject to the following terms: <itemizedlist>
+            <listitem>
+              <para> Acceptable Use. Use of the dataset will be restricted to
+                                academic, research, educational, government, recreational, or other
+                                not-for-profit professional purposes. The Data User is permitted to
+                                produce and distribute derived works from this dataset provided that
+                                they are released under the same license terms as those accompanying
+                                this Data Set. Any other uses for the Data Set or its derived
+                                products will require explicit permission from the dataset owner.
+                            </para>
+            </listitem>
+            <listitem>
+              <para> Redistribution. The data are provided for use by the Data User.
+                                The metadata and this license must accompany all copies made and be
+                                available to all users of this Data Set. The Data User will not
+                                redistribute the original Data Set beyond this collaboration sphere.
+                            </para>
+            </listitem>
+            <listitem>
+              <para> Citation. It is considered a matter of professional ethics to
+                                acknowledge the work of other scientists. Thus, the Data User will
+                                properly cite the Data Set in any publications or in the metadata of
+                                any derived data products that were produced using the Data Set.
+                                Citation should take the following general form: Creator, Year of
+                                Data Publication, Title of Dataset, Publisher, Dataset identifier.
+                            </para>
+            </listitem>
+            <listitem>
+              <para> Acknowledgement. The Data User should acknowledge any
+                                institutional support or specific funding awards referenced in the
+                                metadata accompanying this dataset in any publications where the
+                                Data Set contributed significantly to its content. Acknowledgements
+                                should identify the supporting party, the party that received the
+                                support, and any identifying information such as grant numbers.
+                            </para>
+            </listitem>
+            <listitem>
+              <para> Notification. The Data User will notify the Data Set Contact when
+                                any derivative work or publication based on or derived from the Data
+                                Set is distributed. The Data User will provide the data contact with
+                                two reprints of any publications resulting from use of the Data Set
+                                and will provide copies, or on-line access to, any derived digital
+                                products. Notification will include an explanation of how the Data
+                                Set was used to produce the derived work. </para>
+            </listitem>
+            <listitem>
+              <para> Collaboration. The Data Set has been released in the spirit of
+                                open scientific collaboration. Data Users are thus strongly
+                                encouraged to consider consultation, collaboration and/or
+                                co-authorship with the Data Set Creator. </para>
+            </listitem>
+          </itemizedlist> By accepting this Data Set, the Data User agrees to abide by the
+                    terms of this agreement. The Data Owner shall have the right to terminate this
+                    agreement immediately by written notice upon the Data User's breach of, or
+                    non-compliance with, any of its terms. The Data User may be held responsible for
+                    any misuse that is caused or encouraged by the Data User's failure to abide by
+                    the terms of this agreement. </para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para> While substantial efforts are made to ensure the accuracy of data and
+                    documentation contained in this Data Set, complete accuracy of data and metadata
+                    cannot be guaranteed. All data and metadata are made available "as is". The Data
+                    User holds all parties involved in the production or distribution of the Data
+                    Set harmless for damages resulting from its use or interpretation. </para>
+      </section>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The North Inlet Estuary is located on the southeastern coast of the United
+                    States, approximately 10 kilometers east of Georgetown, South Carolina. The North Inlet Estuary is a bar-built Class C type
+                    estuary (Pritchard, 1955) and is a relatively small tidal estuary (area = 2630 hectares). It is composed of numerous winding
+                    tidal creeks dominated by Spartina alterniflora and is considered a pristine tidal estuary due to minimal anthropogenic
+                    impacts. The watershed drains a 24.8 square kilometer area of mostly pine forest and a moderately developed residential
+                    watershed to the north. Town Creek is a high salinity creek dominated by semi-diurnal tides. Rain input, primarily runoff,
+                    depresses salinities briefly (hours - days) depending on duration and frequency. Water temperatures mirror local air
+                    conditions: warm temperate.
+                    
+                    The DD (Debidue) site near Town Creek mouth and the Inlet is characterized by a high energy sandy bottom with
+                    regular ridges and swales. Depth along the tow path averaged 3 to 4 meters at sampling time. The bottom is sand with little
+                    or no hard substrate (shell, rock). Seasonal growths of bryozoan and algae occur. Generally, little or no organic matter is
+                    collected in the epibenthic sled. The DD epibenthos tow path site was located at the confluence of Town Creek and Debidue
+                    Creek. The 100 m tow path followed a transect beginning at a fixed point on Debidue Island and followed the shoreline due
+                    south (approximately 5 meters from shore) in line with a large, heavily-vegetated dune on North Island. The tow path
+                    terminated on a line with the boilers of a sunken ship and the tip of Debidue Island (looking to the NE). Each tow lasted
+                    approximately 5 minutes depending on tidal velocity.
+                  
+              The BB (Bread and Butter) site is located along Town Creek approximately 2 km from the inlet mouth. At this
+              location the creek is bounded by extensive Spartina alterniflora marshes. The intertidal zone is covered by clusters of the
+              American oyster (Crassostrea virginica), shell rubble and intermittent muddy flats. The bottom supports seasonal growths of
+              sponges, algae, hydroids, bryozoans, and soft corals, as well as, oysters. Much of the bottom habitat is sandy mud covered by
+              varying accumulations of detrital plant and fecal material. Depth along the tow path ranges from 2 to 4 meters at sampling
+              time. The BB epibenthos tow path site is located along the western shoreline of Town Creek adjacent to the mouth of
+              Clambank Creek. Each of the tows began at a small (1 m wide) drainage creek about 50m south of Clambank Creek
+              confluence. The tow was started about 5 m from the edge of the marsh and ended about 30 m from the edge of the marsh.
+              The tow path extended to a line between the Clambank tower and the first small drainage southwest of Boze's Creek mouth.
+              Each tow lasted approximately 5 minutes depending upon tidal velocity.
+                </geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.2936</westBoundingCoordinate>
+          <eastBoundingCoordinate>-79.1042</eastBoundingCoordinate>
+          <northBoundingCoordinate>33.357</northBoundingCoordinate>
+          <southBoundingCoordinate>33.2125</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1981-01-12</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1992-01-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Entry verification</title>
+          <para>  Multiple levels of entry verification are performed. Data
+                        were initially checked for entry errors by Beth Thomas (the data
+                        management assistant) who originally entered the data on the full-screen
+                        management entry programs. Once all data entry errors were corrected,
+                        hard copies of the data on the system were sent to Lynn Barker (the
+                        Research Specialist who counted the samples) to proof against the
+                        original raw data sheets. All data on the system from samples 1-99 have
+                        been certified error-free by Lynn Barker (date 3-28-86). Samples 100-245
+                        were entered by Jan Blakely. Ginger Ogburn-Mathews. 
+                    </para>
+        </section>
+        <section>
+          <title>Date of last update while at North Inlet LTER</title>
+          <para>January 12, 1992.</para>
+        </section>
+        <section>
+          <title>Last modification at LTER Network Office</title>
+          <para>Individual data files (LTER.NIN.EPI.1981.txt, LTER.NIN.EPI.1982.txt,
+                        LTER.NIN.EPI.1983.txt, LTER.NIN.EPI.1984.txt, LTER.NIN.EPI.1985.txt,
+                        LTER.NIN.EPI.1986.txt, LTER.NIN.EPI.1987.txt, LTER.NIN.EPI.1988.txt,
+                        LTER.NIN.EPI.1989.txt, LTER.NIN.EPI.1990.txt, LTER.NIN.EPI.1991.txt,
+                        LTER.NIN.EPI.1992.txt) were concatenated into a single file spanning the
+                        dates from 1981 to 1992. Original fixed column format was changed to comma
+                        separated value format. These changes occured in March 2012</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>LTER Network Office</organizationName>
+      <positionName>LNO Information Manager</positionName>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277 2535</phone>
+      <phone phonetype="fax">505 277 2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277 2535</phone>
+      <phone phonetype="fax">505 277 2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </publisher>
+    <pubPlace>Long Term Ecological Research Network Office</pubPlace>
+    <dataTable id="epibenthos">
+      <entityName>epibenthos-NIN-LTER-1981-1992</entityName>
+      <entityDescription>LTER Epibenthos Sampling Data for North Inlet Estuary, Georgetown, South Carolina from 1981 to 1992, North Inlet LTER</entityDescription>
+      <physical>
+        <objectName>LTER.NIN.EPI.csv</objectName>
+        <size unit="byte">248000</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <physicalLineDelimiter>\r\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nin/7/1/epibenthos-NIN-LTER-1981-1992</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=NIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>The North Inlet Estuary is located on the southeastern coast of the United
+                        States, approximately 10 kilometers east of Georgetown, South Carolina. The North Inlet Estuary is a bar-built Class C type
+                        estuary (Pritchard, 1955) and is a relatively small tidal estuary (area = 2630 hectares). It is composed of numerous winding
+                        tidal creeks dominated by Spartina alterniflora and is considered a pristine tidal estuary due to minimal anthropogenic
+                        impacts. The watershed drains a 24.8 square kilometer area of mostly pine forest and a moderately developed residential
+                        watershed to the north. Town Creek is a high salinity creek dominated by semi-diurnal tides. Rain input, primarily runoff,
+                        depresses salinities briefly (hours - days) depending on duration and frequency. Water temperatures mirror local air
+                        conditions: warm temperate.
+                        
+                        The DD (Debidue) site near Town Creek mouth and the Inlet is characterized by a high energy sandy bottom with
+                        regular ridges and swales. Depth along the tow path averaged 3 to 4 meters at sampling time. The bottom is sand with little
+                        or no hard substrate (shell, rock). Seasonal growths of bryozoan and algae occur. Generally, little or no organic matter is
+                        collected in the epibenthic sled. The DD epibenthos tow path site was located at the confluence of Town Creek and Debidue
+                        Creek. The 100 m tow path followed a transect beginning at a fixed point on Debidue Island and followed the shoreline due
+                        south (approximately 5 meters from shore) in line with a large, heavily-vegetated dune on North Island. The tow path
+                        terminated on a line with the boilers of a sunken ship and the tip of Debidue Island (looking to the NE). Each tow lasted
+                        approximately 5 minutes depending on tidal velocity.
+                        
+                        The BB (Bread and Butter) site is located along Town Creek approximately 2 km from the inlet mouth. At this
+                        location the creek is bounded by extensive Spartina alterniflora marshes. The intertidal zone is covered by clusters of the
+                        American oyster (Crassostrea virginica), shell rubble and intermittent muddy flats. The bottom supports seasonal growths of
+                        sponges, algae, hydroids, bryozoans, and soft corals, as well as, oysters. Much of the bottom habitat is sandy mud covered by
+                        varying accumulations of detrital plant and fecal material. Depth along the tow path ranges from 2 to 4 meters at sampling
+                        time. The BB epibenthos tow path site is located along the western shoreline of Town Creek adjacent to the mouth of
+                        Clambank Creek. Each of the tows began at a small (1 m wide) drainage creek about 50m south of Clambank Creek
+                        confluence. The tow was started about 5 m from the edge of the marsh and ended about 30 m from the edge of the marsh.
+                        The tow path extended to a line between the Clambank tower and the first small drainage southwest of Boze's Creek mouth.
+                        Each tow lasted approximately 5 minutes depending upon tidal velocity.
+                    </geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-79.2936</westBoundingCoordinate>
+            <eastBoundingCoordinate>-79.1042</eastBoundingCoordinate>
+            <northBoundingCoordinate>33.357</northBoundingCoordinate>
+            <southBoundingCoordinate>33.2125</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-01-12</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1992-01-17</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <methods>
+        <methodStep>
+          <description>
+            <section>
+              <title>Experimental Design</title>
+              <para> Since previous field studies indicated that stage of
+                                tide and time of day affected organism abundance at the epibenthic
+                                sled stations, it was necessary to make collections about every 14
+                                days when the same tide stage occurs at the same time of day to keep
+                                these variables "constant". Thus, three sequential tows were made
+                                with the same apparatus along the same tow path when the end of the
+                                ebbing tide occurred near noon. Replicated biweekly measurements
+                                were made to allow for statistical comparisons of means among dates.
+                                Comparisons of abundance between years provided information on long
+                                term trends. Collections at a sandy inlet and a major marsh creek
+                                location allowed for a comparison of two habitat types. The same
+                                gear, field deployment, and tow paths have been used since sample
+                                no. 1.
+                            </para>
+            </section>
+            <section>
+              <title>Research Methods</title>
+              <para/>
+            </section>
+            <section>
+              <title>Field Collection</title>
+              <para>
+                                    A series of three sequential tows were made at each of 2 stations at 
+                                    two week intervals 2 1/2 hours prior to low tide.  All collections
+                                    were made during the late morning (9 - 11 am) hours.  An epibenthic
+                                    sled (see description) was towed behind an outboard boat motoring
+                                    approximately 2 knots faster than the ebbing tidal current.  All tows
+                                    were made moving with the tidal flow along a marked tow path 100 m in
+                                    length.  Tows usually lasted approx. 5 minutes depending upon tidal
+                                    velocity.  Volume of water filtered was estimated with a torpedo
+                                    shaped General Oceanics flow meter model 2040 mounted in the mouth of
+                                    the net.  Flow meter readings are recorded before and after each tow.
+                                    Upon sample retrieval, the contents of the net were concentrated in
+                                    the removable cod end and transferred into pre-labeled Nalgene jars and
+                                    100% buffered formalin stained with Rose Bengal added to bring the
+                                    final concentration to 5 - 10% formalin.  In the event of a large
+                                    catch of sponge, algae, shell, or an oversized organism (greater than
+                                    or equal to 1 liter volume), the sample was poured into a bucket and
+                                    the excess material rinsed, noted, and discarded.  The remaining
+                                    sample was then sieved through a fine mesh net (less than or equal to
+                                    365 micron), placed in a pre-labeled jar, and preserved.  Samples were
+                                    returned to the lab for analysis.                                   
+                                 </para>
+            </section>
+            <section>
+              <title>Gear Description</title>
+              <para>
+                                        Epibenthic Sled:
+                                    </para>
+              <para>
+                                        The apparatus consists of a rectangular steel
+                                        frame (51 X 30 cm) mounted on 3 skis which orient the mouth of a #2
+                                        (365 micron) Nitex, 1/2 m mouth diameter standard conical plankton net
+                                        perpendicular to the creek bottom.  The apparatus does not dig into
+                                        the sediment, but does collect soft-bodied sessile invertebrates
+                                        (sponges, bryozoans, etc.) in addition to small motile organisms
+                                        within 30 cm of the bottom.  A 12m tow rope tied to the leading point
+                                        of the sled chassis allowed for the best contact between the skis and
+                                        the bottom along most of the tow paths.                                        
+                                    </para>
+            </section>
+            <section>
+              <title>Lab Analysis</title>
+              <para>
+                                    Prior to counting, the sample is sieved, rinsed with fresh water and
+                                    the used formalin disposed.  The rinsed sample is then placed in a
+                                    graduated beaker and sample volume recorded.  In the event the volume
+                                    of settled material is excessive (greater than or equal to 100 ml) the
+                                    sample is divided with a cylindrical splitting apparatus until a
+                                    workable fraction is obtained (never less than 12.5% of original
+                                    volume). Sorting is done under a binocular dissecting microscope at 60 -
+                                    120X. All organisms of appropriate size (greater than or equal to 365
+                                    micron) are enumerated. (See Epibenthos Sample Information sheet and
+                                    "Epibenthos Full Screen Management Program" for a listing of common
+                                    taxa and all taxa encountered , respectively.)                                    
+                                    During the first year (1/20/81-1/9/82), 100 of each species of
+                                    mysids; decapod larvae, juveniles, and adults; cumaceans; stomatopods;
+                                    isopods; fish eggs, larvae, and juveniles (up to 100 per species per
+                                    replicate) and rare organisms were isolated.  All isolated specimens
+                                    were stored by appropriate taxon in labeled flint vials and preserved
+                                    in 10% formalin buffered and stained with Rose Bengal.  Vials were
+                                    stored by station and cruise for future analysis and reference.                                    
+                                    From 1/21/84 - 1/4/85, up to 100 of each species of fish larvae were
+                                    isolated from each station.  The first 100 encountered in replicates
+                                    A, B, or C were in label vials and stored until length measurements
+                                    were made.   Larvae were measured using vernier calipers for larger
+                                    specimens (&gt; or = 10mm) or an ocular micrometer for small specimens(less or equare to
+                                    10mm).  Lengths were recorded to the nearest .1mm with the
+                                    ocular micrometer.
+                                    Following sorting and enumeration the counted sample was recombined
+                                    with the unsorted portion, placed in a labeled 500 ml flint jar,
+                                    preserved with a fresh, buffered and stained 10% formalin solution and
+                                    stored for future reference.                                                              
+                                </para>
+            </section>
+            <section>
+              <title>Counts</title>
+              <para>
+                                    Counting sheets underwent three revisions as we become more familiar
+                                    with the taxa and their relative abundance/importance over time. 
+                                    Copies of counting sheets used during different periods are in this
+                                    documentation.  The original sheet was used through cruise no. 99 the
+                                    end of the first 4 years.  Notes on taxonomy and life history were
+                                    written on these sheets for the record.  A simplified sheet with fewer
+                                    categories and no entry slots for life history stages/sex was used for
+                                    cruises 100-145 to speed up processing tissue.  When analysis of data
+                                    showed that much was lost in lumping genera and species into more
+                                    general categories, and when time became available, reprocessing of
+                                    those samples was done to upgrade the data base.  See item 25 for
+                                    details.  The final counting sheet (145-present) was consistent with
+                                    the IBM full screen manager.  It includes sub-categories which provided
+                                    resolution on the broader categories in the upper portion of the
+                                    sheet.  All data on the counting sheets is actual raw count data based on
+                                    whatever portion of the sample was processed.                                    
+                                    Total numbers of organisms per sample were calculated using the
+                                    following equations (see below), and were entered in the Motile
+                                    Epibenthos Full Screen Manager.  Calculating the water filtered
+                                    (estimated by flow meter readings) were calculated for subsequent
+                                    calculations of organism concentrations (See Equation 2).                                   
+                                    </para>
+              <para>
+                                    Equation 1:  Total Organisms        n = raw count
+                                </para>
+              <para>
+                                    MF = Multiplication factor
+                                </para>
+              <para>
+                                    Factor for sub-sampling
+                                </para>
+              <para>
+                                    T = total organisms per sample
+                                </para>
+              <para>
+                                    n X MF = T
+                                </para>
+              <para>
+                                    Equation 2: Water Volume
+                                </para>
+              <para>
+                                    RPT = flow meter
+                                </para>
+              <para>
+                                    revolutions per tow
+                                </para>
+              <para>
+                                    RPM = flow meter
+                                </para>
+              <para>
+                                    calibration
+                                </para>
+              <para>
+                                    A(m2) = Area of net mouth
+                                </para>
+              <para>
+                                    (0.13 m2)
+                                </para>
+              <para>
+                                    RPT/RPM x A(m2)= V(m3)   
+                                </para>
+            </section>
+            <section>
+              <title>Other Data</title>
+              <para>
+                                1)  From 1/20/81 - 1/9/82, length measurements (carapace and telson)
+                                were made of the isolated adult and juvenile caridean shrimps.  Data
+                                were stored by species and computer statistical analyses (length
+                                regressions, means, etc.) performed.  This information is on file.
+                            </para>
+              <para>    
+                                2)  Four years (1/20/81 - 1/4/85) of larval and juvenile fish
+                                lengths were recorded and stored by species and year in a separate
+                                data file and screen.                                
+                            </para>
+              <para> 
+                                3)  Decapod shrimp life history and developmental staging
+                                information was recorded on data sheets, on file by cruise/date and
+                                stored in a separate computer date file.  These data were entered as
+                                numbers per sample.
+                            </para>
+              <para> 
+                                4)  Physical information taken after zpk sampling and before
+                                epibenthos sampling have been placed into a separate data file named:
+                                fauna.physical and is merged with the epi fauna counts.                                
+                            </para>
+            </section>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute id="epibenthos.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date when sample collected</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.STATION">
+          <attributeName>STATION</attributeName>
+          <attributeLabel>Station</attributeLabel>
+          <attributeDefinition>Station where sample collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BB</code>
+                    <definition>Bread and Butter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DD</code>
+                    <definition>Debidue</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SAMPLE">
+          <attributeName>SAMPLE</attributeName>
+          <attributeLabel>Sample Period</attributeLabel>
+          <attributeDefinition>Sample period</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1 </minimum>
+                  <maximum exclusive="false">275</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SAMTIME">
+          <attributeName>Actual time</attributeName>
+          <attributeLabel>SAMTIME</attributeLabel>
+          <attributeDefinition>Actual time</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">time</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.REPLICAT">
+          <attributeName>REPLICAT</attributeName>
+          <attributeLabel>Replicate</attributeLabel>
+          <attributeDefinition>Replicate</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>B</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>C</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.STEMP">
+          <attributeName>STEMP</attributeName>
+          <attributeLabel>Surface Temperature</attributeLabel>
+          <attributeDefinition>Surface temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0 </minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99.9</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="epibenthos.BTEMP">
+          <attributeName>BTEMP</attributeName>
+          <attributeLabel>Bottom Temperature</attributeLabel>
+          <attributeDefinition>Bottom temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0 </minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99.9</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="epibenthos.MESH">
+          <attributeName>MESH</attributeName>
+          <attributeLabel>Mesh Size</attributeLabel>
+          <attributeDefinition>Mesh size</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>micrometer</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">365</minimum>
+                  <maximum exclusive="false">635</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99.9</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="epibenthos.SSAL">
+          <attributeName>SSAL</attributeName>
+          <attributeLabel>Surface Salinity</attributeLabel>
+          <attributeDefinition>Surface salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99.9</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="epibenthos.BSAL">
+          <attributeName>BSAL</attributeName>
+          <attributeLabel>Bottom Salinity</attributeLabel>
+          <attributeDefinition>Bottom salinity</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>partPerThousand</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99.9</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="epibenthos.NETSLED">
+          <attributeName>Net/Sled</attributeName>
+          <attributeLabel>NETSLED</attributeLabel>
+          <attributeDefinition>Net/Sled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition> Net / Sled. This is a constant field, with the S
+                                    for Sled. Useless otherwise as a variable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.Flowmeter no.">
+          <attributeName> Flowmeter no.</attributeName>
+          <attributeLabel>FLOWNO</attributeLabel>
+          <attributeDefinition>The flowmeter Identification number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1300 </minimum>
+                  <maximum exclusive="false">6502</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.RPM">
+          <attributeName>RPM</attributeName>
+          <attributeLabel>Revolutions per Meter</attributeLabel>
+          <attributeDefinition>Revs/meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>numberPerMeter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">20</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.DATECAL">
+          <attributeName>DATECAL</attributeName>
+          <attributeLabel>Date Calibrated</attributeLabel>
+          <attributeDefinition>Date calibrated - date format</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYMMDD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.FLOSTART">
+          <attributeName>FLOSTART</attributeName>
+          <attributeLabel>Flowmeter Start</attributeLabel>
+          <attributeDefinition>Flowmeter start</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.FLOEND">
+          <attributeName>FLOEND</attributeName>
+          <attributeLabel>Flowmeter End</attributeLabel>
+          <attributeDefinition>Flowmeter end</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.RPT">
+          <attributeName>RPT</attributeName>
+          <attributeLabel>Revolutions per Tow</attributeLabel>
+          <attributeDefinition>Revs/tow</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">413305</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPLITS">
+          <attributeName>Number of times the sample split</attributeName>
+          <attributeLabel>SPLITS</attributeLabel>
+          <attributeDefinition>Number of times the sample split</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.XFACTOR">
+          <attributeName>XFACTOR</attributeName>
+          <attributeLabel>Mult, Factor</attributeLabel>
+          <attributeDefinition>Multiplication Factor</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.NO3M">
+          <attributeName>NO3M</attributeName>
+          <attributeLabel>Volume</attributeLabel>
+          <attributeDefinition>Number of cubic meters water</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>cubicMeter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="true">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.HYDROMED">
+          <attributeName>HYDROMED</attributeName>
+          <attributeLabel>Hydromedusae</attributeLabel>
+          <attributeDefinition>Concentration, density, number of Hydromedusae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.CHAETOGN">
+          <attributeName>CHAETOGN</attributeName>
+          <attributeLabel>Chaetognaths</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Chaetognaths per cubic meter </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">190</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.GASTROPO">
+          <attributeName>GASTROPO</attributeName>
+          <attributeLabel>Gastropods</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Gastropods per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.BIVALVES">
+          <attributeName>BIVALVES</attributeName>
+          <attributeLabel>Bivalve Larvae</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Bivalve Larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.STOMATOP">
+          <attributeName>Stomatopods</attributeName>
+          <attributeLabel>STOMATOP</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Stomatopods per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.UNIDSHRI">
+          <attributeName>Unid. Shrimp larvae</attributeName>
+          <attributeLabel>UNIDSHRI</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Unid. Shrimp larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">96</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.ACETES">
+          <attributeName>Acetes</attributeName>
+          <attributeLabel>ACETES</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Acetes per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">52</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.LUCIFER">
+          <attributeName>Lucifer</attributeName>
+          <attributeLabel>LUCIFER</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Lucifer per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.PERICLIM">
+          <attributeName>Periclimenes</attributeName>
+          <attributeLabel>PERICLIM</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Periclimenes per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">20</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.LATREUTE">
+          <attributeName>Latreutes</attributeName>
+          <attributeLabel>LATREUTE</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Latreutes per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.OTHASHR">
+          <attributeName>Other adult shrimp</attributeName>
+          <attributeLabel>OTHASHR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Other adult shrimp per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.CRABMEGA">
+          <attributeName>Crab Megalopae</attributeName>
+          <attributeLabel>CRABMEGA</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Crab Megalopae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">175</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.PINNOTHE">
+          <attributeName>Pinnotherid juveniles</attributeName>
+          <attributeLabel>PINNOTHE</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Pinnotherid juveniles per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">55</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.GAMAMPH">
+          <attributeName>Gammarid amphipods</attributeName>
+          <attributeLabel>GAMAMPH</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Gammarid amphipods per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">270</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.CAPAMPH">
+          <attributeName>Caprellid amphipods</attributeName>
+          <attributeLabel>CAPAMPH</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Caprellid amphipods per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.ISOPODS">
+          <attributeName>Isopods</attributeName>
+          <attributeLabel>ISOPODS</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Isopods per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.CUMACEAN">
+          <attributeName>Cumaceans</attributeName>
+          <attributeLabel>CUMACEAN</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Cumaceans per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">30</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.MYSIDS">
+          <attributeName>Mysids</attributeName>
+          <attributeLabel>MYSIDS</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Mysids per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1170</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.FISHEGGS">
+          <attributeName>Fish eggs</attributeName>
+          <attributeLabel>FISHEGGS</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Fish eggs per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">11</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.UNIDFLAR">
+          <attributeName>Unid. fish larvae</attributeName>
+          <attributeLabel>UNIDFLAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Unid. fish larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">270</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.OTHERS">
+          <attributeName>Other animals</attributeName>
+          <attributeLabel>OTHERS</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Other animals per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.PALAELAR">
+          <attributeName>Palaemonetes larvae</attributeName>
+          <attributeLabel>PALAELAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Palaemonetes larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">40</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.ALPHELAR">
+          <attributeName>Alpheus larvae</attributeName>
+          <attributeLabel>ALPHELAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Alpheus larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">50</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.CALLILAR">
+          <attributeName>Callianassa larvae</attributeName>
+          <attributeLabel>CALLILAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Callianassa larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.UPOGELAR">
+          <attributeName>Upogebia larvae</attributeName>
+          <attributeLabel>UPOGELAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Upogebia larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.PENAEPLA">
+          <attributeName>Penaeus postlarvae</attributeName>
+          <attributeLabel>PENAEPLA</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Penaeus postlarvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.GOBYLAR">
+          <attributeName>Goby larvae</attributeName>
+          <attributeLabel>GOBYLAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Goby larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">260</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.ANCHOLAR">
+          <attributeName>Anchoa larvae</attributeName>
+          <attributeLabel>ANCHOLAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Anchoa larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.LEIOSLAR">
+          <attributeName>Leiostomus larvae</attributeName>
+          <attributeLabel>LEIOSLAR</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Leiostomus larvae per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES1">
+          <attributeName>Species #1 </attributeName>
+          <attributeLabel>SPECIES1</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #1 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES2">
+          <attributeName>Species #2</attributeName>
+          <attributeLabel>SPECIES2</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #2 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES3">
+          <attributeName>Species #3</attributeName>
+          <attributeLabel>SPECIES3</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #3 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES4">
+          <attributeName>Species #4</attributeName>
+          <attributeLabel>SPECIES4</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #4 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES5">
+          <attributeName>Species #5</attributeName>
+          <attributeLabel>SPECIES5</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #5 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES6">
+          <attributeName>Species #6</attributeName>
+          <attributeLabel>SPECIES6</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #6 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="epibenthos.SPECIES7">
+          <attributeName>Species #7</attributeName>
+          <attributeLabel>SPECIES7</attributeLabel>
+          <attributeDefinition>Condentration, density, number of Species #7 per cubic meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterCubed</standardUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>1105</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/eml/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="ppt" constantToSI="0"
+          id="partPerThousand" multiplierToSI="0.001"
+          name="partPerThousand" parentSI="numberPerNumber" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as parts per thousand
+                        (1:1000)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m-1" constantToSI="0"
+          id="numberPerMeter" multiplierToSI="1" name="numberPerMeter"
+          parentSI="numberPerMeter" unitType="lengthCount">
+          <stmml:description>count per meter</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

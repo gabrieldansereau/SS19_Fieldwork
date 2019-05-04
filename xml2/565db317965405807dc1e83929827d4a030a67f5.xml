@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.500.1"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/f0eb2f986b52e5e72be1ead67a5cf9ae</alternateIdentifier>
+    <shortName>Niwot Traits</shortName>
+    <title>Niwot Plant Functional Traits</title>
+    <creator>
+      <individualName>
+        <givenName>Marko J</givenName>
+        <surName>Spasojevic</surName>
+      </individualName>
+      <electronicMailAddress>marko.spasojevic@ucr.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Soren E</givenName>
+        <surName>Weber</surName>
+      </individualName>
+      <electronicMailAddress>soren.weber@ucr.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0002-6351-5365</userId>
+    </creator>
+    <pubDate>2018-12-03</pubDate>
+    <language>English</language>
+    <abstract>
+      <para>
+  Niwot Plant functional Traits – abstract
+</para>
+      <para>
+  Globally, human activities are altering environmental conditions
+  through changes to disturbance regimes, climate, and primary
+  productivity. Attempts to generalize changes in biodiversity in
+  response to altered environmental conditions have had mixed success
+  and the mechanisms that causes differences in responses are poorly
+  understood. These contingent responses represent one of the largest
+  obstacles to synthesis in community ecology and global change biology.
+  Over the past decade, much progress has been made in resolving these
+  ecological contingencies by shifting from a taxonomic perspective on
+  community assembly and global change to a focus on functional traits.
+  Functional traits are any morphological, physiological, or
+  phenological characteristic of a species linked to fitness and have
+  proven to be effective for understanding species interactions,
+  biogeographic processes, and environmental change. Between 2008 and
+  2018, we measured plant height, specific leaf area, leaf size,
+  chlorophyll content, stomatal conductance, leaf dry matter content,
+  and leaf chemical composition (nitrogen, carbon, δ13C, δ15N) on 2689
+  individual plants from 141 species (not all traits on all individuals
+  or species). These measurements were collected to capture
+  intraspecific trait variation among the key habitat types on Niwot
+  Ridge and to examine how species traits respond to global change in
+  the ITEX experiment.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>alpine</keyword>
+      <keyword>biodiversity</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>competition</keyword>
+      <keyword>ecology</keyword>
+      <keyword>foliar nitrogen</keyword>
+      <keyword>grasses</keyword>
+      <keyword>habitat</keyword>
+      <keyword>leaf area</keyword>
+      <keyword>nitrogen-15</keyword>
+      <keyword>percent carbon</keyword>
+      <keyword>percent nitrogen</keyword>
+      <keyword>physiology</keyword>
+      <keyword>plant biomass</keyword>
+      <keyword>plant ecology</keyword>
+      <keyword>plant functional types</keyword>
+      <keyword>plant height</keyword>
+      <keyword>specific leaf area</keyword>
+      <keyword>surveys</keyword>
+      <keyword>tundra</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>traits</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Saddle and westward along ridge</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.644724490698</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.581856592385</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0627061962304</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0477252877995</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-06-20</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-08-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Achillea millefolium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Agoseris aurantiaca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Allium geyeri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Anaphalis margaritacea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Angelica grayi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arnica mollis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria media</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Antennaria rosea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Aquilegia coerulea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arctostaphylos uva-ursi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arenaria fendleri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arnica cordifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Arnica latifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia arctica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia pattersonii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Artemisia scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Besseya alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum bistortoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polygonum viviparum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis canadensis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Caltha leptosepala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Calamagrostis purpurascens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula rotundifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Campanula uniflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex albonigra</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex aquatilis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex brevicaulis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex ebenea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex elynoides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex haydeniana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex heteroneura</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex lachenalii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex nova</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex perglobosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex phaeocephala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex pyrenaica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex rupestris</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Carex siccata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Castilleja occidentalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cerastium arvense</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chamerion angustifolium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Chionophila jamesii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cirsium scopulorum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Cryptantha cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Danthonia intermedia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dasiphora fruticosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Deschampsia cespitosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dodecatheon pulchellum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba aurea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba breweri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba crassifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Draba streptocarpa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Dryas octopetala</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Elymus scribneri</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Eriogonum jamesii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron melanocephalus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Eritrichium nanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron peregrinus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron pinnatisectus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erigeron simplex</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Erysimum capitatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Festuca brachyphylla</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Frasera speciosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentianoides algida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentiana algida</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Gentianella amarella</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Geum rossii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Hieracium gracile</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Heuchera parvifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Heuchera parvifolia var. nivalis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Juncus drummondii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Kobresia myosuroides</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lewisia pygmaea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ligusticum tenuifolium</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Lloydia serotina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula parviflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Luzula spicata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mertensia ciliata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Mertensia lanceolata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Minuartia obtusiloba</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Noccaea montana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oreoxis alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Oxyria digyna</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Packera cana</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Packera crocata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Paronychia pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pedicularis groenlandica</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pedicularis parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pedicularis racemosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Penstemon whippleanus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phleum alpinum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phleum pratense</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Phlox pulvinata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa alpina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa cusickii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa glauca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Poa spp. tall</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polemonium pulcherrimum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Polemonium viscosum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla concinna</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla diversifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Potentilla nivea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Primula angustifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Primula parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Pseudocymopterus montanus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ranunculus adoneus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola integrifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhodiola rhodantha</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Ribes montigenum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix glauca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix petrophila</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix planifolia</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Salix reticulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Saxifraga rhomboidea</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sedum lanceolatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Senecio fremontii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Senecio triangularis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Sibbaldia procumbens</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Silene acaulis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Smelowskia calycina</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Solidago spathulata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Stellaria umbellata</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Taraxacum officinale</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tetraneuris acaulis</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tetraneuris grandiflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Thlaspi montanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Variety</taxonRankName>
+          <taxonRankValue>Thlaspi montanum var. montanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium brandegeei</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Tonestus pygmaeus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium dasyphyllum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium nanum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trifolium parryi</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trisetum spicatum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Trollius laxus</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Vaccinium cespitosum</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Veronica wormskjoldii</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola adunca</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Viola biflora</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Zigadenus elegans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Asteraceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Liliaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Apiaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Ranunculaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Ericaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Caryophyllaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Scrophulariaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Polygonaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Poaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Campanulaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Cyperaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Orobranchaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Onagraceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Boraginaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Rosaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Primulaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Brassicaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Gentianaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Saxifragaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Juncaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Portulacaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Polemoniaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Crassulaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Grossulariaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Salicaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Fabaceae</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Family</taxonRankName>
+          <taxonRankValue>Violaceae</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  See detailed methods included in entity “plant functional traits
+  protocol”
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+      <personnel>
+        <organizationName>University of Colorado</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:1637686</funding>
+    </project>
+    <dataTable>
+      <entityName>plant functional traits</entityName>
+      <entityDescription>functional trait values</entityDescription>
+      <physical>
+        <objectName>plant_trait.ms.data.csv</objectName>
+        <size unit="byte">625047</size>
+        <authentication method="MD5">81431616e7783af991181907a0ac491d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/500/1/7329b45be670902cdc35432e05200d73</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Latin.name</attributeName>
+          <attributeLabel>Latin.name</attributeLabel>
+          <attributeDefinition>Latin binomial</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>internal lab species abbreviations</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Taxonomic family of collected species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Life.Form</attributeName>
+          <attributeLabel>Life.Form</attributeLabel>
+          <attributeDefinition>Life form of collected species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>USDA.Code</attributeName>
+          <attributeLabel>USDA.Code</attributeLabel>
+          <attributeDefinition>Official USDA code for collected species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Rep</attributeName>
+          <attributeLabel>Rep</attributeLabel>
+          <attributeDefinition>Replicate number of collected leaves</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Exp</attributeName>
+          <attributeLabel>Exp</attributeLabel>
+          <attributeDefinition>"Experiment" that species was sampled from (e.g. ITEX)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SAD</code>
+                    <definition>Saddle area of ridge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MUH</code>
+                    <definition>"Moving Up Hill" experiment on upper portion of ridge, approximate to D1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EASTKNOLL</code>
+                    <definition>East knoll of Niwot Ridge</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ITEX</code>
+                    <definition>"International Tundra EXperiment"  Experiment manipulating precipitation, nitrogen and temperature</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TRT</attributeName>
+          <attributeLabel>TRT</attributeLabel>
+          <attributeDefinition>Treatment within experiment (e.g. PNW - additional precipitation, additional nitrogen, warming)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DRY</code>
+                    <definition>Dry meadow vegetation community</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FF</code>
+                    <definition>Fellfield vegetation community</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOIST</code>
+                    <definition>Moist meadow vegetation community</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SNOWBED</code>
+                    <definition>Snowbed vegetation community</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WET</code>
+                    <definition>Wet meadow vegetation community</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TALUS</code>
+                    <definition>Talus vegetation community (rocks) in MUH experiment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XXX</code>
+                    <definition>Control in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XXW</code>
+                    <definition>Control Precipitation, Control Nitrogen, Warming in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XNW</code>
+                    <definition>Control Precipitation, Added Nitrogen, Warmining in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PXW</code>
+                    <definition>Added Precipitation, Control Nitrogen, Warming in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PNX</code>
+                    <definition>Added Precipitation, Added Nitrogen, No Warming (Control) in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XNX</code>
+                    <definition>Control precipitaion, Added Nitrogen, No Warming (Control) in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PNW</code>
+                    <definition>Added Precipitation, Added Nitrogen, Warming in ITEX plots</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PXX</code>
+                    <definition>Added Precipitation, Control Nitrogen, No Warming (Control) in ITEX plots</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Code</attributeName>
+          <attributeLabel>Code</attributeLabel>
+          <attributeDefinition>Unique string for each replicate of a collected species per experiment per treatment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>YearCollected</attributeName>
+          <attributeLabel>YearCollected</attributeLabel>
+          <attributeDefinition>Year specimen was collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Lat</attributeName>
+          <attributeLabel>Lat</attributeLabel>
+          <attributeDefinition>Latitude that replicate was collected at</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Long</attributeName>
+          <attributeLabel>Long</attributeLabel>
+          <attributeDefinition>Longitude that replicate was collected at</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SoilMoisture</attributeName>
+          <attributeLabel>SoilMoisture</attributeLabel>
+          <attributeDefinition>Volumetric Water Content % (VWC%) where species replicate was collected</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeLabel>Time</attributeLabel>
+          <attributeDefinition>Time that VWC% was collected during the day</attributeDefinition>
+          <storageType>time</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>VegHeight</attributeName>
+          <attributeLabel>VegHeight</attributeLabel>
+          <attributeDefinition>Vegetative height - tallest photosynthetic leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>OHeight</attributeName>
+          <attributeLabel>OHeight</attributeLabel>
+          <attributeDefinition>Overall Height - Tallest point of entire plant, can be equivalent to Veg Height, or if flowers present, taller</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CC1</attributeName>
+          <attributeLabel>CC1</attributeLabel>
+          <attributeDefinition>Chlorophyll Content 1 - 1st estimate of leaf chlorophyll content for the collected plant</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CC2</attributeName>
+          <attributeLabel>CC2</attributeLabel>
+          <attributeDefinition>Chlorophyll Content 2 - 2nd estimate of leaf chlorophyll content for the collected plant</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CC3</attributeName>
+          <attributeLabel>CC3</attributeLabel>
+          <attributeDefinition>Chlorophyll Content 3 - 3rd estimate of leaf chlorophyll content for the collected plant</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CCAvg</attributeName>
+          <attributeLabel>CCAvg</attributeLabel>
+          <attributeDefinition>Chlorophyll Content Average - mean leaf chlorophyll content for the collected plant</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stomatal.Conductance</attributeName>
+          <attributeLabel>Stomatal.Conductance</attributeLabel>
+          <attributeDefinition>Rate of water loss from leaves</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolesPerSquareMeterPerSecond</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WetWeight</attributeName>
+          <attributeLabel>WetWeight</attributeLabel>
+          <attributeDefinition>Mass of leaf at full water content</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DryWeight</attributeName>
+          <attributeLabel>DryWeight</attributeLabel>
+          <attributeDefinition>Mass of dry leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LeafArea</attributeName>
+          <attributeLabel>LeafArea</attributeLabel>
+          <attributeDefinition>Area of leaf at full water content</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterSquared</customUnit>
+              </unit>
+              <precision>3</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LDMC</attributeName>
+          <attributeLabel>LDMC</attributeLabel>
+          <attributeDefinition>Leaf Dry Matter Content - mg dry mass over g full water content mass</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerGram</customUnit>
+              </unit>
+              <precision>5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LWC</attributeName>
+          <attributeLabel>LWC</attributeLabel>
+          <attributeDefinition>Leaf  Water Content - calculated from 1000-LDMC</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramsPerGram</customUnit>
+              </unit>
+              <precision>5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SLA</attributeName>
+          <attributeLabel>SLA</attributeLabel>
+          <attributeDefinition>Specific Leaf Area - area of leaf over mass of leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LMA</attributeName>
+          <attributeLabel>LMA</attributeLabel>
+          <attributeDefinition>Leaf Mass Area - Mass of leaf per unit area</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerCentimeterSquared</customUnit>
+              </unit>
+              <precision>3</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>D15N</attributeName>
+          <attributeLabel>D15N</attributeLabel>
+          <attributeDefinition>Delta 15 N, ratio of the stable isotopes 15N:14N in plant leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>permill</customUnit>
+              </unit>
+              <precision>6</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>D13C</attributeName>
+          <attributeLabel>D13C</attributeLabel>
+          <attributeDefinition>Delta 13C - ratio of the stable isotopes 13C:12C in plant leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>permill</customUnit>
+              </unit>
+              <precision>6</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Percent_N</attributeName>
+          <attributeLabel>Percent_N</attributeLabel>
+          <attributeDefinition>Percent mass of N in dry leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>7</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Percent_C</attributeName>
+          <attributeLabel>Percent_C</attributeLabel>
+          <attributeDefinition>Percent mass of C in dry leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>7</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CN ratio</attributeName>
+          <attributeLabel>CN ratio</attributeLabel>
+          <attributeDefinition>Ratio of masses C and N in dry leaf</attributeDefinition>
+          <storageType>real</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>proportion</customUnit>
+              </unit>
+              <precision>7</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>2689</numberOfRecords>
+    </dataTable>
+    <otherEntity>
+      <entityName>plant functional traits protocol</entityName>
+      <entityDescription>Niwot Trait Blitz - Sampling Protocol</entityDescription>
+      <physical>
+        <objectName>plant_trait.ms.methods.docx</objectName>
+        <size unit="byte">40075</size>
+        <authentication method="MD5">e73d55cc4ca77b8d24e3e084ac429efd</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>Microsoft Word</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/500/1/254aa9d7d90fcf9124077f8753ebfbe0</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>otherEntity</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+        <unit id="cm"/>
+        <unit abbreviation="umol/m2" constantToSI="1"
+          id="micromolePerMeterSquared" multiplierToSI="1e-06"
+          name="micromolePerMeterSquared" parentSI="molePerMeterSquared" unitType="amountOfSubstanceConcentration">
+          <description>commonly used for integrated concentration of chemical constituents in natural water bodies</description>
+        </unit>
+        <unit abbreviation="uM/m^2/s"
+          id="micromolesPerSquareMeterPerSecond" multiplierToSI="1e-06"
+          name="micromolesPerSquareMeterPerSecond"
+          parentSI="molesPerSquareMeterPerSecond" unitType="arealAmountDensityRate">
+          <description>micromoles per square meter per second</description>
+        </unit>
+        <unit abbreviation="g" id="gram" multiplierToSI="0.001"
+          name="gram" parentSI="kilogram" unitType="mass">
+          <description>0.001 kg</description>
+        </unit>
+        <unit abbreviation="cm2" id="centimeterSquared"
+          multiplierToSI="1e-04" name="centimeterSquared"
+          parentSI="meterSquared" unitType="area">
+          <description>centimeters squared</description>
+        </unit>
+        <unit abbreviation="mg/g" id="milligramsPerGram"
+          multiplierToSI="0.001" name="milligramsPerGram"
+          parentSI="kilogramsPerKilogram" unitType="massPerMass">
+          <description>milligrams per gram</description>
+        </unit>
+        <unit abbreviation="cm^2 g-1" id="centimeterSquaredPerGram"
+          name="centimeterSquaredPerGram" unitType="massSpecificArea">
+          <description>centimeters squared per gram</description>
+        </unit>
+        <unit abbreviation="g/cm2" constantToSI="0"
+          id="gramPerCentimeterSquared" multiplierToSI="1e-07"
+          name="gramPerCentimeterSquared"
+          parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity">
+          <description>grams per square centimeter</description>
+        </unit>
+        <unit abbreviation="%%" id="permill" name="permill" unitType="amountPerAmount">
+          <description>parts per thousand</description>
+        </unit>
+        <unit abbreviation="proportion" id="proportion"
+          name="proportion" unitType="amountPerAmount">
+          <description>proportion</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

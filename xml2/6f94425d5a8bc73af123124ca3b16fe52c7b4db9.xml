@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-pal.197.4" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=PAL,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier>197</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/70ac6872ba9bf021375c3fc8ff8ffb36</alternateIdentifier>
+    <title>Chlorophyll determined by extraction of samples taken approximately weekly from seawater intake starting at Palmer Station by station personnel including during winter-over period, 1991 - 2017</title>
+    <creator>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office
+208 Geoscience
+61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Oscar</givenName>
+        <surName>Schofield</surName>
+      </individualName>
+      <organizationName>Rutgers University</organizationName>
+      <electronicMailAddress>oscar@marine.rutgers.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office
+208 Geoscience
+61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </metadataProvider>
+    <pubDate>2017-08-07</pubDate>
+    <abstract>Chlorophyll a (Chl a) is the principal photosynthetic pigment of phytoplankton, and is used as a proxy measurent for estimating phytoplankton biomass in water samples. Chl a concentrations reflect the distribution of active phytoplankton spatially and with depth in the water column and their changes over time. Chl a is determined on every water sample collected at Palmer LTER Sttions B and E (October through March) and also weekly and year-round at the laboratory  seawater intale (SWI), from a depth of 6 meters. Concentrations are typically very low (&lt; 1 ug Chl a per liter) in winter (April-October), and higher (1-30 ug/L) following the initiation of the annual spring-summer phytopkankton bloom in November - January.</abstract>
+    <keywordSet>
+      <keyword>habitats</keyword>
+      <keyword>marine</keyword>
+      <keyword>measurements</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>biogeochemistry</keyword>
+      <keyword>food webs</keyword>
+      <keyword>communities</keyword>
+      <keyword>biomass</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Primary Production</keyword>
+      <keywordThesaurus>LTER Core Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>The data available here are intended for scholarly use by the research community,
+                with the express understanding that data users will properly acknowledge the originating investigator. Use or
+                reproduction of any material herein for any commercial purpose is prohibited without prior written permission
+                from the responsible party.
+            </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://oceaninformatics.ucsd.edu/datazoo/catalogs/pallter/datasets/197</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1991</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>PAL LTER Information Manager</positionName>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <electronicMailAddress>pallter-im@ucsd.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Palmer Station Antarctica LTER</organizationName>
+      <address>
+        <deliveryPoint>Palmer Station Antarctica LTER Office
+208 Geoscience
+61 Route 9W - PO Box 1000</deliveryPoint>
+        <city>Palisades</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>10964-8000</postalCode>
+        <country>USA</country>
+      </address>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>General Methods</title>
+            <para>Water from a discrete sample is filtered using 0.45 HA filters. Filters are frozen at -70 degrees Celsius for a minimum of 24 hours and a maximum of 12 months. The filters are then extracted in 90% acetone and stored at -20 degrees Celsius for an additional 24 hours. A digital Turner fluorometer is used to read fluorescence. Chlorophyll is calculated from fluorescence (Smith et al,1981). Chlorophyll analysis performed in the Spring at Palmer Station by LTER Palmer participants. Sampling is as follows: 1. Collect a sample of seawater from the SW Intake in the pump house; 2. Let the seawater run out of the hose at a moderate rate for 2-3 minutes to clear the hose of contaminating water; 3. Rinse a 250 mL sampling bottle 3 times and fill; 4. Return to lab and filter approximately 200 mL onto a 0.45 HA filter, working in subdued light (no overheard lights on); 5. Rinse filter unit and grad cylinder with filtered seawater; 6. Place filter in a numbered scintillation vial and put vial in a tray in -70C freezer; 7. Retain for LTER participants to analyze.; 8. Log results on Excel spreadsheet and save in LTER folder on PAL network.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Frequency</title>
+            <para>approximately weekly some years</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="197.table_197">
+      <entityName>ChlorophyllAnnualPalmerStationSeawaterIntake</entityName>
+      <entityDescription>Main data table for dataset</entityDescription>
+      <physical>
+        <objectName>table_197.csv</objectName>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+              <literalCharacter>\</literalCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-pal/197/4/04ed22118f2add3d44e9ed81f018e181</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="197.table_197.col_3831">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Chilean standard time date</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="197.table_197.col_3835">
+          <attributeName>Chlorophyll a</attributeName>
+          <attributeDefinition>chlorophyll a concentration, via fluorometric analysis of actone extracts of phytoplankton in seawater</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">double</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NULL</code>
+            <codeExplanation>No data available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unitType id="massDensity" name="massDensity">
+          <stmml:dimension name="length" power="-3"/>
+          <stmml:dimension name="mass"/>
+        </stmml:unitType>
+        <stmml:unit abbreviation="" id="kilogramPerCubicMeter"
+          name="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>kilogram per cubic meter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

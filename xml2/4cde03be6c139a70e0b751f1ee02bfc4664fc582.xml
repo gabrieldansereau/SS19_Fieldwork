@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-mcr.4009.3" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd   http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="4009">
+    <alternateIdentifier>knb-lter-mcr.4009</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/bd853df6a073abc2ea8271abc2415db6</alternateIdentifier>
+    <shortName>Annual Island Wide Coral Demography Survey</shortName>
+    <title>MCR LTER: Coral Reef: Long-Term Coral Population and Community Dynamics: Annual
+      Island Wide Coral Demography Survey 2011 to present</title>
+    <creator id="MCR">
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </creator>
+    <creator id="hlenihan">
+      <individualName>
+        <givenName>Hunter</givenName>
+        <surName>Lenihan</surName>
+      </individualName>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Bren Hall 3428</deliveryPoint>
+        <deliveryPoint>University of California, Santa Barbara</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-5131</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805-893-8629</phone>
+      <electronicMailAddress>lenihan@bren.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">http://orcid.org/0000-0001-8146-7670</userId>
+    </creator>
+    <pubDate>2015-10-28</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Demographic performance (recruitment, growth, and survival) are quantified annually for
+        multiple individual colonies of the three most common genera (Acropora, Pocillopora,
+        Porites) at both backreef and forereef sites. Each coral was tagged in 2011 and subsequently sampled annually to track colony growth and mortality dynamics. Since 2013, investigators
+      have transitioned to identifying coral through detailed mapping methodology and will continue to identify corals using this method in the subsequent years.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">MCR</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">Moorea Coral Reef</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Gordon and Betty Moore Foundation</keyword>
+      <keyword keywordType="theme">NSF</keyword>
+      <keyword keywordType="theme">Richard B. Gump South Pacific Research Station</keyword>
+      <keyword keywordType="theme">University of California Santa Barbara</keyword>
+      <keywordThesaurus>Institute, Organization, or Funding Agency</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">French Polynesia</keyword>
+      <keyword keywordType="place">Moorea</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Coral reefs</keyword>
+      <keyword keywordType="theme">Corals</keyword>
+      <keyword keywordType="theme">Population dynamics</keyword>
+      <keyword keywordType="theme">Recruitment</keyword>
+      <keyword keywordType="theme">Growth</keyword>
+      <keyword keywordType="theme">Mortality</keyword>
+      <keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+
+      <para>
+        This data package is released under the Creative Commons license
+        Attribution 4.0 International (CC BY 4.0 , see
+        <ulink url="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ulink>).
+        This license states that consumers ("Data Users" herein) may
+        distribute, adapt, reuse, remix, and build upon this work, as long as
+        they give appropriate credit, provide a link to the license, and
+        indicate if changes were made. If redistributed, a Data User may not
+        apply additional restrictions or technological measures that prevent
+        access.
+      </para>
+      <para>
+        The Data User has an ethical obligation to cite the data source
+        appropriately in any publication or product that results from its use,
+        and notify the data contact or creator. Communication, collaboration,
+        or co-authorship (as appropriate) with the creators of this data
+        package is encouraged to prevent duplicate research or publication.
+        The Data User is urged to contact the authors of these data if any
+        questions about methodology or results occur. The Data User should
+        realize that these data may be actively used by others for ongoing
+        research and that coordination may be necessary to prevent duplication
+        or inappropriate use. The Data User should realize that
+        misinterpretation may occur if data are used outside of the context of
+        the original study. The Data User should be aware that data are
+        updated periodically and it is the responsibility of the Data User to
+        check for new versions of the data.
+      </para>
+      <para>
+        While substantial efforts are made to ensure the accuracy of data and
+        associated documentation, complete accuracy of data sets cannot be
+        guaranteed. This data package (with its components) is made available
+        "as is" and with no warranty of accuracy or fitness for use. The
+        creators of this data package and the repository where these data were
+        obtained shall not be liable for any damages resulting from
+        misinterpretation, use or misuse of the data package or its
+        components.
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcr.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="moorea_generic_box">
+        <geographicDescription>Moorea, French Polynesia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-150</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>-17.45</northBoundingCoordinate>
+          <southBoundingCoordinate>-17.62</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-09-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Phylum</taxonRankName>
+          <taxonRankValue>Cnidaria</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Class</taxonRankName>
+            <taxonRankValue>Anthozoa</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Order</taxonRankName>
+              <taxonRankValue>Scleractinia</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Acroporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Acropora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Pocilloporidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Pocillopora</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+              <taxonomicClassification>
+                <taxonRankName>Family</taxonRankName>
+                <taxonRankValue>Poritidae</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Genus</taxonRankName>
+                  <taxonRankValue>Porites</taxonRankValue>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is an ongoing dataset.</para>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>metadata</changeScope>
+        <oldValue>metadata</oldValue>
+        <changeDate>2018-05-10</changeDate>
+        <comment>Revision 3 is metadata only.
+        </comment>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">805.893.2071</phone>
+      <electronicMailAddress>mcrlter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Moorea Coral Reef LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>The position of 50-250 individual coral colonies of three taxa (Acropora,
+              Pocillopora, Porites) are mapped in space and were resurveyed annually. All individuals are
+              mapped within four 5 m<superscript>2</superscript> permanent transects at each LTER
+              site (located at 2-4 m water depth) in the backreef habitat. Those corals and all new
+              arrivals each year are measured for growth and mortality.</para>
+            <para>Corals measured from 2011-2013 were tagged with a unique ID which allowed investigators to revisit the same coral annually. Since 2013, investigators have
+            mapped corals within a transect area rather than identifying them by tag. Corals are still identified and resurveyed annually.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>The Moorea Coral Reef (MCR) LTER</title>
+      <personnel id="RussID">
+        <individualName>
+          <givenName>Russell</givenName>
+          <surName>Schmitt</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="SallyID">
+        <individualName>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="fax">805.893.3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="PeteID">
+        <individualName>
+          <givenName>Peter</givenName>
+          <surName>Edmunds</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818.677.2502</phone>
+        <electronicMailAddress>peter.edmunds@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="BobID">
+        <individualName>
+          <givenName>Robert</givenName>
+          <surName>Carpenter</surName>
+        </individualName>
+        <organizationName>Moorea Coral Reef LTER</organizationName>
+        <positionName>Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences, California State University</deliveryPoint>
+          <deliveryPoint>18111 Nordhoff Street</deliveryPoint>
+          <city>Northridge</city>
+          <administrativeArea>CA</administrativeArea>
+          <postalCode>91330-8303</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">818-677-3256</phone>
+        <phone phonetype="fax">818-677-2034</phone>
+        <electronicMailAddress>robert.carpenter@csun.edu</electronicMailAddress>
+        <onlineUrl>http://mcr.lternet.edu/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>MCR-230</para>
+      </funding>
+    </project>
+    <dataTable id="Taggedcorals">
+      <entityName>Tagged Corals</entityName>
+      <entityDescription>Corals measured from 2011 to 2013 were tagged and measured annually.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Lenihan_tagged_corals_20151015.csv</objectName>
+        <size unit="Kb">590</size>
+        <authentication method="MD5">39f8c0bc6ed05b193c81ddae30b2a5cb</authentication>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/4009/3/5c08db8cbc8e756a58a76e553535b030</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage id="tagged">
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2011-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>This data table is in comma-separated-value format. It can be read by any text
+        editor. Files may be too long for older versions of Excel.</additionalInfo>
+      <attributeList>
+        <attribute id="tagged.site">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>LTER site where coral was sampled.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>LTER Site Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.habitat">
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Location of site, either on backreef or the forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BR
+                    </code>
+                    <definition>backreef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OR</code>
+                    <definition>forereef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.transect">
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect number where coral was sampled.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.taxa">
+          <attributeName>Taxa</attributeName>
+          <attributeLabel>Taxa</attributeLabel>
+          <attributeDefinition>Genera sampled</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acr</code>
+                    <definition>Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Por</code>
+                    <definition>Porites</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Poc</code>
+                    <definition>Pocillopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.TagColor">
+          <attributeName>TagColor</attributeName>
+          <attributeLabel>Tag Color</attributeLabel>
+          <attributeDefinition>Tag color used to identify individual coral colony.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tag color used in combination with a letter to create unique ID
+                  </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.TagID">
+          <attributeName>TagID</attributeName>
+          <attributeLabel>Tag Letter</attributeLabel>
+          <attributeDefinition>Tag ID letter used to identify individual coral colony.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tag letter used in combination with a color to create unique ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="tagged.L2011">
+          <attributeName>L2011</attributeName>
+          <attributeLabel>Length in 2011</attributeLabel>
+          <attributeDefinition>Length of coral colony in 2011</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.W2011">
+          <attributeName>W2011</attributeName>
+          <attributeLabel>Widthin 2011</attributeLabel>
+          <attributeDefinition>Width of coral colony in 2011</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.H2011">
+          <attributeName>H2011</attributeName>
+          <attributeLabel>Height in 2011</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2011</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.S2011">
+          <attributeName>S2011</attributeName>
+          <attributeLabel>Standard Volume in 2011</attributeLabel>
+          <attributeDefinition>Standard volume of the coral colony in 2011</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.logS2011">
+          <attributeName>logS2011</attributeName>
+          <attributeLabel>Log of Standard Volume</attributeLabel>
+          <attributeDefinition>Log of Standared Volume in 2011</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.L2012">
+          <attributeName>L2012</attributeName>
+          <attributeLabel>Length in 2012</attributeLabel>
+          <attributeDefinition>Length of the coral colony in 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.W2012">
+          <attributeName>W2012</attributeName>
+          <attributeLabel>Width in 2012</attributeLabel>
+          <attributeDefinition>Witdth of coral colony in 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.H2012">
+          <attributeName>H2012</attributeName>
+          <attributeLabel>Height in 2012</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.S2012">
+          <attributeName>S2012</attributeName>
+          <attributeLabel>Standard Volume</attributeLabel>
+          <attributeDefinition>Standard volume of coral colony in 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.logS2012">
+          <attributeName>logS2012</attributeName>
+          <attributeLabel>Log of Standard Volume</attributeLabel>
+          <attributeDefinition>Log of Standard volume in 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.rG11-12">
+          <attributeName>rG11-12</attributeName>
+          <attributeLabel>Relative Growth (2011-2012)</attributeLabel>
+          <attributeDefinition>Relative growth between 2011 and 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.Dyn11-12">
+          <attributeName>Dyn11-12</attributeName>
+          <attributeLabel>Coral Dynamics (2011-2012)</attributeLabel>
+          <attributeDefinition>Description of the change that the colony underwent from 2011 to 2012</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Growth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Shrunk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.L2013">
+          <attributeName>L2013</attributeName>
+          <attributeLabel>Length in 2013</attributeLabel>
+          <attributeDefinition>Length of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.W2013">
+          <attributeName>W2013</attributeName>
+          <attributeLabel>Width in 2013</attributeLabel>
+          <attributeDefinition>Width of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.H2013">
+          <attributeName>H2013</attributeName>
+          <attributeLabel>Height in 2013</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.S2013">
+          <attributeName>S2013</attributeName>
+          <attributeLabel>Standard Volume in 2013</attributeLabel>
+          <attributeDefinition>Standard volume of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeterCubed</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.logS2013">
+          <attributeName>log2013</attributeName>
+          <attributeLabel>Log of Standard Volume in 2013</attributeLabel>
+          <attributeDefinition>Log of standard volume of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.rG12-13">
+          <attributeName>rG12-13</attributeName>
+          <attributeLabel>Relative Growth (2012-2013)</attributeLabel>
+          <attributeDefinition>Relative growth of the coral colony between 2012 and 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="tagged.Dyn12-13">
+          <attributeName>Dyn12-13</attributeName>
+          <attributeLabel>Coral Dynamics (2012-2013)</attributeLabel>
+          <attributeDefinition>Description of the change that the colony underwent from 2012 to 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>Growth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Shrunk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>D</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4485</numberOfRecords>
+    </dataTable>
+    <dataTable id="Mappedcorals">
+      <entityName>Mapped Corals</entityName>
+      <entityDescription>Corals measured from 2013 to present are mapped and measured annually.</entityDescription>
+      <physical>
+        <objectName>MCR_LTER_Lenihan_mapped_corals_20151015.csv</objectName>
+        <size unit="Kb">228</size>
+        <authentication method="MD5">42277a12627d4a6ef35d13697fb29352</authentication>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-mcr/4009/3/532ea5a18e79ed5a5a741f24cd56f5f0</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>uid=MCR,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage id="mapped">
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-06-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2015-09-01</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <additionalInfo>This data table is in comma-separated-value format. It can be read by any text
+        editor. Files may be too long for older versions of Excel.</additionalInfo>
+      <attributeList>
+        <attribute id="mapped.site">
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>LTER site where coral was sampled.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>LTER Site Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="mapped.habitat">
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Location of site, either on backreef or the forereef.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>BR
+                    </code>
+                    <definition>backreef</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OR</code>
+                    <definition>forereef</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="mapped.transect">
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect number where coral was sampled.</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="mapped.taxa">
+          <attributeName>Taxa</attributeName>
+          <attributeLabel>Taxa</attributeLabel>
+          <attributeDefinition>Genera sampled</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain enforced="yes">
+                  <codeDefinition>
+                    <code>Acr</code>
+                    <definition>Acropora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Por</code>
+                    <definition>Porites</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Poc</code>
+                    <definition>Pocillopora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mil</code>
+                    <definition>Millopora</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.X">
+          <attributeName>X</attributeName>
+          <attributeLabel>X coordinate</attributeLabel>
+          <attributeDefinition>Distance down transect where coral occurs, X coordinate</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.Y">
+          <attributeName>Y</attributeName>
+          <attributeLabel>Y Coordinate</attributeLabel>
+          <attributeDefinition>Distance off of transcet where coral occurs, Y coordinate</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.Z">
+          <attributeName>Z</attributeName>
+          <attributeLabel>Z Coordinate</attributeLabel>
+          <attributeDefinition>Height off of benthic floor where coral occurs, Z coordinate</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>millimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.L2013">
+          <attributeName>L2013</attributeName>
+          <attributeLabel>Length in 2013</attributeLabel>
+          <attributeDefinition>Length of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.W2013">
+          <attributeName>W2013</attributeName>
+          <attributeLabel>Width in 2013</attributeLabel>
+          <attributeDefinition>Width of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.H2013">
+          <attributeName>H2013</attributeName>
+          <attributeLabel>Height in 2013</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2013</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.L2014">
+          <attributeName>L2014</attributeName>
+          <attributeLabel>Length in 2014</attributeLabel>
+          <attributeDefinition>Length of the coral colony in 2014</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.W2014">
+          <attributeName>W2014</attributeName>
+          <attributeLabel>Width in 2014</attributeLabel>
+          <attributeDefinition>Witdth of coral colony in 2014</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.H2014">
+          <attributeName>H2014</attributeName>
+          <attributeLabel>Height in 2014</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2014</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.L2015">
+          <attributeName>L2015</attributeName>
+          <attributeLabel>Length in 2015</attributeLabel>
+          <attributeDefinition>Length of coral colony in 2015</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.W2015">
+          <attributeName>W2015</attributeName>
+          <attributeLabel>Width in 2015</attributeLabel>
+          <attributeDefinition>Width of coral colony in 2015</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="mapped.H2015">
+          <attributeName>H2015</attributeName>
+          <attributeLabel>Height in 2015</attributeLabel>
+          <attributeDefinition>Height of coral colony in 2015</attributeDefinition>
+          <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>centimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No measurement collected at this point, or not available</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M</code>
+            <codeExplanation>Missing</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>D</code>
+            <codeExplanation>Dead</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>MD</code>
+            <codeExplanation>Missing data</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>Fu</code>
+            <codeExplanation>Fusion</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>BR</code>
+            <codeExplanation>Broken</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>4067</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 stmml.xsd">
+        <stmml:unit id="dimensionless" name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cm" constantToSI="0" id="centimeter"
+          multiplierToSI="0.01" name="centimeter" parentSI="meter" unitType="length">
+          <stmml:description>.01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="cm³" constantToSI="0"
+          id="centimeterCubed" multiplierToSI="0.000001"
+          name="centimeterCubed" parentSI="meterCubed" unitType="volume">
+          <stmml:description>cubic centimeter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mm" constantToSI="0" id="millimeter"
+          multiplierToSI="0.001" name="millimeter" parentSI="meter" unitType="length">
+          <stmml:description>.001 meters</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

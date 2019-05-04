@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-jrn.210007001.36"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=JRN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/ff37b4cace16a9943575f3fd7067064e</alternateIdentifier>
+    <shortName>lizard_pitfall_traps</shortName>
+    <title>Lizard pitfall trap data (LTER-II, LTER-III)</title>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Lightfoot</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <organizationName>Jornada Basin LTER</organizationName>
+      <onlineUrl>http://jornada.nmsu.edu/lter</onlineUrl>
+    </metadataProvider>
+    <pubDate>1991-01-01</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>In conjunction with net primary production studies, consumer and faunal studies are conducted at or near NPP sites using pitfall traps. We use live traps, not employing ethylene glycol or other killing/preservative agents, with traps checked once a week at the minimum. Sampling-with-replacement is used with the lizards. Variables measured include species, sex, recapture status, snout-vent length, total length, weight, and whether tail is broken or whole.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>LTER</keyword>
+      <keyword>LTAR</keyword>
+      <keywordThesaurus>Research Networks</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Populations</keyword>
+      <keywordThesaurus>LTER Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Animal</keyword>
+      <keywordThesaurus>Jornada Data Category</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>animals</keyword>
+      <keyword>consumers</keyword>
+      <keyword>lizards</keyword>
+      <keyword>pitfall traps</keyword>
+      <keyword>populations</keyword>
+      <keywordThesaurus>Jornada Dataset Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>completed</keyword>
+      <keywordThesaurus>Dataset Status</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>Objectives: The Jornada Basin LTER Information Management System (JIMS) provides protocol and services for data collection, verification, organization, archives, and distribution in accordance with recommendations and guidelines developed by the LTER Information Managers Committee (http://www.lternet.edu/data/netpolicy.html). Disclaimer: While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Jornada Basin LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Quality Assurance Policy: Data managers interact with researchers during the entire scientific process--from the initial planning of sampling designs and field data collection to archiving and distribution of data. The goal of data management is to build and maintain an archive of Jornada Basin LTER data files that are fully documented, error free, and organized in useful ways. Our protocol for data collection and processing seeks maximum interaction between researchers and data management personnel to avoid confusion and potential loss of data or problems with integrity of data; e.g., identification of historical site treatments that may impact a proposed study or incomplete data set variable descriptions. Site and Data Manager involvement begins during the Project Design phase with the completion of the Jornada Notification of Research form by the researcher prior to the start of work; this alerts both Site and Data Manager to the new study and potential LTER data sets. Upon initiation of a new study, the researcher completes Project Documentation that provides the second level of "metadata" documentation. In the Data Collection phase, the data manager helps researchers design field and laboratory data sheets that facilitate data entry and analysis. Prior to JIMS data entry the investigator completes Data Set Documentation to provide the metadata that fully describe the data set. Both Project and Data set documentation are provided with the data set when it is requested or obtained from our Web site. JIMS data entry programs error-check and verify data as they are entered. Computer files are subjected to further verification by graphing and/or error-checking programs, and/or examination by field investigators. Final quality assurance of the data rests with the investigator who submits data for inclusion in the Data Management System. Direct communication with the Site Manager, or through a collaborating JRN P.I., is used to encourage the timely submission of documentation and of data by researchers. Error-checked data files are stored with associated documentation files on the file server. Archived data files are maintained in ASCII format on 30-yr magneto-optical (MO) disks, portable hard drives, CD-R media, and DVD media to guard against loss of data access that can result from changing technology. This may also include proprietary binary format files to facilitate recovery of working versions. Image data are archived on 8mm tape. Routine tape data backups of the file server are done daily, weekly, and monthly. One set of off-site copies are maintained elsewhere on the NMSU campus of routine backup tapes, MO disks, CD disks, and DVD disks with a second set of MO, CD and DVD disks maintained off-campus in case of a catastrophe on campus. The final responsibility for quality assurance (both in data and documentation content) rests with the principal investigator who submits the data for inclusion in the Jornada Basin LTER Information Management System. To facilitate quality assurance, the data manag ement staff will provide copies of data and documentation submitted by a principal investigator to that investigator upon request. The final responsibility for quality assurance (both in data and documentation content) rests with the principal investigator who submits the data for inclusion in the Jornada Basin LTER Information Management System. To facilitate quality assurance, the data management staff will provide copies of data and documentation submitted by a principal investigator to that investigator upon request. Policy on Submission of data: Data submission into JIMS is expected from LTER researchers, LTER collaborators, and their graduate students where data and information is derived from publicly funded research in the U.S. LTER Network, totally or partially from LTER funds from NSF, Institutional Cost-Share, or Partner Agency or Institution where a formal memorandum of understanding with LTER has been established. Other Jornada Basin researchers are encouraged to submit their documented data for inclusion within JIMS to provide them with an archived backup, ensure its longevity, and provide online access to encourage synthesis efforts. Minimally, for non-LTER associated researchers, we request that publications be provided of research conducted on the Jornada Basin. Initial documentation for a data set must be submitted to the Jornada Basin LTER data manager within 90 days of initiation of data collection. Documentation forms are available at http://jornada-www.nmsu.edu/site/dm/readme.php . These consist of Project Abstract and Data Set and Attribute documentation forms, which include objectives of the study, methods, as well as format and content of the data. All data collected during a calendar year should be submitted to the Jornada Basin LTER data manager prior to July first of the following year. First time data submissions must be submitted with updated standard Jornada Basin LTER forms previously submitted. Data Access Policy: Data will be made publicly available no later than 2 years after submission of the data unless an earlier date is specified by the principal investigator. In the event that an extension of the 2 year period is necessary, the principal investigator may petition the Jornada Basin LTER Executive Committee for a longer protected period. Graduate student research data will be available online after degree completion and they have the opportunity to publish their research. Policies for re-use, distribution, or the production of derivatives: Data re-use, distribution and production of derivative products are governed by the LTER Network data policies (http://www.lternet.edu/data/netpolicy.html) in the spirit of having the potential to increase communication, collaboration and synthesis within and among disciplines. Appropriate citation, acknowledgement, notification and collaboration are outlined and recommended. No commercial redistribution of data and derived products are allowed. Data Acknowledgment Policy: Please send notification to the Information Manager (datamanager@jornada-vmail.nmsu.edu) and Responsible Investigator(s) of the data sets you are downloading and your intended use. Individuals and institutions utilizing data from the Jornada Basin LTER database are requested to place the following acknowledgment in any publication in which these data are mentioned: Data sets were provided by the Jornada Basin Long-Term Ecological Research (LTER) project. Funding for these data was provided by the U.S. National Science Foundation (Grant DEB-0618210). Please send 1 copy of any publication that cites Jornada Basin LTER data to: John P. Anderson Jornada Experimental Range P.O. Box 30003, MSC 3JER New Mexico State University Las Cruces, NM 88003-0003</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">https://jornada.nmsu.edu/content/lizard-pitfall-trap-data-lter-ii-lter-iii</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Our study site is located in the northern Chihuahuan Desert, approximately 25 km northeast of Las Cruces, New Mexico, USA (+32.6 N, -106.7 W, elevation 1315 m). Annual precipitation is 24 cm and maximum temperatures average 13 C in January and 36 C in June. Our study site includes the 78,000 ha Jornada Experimental Range operated by the USDA Agricultural Research Service (http://jornada.nmsu.edu/), and the 22,000 ha Chihuahuan Desert Rangeland Research Center (CDRRC, http://chihuahuansc.nmsu.edu/) operated by New Mexico State University (http://www.nmsu.edu/).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-106.740997314453</westBoundingCoordinate>
+          <eastBoundingCoordinate>-106.740997314453</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.617000579834</northBoundingCoordinate>
+          <southBoundingCoordinate>32.617000579834</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>1315</altitudeMinimum>
+            <altitudeMaximum>1315</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>16JUN89 - 23AUG91: 2-week period every month Post-August 1991: 2-week period quarterly (Feb, May, Aug, Oct)</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Data Manager</positionName>
+      <organizationName>Jornada Basin LTER</organizationName>
+      <address>
+        <deliveryPoint>New Mexico State University</deliveryPoint>
+        <deliveryPoint>P.O. Box 30003, MSC 3JER, NMSU</deliveryPoint>
+        <city>Las Cruces</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>88003</postalCode>
+      </address>
+      <electronicMailAddress>datamanager@jornada-vmail.nmsu.edu</electronicMailAddress>
+      <onlineUrl>https://jornada.nmsu.edu/lter</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Anderson</surName>
+      </individualName>
+      <onlineUrl>http://jornada.nmsu.edu/people/john-anderson</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Jornada Basin LTER</organizationName>
+      <onlineUrl>http://jornada.nmsu.edu/lter</onlineUrl>
+    </publisher>
+    <pubPlace>Jornada</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Methods of recording (field data sheets, instrumental, etc.): field data sheets</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Methodology Protocol for Lizard Pitfalls OVERVIEW. A grid of 16 pitfall traps is located at each consumer plot. Each trap is 40 cm deep and contains an inner plastic container and funnel. A ceramic tile is placed over each trap. For a 2-week period each sample period, the tiles are raised on one side, and the traps are checked every 3 days in summer and once a week in winter. Individual lizards are taken from the traps, identified, sexed, measured, and weighed. Each lizard was clipped with a unique number using the codes on the diagram on the field data sheets. Toe clipping was done from 1989 to 1995. Starting in March 1995 toe clipping was terminated and lizards were instead marked with a black sharpie marking pen to provide a temporary mark to determine recapture status over a particular 2-week trapping period. A black mark is made posterior to the cloaca on the ventral base of the tail. Trapping grid is a 4x4 with 15 meter interval between traps. I. INTRODUCTION. In conjunction with net primary production studies, consumer and faunal studies are conducted at or near NPP sites using pitfall traps. We use live traps, not employing ethylene glycol or other killing/preservative agents, with traps checked once a week at the minimum. Sampling-with-replacement is used with the lizards but without replacement for the arthropods; thus any released arthropods, when possible, should not be let go in the immediate vicinity of the pitfall grids (Note: separate pitfall traps for arthropods were established in 1995 for LTER-III). Lizard pitfall studies are conducted quarterly over a period of two weeks: in February-March (following winter NPP), in May-June (following spring NPP), in August, and in October-November (following fall NPP). A. LOCATION: Pitfall grids consist of sixteen stations (four rows of four traps) located at the following ll sites (the old code, no longer used, is given in parentheses following each site*): T-WEST (TBA), T-EAST (TBB), M-RABB-A (MDA), M-NORT (formerly M-RABB-C (MDC), moved to M-NORT in 1995), M-WELL (MDB), G-IBPE-C (GLC), G-SUMM (formerly G-IBPE-A (GLA), moved to G-SUMM in 1995) G-BASN (GLB), C-SAND-B (CBB), C-CALI (CBA), and C-GRAV (CBD). Pitfalls formerly located at MB (mixed basin slope NE of weather trailer) and C-SAND-C (CBC) have been closed. No pitfalls are directly associated with the following NPP sites: P-COLL, P-SMAL, P-TOBO (because of flooding potential), T-TAYL, or G-SUMM. The pitfall for C-SAND is located NW of the NPP site (see site map). The location of each trap is marked by a rebar bearing a numbered aluminum tag. * (old codes may still be found in data books and vial labels) B. CONSTRUCTION: The LTER pitfall traps are walled by two large vegetable cans, 6" diameter; size 10 tomato cans (6 lbs, 3 oz, ca. 6 l/2" high) are most common. The ends of the cans are cut out and the cans stacked so that the top of the upper can is nearly flush with the ground. Similar-sized coffee cans may be used; the funnel (see below) should fit the can with little excess space. The collection container is a slightly tapered plastic beverage cup 5 l/2" deep with top diameter of 4 l/2"; several small (ca. l/16") holes are drilled in the bottom of each cup to facilitate drainage. A polypropylene funnel with top diameter of 5 l/2" is placed in the cup to seal the trap and prevent escapes; the stem and lower funnel are cut off about 4" below the top, making a lower hole of ca. l l/2- 1 3/4" diameter. The cups are supported on small stones or wooden blocks to raise the top of the funnel nearer the top of the can (it should not be flush); elevation of cups is especially important in poorly drained sites. When not in use, the traps are sealed by a ceramic tile with dirt packed along sides (see procedure below). Trap numbers (l-16) originally were stamped on a small aluminum block fastened to a rebar next to each pit. Many of these blocks are now missing. More recently, sites have been numbered with aluminum tags attached to the rebar. If both the block and tag are missing, the number can be determined by counting from the northeast corner of the grid (l-4 north-south, 5-8 next line south-north, etc.). However, some sites, notably BASN, have a different numbering scheme so always check adjacent trap numbers if unsure. A SITE MAP IS INCLUDED WITH THIS PROTOCOL II. PROCEDURE: Traps are usually opened on a Friday; the tiles are excavated and propped open l to 2" at one end using wooden blocks or stones. Be sure the tile covers the trap as completely as possible. During spring and summer, collections are made the Tuesday and Friday the week after opening and again Tuesday and Friday (close) of the next week. In fall and winter, collections on Fridays are sufficient. Take care to look under the cup; both lizards and arthropods (especially scorpions and crickets) will readily hide there. Any lizards found are carefully grasped (don't grab tail!) and subjected to the measurements detailed in section A below. Be sure to use forceps on venemous arthropods. Note special procedures for juvenile lizards. Before leaving for the field, make certain that you have the bag with measuring equipment (below) and a box with labelled cups (w/lids) for the eleven pitfall sites plus an additional unlabelled cup for each participant. The data book should be on a clipboard which has a list of lizard species codes and identification information affixed. IMPORTANT: the clipboard should also had an updated list of the identification numbers previously used in toe marking for the period prior to 1995. Equipment for processing lizards includes a metric ruler, scales, forceps, plastic bags, black sharpie markers, pencils, and a reptile field guide. The scale is a PESOLA (l00 gram) spring-type; it is expensive so should be kept out of the dirt. Equipment kept in a zippered bag either in FH 117 or 236. The following information is recorded in the Jornada LTER II Lizard Pitfall data book for each lizard: l. Pit number (see above). 2. Species code: Lizard species are recorded using a four letter code (first two letters of generic and species names). Cnemidiphorus tigris is thus CNTI, etc. 3. Sex: record an M, F, or J (juvenile) for each lizard. The field guide and clipboard information may assist in sexing, which differs in different families. 4. Rec.: If individuals have been previously marked with a black. 5. sharpie marker, record an R (recapture). Record an N for unmarked adults. 6. Markings. Prior to 1995: Toe mark: For newly captured adults, toes are clipped according to the numbering system shown on each page of the data book. Note that the ventral side of the lizard is shown in the diagram. With scissors, clip the first 2 mm or so of the required toes. As lizards have only five toes, numbers 6-9 are not used in the codes. Upon reaching number "6" one should skip to the next availble combination (e.g. HOMA "2046" would skip to 2050; UTST "56" would skip to 100. Close attention should be given to avoid toe clipping errors. It is also imperative that accurate and updated records be kept (on provided clipboard sheet) of numbers used; be sure this sheet is brought to the field each time. Severe problems have occurred in the past with skipped and duplicated numbers. In general, JUVENILES, especially small ones, should not be toe clipped as the required handling may injure them. Put a dash across the "toe mark" space for small juveniles. After 1995: Each new lizard is marked with a back sharpie marker at the ventral base of the tail posterior to the cloaeca. 7. S-V: record length (in mm) from snout apex to vent for each lizard. Exercise great care in handling juveniles for any measurements. Estimates might be better for very small juveniles; the handling needed to position the lizard for measurement may be injurious. If the juvenile is not too active it can be measured in the cup. 8. Total length: record total length in mm from snout to tail tip for each lizard. 9. Weight: place lizard in plastic bag and clip bag to the scale. Keeping bag out of wind if possible, note weight in grams (subtract bag weight) and record in data book. Very small to small juveniles can be estimated at l gram. 10. Tail: record as whole (W) or broken (B). If tail is broken and regrown, record as broken and make a note at the bottom of the page. A SAMPLE LIZARD DATA BOOK PAGE IS INCLUDED WITH THIS PROTOCOL III. CLOSING PITFALLS: on the last day of collections, close the pitfalls by lowering the tiles to the ground surface and covering the pitfall as well as possible, and then packing soil or sand tightly around the edges and top of the tile. Soil on top may discourage coyotes and help assure tight closure. A shovel or trowel is useful in closing the traps. Be sure to place a stone atop the tile or it may be difficult to find the trap again. Sloppily closed pitfalls will be deathtraps for any organisms getting in, so take time to seal them. IV. GENERAL PROBLEMS l. Poor drainage (or flooding) is a problem in several areas, especially tarbush and BASN. If traps and cups are flooded, pour the cup onto a flat surface and try to recover as many organisms as possible (note in book any not kept). Using the cup, bail as much water out of the trap as possible. 2. Broken tiles: this has been a problem at the RABB sites which are open to grazing. Tiles from the LTER I transect have been used as replacements. An extra tile is usually kept with the pitfall box and a box of tiles has been kept in the annex. 3. Broken funnels: plastic funnels eventually begin to crack and must be replaced. If broken funnels are noticed make a note for immediate replacement. Some funnels are available in the FH236 lab. 4. Natural toe loss in lizards may have affected the toe marking system. If new captures had lost toes (usually only one foot will be affected), attempts were made to incorporate the digit into the marking scheme. Toe losses in marked recaptures may be told by reference to the marking lists and should be noted in the data book. 5. Escapees: large, active lizards are easily capable of escaping from one's grip and occasionally from untended traps with the tile off. Beware of lizards running up your arm as you attempt to pull them from traps- a quick grab is safer than "slow fishing." If a lizard escapes, note as much information as you can about it and then write "escaped" across the rest of the row.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+      <qualityControl>
+        <description>
+          <para>
+            <literalLayout>Treatment of data Data was entered from field data sheets using LOTUS 123 spreadsheet add-in, D.A.V.E., which is a data entry and verification program, prior to 03/16/1995. Beginning 03/16/2000, data is entered and validated from field data sheets using a QuickBasic v4.5 data entry program.</literalLayout>
+          </para>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>Jornada Basin LTER Project</title>
+      <personnel>
+        <individualName>
+          <givenName>Debra</givenName>
+          <surName>Peters</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA-ARS Jornada Experimental Range</deliveryPoint>
+          <deliveryPoint>P.O. Box 30003, MSC 3JER, NMSU</deliveryPoint>
+          <city>Las Cruces</city>
+          <administrativeArea>NM</administrativeArea>
+          <postalCode>88003</postalCode>
+        </address>
+        <electronicMailAddress>debra.peters@osec.usda.gov</electronicMailAddress>
+        <onlineUrl>https://jornada.nmsu.edu/lter/user/10153/view</onlineUrl>
+        <role>Lead Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>In collaboration with the Jornada Experimental Range (USDA ARS), we have incorporated studies initiated in 1915 into the JRN LTER program. Previous research focused on desertification, a state change from perennial grasslands to woody plant dominance(i.e., desertified shrublands) that occurs globally. Based on findings from growing long-term databases, the breadth of studies was expanded to include four additional state changes that occur in dryland systems:</para>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>a reversal form desertified shrublands to grassland states,</para>
+              </listitem>
+              <listitem>
+                <para>transitions among different states dominated by woody plants,</para>
+              </listitem>
+              <listitem>
+                <para>invasion by non-native grasses leading to novel states, and</para>
+              </listitem>
+              <listitem>
+                <para>transitions to human-dominated states.</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+          <para>Processes of interest include water mediated plant-soil feedbacks; patch-scale contagion by wind, water, and animals; landscape context; and time lags that are manifested as nonlinear dynamics and threshold behavior. These cross-scale interactions (the interactions between patterns and processes across scales) often lead to emergent behavior of broader scales that are not predicted from fine-scale patterns. Our study site is located in the northern Chihuahuan Desert, approximately 25 km northeast of Las Cruces, New Mexico, USA (+32.6 N, -106.7 W, elevation 1315 m). Annual precipitation is 24 cm and maximum temperatures average 13 C in January and 36 C in June. Our study site includes the 78,266 ha Jornada Experimental Range operated by the USDA Agricultural Research Service, and the 25,900 ha Chihuahuan Desert Rangeland Research Center (CDRRC) operated by New Mexico State University. The Jornada Basin LTER project was established in 1982, and is administered by New Mexico State University. This site is a member of the LTER Network, one of 25 long term sites funded by the U.S. National Science Foundation.</para>
+        </section>
+      </abstract>
+      <funding>
+        <para>U.S. National Science Foundation under Grant number DEB-1235828, Jornada Basin Long-Term Ecological Research Project (JRN LTER).</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>JornadaStudy_007_npp_lizard_pitfall_trap_data</entityName>
+      <entityDescription>Data file information for the following Jornada data set: Lizard pitfall trap data (LTER-II, LTER-III)</entityDescription>
+      <physical>
+        <objectName>JornadaStudy_007_npp_lizard_pitfall_trap_data.csv</objectName>
+        <size>193158</size>
+        <authentication method="MD5">c34aaf0fea910fc98d43a1bc03c8c72d</authentication>
+        <authentication method="SHA-1">8105ef7e495563db445003206ccab454b573bd04</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>49</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-jrn/210007001/36/21cc9e0b7c5d27d1efd8d5e1db3ac4f1</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1989-06-16</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2006-08-18</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_date</attributeLabel>
+          <attributeDefinition>Date data was collected (mm/dd/yy, where mm=Month, dd=Day, and yyyy=Year)</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>zone</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_zone</attributeLabel>
+          <attributeDefinition>Vegetation zone</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>creosotebush</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>G</code>
+                    <definition>grassland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>mesquite</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>tarbush</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_site</attributeLabel>
+          <attributeDefinition>Research site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CALI</code>
+                    <definition>Caliche creosotebush site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GRAV</code>
+                    <definition>Gravel creosotebush site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SAND</code>
+                    <definition>Sand creosotebush site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BASN</code>
+                    <definition>Basin grassland site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IBPE</code>
+                    <definition>IBP exclosure grassland site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SUMM</code>
+                    <definition>Mt. Summerford grassland site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NORT</code>
+                    <definition>North mesquite site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RABB</code>
+                    <definition>Rabbit mesquite site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WELL</code>
+                    <definition>Well mesquite site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EAST</code>
+                    <definition>East tarbush site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TAYL</code>
+                    <definition>Taylor tarbush site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WEST</code>
+                    <definition>West tarbush site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>plot</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_plot</attributeLabel>
+          <attributeDefinition>Plot identifier (A,B,C,D)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot identifier (A,B,C,D)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pit</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_pit</attributeLabel>
+          <attributeDefinition>Pitfall trap number (1-16)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Pitfall trap number (1-16)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_species</attributeLabel>
+          <attributeDefinition>Plant species code (4 or 5 alphanumeric acronym)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>*</code>
+                    <definition>see Jornada Basin LTER plant species list at http://jornada.nmsu.edu/data-catalogs/species/lter-plants</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_sex</attributeLabel>
+          <attributeDefinition>Sex (gender)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>male</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rcap</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_rcap</attributeLabel>
+          <attributeDefinition>Recapture</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>recapture</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>no (new capture)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>toe_num</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_toe_num</attributeLabel>
+          <attributeDefinition>Toe mark number NOTE: Toe mark number replaced by tail mark beginning 03/16/1995.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Toe mark number NOTE: Toe mark number replaced by tail mark beginning 03/16/1995.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sv_length</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_sv_length</attributeLabel>
+          <attributeDefinition>Snout-vent length</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>total_length</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_total_length</attributeLabel>
+          <attributeDefinition>Total length</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_weight</attributeLabel>
+          <attributeDefinition>Body weight</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tail</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_tail</attributeLabel>
+          <attributeDefinition>Tail condition</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>broken</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>whole</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pc</attributeName>
+          <attributeLabel>variable_jornada_npp_lizard_pitfall_trap_pc</attributeLabel>
+          <attributeDefinition>Problem code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no problem</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>see data history log</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

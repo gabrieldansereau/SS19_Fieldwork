@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.38.9"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/eee38c842100ea2810e5d8fd1c427c6e</alternateIdentifier>
+    <shortName>CSM04</shortName>
+    <title>CSM04 Seasonal summary of numbers of small mammals on the eight LTER seasonal burn traplines in prairie habitats at Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>Donald</givenName>
+        <surName>Kaufman</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">785-539-6622</phone>
+      <phone phonetype="facsimile">785-532-6653</phone>
+      <electronicMailAddress>dwkaufma@ksu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2015-06-15</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Data set contains seasonal summaries (spring, summer and fall) of the number of individuals of each species of small mammal caught (relative density) on each grassland census line. Each record contains trapline, year of last fire and number of individuals per species. These live trap records are based on daily captures during three 4-day trapping peroids, March, July and October, for each of 20 permanent census lines established on 10 fire-grazing treatments (2 lines per treatment). These 10 fire-grazing treatments are one unburned, one annual burn and one 4- year burn site to be grazed by native ungulates and one unburned, one annual burn, four 4-year burn and one 10-year burn site not grazed by ungulates.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>Disturbance</keyword>
+      <keyword>Populations</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Consumers</keyword>
+      <keywordThesaurus>Section</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Consumers</keyword>
+      <keyword>Fire</keyword>
+      <keyword>Kansas</keyword>
+      <keyword>Konza Prairie</keyword>
+      <keyword>Konza Prairie Biological Station</keyword>
+      <keyword>LTER</keyword>
+      <keyword>mammals</keyword>
+      <keyword>prairie</keyword>
+      <keyword>relative abundance</keyword>
+      <keyword>rodents</keyword>
+      <keyword>shrews</keyword>
+      <keyword>small mammals</keyword>
+      <keyword>species composition</keyword>
+      <keyword>spring fire</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.konza.ksu.edu/content/csm04-seasonal-summary-numbers-small-mammals-eight-lter-seasonal-burn-traplines-prairie</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>FA: Ungrazed and scheduled prescribed burned annually in the fall (November).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5764</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5825</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0738</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0681</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>FB: Ungrazed and scheduled prescribed burned annually in the fall (November)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5673</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5731</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0714</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0686</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WA: Ungrazed and scheduled prescribed burned annually in the winter (February).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5728</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5766</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0747</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0694</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>WB: Ungrazed and scheduled prescribed burned annually in the winter (February).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5639</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5678</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0739</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0687</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SpB: Ungrazed and scheduled prescribed burned annually in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5838</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5913</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0756</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0669</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SuB: Ungrazed and scheduled prescribed burned every 2 years in the summer</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.565</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5694</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0768</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0712</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-12-30</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>
+        <literalLayout>Determine temporal and spatial patterns of relative abundance of rodent and shrew populations and composition of assemblages of small mammals in tallgrass prairie as well as assess the effects of burning the prairie in different seasons (autumn, winter, spring and summer) on populations and communities of small mammals.</literalLayout>
+      </para>
+    </purpose>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>FORM OF DATA OUTPUT: The total number of mammals captured by species by trapline forms the database CSM04. SUMMARY OF ALL CHANGES UP TO 2010 In autumn 1993, one trapline was established in four treatment units (FA, FB, WA and WB). Traplines in SpB and SuB were established earlier because the two traplines in SpB are the same permanent traplines established in autumn 1981 (west trapline is A and east trapline is B) for 004D and traplines in SuB are the same traplines established in autumn 1985 (west trapline is A and east trapline is B) for 010D. Previously, FA was a 4-year burn treatment (004E), FB (also designated initially as 004Ff) was a treatment unit that was unburned except in wet years (WC), WA was a treatment unit that was unburned for 3 consecutive years and then burned for 3 consecutive years (3U3BB) and WB was a 4-year burn treatment (004G, but note that the trapline is not the same as that established in 1981 because the Konza Prairie management removed the flags from these permanently marked stations in the interim). The treatment unit (SuB) has been burned biennially instead of annually because vegetation recovery after a July burn is not great enough to sustain a burn the following summer. In autumn 2007, we started ear-tagging deer mice in addition to the clipping of fur on 004F, SuB and WB to gain more information about how the seasonal fire treatments near the 004F (core LTER) traplines were affecting movements of this fire-positive species. Subsequently, we started ear-tagging deer mice on the remainder of the seasonal burns in spring 2008 as well as two other species, white-footed mice and eastern woodrats, to gain information about these two species relative to invasion of woody vegetation.</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Konza</givenName>
+        <surName>LTER</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Division of Biology</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">785-532-6729</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </publisher>
+    <pubPlace>Konza Prairie LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>FREQUENCY OF SAMPLING All sites are sampled in autumn (early October to early November) and in spring (early March to early April). VARIABLES MEASURED Numbers of individuals for each species of small mammal captured are recorded on each trapline. Â Sex, reproductive condition and capture location of each individual are recorded at each capture. Â Age, based on pelage characteristics, is recorded for the two species of Peromyscus at each capture. Â Body mass of an individual is recorded only at the first capture in each trapping period. METHODS Traplines: Small mammals are trapped on two permanent traplines in each habitat type. Â The two traplines in fall and winter burns are in different treatment units (FA and FB for fall burns and WA and WB for winter burns), whereas the two traplines in spring and summer burns are in the same treatment unit (SpB for spring and SuB for summer). Â Each trapline consists of 20 stations with an inter-station distance of 15 m and terminal stations (1 and 20) at least 50 m from the boundary of the treatment unit. Â When possible, each trapline was placed so that station 1 was in upland (shallow soil) and station 20 in lowland prairie (deeper soil). Â Relative to burn type, the two traplines within a treatment unit or in different treatment units include a mix of stations in upland, slope (limestone outcrops or breaks) and lowland prairie. Â Because of topographic limitations, the two traplines within a treatment unit or in different treatment units are not replicates of each other. Stations 1, 5, 10, 15 and 20 on each trapline are marked with stakes of galvanized conduit. Â All stations are marked with fluorescent orange plastic surveyor flags at least once per year. Trapping Procedures: Small mammals are trapped for 4 consecutive nights per trapline during each trapping period.Â  Â Two large Sherman live traps (7.6 by 8.9 by 22.9 cm) are placed within 1 m of the surveyor flag or conduit at each station. Â Traps are baited with a mixture of high-quality creamy peanut butter (e.g., Jif) and oatmeal (Quaker old-fashioned oatmeal). Â The mixture is rolled into a small ball (1.5-2.0 cm in diameter) and wrapped in a 10-cm square of weighing paper. Â The bait is suspended in the trap by closing the back door of the trap on the twisted end of the weighing paper. Polyester fiberfill (Â» 5 g) is compressed by a #8 rubber band and used as nesting material in each trap in spring and autumn sampling periods. Â This nesting material reduces trap mortality in inclement weather. Â With the nest material and a large amount of bait in each trap, mammals typically are in good condition at the time that trap are checked in all types of weather. Â In the event that more than 50% of the traps are closed overnight without an individual captured (e.g., due to strong winds or other weather events such as heavy rain, deer licking traps or raccoons or crows setting off traps), traps are set for additional nights until &amp;lt; 50% of traps per night are closed without captures on that trapline. Â Small rocks are placed on traps in autumn and winter burns during the spring trapping session because no vegetative cover exists on these four traplines due to the timing of these burns. All traps are checked early each morning, but after the end of the nocturnal activity period. All eight traplines are run during the same 4-day trapping period. Â The time of trapping in each season is set by the 14 core LTER traplines in that the seasonal burns are trapped directly before or after these traplines. Â The 14 core LTER traplines are trapped in the dark phase of the moon (no moon), so the amount of moonlight is variable due to cloud cover and moon phase on the seasonal fire traplines. A battery-powered mustache clipper is used to clip a line of fur on each captured animals to indicate that that individuals has been captured in the current trapping period. The position clipped is as follows:Â  Â on the lower back in a spring sampling period and upper back in an autumn sampling period. Â This method of marking allows an investigator to count an individual only once within a trapline during a trapping period.Â  Â Further, three species of rodents (Peromyscus maniculatus, P. leucopus and Neotoma floridana) are marked with an ear tag (#1 monel fingerling tags) in each ear in addition to fur clipping to track movements of individuals among treatment units that are related to fire.Â  Species, sex and reproductive condition of individual small mammals, trap station and any unusual features (e.g., the presence of ticks, fleas or bot fly larvae, variation in color pattern such as stars or blazes) are recorded at each capture of an individual in each trapping period. Body mass is recorded during the first capture of an individual on a trapline. Reproductive information recorded for males is the presence or absence of scrotal testes.Â  Â Pregnancy is determined by palpation of the abdomen of females; no effort is made to assess the number of embryos. Â Presence or absence of conspicuous mammae also is recorded. Â Conspicuous mammae indicate that the female has been reproductively active and is nursing or has nursed offspring. Individuals are weighed to nearest 0.5 g for those weighing &amp;lt; 50 g and nearest 1 g for those weighing &amp;gt; 50 g by using Pesola balances of an appropriate size. For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>CSM041</entityName>
+      <entityDescription>seasonal summary of numbers of small mammals on the LTER traplines in prairie</entityDescription>
+      <physical>
+        <objectName>CSM041.csv</objectName>
+        <size>13917</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/38/9/95fb1f1e55d2a114f00f0b0f9c89144b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeLabel>RecType</attributeLabel>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeLabel>RecYear</attributeLabel>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Season</attributeName>
+          <attributeLabel>Season</attributeLabel>
+          <attributeDefinition>sampling season</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Sp</code>
+                    <definition>spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Au</code>
+                    <definition>autumn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Su</code>
+                    <definition>summer</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trapline</attributeName>
+          <attributeLabel>Trapline</attributeLabel>
+          <attributeDefinition>Watershed and trapline</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>west line</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>east line</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PM</attributeName>
+          <attributeLabel>PM</attributeLabel>
+          <attributeDefinition>Relative density of Peromyscus maniculatus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rmeg</attributeName>
+          <attributeLabel>Rmeg</attributeLabel>
+          <attributeDefinition>Relative density of Reithrodontomys megalotis</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SH</attributeName>
+          <attributeLabel>SH</attributeLabel>
+          <attributeDefinition>Relative density of Sigmodon hispidus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BH</attributeName>
+          <attributeLabel>BH</attributeLabel>
+          <attributeDefinition>Relative density of Blarina hylophaga</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rmon</attributeName>
+          <attributeLabel>Rmon</attributeLabel>
+          <attributeDefinition>Relative density of Reithrodontomys montanus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ST</attributeName>
+          <attributeLabel>ST</attributeLabel>
+          <attributeDefinition>Relative density of Spermophilus tridecemlineatus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MO</attributeName>
+          <attributeLabel>MO</attributeLabel>
+          <attributeDefinition>Relative density of Microtus ochrogaster</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PL</attributeName>
+          <attributeLabel>PL</attributeLabel>
+          <attributeDefinition>Relative density of Peromyscus leucopus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CH</attributeName>
+          <attributeLabel>CH</attributeLabel>
+          <attributeDefinition>Relative density of Chaetodipus hispidus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MM</attributeName>
+          <attributeLabel>MM</attributeLabel>
+          <attributeDefinition>Relative density of Mus musculus</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NF</attributeName>
+          <attributeLabel>NF</attributeLabel>
+          <attributeDefinition>Relative density of Neotoma floridana</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SC</attributeName>
+          <attributeLabel>SC</attributeLabel>
+          <attributeDefinition>Relative density of Synaptomys cooperi</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ZH</attributeName>
+          <attributeLabel>ZH</attributeLabel>
+          <attributeDefinition>Relative density of Zapus hudsonius</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CP</attributeName>
+          <attributeLabel>CP</attributeLabel>
+          <attributeDefinition>Relative density of Cryptotis parva</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

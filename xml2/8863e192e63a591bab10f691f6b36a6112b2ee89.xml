@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.84.1" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CSM05</alternateIdentifier>
+    <title>CSM05 Seasonal summary of numbers of small mammals on the six LTER traplines in prairie habitats on which fire regime has been reversed at Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>W.</givenName>
+        <surName>Kaufman</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>785-539-6622</phone>
+      <electronicMailAddress>dwkaufma@ksu.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2014</pubDate>
+    <language>english</language>
+    <abstract>
+      <section>
+        <para>Data set contains seasonal summaries (spring and autumn) of the number of
+                    individuals of each species of small mammal captured (relative abundance) on
+                    each grassland trapline. Each record contains year, season, trapline and number
+                    of individuals captured of each species. These live trap records are based on
+                    daily captures during a single 4-day trapping period in spring (mid-March to
+                    early April) and autumn (late October to early December) for each of six
+                    permanent traplines established on two fire treatments (three traplines per
+                    treatment). These two fire treatments include one treatment that was changed
+                    from a 20-year burn to an annual burn and one that was changed from an annual
+                    burn to 20 years between fires. Bison do not graze these two habitat
+                    types.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">LTER</keyword>
+      <keyword keywordType="place">KNZ</keyword>
+      <keyword keywordType="place">Konza Prairie Biological Station</keyword>
+      <keyword keywordType="place">Kansas</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>prairie</keyword>
+      <keyword>reversal trapline</keyword>
+      <keyword>relative abundance</keyword>
+      <keyword>rodents</keyword>
+      <keyword>shrews</keyword>
+      <keyword>small mammals</keyword>
+      <keyword>spring fire</keyword>
+      <keyword>consumers</keyword>
+      <keyword>species composition</keyword>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url>http://www.konza.ksu.edu/KNZ/pages/data/Knzdsdetail.aspx?datasetCode=CSM05</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-12-07</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-10-25</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact id="im">
+      <positionName>KNZ-LTER Data Manager</positionName>
+      <address>
+        <deliveryPoint> Division of Biology</deliveryPoint>
+        <deliveryPoint> Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+      </address>
+      <phone phonetype="voice">(785)532-6729</phone>
+      <phone phonetype="fax">(785)532-6653</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://www.konza.ksu.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>For additional metadata see:
+                            <ulink>http://www.konza.ksu.edu/KNZ/docs/DC.pdf</ulink>
+          </para>
+          <para>For additional methods information see:
+                            <ulink>http://www.konza.ksu.edu/KNZ/docs/MM.pdf</ulink>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>CSM051</alternateIdentifier>
+      <entityName>Seasonal summary of numbers of small mammals on the six LTER traplines in prairie habitats on which fire regime has been reversed</entityName>
+      <entityDescription>Seasonal summary of numbers of small mammals on the six LTER traplines in prairie habitats on which fire regime has been reversed</entityDescription>
+      <physical>
+        <objectName>CSM051</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/84/1/c1eb243b78097f67bdd57237ac3ae944</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of sample</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1
+							</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Season</attributeName>
+          <attributeDefinition>Season of capture</attributeDefinition>
+          <storageType>char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AU</code>
+                    <definition>Autumn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP</code>
+                    <definition>Spring</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Trapline</attributeName>
+          <attributeDefinition>Trapline of capture</attributeDefinition>
+          <storageType>char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pm</attributeName>
+          <attributeDefinition>Relative abundance of Peromyscus maniculatus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rmeg</attributeName>
+          <attributeDefinition>Relative abundance of Reithrodontomys megalotis</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sh</attributeName>
+          <attributeDefinition>Relative abundance of Sigmodon hispidus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bh</attributeName>
+          <attributeDefinition>Relative abundance of Blarina hylophaga</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rmon</attributeName>
+          <attributeDefinition>Relative abundance of Reithrodontomys montanus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>St</attributeName>
+          <attributeDefinition>Relative abundance of Spermophilus tridecemlineatus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mo</attributeName>
+          <attributeDefinition>Relative abundance of Microtus ochrogaster</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pl</attributeName>
+          <attributeDefinition>Relative abundance of Peromyscus leucopus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ch</attributeName>
+          <attributeDefinition>Relative abundance of Chaetodipus hispidus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mm</attributeName>
+          <attributeDefinition>Relative abundance of Mus musculus</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Nf</attributeName>
+          <attributeDefinition>Relative abundance of Neotoma floridana</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sc</attributeName>
+          <attributeDefinition>Relative abundance of Synaptomys cooperi</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Zh</attributeName>
+          <attributeDefinition>Relative abundance of Zapus hudsonius</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cp</attributeName>
+          <attributeDefinition>Relative abundance of Cryptotis parva </attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

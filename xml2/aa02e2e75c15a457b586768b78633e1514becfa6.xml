@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111176.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV-ADMIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Macrosystems Double Down Experiment 16S Resampled</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Kaspari</surName>
+      </individualName>
+      <organizationName>University of Oklahoma - Kaspari Ant Lab</organizationName>
+      <electronicMailAddress>mkaspari@ou.edu</electronicMailAddress>
+      <role>associated researcher</role>
+    </associatedParty>
+    <pubDate>2016-05-04</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures abundance of microbial OTUs (Operational Taxonomic Units) sampled for in forest soils from HJ Andrews and Niwot that were incubated in a lab at different temperatures and then tested for species diversity. The sampling and incubation were done by the Kaspari Ant Lab and University of Oklahoma and the genetics data were processed by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">16S</keyword>
+      <keyword keywordType="theme">Bacteria</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">OTUs</keyword>
+      <keyword keywordType="theme">Temperature</keyword>
+      <keyword keywordType="theme">Abundance</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">HJ Andrews LTER</keyword>
+      <keyword keywordType="theme">Niwot Ridge LTER</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-double-down-experiment-16s-resampled
+</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at HJ Andrews LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.1536</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.14934</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.23211</northBoundingCoordinate>
+          <southBoundingCoordinate>44.22948</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Niwot Ridge LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.56056</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5563</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.04253</northBoundingCoordinate>
+          <southBoundingCoordinate>40.03892</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Daliang</givenName>
+        <surName>Ning</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>ningdaliang@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+Soil samples were collected at HJ Andrews and Niwot LTER and incubated in two bottle sizes (100 and 500 ml). HJA and NWT samples were incubated separately and an additional sample was created by mixing soil from both sites. The incubation took place using 2-3 replicates for each treatment under controlled temperature variations of 10, 15, 20, 25, 30, 35 degrees Celsius. The samples were tested on day 34, 181 and 442. The hypothesis was that if community A has SA microbial species and community B has SB species, the mixture of A and B will gradually get to a new equilibrium with a species number less than SA∪B. After incubated, the communities will get highest diversity at the temperature closest to the mean annual temperature or the common range of temperatures on their original sites. Because most of the species should be selected by the local temperature range after the long term evolution in the site, the diversity will decrease more at high temperatures. The microbial analysis was completed as follows: 16S amplicons Sequencing Primer: 515F &amp; 806R (V4 region) OTU generation: Uclust Similarity 0.97 Resampling: 20000 reads/sample Classification: RDP
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>
+Macrosystems Double Down Experiment 16S Resampled - Part 1
+</entityName>
+      <entityDescription>
+Abundance and taxonomy of OTU in samples covering OTU_0 through OTU_30196 (out of total of 99999 OTUs).
+</entityDescription>
+      <physical>
+        <objectName>DD-16S1.csv</objectName>
+        <size>113317109</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/e123d765f6dde16d4dc7b92d86ae1f48</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>OTU</attributeName>
+          <attributeLabel>OTU</attributeLabel>
+          <attributeDefinition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Domain</attributeName>
+          <attributeLabel>Domain</attributeLabel>
+          <attributeDefinition>The taxonomic domain of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic domain of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The taxonomic phylum of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic phylum of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The taxonomic class of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic class of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>samples</attributeName>
+          <attributeLabel>samples</attributeLabel>
+          <attributeDefinition>
+The code for each sample, showing treatment site (HJA = HJ Andrews, NIW = Niwot, and MIX = mixture of HJA and NIW), followed by a numerical code for that unique sample.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The code for each sample, showing treatment site (HJA = HJ Andrews, NIW = Niwot, and MIX = mixture of HJA and NIW), followed by a numerical code for that unique sample.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>abundance</attributeName>
+          <attributeLabel>abundance</attributeLabel>
+          <attributeDefinition>
+The abundance of the identified gene in each sample.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The abundance of the identified gene in each sample.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>
+Macrosystems Double Down Experiment 16S Resampled - Part 2
+</entityName>
+      <entityDescription>
+Abundance and taxonomy of OTUs in samples covering OTU_30197 through OTU_99999 (out of total of 99999 OTUs).
+</entityDescription>
+      <physical>
+        <objectName>DD-16S2rev.csv</objectName>
+        <size>80249533</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/757a808ab2965e977c20e4c1cf4c9985</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2012-01-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-12-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>OTU</attributeName>
+          <attributeLabel>OTU</attributeLabel>
+          <attributeDefinition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The Operational Taxonomic Unit number assigned to the identified gene.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Domain</attributeName>
+          <attributeLabel>Domain</attributeLabel>
+          <attributeDefinition>The taxonomic domain of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic domain of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phylum</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>The taxonomic phylum of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic phylum of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Class</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>The taxonomic class of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic class of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Order</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>The taxonomic order of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic order of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Family</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>The taxonomic family of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic family of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Genus</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>The taxonomic genus of the identified gene.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The taxonomic genus of the identified gene.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>samples</attributeName>
+          <attributeLabel>samples</attributeLabel>
+          <attributeDefinition>
+The code for each sample, showing treatment site (HJA = HJ Andrews, NIW = Niwot, and MIX = mixture of HJA and NIW), followed by a numerical code for that unique sample.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The code for each sample, showing treatment site (HJA = HJ Andrews, NIW = Niwot, and MIX = mixture of HJA and NIW), followed by a numerical code for that unique sample.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>abundance</attributeName>
+          <attributeLabel>abundance</attributeLabel>
+          <attributeDefinition>
+The abundance of the identified gene in each sample.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The abundance of the identified gene in each sample.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>Macrosystems Double Down Treatment</entityName>
+      <entityDescription>
+Metadata describing the treatments given to the samples during the experiment.
+</entityDescription>
+      <physical>
+        <objectName>DD.treatment.csv</objectName>
+        <size>19960</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/d688f415ac45ec80ba47ce84a6d3492c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DNAStorageID</attributeName>
+          <attributeLabel>DNA Storage ID</attributeLabel>
+          <attributeDefinition>
+A separate ID number used by the lab used to catalogue stored samples.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A separate ID number used by the lab used to catalogue stored samples.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleID</attributeName>
+          <attributeLabel>Sample ID</attributeLabel>
+          <attributeDefinition>
+The ID number that is used to identify unique samples in the experiment results files.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The ID number that is used to identify unique samples in the experiment results files.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>
+Three letter code for the LTER site where the sample was taken. Either HJA (HJ Andrews), NIW (Niwot), or MIX (a mixture of the two)&gt;
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Three letter code for the LTER site where the sample was taken. Either HJA (HJ Andrews), NIW (Niwot), or MIX (a mixture of the two)&gt;
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeLabel>Time</attributeLabel>
+          <attributeDefinition>
+Specifies the day of the experiment on which the sample was processed (either 0, 34, 181 or 442).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Specifies the day of the experiment on which the sample was processed (either 0, 34, 181 or 442).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>temperature</attributeName>
+          <attributeLabel>Temperature</attributeLabel>
+          <attributeDefinition>
+Specifies the temperature (in Celsius) at which the sample was incubated (NA for control group or 10, 15, 20, 25, 30, or 35 degrees).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Specifies the temperature (in Celsius) at which the sample was incubated (NA for control group or 10, 15, 20, 25, 30, or 35 degrees).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>size</attributeName>
+          <attributeLabel>Size</attributeLabel>
+          <attributeDefinition>
+Specifies the size of the bottle in which the sample was incubated (either 100 ml or 500 ml).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Specifies the size of the bottle in which the sample was incubated (either 100 ml or 500 ml).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treatment</attributeName>
+          <attributeLabel>Treatment</attributeLabel>
+          <attributeDefinition>
+A code made up of the site, time, temperature, and bottle size (eg, HJA.34.10.100).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A code made up of the site, time, temperature, and bottle size (eg, HJA.34.10.100).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>treat.nosize</attributeName>
+          <attributeLabel>Treatment No Size</attributeLabel>
+          <attributeDefinition>
+A code made up of the site, time, and temperature (eg, HJA.34.10).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+A code made up of the site, time, and temperature (eg, HJA.34.10).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>
+Double Down 16S Resampled OTU Aligned Sequence Galaxy 201 PyNast
+</entityName>
+      <entityDescription>
+This file contains the exact sequence of the four nucleotides for each Operational Taxonomic Unit (OTU) after alignment. A, C, G, and T represent the four nucleotide bases of a DNA strand — adenine, cytosine, guanine, thymine. Note: The original file extension is .fasta (it was changed to .txt in order to upload).
+</entityDescription>
+      <physical>
+        <objectName>
+DD-16S-resampledOTU-aligned_sequence-Galaxy201-PyNAST.txt
+</objectName>
+        <size>1326875176</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>Space</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/cafb7cb11683dfe619ac57de5f401ad3</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Double Down 16S Resampled OTU Sequence</entityName>
+      <entityDescription>
+This file contains the non-aligned sequence of the four nucleotides for each Operational Taxonomic Unit (OTU). A, C, G, and T represent the four nucleotide bases of a DNA strand — adenine, cytosine, guanine, thymine. Note: The original file extension is .fasta (it was changed to .txt in order to upload).
+</entityDescription>
+      <physical>
+        <objectName>DD-16S-resampledOTU-sequence.txt</objectName>
+        <size>47910604</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>Space</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/6a6592da74199613e5b89677c8c8b564</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Double Down 16S Resampled Phylogenetic Tree</entityName>
+      <entityDescription>
+Phylogenetic tree file generated by FastTree. Note: The original file extension for this file is .nwk (it was changed to .txt for upload purposes).
+</entityDescription>
+      <physical>
+        <objectName>DD-16S-resampledOTU-Tree-Galaxy202-FastTree.txt</objectName>
+        <size>5770751</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>row</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>None</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111176/1/5b3438ee516891cd98b2d5b9a3be6d68</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

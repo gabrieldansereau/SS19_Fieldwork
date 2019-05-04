@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-sbc.96.1"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=sbc,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=mobrien,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=lkui,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>knb-lter-sbc.96</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/9724fbf97c9ec71bc53e72c81be994f5</alternateIdentifier>
+    <shortName>Glider CTD data</shortName>
+    <title>Assessing controls on cross-shelf phytoplankton and suspended particle distributions using repeated bio-optical glider surveys</title>
+    <creator>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute,University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Fernanda</givenName>
+        <surName>Hendrikx Freitas</surName>
+      </individualName>
+      <electronicMailAddress>fernanda@eri.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>David A</givenName>
+        <surName>Siegel</surName>
+      </individualName>
+      <electronicMailAddress>davey@eri.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org/">https://orcid.org/0000-0003-1674-3055</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Libe</givenName>
+        <surName>Washburn</surName>
+      </individualName>
+      <electronicMailAddress>washburn@icess.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org/">https://orcid.org/0000-0002-8728-4768</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stuart</givenName>
+        <surName>Halewood</surName>
+      </individualName>
+      <electronicMailAddress>halewood@eri.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Erik</givenName>
+        <surName>Stassinos</surName>
+      </individualName>
+      <electronicMailAddress>eriks@eri.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2018-02-02</pubDate>
+    <language>English</language>
+    <abstract>
+
+      <para>
+  The data were collected from an oceanographic glider in the coastal
+  Santa Barbara Chanel, CA during six deployments from March 2012 to
+  June 2013. Data includes 404 cross-shelf sections of temperature (C),
+  salinity (PSU), colored dissolved organic material (CDOM, volts;
+  dark-corrected), particulate backscatter (bbp at 650nm, m-1) and
+  Chlorophyll fluorescence (chl-fl, volts; dark-corrected). Each section
+  is 35x40 in size (35 depth measurements x 40 latitude measurements
+  about 100m apart). They were obtained from kriging of raw sections
+  every 100m in latitude and 2m in depth. Longitude is constant at -119
+  44.824. Matlab files are indexed to each of the glider sections
+  (1-404). Data are described in
+  <ulink url="http://dx.doi.org/10.1002/2016JC011781">Hendrikx Freitas,
+  F., D. A. Siegel, L. Washburn, S. Halewood and E. Stassinos. 2016.
+  Assessing controls on cross-shelf phytoplankton and suspended particle
+  distributions using repeated bio-optical glider surveys. Journal of
+  Geophysical Research - Oceans, 121: 7776-7794. Doi:
+  10.1002/2016JC011781</ulink>
+      </para>
+      <para>
+  Definition of the variables in the matlab file:
+</para>
+      <para>
+  Times are in matlab time.
+</para>
+      <para>
+  Gtime is the average timestamp of each glider section (first column =
+  time; second column = mission number it belongs to).
+</para>
+      <para>
+  Gdurationanddirection is useful to know how long (in time) each
+  section actually is, and what direction it started with
+  (inshore-offshore or offshore-inshore).
+</para>
+      <para>
+  Gvel are the depth-averaged velocities obtained from the glider
+  (columns are time, lat, lon, alongshore component of currents,
+  cross-shore component of currents, mission number).
+</para>
+      <para>
+  Chl in mg/m3 = 0.0159*(dark corrected chl counts)-0.0165); N=9; r=0.82
+  (p-value&lt;0.05).
+</para>
+      <para>
+  bbp in 1/m units and it was the optical backscatter data that were
+  converted to particulate backscattering following standard algorithms.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>chlorophyll</keyword>
+      <keyword>depth</keyword>
+      <keyword>LTER</keyword>
+      <keyword>marine</keyword>
+      <keyword>oceans</keyword>
+      <keyword>phytoplankton</keyword>
+      <keyword>salinity</keyword>
+      <keyword>temperature</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>phytoplankton</keyword>
+      <keyword>profiles</keyword>
+      <keyword>temperature</keyword>
+      <keywordThesaurus>SBC-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Chlorophyll</keyword>
+      <keyword>Salinity</keyword>
+      <keywordThesaurus>Global Change Master Directory (GCMD) v6.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Chlorophyll</keyword>
+      <keyword>Temperature</keyword>
+      <keywordThesaurus>Knowledge Network for Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>controls on bio-optical properties</keyword>
+      <keyword>cross-shelf variability</keyword>
+      <keyword>instruments and techniques</keyword>
+      <keyword>LTER</keyword>
+      <keyword>nearshore processes</keyword>
+      <keyword>Ocean optics</keyword>
+      <keyword>phytoplankton</keyword>
+    </keywordSet>
+    <intellectualRights>
+
+      <para>
+  This data package is released under the Creative Commons license
+  Attribution 4.0 International (CC BY 4.0 , see
+  <ulink url="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ulink>).
+  This license states that consumers ("Data Users" herein) may
+  distribute, adapt, reuse, remix, and build upon this work, as long as
+  they give appropriate credit, provide a link to the license, and
+  indicate if changes were made. If redistributed, a Data User may not
+  apply additional restrictions or technological measures that prevent
+  access.
+</para>
+      <para>
+  The Data User has an ethical obligation to cite the data source
+  appropriately in any publication or product that results from its use,
+  and notify the data contact or creator. Communication, collaboration,
+  or co-authorship (as appropriate) with the creators of this data
+  package is encouraged to prevent duplicate research or publication.
+  The Data User is urged to contact the authors of these data if any
+  questions about methodology or results occur. The Data User should
+  realize that these data may be actively used by others for ongoing
+  research and that coordination may be necessary to prevent duplication
+  or inappropriate use. The Data User should realize that
+  misinterpretation may occur if data are used outside of the context of
+  the original study. The Data User should be aware that data are
+  updated periodically and it is the responsibility of the Data User to
+  check for new versions of the data.
+</para>
+      <para>
+  While substantial efforts are made to ensure the accuracy of data and
+  associated documentation, complete accuracy of data sets cannot be
+  guaranteed. This data package (with its components) is made available
+  “as is” and with no warranty of accuracy or fitness for use. The
+  creators of this data package and the repository where these data were
+  obtained shall not be liable for any damages resulting from
+  misinterpretation, use or misuse of the data package or its
+  components.
+</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>glide range: Santa Barbara Channel</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3918</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3918</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>glide range: Santa Barbara Channel</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.73</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.73</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3541</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3541</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-03-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-06-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="sbc-boilerplate-contact_SBC" scope="system" system="sbclter">
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal Long Term Ecological Research Project</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  The study site, glider deployments, data calibration, and quality
+  control can be found in the paper:
+</para>
+          <para>
+  Henderikx Freitas, F.<emphasis>,</emphasis> D. A.
+  Siegel<emphasis>,</emphasis> L. Washburn<emphasis>,</emphasis> S.
+  Halewood<emphasis>, and</emphasis> E. Stassinos
+  <emphasis>(</emphasis>2016<emphasis>),</emphasis> Assessing controls
+  on cross-shelf phytoplankton and suspended particle distributions
+  using repeated bio-optical glider surveys<emphasis>,</emphasis> J.
+  Geophys. Res. Oceans<emphasis>,</emphasis> 121<emphasis>,</emphasis>
+  7776<emphasis>–</emphasis>7794<emphasis>,
+  doi:</emphasis>
+            <ulink url="http://dx.doi.org/10.1002/2016JC011781">10.1002/2016JC011781</ulink>
+            <emphasis>.</emphasis>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project id="sbc-boilerplate-project_SBC" scope="system" system="sbclter">
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Steven</givenName>
+          <surName>Gaines</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3764</phone>
+        <electronicMailAddress>gaines@msi.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis> ) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Award OCE-0620276</para>
+        </section>
+      </funding>
+    </project>
+    <otherEntity>
+      <entityName>Glider data, 2012-2013</entityName>
+      <entityDescription>Temperature,salinity,chl-fl, CDOM,bbp from the glider</entityDescription>
+      <physical>
+        <objectName>Glider_data_LTER.mat</objectName>
+        <size unit="byte">20369773</size>
+        <authentication method="MD5">2f387558ddde2bb6e61832c16c0f1640</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>MATLAB</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/96/1/94560c4eaa12663106014d7006c017ad</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>otherEntity</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

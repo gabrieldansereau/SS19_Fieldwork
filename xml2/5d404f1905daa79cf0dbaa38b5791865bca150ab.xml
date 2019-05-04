@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111166.0"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems 16S rRNA Genes for Bacteria and Archaea at HJA, HFR, BCI, CWT, LUQ, and NWT - UPARSE Resample 20K
+</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <pubDate>2015-04-09</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures temperature-dependent latitudinal microbial diversity sampled for in forest soils based on taxonomic and phylogenetic diversity observed on 16S rRNA genes for bacteria and archaea by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">RNA</keyword>
+      <keyword keywordType="theme">16S</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">Bacteria</keyword>
+      <keyword keywordType="theme">Archaea</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">HJ Andrews</keyword>
+      <keyword keywordType="theme">Coweeta</keyword>
+      <keyword keywordType="theme">Harvard Forest</keyword>
+      <keyword keywordType="theme">Luquillo</keyword>
+      <keyword keywordType="theme">Niwot Ridge</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-16s-rrna-genes-bacteria-and-archaea-hja-hfr-bci-cwt-luq-and-nwt-uparse-resample
+</url>
+      </online>
+    </distribution>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ye</givenName>
+        <surName>Deng</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>dengye@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+To determine whether soil microbes exhibit latitudinal diversity gradients and whether such patterns are temperature dependent, we examined the latitudinal diversity patterns of microbes (bacteria, fungi, N fixing bacteria) in 126 soil samples from the six experimental sites (HJ Andrews, Luquillo, Barro Colorado, Niwot Ridge, Harvard Forest, and Coweeta). At each site, a central subplot was located first and then laid out 1-m2 subplots in four directions with distances of 1m, 10m, 50m, 100m and 200m from the central subplot. To determine the biodiversity of microbial communities, three genes targeting different taxonomic groups with different taxonomic resolutions were sequenced: The first of these are the V3-V4 regions of the 16S rRNA genes for determining the biodiversity of bacteria and archaea. All of the target genes were amplified and sequenced to a great depth using Illumina MiSeq. An average of 64K sequence reads were obtained for the 16S gene. The numbers of OTUs (Operational Taxonomic Units) obtained varied considerably (1.6-5.8 times) based on different sequence similarity thresholds. Such sequencing efforts appear to be reasonably sufficient to estimate the diversity of the microbial communities examined, at least for the dominant populations, as indicated by rarefaction analysis, which showed that the rarefaction curves approached to saturation at different cutoffs for the three target genes. Amplicon Sequencing Analysis protocols are as follows: Detail steps: 1. Raw data. The raw data includes three files: R1.fastq, R2.fastq, and I1.fastq. The first files are read files contains real sequences in FASTQ format and the third file is the index file which contains the barcode sequence information for each corresponding reads in the first two files. Here, to make an example, we trim the files and only included 10000 entries in each file. 2.	Upload. All the files need to be uploaded into our sequencing analysis server. Big files larger than 2GB need to be uploaded through an ftp server. 3.	Remove PhiX sequences. The PhiX sequences are added to increase the diversity of the nucleotides in each position and enhance the sequencing accuracy. These sequences are removed here using BLAST against the PhiX genome sequences. (Output: Galaxy8-10) 4.	Split sequence by barcodes. A barcode list needs to be provided to extract these barcode from the index file so each sequence will be assigned to the sample its barcode represents. After this step, the sample name (barcode name) will be attached to every sequence ID linked by "--". (Output: Galaxy13, 14) 5.	Remove Primer (optional). This step is only needed if the primers are included in the reads. It depends on the sequencing strategy. If proceeds, the primers will be removed from the beginning of the reads within a certain range. (Output: Galaxy16,17) 6.	Join pair-end reads. A program called FLASH is used to join the forward and reversed reads together. (Output: Galaxy20) 7.	Quality trim. The quality trimming process is carried out by Btrim . (Output: Galaxy24) 8.	Extract FASTA from FASTQ. The FASTQ format contains information of both sequences and their quality. For further analysis based, sequences in FASTA files are the only information needed, though users can still get the quality files here if they want. (Output: Galaxy26) 9.	Remove sequences contain N. N is undetermined base which could indicate unreliable sequences after it. User can choose to remove completely or trim at the position of N to keep the remaining part of the sequences. (Output: Galaxy27) 10.	Filter sequences by length. If the sequences are too short (this usually doesn't happen for Illumina sequences after joining pair-ends reads), they will greatly affect the clustering results when generating OTUs and induce errors. And if the sequences are too long usually means they are sequencing errors. (Output: Galaxy29) 11.	Remove potential chimeras using Uchime . To remove chimeras, which are commonly created during DNA sample amplification by PCR, U-CHIME is used. There are two modes in the U-CHIME algorithm: de novo and reference database. The de novo mode uses abundance information to detect chimeras on the assumption that chimeras are less abundant than their parents because they must've undergone fewer rounds of amplification. We usually use the reference database mode to save computational time. The Greengene 16S dataset is used as reference for 16S sequencing analysis. To save more computational time, all the identical sequences are removed from the dataset and a redundancy map contains all the identical sequence ID is also generated for future use. (Output: Galaxy32,33) 12. Correct frame shifts for protein encoding sequences (optional). When the sequences are from protein encoding genes, correct open reading frames (ORFs) need to be assured to allow accurate translation and alignment in the future analysis. A program called FrameBot (developed by RDP, not published yet) is used to perform this process. A reference file of protein sequences needs to be provided, and frame shift-corrected protein and DNA sequences are generated. 13.	Resample (optional). Resample the sequences so that each sample has the same sequence number. 14.	Pick OTUs. This step will use clustering methods to form OTUs (operational taxonomy units) based on sequence similarity. Now we have three methods that users can choose from: CD-HIT, UCLUST, McClust. McClust is a complete lineage algorithm which provides more accurate clustering results, but it is very time and space consuming. For large sequence datasets, CD-HIT and UCLUST are recommended. For millions of sequences generated from Illumina platform, UCLUST should be chosen to do the clustering. The clusters generated from this step will be treated as OTUs for further analysis. (Output: Galaxy35) 15.	Generate OTU table. In the OTU table, the rows represent OTUs and columns are samples, the values between are the sequence numbers belong to the corresponding OTUs as well as corresponding samples. The redundancy map from the UCHIME step is also needed to add back the identical sequences. OTU tables w/o singlets are generated and also their corresponding representative sequences. (Output: Galaxy36-39)
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>
+16S rRNA Genes for Bacteria and Archaea - UPARSE Resample 20K
+</entityName>
+      <entityDescription>
+Temperature-dependent latitudinal microbial diversity was sampled for in forest soils based on taxonomic and phylogenetic diversity observed on 16S rRNA genes for bacteria and archaea.
+</entityDescription>
+      <physical>
+        <objectName>
+16S rRNA Genes for Bacteria and Archaea - UPARSE Resample 20K
+</objectName>
+        <size>9730450</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111166/0/7ccd424181335150d25606fb38bb51da</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-09-13</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-26</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeLabel>ID</attributeLabel>
+          <attributeDefinition>
+The ID of the Operational Taxonomic Unit (OTU) found in the sample. (Eg, OTU_29, OTU_459).
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+The ID of the Operational Taxonomic Unit (OTU) found in the sample. (Eg, OTU_29, OTU_459).
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HC</attributeName>
+          <attributeLabel>HC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B50S</attributeName>
+          <attributeLabel>B50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI10W</attributeName>
+          <attributeLabel>NI10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B1E</attributeName>
+          <attributeLabel>B1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L50W</attributeName>
+          <attributeLabel>L50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI1E</attributeName>
+          <attributeLabel>NI1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Rdige 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Rdige 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A100E</attributeName>
+          <attributeLabel>A100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H100E</attributeName>
+          <attributeLabel>H100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L100E</attributeName>
+          <attributeLabel>L100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A50E</attributeName>
+          <attributeLabel>A50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B200N</attributeName>
+          <attributeLabel>B200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H10N</attributeName>
+          <attributeLabel>H10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI1W</attributeName>
+          <attributeLabel>NI1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H200N</attributeName>
+          <attributeLabel>H200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI100N</attributeName>
+          <attributeLabel>NI100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B50E</attributeName>
+          <attributeLabel>B50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H50S</attributeName>
+          <attributeLabel>H50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L1W</attributeName>
+          <attributeLabel>L1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H200W</attributeName>
+          <attributeLabel>H200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A50W</attributeName>
+          <attributeLabel>A50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C1W</attributeName>
+          <attributeLabel>C1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L200N</attributeName>
+          <attributeLabel>L200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C200E</attributeName>
+          <attributeLabel>C200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A10S</attributeName>
+          <attributeLabel>A10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B10W</attributeName>
+          <attributeLabel>B10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI50E</attributeName>
+          <attributeLabel>NI50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L50S</attributeName>
+          <attributeLabel>L50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B200S</attributeName>
+          <attributeLabel>B200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H200S</attributeName>
+          <attributeLabel>H200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A1N</attributeName>
+          <attributeLabel>A1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C1S</attributeName>
+          <attributeLabel>C1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B200E</attributeName>
+          <attributeLabel>B200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A200E</attributeName>
+          <attributeLabel>A200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B10E</attributeName>
+          <attributeLabel>B10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A200S</attributeName>
+          <attributeLabel>A200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C10S</attributeName>
+          <attributeLabel>C10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AC</attributeName>
+          <attributeLabel>AC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A50S</attributeName>
+          <attributeLabel>A50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L100N</attributeName>
+          <attributeLabel>L100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A10W</attributeName>
+          <attributeLabel>A10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H1N</attributeName>
+          <attributeLabel>H1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A100S</attributeName>
+          <attributeLabel>A100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C100S</attributeName>
+          <attributeLabel>C100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B10N</attributeName>
+          <attributeLabel>B10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI200W</attributeName>
+          <attributeLabel>NI200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A50N</attributeName>
+          <attributeLabel>A50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L50N</attributeName>
+          <attributeLabel>L50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI10E</attributeName>
+          <attributeLabel>NI10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BC</attributeName>
+          <attributeLabel>BC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B100E</attributeName>
+          <attributeLabel>B100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B1W</attributeName>
+          <attributeLabel>B1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L10W</attributeName>
+          <attributeLabel>L10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C10W</attributeName>
+          <attributeLabel>C10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L200W</attributeName>
+          <attributeLabel>L200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI200E</attributeName>
+          <attributeLabel>NI200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L100W</attributeName>
+          <attributeLabel>L100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C1N</attributeName>
+          <attributeLabel>C1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H10E</attributeName>
+          <attributeLabel>H10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LC</attributeName>
+          <attributeLabel>LC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A1S</attributeName>
+          <attributeLabel>A1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H200E</attributeName>
+          <attributeLabel>H200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B1S</attributeName>
+          <attributeLabel>B1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C1E</attributeName>
+          <attributeLabel>C1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C200S</attributeName>
+          <attributeLabel>C200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B200W</attributeName>
+          <attributeLabel>B200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A1W</attributeName>
+          <attributeLabel>A1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A100N</attributeName>
+          <attributeLabel>A100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C10E</attributeName>
+          <attributeLabel>C10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI50S</attributeName>
+          <attributeLabel>NI50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C100N</attributeName>
+          <attributeLabel>C100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A100W</attributeName>
+          <attributeLabel>A100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H1E</attributeName>
+          <attributeLabel>H1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H10W</attributeName>
+          <attributeLabel>H10W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A10N</attributeName>
+          <attributeLabel>A10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L10N</attributeName>
+          <attributeLabel>L10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B50N</attributeName>
+          <attributeLabel>B50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L50E</attributeName>
+          <attributeLabel>L50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI50N</attributeName>
+          <attributeLabel>NI50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L1S</attributeName>
+          <attributeLabel>L1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A200N</attributeName>
+          <attributeLabel>A200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B50W</attributeName>
+          <attributeLabel>B50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI200N</attributeName>
+          <attributeLabel>NI200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B100S</attributeName>
+          <attributeLabel>B100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B1N</attributeName>
+          <attributeLabel>B1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L1N</attributeName>
+          <attributeLabel>L1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C100W</attributeName>
+          <attributeLabel>C100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C10N</attributeName>
+          <attributeLabel>C10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B10S</attributeName>
+          <attributeLabel>B10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H10S</attributeName>
+          <attributeLabel>H10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C200N</attributeName>
+          <attributeLabel>C200N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI10S</attributeName>
+          <attributeLabel>NI10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C50S</attributeName>
+          <attributeLabel>C50S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B100N</attributeName>
+          <attributeLabel>B100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H100N</attributeName>
+          <attributeLabel>H100N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C50N</attributeName>
+          <attributeLabel>C50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CC</attributeName>
+          <attributeLabel>CC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI100E</attributeName>
+          <attributeLabel>NI100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>B100W</attributeName>
+          <attributeLabel>B100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Barro Colorado 100 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI100W</attributeName>
+          <attributeLabel>NI100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L200S</attributeName>
+          <attributeLabel>L200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L200E</attributeName>
+          <attributeLabel>L200E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 200 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A200W</attributeName>
+          <attributeLabel>A200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L10E</attributeName>
+          <attributeLabel>L10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H100S</attributeName>
+          <attributeLabel>H100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI50W</attributeName>
+          <attributeLabel>NI50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A1E</attributeName>
+          <attributeLabel>A1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C50W</attributeName>
+          <attributeLabel>C50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L1E</attributeName>
+          <attributeLabel>L1E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 1 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L10S</attributeName>
+          <attributeLabel>L10S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 10 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>A10E</attributeName>
+          <attributeLabel>A10E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the HJ Andrews 10 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI10N</attributeName>
+          <attributeLabel>NI10N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 10 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H1W</attributeName>
+          <attributeLabel>H1W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NIC</attributeName>
+          <attributeLabel>NIC</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge Center subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge Center subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C100E</attributeName>
+          <attributeLabel>C100E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 100 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H50W</attributeName>
+          <attributeLabel>H50W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI200S</attributeName>
+          <attributeLabel>NI200S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 200 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>L100S</attributeName>
+          <attributeLabel>L100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Luquillo 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H100W</attributeName>
+          <attributeLabel>H100W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 100 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H50N</attributeName>
+          <attributeLabel>H50N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C200W</attributeName>
+          <attributeLabel>C200W</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter West subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 200 meter West subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H50E</attributeName>
+          <attributeLabel>H50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>C50E</attributeName>
+          <attributeLabel>C50E</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter East subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Coweeta 50 meter East subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI100S</attributeName>
+          <attributeLabel>NI100S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 100 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI1N</attributeName>
+          <attributeLabel>NI1N</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter North subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter North subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>H1S</attributeName>
+          <attributeLabel>H1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Harvard Forest 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NI1S</attributeName>
+          <attributeLabel>NI1S</attributeLabel>
+          <attributeDefinition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter South subplot.
+</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>
+Count of each Operational Taxonomic Unit (OTU) found at the Niwot Ridge 1 meter South subplot.
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,2918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cap.617.1" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 https://code.ecoinformatics.org/code/eml/tags/RELEASE_EML_2_1_1/eml.xsd  eml://ecoinformatics.org/eml-2.1.1 http://caplter.asu.edu/php/eml2_1_1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CAP,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset scope="system" system="knb">
+    <alternateIdentifier>617_1</alternateIdentifier>
+    <title>Regional Drinking Water Quality Monitoring Program</title>
+    <creator>
+      <individualName>
+        <givenName>Paul</givenName>
+        <surName>Westerhoff</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Milton</givenName>
+        <surName>Sommerfeld</surName>
+      </individualName>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Marisa</givenName>
+        <surName>Masles</surName>
+      </individualName>
+    </metadataProvider>
+    <pubDate>2015-08-28</pubDate>
+    <language>english</language>
+    <abstract>ASU has been working with regional water providers (SRP, CAP) and metropolitan Phoenix cities since 1998 on algae-related issues affecting drinking water supplies, treatment, and distribution.  The results have improved the understanding of taste and odor (T&amp;O) occurrence, control, and treatment, improved the understanding of dissolved organic and algae dynamics, and initiated a forum to discuss and address regional water quality issues.  The monitoring benefits local WTPs  by optimizing ongoing operations (i.e., reducing operating costs), improving the quality of municipal water for consumers, facilitating long-term water quality planning, and providing information on potentially future-regulated compounds. ASU has been monitoring water quality in terminal reservoirs (Lake Pleasant, Saguaro Lake, and Bartlett Lake) continuously from 1998 to the present for algae-related constituents (taste and odors, and more recently cyanotoxins), nutrients, and disinfection by-product precursors (i.e., total and dissolved organic carbon and organic nitrogen). Additional monitoring has been conducted in the SRP and CAP canal systems and in water treatment plants in Phoenix, Tempe and Peoria. During this work the Valley has been in a prolonged drought and recently one above average wet year, and this data provides important baseline data for development of new or expanded WTPs and management of existing WTPs in the future.  The current work has improved the understanding of T&amp;O sources and treatment, but additional research and monitoring into the future is necessary.</abstract>
+    <keywordSet>
+      <keyword keywordType="theme">water quality</keyword>
+      <keyword keywordType="theme">Geosmin</keyword>
+      <keyword keywordType="theme">chlorophyll</keyword>
+      <keyword keywordType="theme">canal</keyword>
+      <keyword keywordType="theme">nutrients</keyword>
+      <keyword keywordType="theme">water treatment</keyword>
+      <keywordThesaurus>Creator Defined Keyword Set</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">movement of inorganic matter</keyword>
+      <keyword keywordType="theme">movement of organic matter</keyword>
+      <keyword keywordType="theme">primary production</keyword>
+      <keywordThesaurus>LTER core areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">CAP LTER</keyword>
+      <keyword keywordType="theme">Arizona</keyword>
+      <keyword keywordType="theme">CAP</keyword>
+      <keyword keywordType="theme">Central Arizona—Phoenix Long-Term Ecological Research</keyword>
+      <keyword keywordType="theme">Arizona</keyword>
+      <keyword keywordType="theme">AZ</keyword>
+      <keyword keywordType="theme">arid land</keyword>
+      <keywordThesaurus>CAP LTER Keyword Set List</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>Copyright Board of Regents, Arizona State University. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions:While CAP LTER will make every effort possible to control and document the quality of the data it publishes, the data are made available 'as is.'CAP LTER cannot assume responsibility for damages resulting from mis-use or mis-interpretation of datasets or from errors or omissions that may exist in the data.It is considered a matter of professional ethics to acknowledge the work of other scientists that has resulted in data used in subsequent research.CAP LTER expects that any use of data from this server will be accompanied with the appropriate citations and acknowledgments.CAP LTER encourages users to contact the original investigator responsible for the data that they are accessing. Where appropriate, researchers whose projects are integrally dependent on CAP LTER data are encouraged to consider collaboration and/or co-authorship with original investigators.CAP LTER requests that users submit to the Julie Ann Wrigley Global Institute of Sustainability, ASU, one copy of any publication resulting from the use of data obtained from this site.CAP LTER requests that users not redistribute data obtained from this site. However, links or references to this site may be freely posted.</intellectualRights>
+    <distribution>
+      <online>
+        <onlineDescription>CAPLTER Metadata URL</onlineDescription>
+        <url>http://data.gios.asu.edu/cap/HarvestListFileShow.php?id=617</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Canals, Water Treatment Plants, and Reservoirs in Phoenix and surrounding areas</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-112.125</westBoundingCoordinate>
+          <eastBoundingCoordinate>-111.1235</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.49</northBoundingCoordinate>
+          <southBoundingCoordinate>33.2917</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1999-08-17</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-06-02</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Julie Ann Wrigley Global Institute of Sustainability, Arizona State University</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>PO Box 875402</deliveryPoint>
+        <city>TEMPE</city>
+        <administrativeArea>AZ</administrativeArea>
+        <postalCode>85287-5402</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>480-965-2975</phone>
+      <electronicMailAddress>caplter.data@asu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Arizona State University, Julie Ann Wrigley Global Institute of Sustainability</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>Grab water samples were collected for analysis from canals and water treatment plants in headspace-free, amber glass containers.  Water samples for metals analysis were collected in centrifuge tubes and acidified with nitric acid for stability.  Lake samples were obtained from the epilimnion and hypolimnion by way of a Kemmerer sampler.  All samples were kept on ice in the field and stored at 4 degrees Celsius until analyzed.  Nutrient samples that could not be analyzed within 24 hours were frozen. Field measurements for dissolved oxygen, pH, and temperature were made using a portable meter.  Water clarity for lake samples was measured using a Secchi Disk. Taste and odor compounds were measured using solid phase micro extraction and injected onto a GC-MS/MS.  Total nutrients were obtained by way of persulfate digestion and then analysis on a continuous flow colorimetric analyzer.  Metals data were obtained by ICP-MS.</description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>algae</entityName>
+      <entityDescription>metadata documentation for algae</entityDescription>
+      <physical>
+        <objectName>617_algae_91859f7f1e1d8ef2d512ccea9cbe4dec39926dd0.csv</objectName>
+        <size unit="byte">1675792</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/4360ef4885ef72b644fb783634a7f958</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteNumber</attributeName>
+          <attributeDefinition>Site number or name; ‘A’ designates epilimnion, ‘B’ hypolimnion</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>‘A’ designates epilimnion, ‘B’ hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteLocation</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ClusterName</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either Verde, Salt, CAP, SRP, Tempe</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteAcronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month sample was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SampleType</attributeName>
+          <attributeDefinition>Type of water sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“field blank”,” lab blank”, or “duplicate”; “grab” if not noted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conductance</attributeName>
+          <attributeDefinition>Conductivity of water sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ChlA</attributeName>
+          <attributeDefinition>Total Chlorophyll a measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Phaeophytin</attributeName>
+          <attributeDefinition>Phaeophytin measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PhaeophytinChlA</attributeName>
+          <attributeDefinition>Chlorophyll a measurement corrected for Phaeophytin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Chlorophyta</attributeName>
+          <attributeDefinition>Chlorophyta count</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMilliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cyanophyta</attributeName>
+          <attributeDefinition>Cyanophyta count</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMilliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Bacillariophyta</attributeName>
+          <attributeDefinition>Bacillariophyta count</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMilliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total</attributeName>
+          <attributeDefinition>Total of Chlorophyta, Cyanophyta, and Bacillariophyta measurements</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMilliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AlgaeComments</attributeName>
+          <attributeDefinition>Sampling comments about canal, lake or water treatment plant</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>e.g. “musty odor”, “turbid”, “algal growth”, “dry canal”, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>9060</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>arsenic</entityName>
+      <entityDescription>metadata documentation for arsenic</entityDescription>
+      <physical>
+        <objectName>617_arsenic_a5c1d4cff6169fddf6fbfd73bb9be10fbec68b30.csv</objectName>
+        <size unit="byte">395224</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/0765874a313ce115023e01847b82b59e</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteNumber</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>‘A’ designates epilimnion, ‘B’ hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteLocation</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteAcronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Arsenic</attributeName>
+          <attributeDefinition>Arsenic measurement; measurement by graphite furnace</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>microgramsPerLiter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Perchlorate</attributeName>
+          <attributeDefinition>Perchlorate measurement; measurement by ion chromatography</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>3428</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>docMonth</entityName>
+      <entityDescription>metadata documentation for docMonth</entityDescription>
+      <physical>
+        <objectName>617_docMonth_3e2c3f0ff249bbef62b898fcd291e3977cfac42a.csv</objectName>
+        <size unit="byte">1861568</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/5cc812f4179e354bd4896b2c6b1dce71</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteNumber</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteLocation</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ClusterName</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteAcronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month sample was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SampleType</attributeName>
+          <attributeDefinition>Type of water sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “field blank”, “lab blank”, or “duplicate”; “grab” if not noted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TOC</attributeName>
+          <attributeDefinition>Total organic carbon measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Dissolved organic carbon measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UVA</attributeName>
+          <attributeDefinition>UV absorbance measurement; measured at 254 nanometers</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SUVA</attributeName>
+          <attributeDefinition>SUVA calculation</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>SUVA_254nm</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PeakInt</attributeName>
+          <attributeDefinition>Intensity of peak</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PeakIntWL</attributeName>
+          <attributeDefinition>Wavelength at the highest peak intensity</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nanometer</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Intat450</attributeName>
+          <attributeDefinition>Intensity at 450 nanometers</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Intat460</attributeName>
+          <attributeDefinition>Intensity at 460 nanometers</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Intat500</attributeName>
+          <attributeDefinition>Intensity at 500 nanometers</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fl</attributeName>
+          <attributeDefinition>Fluorescence ratio of 450/500</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>docm_comments</attributeName>
+          <attributeDefinition>No metadata provided</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>9140</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>fieldMeasurements</entityName>
+      <entityDescription>metadata documentation for fieldMeasurements</entityDescription>
+      <physical>
+        <objectName>617_fieldMeasurements_fb7cd7c4e9874129899875677eb671453c0835b7.csv</objectName>
+        <size unit="byte">2400456</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/4608751ab30d5b0239fcc2800d4e1082</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteNumber</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteLocation</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ClusterName</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteAcronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month sample was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth</attributeName>
+          <attributeDefinition>Water depth where measurement was taken; “0” designates just below surface</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Temperature</attributeName>
+          <attributeDefinition>Water temperature</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DO</attributeName>
+          <attributeDefinition>Dissolved oxygen measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeDefinition>pH measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SecchiDisk</attributeName>
+          <attributeDefinition>Water transparency measurement; Secchi disk lowered from side of boat</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SamplesCollected</attributeName>
+          <attributeDefinition>Individual bottles collected for various analyses</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>bottles for:  “NUT(nutrients)”, “DOCM”, “MIB/GEO”, “PHYT(phytoplankton)”, or “PERI(Periphyton)”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SampleType</attributeName>
+          <attributeDefinition>Type of water sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “field blank”, “lab blank”, or “duplicate”; "grab" if not noted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Sampling comments about canal, lake or water treatment plant</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>e.g. “musty odor”, “turbid”, “algal growth”, “dry canal”, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>14502</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>gpscoord</entityName>
+      <entityDescription>metadata documentation for gpscoord</entityDescription>
+      <physical>
+        <objectName>617_gpscoord_bbb3564b08218112c077610727a89a4a53be1cea.csv</objectName>
+        <size unit="byte">13808</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/a329ffed7435564d487f419c5393bc46</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteNumber</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteLocation</attributeName>
+          <attributeDefinition>METADATA_NOT_PROVIDED</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ClusterName</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SiteAcronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Longitude coordinates</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>W deg min.sec</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Latitude coordinates</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>N deg min.sec</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Altitude</attributeName>
+          <attributeDefinition>Elevation above sea level</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>32</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>mibAndGeosmin</entityName>
+      <entityDescription>metadata documentation for mibAndGeosmin</entityDescription>
+      <physical>
+        <objectName>617_mibAndGeosmin_a693db86211b04dba6bc974750272deea49db433.csv</objectName>
+        <size unit="byte">1983392</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/560959418b372a95bdc9d3234f239e8d</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Number</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month sample was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_Type</attributeName>
+          <attributeDefinition>Type of water sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “field blank”, “lab blank”, or “duplicate”; "grab" if not noted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MIB</attributeName>
+          <attributeDefinition>2-methyisoborneol measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Geosmin</attributeName>
+          <attributeDefinition>Geosmin measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Beta_Cyclocitral</attributeName>
+          <attributeDefinition>Beta-Cyclocitral measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IPMP_Recovery</attributeName>
+          <attributeDefinition>Recovery of 2-isopropyl-3-methoxy pyrazine; IPMP used as an internal standard</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MIB_Phoenix</attributeName>
+          <attributeDefinition>MIB comparison with Phoenix (?)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Geosmin_Phoenix</attributeName>
+          <attributeDefinition>Geosmin comparison with Phoenix (?)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Sampling comments about canal, lake or water treatment plant</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>e.g. “musty odor”, “turbid”, “algal growth”, “dry canal”, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>11531</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>microbial</entityName>
+      <entityDescription>metadata documentation for microbial</entityDescription>
+      <physical>
+        <objectName>617_microbial_e387e343c6c18bf06f5443cc4f40dab56623dc55.csv</objectName>
+        <size unit="byte">28256</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/b04bb19a9dde38d4d9ca5c53dfb7a48c</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Name</attributeName>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”, “CAP”, “SRP", or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>E_coli</attributeName>
+          <attributeDefinition>Number of colonies per 100mL of sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>coloniesPer100milliliter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Coliform</attributeName>
+          <attributeDefinition>Number of colonies per 100mL of sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>coloniesPer100milliliter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mycobacterium</attributeName>
+          <attributeDefinition>Number of colonies per 100mL of sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>coloniesPer100milliliter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>comments regarding microbial sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“TNTC” = Too Numerous To Count; “NCDC” = Not Countable Due to Contamination</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>143</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>nutrients</entityName>
+      <entityDescription>metadata documentation for nutrients</entityDescription>
+      <physical>
+        <objectName>617_nutrients_f188850a9e51c192bbe89b680f40c7cc934463af.csv</objectName>
+        <size unit="byte">1612528</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/6a1e1ed248a3ac49744c39cc962fb607</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Number</attributeName>
+          <attributeDefinition>Site number or name</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>Month sample was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalMonth</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_Type</attributeName>
+          <attributeDefinition>Type of water sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “field blank”, “lab blank”, or “duplicate”; "grab" if not noted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tot_N</attributeName>
+          <attributeDefinition>Total nitrogen measurement; if “0” or negative value, then below MDL;if no value entered, then not measured</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diss_N</attributeName>
+          <attributeDefinition>Dissolved nitrogen measurement; if “0” or negative value, then below MDL; if no value entered, then not measured</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Tot_P</attributeName>
+          <attributeDefinition>Total phosphorus measurement; if “0” or negative value, then below MDL; if no value entered, then not measured</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Diss_P</attributeName>
+          <attributeDefinition>Dissolved phosphorus measurement; if “0” or negative value, then below MDL; if no value entered, then not measured</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NO3_N</attributeName>
+          <attributeDefinition>Nitrogen as nitrate measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>NH4_N</attributeName>
+          <attributeDefinition>Nitrogen as ammonia measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DON</attributeName>
+          <attributeDefinition>Dissolved organic nitrogen measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Nutrient_comments</attributeName>
+          <attributeDefinition>Sampling comments about canal, lake or water treatment plant</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>e.g. “musty odor”, “turbid”, “algal growth”, “dry canal”, etc.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>8982</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>quarterlyLakeSampling</entityName>
+      <entityDescription>metadata documentation for quarterlyLakeSampling</entityDescription>
+      <physical>
+        <objectName>617_quarterlyLakeSampling_7d8b7fd69955d1f05d2645cb53394505e4b946aa.csv</objectName>
+        <size unit="byte">33104</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/1ed292bea176edfca24c0e56aa24cfcb</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Name</attributeName>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“A” denotes epilimnion, “B” denotes hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“upper” denotes upstream lake location, “lower” denotes downstream</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“Salt River”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“epi” = epilimnion, “hypo” = hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MIB</attributeName>
+          <attributeDefinition>2-methyisoborneol measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Geosmin</attributeName>
+          <attributeDefinition>Geosmin measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cyclocitral</attributeName>
+          <attributeDefinition>beta-Cyclocitral measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerCubicMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TP</attributeName>
+          <attributeDefinition>Conductivity of sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DOC</attributeName>
+          <attributeDefinition>Total phosphorus measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>UVA</attributeName>
+          <attributeDefinition>Total dissolved nitrogen measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SUVA</attributeName>
+          <attributeDefinition>Dissolved organic carbon measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Conductance</attributeName>
+          <attributeDefinition>UV absorbance measurement</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TDN</attributeName>
+          <attributeDefinition>SUVA calculation</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>SUVA_254nm</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>168</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>quarterlyMetals</entityName>
+      <entityDescription>metadata documentation for quarterlyMetals</entityDescription>
+      <physical>
+        <objectName>617_quarterlyMetals_2964ad670a455843499f273be15d4a48fa573b54.csv</objectName>
+        <size unit="byte">58024</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/e929535aeb61bb5ed113c9afa1a8045c</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Name</attributeName>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“A” denotes epilimnion, “B” denotes hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“upper” denotes upstream lake location, “lower” denotes downstream</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Salt River”,” Cap”, or “Verde”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“epi” = epilimnion, “hypo” = hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample_Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Units</attributeName>
+          <attributeDefinition>Measurement units</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>micrograms per liter</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Li7</attributeName>
+          <attributeDefinition>Lithium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Be9</attributeName>
+          <attributeDefinition>Beryllium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Na23</attributeName>
+          <attributeDefinition>Sodium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mg24</attributeName>
+          <attributeDefinition>Magnesium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Al27</attributeName>
+          <attributeDefinition>Aluminum measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>K39</attributeName>
+          <attributeDefinition>Potassium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ca44</attributeName>
+          <attributeDefinition>Calcium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>V51</attributeName>
+          <attributeDefinition>Vanadium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cr52</attributeName>
+          <attributeDefinition>Chromium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mn55</attributeName>
+          <attributeDefinition>Manganese measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Fe56</attributeName>
+          <attributeDefinition>Iron measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Co59</attributeName>
+          <attributeDefinition>Cobalt measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ni60</attributeName>
+          <attributeDefinition>Nickle measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cu65</attributeName>
+          <attributeDefinition>Copper measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Zn66</attributeName>
+          <attributeDefinition>Zinc measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>As75</attributeName>
+          <attributeDefinition>Arsenic measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Se82</attributeName>
+          <attributeDefinition>Selenium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sr88</attributeName>
+          <attributeDefinition>Strontium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mo95</attributeName>
+          <attributeDefinition>Molybdenum measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ag107</attributeName>
+          <attributeDefinition>Silver measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cd111</attributeName>
+          <attributeDefinition>Cadmium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>In115</attributeName>
+          <attributeDefinition>Indium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sb121</attributeName>
+          <attributeDefinition>Antimony measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Ba138</attributeName>
+          <attributeDefinition>Barium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Hg202</attributeName>
+          <attributeDefinition>Mercury measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Pb207</attributeName>
+          <attributeDefinition>Lead measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>U238</attributeName>
+          <attributeDefinition>Uranium measurement by ICP-MS</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>165</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>sampleNames</entityName>
+      <entityDescription>metadata documentation for sampleNames</entityDescription>
+      <physical>
+        <objectName>617_sampleNames_86f25da64fc7f8263aba1752c6d287a62203c043.csv</objectName>
+        <size unit="byte">8400</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/367ccf221a8054ae0256e1b94f1107f1</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>Site_ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“A” denotes epilimnion, “B” denotes hypolimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Number</attributeName>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“epi”= epilimnion, “hypo”= hypolimnion,  “dup”= duplicate, “x con”= cross connect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>27</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>sucralose</entityName>
+      <entityDescription>metadata documentation for sucralose</entityDescription>
+      <physical>
+        <objectName>617_sucralose_d400796b9779d1cbf47c63589e1bde6c1668c315.csv</objectName>
+        <size unit="byte">4168</size>
+        <characterEncoding>en_US.UTF-8</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>CAPLTER Data Portal URL</onlineDescription>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-cap/617/1/6052c9ec0e29d5637b53db3a00621f33</url>
+          </online>
+        </distribution>
+      </physical>
+      <additionalInfo>
+        <section>
+          <title>Julie Ann Wrigley Global Institute of Sustainability Informatics processed this data object with the following actions:</title>
+          <para>
+            <itemizedlist>
+              <listitem>
+                <para>Data Processing Action:  Replace empty, null's, /N, NAN's with NA</para>
+                <para>Action Completed:  YES</para>
+              </listitem>
+            </itemizedlist>
+          </para>
+        </section>
+      </additionalInfo>
+      <attributeList>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>Record number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Name</attributeName>
+          <attributeDefinition>Name of sampling site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“A” denotes epilimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Description of where site is located</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>METADATA_NOT_PROVIDED</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cluster_Name</attributeName>
+          <attributeDefinition>Source water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>either “Verde”,” Salt”, “CAP”, “SRP",  or “Tempe”</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site_Acronym</attributeName>
+          <attributeDefinition>Abbreviation of site location</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>“epi” = epilimnion</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date sample was collected</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sucralose</attributeName>
+          <attributeDefinition>Sucralose measurement by LC-MS; Samples concentrated first by SPE</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>microgramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <caseSensitive>yes</caseSensitive>
+      <numberOfRecords>15</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="microgramPerCentimeterCubed" multiplierToSI="1000000"
+          name="microgramPerCentimeterCubed"
+          parentSI="kilogramsPerCubicMeter" unitType="massDensity">
+          <description>micrograms per cubic centimeter</description>
+        </unit>
+        <unit id="SUVA_254nm" multiplierToSI="1" name="SUVA_254nm"
+          parentSI="unknown (SUVA[254nm] literPerMilligramPerMeter)" unitType="specific ultra violet  absorbance">
+          <description>Specific Ultra Violet Absorbance (liter per milligram per meter)</description>
+        </unit>
+        <unit id="microsiemensPerCentimeter" multiplierToSI="0.0001"
+          name="microsiemensPerCentimeter" parentSI="siemen" unitType="conductance">
+          <description>microsiemensPerCentimeter</description>
+        </unit>
+        <unit id="nominalMonth" multiplierToSI="1" name="nominalMonth"
+          parentSI="unknown month" unitType="date">
+          <description>month in which sample was collected</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

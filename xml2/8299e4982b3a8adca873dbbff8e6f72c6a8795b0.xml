@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bes.3300.100"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1   http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset scope="document">
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/08724de32d13589c5ed283ddde202630</alternateIdentifier>
+    <title>Vegetation 2015 1</title>
+    <creator id="BES-LTER-Org">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+      <address>
+        <deliveryPoint>Baltimore Ecosystem Study</deliveryPoint>
+        <deliveryPoint>1280 Sharon Turnpike</deliveryPoint>
+        <deliveryPoint>PO Box AB</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <onlineUrl>http://caryinstitute.org</onlineUrl>
+    </creator>
+    <creator id="BES-LTER-Templeton">
+      <organizationName>Cary Institute Of Ecosystem Studies</organizationName>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Templeton</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>85 St. Nicholas Terrace</deliveryPoint>
+        <city>New York</city>
+        <administrativeArea>NY</administrativeArea>
+        <postalCode>10031</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>laura.templeton.k@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2018-01-18</pubDate>
+    <abstract>
+      <para>
+          BESLTER Permanent Plot vegetation data combined for the survey years of 1998, 2003, and 2015. </para>
+      <para>
+          Introduction:</para>
+      <para>
+          Urban forests are often highly fragmented with many exotic species. Altered disturbance regimes and environmental pollutants influence urban forest vegetation. One of the best ways to understand the impacts of urban land-use on forest composition is through long-term research. In 1998, the Baltimore Ecosystem Study (BES) established eight forest plots to investigate the impacts of urbanization on natural ecosystems (Groffman et al. 2006). Four plots were established in urban forest patches and four in rural forests. All eight plots are located within the Baltimore Metropolitan Area.</para>
+      <para>
+          Purpose:</para>
+      <para>
+          Vegetation in the BES long-term plots were sampled in 1998, 2003, and 2015 to understand the influence of urbanization on species abundances and to quantify change in forest composition, diversity, and structure (Groffman et al. 2006 and Templeton 2016). </para>
+      <para>
+          Plot Structure:</para>
+      <para>
+          Six of the plots are 40�40m (1600m2). The Hillsdale 1 and 2 plots are 30�30m (900m2). The Hillsdale plots are smaller to fit within the boundaries of the forest patch. Sites were selected with the following criteria in mind: 1) to represent urban and non-urban forests, 2) away from obvious habitat boundaries or edges, 3) with consistent drainage lines within the plot, and 4) with at least 80% continuous tree canopy. All vegetation layers were sampled in order to characterize the structure and composition of the plant community. </para>
+      <para/>
+      <para>
+          Each plot was permanently outlined with metal markers buried at or below the soil line. Between each of the plot corners, metal markers were placed at 10m intervals. The 10m markers divided the plot into 16 10x10m subplots (nine 10x10m subplots at Hillsdale). Each 10x10m subplot was then further divided into four 5x5m subplots. Only one of the four 5x5m subplots in each 10x10m subplot was used for all vegetation sampling below the tree layer. Shrubs and vines were measured along two transects. Transect lines were two adjacent sides of the 5x5m subplot. Each subplot had two 2x0.5m (1^2m) quadrats. Metal markers inside each 5x5m subplot designated the quadrat locations. Quadrats were arranged perpendicular to each other. Thus, there were 16 5x5m subplots in each 40x40m plot, with a total of 32 quadrats. In the two 30x30m plots, there were 9 5�5m subplots, with a total of 18 quadrats. </para>
+      <para>
+          Plot Locations: </para>
+      <para>
+          Urban Plots</para>
+      <para>
+          Hillsdale 1: 39  D 19 Min28.14 S N, 76  D 42 M 16.49 S W</para>
+      <para>
+          Hillsdale 2: 39  D 19 M 31.24 S N, 76  D 42 M 28.62 S W</para>
+      <para>
+          Leakin 1: 39  D 18 M 1.32 S N, 76  D 41 M 37.08 S W</para>
+      <para>
+          Leakin 2: 39  D 18 M 5.42 S N, 76  D 41 M 34.15 S W</para>
+      <para>
+          Rural Plots</para>
+      <para>
+          Oregon Upslope 1: 39  D 28 M 51.11 S N, 76  D 41 M 22.50 S W</para>
+      <para>
+          Oregon Midslope 1: 39  D 28 M 51.32 S N, 76  D 41 M 18.24 S W</para>
+      <para>
+          Oregon Upslope 2: 39  D 29 M 12.74 S N, 76  D 41 M 22.88 S W</para>
+      <para>
+          Oregon Midslope 2: 39  D 29 M 12.68 S N, 76  D 41 M 18.62 S W</para>
+      <para>
+          Sampling Design:</para>
+      <para>
+          Tree Layer: All tree species individuals with a diameter at breast height (DBH) of  greater or equal to 8cm were identified as trees. DBH was measured using diameter tape. Canopy level (canopy, subcanopy, or understory) for each tree was visually determined based on crown height. In 1998, every tree within the plot was issued a tag number. In subsequent surveys, the tag number was recorded or a new tag was added in the event an individual was untagged. The height of the tallest tree in each 10x10m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder.</para>
+      <para>
+          Sapling Layer: All individuals classified as tree species that measured  less than 8cm DBH were identified as saplings. DBH was measured to the nearest hundredth decimal place using General Ultratech digital calipers. In 1998, saplings within each 5x5 subplot were issued a tag number. In subsequent surveys, the tag number was recorded or a new tag was added in the event an individual was untagged. The height of the tallest sapling in each 5�5m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder. </para>
+      <para>
+          Vine and Shrub Layer: Species determined to be shrubs or vines were measured along two 5m transects. The adjacent lower and left perimeters of each 5x5m subplot were used as the two transect lines. Measurement of vines and shrubs began at the transect line that ran parallel to the numeric axis on the plot layout going in the direction towards the alphabetic axis. Sampling then progressed to the second transect line that ran parallel to the alphabetic axis on the plot layout (see link to plot layout illustration). Measurements were recorded in 1m segments starting with 0-1m as the first segment and ending with the tenth at 9-10m. For each segment, shrub and vine species that touched the transect line were measured in centimeters using a metric ruler. To be recorded, plants had to have a diameter greater than or equal to 5cm. If a shrub or vines species had less than a 10cm gap while touching the line, the recording for that species was considered one continuous measurement. The height of the tallest shrub along each pair of transects for each 5�5m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder.</para>
+      <para>
+          Herb and Seedling Layer: All seedlings and herbaceous species were identified, tallied, and percent cover visually estimated within each 2x0.5m quadrat. </para>
+      <para>
+          Canopy Cover: Canopy gap percentage was visually estimated in increments of 5% within each 10x10m subplot. At each subplot, all field technicians estimated canopy gap independently and a final estimate of missing canopy was determined as a consensus value. A template from the Forest Service�s field manual used in the forest inventory analysis (FIA) program was used to orient the 2015 field crew to different organizations and aggregations of canopy cover (U.S. Forest Service, 2005).</para>
+      <para>
+          Table Descriptions:</para>
+      <para>
+          Summary Table: Summarization of field data from 1998, 2003, and 2015. BA stands for basal area and is calculated from DBH using the following equation: BA=(DBH/2)^2 x Pi. Total species richness was the sum of unique species found in each plot.</para>
+      <para>
+          Trees: DBH, number of stems measured, BA per stem, total BA (sum of BA for each stem on an individual), and canopy status for each tree measured (canopy, subcanopy, or understory). Additionally, if a vine was found growing on the tree, the vine was identified and the percentage of canopy cover was estimated. A percentage of 0 means that a vine was growing on the trunk, but had not reached the canopy. A dot (.) in the tag number column indicates that an individual was not counted as a tree in prior surveys. N/A entries indicate that data was missing. Trees with multiple stems have a data row for each measured stem with only the first row listing the total number of stems. The subsequent row with the same tag number and dots in the stem columns are the associated stems. There are some instances where multiple trees have the same tag number. </para>
+      <para>
+          Tree Metrics: Abundance columns are the total number of individuals of a species, organized by region (urban or rural). Relative Abundance (Rel. Ab.) is the percentage of individuals of a species within the region. Total BA is the sum of stem BA for a given species by region. Relative Dominance (Rel. Dom.) is the percentage of total BA of a species within the region.</para>
+      <para>
+          Saplings: DBH, BA per stem, total BA (sum of BA for each stem on an individual), and number of stems measured for each sapling individual. A dot (.) in the tag number column indicates that an individual was not counted as a sapling in prior surveys. N/A entries indicate that data was missing. Multi-stemmed saplings have a sapling number greater than two in the stem columns with only one line indicating the number of stems on an individual sapling. Subsequent data lines with the same tag number and dots in the stem columns are associated stems. There are some instances where multiple saplings have the same tag number. </para>
+      <para>
+          Sapling Metrics: Abundance columns are the total number of individuals of a species organized by region (urban or rural). Relative Abundance (Rel. Ab.) is the percentage of individuals of a species within the region. Total BA is the sum of stem BA for a given species by region. Relative Dominance (Rel. Dom.) is the percentage of total BA of a species within the region.</para>
+      <para>
+          Height Data: The tallest tree, sapling, and shrub for each subplot (trees and saplings) or transect (shrubs). If no tree, sapling, or shrub was present, there is a 0 in the height column. If data is missing, a dot (.) is in the height column. Only the 2015 survey recorded species ID and tree and sapling tag numbers for the tallest individuals. </para>
+      <para>
+          Canopy Cover: The percentage of missing canopy (gap) as visually assessed by each survey year�s field team. Canopy gap was measured to the nearest 5%.</para>
+      <para>
+          Tree Seedling Cover: Each species-coded column is the sum percentage of individuals within a tree seedling species for each plot in each survey year. As percentages were summed from each quadrat within a plot, it is possible to have percentages greater than 100.</para>
+      <para>
+          Herbaceous Cover: Each species-coded column is the sum percentage of individuals within an herbaceous species for each plot in each survey year. As percentages were summed from each quadrat within a plot, it is possible to have percentages greater than 100.</para>
+      <para>
+          Shrub Cover: Each species-coded column is the amount of cover (cm) of a shrub species measured along a transect and summed for each plot in each survey year. </para>
+      <para>
+          Vine Cover: Each species-coded column is the amount of cover (cm) of a vine species measured along a transect and summed for each plot in each survey year. </para>
+      <para>
+          All Species (P/A): A table of all plant species (coded) from all forest layers measured within a plot. Given that each forest layer was measured differently, species in this table are coded as either present (1) or absent (0) within each plot. </para>
+      <para>
+          Species Codes: A list of the binomial nomenclature and common names associated with each species code used in the dataset. Out of date nomenclature used in the previous two surveys are listed in the comments column. </para>
+      <para>
+          Raw data files can be found:</para>
+      <para>
+          1. A CD in the BES 1998 and 2003 Permanent Plot Binder in the file cabinets in the Pickett IES RA office (1998 and 2003 data only).</para>
+      <para>
+          2. On Laura Templeton�s Dropbox account (1998, 2003, and 2015).</para>
+      <para>
+          3. Saved on Laura Templeton�s personal computer (1998, 2003, and 2015).</para>
+      <para>
+          1998 Project lead-Mary Cadenasso</para>
+      <para>
+          2003 Project lead- Grace Brush (gbrush@jhu.edu )</para>
+      <para>
+          2015 Project lead- Laura Templeton</para>
+      <para>
+          Questions about data can be directed to:</para>
+      <para/>
+      <para>
+          Laura Templeton:  laura.templeton.k@gmail.com</para>
+      <para>
+                 Cary Institute Ecosystems Studies Rm 141</para>
+      <para>
+                 5200 Westland Blvd</para>
+      <para>
+                 Baltimore, MD 21227</para>
+      <para/>
+      <para>
+          Literature cited:</para>
+      <para>
+          Groffman, P.M., Pouyat, R.V., Cadenasso, M.L., Zipperer, W.C., Szlavecz, K., Yesilonis, I.D., and Brush, G. S., 2006. Land use context and natural soil controls on plant community composition and soil nitrogen and carbon dynamics in urban and rural forests. Forest Ecology and Management, 236, pp.177-192.</para>
+      <para>
+          Templeton, L. K., 2016. Changes in the community structure of urban and rural forest patches in Baltimore from 1998 to 2015 (Master�s Thesis, University of Maryland, College Park).</para>
+      <para>
+          U.S. Forest Service, 2005.  Forest Inventory Analysis Version 3.0 Phase 3 Field Guide- Crowns: Measurements and Sampling. USDA.
+          </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Vegetation</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Baltimore</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Publisher: Laura Templeton The scientists the BES-LTER Program and the Cary Institute of Ecosystem Studies must receive adequate acknowledgement for the use of data.  Please inform the BES Project Facilitator and use a statement such as the following to give credit on any document using the data: 'Data was supported by the Baltimore Ecosystem Study'</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://beslter.org</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Bounding coordinates describing the area covered by the entire BES study</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-77.314183</westBoundingCoordinate>
+          <eastBoundingCoordinate>-76.012008</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.724847</northBoundingCoordinate>
+          <southBoundingCoordinate>38.708367</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1998-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Baltimore Ecosystem Study Information Manager</positionName>
+      <address>
+        <deliveryPoint>Cary Institute Of Ecosystem Studies</deliveryPoint>
+        <deliveryPoint>2801 Sharon Turnpike</deliveryPoint>
+        <city>Millbrook</city>
+        <administrativeArea>New York</administrativeArea>
+        <postalCode>12545</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>walshj@caryinstitute.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Tree Layer measurement</title>
+            <para>Tree Layer: All tree species individuals with a diameter at breast height (DBH) of Greater than or equal to 8cm were identified as trees. DBH was measured using diameter tape. Canopy level (canopy, subcanopy, or understory) for each tree was visually determined based on crown height. In 1998, every tree within the plot was issued a tag number. In subsequent surveys, the tag number was recorded or a new tag was added in the event an individual was untagged. The height of the tallest tree in each 10x10m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Sapling Layer measurement</title>
+            <para>Sapling Layer: All individuals classified as tree species that measured greater than 8cm DBH were identified as saplings. DBH was measured to the nearest hundredth decimal place using General Ultratech digital calipers. In 1998, saplings within each 5x5 subplot were issued a tag number. In subsequent surveys, the tag number was recorded or a new tag was added in the event an individual was untagged. The height of the tallest sapling in each 5�5m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Vine and shrub layer measurement</title>
+            <para>Vine and Shrub Layer: Species determined to be shrubs or vines were measured along two 5m transects. The adjacent lower and left perimeters of each 5x5m subplot were used as the two transect lines. Measurement of vines and shrubs began at the transect line that ran parallel to the numeric axis on the plot layout going in the direction towards the alphabetic axis. Sampling then progressed to the second transect line that ran parallel to the alphabetic axis on the plot layout (see link to plot layout illustration). Measurements were recorded in 1m segments starting with 0-1m as the first segment and ending with the tenth at 9-10m. For each segment, shrub and vine species that touched the transect line were measured in centimeters using a metric ruler. To be recorded, plants had to have a diameter greater than or equal to 5cm. If a shrub or vines species had less than a 10cm gap while touching the line, the recording for that species was considered one continuous measurement. The height of the tallest shrub along each pair of transects for each 5�5m subplot was measured using an Opti-Logic Corporation Insight 100LH Rangefinder.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Herb and seedling layer measurement</title>
+            <para>Herb and Seedling Layer: All seedlings and herbaceous species were identified, tallied, and percent cover visually estimated within each 2x0.5m quadrat.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Canopy cover measurement</title>
+            <para>Canopy Cover: Canopy gap percentage was visually estimated in increments of 5 percent within each 10x10m subplot. At each subplot, all field technicians estimated canopy gap independently and a final estimate of missing canopy was determined as a consensus value. A template from the Forest Service�s field manual used in the forest inventory analysis (FIA) program was used to orient the 2015 field crew to different organizations and aggregations of canopy cover (U.S. Forest Service, 2005).</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>BES_3300-1</entityName>
+      <entityDescription>Data table for data set BES_3300</entityDescription>
+      <physical>
+        <objectName>vegetation_BESLTER_1998_2003_2015_Veg_Data_1_Summary_Table.csv</objectName>
+        <size unit="kilobyte">38</size>
+        <characterEncoding>na</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <onlineDescription>Vegetation description</onlineDescription>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bes/3300/100/18ad004e3eefa4249933e9790b8bbf7e</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>uid=BES,o=LTER,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="BES-da-0355.table-1">
+          <attributeName>Vegdata-Year</attributeName>
+          <attributeDefinition>Time in years</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0356.table-1">
+          <attributeName>Vegdata-Region</attributeName>
+          <attributeDefinition>Urban or rural</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0357.table-1">
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Name of site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0358.table-1">
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Name of plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sampling site code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0359.table-1">
+          <attributeName>Plot Area</attributeName>
+          <attributeDefinition>Plot area M2</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0360.table-1">
+          <attributeName>Number of Trees</attributeName>
+          <attributeDefinition>Number of trees</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0361.table-1">
+          <attributeName>TreesPer1000M2</attributeName>
+          <attributeDefinition>Trees per 1000 square meters</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0362.table-1">
+          <attributeName>TreesperHa</attributeName>
+          <attributeDefinition>TreesPerHectare</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">1000.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0363.table-1">
+          <attributeName>TreesBAPerHa</attributeName>
+          <attributeDefinition>TreesBAPerHa</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">500000.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0364.table-1">
+          <attributeName>AvgVineInCanopyPerPlot</attributeName>
+          <attributeDefinition>AvgVineInCanopyPerPlot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">10.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0365.table-1">
+          <attributeName>NumberofSaplings</attributeName>
+          <attributeDefinition>NumberofSaplings</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0366.table-1">
+          <attributeName>SaplingsPer1000SquareMeters</attributeName>
+          <attributeDefinition>SaplingsPer1000SquareMeters</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">200.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0367.table-1">
+          <attributeName>SaplingsPerHectaare</attributeName>
+          <attributeDefinition>SaplingsPerHectaare</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">2000.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0368.table-1">
+          <attributeName>SaplingsBAPerHectare</attributeName>
+          <attributeDefinition>SaplingsBAPerHectare</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">12000.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0369.table-1">
+          <attributeName>AvgSeedlingCoverPerQuadrat</attributeName>
+          <attributeDefinition>AvgSeedlingCoverPerQuadrat</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0370.table-1">
+          <attributeName>AvgHerbCoverPerQuadrat</attributeName>
+          <attributeDefinition>AvgHerbCoverPerQuadrat</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0371.table-1">
+          <attributeName>AvgVineCoverPerQuadrat</attributeName>
+          <attributeDefinition>AvgVineCoverPerQuadrat</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0372.table-1">
+          <attributeName>AvgShrubCoverPerQuadrat</attributeName>
+          <attributeDefinition>AvgShrubCoverPerQuadrat</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0373.table-1">
+          <attributeName>AvgCanopyGapPerSubplot</attributeName>
+          <attributeDefinition>AvgCanopyGapPerSubplot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">100.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0374.table-1">
+          <attributeName>AvgMaxTreeHeight</attributeName>
+          <attributeDefinition>AvgMaxTreeHeight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">40.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0375.table-1">
+          <attributeName>AvgMaxSaplingHeight</attributeName>
+          <attributeDefinition>AvgMaxSaplingHeight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">40.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0376.table-1">
+          <attributeName>AvgMaxShrubHeight</attributeName>
+          <attributeDefinition>AvgMaxShrubHeight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.00</minimum>
+                  <maximum exclusive="false">40.00</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0377.table-1">
+          <attributeName>TotalSpeciesRichness</attributeName>
+          <attributeDefinition>TotalSpeciesRichness</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="BES-da-0378.table-1">
+          <attributeName>TotalSpeciesRichnessPer1000SquareMeter</attributeName>
+          <attributeDefinition>TotalSpeciesRichnessPer1000SquareMeter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <precision>.001</precision>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>N/A</code>
+            <codeExplanation>N/A indicates a value was not obtained.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList/>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

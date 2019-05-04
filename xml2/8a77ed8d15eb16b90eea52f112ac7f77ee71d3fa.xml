@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.99.2"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/c69e179ac3766786d97576d61c3aeecf</alternateIdentifier>
+    <shortName>CSM08</shortName>
+    <title>CSM08 Small mammal host-parasite sampling data for 16 linear trapping transects located in 8 LTER burn treatment watersheds at Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Hope</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>110 Bushnell Hall, Division of Biology</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">785-477-1876</phone>
+      <electronicMailAddress>ahope@ksu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2018-06-18</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Data set contains summaries (summer) of the number of individuals of each species of small mammal captured (relative abundance) on each transect. Each record contains date, treatment, transect, trap station, species, specimen number, recapture status, specimen disposition, external body measurements (where applicable), reproductive information, and miscellaneous associated comments. These sampling records are based on nightly captures during one 4-night trapping period in summer (June through August) for each of 16 permanent transects established on eight fire treatments (two transects per treatment). These treatments include two seasonal burn watersheds (SpB, SuB), two reversal burn watersheds (R1A, R20A), one annual burn watershed (1D), two 4-year burn watersheds (4B, 4F, and one 20-year burn watershed (20B). None of these treatments implement bison grazing.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>Disturbance</keyword>
+      <keyword>Populations</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Consumers</keyword>
+      <keywordThesaurus>Section</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>community turnover</keyword>
+      <keyword>Consumers</keyword>
+      <keyword>Fire</keyword>
+      <keyword>genetic resources</keyword>
+      <keyword>helminth</keyword>
+      <keyword>Kansas</keyword>
+      <keyword>Konza Prairie</keyword>
+      <keyword>Konza Prairie Biological Station</keyword>
+      <keyword>parasite</keyword>
+      <keyword>species composition</keyword>
+      <keyword>tick</keyword>
+      <keyword>relative abundance</keyword>
+      <keyword>reversal</keyword>
+      <keyword>prairie</keyword>
+      <keyword>shrews</keyword>
+      <keyword>shrubs</keyword>
+      <keyword>small mammals</keyword>
+      <keyword>seasonal</keyword>
+      <keyword>rodents</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.konza.ksu.edu/content/csm08-small-mammal-host-parasite-sampling-data-16-linear-trapping-transects-located-8-lter</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>1D: Ungrazed and scheduled prescribed burned annually in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5658</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5594</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0841</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0732</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>20B: Ungrazed and scheduled prescribed burned every 20 years in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5808</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5741</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0758</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0693</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>4B: Ungrazed and scheduled prescribed burned every 4 years in the spring</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.6035</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5924</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0802</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0712</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>4F: Ungrazed and scheduled prescribed burned every 4 years in the spring</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5733</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5691</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0766</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0711</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>R1A: Ungrazed and scheduled unburned through 2000, scheduled prescribed burned annually in the spring beginning 2001.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.6147</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.6066</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.077</northBoundingCoordinate>
+          <southBoundingCoordinate>39.067</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>R20A: Ungrazed and scheduled prescribed burned annually through 2000, scheduled prescribed burned every 20 years in the spring thereafter.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.6145</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.6055</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0731</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0664</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SpB: Ungrazed and scheduled prescribed burned annually in the spring.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5913</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5838</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0756</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0669</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>SuB: Ungrazed and scheduled prescribed burned every 2 years in the summer</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5694</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.565</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0768</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0712</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2016-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>
+        <literalLayout>Determine temporal and spatial variability in occurrence of rodent and shrew taxa and general assemblages of small mammals through tallgrass prairie and shrubland habitats on the Konza LTER as well as to determine the effects of long-term climate fluctuations, occurrence of fire, and frequency of fire, on distribution, abundance, richness, and diversity of communities of small mammals. Additionally, determine changes in genetic diversity of both small mammal populations and their associated ecto- and endo-parasites (including macro- and micro-parasites/pathogens) that will expand knowledge of community assembly, turnover, and interdependency of associated species in response to major environmental drivers.</literalLayout>
+      </para>
+    </purpose>
+    <contact>
+      <individualName>
+        <givenName>Konza</givenName>
+        <surName>LTER</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Division of Biology</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">785-532-6729</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </publisher>
+    <pubPlace>Konza Prairie LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Location of sampling stations: Ungrazed, annual burn: 001D; Ungrazed, 4 yr. burn: 004B, 004F; Ungrazed, unburned: 020B; Ungrazed annual 'seasonal' burn: SpB, SuB; Ungrazed reversal burn: R1A, R20A Frequency of sampling: All sites are sampled in summer (June through August) at least two months following spring burning. Two linear transects occur within each of eight treatment watersheds, one for catch-and-release sampling, and one for specimen removal and archive. Transects for catch-and-release or removal were initially chosen randomly, but kept constant across years. Sampling consists of one period of four concurrent nights of trapping per linear transect per year. Four transects are sampled at once (40 traps per transect, totaling 160 total traps) for four consecutive sampling periods (total 16 transects sampled per year). Sampling periods alternate between four catch-and-release transects and four removal transects. Groups of four transects were chosen randomly, but thereafter groups are sampled consistently across years, and in the same order each year. Variables measured: Numbers of individuals for each species of small mammal captured are recorded on each trapline. Sex, reproductive condition and capture location of each individual are recorded at each capture. Age, based on pelage characteristics, is recorded at each capture. Body mass and measurements of individuals are recorded at first capture in each trapping period. Each capture on catch-and-release transects is provided a unique ear tag number. Each capture on removal transects is euthanized according to accepted and permitted protocols (IACUC permit #3579; Sikes et al., 2016: Guidelines of the American Society of Mammalogists for the use of wild mammals in research and education). Resulting specimens are processed through standardized procedures (Hope et al. In Prep) to retrieve all ecto-parasites, endo-parasites, tissues preserved for genetic analyses, study skins, skeletal material, internal reproductive condition, and tissues preserved for isotopic analyses. All specimens are preserved in perpetuity, with all associated parts, in the Museum of Southwestern Biology, or the Denver Museum of Nature &amp;amp; Science. Methods: Traplines: Small mammals are trapped on two permanent linear transects in each of eight treatment units. Each transect consists of 20 stations with an inter-station distance of 15 m and terminal stations (1 and 20) at least 50 m from the boundary of the treatment unit. When possible, each transect was placed so that station 1 was in upland (shallow soil) and station 20 in lowland prairie (deeper soil), and so the two transects within a treatment unit would include about 16 stations in upland, 8 stations across limestone outcrops and 16 stations in lowland. Because of the topographic goals, the two transects within a treatment unit are not replicates of each other and the topographic goals were not always achieved. Stations 1, 5, 10, 15 and 20 on each transect are marked with tall stakes of galvanized conduit ad other stations are marked with short stakes. All stations are marked with fluorescent orange plastic surveyor flags at least once per year. Trapping Procedures: Small mammals are trapped for 4 consecutive nights per transect during each trapping period. Two large Sherman live traps (7.6 by 8.9 by 22.9 cm) are placed within 1 m of the surveyor flag or conduit at each station. Traps are baited with a small amount (~2tbsp) cracked (non-viable) oats. All traps are set in the evening within two hours of dusk, and checked early each morning, but after the end of the nocturnal activity period. Four traplines are run simultaneously. Form of data output: See Metadata summary for CSM08 and example datasheet. For additional metadata information see: http://lter.konza.ksu.edu/sites/default/files/DC.pdf For additional methods information see: http://lter.konza.ksu.edu/sites/default/files/MM.pdf</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>CSM081</entityName>
+      <entityDescription>Data set contains summaries (summer) of the number of individuals of each species of small mammal captured (relative abundance) on each transect.</entityDescription>
+      <physical>
+        <objectName>CSM081.csv</objectName>
+        <size>35837</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/99/2/df232a3f01b4d677df118f1de262e5e2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rectype</attributeName>
+          <attributeLabel>Rectype</attributeLabel>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeLabel>RecYear</attributeLabel>
+          <attributeDefinition>Year of sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Year of sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of sample</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM/DD/YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeLabel>Watershed</attributeLabel>
+          <attributeDefinition>Watershed name. Watershed (1D=annual burn replicate D; 4B=4-year burn replicate B; 4F=4-year burn replicate F; 20B=20-year burn replicate B; SpB=annual spring seasonal burn replicate B; SuB=annual or biennial summer seasonal burn replicate B; R1A=reversal burn schedule from 20-year to annual burn replicate A; R20A=reversal burn from annual to 20-year burn replicate A. Reversal treatments were initiated in 2000).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Watershed name. Watershed (1D=annual burn replicate D; 4B=4-year burn replicate B; 4F=4-year burn replicate F; 20B=20-year burn replicate B; SpB=annual spring seasonal burn replicate B; SuB=annual or biennial summer seasonal burn replicate B; R1A=reversal burn schedule from 20-year to annual burn replicate A; R20A=reversal burn from annual to 20-year burn replicate A. Reversal treatments were initiated in 2000).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect line. N, S, E, W; total transect length is 285m.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>east</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>west</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TrapStation</attributeName>
+          <attributeLabel>TrapStation</attributeLabel>
+          <attributeDefinition>Trap Station. numbered 1-20 per linear transect; each trap station is spaced 15m apart; two traps are set concurrently at each trap station; station 1 is always northernmost, station 20 is always southernmost for each transect.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species code. PMMA=Peromyscus maniculatus; PMLE=Peromyscus leucopus; REME=Reithrodontomys megalotis; REMO=Reithrodontomys montanus; NEFL=Neotoma floridana; MIOC=Microtus ochrogaster; MIPI=Microtus pinetorum; SIHI=Sigmodon hispidus; CHHI=Chaetodipus hispidus; BLHA=Blarina hylophaga; CRPA=Cryptotis parva; SYFL=Sylvalagus floridanus; DIVI=Didelphis virginiana; ZAHU=Zapus hudsonius; ICTR=Ictidomys tridecemlineatus</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species code. PMMA=Peromyscus maniculatus; PMLE=Peromyscus leucopus; REME=Reithrodontomys megalotis; REMO=Reithrodontomys montanus; NEFL=Neotoma floridana; MIOC=Microtus ochrogaster; MIPI=Microtus pinetorum; SIHI=Sigmodon hispidus; CHHI=Chaetodipus hispidus; BLHA=Blarina hylophaga; CRPA=Cryptotis parva; SYFL=Sylvalagus floridanus; DIVI=Didelphis virginiana; ZAHU=Zapus hudsonius; ICTR=Ictidomys tridecemlineatus</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SpecimenNo1</attributeName>
+          <attributeLabel>SpecimenNo1</attributeLabel>
+          <attributeDefinition>Specimen Number 1. 3-digit and 4-digit numbers correspond to ear tag numbers; NA=Not Applicable; generally assigned to escaped individuals.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specimen Number 1. 3-digit and 4-digit numbers correspond to ear tag numbers; NA=Not Applicable; generally assigned to escaped individuals.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SpecimenNo2</attributeName>
+          <attributeLabel>SpecimenNo2</attributeLabel>
+          <attributeDefinition>Specimen Number 2. 3-digit and 4-digit numbers correspond to ear tag numbers; used in the event of multiple ear tags, where the higher number is Specimen Number 2.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Specimen Number 2. 3-digit and 4-digit numbers correspond to ear tag numbers; used in the event of multiple ear tags, where the higher number is Specimen Number 2.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VoucherNo</attributeName>
+          <attributeLabel>VoucherNo</attributeLabel>
+          <attributeDefinition>Voucher Number. 6-digit number prefixed with NK (eg. NK123456) corresponds to specimen accession number for Museum of Southwestern Biology (University of New Mexico) where voucher specimen materials are being deposited.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Voucher Number. 6-digit number prefixed with NK (eg. NK123456) corresponds to specimen accession number for Museum of Southwestern Biology (University of New Mexico) where voucher specimen materials are being deposited.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecaptureStatus</attributeName>
+          <attributeLabel>RecaptureStatus</attributeLabel>
+          <attributeDefinition>Recapture Status.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Yes (recapture of same year)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>No (new individual)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Annual (recapture from a previous year)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Disposition</attributeName>
+          <attributeLabel>Disposition</attributeLabel>
+          <attributeDefinition>Disposition. each treatment watershed has one catch-and-release transect (1D-E, 20B-E, 4B-W, 4F-W, R1A-S, R20A-W, SpB-S, SuB-E) and one specimen removal transect (1D-W, 20B-W, 4B-E, 4F-E, R1A-N, R20A-E, SpB-N, SuB-W); generally all specimens from catch-and-release transects are released unless they are found dead in trap or are otherwise collected for specimen voucher purposes; all specimens from removal transects become vouchers.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Disposition. each treatment watershed has one catch-and-release transect (1D-E, 20B-E, 4B-W, 4F-W, R1A-S, R20A-W, SpB-S, SuB-E) and one specimen removal transect (1D-W, 20B-W, 4B-E, 4F-E, R1A-N, R20A-E, SpB-N, SuB-W); generally all specimens from catch-and-release transects are released unless they are found dead in trap or are otherwise collected for specimen voucher purposes; all specimens from removal transects become vouchers.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TotalLength</attributeName>
+          <attributeLabel>TotalLength</attributeLabel>
+          <attributeDefinition>Total Length. measurement (mm) from tip of nose to tip of tail when specimen is laid flat on the back, not including tail tuft; brackets indicate inaccurate or incomplete measurement.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TailLength</attributeName>
+          <attributeLabel>TailLength</attributeLabel>
+          <attributeDefinition>Tail Length.measurement (mm) from base to tip of tail when tail is perpendicular to body laid on stomach, not including tail tuft; brackets indicate inaccurate or incomplete measurement.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>HFLength</attributeName>
+          <attributeLabel>HFLength</attributeLabel>
+          <attributeDefinition>Hind Foot Length. measurement (mm) from heel to tip of longest toe nail on left hind foot.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>EarLength</attributeName>
+          <attributeLabel>EarLength</attributeLabel>
+          <attributeDefinition>Ear Length. measurement (mm) from ear notch to furthest edge of pinna.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Weight</attributeName>
+          <attributeLabel>Weight</attributeLabel>
+          <attributeDefinition>Weight. measurement (g) of whole body mass.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeLabel>Sex</attributeLabel>
+          <attributeDefinition>Sex. M=Male; F=Female. comments col (M?=putative male, F?=putative female).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex. M=Male; F=Female. comments col (M?=putative male, F?=putative female).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Age</attributeName>
+          <attributeLabel>Age</attributeLabel>
+          <attributeDefinition>Age</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>JUV</code>
+                    <definition>Juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SA</code>
+                    <definition>Youth adult</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ReprodCondition</attributeName>
+          <attributeLabel>ReprodCondition</attributeLabel>
+          <attributeDefinition>Reproductive Condition. S=Scrotal male; NS=Non-scrotal male; C=vagina closed; O=vagina perforated; S=nipples small; E=nipples enlarged; N=non-lactating; L=lactating</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Reproductive Condition. S=Scrotal male; NS=Non-scrotal male; C=vagina closed; O=vagina perforated; S=nipples small; E=nipples enlarged; N=non-lactating; L=lactating</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeLabel>Comments</attributeLabel>
+          <attributeDefinition>Relevant descriptive comments; OTB=old tail bob; NTB=new tail bob; other.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Relevant descriptive comments; OTB=old tail bob; NTB=new tail bob; other.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>CSM082</entityName>
+      <entityDescription>Georeferenced data</entityDescription>
+      <physical>
+        <objectName>CSM082.csv</objectName>
+        <size>16896</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/99/2/f2d065bdb1816ffae32f413e0b8afcfc</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Dataset Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeLabel>RecType</attributeLabel>
+          <attributeDefinition>Record Type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record Type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeLabel>ID</attributeLabel>
+          <attributeDefinition>ID</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeLabel>Watershed</attributeLabel>
+          <attributeDefinition>Watershed name. Watershed name (1D=annual burn replicate D; 4B=4-year burn replicate B; 4F=4-year burn replicate F; 20B=20-year burn replicate B; SpB=annual spring seasonal burn replicate B; SuB=annual or biennial summer seasonal burn replicate B; R1A=reversal burn schedule from 20-year to annual burn replicate A; R20A=reversal burn from annual to 20-year burn replicate A. Reversal treatments were initiated in 2000).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Watershed name. Watershed name (1D=annual burn replicate D; 4B=4-year burn replicate B; 4F=4-year burn replicate F; 20B=20-year burn replicate B; SpB=annual spring seasonal burn replicate B; SuB=annual or biennial summer seasonal burn replicate B; R1A=reversal burn schedule from 20-year to annual burn replicate A; R20A=reversal burn from annual to 20-year burn replicate A. Reversal treatments were initiated in 2000).</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect. N, S, E, W; total transect length is 285m.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect. N, S, E, W; total transect length is 285m.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TrapStation</attributeName>
+          <attributeLabel>TrapStation</attributeLabel>
+          <attributeDefinition>Trap Station. numbered 1-20 per linear transect; each trap station is spaced 15m apart; two traps are set concurrently at each trap station; station 1 is always northernmost, station 20 is always southernmost for each transect.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Trap Station. numbered 1-20 per linear transect; each trap station is spaced 15m apart; two traps are set concurrently at each trap station; station 1 is always northernmost, station 20 is always southernmost for each transect.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeLabel>Latitude</attributeLabel>
+          <attributeDefinition>Latitude. Latitude downloaded from GPS</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Latitude. Latitude downloaded from GPS</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeLabel>Longitude</attributeLabel>
+          <attributeDefinition>Longitude. Longitude downloaded from GPS</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Longitude. Longitude downloaded from GPS</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Elevation</attributeName>
+          <attributeLabel>Elevation</attributeLabel>
+          <attributeDefinition>Elevation. Elevation downloaded from GPS</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Elevation. Elevation downloaded from GPS</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

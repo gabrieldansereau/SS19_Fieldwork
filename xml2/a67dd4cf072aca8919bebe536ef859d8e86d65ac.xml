@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-nwt.8.1"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=nwt,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/ed3fe1314a362f519b3339b9de357c68</alternateIdentifier>
+    <title>Pika demography data for west knoll and Indian Peaks wilderness, 2008 - ongoing</title>
+    <creator>
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Ray</surName>
+      </individualName>
+      <electronicMailAddress>cray@colorado.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Chris</givenName>
+        <surName>Ray</surName>
+      </individualName>
+      <electronicMailAddress>cray@colorado.edu</electronicMailAddress>
+      <role>principalInvestigator</role>
+    </associatedParty>
+    <pubDate>2019-03-12</pubDate>
+    <language>English</language>
+    <abstract>Pikas are captured, anesthetized, marked with colored ear-tags, non-lethally sampled, and released at point of capture during June-October. Study sites include a gradient of elevation and slope aspect, allowing a comparative study of pika response to variation in climate and sub-surface microclimate. Daily variation in snow cover and sub-surface temperatures are measured using data loggers placed within the territories of marked pikas. Focal territories are revisited at least once to characterize available vegetation via transect sampling and at least annually to service data loggers and record pika survival. Samples collected for genetic and physiological studies include ectoparasites, blood, saliva, urine, feces and hair as well as records of sex, stage, reproductive status, weight, foot length and body temperature.</abstract>
+    <keywordSet>
+      <keyword>American pika</keyword>
+      <keyword>Ochotona princeps</keyword>
+      <keyword>lagomorph</keyword>
+      <keyword>small mammal</keyword>
+      <keyword>population</keyword>
+      <keyword>animal ecology</keyword>
+      <keyword>mark-resight</keyword>
+      <keyword>weight</keyword>
+      <keyword>sex</keyword>
+      <keyword>reproductive status</keyword>
+      <keyword>ear-mites</keyword>
+      <keyword>fleas</keyword>
+      <keyword>tissue</keyword>
+      <keyword>hair</keyword>
+      <keyword>urine</keyword>
+      <keyword>feces</keyword>
+      <keyword>blood</keyword>
+      <keyword>retro-orbital</keyword>
+      <keyword>ear-punch</keyword>
+      <keyword>smear</keyword>
+      <keyword>Nobuto strip</keyword>
+      <keyword>saliva</keyword>
+      <keyword>rectal temperature</keyword>
+      <keyword>neck circumference</keyword>
+      <keyword>foot length</keyword>
+      <keyword>west knoll</keyword>
+      <keyword>Long Lake</keyword>
+      <keyword>Mitchell Lake</keyword>
+      <keyword>Cable Gate</keyword>
+      <keyword>Indian Peaks wilderness</keyword>
+      <keyword>Niwot Ridge LTER</keyword>
+      <keyword>NWT</keyword>
+      <keyword>NWT signature dataset</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>demography</keyword>
+      <keyword>habitat</keyword>
+      <keyword>alpine</keyword>
+      <keyword>long term</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data (“Data User” herein) is required to cite it
+  appropriately in any publication that results from its use. The Data
+  User should realize that these data may be actively used by others for
+  ongoing research and that coordination may be necessary to prevent
+  duplicate publication. The Data User is urged to contact the authors
+  of these data if any questions about methodology or results occur.
+  Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Cable Gate, a south-facing site just upslope of the final parking lot on the Niwot Ridge road</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.570106253492</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.568972409464</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0457851824087</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0453921938347</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Long Lake, a north-facing site just below the lower north-facing part of the west knoll site</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.592180600887</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.584397415133</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0702236149561</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0671028036715</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Mitchell Lake, a south-facing site just above Mitchell Lake on the south slope of Mt. Audubon at an elevation similar to the Long Lake site</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.604274572859</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.591878305934</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0904301946525</northBoundingCoordinate>
+          <southBoundingCoordinate>40.0847982697683</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>West knoll of the saddle on Niwot Ridge, the highest site included in this study, with multiple slope aspects</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.528652859337</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.591076255099</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.0600809394301</northBoundingCoordinate>
+          <southBoundingCoordinate>4.01846138058618</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-07-14</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2018-08-03</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>species</taxonRankName>
+          <taxonRankValue>Ochotona princeps</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Ochotona</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>The documentation for this data set was developed from information provided by Chris Ray and compiled by Caitlin White and Hope Humphries.[HCH 28 November 2015] Data for 2015 to 2017 were appended. The notes column was removed and LTER site column added. Where the missing value indicator for a column had been "No tags", it was changed to "none". Cable Gate was added as a location to the location section, keywords, methods, and site_loc column. 3 foot length values for 2013 that were incorrect were changed to “NS”.[HCH 3 October 2017] Data for 2018 were appended; local_site values of WK-S and WK-N were changed to simply WK as the S/N was redundant with the slope_asp contents.[SCE 12 March 2019]Niwot metadata converted via script to EML[SCE 2019-03-12]</description>
+    </maintenance>
+    <contact>
+      <organizationName>Niwot Ridge LTER</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>4001 Discovery Drive, UCB 450</deliveryPoint>
+        <deliveryPoint>University of Colorado</deliveryPoint>
+        <city>Boulder</city>
+        <administrativeArea>CO</administrativeArea>
+        <postalCode>80303</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>lternwt@colorado.edu</electronicMailAddress>
+      <onlineUrl>http://niwot.colorado.edu/</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Procedures for trapping, marking, and sampling pikas are listed in the order in which they are performed.  Sampling procedures requiring lighter anesthesia are performed last.  Safety and sanitary procedures are followed during all phases of sampling, as outlined in training documents SOP_PikaProject_Safety_2014.docx (available from Chris Ray) and SOP_PikaProject_Sanitation_2014.docx (available from Chris Ray).</para>
+          <para>1.	Trapping.  One or two traps (Model 201 collapsible wire mesh "chipmunk" trap by Tomahawk) are positioned near each targeted pikaís food cache.  Trap locations are recorded by GPS and a list of each trapís location and schedule is retained by each of two crew members.  Traps are left open only during daylight hours, and are locked shut or removed when we leave the study site.  Each open trap is provisioned with enough moistened vegetation to sustain a pika for at least 6 hours.  Open traps are checked every 2 hours and trapped pikas are handled and released as soon as possible.  Each pika is released at point of capture, usually within 3 hours and never more than 6 hours after entering a trap.  Pikas are released without handling if this timeline cannot be met.  Pikas generally eat and remain calm while in traps, and each is allowed to self-transfer from the trap to the anesthetizing chamber.</para>
+          <para>2.	Anesthesia.  Pikas are anesthetized via inhalant anesthetic (Isoflurane diluted in propylene glycol) using a custom drop chamber to obtain an effective dose of 0.5 mL/liter of chamber volume, increased to effect (exposure periods of up to 5 minutes at intervals of 5 to 10 minutes during a handling time of 5-35 minutes).  A 2L, cylindrical and transparent main chamber is fitted on one end with a 50 mL, perforated sub-chamber designed to deliver inhalant anesthetic while eliminating direct contact between the pika and the anesthetic in its liquid form.  Two holes (each 5mm in diameter) in the main chamber are positioned to allow passive air exchange and CO2 drainage.  A cotton ball in the sub-chamber is wetted with isoflurane diluted in propylene glycol to reduce vapor pressure (Itah et al. 2004).  The high vapor pressure of pure isoflurane is associated with increased respiratory suppression and aversive behaviors that are controlled in pikas by lowering the vapor pressure during initial exposure to the drug.  As suggested by Itah et al. (2004), we begin the anesthesia of each pika with a 20% v/v solution of isoflurane in propylene glycol, increasing the ratio of isoflurane only when needed to achieve effect.  Effects are determined by observing the pika's breathing patterns and motor response to gentle rotation of the main chamber.  Use of a transparent chamber also facilitates foot length measurement and the collection of ectoparasites that drop off in response to anesthesia.  Effective anesthesia is achieved within 30 seconds after the pika fails to respond to chamber rotation.  At this point, the pika is removed from the chamber for sampling.  If aversive behaviors are observed during sampling, we repeat exposure to the anesthetic before proceeding.  Doxapram (300 ug/pika) is administered intra-muscularly (in the thigh) as a respiratory stimulant if a pika ceases breathing and does not respond to tactile stimulation.  Doxapram dosage for rabbits is commonly listed as 2-5 mg/kg delivered subcutaneously (e.g., Glennon and Jeffs 2001, Girling 2013), and there are multiple references for doxapram administered both sub-cutaneously (Carpenter 2004, Huerkamp 1995) and intra-muscularly (Plumb 2011, Clark et al. 2014). Intra-muscular injection is recommended due to improved blood access to the muscle relative to subcutaneous tissues  (Redig 1993).  Euthanasia (rare) is accomplished via Isoflurane overdose, followed by removal of vital organs to ensure death.  Euthanized animals are transferred to the USGS National Wildlife Health Center (6006 Schroeder Road, Madison, Wisconsin 53711-6223; phone 608-270-2400) for necropsy.  Necropsy reports are forwarded to the CU Campus Veterinarian.  During processing of live pikas, adverse responses are identified by constant monitoring of respiratory rate/regularity, muscle tension, mucous membrane color, and response to gentle tactile stimuli.  Constant monitoring is possible because several personnel attend the sampling of each pika.  Rectal temperature, taken once near the beginning of sampling procedures, is used to guide monitoring.  The most likely adverse outcomes involving pikas are shock and heat stroke.  Shock is a common response to stress in lagomorphs, and stress can sometimes quickly elevate the pikaís relatively high resting body temperature to a lethal level.  Symptoms of shock in lagomorphs include pale gums, cool extremities, increased breathing, increased heart rate and a weak pulse.  Symptoms of heat stroke in lagomorphs include rapid breathing, shallow breathing, drooling, pale gums, prostration and weakness.  Pikas can also exhibit additional symptoms such as labored breathing and rigid muscles (e.g., an arched back).  Adverse responses are treated as follows:  a) Hyperthermia - Apply water or alcohol to the dorsal fur, supply shade and air movement, and treat for shock.  b) Hypothermia - Warm the animal using a chemical heat pack (hand warmer) insulated if necessary to modulate heat transfer.  c) Shock - Initiate gentle tactile stimulation of respiration and blood flow by stroking the spine with your fingertips.  25-501-2 ml of lactated ringer solution injected sub-cutaneously can support cardiac output and cooling.  d)  Cardiac and respiratory arrest - Initiate a modified version of CPR to aid respiration and blood flow.  Isolate the animal from any anesthetic and blow human breath lightly toward its face and fan the face gently while stroking the spine with your fingertips, followed (if necessary) by pumping (contracting and extending) the animal's forelegs toward and away from its heart.  If these steps do not immediately restore relaxed muscles and regular breathing, inject Doxapram as described above.  e) Skin injuries - Wounds are flushed with dilute betadine and skin glue can be used in extreme cases (not yet encountere).  f)  Consult the campus veterinarian if any pikas appear unusually affected by procedures.</para>
+          <para>3.	Sexing and demographic assessment.  We determine sex by manual inversion of the cloaca to reveal the genitalia.  Stage is determined from physical metrics and molting patterns, which differ markedly between juveniles (&lt;1 year old) and adults. Reproductive status is determined by palpating testes and examining nipples for evidence of lactation.</para>
+          <para>4.	Recording body temperature. A rectal thermometer designed for children is inserted into the anus immediately after sexing to record body temperature.  We have found rectal temperatures to be more reliable than ear temperatures measured with an infrared thermometer.</para>
+          <para>5.	Ear tagging and tissue sampling. A small disk of tissue (about 1 mm in diameter) is removed from the ear using a commercial punch designed for this purpose, and a commercial rabbit-ear tag (colored and numbered uniquely for each individual) is inserted through this hole to allow re-sight studies of individual survival and behavior. Ear tissue is used for genetic studies.</para>
+          <para>6.	Ectoparasite collection. Pikas often host a group of ear mites that attach to the outer ear and appear as a continuous orange scab or crust. Tweezers are used to remove a small portion of this crust (about 1 mm in diameter). Fleas (common) and other free-ranging ectoparasites (rare) are collected as they rise from the pikaís fur or drop into the anesthetizing chamber or handling tray. Ticks (rare) are pulled using tweezers. Each taxonomic group is stored separately in alcohol.</para>
+          <para>7.	Retro-orbital bleeding. We draw ~200 µl of blood from each pika using heparinized capillary tubes.  This is a one-time draw representing 0.5-5% of the circulating blood volume of pikas weighing 50-200 g.  Samples are obtained from pikas under anesthesiathe right eye by retro-orbital abrasion performed by the PI. Consistent sampling of only the right eye facilitates post-release studies of eye condition. Pikas are prone to die of shock induced by pressure on the body. To reduce this risk, we restrain only 3 points on the skull by laying the pika on its left side on a handling tray and applying slight pressure with the left index finger on the brow bone above the pikaís right eye, left thumb on the cheek bone below the pikaís right eye, and first knuckle of the left middle finger behind the pikaís head below a protuberance at the base of the skull. When held in this way, a pika generally remains relaxed throughout retro-orbital bleeding even under light anesthesia. Samples of sufficient volume (&gt;150 µl) are split into 2 vials, with a smaller volume stored as whole blood and a larger volume immediately centrifuged to separate plasma from red blood cells. Plasma is used for a variety of analyses including quantification of glucocorticoid hormones and heat-shock proteins. Whole blood is used for disease studies including analyses of extra- and intracellular essential elements. An additional drop of whole blood is used to prepare a smear for microscopy to determine blood cell counts and cell morphology. Excess blood is used to wet a Nobuto strip for dry storage and pathogen analyses.</para>
+          <para>8.	PIT-tagging. The pika is scruffed to raise loose skin at the back of the neck where a commercial Passive Integrated Transponder (PIT) tag is inserted via sterile syringe after the insertion area is wetted thoroughly with a cotton ball soaked in 70% ethyl alcohol.</para>
+          <para>9.	Collection of urine and feces. Fecal pellets, caecal feces and urine are collected opportunistically (not induced) during handling and from the trap, for analyses of stress metrics, parasites and diet.</para>
+          <para>10.	 Collection of saliva, hair and mass data. The pika is held loosely in a mesh bag (of known weight) and weighed to the nearest gram using a spring scale with hook. The bag is then set on a firm surface and a cotton-tipped swab is inserted through the mesh into the pikaís mouth and manipulated to obtain an adequate sample of saliva. Unlike rodents, pikas do not drool in response to anesthesia, but they are generally calm while providing a sample by chewing on the swab. Saliva is used for analyses of stress metrics.  Finally, we insert tweezers through the mesh to sample a small clump of hair (~100 hairs) from the rump for genetic and isotope (diet) studies.</para>
+          <para>11.	Release at point of capture.  Until fully recovered from anesthesia, the pika is held in the mesh handling bag under a blind providing shade and/or insulation to reduce stress and counter any adverse ambient conditions.  When recovered, the pika is carried in the mesh handling bag and a blind sack to point of capture for release.  Point of capture is recorded via GPS and recorded along with all other sampling data in the PIís annual field notebook.</para>
+          <para>12.	Observational studies. Each pika is uniquely identified by its ear-tag colors, and each territorial adult is also closely identified with its point of capture. We revisit each point of capture to observe tagged pika survival and behavior, and to position 1-3 sensors to log temperature, light and humidity within focal pika territories (data loggers are small, &lt;4x8x12 cm, and territories are not significantly modified by their placement).  Focal territories are revisited at least once to characterize available vegetation via transect sampling and at least annually to service data loggers, record pika survival, characterize cache contents via visual or limited physical sampling, and observe pika behaviors.</para>
+          <para>13.	Data and sample maintenance.  Each sample is marked with an accession number comprised of the year and unique ear-tag color combination of the corresponding pika.  Hair, tissue and Nobuto-strip blood samples are stored in paper coin envelopes with desiccant.  Ectoparasites are stored in alcohol, separated by taxonomic group.  All other samples are stored in vials on ice in the field and transferred promptly to a -20 deg C freezer (Andrew Martin Lab, CU).  Sampling data from each pika is entered into a spreadsheet in association with the accession number.  Data from observational studies are entered into separate spreadsheets in association with appropriate accession numbers and/or GPS coordinates.  Microclimate data are accumulated as comma-delimited text files for manipulation by script.  We are currently designing a relational database to accommodate all records associated with this project.</para>
+          <para>#</para>
+          <para>Literature cited:</para>
+          <para>Carpenter, J. 2004, Exotic animal formulary. W. B. Saunders, Philadelphia, Pennsylvania.</para>
+          <para>Clark, K. W., C. M. Trim and L. W. Hall. 2014. Veterinary anesthesia. Elsevier Health Sciences.</para>
+          <para>Girling, S. J. 2013. Veterinary nursing of exotic pets. John Wiley and Sons, Chichester, West Sussex, UK.</para>
+          <para>Glennon, A., and J. Jeffs. 2001. Compendium of data sheets for veterinary products. National Office of Animal Health Ltd., Enfield, Middlesex, UK.</para>
+          <para>Itah, R., I. Gitelman and C. Davis. 2004. A replacement for methoxyflurane (Metofane) in open-circuit anaesthesia.  Lab Anim. 38(3):280-285.</para>
+          <para>Plumb, D. C. 2011. Plumbís veterinary drug handbook. Wiley-Blackwell.</para>
+          <para>Redig, P. T. 1993. Raptor biomedicine. University of Minnesota Press, Minneapolis, Minnesota.</para>
+          <para>Code/variable explanation:</para>
+          <para>Location - WK = West Knoll on Niwot Ridge, CO, the highest site included in this study, with multiple slope aspects; LL = Long Lake, a north-facing site just below the lower north-facing WK site; ML = Mitchell Lake, a south-facing site just above Mitchell Lake and at an elevation similar to the LL site; CG = Cable Gate, a south-facing site just upslope of the final parking lot on the Niwot Ridge road.</para>
+          <para>Slope Aspect - General aspect of the successful trap location (see Easting and Northing), reported in terms of cardinal directions (e.g., NNW means the slope faces NW, but closer to N than W).</para>
+          <para>Easting/Northing - GPS coordinates of the successful trap location, reported in UTM (datum WGS84 zone 13).</para>
+          <para>Tag Type - Type of tag or unique mark used to identify this pika from other pikas: A = aluminum "rabbit" tag (from National Band and Tag) combined with colored washer (front/inside of ear) and colored strip of plastic (back/outside of ear); C = ear-notching code (used when tags not available).</para>
+          <para>Color Code Right Ear- Colors associated with tag (color on inside or "front" of ear followed by color on outside or "back" of ear), or code determined by notching pattern visible along the edge of the ear; R = red, B = blue, Y = yellow, W = white, G = green; 1-1, 0-1, or 1-0 = # of notches forward of (above) and aft of (below) central location along outer rim of ear. "N" means "Notch" and refers to pikas with large natural notches in their ears from fights or from a previous tag that pulled out; notched ears cannot be tagged, so the notch is recorded for future pika identification.  Some other ear-codes: "H" means "Hole" (another type of ear-marking that can result from a tag pulling out), and "M" means "Mangled" (ear disfigured from fights or ear-mites).</para>
+          <para>Color Code Left Ear - Same as above, but for left ear.  Both ears were always marked, due to the potential for tag loss and natural ear damage.  This protocol ensures that a pika that has lost its tags can always be identified as previously tagged, as opposed to having natural ear damage.</para>
+          <para>Number Right Ear - "N" means "Notch" and refers to pikas with large natural notches in their ears from fights or from a previous tag that pulled out; notched ears cannot be tagged, so the notch is recorded for future pika identification.  Some other ear-codes: "H" means "Hole" (another type of ear-marking that can result from a tag pulling out), and "M" means "Mangled" (ear disfigured from fights or ear-mites).</para>
+          <para>Number Left Ear - Same as above, but for left ear.</para>
+          <para>Weight - Body weight (grams) as determined by weighing the pika in a bag and subtracting bag weight.  Bags are tared regularly in the field.</para>
+          <para>Stage	- Stage (A = adult &gt;= 1 year old, J = juvenile &lt; 1 year old) as determined through observations OTHER THAN weight, including molt status (juveniles molt later in the year than adults), tenor of voice (juveniles have relatively high-pitched calls), size (relative to adults), physical proportions (juveniles are more fusiform with head and neck relatively large), size of fecal pellets, and/or haying and defensive behaviors.</para>
+          <para>Sex - Sex (M = male, F = female) as determined through inversion of cloaca or (rarely) through aural means (males use a "long call" and females may respond in a typical way during this call) and/or appearance of nipples.  The male penis is usually longer than the female clitoris.  The penis is usually sheathed at the base.  The clitoris is usually more triangular in profile.  Nipples are apparent usually only on females that have lactated (otherwise, nipples are concealed by dense ventral fur).</para>
+          <para>Reproductive Status - P = pregnant (enlarged abdomen), L = has lactated this year (nipples visible &amp; hairless), T = testes (about the size of a jellybean) detected by feel, U = no evidence of recent reproduction.</para>
+          <para>Ear-mites Sampled - Whether mites were collected (1=collected, 0=not collected).  Several mites were collected at once (using tweezers to pinch the skin under a cluster of mites) and were stored separately from other ectoparasites in a vial of ethanol or isopropyl alcohol.</para>
+          <para>Ear-mite Cover	- Mites cluster in the ear, covering the ear tissue to some degree.  Cover is estimated as N = none, L = low (&lt;4 sq mm), M = medium (&lt;16 sq mm) or H = high (&gt;16 sq mm).</para>
+          <para>Fleas Sampled	- Number of fleas collected.  Fleas are anesthetized by the oral anesthetic used on the pika, and are collected from the handling tray or anesthetizing chamber.  Fleas were stored together, but separately from other ectoparasites.  Fleas were stored in a vial of 70% ethanol or isopropyl alcohol.</para>
+          <para>Fleas Observed - Number of fleas observed, sometimes greater than the number successfully collected.</para>
+          <para>Tissue Sampled - Whether tissue samples were collected (1 = collected, 0 = not collected).  Tissue samples were taken from the ear, resulting either from the hole made in the center of the ear in preparation for the ear tag or from a notch made in the rim of the ear.  Tissue samples were kept dry and stored in paper envelopes.</para>
+          <para>Hair Sampled - Whether hair samples were collected (1 = collected, 0 = not collected).  Hair samples were taken from the rump, in a cluster, using a pair of tweezers.  Hair samples were usually added to the paper envelope containing the ear sample(s), but separate hair samples were also collected after 2011.</para>
+          <para>Urine Sampled - Whether urine was collected (1 = collected, 0 = not collected).  Urine was stored in a vial on ice and transferred to ultra-cold storage.  Additional notes are available regarding number of vials, vial labeling, and collection locations (rock under trap, tarp used to carry trap, handling tray, or anesthetizing chamber).</para>
+          <para>Feces Sampled Dry Pellets	- Whether dry pellets were collected (1 = collected, 0 = not collected).  Dry pellets were those not apparently exposed to pika urine.  All fecal samples were placed in vials, separating types of feces and even instances of a sampled type. Vials were stored on ice and transferred to an ultra-cold freezer.  See notes for number of vials, vial labeling, and collection locations (rock under trap, tarp used to carry trap, handling tray, or anesthetizing chamber).</para>
+          <para>Feces Sampled Wet Pellets	- Whether wet pellets were collected (1 = collected, 0 = not collected).  Wet pellets were those exposed to pika urine.  All fecal samples were placed in vials, separating types of feces and even instances of a sampled type.  Vials were stored on ice and transferred to an ultra-cold freezer.  See notes for number of vials, vial labeling, and collection locations (rock under trap, tarp used to carry trap, handling tray, or anesthetizing chamber).</para>
+          <para>Feces Sampled Caecal - Whether caecal feces were collected (1 = collected, 0 = not collected).  Caecal feces are usually reingested by pikas, and contain valuable nutrients. All fecal samples were placed in vials, separating types of feces and even instances of a sampled type. Vials were stored on ice and transferred to an ultra-cold freezer. Additional notes are available concerning number of vials, vial labeling, and collection locations (rock under trap, tarp used to carry trap, handling tray, or anesthetizing chamber).</para>
+          <para>Blood Sampled Retro-orbital - Whether blood was collected via retro-orbital bleeding (1 = collected, 0 = not collected).  Blood was blown out of capillary tubes into a vial and usually centrifuged to separate plasma from red blood cells. Plasma was then drawn off of centrifuged samples using a clean capillary and stored in a separate vial. Only the right eye was bled, to facilitate tracking potential eye damage during field observations.  Prior to centrifugation, blood was stored in a cooler with ice, but not in direct contact with the ice, to avoid bursting red blood cells. After centrifugation, both products were stored on ice and transferred to an ultra-cold freezer.</para>
+          <para>Blood Sampled Ear-punch - Whether blood was collected from the ear (1 = collected, 0 = not collected).  This was done, rather than retro-orbital bleeding, in rare cases when enough blood was produced as a result of punching a hole in the ear in preparation for ear tagging. This collection method is not as antiseptic as retro-orbital bleeding, and usually produced too little blood for analyses. After 2009, we often used the smaller amounts of blood produced by ear tagging to prepare a slide with a smear of whole blood for microscopic analysis. Blood was blown out of capillary tubes into a vial and usually centrifuged to separate plasma from red blood cells.  Plasma was then drawn off using a clean capillary and stored in a separate vial. Prior to centrifugation, blood was stored in a cooler with ice, but not in direct contact with the ice, to avoid bursting red blood cells.  After centrifugation, both products were stored on ice and transferred to an ultra-cold freezer.</para>
+          <para>Smear - Whether we used a drop of blood to prepare a slide with a smear of whole blood for microscopic analysis. Slides were prepared in the field using whole blood immediately after sampling.</para>
+          <para>Nobuto - Whether we saturated a Nobuto strip with whole blood during the sampling process. Nobuto strips were allowed to air-dry during sampling and were stored dry in paper envelopes.</para>
+          <para>Saliva Sampled - Whether saliva was collected using a cotton swab (1 = collected, 0 = not collected).  We forced the swab into the mouth and swept it all around, forcing the pika to gnaw on it.  Even so, very little saliva was collected. The swab was stored in a vial on ice and transferred to ultra-cold storage.</para>
+          <para>Rectal Temperature - Body temperature (Celsius) measured using a rectal thermometer made for human babies. When using a rectal thermometer, some measurements were from the cloaca rather than the rectum (verified by feces on the thermometer).  Readings from the cloaca often seemed too low.</para>
+          <para>Neck Circumference - Circumference (cm) of the neck, measured using a string or fabric circling the neck and overlapped such that a single pen stroke could mark the point of overlap. The distance between marks on the string was then measured. These measurements are for planning the construction of collars for tracking these animals, so the string was tightened sufficiently to ensure the collar could not be slipped.</para>
+          <para>Foot Length	- Length (mm) of left hind foot, measured using a tape while the foot was pressed against the clear anesthetizing chamber.</para>
+          <para>NS - These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</para>
+          <para>NA - These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</para>
+          <para>CITATIONS:</para>
+          <para>[1] Jennifer L. Wilkening, Chris Ray and Karen L. Sweazea. 2013. Stress hormone concentration in Rocky Mountain populations of the American pika (Ochotona princeps). Conservation Physiology 1, doi:10.1093/conphys/cot027.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTER: Long-term research on the dynamics of high-elevation ecosystems -- a framework for understanding ecological responsiveness to climate change</title>
+      <personnel>
+        <organizationName>Niwot Ridge LTER</organizationName>
+        <role>pointOfContact</role>
+      </personnel>
+      <funding>National Science Foundation:1637686</funding>
+    </project>
+    <dataTable>
+      <entityName>pika_demography.cr.data.csv</entityName>
+      <entityDescription>Pika demography data for west knoll and Indian Peaks wilderness, 2008 - ongoing</entityDescription>
+      <physical>
+        <objectName>pika_demography.cr.data.csv</objectName>
+        <size unit="byte">51024</size>
+        <authentication method="MD5">1ce4fa97d2a784c80c08085881aea90c</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-nwt/8/1/1018e5c404fa2aa459521e2cf046e216</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>LTER_site</attributeName>
+          <attributeLabel>LTER_site</attributeLabel>
+          <attributeDefinition>Niwot Ridge LTER site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>local_site</attributeName>
+          <attributeLabel>local_site</attributeLabel>
+          <attributeDefinition>WK=west knoll: LL=Long Lake; ML=Mitchell Lake; CG=Cable Gate</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LL</code>
+                    <definition>Long Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ML</code>
+                    <definition>Mitchell Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CG</code>
+                    <definition>Cable Gate</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>date (yyyy-mm-dd)</attributeDefinition>
+          <storageType>dateTime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2008-07-14</minimum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>slope_asp</attributeName>
+          <attributeLabel>slope_asp</attributeLabel>
+          <attributeDefinition>slope-aspect as cardinal direction or FLAT</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>easting</attributeName>
+          <attributeLabel>easting</attributeLabel>
+          <attributeDefinition>GPS E-W coordinate as UTM easting</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>9</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>northing</attributeName>
+          <attributeLabel>northing</attributeLabel>
+          <attributeDefinition>GPS N-S coordinate as UTM northing</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>9</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>no data</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tag_type</attributeName>
+          <attributeLabel>tag_type</attributeLabel>
+          <attributeDefinition>type of identifying tag or unique mark (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>code_r_ear</attributeName>
+          <attributeLabel>code_r_ear</attributeLabel>
+          <attributeDefinition>color code of right ear (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>code_l_ear</attributeName>
+          <attributeLabel>code_l_ear</attributeLabel>
+          <attributeDefinition>color code of left ear (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_r_ear</attributeName>
+          <attributeLabel>num_r_ear</attributeLabel>
+          <attributeDefinition>number of right ear (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>num_l_ear</attributeName>
+          <attributeLabel>num_l_ear</attributeLabel>
+          <attributeDefinition>number of left ear (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeLabel>weight</attributeLabel>
+          <attributeDefinition>body weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>159?</code>
+            <codeExplanation>159?</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>stage</attributeName>
+          <attributeLabel>stage</attributeLabel>
+          <attributeDefinition>stage: A = adult; J = juvenile</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>juvenile</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>J?</code>
+            <codeExplanation>J?</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>A?</code>
+            <codeExplanation>A?</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeLabel>sex</attributeLabel>
+          <attributeDefinition>sex</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>F?</code>
+            <codeExplanation>F?</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>M?</code>
+            <codeExplanation>M?</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>repro_status</attributeName>
+          <attributeLabel>repro_status</attributeLabel>
+          <attributeDefinition>reproductive status (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>P?</code>
+            <codeExplanation>P?</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>P?/L</code>
+            <codeExplanation>P?/L</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>T?</code>
+            <codeExplanation>T?</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ear-mites_samp</attributeName>
+          <attributeLabel>ear-mites_samp</attributeLabel>
+          <attributeDefinition>ear mite sample collected (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ear-mite_obs</attributeName>
+          <attributeLabel>ear-mite_obs</attributeLabel>
+          <attributeDefinition>ear-mite covering ear tissue (see methods)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fleas_samp</attributeName>
+          <attributeLabel>fleas_samp</attributeLabel>
+          <attributeDefinition>number of fleas collected</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>fleas_obs</attributeName>
+          <attributeLabel>fleas_obs</attributeLabel>
+          <attributeDefinition>number of fleas observed</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>0?</code>
+            <codeExplanation>0?</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>tissue_samp</attributeName>
+          <attributeLabel>tissue_samp</attributeLabel>
+          <attributeDefinition>tissue sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>hair_samp</attributeName>
+          <attributeLabel>hair_samp</attributeLabel>
+          <attributeDefinition>hair sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>urine_samp</attributeName>
+          <attributeLabel>urine_samp</attributeLabel>
+          <attributeDefinition>urine sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>feces_samp_dry</attributeName>
+          <attributeLabel>feces_samp_dry</attributeLabel>
+          <attributeDefinition>dry pellet fecal sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>feces_samp_wet</attributeName>
+          <attributeLabel>feces_samp_wet</attributeLabel>
+          <attributeDefinition>wet pellet fecal sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>feces_samp_cae</attributeName>
+          <attributeLabel>feces_samp_cae</attributeLabel>
+          <attributeDefinition>caecal fecal sample collected: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>blood_samp_r-o</attributeName>
+          <attributeLabel>blood_samp_r-o</attributeLabel>
+          <attributeDefinition>blood sample collected via retro-orbital bleeding: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>blood_samp_ear</attributeName>
+          <attributeLabel>blood_samp_ear</attributeLabel>
+          <attributeDefinition>blood sample collected from ear: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>smear</attributeName>
+          <attributeLabel>smear</attributeLabel>
+          <attributeDefinition>slide with blood smear prepared: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>nobuto</attributeName>
+          <attributeLabel>nobuto</attributeLabel>
+          <attributeDefinition>Nobuto strip saturated with blood: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>saliva_samp</attributeName>
+          <attributeLabel>saliva_samp</attributeLabel>
+          <attributeDefinition>saliva sample collected with cotton swab: 1 = collected; 0 = not collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>rectal_temp</attributeName>
+          <attributeLabel>rectal_temp</attributeLabel>
+          <attributeDefinition>rectal temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>These data were not recorded in the main trapping notebook (curated by Chris Ray, cray@colorado.edu).  In some cases, these data may be found or inferred from information available in other notebooks.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>neck_circ</attributeName>
+          <attributeLabel>neck_circ</attributeLabel>
+          <attributeDefinition>circumference of neck</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>2</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>foot_length</attributeName>
+          <attributeLabel>foot_length</attributeLabel>
+          <attributeDefinition>length of left hind foot</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NS</code>
+            <codeExplanation>These data are not available because this pika was not sampled in this way.  Note the important distinction between NS and NA.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>313</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit abbreviation="m" id="meter" multiplierToSI="1"
+          name="meter" unitType="length">
+          <description>SI unit of length</description>
+        </unit>
+        <unit abbreviation="g" id="gram" multiplierToSI="0.001"
+          name="gram" parentSI="kilogram" unitType="mass">
+          <description>0.001 kg</description>
+        </unit>
+        <unit id="./"/>
+        <unit id="number" name="number" unitType="dimensionless">
+          <description>a number</description>
+        </unit>
+        <unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin">
+          <description>SI-derived unit of temperature</description>
+        </unit>
+        <unit abbreviation="cm" id="centimeter" multiplierToSI="0.01"
+          name="centimeter" parentSI="meter">
+          <description>.01 meters</description>
+        </unit>
+        <unit abbreviation="mm" id="millimeter" multiplierToSI="0.001"
+          name="millimeter" parentSI="meter">
+          <description>.001 meters</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

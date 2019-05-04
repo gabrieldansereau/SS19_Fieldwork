@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.181.1" system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=EDI,o=EDI,dc=edirepository,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/fb8661cc0af964a4c5caace85b72b036</alternateIdentifier>
+    <title>Demographic measures of Hypericum cumulicola (Hypericaceae) in 15 populations in Florida Rosemary Scrub patches with different time-since-fire, at Archbold Biological Station, Highlands County, Florida from 1994-2015</title>
+    <creator>
+      <individualName>
+        <givenName>Pedro</givenName>
+        <givenName>F</givenName>
+        <surName>Quintana-Ascencio</surName>
+      </individualName>
+      <organizationName>University of Central Florida</organizationName>
+      <electronicMailAddress>pedro.quintana-ascencio@ucf.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Eric</givenName>
+        <givenName>S</givenName>
+        <surName>Menges</surName>
+      </individualName>
+      <organizationName>Archbold Biological Station</organizationName>
+      <electronicMailAddress>emenges@archbold-station.org</electronicMailAddress>
+    </creator>
+    <pubDate>2018-03-22</pubDate>
+    <abstract>
+      <para>
+  We collected demographic data comprising 38,313 unique observations
+  from a sample of 10,910 individuals of H. cumulicola, from 15
+  independent Florida rosemary scrub patches with different
+  time-since-fire at Archbold Biological Station, Highlands County,
+  Florida. Plants were censused during their peak of reproduction
+  annually in July and August between 1994 and 2015.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>plant demography</keyword>
+      <keyword>Archbold Biological Station</keyword>
+      <keyword>Lake Wales Ridge</keyword>
+      <keyword>Florida Scrub</keyword>
+      <keyword>Fire</keyword>
+      <keyword>Florida</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>disturbances</keyword>
+      <keyword>federally endangered species</keyword>
+    </keywordSet>
+    <additionalInfo>
+      <para>
+  Publications associated with this dataset:
+</para>
+      <para>
+  Crone, E.E., M.M. Ellis, W.F. Morris, A. Stanley, T. Bell, P.
+  Bierzychudek, J. Ehrlen, T.N. Kaye, T.M. Knight, P. Lesica, G.
+  Oostermeijer, P.F. Quintana-Ascencio, T. Ticktin, T. Valverde, J.L.
+  Williams, D.F. Doak, R. Ganesan, K. McEachern, A.S. Thorpe, and E.S.
+  Menges. 2013. Ability of matrix models to explain the past and predict
+  the future of plant populations. Conservation Biology27: 968-978.
+</para>
+      <para>
+  Ellis, M., J.L. Williams, P. Lesica, T.J. Bell, P. Bierzychudek, M.
+  Bowles, E.E. Crone, D.F. Doak, J. Ehrlen, A. Ellis-Adam, K. McEachern,
+  R. Ganesan, P. Latham, S. Luijten, T.N. Kaye, T.M. Knight, E.S.
+  Menges, W.F. Morris, H. den Nijs, G. Oostermeijer, P.F.
+  Quintana-Ascencio, J.S. Shelly, A. Stanley, A. Thorpe, T. Ticktin, T.
+  Valverde, and C. Weekley. 2012. Matrix population models from 20
+  studies of perennial plant populations" (Data Paper). Ecology 93:
+  951.
+</para>
+      <para>
+  Metcalf CJE, McMahon SM, Salguero-Gómez R &amp; Jongejans E. 2013.
+  IPMpack: an R package for Integral Projection Models. Methods in
+  Ecology and Evolution 4:195-200.
+</para>
+      <para>
+  Morris, W.F., S. Tuljapurkar, C. Haridas, E.S. Menges, C. Horvitz, and
+  C. Pfister. 2006. Sensitivity of the population growth rate to
+  demographic variability within and between phases of the disturbance
+  cycle. Ecology Letters 9:1331-1341.
+</para>
+      <para>
+  Quintana-Ascencio, P.F., C.W. Weekley, and E.S. Menges. 2007.
+  Comparative demography of a rare species in Florida scrub and road
+  habitats. Biological Conservation 137:263-270.
+</para>
+      <para>
+  Quintana-Ascencio, P.F., Koontz, S. Smith, S., Sclater, V., David, A.,
+  &amp; E. S. Menges. 2018. Predicting landscape-level distribution and
+  abundance: Integrating demography, fire, elevation, and landscape
+  habitat configuration. Journal of Ecology, accepted
+</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Highlands county, Florida, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.389753</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.333713</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.120002</northBoundingCoordinate>
+          <southBoundingCoordinate>27.21143</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1994-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-08-30 </calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>completed</description>
+    </maintenance>
+    <contact>
+      <organizationName>Archbold Biological Station</organizationName>
+      <positionName>Database Manager</positionName>
+      <electronicMailAddress>databasemanager@archbold-station.org</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  Protocols and Procedures
+</para>
+          <para>
+  Demographic data were collected from 38,313 unique observations from a
+  sample of 10,910 individuals of H. cumulicola, from 15 independent
+  Florida rosemary scrub patches with different time-since-fire at
+  Archbold Biological Station. Plants were censused during their peak of
+  reproduction annually in July and August between 1994 and 2015.
+  Annually, in every population, we tagged and evaluated ~100 plants. In
+  years when &lt; 100 plants were found, new tagged plants were added
+  (~20-40 individuals) to the existing sample. Plants were classified
+  into six possible stages: dead (0), alive (1), yearling (5; new plants
+  just reaching its first census), new plant (3; plants of unknown age),
+  missing (2), and previously dead (9). For each tagged plant, we
+  measured maximum height (in cm), counted number of stems, and recorded
+  reproductive status annually. We counted total number of reproductive
+  structures (flowers and fruits) for every plant in 1994-1999, 2001,
+  2002, 2010-2012, and counted reproductive structures for a sample of
+  individuals in other years. We checked the location of previously dead
+  plants after a year of first detection to assess possible plant
+  dormancy. Less than 0.01% of previously declared dead plants were
+  found subsequently alive and we did not include any plant dormancy.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTREB Demographic research on Florida scrub plants</title>
+      <personnel>
+        <individualName>
+          <givenName>Pedro</givenName>
+          <surName>Quintana-Ascencio</surName>
+        </individualName>
+        <electronicMailAddress>pedro.quintana-ascencio@ufc.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation: DEB98-15370, DEB02-33899, DEB08-12717, and DEB-1347843</funding>
+      <relatedProject>
+        <title>LTREB Demographic research on Florida scrub plants</title>
+        <personnel>
+          <individualName>
+            <givenName>Eric</givenName>
+            <surName>Menges</surName>
+          </individualName>
+          <electronicMailAddress>emenges@archbold-station.org</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <funding>No funding to report</funding>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>Hypericum_cumulicola.csv</entityName>
+      <entityDescription>Demography of Hypericum_cumulicola</entityDescription>
+      <physical>
+        <objectName>Hypericum_cumulicola.csv</objectName>
+        <size unit="byte">1741414</size>
+        <authentication method="MD5">1cc4262c1722c1678b9567180f08848f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/181/1/adf4ed268bdbae50f4045549a688ef09</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of encounter</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeDefinition>Patch id</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">103</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Gap</attributeName>
+          <attributeDefinition>Gap id</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">5271</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Tag</attributeName>
+          <attributeDefinition>Plant id</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">5551939</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Burn_yr</attributeName>
+          <attributeDefinition>Fire year</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Time</attributeName>
+          <attributeDefinition>Year of collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Surv_init</attributeName>
+          <attributeDefinition>Plant stage</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>New plant</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>New yearling</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Alive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>init_height</attributeName>
+          <attributeDefinition>Maximun stem height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.1</minimum>
+                  <maximum exclusive="false">91</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Rep_init</attributeName>
+          <attributeDefinition>Reproductive structures</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6048</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Stems</attributeName>
+          <attributeDefinition>number of reprductive stems</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">43</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Surv_fin</attributeName>
+          <attributeDefinition>Plant stage</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Alive</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Previously dead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Fin_height</attributeName>
+          <attributeDefinition>Maximun stem height</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.5</minimum>
+                  <maximum exclusive="false">91</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Rep_fin</attributeName>
+          <attributeDefinition>Reproductive structures</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">6048</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>39276</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>FL.x703.000-0006-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Arnaud Gruss</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>University of Miami / Department of Marine Biology and Ecology</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Postdoctoral Research Associate</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>3054214154</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString />
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString><![CDATA[4600 Rickenbacker Cswy]]></gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Miami</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Florida</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>33149</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>gruss.arnaud@gmail.com</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2018-01-10T15:24:05+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/FL.x703.000:0006</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Environmental data for fitting statistical habitat models</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString />
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2017-06-25</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="001">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString><![CDATA[This dataset contains all the environmental data (e.g., sea surface temperature in summer, bottom depth, etc.) that are used to fit statistical habitat models for our FLRACEP project. This is the "large environmental database" of our FLRACEP project. These environmental data are not time series, but rather "climatologies" that depict long-term, average environmental conditions in the Gulf of Mexico. Some of these environmental data are for the entire Gulf of Mexico Large Marine Ecosystem, while others are only for the U.S. Gulf of Mexico only. We requested raw environmental data collected in the Gulf of Mexico between 2000 and the present, which we processed to generate the "large environmental database" provided here.]]></gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString><![CDATA[These data are used to fit statistical habitat models for our FLRACEP project.]]></gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Arnaud Gruss</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of Miami / Department of Marine Biology and Ecology</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Postdoctoral Research Associate</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>3054214154</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString />
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString><![CDATA[4600 Rickenbacker Cswy]]></gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Miami</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Florida</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>33149</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>gruss.arnaud@gmail.com</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Environmental parameters</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>silicate</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>salinity</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>phosphate</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>turbidity</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>chlorophyll</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>nitrate</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>temperature</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>dissolved oxygen</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>precipitation</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>depth</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-97.87</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-80.054</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>18.273</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>30.51</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:Polygon srsName="urn:ogc:def:crs:EPSG::4326" gml:id="extent.geom.0">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList>18.273 -94.631 18.453 -94.631 18.453 -94.811 18.633 -94.991 18.633 -95.351 18.813 -95.351 18.813 -95.891 18.993 -95.891 19.353 -96.251 19.713 -96.251 19.893 -96.43 20.073 -96.43 20.073 -96.61 20.252 -96.79 20.432 -96.79 20.432 -96.97 20.612 -97.15 20.792 -97.15 20.972 -97.33 21.332 -97.33 21.512 -97.51 21.692 -97.51 21.512 -97.87 21.512 -97.69 21.692 -97.69 22.412 -97.69 22.592 -97.87 22.772 -97.87 22.772 -97.69 24.572 -97.69 24.751 -97.51 25.111 -97.51 25.111 -97.33 25.471 -97.33 25.651 -97.15 26.011 -97.15 26.191 -97.33 26.551 -97.33 26.731 -97.51 27.091 -97.51 27.091 -97.33 27.811 -97.33 27.811 -96.97 28.171 -96.97 28.351 -96.79 28.351 -96.61 28.531 -96.43 28.531 -96.071 28.711 -95.891 28.711 -95.351 28.891 -95.351 29.071 -95.171 29.071 -94.991 29.61 -94.991 29.61 -94.811 29.43 -94.811 29.43 -94.451 29.61 -94.271 29.61 -94.091 29.79 -93.911 29.79 -93.011 29.61 -93.011 29.61 -92.291 29.79 -92.111 29.79 -91.752 29.43 -91.392 29.43 -91.212 29.25 -91.212 29.071 -91.032 29.071 -90.852 29.25 -90.672 29.25 -90.312 29.43 -90.132 29.43 -89.772 29.61 -89.592 29.79 -89.592 29.97 -89.772 29.97 -89.952 30.15 -90.312 30.33 -90.312 30.33 -89.952 30.15 -89.952 30.15 -89.412 30.33 -89.232 30.33 -88.152 30.51 -87.972 30.33 -87.792 30.15 -87.792 30.15 -87.612 30.33 -87.432 30.33 -86.173 30.15 -86.173 30.15 -85.633 29.97 -85.453 29.79 -85.453 29.61 -85.273 29.61 -84.913 29.79 -84.733 29.79 -84.553 29.97 -84.373 29.97 -83.833 29.79 -83.833 29.79 -83.653 29.43 -83.293 29.25 -83.293 29.25 -83.113 29.071 -82.933 29.071 -82.754 27.991 -82.754 27.811 -82.574 27.631 -82.574 27.631 -82.754 27.451 -82.754 27.271 -82.574 26.911 -82.574 26.911 -82.394 26.731 -82.214 26.551 -82.214 26.551 -82.034 26.371 -81.854 25.831 -81.854 25.831 -81.494 25.651 -81.314 25.471 -81.314 25.471 -81.134 25.111 -80.774 25.111 -80.594 25.471 -80.234 25.471 -80.054 23.132 -80.054 23.132 -81.854 23.312 -82.034 23.312 -82.214 23.132 -82.394 23.132 -83.113 22.952 -83.293 22.952 -83.653 22.772 -83.833 22.772 -84.193 22.592 -84.193 22.412 -84.373 22.052 -84.373 21.872 -84.193 21.872 -84.013 21.152 -84.013 21.152 -84.913 20.972 -85.093 20.612 -85.093 20.612 -86.893 20.972 -86.893 21.152 -86.713 21.332 -86.713 21.512 -86.893 21.512 -87.792 21.692 -87.792 21.692 -88.152 21.512 -88.332 21.512 -88.872 21.332 -89.052 21.332 -89.772 21.152 -89.952 21.152 -90.312 20.972 -90.312 20.792 -90.492 19.893 -90.492 19.893 -90.672 19.713 -90.672 19.533 -90.852 19.173 -90.852 19.173 -91.032 18.993 -91.212 18.993 -91.392 18.633 -91.392 18.453 -91.572 18.453 -91.752 18.633 -91.931 18.813 -91.931 18.813 -92.291 18.633 -92.471 18.633 -92.831 18.453 -93.011 18.453 -93.551 18.273 -93.731 18.273 -94.631</gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement gco:nilReason="inapplicable" />
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString><![CDATA[The "large environmental database" contains a total of 48 files. Each of these 48 files provides: (i) Longitude (°E); (ii) Latitude (°N); and (iii) Values for a given environmental parameter. 
+                    
+Here are the details of the 48 files of the "large environmental database":
+(1) "Bottom_depth.csv": Longitude (°E); Latitude (°N); Bottom depth (in m). 
+
+(2) "Bottom_DO_concentration.csv": Longitude (°E); Latitude (°N); Bottom dissolved oxygen (DO) concentration in Spring (in ml.l-1); Bottom dissolved oxygen (DO) concentration in Summer (in ml.l-1); Bottom dissolved oxygen (DO) concentration in Fall (in ml.l-1); Bottom dissolved oxygen (DO) concentration in Winter (in ml.l-1). 
+
+(3) "Bottom_nitrate_concentration.csv": Longitude (°E); Latitude (°N); Bottom nitrate concentration in Spring (in µmol.l-1); Bottom nitrate concentration in Summer (in µmol.l-1; Bottom nitrate concentration in Fall (in µmol.l-1); Bottom nitrate concentration in Winter (in µmol.l-1). 
+
+(4) "Bottom_phosphate_concentration.csv": Longitude (°E); Latitude (°N); Bottom phosphate concentration in Spring (in µmol.l-1); Bottom phosphate concentration in Summer (in µmol.l-1; Bottom phosphate concentration in Fall (in µmol.l-1); Bottom phosphate concentration in Winter (in µmol.l-1). 
+
+(5) "Bottom_salinity.csv": Longitude (°E); Latitude (°N); Bottom Salinity in January (Unitless); Bottom Salinity in February (Unitless); Bottom Salinity in March (Unitless); Bottom Salinity in April (Unitless); Bottom Salinity in May (Unitless); Bottom Salinity in June (Unitless); Bottom Salinity in July (Unitless); Bottom Salinity in August (Unitless); Bottom Salinity in September (Unitless); Bottom Salinity in October (Unitless); Bottom Salinity in November (Unitless); Bottom Salinity in December (Unitless); Bottom Salinity in Spring (Unitless); Bottom Salinity in Summer (Unitless); Bottom Salinity in Fall (Unitless); Bottom Salinity in Winter (Unitless).
+
+(6) "Bottom_silicate_concentration.csv": Longitude (°E); Latitude (°N); Bottom silicate concentration in Spring (in µmol.l-1); Bottom silicate concentration in Summer (in µmol.l-1; Bottom silicate concentration in Fall (in µmol.l-1); Bottom silicate concentration in Winter (in µmol.l-1). 
+
+(7) "Bottom_temperature.csv": Longitude (°E); Latitude (°N); Bottom Temperature in January (in °C); Bottom Temperature in February (in °C); Bottom Temperature in March (in °C); Bottom Temperature in April (in °C); Bottom Temperature in May (in °C); Bottom Temperature in June (in °C); Bottom Temperature in July (in °C); Bottom Temperature in August (in °C); Bottom Temperature in September (in °C); Bottom Temperature in October (in °C); Bottom Temperature in November (in °C); Bottom Temperature in December (in °C); Bottom Temperature in Spring (in °C); Bottom Temperature in Summer (in °C); Bottom Temperature in Fall (in °C); Bottom Temperature in Winter (in °C).
+
+(8) “Distance_from_coastal_rivers.csv”: Longitude (°E); Latitude (°N); Distance from coastal rivers (km). 
+
+(9) “Distance_from_shore.csv”: Longitude (°E); Latitude (°N); Distance from shore (km).
+
+(10) “Distance_to_estuaries_and_lagoons.csv”: Longitude (°E); Latitude (°N); Distance to estuaries and lagoons (km).
+
+(11) “Dominant_sediment_type.csv”: Longitude (°E); Latitude (°N); Dominant sediment type (1 = mud ; 2 = sand ; 3= rock ; 4 = gravel). 
+
+(12) “Local_percentage_of_gravel.csv”: Longitude (°E); Latitude (°N); Local percentage of gravel (%). 
+
+(13) “Local_percentage_of_hardbottom.csv”: Longitude (°E); Latitude (°N); Local percentage of hardbottom (%).
+
+(14) “Local_percentage_of_mud.csv”: Longitude (°E); Latitude (°N); Local percentage of mud (%).
+
+(15) “Local_percentage_of_natural_reef.csv”: Longitude (°E); Latitude (°N); Local percentage of natural reef (%).
+
+(16) “Local_percentage_of_rock.csv”: Longitude (°E); Latitude (°N); Local percentage of rock (%).
+
+(17) “Local_percentage_of_sand.csv”: Longitude (°E); Latitude (°N); Local percentage of sand (%).
+
+(18) “Number_of_oil_and_gas_platforms.csv”: Longitude (°E); Latitude (°N); Number of oil and gas platforms. 
+
+(19) “Number_of_ports_marinas_and_peers.csv”: Longitude (°E); Latitude (°N); Number of ports, marinas and peers. 
+
+(20) “Number_of_rivers.csv”: Longitude (°E); Latitude (°N); Number of rivers. 
+
+(21)  “Number_of_waterways.csv”: Longitude (°E); Latitude (°N); Number of waterways. 
+
+(22) “Oceanic_current_speed.csv”:  Longitude (°E); Latitude (°N); Oceanic current speed in January (in m.s-1); Oceanic current speed in February (in m.s-1); Oceanic current speed in March (in m.s-1); Oceanic current speed in April (in m.s-1); Oceanic current speed in May (in m.s-1); Oceanic current speed in June (in m.s-1); Oceanic current speed in July (in m.s-1); Oceanic current speed in August (in m.s-1); Oceanic current speed in September (in m.s-1); Oceanic current speed in October (in m.s-1); Oceanic current speed in November (in m.s-1); Oceanic current speed in December (in m.s-1); Oceanic current speed in Spring (in m.s-1); Oceanic current speed in Summer (in m.s-1); Oceanic current speed in Fall (in m.s-1); Oceanic current speed in Winter (in m.s-1). 
+
+(23) “Precipitation.csv”:  Longitude (°E); Latitude (°N); Precipitation in January (in mm); Precipitation in February (in mm); Precipitation in March (in mm); Precipitation in April (in mm); Precipitation in May (in mm); Precipitation in June (in mm); Precipitation in July (in mm); Precipitation in August (in mm); Precipitation in September (in mm); Precipitation in October (in mm); Precipitation in November (in mm); Precipitation in December (in mm); Precipitation in Spring (in mm); Precipitation in Summer (in mm); Precipitation in Fall (in mm); Precipitation in Winter (in mm). 
+
+(24) “Presence_of_artificial_reefs.csv”:  Longitude (°E); Latitude (°N); Presence of artificial reefs (0 =no; 1 = yes). 
+ 
+(25) “Presence_of_estuaries_and_lagoons.csv”:  Longitude (°E); Latitude (°N); Presence of estuaries and lagoons (0 =no; 1 = yes). 
+
+(26) “Presence_of_mangrove.csv”:  Longitude (°E); Latitude (°N); Presence of mangrove (0 =no; 1 = yes). 
+
+(27) “Presence_of_oyster_beds.csv”:  Longitude (°E); Latitude (°N); Presence of oyster beds (0 =no; 1 = yes). 
+
+(28) “Presence_of_sargassum_hotspots.csv”:  Longitude (°E); Latitude (°N); Presence of sargassum hotspots in Spring (0 =no; 1 = yes); Presence of sargassum hotspots in Summer (0 =no; 1 = yes); Presence of sargassum hotspots in Fall (0 =no; 1 = yes). Presence of sargassum hotspots in Winter (0 =no; 1 = yes).
+
+(29) “Presence_of_seagrass.csv”:  Longitude (°E); Latitude (°N); Presence of seagrass (0 =no; 1 = yes). 
+
+(30) “Presence_of_severe_red_tide_events.csv”:  Longitude (°E); Latitude (°N); Presence of severe red tide events in Spring (0 =no; 1 = yes); Presence of severe red tide events in Summer (0 =no; 1 = yes); Presence of severe red tide events in Fall (0 =no; 1 = yes); Presence of severe red tide events in Winter (0 =no; 1 = yes). 
+
+(31) “Presence_of_submerged_aquatic_vegetation.csv”:  Longitude (°E); Latitude (°N); Presence of submerged aquatic vegetation (0 =no; 1 = yes). 
+
+(32) “Presence_of_vegetation.csv”:  Longitude (°E); Latitude (°N); Presence of vegetation (0 =no; 1 = yes). 
+
+(33) “Presence_of_wetlands.csv”:  Longitude (°E); Latitude (°N); Presence of wetlands (0 =no; 1 = yes). 
+
+(34) “Presence_of_wrecks.csv”:  Longitude (°E); Latitude (°N); Presence of wrecks (0 =no; 1 = yes). 
+
+(35) “Probability_of_encounter_of_algae.csv”:  Longitude (°E); Latitude (°N); Probability of encounter of algae.  
+
+(36) “Probability_of_encounter_of_jellyfish.csv”:  Longitude (°E); Latitude (°N); Probability of encounter of jellyfish.  
+
+(37) “Probability_of_storm_occurrence.csv”:  Longitude (°E); Latitude (°N); Probability of storm occurrence.  
+
+(38) “Sea_surface_height.csv”:  Longitude (°E); Latitude (°N); Sea surface height in Spring (in m); Sea surface height in Summer (in m); Sea surface height in Fall (in m); Sea surface height in Winter (in m).   
+
+(39) "Sea_surface_temperature.csv": Longitude (°E); Latitude (°N); Sea Surface Temperature in January (in °C); Sea Surface Temperature in February (in °C); Sea Surface Temperature in March (in °C); Sea Surface Temperature in April (in °C); Sea Surface Temperature in May (in °C); Sea Surface Temperature in June (in °C); Sea Surface Temperature in July (in °C); Sea Surface Temperature in August (in °C); Sea Surface Temperature in September (in °C); Sea Surface Temperature in October (in °C); Sea Surface Temperature in November (in °C); Sea Surface Temperature in December (in °C); Sea Surface Temperature in Spring (in °C); Sea Surface Temperature in Summer (in °C); Sea Surface Temperature in Fall (in °C); Sea Surface Temperature in Winter (in °C). 
+
+(40) “Surface_chlorophyll_a_concentration.csv”: Longitude (°E); Latitude (°N); Surface chlorophyll-a concentration in January (in mg.m-3); Surface chlorophyll-a concentration in February (in mg.m-3); Surface chlorophyll-a concentration in March (in mg.m-3); Surface chlorophyll-a concentration in April (in mg.m-3); Surface chlorophyll-a concentration in May (in mg.m-3); Surface chlorophyll-a concentration in June (in mg.m-3); Surface chlorophyll-a concentration in July (in mg.m-3); Surface chlorophyll-a concentration in August (in mg.m-3); Surface chlorophyll-a concentration in September (in mg.m-3); Surface chlorophyll-a concentration in October (in mg.m-3); Surface chlorophyll-a concentration in November (in mg.m-3); Surface chlorophyll-a concentration in December (in mg.m-3); Surface chlorophyll-a concentration in Spring (in mg.m-3); Surface chlorophyll-a concentration in Summer (in mg.m-3); Surface chlorophyll-a concentration in Fall (in mg.m-3); Surface chlorophyll-a concentration in Winter (in mg.m-3). 
+
+(41) "Surface_DO_concentration.csv": Longitude (°E); Latitude (°N); Surface dissolved oxygen (DO) concentration in Spring (in ml.l-1); Surface dissolved oxygen (DO) concentration in Summer (in ml.l-1); Surface dissolved oxygen (DO) concentration in Fall (in ml.l-1); Surface dissolved oxygen (DO) concentration in Winter (in ml.l-1).
+
+(42) "Surface_nitrate_concentration.csv": Longitude (°E); Latitude (°N); Surface nitrate concentration in Spring (in µmol.l-1); Surface nitrate concentration in Summer (in µmol.l-1; Surface nitrate concentration in Fall (in µmol.l-1); Surface nitrate concentration in Winter (in µmol.l-1). 
+
+(43) "Surface_phosphate_concentration.csv": Longitude (°E); Latitude (°N); Surface phosphate concentration in Spring (in µmol.l-1); Surface phosphate concentration in Summer (in µmol.l-1; Surface phosphate concentration in Fall (in µmol.l-1); Surface phosphate concentration in Winter (in µmol.l-1).
+
+(44) "Surface_salinity.csv": Longitude (°E); Latitude (°N); Surface Salinity in January (Unitless); Surface Salinity in February (Unitless); Surface Salinity in March (Unitless); Surface Salinity in April (Unitless); Surface Salinity in May (Unitless); Surface Salinity in June (Unitless); Surface Salinity in July (Unitless); Surface Salinity in August (Unitless); Surface Salinity in September (Unitless); Surface Salinity in October (Unitless); Surface Salinity in November (Unitless); Surface Salinity in December (Unitless); Surface Salinity in Spring (Unitless); Surface Salinity in Summer (Unitless); Surface Salinity in Fall (Unitless); Surface Salinity in Winter (Unitless).
+
+(45) "Surface_silicate_concentration.csv": Longitude (°E); Latitude (°N); Surface silicate concentration in Spring (in µmol.l-1); Surface silicate concentration in Summer (in µmol.l-1; Surface silicate concentration in Fall (in µmol.l-1); Surface silicate concentration in Winter (in µmol.l-1). 
+
+(46) "Terrain_Ruggedness_Index.csv": Longitude (°E); Latitude (°N); Terrain Ruggedness Index (Unitless). 
+
+(47) "Turbidity.csv": Longitude (°E); Latitude (°N); Turbidity in January (in m-1); Turbidity in February (in m-1); Turbidity in March (in m-1); Turbidity in April (in m-1); Turbidity in May (in m-1); Turbidity in June (in m-1); Turbidity in July (in m-1); Turbidity in August (in m-1); Turbidity in September (in m-1); Turbidity in October (in m-1); Turbidity in November (in m-1); Turbidity in December (in m-1); Turbidity in Spring (in m-1); Turbidity in Summer (in m-1); Turbidity in Fall (in m-1); Turbidity in Winter (in m-1). 
+
+(48) "Wind_speed.csv": Longitude (°E); Latitude (°N); Wind speed in Spring (in m.s-1); Wind speed in Summer (in m.s-1); Wind speed in Fall (in m.s-1); Wind speed in Winter (in m.s-1).|(1) “Bottom_depth.csv”: We accessed the SRTM30 PLUS global bathymetry grid from the Gulf of Mexico Coastal Observing System (http://gcoos.tamu.edu/), from which a continuous raster of bathymetry with a resolution of 1.85 km was produced.
+
+(2) “Bottom_DO_concentration.csv”: For each season, measurements of dissolved oxygen (DO) at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC DO data has a low resolution (1.0◦). Therefore, DO data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs. Note that NODC DO data are available for the different months of the year. However, in some months, these data are so limited that it is not reasonable to use them.
+
+(3) “Bottom_nitrate_concentration.csv”: For each season, measurements of nitrate concentration at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC nitrate concentration data has a low resolution (1.0◦). Therefore, nitrate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs. 
+
+(4) “Bottom_phosphate_concentration.csv”: For each season, measurements of phosphate concentration at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC phosphate concentration data has a low resolution (1.0◦). Therefore, phosphate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+
+(5) “Bottom_salinity.csv”: For each month and season, measurements of salinity at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete. Therefore, bottom salinity data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+
+(6) “Bottom_silicate_concentration.csv”: For each season, measurements of silicate concentration at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC silicate concentration data has a low resolution (1.0◦). Therefore, silicate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs. 
+
+(7) “Bottom_temperature.csv”: For each month and season, measurements of temperature at the maximum depth for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete. Therefore, bottom temperature data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+
+(8) “Distance_from_coastal_rivers.csv”: We downloaded inland water shapefiles for the U.S., Mexico and Cuba from http://www.diva-gis.org/gdata, from which we retrieved the geographic coordinates of the mouth of coastal rivers of the Gulf of Mexico. Then, we estimated the distance from coastal rivers for each of the cells of a 0.18° grid covering the entire Gulf of Mexico with MATLAB.
+
+(9) “Distance_from_shore.csv”: Distance from shore was estimated for the whole Gulf of Mexico in MATLAB, using a dedicated function ("dist_from_coast").
+
+(10) “Distance_to_estuaries_and_lagoons.csv”: The geographic coordinates of the estuaries and lagoons of the Gulf of Mexico were retrieved from GulfBase (http://www.gulfbase.org/), from which the distance to estuaries and lagoons was estimated for each cell of a 0.18° grid covering the entire Gulf of Mexico with MATLAB.
+
+(11) “Dominant_sediment_type.csv”: The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Then, it was possible to determine the dominant sediment type in each of the cells of a 0.18° grid covering the entire Gulf of Mexico. 
+
+(12) “Local_percentage_of_gravel.csv”: The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Then, it was possible to compute the percentage of gravel in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(13) “Local_percentage_of_hardbottom.csv”: Firstly, we estimated the presence (or absence) of rock in each cell of a 0.008◦ grid covering the entire Gulf of Mexico. The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Secondly, we estimated the presence (or absence) of natural reefs in each cell of a 0.008◦ grid covering the entire Gulf of Mexico. The geographic coordinates of the shallow water reefs of the GOM were retrieved from ReefBase (http://www.reefbase.org/), while the geographic coordinates of the deep sea corals of the Gulf of Mexico were retrieved from NOAA Deep Sea Coral Data Portal (https://deepseacoraldata.noaa.gov/). From these data, it was possible to determine the presence (or absence) of natural reefs in each cell of a 0.008◦ grid covering the entire Gulf of Mexico. Finally, from the data of presence/absence of rock and the data of presence/absence of natural reefs for the 0.008◦ grid, it was possible to compute the percentage of hardbottom in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(14) “Local_percentage_of_mud.csv”: The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Then, it was possible to compute the percentage of mud in each of the cells of a 0.18° grid covering the entire Gulf of Mexico. 
+
+(15) “Local_percentage_of_natural_reef.csv”: The geographic coordinates of the shallow water reefs of the Gulf of Mexico were retrieved from ReefBase (http://www.reefbase.org/), while the geographic coordinates of the deep sea corals of the Gulf of Mexico were retrieved from NOAA Deep Sea Coral Data Portal (https://deepseacoraldata.noaa.gov/). From these data, it was possible to determine the presence (or absence) of natural reefs in each cell of a 0.008◦ grid covering the entire GOM. Finally, from the data of presence/absence of natural reefs for the 0.008◦ grid, it was possible to compute the percentage of natural reefs in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(16) “Local_percentage_of_rock.csv”: The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Then, it was possible to compute the percentage of rock in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(17) “Local_percentage_of_sand.csv”: The best available data on sediment type, dSEABED2006, does not provide complete coverage for the entire Gulf of Mexico. Moreover, dSEABED2006 data have a low resolution. Therefore, a nearest neighbor function was executed on a 0.008◦ grid using the natural neighbor function in MATLAB in order to provide a continuous surface. Then, it was possible to compute the percentage of sand in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(18) “Number_of_oil_and_gas_platforms.csv”: The location of the current oil and gas platforms in the Gulf of Mexico was obtained from https://www.data.boem.gov/homepg/data_center/mapping/geographic_mapping.asp, from which we estimated the number of oil and gas platforms in the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(19) “Number_of_ports_marinas_and_peers.csv”: Regarding marinas and peers, we downloaded the geographic coordinates of the marinas and peers of the Gulf of Mexico available in the Gulf of Mexico Data Atlas, from which we estimated the number of marinas and peers in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.                                                                                                                                                                                                                                                                                                                                            Regarding ports, we retrieved the geographic coordinates of the ports of the U.S. Gulf of Mexico from the World Port Index. The data in this publication is mostly tabular and new editions are published bi-annually and is available as a download from the National Geospatial-Intelligence Agency website (http://164.214.12.145/pubs/pubs_j_wpi_sections.html).
+
+(20) “Number_of_rivers.csv”: We downloaded inland water shapefiles for the U.S., Mexico and Cuba from http://www.diva-gis.org/gdata, from which we estimated the number of rivers in each of the cells of a 0.18° grid covering the entire Gulf of Mexico.
+
+(21) “Number_of_waterways.csv”: We downloaded waterway network shapefiles for the U.S. Gulf of Mexico from http://corpsmapu.usace.army.mil/cm_apex/cm2.cm2.map. From all these shapefiles, except those for sealanes and intracoastal waterways, we estimated the number of waterways in each of the cells of a 0.18° grid covering the entire Gulf of Mexico. 
+
+(22) “Oceanic_current_speed.csv”: OSCAR (Ocean Surface Current Analyses Real-time) third degree resolution ocean surface current data for the period 2005-2015 were downloaded from http://www.esr.org/oscar_index.html, from which we estimated oceanic current speed in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different months and seasons of the year.
+
+(23) “Precipitation.csv”: PERSIANN-CDR 0.25° resolution daily precipitation data for the period 2000-2015 were downloaded from https://www.ncdc.noaa.gov/cdr/atmospheric/precipitation-persiann-cdr, from which we estimated precipitation in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different months and seasons of the year.
+
+(24) “Presence_of_artificial_reefs.csv”: We downloaded the geographic coordinates of the artificial reefs of the Gulf of Mexico from http://marinecadastre.gov/data/, from which we determined the presence (or absence) of artificial reefs in each cell of a 0.18° grid covering the entire Gulf of Mexico.
+
+(25) “Presence_of_estuaries_and_lagoons.csv”: The geographic coordinates of the estuaries and lagoons of the Gulf of Mexico were retrieved from GulfBase (http://www.gulfbase.org/), from which the presence (or absence) of estuaries and lagoons in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined.
+
+(26) “Presence_of_mangrove.csv”: A shapefile providing the distribution of mangrove in the U.S. Gulf of Mexico in the 2000s was downloaded from https://gcplcc.databasin.org/datasets/6ec804f5250a483abd9bdb200939247f, from which the presence (or absence) of mangrove in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined. 
+
+(27) “Presence_of_oyster_beds.csv”: The geographic coordinates of oyster beds of the Gulf of Mexico were downloaded from the Gulf of Mexico Data Atlas, from which the presence (or absence) of oyster beds in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined.
+
+(28) “Presence_of_sargassum_hotspots.csv”: Hardy (2014) determined sargassum hotspots in the northern Gulf of Mexico from May to August using Landsat satellite data. From Hardy (2014)'s estimates, we determined the presence (or absence) of sargassum hotspots in each cell of a 0.18° grid covering the entire Gulf of Mexico for the months of May, June, July and August. It is reasonable to assume that sargassum hotspots for the period of September to April are the sargasum hotspots for the period from May to August that are located west of the Mississippi River Delta (Robert F. Hardy, Florida Fish and Wildlife Research Institute, St. Petersburg, personal communication).                                                                                                                                                                                                                                                                                          Reference: Hardy, RF (2014). Assessments of Surface-Pelagic Drift Communities and Behavior of Early Juvenile Sea Turtles in the Northern Gulf of Mexico. PhD thesis, University of South Florida, St. Petersburg, Florida.
+
+(29) “Presence_of_seagrass.csv”: Shapefiles for Mexico, Cuba and the U.S. Gulf of Mexico states were obtained, from which the presence (or absence) of seagrass in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined. Data for Florida were provided by the Florida Fish and Wildlife Conservation Commission and were compiled from datasets that varied in age from as early as 1987 to as recent as 2009. Data in Alabama, produced in 2009 and not included in data from other states, were provided by the Mobile Bay National Estuary Program. The dataset includes several species of submerged aquatic vegetation not classified as true seagrasses in the lower salinity zones of northern Mobile Bay. Data for Mississippi and Louisiana were obtained from a 2004 online dataset provided by the NOAA National Coastal Data Development Center. Data for Texas waters were provided by the Texas Parks and Wildlife Department and were compiled from data spanning various dates from 1988 through 2007. The Texas dataset excludes widgeon grass (Ruppia maritima), which is included in data from the other states. Notes for Florida source data: This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2009. Not all data in this compilation are mapped from photography; some are the results of field measurements. The original source data sets were not all classified in the same manner; some used the Florida Land Use Cover and Forms Classification System (FLUCCS) codes 9113 for discontinuous seagrass and 9116 for continuous seagrass; some defined only presence and absence of seagrass, and some defined varying degrees of seagrass percent cover. In order to merge all of these data sources into one compilation data set, FWRI reclassified the various source data attribute schemes into two categories: "Continuous Seagrass" and "Patchy (Discontinuous) Seagrass". In areas where studies overlap, the most recent study where a given area has been interpreted is represented in this data set. This data set is not comparable to previous statewide data sets for time series studies - not all areas have been updated since the previous statewide compilation and some areas previously not mapped are now included. Please contact GIS Librarian to request the source data if you need to do a time series comparison. This data set has been updated in several areas from the previous compilation, including Northern Miami-Dade (2009), Biscayne Bay (2005), Dry Tortugas (2006), and Parts of Rookery Bay NERR (2003-2006). Data for Cuba and Mexico are more generalized, representing broad areas of seagrass occurrence as opposed to delineated beds. Mexico and Cuba seagrass areas are provided by the global compilation of seagrasses produced in 2005 by the United Nations Environment Programme World Conservation Monitoring Center.                                                                                                                                                                                                                                                                                                                                                                                                                                                             References for U.S. Gulf of Mexico states: (1) Florida Fish and Wildlife Conservation Commission, Fish and Wildlife Research Institute. (2011). Marine Resources Geographic Information System (MRGIS) Internet Map Server, Seagrass Florida. St. Petersburg, FL. Retrieved April 16, 2012, from http://ocean.floridamarine.org/mrgis/Description_Layers_Marine.htm; (2) Mobile Bay National Estuary Program. (2009). Submerged Aquatic Vegetation. Esri shapefile. Mobile, AL: Barry A. Vittor & Associates, Inc. and Alabama Department of Conservation and Natural Resources; (3) NOAA National Coastal Data Development Center. (2004). Seagrass information for Alabama, Florida, Mississippi and Texas. Stennis Space Center, MS: Author. Retrieved April 17, 2012, from http://www.ncddc.noaa.gov/website/CHP; (4) Texas Parks and Wildlife Department. (2012). Seagrass data from 1988-2007. Retrieved from http://www.tpwd.state.tx.us/gis/seagrass/.                                                                                                                                                                                                                                                              References for Cuba and Mexico: (1) Short, F. T., & United Nations Environment Programme (UNEP) World Conservation Monitoring Centre. (2005). Global Distribution of Seagrasses (V2.0). Cambridge, UK: UNEP WCMC. Retrieved April 18, 2012, from http://www.unep-wcmc.org/globalseagrassdistn2005_563.html; (2) Love, M., Baldera, A., Yeung, C., & Robbins, C. (2013). The Gulf of Mexico Ecosystem: A Coastal and Marine Atlas. New Orleans, LA: Ocean Conservancy, Gulf Restoration Center.
+
+(30) “Presence_of_severe_red_tide_events.csv”: All the Karenia brevis cell concentrations (in cells/liter) recorded in the Florida Fish and Wildlife Conservation Commission's Fish and Wildlife Research Institute (FWRI) harmful algal bloom (HAB) database (http://myfwc.com/research/redtide/monitoring/database/) for the period 2000-2016 were extracted, along with their geographic coordinates. Under the assumption that red tide events are severe when Karenia brevis cell concentration is greater than 100,000 cells/liter (http://www.myfwc.com/research/redtide/statewide/), for each of the seasons of the period 2000-2016, we determined the presence/absence of severe tide events on the West Florida Shelf from the data extracted from the FWRI HAB database.  
+
+(31) “Presence_of_submerged_aquatic_vegetation.csv”: Shapefiles for Mexico, Cuba and the U.S. Gulf of Mexico states were obtained, from which the presence (or absence) of submerged aquatic vegetation in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined. Data for Florida were provided by the Florida Fish and Wildlife Conservation Commission and were compiled from datasets that varied in age from as early as 1987 to as recent as 2009. Data in Alabama, produced in 2009 and not included in data from other states, were provided by the Mobile Bay National Estuary Program. The dataset includes several species of submerged aquatic vegetation not classified as true seagrasses in the lower salinity zones of northern Mobile Bay. Data for Mississippi and Louisiana were obtained from a 2004 online dataset provided by the NOAA National Coastal Data Development Center. Data for Texas waters were provided by the Texas Parks and Wildlife Department and were compiled from data spanning various dates from 1988 through 2007. The Texas dataset excludes widgeon grass (Ruppia maritima), which is included in data from the other states. Notes for Florida source data: This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2009. Not all data in this compilation are mapped from photography; some are the results of field measurements. The original source data sets were not all classified in the same manner; some used the Florida Land Use Cover and Forms Classification System (FLUCCS) codes 9113 for discontinuous seagrass and 9116 for continuous seagrass; some defined only presence and absence of seagrass, and some defined varying degrees of seagrass percent cover. In order to merge all of these data sources into one compilation data set, FWRI reclassified the various source data attribute schemes into two categories: "Continuous Seagrass" and "Patchy (Discontinuous) Seagrass". In areas where studies overlap, the most recent study where a given area has been interpreted is represented in this data set. This data set is not comparable to previous statewide data sets for time series studies - not all areas have been updated since the previous statewide compilation and some areas previously not mapped are now included. Please contact GIS Librarian to request the source data if you need to do a time series comparison. This data set has been updated in several areas from the previous compilation, including Northern Miami-Dade (2009), Biscayne Bay (2005), Dry Tortugas (2006), and Parts of Rookery Bay NERR (2003-2006). Data for Cuba and Mexico are more generalized, representing broad areas of seagrass occurrence as opposed to delineated beds. Mexico and Cuba seagrass areas are provided by the global compilation of seagrasses produced in 2005 by the United Nations Environment Programme World Conservation Monitoring Center.                                                                                                                                                                                                                                                                                                                                                                                                                                                             References for U.S. Gulf of Mexico states: (1) Florida Fish and Wildlife Conservation Commission, Fish and Wildlife Research Institute. (2011). Marine Resources Geographic Information System (MRGIS) Internet Map Server, Seagrass Florida. St. Petersburg, FL. Retrieved April 16, 2012, from http://ocean.floridamarine.org/mrgis/Description_Layers_Marine.htm; (2) Mobile Bay National Estuary Program. (2009). Submerged Aquatic Vegetation. Esri shapefile. Mobile, AL: Barry A. Vittor & Associates, Inc. and Alabama Department of Conservation and Natural Resources; (3) NOAA National Coastal Data Development Center. (2004). Seagrass information for Alabama, Florida, Mississippi and Texas. Stennis Space Center, MS: Author. Retrieved April 17, 2012, from http://www.ncddc.noaa.gov/website/CHP; (4) Texas Parks and Wildlife Department. (2012). Seagrass data from 1988-2007. Retrieved from http://www.tpwd.state.tx.us/gis/seagrass/.                                                                                                                                                                                                                                                              References for Cuba and Mexico: (1) Short, F. T., & United Nations Environment Programme (UNEP) World Conservation Monitoring Centre. (2005). Global Distribution of Seagrasses (V2.0). Cambridge, UK: UNEP WCMC. Retrieved April 18, 2012, from http://www.unep-wcmc.org/globalseagrassdistn2005_563.html; (2) Love, M., Baldera, A., Yeung, C., & Robbins, C. (2013). The Gulf of Mexico Ecosystem: A Coastal and Marine Atlas. New Orleans, LA: Ocean Conservancy, Gulf Restoration Center.
+
+(32) “Presence_of_vegetation.csv”: Here is what we did to determine the presence (or absence) of vegetation in each cell of a 0.18° grid covering the entire U.S. Gulf of Mexico:                                                                                                                                                                                                                                     (1) Shapefiles for the U.S. Gulf of Mexico states were obtained, from which the presence (or absence) of seagrass in each cell of a 0.18° grid covering the entire U.S. Gulf of Mexico was determined. Data for Florida were provided by the Florida Fish and Wildlife Conservation Commission and were compiled from datasets that varied in age from as early as 1987 to as recent as 2009. Data in Alabama, produced in 2009 and not included in data from other states, were provided by the Mobile Bay National Estuary Program. The dataset includes several species of submerged aquatic vegetation not classified as true seagrasses in the lower salinity zones of northern Mobile Bay. Data for Mississippi and Louisiana were obtained from a 2004 online dataset provided by the NOAA National Coastal Data Development Center. Data for Texas waters were provided by the Texas Parks and Wildlife Department and were compiled from data spanning various dates from 1988 through 2007. The Texas dataset excludes widgeon grass (Ruppia maritima), which is included in data from the other states. Notes for Florida source data: This polygon GIS data set represents a compilation of statewide seagrass data from various source agencies and scales. The data were mapped from sources ranging in date from 1987 to 2009. Not all data in this compilation are mapped from photography; some are the results of field measurements. The original source data sets were not all classified in the same manner; some used the Florida Land Use Cover and Forms Classification System (FLUCCS) codes 9113 for discontinuous seagrass and 9116 for continuous seagrass; some defined only presence and absence of seagrass, and some defined varying degrees of seagrass percent cover. In order to merge all of these data sources into one compilation data set, FWRI reclassified the various source data attribute schemes into two categories: "Continuous Seagrass" and "Patchy (Discontinuous) Seagrass". In areas where studies overlap, the most recent study where a given area has been interpreted is represented in this data set. This data set is not comparable to previous statewide data sets for time series studies - not all areas have been updated since the previous statewide compilation and some areas previously not mapped are now included. Please contact GIS Librarian to request the source data if you need to do a time series comparison. This data set has been updated in several areas from the previous compilation, including Northern Miami-Dade (2009), Biscayne Bay (2005), Dry Tortugas (2006), and Parts of Rookery Bay NERR (2003-2006).                                                                                                                                                                                                                                                                                                                                                                                                                                                   References: (i) Florida Fish and Wildlife Conservation Commission, Fish and Wildlife Research Institute. (2011). Marine Resources Geographic Information System (MRGIS) Internet Map Server, Seagrass Florida. St. Petersburg, FL. Retrieved April 16, 2012, from http://ocean.floridamarine.org/mrgis/Description_Layers_Marine.htm; (ii) Mobile Bay National Estuary Program. (2009). Submerged Aquatic Vegetation. Esri shapefile. Mobile, AL: Barry A. Vittor & Associates, Inc. and Alabama Department of Conservation and Natural Resources; (iii) NOAA National Coastal Data Development Center. (2004). Seagrass information for Alabama, Florida, Mississippi and Texas. Stennis Space Center, MS: Author. Retrieved April 17, 2012, from http://www.ncddc.noaa.gov/website/CHP; (iv) Texas Parks and Wildlife Department. (2012). Seagrass data from 1988-2007. Retrieved from http://www.tpwd.state.tx.us/gis/seagrass/.                                                                                                                                                                                                                                                                                                                                                                                                                   (2) A wetland shapefile was downloaded from http://nationalmap.gov/small_scale/atlasftp.html?openChapters=chpwater#chpwater, from which the presence (or absence) of wetlands in each cell of a 0.18° grid covering the entire U.S. Gulf of Mexico was determined.                                                                                                                                                                                                                                                                                                                                                                                 (3) A shapefile providing the distribution of mangrove in the U.S. Gulf of Mexico in the 2000s was downloaded from https://gcplcc.databasin.org/datasets/6ec804f5250a483abd9bdb200939247f, from which the presence (or absence) of mangrove in each cell of a 0.18° grid covering the entire U.S. Gulf of Mexico was determined.                                                                                                                                                                                                                                                                 (4) Finally, from seagrass, wetland and mangrove data, we were able to determine the presence (or absence) of vegetation in each cell of a 0.18° grid covering the entire U.S. Gulf of Mexico.
+                                                                                                                            
+(33) “Presence_of_wetlands.csv”: A wetland shapefile was downloaded from http://nationalmap.gov/small_scale/atlasftp.html?openChapters=chpwater#chpwater, from which the presence (or absence) of wetlands in each cell of a 0.18° grid covering the entire Gulf of Mexico was determined.
+                                                                                                                            
+(34) “Presence_of_wrecks.csv”: The Office of Coast Survey’s Wrecks and Obstructions database contains information on the identified submerged wrecks within the U.S. maritime boundaries. Information for the database is sourced from the NOAA Electronic Navigational Charts (ENC) and Automated Wrecks and Obstructions Information System (AWOIS). We downloaded the Office of Coast Survey’s Wrecks and Obstructions database from http://www.nauticalcharts.noaa.gov/hsd/wrecks_and_obstructions.html. From these data, we determined the presence (or absence) of wrecks in each cell of a 0.18° grid covering the entire Gulf of Mexico.
+                                                                                                                            
+(35) “Probability_of_encounter_of_algae.csv”: We produced a probability of encounter map for algae for the Gulf of Mexico, using a binomial generalized additive model fitted to the comprehensive survey database compiled for the FLRACEP project; this binomial generalized additive model predicts probability of encounter as a function of long-term mean annual bottom temperature, long-term mean annual surface chlorophyll-a concentration, year, and the confounding factor of "gear" (survey).
+                                                                                                                            
+(36) “Probability_of_encounter_of_jellyfish.csv”: We produced a probability of encounter map for jellyfish for the northern Gulf of Mexico, using a binomial generalized linear mixed model fitted to the comprehensive survey database compiled for the FLRACEP project.
+                                                                                                                            
+(37) “Probability_of_storm_occurrence.csv”: The relative probability of storm occurrence in the Gulf of Mexico was estimated from the densities of tropical cyclone tracks in the Gulf of Mexico provided in Knapp et al. (2010). This database was derived from data provided by many Regional Specialized Meteorological Centers, other international centers, and individuals to create a global best-track dataset, followed by merging storm information from multiple centers into one product and archiving the data for public use. To construct the track density dataset used on this map, the Environmental Systems Research Institute Line Density tool was used with a neighborhood radius of 50 kilometers (31 miles) to calculate the number of tracks around each 10-square-kilometer (3.8-square-mile) cell that collectively comprises the entire Gulf of Mexico and Atlantic Ocean within the map extent. Estimates of relative probability of storm occurrence were obtained by dividing estimates of density of tropical cyclone tracks by their maximum value in the Gulf of Mexico. References for this environmental data include: (1) Knapp, K. R., Kruk, M. C., Levinson, D. H., Diamond, H. J., & Neumann, C. J. (2010). The International Best Track Archive for Climate Stewardship (IBTrACS): Unifying tropical cyclone best track data. Bulletin of the American Meteorological Society, 91, 363-376; (2) Knapp, K. R., Kruk, M. C., Levinson, D. H., & Gibney, J. (2010). International Best Track Archive for Climate Stewardship (IBTrACS) Project (DSI-9637), 1848- 2010, v03r03. Washington, DC: National Climatic Data Center. Retrieved January 26, 2012, from http://www.ncdc.noaa.gov/oa/ibtracs/index.php?name=ibtracsdata; and (3) Love, M., Baldera, A., Yeung, C., & Robbins, C. (2013). The Gulf of Mexico Ecosystem: A Coastal and Marine Atlas. New Orleans, LA: Ocean Conservancy, Gulf Restoration Center.
+                                                                                                                            
+(38) “Sea_surface_height.csv”: Aviso monthly 0.25-degree sea surface height composites for the period 2000-2009 were downloaded from http://coastwatch.pfeg.noaa.gov/erddap/griddap/, from which we estimated sea surface height in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different seasons of the year.
+                                                                                                                            
+(39) “Sea_surface_temperature.csv”: Aqua MODIS monthly 0.0125-degree sea surface temperature composites (daytime; 11 microns) for the period 2002-2011 were downloaded from http://coastwatch.pfeg.noaa.gov/erddap/griddap/, from which we estimated sea surface temperature in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different months and seasons of the year.  
+                                                                                                                            
+(40) “Surface_chlorophyll_a_concentration.csv”: Aqua MODIS monthly 0.0125-degree surface chlorophyll-a (chl-a) concentration composites for the period 2002-2012 were downloaded from http://coastwatch.pfeg.noaa.gov/erddap/griddap/, from which we estimated surface chl-a concentration in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different months and seasons of the year.  
+                                                                                                                            
+(41) “Surface_DO_concentration.csv”: For each season, measurements of dissolved oxygen (DO) at the surface for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC DO data has a low resolution (1.0◦). Therefore, DO data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs. Note that NODC DO data are available for the different months of the year. However, in some months, these data are so limited that it is not reasonable to use them.
+                                                                                                                            
+(42) “Surface_nitrate_concentration.csv”: For each season, measurements of nitrate concentration at the surface for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC nitrate concentration data has a low resolution (1.0◦). Therefore, nitrate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+                                                                                                                            
+(43) “Surface_phosphate_concentration.csv”: For each season, measurements of phosphate concentration at the surface for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete; also, the NODC phosphate concentration data has a low resolution (1.0◦). Therefore, phosphate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+                                                                                                                            
+(44) “Surface_salinity.csv”: For each month and season, measurements of salinity at the surface for each grid point can be extracted from the National Oceanographic Data Center (NODC) regional climatology database. These measurements are incomplete. Therefore, surface salinity data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+                                                                                                                            
+(45) “Surface_silicate_concentration.csv”: For each season, measurements of silicate concentration at the surface for each grid point can be extracted from the National Oceanographic Data Center (NODC). These measurements are incomplete; also, the NODC silicate concentration data has a low resolution (1.0◦). Therefore, silicate concentration data were subjected to spline interpolation on a 0.18◦C grid using ArcGIS 10.4, so as to provide a continuous surface from which to fit generalized additive models (GAMs) and make predictions with these GAMs.
+                                                                                                                            
+(46) “Terrain_Ruggedness_Index.csv”: We accessed the SRTM30 PLUS global bathymetry grid from the Gulf of Mexico Coastal Observing System (http://gcoos.tamu.edu/). From these bathymetry data, we estimated Riley et al. (1999)'s Terrain Ruggedness Index in each of the cells of a 0.18° grid covering the entire Gulf of Mexico in R, using a dedicated function (the "tri" function from the R package "spatialEco").
+                                                                                                                            
+(47) “Turbidity.csv”: Ocean color K490 (the diffuse attenuation coefficient at 490 nm) is directly related to the presence of organic or inorganic particles in the water and constitutes an indication of water turbidity. K490 expresses how deeply visible light penetrates in the ocean and its value describes the extent to which the intensity of visible light (with wavelength equal to 490 nm) is reduced as it penetrates into the ocean. Higher K490 value mean smaller attenuation depth, and lower clarity of ocean water. Monthly Composites of ocean color K490 produced from MODIS AQUA data for the period 2002-2012 were downloaded from http://coastwatch.pfeg.noaa.gov/erddap/griddap/, from which we estimated ocean color K490 in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different months and seasons of the year.
+                                                                                                                            
+(48) “Wind_speed.csv”: NOAA/NCDC blended monthly 0.25-degree sea surface wind composites for the period 2000-2011 were downloaded from http://coastwatch.pfeg.noaa.gov/erddap/griddap/, from which we estimated wind speed in each of the cells of a 0.18° grid covering the entire Gulf of Mexico for the different seasons of the year.||||]]></gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString><![CDATA[6300 Ocean Drive
+Unit 5869]]></gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>https://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>csv, txt</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable" />
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>2.0173</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/FL.x703.000:0006</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>https</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown" />
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was automatically generated from information provided to GRIIDC for dataset: FL.x703.000:0006 on 2017-10-12T18:38:33+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:sw="eml://ecoinformatics.org/software-2.1.0" xmlns:cit="eml://ecoinformatics.org/literature-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:prot="eml://ecoinformatics.org/protocol-2.1.0" xmlns:doc="eml://ecoinformatics.org/documentation-2.1.0" xmlns:res="eml://ecoinformatics.org/resource-2.1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd" packageId="knb-lter-pie.197.2" system="knb">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=PIE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>LTE-TIDE-BenChl.02</alternateIdentifier>
+    <title>Benthic algae chlorophyll measurements for Rowley River tidal creeks associated with long term fertilization experiments, Rowley and Ipswich, MA.</title>
+    <creator id="pers-1">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Linda</givenName>
+        <surName>Deegan</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Laboratory</deliveryPoint>
+        <deliveryPoint>7 MBL St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <creator id="pers-2">
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <individualName>
+        <givenName>Bruce</givenName>
+        <surName>Peterson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Laboratory</deliveryPoint>
+        <deliveryPoint>7 MBL St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02544</postalCode>
+        <country>USA</country>
+      </address>
+    </creator>
+    <metadataProvider>
+      <organizationName>Plum Island Ecosystems LTER Program</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Kate</givenName>
+        <surName>Morkeski</surName>
+      </individualName>
+      <role>additional investigator</role>
+    </associatedParty>
+    <pubDate>2012</pubDate>
+    <abstract>
+      <para>Benthic chlorophyl measurements of surface sediments (top 0-2cm) from a variety of habitats in saltmarsh tidal creeks of the Rowley River, Rowley and Ipswich, MA. Habitats include: mudflat, filamentous algae, tall Spartina alterniflora, short Spartina alterniflora and Spartina patens zones. The TIDE project aims to simulate eutrophication on a large scale by the addition of NO3- aiming to reach 70&#181;M concentrations from May to September every year during the growing season. This fertilization of the marsh has been going on at Sweeney Creek since the 2004 growing season through 2011 and at Clubhead Creek in 2005 and then from 2009 till 2011.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>PIE LTER</keyword>
+      <keyword>TIDE</keyword>
+      <keyword>primary production</keyword>
+      <keyword>organic matter</keyword>
+      <keyword>nutrients</keyword>
+      <keyword>creek</keyword>
+      <keyword>benthic</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>mud Flat</keyword>
+      <keyword>algae</keyword>
+      <keyword>Spartina</keyword>
+      <keyword>marsh</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>Acceptance and utilization of PIE-LTER data requires that:</para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para>The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions.</para>
+          </listitem>
+          <listitem>
+            <para>The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications</para>
+          </listitem>
+          <listitem>
+            <para>A copy of any resultant publications should be sent to: 
+            <literalLayout>
+Principal Investigator
+Ecosystems Center
+Marine Biological Laboratory
+Woods Hole, MA 02543
+</literalLayout></para>
+          </listitem>
+        </itemizedlist>
+      </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://ecosystems.mbl.edu/PIE/data/LTE/LTE-TIDE-BenChl.html</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="GEO-1">
+        <geographicDescription>"Sweeney Creek", off Rowley River, Ipswich, MA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.851</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.845</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.724</northBoundingCoordinate>
+          <southBoundingCoordinate>42.719</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-2">
+        <geographicDescription>West Creek, off Rowley River, Rowley, MA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.852</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.846</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.741</northBoundingCoordinate>
+          <southBoundingCoordinate>42.736</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-3">
+        <geographicDescription>Clubhead Creek off Rowley River, Rowley, MA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.842</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.836</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.742</northBoundingCoordinate>
+          <southBoundingCoordinate>42.738</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage id="GEO-4">
+        <geographicDescription>Nelson Island Creek, off Rowley River, Rowley,</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.836</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.831</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.744</northBoundingCoordinate>
+          <southBoundingCoordinate>42.74</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-09-09</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Version 01: January 27, 2012, updated data and metadata. Used MarcrosExportEML_HTML (working)pie_excel2007.xlsm 1/18/12 4:51 PM for QA/QC to EML 2.1.0</para>
+        <para>Version 02: June 20, 2013 data and metadata updated to comply with importation to Drupal and LTER PASTA. Research location name and description updated.Used MarcrosExportEML_HTML (working)pie_excel2007.xlsm 3/14/13 12:02 PM for QA/QC to EML 2.1.0</para>
+      </description>
+    </maintenance>
+    <contact system="knb" id="im">
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Plum Island Ecosystems LTER</organizationName>
+      <address>
+        <deliveryPoint>The Ecosystems Center</deliveryPoint>
+        <deliveryPoint>Marine Biological Lab</deliveryPoint>
+        <deliveryPoint>7 MBL St</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(508) 289 7485</phone>
+      <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://ecosystems.mbl.edu/PIE/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+            <literalLayout>
+Benthic Algae (Chlorophyll A) Sampling Protocol for TIDE
+FIELD
+Frequency: Monthly, May thru September 
+Field Equipment (stored in the TIDE benthic algae tool box):
+ 50 ml syringes with tips cut off, knives, rulers, labeled 50 ml centrifuge tubes, extra labels and centrifuge tubes, pencil
+
+For each transect collect the following number of samples in each habitat: 3 mudflat, 3 filamentous algae, 3 tall Spartina alterniflora, 3 Spartina patens, 3 short Spartina alterniflora 
+
+Habitat:
+Collect samples at low tide in order to access MF, FA, and TSA habitat types.
+Use transect as guideline for picking sample locations, but do not work directly along the transect line.
+Choose general sampling location and toss syringe to &#8220;haphazardly&#8221; pick exact spot.
+To collect sample: slowly push down syringe while pulling up on the plunger (try not to compress the sample). Try to get as far down as possible and then slowly pull the tube out of the substrate. Pull the plunger out and stick it into the opposite end of the syringe. Using ruler to measure, push out 2 cm of sample into the appropriately labeled centrifuge tube. (Be careful to measure two centimeters as carefully as possible each time. Calculations of chlorophyll after analysis assume equal volumes of sediment in each sample.)
+MF: Take sample in exposed mud flats along creek channel during low tide. Avoid inserting syringe into an area with root masses and fibers, it is generally very easy to sample in the mud flats.
+FA: Take sample along creek wall below TSA roots layer.
+TSA: Same as mudflats.
+SP &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp; SSA: Sampling is more difficult, because of the dense roots. Cut around cylinder with knife as you are inserting syringe into ground. Once syringe is inserted far enough cut a cone shape underneath syringe with knife and pull out syringe at an angle in order not to lose the sample.
+Collection takes about a half day per creek with two people.
+Once samples are collected, wipe off as much mud on the outside of the tubes and store in labeled plastics bags. Samples must remain frozen until analysis.
+ 
+*adapted from S. Kelsey 2001 protocol
+updated 12/20/07 CGK
+ 
+LAB EXTRACTION
+Step 1: Extraction (typically done in the pm the day before analysis on spec)
+Supplies:
+50-ml polypropylene centrifuge tubes containing sample (frozen and in the dark)
+100% acetone
+90% acetone
+Coolers with ice
+Re-pippeter
+Latex (non-nitrile) gloves
+ 
+Considerations:
+Chlorophyll degrades easily. As much as possible, keep samples cool and dark.
+Work in a hood to minimize your exposure to acetone fumes and cap samples tightly
+when not in use. Acetone eats many plastics so be mindful of the materials you are using
+to store and transfer samples. Acetone will also wash away sharpie- so keep track of
+sample numbers and protect your labels. Avoid using acid-washed equipment to
+minimize potential acid-contamination of samples. Length of extraction should be
+around 16 hours, so plan to time your sample prep and analysis accordingly. Prep only
+the amount of samples you can feasibly analyze in one sitting. Usually no more than 40-
+50 samples at a time.
+ 
+Prep samples with acetone:
+ 
+1. Allow samples to thaw at room temperature for about two hours before putting in
+coolers. Samples should be thawed, but cool to the touch.
+2. Clean any excess mud off of sample containers and transfer thawed samples to
+coolers with ice
+3. Store acetone solution in coolers on ice
+4. Under hood, use a re-pippeter to add 25mls of 100% acetone to each tube
+5. Shake each sample briefly by hand to break up sediment at the bottom of each
+tube
+6. Place tubes back on ice in cooler
+Sonication:
+ 
+1. Sonicator is in general-use equipment room of Lillie building (2nd floor). Contact
+Herb Luther (x7722) or Louie Kerr (x7273) for questions regarding the setup of
+the sonicator. Sonicator may be in TIDE lab in the 1st floor of ESL.
+2. Bring cooler with samples, kimwipes, gloves, stopwatch, and plastic beaker
+3. Wear ear protection when using the sonicator and place a sign on the door to
+notify others of its use.
+4. Place sample tube in plastic beaker with ice, un-cap and sonicate at setting 7
+(microtip max) for 30 seconds, looking for signs of boilage. Avoid touching the
+probe to the sides of the sample tube or removing the probe from the liquid while
+running.
+
+Reference creeks are West and Nelson
+Nutrient Enriched creeks are Sweeney and Clubhead.  Sweeney has been fertilized every summer from  2004-2011.  Clubhead had been fertilized in  2005 and then from 2009-2011.
+
+All creeks have two branches determined by direction at confluence while facing upstream (Left or Right).   
+
+Plant transects run perpendicular to  creeks at various points with a front pole at the creek bank and a back pole an the high marsh. Transects are in the order of 1, 2, 4, 3 or blue, green, red, yellow from confluence of branch.
+
+MF= Mud Flat
+TSA= Tall Spartina alterniflora 
+SP= Spartina patens
+SSA=Short Spartina alterniflora
+FA= Filamentous algae
+</literalLayout>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Plum Island Ecosystems Long-Term Ecological Research (PIE LTER) Program</title>
+      <personnel>
+        <individualName>
+          <givenName>Anne</givenName>
+          <surName>Giblin</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7488</phone>
+        <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+        <role>Lead PI</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hap</givenName>
+          <surName>Garritt</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>The Ecosystems Center</deliveryPoint>
+          <deliveryPoint>Marine Biological Lab</deliveryPoint>
+          <deliveryPoint>7 MBL St</deliveryPoint>
+          <city>Woods Hole</city>
+          <administrativeArea>MA</administrativeArea>
+          <postalCode>02543</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">(508) 289 7485</phone>
+        <electronicMailAddress>pie_im@mbl.edu</electronicMailAddress>
+        <role>Information Manager</role>
+      </personnel>
+      <abstract>
+        <para>
+          <literalLayout>
+The Plum Island Ecosystems (PIE) LTER is an integrated research, education and outreach program whose goal is to develop a predictive understanding of the long-term response of watershed and estuarine ecosystems at the land-sea interface to changes in climate, land use and sea level. The principal study site is the Plum Island Sound estuary, its coupled Parker, Rowley and Ipswich River watersheds and the adjacent coastal ocean, the Gulf of Maine. The PIE LTER focuses on how several aspects of global change influence organic matter and inorganic nutrient biogeochemistry and estuarine foodwebs. The inputs of organic matter and nutrients from land, ocean and marshes interact with the external drivers (climate, land use, river discharge, sea level) to dictate the extent and degree of nutrient and organic matter processing and determine the spatial patterns of estuarine productivity and trophic structure.
+</literalLayout>
+        </para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under Grants OCE-9726921, OCE-0423565. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The Plum Island Ecosystems (PIE) LTER site, is located in northeastern Massachusetts, 42.72 N, 70.85 W. The PIE LTER lies at the interface of a thinly soiled, formerly glaciated New England land mass and the highly productive Gulf of Maine. Three watersheds comprise the estuarine drainage basin: Parker (155 km2), Rowley (26 km2) and Ipswich (404 km2). The Ipswich River watershed is highly urbanized with Boston "bedroom" communities encroaching in the headwater region while the Parker is less urbanized and retains a higher proportion of forest.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-71.2198</westBoundingCoordinate>
+              <eastBoundingCoordinate>-70.7568</eastBoundingCoordinate>
+              <northBoundingCoordinate>42.8276</northBoundingCoordinate>
+              <southBoundingCoordinate>42.4965</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>100</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </geographicCoverage>
+        </coverage>
+      </studyAreaDescription>
+    </project>
+    <dataTable>
+      <entityName>LTE-TIDE-BenChl.csv</entityName>
+      <entityDescription>Benthic algae chlorophyll measurements for Rowley River tidal creeks associated with long term fertilization experiments, Rowley and Ipswich, MA.</entityDescription>
+      <physical>
+        <objectName>LTE-TIDE-BenChl.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://ecosystems.mbl.edu/PIE/data/LTE/data/LTE-TIDE-BenChl.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id=" att0.1">
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year Sampled</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.2">
+          <attributeName>Creek</attributeName>
+          <attributeLabel>Creek</attributeLabel>
+          <attributeDefinition>Creek Sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SW</code>
+                    <definition>Sweeney- Nutrient Enriched</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NE</code>
+                    <definition>Nelson- Nutrient Enriched</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WE</code>
+                    <definition>West- Reference</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CL</code>
+                    <definition>Clubhead- Reference</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.3">
+          <attributeName>Month</attributeName>
+          <attributeLabel>Month</attributeLabel>
+          <attributeDefinition>Month of Sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Month of Sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.4">
+          <attributeName>Branch</attributeName>
+          <attributeLabel>Branch</attributeLabel>
+          <attributeDefinition>Branch Sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Left Branch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Right Branch</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>C</code>
+                    <definition>Confluence</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.5">
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect Sampled or Area Sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Transect 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Transect 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Transect 3</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Transect 4</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Confluence</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>25 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50</code>
+                    <definition>50 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>75</code>
+                    <definition>75 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>100</code>
+                    <definition>100 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>125</code>
+                    <definition>125 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>150</code>
+                    <definition>150 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>175</code>
+                    <definition>175 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>250</code>
+                    <definition>250 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>350</code>
+                    <definition>350 m mark</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>450</code>
+                    <definition>450 m mark</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.6">
+          <attributeName>Replicate</attributeName>
+          <attributeLabel>Replicate</attributeLabel>
+          <attributeDefinition>Replicate of Sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Replicate of Sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.7">
+          <attributeName>Habitat</attributeName>
+          <attributeLabel>Habitat</attributeLabel>
+          <attributeDefinition>Habitat Sampled</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MF</code>
+                    <definition>Mud Flat</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSA</code>
+                    <definition>Tall Spartina alterniflora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP</code>
+                    <definition>Spartina patens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SSA</code>
+                    <definition>Short Spartina alterniflora</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FA</code>
+                    <definition>Filamentous algae</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.8">
+          <attributeName>Chla areal</attributeName>
+          <attributeLabel>Chla areal</attributeLabel>
+          <attributeDefinition>Areal concentration of benthic chlorophyll a</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id=" att0.9">
+          <attributeName>Phaeo areal</attributeName>
+          <attributeLabel>Phaeo areal</attributeLabel>
+          <attributeDefinition>Areal concentraion of phaeophytin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerMeterSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>NA = not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3252</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit name="milligramPerMeterSquared" unitType="arealMassDensity" id="milligramPerMeterSquared" parentSI="kilogramsPerSquareMeter" multiplierToSI="0.000001">
+          <description>milligrams Per Square Meter</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,3033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.296.2"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="NTL-DEIMS">33165</alternateIdentifier>
+    <title>LTREB Biological Limnology at Lake Myvatn 2012-current</title>
+    <creator>
+      <individualName>
+        <givenName>Anthony</givenName>
+        <surName>Ives</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>430 Lincoln Dr.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(608) 262-1519</phone>
+      <electronicMailAddress>arives@wisc.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <positionName>NTL LTER Information Manager</positionName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+      <role>OP</role>
+    </associatedParty>
+    <pubDate>2013</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>These data are part of a long-term monitoring program in the central part of Myvatn that represents the dominant habitat, with benthos consisting of diatomaceous ooze. The program was designed to characterize import benthis and pelagic variables across years as midge populations varied in abundance. Starting in 2012 samples were taken at roughly weekly inervals during June, July, and August, which corresponds to the summer generation of the dominant midge,Tanytarsus gracilentus. 
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>animals</keyword>
+      <keyword>annual net primary production</keyword>
+      <keyword>aquatic</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>aquatic invertebrates</keyword>
+      <keyword>arthropods</keyword>
+      <keyword>benthic</keyword>
+      <keyword>biodiversity</keyword>
+      <keyword>biology</keyword>
+      <keyword>boundaries</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>chlorophyll a</keyword>
+      <keyword>communities</keyword>
+      <keyword>community composition</keyword>
+      <keyword>community dynamics</keyword>
+      <keyword>community structure</keyword>
+      <keyword>consumers</keyword>
+      <keyword>crustaceans</keyword>
+      <keyword>depth</keyword>
+      <keyword>diversity</keyword>
+      <keyword>ecology</keyword>
+      <keyword>ecosystems</keyword>
+      <keyword>environment</keyword>
+      <keyword>fluxes</keyword>
+      <keyword>food</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>gradient</keyword>
+      <keyword>growth</keyword>
+      <keyword>habitats</keyword>
+      <keyword>herbivores</keyword>
+      <keyword>herbivory</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>lakes</keyword>
+      <keyword>landscape</keyword>
+      <keyword>larvae</keyword>
+      <keyword>length</keyword>
+      <keyword>life history</keyword>
+      <keyword>limnology</keyword>
+      <keyword>locations</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>macroinvertebrates</keyword>
+      <keyword>metabolism</keyword>
+      <keyword>microarthropods</keyword>
+      <keyword>mud</keyword>
+      <keyword>net primary production</keyword>
+      <keyword>paleolimnology</keyword>
+      <keyword>phaeophytin</keyword>
+      <keyword>phaeopigments</keyword>
+      <keyword>photosynthesis</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>population dynamics</keyword>
+      <keyword>populations</keyword>
+      <keyword>predation</keyword>
+      <keyword>predators</keyword>
+      <keyword>primary production</keyword>
+      <keyword>production</keyword>
+      <keyword>productivity</keyword>
+      <keyword>rotifers</keyword>
+      <keyword>sampling</keyword>
+      <keyword>sediments</keyword>
+      <keyword>size</keyword>
+      <keyword>size distribution</keyword>
+      <keyword>spatial variability</keyword>
+      <keyword>species</keyword>
+      <keyword>species composition</keyword>
+      <keyword>taxonomy</keyword>
+      <keyword>trophic dynamics</keyword>
+      <keyword>trophic structure</keyword>
+      <keyword>water</keyword>
+      <keyword>zooplankton</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Daphnia density</keyword>
+      <keyword>NTL related project</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>benthic macroinvertebrates</keyword>
+      <keyword>benthos</keyword>
+      <keyword>cladoceran species richness</keyword>
+      <keyword>copepod species richness</keyword>
+      <keyword>crustacean zooplankton species richness</keyword>
+      <keyword>field protocol</keyword>
+      <keyword>food web</keyword>
+      <keyword>insect</keyword>
+      <keyword>invertebrate</keyword>
+      <keyword>lab protocol</keyword>
+      <keyword>lake characteristics</keyword>
+      <keyword>leptodora</keyword>
+      <keyword>long-term change</keyword>
+      <keyword>pelagic</keyword>
+      <keyword>phaeophyton</keyword>
+      <keyword>photosynthetically-active radiation</keyword>
+      <keyword>plankton</keyword>
+      <keyword>sample conditons</keyword>
+      <keyword>sediment</keyword>
+      <keyword>species abundance</keyword>
+      <keyword>species presence</keyword>
+      <keyword>substrate</keyword>
+      <keyword>zooplankton distribution</keyword>
+      <keyword>zooplankton species richness</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+        <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para>
+        <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para>
+        <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para>
+        <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para>
+        <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para>
+        <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.limnology.wisc.edu/node/33165</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The Kalfastrond peninsula at Lake Myvatn, Iceland.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-17.096</westBoundingCoordinate>
+          <eastBoundingCoordinate>-16.905</eastBoundingCoordinate>
+          <northBoundingCoordinate>65.653</northBoundingCoordinate>
+          <southBoundingCoordinate>65.551</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-06-08</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>Ongoing
+</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Information Manager</positionName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Lead PI</positionName>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Benthic Chlorophyll
+Field sampling (5 samples) (2012, 2013)
+1. Take 5 cores from the lake
+2. Cut the first 0.75 cm (1 chip) of the core with the extruder and place in deli container.  Label with date and core number.
+3. Place deli containers into opaque container (cooler) and return to lab.  This is the same sample that is used for the organic matter analysis.
+In 2014, the method for sampling benthic chlorophyll changed. The calculation of chlorophyll was changed to reflect the different area sampled. Below is the pertinent section from the methods protocols. Processing after the collection of the sample was not changed.
+Take sediment samples from the 5 cores collected for sediment characteristics. Take 4 syringes of sediment with 10mL syringe (15.96mm diameter). Take 4-5cm of sediment. Then, remove bottom 2cm and place top 2cm in the film canister.
+Filtering
+1. Measure volume of material in deli container with 60mL syringe and record.
+2. Homogenize and take 1mL sample with micropipette. The tip on the micropipette should be cut to avoid clogging with diatoms. Place the 1mL sample in a labeled film canister. Freeze sample at negative 20 degrees Celsius unless starting methanol extraction immediately.
+3. Add 20mL methanol.  This methanol can be kept cool in the fridge, although then you will need a second bottle of methanol for the fluorometer.  Shake for 5 sec.
+4. After 6-18 hours, shake container for 5 sec.
+Fluorometer
+1. Allow the film canisters to sit at room temperature for approximately 15 min to avoid excessive condensation on the glass tubes.  Shake tubes for 5 sec after removing from fridge but then be careful to let them settle before removing sample.
+2. Record the sample information for all of the film canisters on the data sheet.
+3. Add 4mL of sample to a 13x100mL glass tube.
+4. Insert the sample into the fluorometer and record the reading in the Fluor Before Acid column.  The sample reading should be close to one of the secondary solid standards (42ug/L or 230ug/L), if not, dilute the sample to within 25 per cent of the secondary solid standards (30-54ug/L or 180-280ug/L).  It is a good idea to quickly check 2mL of a sample that is suspected to be too high to get an idea if other samples may need to be diluted.  If possible, read the samples undiluted.
+5. If a sample needs to be diluted, use a 1000 microLiter pipette and add 2mL of methanol to a tube followed by 2mL of undiluted sample. Gently invert the tube twice and clean the bottom with a paper towel before inserting it into the fluorometer.  If the sample is still outside of the ranges above, combine 1 mL of undiluted sample with 3 mL of methanol.  Be sure to record the dilution information on the data sheet.
+6. Acidify the sample by adding 120microLiters of 0.1 N HCl (30microLiters for every one mL of sample).  Then gently invert the sample and wait 90 seconds (we used 60 seconds in 2012, the protocol said 90) before putting the sample into the fluorometer and recording the reading in the Fluor After Acid column. Be sure to have acid in each tube for exactly the same amount of time. This means doing one tube at a time or spacing them 30-60 seconds apart.
+7. Double check the results and redo samples, which have suspicious numbers.  Make sure that the after-acidification values make sense when compared to the before acidification value (the before acid/after acid ratio should be approximately the same for all samples).
+Clean up
+1. Methanol can be disposed of down the drain as long as at least 50 times as much water is flushed.
+2. Rinse the film canisters and lids well with tap water and scrub them out with a bottle brush making sure to remove any remaining filter paper.  Give a final rinse with distilled water. 
+ 
+Pelagic Chlorophyll
+Field sampling (5 samples)
+1. Take 2 samples at each of three depths, 1, 2, and 3m with Arni’s zooplankton trap. For the 1m sample, drop the trap to the top of the chain. Each trap contains about 2.5L of water when full. 
+2. Empty into bucket by opening the bottom flap with your hand.
+3. Take bucket to lab.
+Filtering
+1. Filter 1L water from integrated water sample (or until the filter is clogged) through the 47 mm GF/F filter. The pressure used during filtering should be low ( less than 5 mm Hg) to prevent cell breakage. Filtering and handling of filters should be performed under dimmed lighting.
+2. Remove the filter with forceps, fold it in half (pigment side in), and put it in the film canister.  Take care to not touch the pigments with the forceps.
+3. Add 20mL methanol.  This methanol can be kept cool in the fridge, although then you will need a second bottle of methanol for the fluorometer.  Shake for 5 sec. and place in fridge.
+4. After 6-18 hours, shake container for 5 sec.
+5. Analyze sample in fluorometer after 24 hours.
+Fluorometer
+1. Allow the film canisters to sit at room temperature for approximately 15 min to avoid excessive condensation on the glass tubes.  Shake tubes for 5 sec after removing from fridge but then be careful to let them settle before removing sample.
+2. Record the sample information for all of the film canisters on the data sheet.
+3. Add 4mL of sample to a 13x100mL glass tube.
+4. Insert the sample into the fluorometer and record the reading in the Fluor Before Acid column.  The sample reading should be close to one of the secondary solid standards (42ug/L or 230ug/L), if not, dilute the sample to within 25 percent of the secondary solid standards (30-54ug/L or 180-280ug/L).  It is a good idea to quickly check 2mL of a sample that is suspected to be too high to get an idea if other samples may need to be diluted.  If possible, read the samples undiluted.
+5. If a sample needs to be diluted, use a 1000uL pipette and add 2mL of methanol to a tube followed by 2mL of undiluted sample. Gently invert the tube twice and clean the bottom with a paper towel before inserting it into the fluorometer.  If the sample is still outside of the ranges above, combine 1 mL of undiluted sample with 3 mL of methanol.  Be sure to record the dilution information on the data sheet.
+6. Acidify the sample by adding 120 microLiters of 0.1 N HCl (30 microLiters for every one mL of sample).  Then gently invert the sample and wait 90 seconds (we used 60 seconds in 2012, the protocol said 90) before putting the sample into the fluorometer and recording the reading in the Fluor After Acid column. Be sure to have acid in each tube for exactly the same amount of time. This means doing one tube at a time or spacing them 30-60 seconds apart.
+7. Double check the results and redo samples, which have suspicious numbers.  Make sure that the after-acidification values make sense when compared to the before acidification value (the before acid/after acid ratio should be approximately the same for all samples).
+Clean up
+1. Methanol can be disposed of down the drain as long as at least 50 times as much water is flushed.
+2. Rinse the film canisters and lids well with tap water and scrub them out with a bottle brush making sure to remove any remaining filter paper.  Give a final rinse with distilled water. 
+Pelagic Zooplankton Counts
+Field sampling
+Use Arni’s zooplankton trap (modified Schindler) to take 2 samples at each of 1, 2, and 3m (6 total). For the 1m sample, drop the trap to the top of the chain. Each trap contains about 2.5L of water when full.  Integrate samples in bucket and bring back to lab for further processing.
+Sample preparation in lab
+1. Sieve integrated plankton tows through 63µm mesh and record volume of full sample
+2. Collect in Nalgene bottles and make total volume to 50mL
+3. Add 8 drops of lugol to fix zooplankton.
+4. Label bottle with sample date, benthic or pelagic zooplankton, and total volume sieved. Samples can be stored in the fridge until time of counting
+Counting
+1. Remove sample from fridge
+2. Sieve sample with 63 micro meter mesh over lab sink to remove Lugol’s solution (which vaporizes under light)
+3. Suspend sample in water in sieve and flush from the back with squirt bottle into counting tray
+4. Homogenize sample with forceps or plastic pipette with tip cut off
+5. Identify (see zooplankton identification guide) using backlit microscope and count with multiple-tally counter.
+            i. Set magnification so that you can see both top and bottom walls of the tray.
+            ii. Change focus depth to check for floating zooplankton that must be counted as well.
+6. Pipette sample back into Nalgene bottle, add water to 50mL, add 8 drops Lugol’s solution, and return to fridge
+Subsampling
+If homogenized original sample contains more than 500 individuals in the first line of counting tray, you may subsample under the following procedure.
+1. Return original sample to Nalgene bottle and add water to 50mL
+2. Homogenize sample by swirling Nalgene bottle
+3. Collect 10mL of zooplankton sample with Hensen-Stempel pipette
+4. Empty contents of Hensen-Stempel pipette into large Bogorov tray
+5. Homogenize sample in tray with forceps or plastic pipette with tip cut off
+6. Identify (see zooplankton identification guide) using backlit microscope and count with multiple-tally counter.
+            i. Set magnification so that you can see both top and bottom walls of the tray.
+            ii. Change focus depth to check for floating zooplankton that must be counted, too!
+ 
+7. Pipette sample back into Nalgene bottle, add water to 50mL, add 8 drops Lugol’s solution, and return to fridge
+Benthic Microcrustacean Counts
+Field sampling
+Leave benthic zooplankton sampler for 24h. Benthic sampler consists of 10 inverted jars with funnel traps in metal grid with 4 feet. Set up on bench using feet (on side) to get a uniform height of the collection jars (lip of jar = 5cm above frame). Upon collection, pull sampler STRAIGHT up, remove jars, homogenize in bucket and bring back to lab.  Move the boat slightly to avoid placing sampler directly over cored sediment.
+Sample preparation in lab
+1. Sieve integrated samples through 63 micrometer mesh and record volume of full sample
+2. Collect in Nalgene bottles and make total volume to 50mL
+3. Add 8 drops of lugol to fix zooplankton.
+4. Label bottle with sample date, benthic or pelagic zooplankton, and total volume sieved. Samples can be stored in the fridge until time of counting
+Counting
+1. Remove sample from fridge
+2. Sieve sample with 63 micrometer mesh over lab sink to remove Lugol’s solution (which vaporizes under light)
+3. Suspend sample in water in sieve and flush from the back with squirt bottle into counting tray
+4. Homogenize sample with forceps or plastic pipette with tip cut off
+5. Identify (see zooplankton identification guide) using backlit microscope and count with multiple-tally counter.
+            i. Set magnification so that you can see both top and bottom walls of the tray.
+            ii. Change focus depth to check for floating zooplankton that must be counted, too!
+6. Pipette sample back into Nalgene bottle, add water to 50mL, add 8 drops Lugol’s solution, and return to fridge
+Subsampling
+If homogenized original sample contains more than 500 individuals in the first line of counting tray, you may subsample under the following procedure.
+1. Return original sample to Nalgene bottle and add water to 50mL
+2. Homogenize sample by swirling Nalgene bottle
+3. Collect 10mL of zooplankton sample with Hensen-Stempel pipette
+4. Empty contents of Hensen-Stempel pipette into large Bogorov tray
+5. Homogenize sample in tray with forceps or plastic pipette with tip cut off
+6. Identify (see zooplankton identification guide) using backlit microscope and count with multiple-tally counter.
+            i. Set magnification so that you can see both top and bottom walls of the tray.
+            ii. Change focus depth to check for floating zooplankton that must be counted, too!
+ 
+7. Pipette sample back into Nalgene bottle, add water to 50mL, add 8 drops Lugol’s solution, and return to fridge
+Chironomid Counts (2012, 2013)
+For first instar chironomids in top 1.5cm of sediment only (5 samples)
+1. Use sink hose to sieve sediment through 63 micrometer mesh. You may use moderate pressure to break up tubes.
+2. Back flush sieve contents into small deli container.
+3. Return label to deli cup (sticking to underside of lid works well).
+For later instar chironomids in the section 1.5-11.5cm (5 samples)
+4. Sieve with 125 micrometer mesh in the field.
+5. Sieve through 125micrometer mesh again in lab to reduce volume of sample.
+6. Transfer sample to deli container or pitfall counting tray.
+For all chironomid samples
+7. Under dissecting scope, pick through sieved contents for midge larvae. You may have to open tubes with forceps in order to check for larvae inside.
+8. Remove larvae with forceps while counting, and place into a vial containing 70 percent ethanol. Larvae will eventually be sorted into taxonomic groups (see key). You may sort them into taxonomic groups as you pick the larvae, or you can identify the larvae while measuring head capsules if chironomid densities are low (under 50 individuals per taxanomic group).
+9. For a random sample of up to 50 individuals of each taxonomic group, measure head capsule, see Chironomid size (head capsule width).
+10. Archive samples from each sampling date together in a single 20mL glass vial with screw cap in 70 percent ethanol and label with sample contents , Chir, sample date, lake ID, station ID, and number of cores.
+Chironomid Cound (2014)
+In 2014, the method for sampling chironomid larvae changed starting with the sample on 2014-06-27; the variable "top_bottom" is coded as a 2. In contrast to previous measurements, the top and bottom core samples were combined and then subsampled. Below is the pertinent section of the protocols.
+Chironomid samples should be counted within 24 hours of collection. This ensures that larvae are as active and easily identified as possible, and also prevents predatory chironomids from consuming other larvae. Samples should be refrigerated upon returning from the field.
+For first instar chironomids in top 1.5cm of sediment only (5 samples)
+1. Use sink hose to sieve sediment through 63µm mesh. You may use moderate pressure to break up tubes.
+2. Back flush sieve contents using a water bottle into small deli container.
+3. Return label to deli cup (sticking to underside of lid works well).
+For larger instar chironomids in the section 1.5-11.5cm (5 samples)
+4. Sieve with 125µm mesh in the field.
+5. Sieve through 125µm mesh again in lab to reduce volume of sample and break up tubes.
+6. Transfer sample to deli container with the appropriate label.
+Subsample if necessary
+If necessary, subsample with the following protocol.
+a. Combine top and bottom samples from each core (1-5) in midge sample splitter.
+b. Homogenize sample thoroughly, collect one half in deli container, and label container with core number and “1/2”
+c. If necessary, split the half that remains in the sampler into quarters, and collect each in deli containers labeled with core number, “1/4”,  and replicate 1 or 2
+d. Store all deli containers in fridge until counted, and save until all counting is complete"
+ 
+Chironomid Size (head capsule width)
+1. Obtain picked samples preserved in ethanol and empty onto petri dish.
+2. Sort larvae by family groups, arranging in same orientation for easy measurment.
+3. Set magnification to 20, diopter, x 50 times
+4. Take measurments for up to 50 or more individuals of each taxa. Round to nearest optical micrometer unit.
+5. Fill out data sheet for number of larvae in each taxa, Chironomid measurements for each taxa, date of sample, station sample was taken from, which core the sample came from, who picked the core, and your name as the measurer.
+6. Enter data into shared sheet
+See "Chironomid Counts" for changes in sampling chironomid larvae in 2014.
+</para>
+          </section>
+          <section>
+            <para>Emergence Traps:
+SETUP
+	1. Locate emergence trap site with GPS. Identify safe boating routes using bathymetric map.
+	2. Deploy one emergence trap, one anchor at a time, with enough distance between anchors so the lines are at approximately 45degree angles and taught, while still keeping the buoyabovethe lakes surface
+	3. Screw mason jar into plastic ring and slowly push trap vertically down into the water until it begins to sink on its own accord.
+	timestimesMake sure the trap hangs straight under the buoy without crossing an anchor line
+	4. Deploy second emergence trap approximately 4-5m from first emergence trap.
+	Ideally, one should be able to drop anchor between the traps and collect both traps from the same position on different sides of the boat
+	IN FIELD
+	1. Drop anchor close enough to traps so that the grapple can reach the buoy
+	2. Carefully and slowly pull buoy towards boat, and slowly pull trap STRAIGHT up
+	3. Person-1 holds trap by Mason jar and lower rim of cone, and deftly breaks the waters surface, tilting toward person-2 and continuing in one fluid motion until the trap is inverted
+	4. AT THE SAME TIME, person-2 thrusts arm into emergence trap cone (underwater) with Árni scoop net to retrieve any escaped chironomids
+	5. Chironomids not caught by first scoop net attempt, and seen floating nearby may be collected with Árni net
+	6. Empty Mason jar chironomids into plastic collection cup with paper label for trap, using water squeeze bottle to rinse out any clinging to metal ring
+	7. Evert scoop net, and use water squeeze to bottle to rinse chironomids into plastic collection cup
+	8. Reset emergence trap anchors if necessary
+	IN LAB
+	Chironomids from emergence traps must be counted within 24 hours of collection and stored in the refrigerator. To ensure that each chironomid is only counted once, count the head of individuals. Take care not to count exuviae (molted exoskeletons of emerging chironomids) as emerged adults.
+	1. Pour sample into white counting tray
+	2. Count sample, separating into big chironomids, small chironomids, and simuliids
+	3. Record counts on emergence trap data sheet
+	4. Discard sample after counts are recorded
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>LTREB: High-amplitude midge fluctuations and the ecosystem dynamics of Lake Myvatn, Iceland</title>
+      <personnel>
+        <individualName>
+          <givenName>Arni</givenName>
+          <surName>Einarsson</surName>
+        </individualName>
+        <organizationName>University of Iceland</organizationName>
+        <address>
+          <deliveryPoint>Sturlugata 7</deliveryPoint>
+          <city>Reykjavik</city>
+          <postalCode>101</postalCode>
+          <country>Iceland</country>
+        </address>
+        <phone phonetype="voice">(354) 892-4281</phone>
+        <electronicMailAddress>arnie@hi.is</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Claudio</givenName>
+          <surName>Gratton</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+          <deliveryPoint>1630 Linden Dr</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(608) 265-3762</phone>
+        <electronicMailAddress>cgratton@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Anthony</givenName>
+          <surName>Ives</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+          <deliveryPoint>430 Lincoln Dr.</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(608) 262-1519</phone>
+        <electronicMailAddress>arives@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Randy</givenName>
+          <surName>Jackson</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+          <deliveryPoint>1575 Linden Dr</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(608) 261-1480</phone>
+        <electronicMailAddress>rdjackson@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Phil</givenName>
+          <surName>Townsend</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+          <deliveryPoint>1630 Linden Dr</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(608) 262-1669</phone>
+        <electronicMailAddress>ptownsend@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Jake</givenName>
+          <surName>Vander Zanden</surName>
+        </individualName>
+        <organizationName>University of Wisconsin</organizationName>
+        <address>
+          <deliveryPoint>680 North Park Street</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(608) 262-9464</phone>
+        <phone phonetype="fax">(608) 265-2340</phone>
+        <electronicMailAddress>mjvanderzand@wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <abstract>
+        <para>People in general, and ecologists in particular, are fascinated by species that show extreme fluctuations in abundance. This study investigates midges in Lake Myvatn, Iceland, and why their abundance fluctuates over 5 orders of magnitude in irregular cycles lasting 4-7 years. Juvenile midges feed on algae at the bottom of the lake, and 10-year-long experiments (encompassing a full peak-to-peak midge cycle) will test the hypothesis that the extreme midge fluctuations are caused when they consume all the algae. The research will also investigate the consequences of the midge cycles. During high midge years, over 300 metric tons of midges are deposited in the surrounding heathland, providing food for predators and nutrients (in the form of rotting carcasses) for plants. This provides a natural experiment to test hypotheses about how the lake and shoreline ecosystems are put together by observing how the pulses of midges ramify through the ecosystem networks.
+</para>
+      </abstract>
+    </project>
+    <dataTable>
+      <entityName>ltreb_iceland_benthic_chl.csv</entityName>
+      <entityDescription>Benthic chlorophyll a collected at Lake Myvatn. Includes variables related to the field collection and chemical analysis of chlorophyll a, corrected for pheaophytin. The concentration of pheaophytin is also included. </entityDescription>
+      <physical>
+        <objectName>ltrebicelandbenthicchl.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/f91f09de1e1def13dcc495d2d6ec9224</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>benthic_pelagic</attributeName>
+          <attributeLabel>benthic or pelagic sample</attributeLabel>
+          <attributeDefinition>benthic sample =0, pelagic sample=1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>benthic sample =0, pelagic sample=1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>read42</attributeName>
+          <attributeLabel>read on the 42 secondary solid standard</attributeLabel>
+          <attributeDefinition>read on the 42 secondary solid standard</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>read on the 42 secondary solid standard</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>read230</attributeName>
+          <attributeLabel>read on the 230 secondary solid standard</attributeLabel>
+          <attributeDefinition>read on the 230 secondary solid standard</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>read on the 230 secondary solid standard</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coreid</attributeName>
+          <attributeLabel>core id</attributeLabel>
+          <attributeDefinition>core id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>core id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>core_depth</attributeName>
+          <attributeLabel>depth of core sample</attributeLabel>
+          <attributeDefinition>depth of core sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_tot</attributeName>
+          <attributeLabel>total volume of the initial sample</attributeLabel>
+          <attributeDefinition>total volume of the initial sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_sampled</attributeName>
+          <attributeLabel>volume of material sampled</attributeLabel>
+          <attributeDefinition>volume of material sampled</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_filter</attributeName>
+          <attributeLabel>volume filtered</attributeLabel>
+          <attributeDefinition>volume filtered</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_met</attributeName>
+          <attributeLabel>volume methanol added</attributeLabel>
+          <attributeDefinition>volume methanol added</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>extracted_vol</attributeName>
+          <attributeLabel>volume of sample used in fluorometer after dilution</attributeLabel>
+          <attributeDefinition>volume of sample used in fluorometer after dilution</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_met_dilu</attributeName>
+          <attributeLabel>methanol dilution of initial sample</attributeLabel>
+          <attributeDefinition>methanol dilution of initial sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>met_time</attributeName>
+          <attributeLabel>duration of methanol extraction</attributeLabel>
+          <attributeDefinition>duration of methanol extraction</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalHours</customUnit>
+              </unit>
+              <precision>0.5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>reading_pre</attributeName>
+          <attributeLabel>fluorometer reading before acidification</attributeLabel>
+          <attributeDefinition>fluorometer reading before acidification</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>reading_post</attributeName>
+          <attributeLabel>fluorometer reading after acidification</attributeLabel>
+          <attributeDefinition>fluorometer reading after acidification</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>uncorchl_ugcm2</attributeName>
+          <attributeLabel>uncorrected chlorophyll a</attributeLabel>
+          <attributeDefinition>uncorrected chlorophyll a concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerSquareCentimeters</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pheo_ugcm2</attributeName>
+          <attributeLabel>pheaophytin concentration for sample</attributeLabel>
+          <attributeDefinition>pheaophytin concentration for sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerSquareCentimeters</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chl_ugcm2</attributeName>
+          <attributeLabel>pheaophytin corrected chlorophyll a for sample</attributeLabel>
+          <attributeDefinition>chlorophyll a corrected for pheaophytin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerSquareCentimeters</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>uncorchl_ugl</attributeName>
+          <attributeLabel>uncorrected chlorophyll a</attributeLabel>
+          <attributeDefinition>uncorrected chlorophyll a concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pheo_ugl</attributeName>
+          <attributeLabel>pheaophytin concentration for sample</attributeLabel>
+          <attributeDefinition>pheaophytin concentration for sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chl_ugl</attributeName>
+          <attributeLabel>chlorophyll a concentration corrected for pheaophytin</attributeLabel>
+          <attributeDefinition>chlorophyll a concentration corrected for pheaophytin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_pelagic_chl</entityName>
+      <entityDescription>Pelagic chlorophyll a collected at Lake Myvatn. Includes variables related to the field collection and chemical analysis of chlorophyll a, corrected for pheaophytin. The concentration of pheaophytin is also included. </entityDescription>
+      <physical>
+        <objectName>ltrebpelagicchl</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/2432e663ffab9a0203b6ef5bf63cf788</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <singleDateTime>
+            <calendarDate>2012-06-08</calendarDate>
+          </singleDateTime>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>benthic_pelagic</attributeName>
+          <attributeLabel>benthic or pelagic sample</attributeLabel>
+          <attributeDefinition>benthic sample =0, pelagic sample=1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>benthic sample =0, pelagic sample=1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>read42</attributeName>
+          <attributeLabel>read on the 42 secondary solid standard</attributeLabel>
+          <attributeDefinition>read on the 42 secondary solid standard</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>read on the 42 secondary solid standard</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>read230</attributeName>
+          <attributeLabel>read on the 230 secondary solid standard</attributeLabel>
+          <attributeDefinition>read on the 230 secondary solid standard</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>read on the 230 secondary solid standard</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coreid</attributeName>
+          <attributeLabel>core id</attributeLabel>
+          <attributeDefinition>core id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>core id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_filter</attributeName>
+          <attributeLabel>volume filtered</attributeLabel>
+          <attributeDefinition>volume filtered</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_met</attributeName>
+          <attributeLabel>volume of methanol added</attributeLabel>
+          <attributeDefinition>volume of methanol added</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>extracted_vol</attributeName>
+          <attributeLabel>volume of sample used in fluorometer after dilution</attributeLabel>
+          <attributeDefinition>volume of sample used in fluorometer after dilution</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_met_dilu</attributeName>
+          <attributeLabel>methanol dilution of initial sample</attributeLabel>
+          <attributeDefinition>methanol dilution of initial sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>met_time</attributeName>
+          <attributeLabel>duration of methanol extraction</attributeLabel>
+          <attributeDefinition>duration of methanol extraction</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalHours</customUnit>
+              </unit>
+              <precision>0.5</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>reading_pre</attributeName>
+          <attributeLabel>fluorometer reading before acidification</attributeLabel>
+          <attributeDefinition>fluorometer reading before acidification</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>reading_post</attributeName>
+          <attributeLabel>fluorometer reading after acidification</attributeLabel>
+          <attributeDefinition>fluorometer reading after acidification</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>uncorchl_ugl</attributeName>
+          <attributeLabel>uncorrected chlorophyll a</attributeLabel>
+          <attributeDefinition>uncorrected chlorophyll a concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pheo_ugl</attributeName>
+          <attributeLabel>pheaophytin concentration for sample</attributeLabel>
+          <attributeDefinition>pheaophytin concentration for sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chl_ugl</attributeName>
+          <attributeLabel>chlorophyll a concentration corrected for pheaophytin</attributeLabel>
+          <attributeDefinition>chlorophyll a concentration corrected for pheaophytin</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_iceland_pelagic_zooplankton.csv</entityName>
+      <entityDescription>Zooplankton counts from the pelagic zone of Lake Myvatn. </entityDescription>
+      <physical>
+        <objectName>ltrebicelandpelagiczooplankton.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/40baf203a6be2be4d2d15e8609d211d7</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <singleDateTime>
+            <calendarDate>2012-06-08</calendarDate>
+          </singleDateTime>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleid</attributeName>
+          <attributeLabel>sample id</attributeLabel>
+          <attributeDefinition>sample id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_tot</attributeName>
+          <attributeLabel>total volume of the initial sample</attributeLabel>
+          <attributeDefinition>total volume of the initial sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_count</attributeName>
+          <attributeLabel>volume of sample counted</attributeLabel>
+          <attributeDefinition>volume of sample counted</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fract_count</attributeName>
+          <attributeLabel>fraction of total sample counted </attributeLabel>
+          <attributeDefinition>fraction of total sample counted </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>fraction of total sample counted </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>benthic_pelagic</attributeName>
+          <attributeLabel>benthic or pelagic sample</attributeLabel>
+          <attributeDefinition>benthic sample =0, pelagic sample=1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>benthic sample =0, pelagic sample=1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>aspl</attributeName>
+          <attributeLabel>asplanchna (rotifer) count</attributeLabel>
+          <attributeDefinition>asplanchna (rotifer) count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>asplanchna (rotifer) count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>naup</attributeName>
+          <attributeLabel>nauplii count</attributeLabel>
+          <attributeDefinition>nauplii count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>nauplii count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cycl</attributeName>
+          <attributeLabel>cyclops count</attributeLabel>
+          <attributeDefinition>cyclops count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>cyclops count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dalo</attributeName>
+          <attributeLabel>Daphnia_longispina count</attributeLabel>
+          <attributeDefinition>Daphnia_longispina count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Daphnia_longispina count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>eula</attributeName>
+          <attributeLabel>Eurycercus_lamellatus count</attributeLabel>
+          <attributeDefinition>Eurycercus_lamellatus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Eurycercus_lamellatus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chsp</attributeName>
+          <attributeLabel>Chydorus_sphaericus count</attributeLabel>
+          <attributeDefinition>Chydorus_sphaericus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Chydorus_sphaericus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alsp</attributeName>
+          <attributeLabel>Alona spp including affinis, quadrangularis and rectangula count</attributeLabel>
+          <attributeDefinition>Alona spp including affinis, quadrangularis and rectangula count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alona spp including affinis, quadrangularis and rectangula count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>acha</attributeName>
+          <attributeLabel>Acroperus_harpae count</attributeLabel>
+          <attributeDefinition>Acroperus_harpae count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Acroperus_harpae count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mahi</attributeName>
+          <attributeLabel>Macrothrix_hirsuticornis count</attributeLabel>
+          <attributeDefinition>Macrothrix_hirsuticornis count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Macrothrix_hirsuticornis count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alna</attributeName>
+          <attributeLabel>Alonella_nana count</attributeLabel>
+          <attributeDefinition>Alonella_nana count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alonella_nana count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>grte</attributeName>
+          <attributeLabel>Graptoleberis_testudinaria count</attributeLabel>
+          <attributeDefinition>Graptoleberis_testudinaria count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Graptoleberis_testudinaria count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sive</attributeName>
+          <attributeLabel>Simocephalus_vetulus count</attributeLabel>
+          <attributeDefinition>Simocephalus_vetulus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Simocephalus_vetulus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_benthic_microcrustaceans</entityName>
+      <entityDescription>Microcrustacean counts from samples collected at Lake Myvatn.</entityDescription>
+      <physical>
+        <objectName>ltrebbenthicmicrocrustaceans</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/86b46f91c7e46ec02f9ea675bb77b18d</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <singleDateTime>
+            <calendarDate>2012-06-08</calendarDate>
+          </singleDateTime>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>hours_out</attributeName>
+          <attributeLabel>time benthic sampler in lake</attributeLabel>
+          <attributeDefinition>hours benthic sampler in lake</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nominalHours</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleid</attributeName>
+          <attributeLabel>sample id</attributeLabel>
+          <attributeDefinition>sample id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_tot</attributeName>
+          <attributeLabel>total volume of the initial sample</attributeLabel>
+          <attributeDefinition>total volume of the initial sample</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cup_no</attributeName>
+          <attributeLabel>number of cups in benthic sampler</attributeLabel>
+          <attributeDefinition>number of cups in benthic sampler</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>number of cups in benthic sampler</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cup_area</attributeName>
+          <attributeLabel>total area of cups </attributeLabel>
+          <attributeDefinition>total area of cups (each cup has area 0.0045364588 meterSquared)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <precision>0.000001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_dilu</attributeName>
+          <attributeDefinition>volume used for dilution</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vol_count</attributeName>
+          <attributeLabel>volume of sample counted</attributeLabel>
+          <attributeDefinition>volume of sample counted</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fract_count</attributeName>
+          <attributeLabel>fraction of total sample counted </attributeLabel>
+          <attributeDefinition>fraction of total sample counted </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>fraction of total sample counted </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>benthic_pelagic</attributeName>
+          <attributeLabel>benthic or pelagic sample</attributeLabel>
+          <attributeDefinition>benthic sample =0, pelagic sample=1</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>benthic sample =0, pelagic sample=1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>aspl</attributeName>
+          <attributeLabel>asplanchna (rotifer) count</attributeLabel>
+          <attributeDefinition>asplanchna (rotifer) count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>asplanchna (rotifer) count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>naup</attributeName>
+          <attributeLabel>nauplii count</attributeLabel>
+          <attributeDefinition>nauplii count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>nauplii count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cycl</attributeName>
+          <attributeLabel>cyclops count</attributeLabel>
+          <attributeDefinition>cyclops count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>cyclops count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dalo</attributeName>
+          <attributeLabel>Daphnia_longispina count</attributeLabel>
+          <attributeDefinition>Daphnia_longispina count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Daphnia_longispina count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>eula</attributeName>
+          <attributeLabel>Eurycercus_lamellatus count</attributeLabel>
+          <attributeDefinition>Eurycercus_lamellatus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Eurycercus_lamellatus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chsp</attributeName>
+          <attributeLabel>Chydorus_sphaericus count</attributeLabel>
+          <attributeDefinition>Chydorus_sphaericus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Chydorus_sphaericus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alsp</attributeName>
+          <attributeLabel>Alona spp including affinis, quadrangularis and rectangula count</attributeLabel>
+          <attributeDefinition>Alona spp including affinis, quadrangularis and rectangula count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alona spp including affinis, quadrangularis and rectangula count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>acha</attributeName>
+          <attributeLabel>Acroperus_harpae count</attributeLabel>
+          <attributeDefinition>Acroperus_harpae count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Acroperus_harpae count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>mahi</attributeName>
+          <attributeLabel>Macrothrix_hirsuticornis count</attributeLabel>
+          <attributeDefinition>Macrothrix_hirsuticornis count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Macrothrix_hirsuticornis count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>alna</attributeName>
+          <attributeLabel>Alonella_nana count</attributeLabel>
+          <attributeDefinition>Alonella_nana count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alonella_nana count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>grte</attributeName>
+          <attributeLabel>Graptoleberis_testudinaria count</attributeLabel>
+          <attributeDefinition>Graptoleberis_testudinaria count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Graptoleberis_testudinaria count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sive</attributeName>
+          <attributeLabel>Simocephalus_vetulus count</attributeLabel>
+          <attributeDefinition>Simocephalus_vetulus count</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Simocephalus_vetulus count</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_chir_counts</entityName>
+      <entityDescription>Chironomid counts from samples collected at Lake Myvatn.</entityDescription>
+      <physical>
+        <objectName>ltrebchircounts</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/92a0bf3d2be85ddb025ac511d2e7c715</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <singleDateTime>
+            <calendarDate>2012-06-08</calendarDate>
+          </singleDateTime>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleid</attributeName>
+          <attributeLabel>sample id</attributeLabel>
+          <attributeDefinition>sample id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coreid</attributeName>
+          <attributeLabel>core id</attributeLabel>
+          <attributeDefinition>core id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>core id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>top_bottom</attributeName>
+          <attributeLabel>top or bottom sampled</attributeLabel>
+          <attributeDefinition>Indicates whether the count is from the top or bottom of the core. top (1.5 cm = 0) and bottom (1.5-11.5 cm = 1)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicates whether the count is from the top or bottom of the core. top (1.5 cm = 0) and bottom (1.5-11.5 cm = 1)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fract_count</attributeName>
+          <attributeLabel>fraction of total sample counted </attributeLabel>
+          <attributeDefinition>fraction of total sample counted </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>fraction of total sample counted </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tanyt</attributeName>
+          <attributeLabel>Tanytarsini counts</attributeLabel>
+          <attributeDefinition>Tanytarsini counts</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tanytarsini counts</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>chiro</attributeName>
+          <attributeLabel>Chironomini counts</attributeLabel>
+          <attributeDefinition>Chironomini counts</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Chironomini counts</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tanyp</attributeName>
+          <attributeLabel>Tanypodinae counts</attributeLabel>
+          <attributeDefinition>Tanypodinae counts</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Tanypodinae counts</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ortho</attributeName>
+          <attributeLabel>Orthoclaadinae counts</attributeLabel>
+          <attributeDefinition>Orthoclaadinae counts</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Orthoclaadinae counts</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pupae</attributeName>
+          <attributeLabel>pupae</attributeLabel>
+          <attributeDefinition>pupae counts, not identified to species</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>pupae counts, not identified to species</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_chir_measurements</entityName>
+      <entityDescription>Chironomid head sizes for different species collected at Lake Myvatn. </entityDescription>
+      <physical>
+        <objectName>ltrebchirmeasurements</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/a2e5e31a7509bb1cbc8b3dada78426d3</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <singleDateTime>
+            <calendarDate>2012-06-08</calendarDate>
+          </singleDateTime>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sta</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station at which sample or observation was collected/made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station at which sample or observation was collected/made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date </attributeLabel>
+          <attributeDefinition>date sample was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeLabel>analysis date</attributeLabel>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampleid</attributeName>
+          <attributeLabel>sample id</attributeLabel>
+          <attributeDefinition>sample id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coreid</attributeName>
+          <attributeLabel>core id</attributeLabel>
+          <attributeDefinition>core id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>core id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>top_bottom</attributeName>
+          <attributeLabel>top or bottom sampled</attributeLabel>
+          <attributeDefinition>Indicates whether the count is from the top or bottom of the core. top (1.5 cm = 0) and bottom (1.5-11.5 cm = 1)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicates whether the count is from the top or bottom of the core. top (1.5 cm = 0) and bottom (1.5-11.5 cm = 1)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_name</attributeName>
+          <attributeLabel>species name</attributeLabel>
+          <attributeDefinition>the name of the chironomid  species (tp=Tanypodinae, ch=Chironomini, tt=Tanytarsini, or=Orthocladiinae)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>tp</code>
+                    <definition>Tanypodinae</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ch</code>
+                    <definition>Chironomini</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>tt</code>
+                    <definition>Tanytarsini</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>or</code>
+                    <definition>Orthocladiinae</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>head_size</attributeName>
+          <attributeLabel>head size</attributeLabel>
+          <attributeDefinition>the head size of the chironomid spp. </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ocularMicrometerUnits</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>micrometer_units</attributeName>
+          <attributeLabel>ocular micrometer units in mm</attributeLabel>
+          <attributeDefinition>ocular micrometer units in mm</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_iceland_emergence_trap_locations</entityName>
+      <entityDescription>EMERGENCE TRAP SITES UTM, ZONE 28</entityDescription>
+      <physical>
+        <objectName>ltrebicelandemergencetraplocations</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/a7dd3a69cb0bdb96487b270d2aaa1fa2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>site id linking to site location file</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site id linking to site location file</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>latitude</attributeName>
+          <attributeDefinition>UTM, ZONE 28</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>longitude</attributeName>
+          <attributeDefinition>UTM, ZONE 28</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meters</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>ltreb_iceland_emergence_trap</entityName>
+      <entityDescription>Emergence traps measure the quantity of emerging chironomids at 6 sites throughout Lake Myvatn. Traps are neutrally buoyant and located approximately 1m under the surface of the lake. They collect chironomid pupae in an air-filled jar as they attempt to emerge from the lake. Samples are collected every two weeks in years with low midge abundance, and more frequently in years with high abundance.</entityDescription>
+      <physical>
+        <objectName>ltrebicelandemergencetrap</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/296/2/c02d89a08a380d4fa4a90edeb3c0f546</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake id</attributeLabel>
+          <attributeDefinition>ltreb lakeid, lake which is sampled</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>myv</code>
+                    <definition>Myvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>hel</code>
+                    <definition>Helluvathstjorn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vik</code>
+                    <definition>Vikingsvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ves</code>
+                    <definition>Vestmansvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mik</code>
+                    <definition>Miklavatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mas</code>
+                    <definition>Masvatn</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>bot</code>
+                    <definition>Botnsvatn</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>site</attributeName>
+          <attributeDefinition>site id linking to site location file</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>site id linking to site location file</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap</attributeName>
+          <attributeDefinition>trap id within site</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>trap id within site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>setdate</attributeName>
+          <attributeDefinition>date trap was set</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>coldate</attributeName>
+          <attributeDefinition>date trap was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>andate</attributeName>
+          <attributeDefinition>date of analysis</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>daysout</attributeName>
+          <attributeDefinition>number of days trap was collecting</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trayweight</attributeName>
+          <attributeLabel>tray weight</attributeLabel>
+          <attributeDefinition>weight of the tray</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dw_tray</attributeName>
+          <attributeLabel>dry weight including tray</attributeLabel>
+          <attributeDefinition>dry weight including tray</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dw</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>dry weight</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligram</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>bgch</attributeName>
+          <attributeDefinition>big chironomid count</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>smch</attributeName>
+          <attributeDefinition>small chironomid count</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>simu</attributeName>
+          <attributeDefinition>simuliid count</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeLabel>comments</attributeLabel>
+          <attributeDefinition>comments</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="nominalHours"/>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="microgramPerSquareCentimeters"/>
+        <stmml:unit id="ocularMicrometerUnits"/>
+        <stmml:unit abbreviation="" id="meters" name="meters" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

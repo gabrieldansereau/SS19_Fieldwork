@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.285.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="NTL-DEIMS">33061</alternateIdentifier>
+    <title>Fluxes project at North Temperate Lakes LTER: Spatial Metabolism Study 2007</title>
+    <creator>
+      <individualName>
+        <givenName>Stephen</givenName>
+        <surName>Carpenter</surName>
+      </individualName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(608) 262-3014</phone>
+      <phone phonetype="fax">(608) 265-2340</phone>
+      <electronicMailAddress>srcarpen@wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Van de Bogert</surName>
+      </individualName>
+      <organizationName>NTL LTER</organizationName>
+      <address>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>matthewvandebogert@gmail.com</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>2013</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Data from a lake spatial metabolism study by Matthew C. Van de Bogert for his Phd project, "Aquatic ecosystem carbon cycling: From individual lakes to the landscape." The goal of this study was to capture the spatial heterogeneity of within-lake processes in effort to make robust estimates of daily metabolism metrics such as gross primary production (GPP), respiration (R), and net ecosystem production (NEP). In pursuing this goal, multiple sondes were placed at different locations and depths within two stratified Northern Temperate Lakes, Sparkling Lake (n=35 sondes) and Peter Lake (n=27 sondes), located in the Northern Highlands Lake District of Wisconsin and the Upper Peninsula of Michigan, respectively.Dissolved oxygen and temperature measurements were made every 10 minutes over a 10 day period for each lake in July and August of 2007. Dissolved oxygen measurements were corrected for drift. In addition, conductivity, temperature compensated specific conductivity, pH, and oxidation reduction potential were measured by a subset of sondes in each lake. Two data tables list the spatial information regarding sonde placement in each lake, and a single data table lists information about the sondes (manufacturer, model, serial number etc.). Documentation:Van de Bogert, M.C., 2011. Aquatic ecosystem carbon cycling: From individual lakes to the landscape. ProQuest Dissertations and Theses. The University of Wisconsin - Madison, United States -- Wisconsin, p. 156. Also see Van de Bogert, M.C., Bade, D.L., Carpenter, S.R., Cole, J.J., Pace, M.L., Hanson, P.C., Langman, O.C., 2012. Spatial heterogeneity strongly affects estimates of ecosystem metabolism in two north temperate lakes. Limnology and Oceanography 57, 1689-1700.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>abiotic</keyword>
+      <keyword>advection</keyword>
+      <keyword>air</keyword>
+      <keyword>algae</keyword>
+      <keyword>annual net primary production</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keyword>atmosphere</keyword>
+      <keyword>benthic</keyword>
+      <keyword>biology</keyword>
+      <keyword>biomass</keyword>
+      <keyword>boundaries</keyword>
+      <keyword>carbon</keyword>
+      <keyword>carbon assimilation</keyword>
+      <keyword>carbon cycling</keyword>
+      <keyword>carbon dioxide</keyword>
+      <keyword>carbon fluxes</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>chlorophyll a</keyword>
+      <keyword>climate</keyword>
+      <keyword>conductivity</keyword>
+      <keyword>consumers</keyword>
+      <keyword>dataloggers</keyword>
+      <keyword>depth</keyword>
+      <keyword>dimensions</keyword>
+      <keyword>dissolved oxygen</keyword>
+      <keyword>distance</keyword>
+      <keyword>distribution</keyword>
+      <keyword>ecology</keyword>
+      <keyword>ecosystems</keyword>
+      <keyword>environment</keyword>
+      <keyword>exchange</keyword>
+      <keyword>fluxes</keyword>
+      <keyword>food</keyword>
+      <keyword>food webs</keyword>
+      <keyword>forest ecosystems</keyword>
+      <keyword>forests</keyword>
+      <keyword>frequency</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>gas flux</keyword>
+      <keyword>gases</keyword>
+      <keyword>geographic information systems</keyword>
+      <keyword>global positioning system</keyword>
+      <keyword>gradient</keyword>
+      <keyword>inventories</keyword>
+      <keyword>lake level</keyword>
+      <keyword>lakes</keyword>
+      <keyword>landscape</keyword>
+      <keyword>latitude</keyword>
+      <keyword>long term</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>long term monitoring</keyword>
+      <keyword>longitude</keyword>
+      <keyword>mass balance</keyword>
+      <keyword>metabolism</keyword>
+      <keyword>modeling</keyword>
+      <keyword>models</keyword>
+      <keyword>monitoring</keyword>
+      <keyword>net primary production</keyword>
+      <keyword>net primary productivity</keyword>
+      <keyword>nutrient cycles</keyword>
+      <keyword>oxygen</keyword>
+      <keyword>ph</keyword>
+      <keyword>photosynthesis</keyword>
+      <keyword>physical</keyword>
+      <keyword>primary production</keyword>
+      <keyword>primary productivity</keyword>
+      <keyword>production</keyword>
+      <keyword>productivity</keyword>
+      <keyword>profiles</keyword>
+      <keyword>respiration</keyword>
+      <keyword>respiration rates</keyword>
+      <keyword>sampling</keyword>
+      <keyword>saturation</keyword>
+      <keyword>seasonality</keyword>
+      <keyword>simulation</keyword>
+      <keyword>solar radiation</keyword>
+      <keyword>spatial variability</keyword>
+      <keyword>temperature</keyword>
+      <keyword>terrestrial</keyword>
+      <keyword>trophic dynamics</keyword>
+      <keyword>trophic structure</keyword>
+      <keyword>united states geological survey</keyword>
+      <keyword>water</keyword>
+      <keyword>water chemistry</keyword>
+      <keyword>water column</keyword>
+      <keyword>water temperature</keyword>
+      <keyword>weather</keyword>
+      <keyword>wind</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>dissolved oxygen saturation</keyword>
+      <keyword>DO</keyword>
+      <keyword>field protocol</keyword>
+      <keyword>instrumented buoy</keyword>
+      <keyword>lake characteristics</keyword>
+      <keyword>light extinction</keyword>
+      <keyword>light penetration</keyword>
+      <keyword>littoral sites</keyword>
+      <keyword>littoral zone</keyword>
+      <keyword>long-term change</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>NTL LTER</keyword>
+      <keyword>NTL related project</keyword>
+      <keyword>oxidation-reduction potential</keyword>
+      <keyword>pelagic</keyword>
+      <keyword>percent oxygen saturation</keyword>
+      <keyword>physical limnology</keyword>
+      <keyword>water pH</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+        <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para>
+        <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para>
+        <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para>
+        <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para>
+        <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para>
+        <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.limnology.wisc.edu/node/33061</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Sparkling Lake located in the Northern Highlands Lake District of Wisconsin, and Peter Lake located in the Upper Peninsula of Michigan.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.704</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.502</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.255</northBoundingCoordinate>
+          <southBoundingCoordinate>46.002</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2007-07-12</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2007-08-12</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Information Manager</positionName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Van de Bogert</surName>
+      </individualName>
+      <organizationName>NTL LTER</organizationName>
+      <address>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>matthewvandebogert@gmail.com</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Data were collected from two lakes, Sparkling Lake (46.008, -89.701) and Peter Lake (46.253, -89.504), both located in the northern highlands Lake District of Wisconsin and the Upper Peninsula of Michigan over a 10 day period on each lake in July and August of 2007. Refer to Van de Bogert et al. 2011 for limnological characteristics of the study lakes.Measurements of dissolved oxygen and temperature were made every 10 minutes using multiple sondes dispersed horizontally throughout the mixed-layer in the two lakes (n=35 sondes for Sparkling Lake and n=27 sondes for Peter Lake). Dissolved oxygen measurements were corrected for drift.Conductivity, temperature compensated specific conductivity, pH, and oxidation reduction potential were also measured by a subset of sensors in each lake. Of the 35 sondes in Sparkling Lake, 31 were from YSI Incorporated: 15 of model 600XLM, 14 of model 6920, and 2 of model 6600). The remaining sondes placed in Sparkling Lake were 4 D-Opto sensors, Zebra-Tech, LTD. In Peter Lake, 14 YSI model 6920 and 13 YSI model 600XLM sondes were used.
+Sampling locations were stratified randomly so that a variety of water depths were represented, however, a higher density of sensors were placed in the littoral rather than pelagic zone. See Van de Bogert et al. 2012 for the thermal (stratification) profile of Sparkling Lake and Peter Lake during the period of observation, and for details on how locations were classified as littoral or pelagic. In Sparkling Lake, 11 sensors were placed within the shallowest zone, 12 in the off-shore littoral, and 6 in each of the remaining two zones, for a total of 23 littoral and 12 pelagic sensors. Similarly, 15 sensors were placed in the two littoral zones, and 12 sensors in the pelagic zone.Sensors were randomly assigned locations within each of the zones using rasterized bathymetric maps of the lakes and a random number generator in Matlab. Within each lake, one pelagic sensor was placed at the deep hole which is used for routine-long term sampling.Note that in Sparkling Lake this corresponds to the location of the long-term monitoring buoy. After locations were determined, sensors were randomly assigned to each location with the exception of the four D-Opto sensor is Sparkling Lake, which are a part of larger monitoring buoys used in the NTL-LTER program. One of these was located near the deep hole of the lake while the other three were assigned to random locations along the north shore, south shore and pelagic regions of the lake. Documentation:Van de Bogert, M.C., Bade, D.L., Carpenter, S.R., Cole, J.J., Pace, M.L., Hanson, P.C., Langman, O.C., 2012. Spatial heterogeneity strongly affects estimates of ecosystem metabolism in two north temperate lakes. Limnology and Oceanography 57, 1689-1700.
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>sparkling_peter_spatial_respiration_2007</entityName>
+      <entityDescription>Data from a lake spatial metabolism study by Matthew C. Van de Bogert for his Phd project, "Aquatic ecosystem carbon cycling: From individual lakes to the landscape." The goal of this study was to capture the spatial heterogeneity of within-lake processes in effort to make robust estimates of daily metabolism metrics such as gross primary production (GPP), respiration (R), and net ecosystem production (NEP). In pursuing this goal, multiple sondes were placed at different locations and depths within two stratified Northern Temperate Lakes, Sparkling Lake (n=35 sondes) and Peter Lake (n=27 sondes); located in the Northern Highlands Lake District of Wisconsin and the Upper Peninsula of Michigan, respectively.  Dissolved oxygen and temperature measurements were made every 10 minutes over a 10 day period for each lake in July and August of 2007. Dissolved oxygen measurements were corrected for drift. In addition, conductivity, temperature compensated specific conductivity, pH, and oxidation reduction potential were measured by a subset of sondes in each lake.</entityDescription>
+      <physical>
+        <objectName>sparkling_peter_spatial_respiration_2007.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/285/1/84e88521b14cb9bfaa5ccb713c934a12</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Sparkling Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 64 hectare, 4.3 kilometers of moderately developed shoreline and a maximum depth of 20 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.701183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.701183</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.007733</northBoundingCoordinate>
+            <southBoundingCoordinate>46.007733</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2007-07-12</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2007-08-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sampledate</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy-MM-dd</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_time</attributeName>
+          <attributeLabel>sample time</attributeLabel>
+          <attributeDefinition>time of day at which the sample was taken</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sonde_id</attributeName>
+          <attributeLabel>sonde identifier </attributeLabel>
+          <attributeDefinition>the numeric identifier (1-35) assigned to a particular sonde</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the numeric identifier (1-35) assigned to a particular sonde</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>wtemp</attributeName>
+          <attributeLabel>water temperature</attributeLabel>
+          <attributeDefinition>water temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>do</attributeName>
+          <attributeLabel>dissolved oxygen concentration</attributeLabel>
+          <attributeDefinition>dissolved oxygen concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>o2sat</attributeName>
+          <attributeLabel>percent oxygen saturation</attributeLabel>
+          <attributeDefinition>percent dissolved oxygen saturation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>do_driftadj</attributeName>
+          <attributeLabel>dissolved oxygen adjusted for drift</attributeLabel>
+          <attributeDefinition>dissolved oxygen in milliGramsPerLiter corrected for drift</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>o2sat_driftadj</attributeName>
+          <attributeLabel>percent dissolved oxygen adjusted for drift</attributeLabel>
+          <attributeDefinition>percent dissolved oxygen adjusted for drift</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>perCent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cond</attributeName>
+          <attributeLabel>specific conductance </attributeLabel>
+          <attributeDefinition>specific conductance </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microSiemenPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cond_tempadj</attributeName>
+          <attributeLabel>specific conductivity compensated for temperature</attributeLabel>
+          <attributeDefinition>specific conductivity compensated for temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microSiemenPerCentimeter</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ph</attributeName>
+          <attributeLabel>pH</attributeLabel>
+          <attributeDefinition>pH</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>pH</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>orp</attributeName>
+          <attributeLabel>orp</attributeLabel>
+          <attributeDefinition>oxidation-reduction potential</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millivolt</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>sonde_characteristics</entityName>
+      <entityDescription>The characteristics of the sondes which were placed in Sparkling and Peter Lake in July to August 2007. Characteristics include the assigned numeric sonde identifier, the sonde model, oxygen sensor type, serial number, and the source which provided the sonde.</entityDescription>
+      <physical>
+        <objectName>sonde_characteristics.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/285/1/60a11e7a666851bfdb821a1c974b2ccf</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Sparkling Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 64 hectare, 4.3 kilometers of moderately developed shoreline and a maximum depth of 20 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.701183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.701183</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.007733</northBoundingCoordinate>
+            <southBoundingCoordinate>46.007733</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2007-07-12</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2007-08-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sonde_id</attributeName>
+          <attributeLabel>sonde identifier </attributeLabel>
+          <attributeDefinition>the numeric identifier (1-35) assigned to a particular sonde</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the numeric identifier (1-35) assigned to a particular sonde</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sonde_manufac</attributeName>
+          <attributeLabel>sonde manufacturer</attributeLabel>
+          <attributeDefinition>sonde manufacturer either YSI Incorporated (ysi) or D-Opto (d_opto). </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sonde manufacturer either YSI Incorporated (ysi) or D-Opto (d_opto). </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sonde_model</attributeName>
+          <attributeLabel>sonde model</attributeLabel>
+          <attributeDefinition>model number of the sonde</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>model number of the sonde</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>o2sensor_type</attributeName>
+          <attributeLabel>sonde oxygen sensor type</attributeLabel>
+          <attributeDefinition>type of oxygen sensor associated with a particular sonde: Rapid Pulse Clark-Type (rapid pulse clarktype), YSI optical (rox optical), or D-Opto optical (optical). </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of oxygen sensor associated with a particular sonde: Rapid Pulse Clark-Type (rapid pulse clarktype), YSI optical (rox optical), or D-Opto optical (optical). </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sonde_serial</attributeName>
+          <attributeLabel>sonde serial number</attributeLabel>
+          <attributeDefinition>serial number of the sensor</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>serial number of the sensor</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sonde_source</attributeName>
+          <attributeLabel>sonde source</attributeLabel>
+          <attributeDefinition>the organization or institution which provided the sonde, the source from whom the sonde was borrowed for this study. Either the Cascade Research Group (cascade), USGS (usgs), Kent State (kentstate), or the University of Wisconsin-Madison (uwtroutlake, uwbuoy)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the organization or institution which provided the sonde, the source from whom the sonde was borrowed for this study. Either the Cascade Research Group (cascade), USGS (usgs), Kent State (kentstate), or the University of Wisconsin-Madison (uwtroutlake, uwbuoy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>sonde_locations</entityName>
+      <entityDescription>Spatial information regarding the placement of sondes on Sparkling and Peter lakes. Includes the numeric sonde identifier, latitude in decimal, longitude in decimal, and the depth at which the sonde was placed.</entityDescription>
+      <physical>
+        <objectName>sonde_locations.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/285/1/614d3242f59c1d20203e7cdce942231f</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Sparkling Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 64 hectare, 4.3 kilometers of moderately developed shoreline and a maximum depth of 20 meters.
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.701183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.701183</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.007733</northBoundingCoordinate>
+            <southBoundingCoordinate>46.007733</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2007-07-12</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2007-08-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>sonde_id</attributeName>
+          <attributeLabel>sonde identifier </attributeLabel>
+          <attributeDefinition>the numeric identifier (1-35) assigned to a particular sonde</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>the numeric identifier (1-35) assigned to a particular sonde</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lakename</attributeName>
+          <attributeLabel>lake name</attributeLabel>
+          <attributeDefinition>lake name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>lake name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lat_decimal</attributeName>
+          <attributeLabel>latitude decimal</attributeLabel>
+          <attributeDefinition>latitude decimal</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>long_decimal</attributeName>
+          <attributeLabel>longitude decimal</attributeLabel>
+          <attributeDefinition>longitude decimal</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sondedepth</attributeName>
+          <attributeLabel>sonde depth</attributeLabel>
+          <attributeDefinition>water depth at the sensor location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>0.0001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="mg/l" constantToSI="0"
+          id="milligramPerLiter" multiplierToSI="0.001"
+          name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>milligrams / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="perCent"/>
+        <stmml:unit abbreviation="uS/cm" constantToSI="0"
+          id="microSiemenPerCentimeter" multiplierToSI="0.0001"
+          name="microSiemenPerCentimeter" parentSI="siemenPerMeter" unitType="conductivityPerLength">
+          <stmml:description>conductivity unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="pH" id="pH" name="pH" unitType="">
+          <stmml:description>pH</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

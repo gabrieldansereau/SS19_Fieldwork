@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-cwt.4064.13"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://gce-lter.marsci.uga.edu/public/files/schemas/eml-210/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>knb-lter-cwt.4064.1.1</alternateIdentifier>
+    <title>Patch occupancy of stream fauna across a land cover gradient in the southern Appalachians, USA</title>
+    <creator id="CWT-LTER">
+      <organizationName>Coweeta Long Term Ecological Research Program</organizationName>
+      <address>
+        <deliveryPoint>Daniel B. Warnell School of Forestry and Natural Resources</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+      <onlineUrl>http://coweeta.uga.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Frisch</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <address/>
+      <electronicMailAddress>jrfrisch@uga.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <references>CWT-LTER</references>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Kristen</givenName>
+        <surName>Cecala</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>cecalak@warnell.uga.edu</electronicMailAddress>
+      <role>PI</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Lynsey</givenName>
+        <surName>Long</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>longs@warnell.uga.edu</electronicMailAddress>
+      <role>PI</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Catherine</givenName>
+        <surName>Pringle</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>cpringle@uga.edu</electronicMailAddress>
+      <role>PI</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Maerz</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>jcmaerz@uga.edu</electronicMailAddress>
+      <role>PI</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>C.</givenName>
+        <givenName>Rhett</givenName>
+        <surName>Jackson</surName>
+      </individualName>
+      <organizationName>University of Georgia</organizationName>
+      <electronicMailAddress>rjackson@warnell.uga.edu</electronicMailAddress>
+      <role>PI</role>
+    </associatedParty>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <para>Field sampling of four functionally important focal stream consumers within the Little Tennessee River Basin took place in thirty-seven stream reaches between May - July 2009. Sampled reaches all drained an area less than 17 km2, and land cover varied among these reaches. This data was used to model patch occupancy to examine factors that best predicted the prevalence of the four groups.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">crayfish</keyword>
+      <keyword keywordType="theme">CWT</keyword>
+      <keyword keywordType="theme">forest</keyword>
+      <keyword keywordType="theme">habitat</keyword>
+      <keyword keywordType="theme">Little Tennessee River Basin</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keyword keywordType="theme">mottled sculpin</keyword>
+      <keyword keywordType="theme">North Carolina</keyword>
+      <keyword keywordType="theme">Occupancy Model</keyword>
+      <keyword keywordType="theme">Otto</keyword>
+      <keyword keywordType="theme">population studies</keyword>
+      <keyword keywordType="theme">presence</keyword>
+      <keyword keywordType="theme">Tallaperla</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="place">Coweeta Hydrologic Laboratory</keyword>
+      <keyword keywordType="place">North Carolina</keyword>
+      <keyword keywordType="place">USA</keyword>
+      <keyword keywordType="theme">CWT</keyword>
+      <keyword keywordType="theme">LTER</keyword>
+      <keywordThesaurus>GCE-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">snails</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Population Dynamics</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>not specified</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://coweeta.uga.edu/dbpublic/dataset_details.asp?accession=4064</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Overall bounding box describing the geographic region within the Coweeta LTER study domain represented in data set 4064, based on the maximum geographic extents of all site polygons referenced in the data set</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.581051</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.142673</eastBoundingCoordinate>
+          <northBoundingCoordinate>35.343160</northBoundingCoordinate>
+          <southBoundingCoordinate>34.903654</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2009-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2009-07-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Coweeta LTER Information Manager</positionName>
+      <address>
+        <deliveryPoint>Department of Anthropology</deliveryPoint>
+        <deliveryPoint>University of Georgia</deliveryPoint>
+        <city>Athens</city>
+        <administrativeArea>Georgia</administrativeArea>
+        <postalCode>30602-1619</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>cwtim@uga.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <references>CWT-LTER</references>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Occupancy sampling</title>
+            <para>Occupancy sampling was conducted. First, we actively surveyed each patch by turning cover objects and searching leaf litter.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Leaf litter traps</title>
+            <para>Second, we used rectangular leaf litter bags (25 by 40 cm) constructed with 1 cm^2 plastic mesh. At each reach we collected adjacent streamside leaf litter or litter from the nearest upstream source to fill each bag.  One litter bag was placed within each 5 m patch (31 per site) along the stream edge in shallow water and allowed to sit for 48 hours before first sampling.  Litter bags were held in place by using a large piece of cobble as a weight.</para>
+          </section>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <section>
+            <title>Patch Survey, litter bag survey</title>
+            <para>To estimate probabilities of detection and occupancy, we surveyed each patch daily for three consecutive days.  On each day, we actively surveyed the patches and checked leaf litter bags.  We checked leaf-litter bags by placing them in a bin and pouring water through the litter bag before gently agitating the litter bags to dislodge animals.  Water and any dislodged organisms were filtered through a dip-net for increased detection.  On the first and second day, we returned litter bags to the same reach location and returned all organisms into the litter bag. Following sampling on the third day, we removed all litter bags from the reach.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2009-05-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2009-07-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>CWT Study Site ULTRB -- Upper Little Tennessee River Basin, North Carolina, USA.  The Upper Little Tennessee Watershed Basin is a primary focus for The Coweeta LTER's regional ecological and socio-ecological research.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-83.581051</westBoundingCoordinate>
+                <eastBoundingCoordinate>-83.142673</eastBoundingCoordinate>
+                <northBoundingCoordinate>35.343160</northBoundingCoordinate>
+                <southBoundingCoordinate>34.903654</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Patch occupancy of stream fauna</title>
+            <para>There were temporary plots, which were removed after sampling.</para>
+            <para>Field sampling of focal taxa within the Little Tennessee River Basin took place in thirty-seven stream reaches between May and July 2009. Sampled reaches all drained an area less than 17 km^2, and land cover varied among these reaches. For each reach, we designated a 150 m reach generally upstream of any nearby road crossing that was surveyed for focal taxa. In each reach, thirty-one 1 m^2 patches were delineated, each located 5 m upstream from the previous patch. To estimate probabilities of detection and occupancy, we surveyed each patch daily for three consecutive days.</para>
+            <para>Field sampling of focal taxa within the Little Tennessee River Basin took place in thirty-seven stream reaches between May and July 2009. Sampled reaches all drained an area less than 17 km^2, and land cover varied among these reaches. For each reach, we designated a 150 m reach generally upstream of any nearby road crossing that was surveyed for focal taxa. In each reach, thirty-one 1 m^2 patches were delineated, each located 5 m upstream from the previous patch. To estimate probabilities of detection and occupancy, we surveyed each patch daily for three consecutive days.</para>
+          </section>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <referencedEntityId>4064.kml</referencedEntityId>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Coweeta LTER Project VI</title>
+      <personnel>
+        <individualName>
+          <givenName>Ted</givenName>
+          <givenName>L</givenName>
+          <surName>Gragson</surName>
+        </individualName>
+        <role>principalInvestigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>John</givenName>
+          <givenName>F.</givenName>
+          <surName>Chamblee</surName>
+        </individualName>
+        <role>information Manager</role>
+      </personnel>
+      <abstract>
+        <para>Multi-scale process-oriented research is proposed on the consequences to the southernAppalachian socio-ecological system of the interaction between changing climate and landuse. Landscapes in the southeastern U.S. are expected to change profoundly in the next fivedecades as the socioeconomic factors driving the dramatic exurbanization of the past threedecades persist, and the changes to the rates, frequencies, and intensities of importantclimatic factors occur. Climate and land use change will especially impact the rural andquasi-rural lands that still characterize much of southern Appalachia where this research iscentered.The proposed research will extend long-term measurements, field experiments andinterdisciplinary modeling from small watershed studies to regional-scale analyses so as toaccount for increases in resource demand and competition from adjacent and more distantareas. The research focus will be on the provisioning service of water quantity, the regulatingservice of water quality, and the supporting service of maintaining biodiversity. Theoverarching question that guides this research is: How will key ecosystem processes and thefocal ecosystem services of water quantity, water quality, and biodiversity be impacted bythe: (1) transition in land uses from wildland to urban and peri-urban; (2) changes in climate;and (3) interactions between changes in land use and climate including both on-site and off-site feedbacks?</para>
+      </abstract>
+      <funding>
+        <para>This material is based upon work supported by the National Science Foundation under grant numbers DEB-0823293, DEB-9632854 and DEB-0218001. Any opinions, findings, conclusions, or recommendations expressed in the material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>4064</entityName>
+      <entityDescription>Main data table for data set 4064</entityDescription>
+      <physical>
+        <objectName>4064_1_0.TXT</objectName>
+        <size unit="rows"/>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <numPhysicalLinesPerRecord>1</numPhysicalLinesPerRecord>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>\t</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/4064/13/8430b32b5bac908e765df8813d4405c5</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Data file post-processing in the CWT-LTER Information Management Office</para>
+          </description>
+          <subStep>
+            <description>
+              <para>05/09/2016: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: new GCE Data Structure 1.1 created ('newstruct')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 1145 rows imported from ASCII data file '4064_Ed.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 1145 rows imported from ASCII data file '4064_Ed.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 1145 rows imported from ASCII data file '4064_Ed.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 1145 rows imported from ASCII data file '4064_Ed.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 1145 rows imported from ASCII data file '4064_Ed.txt' ('imp_ascii')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 81 metadata fields in file header parsed ('parse_header')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 81 metadata fields in file header parsed ('parse_header')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 81 metadata fields in file header parsed ('parse_header')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 81 metadata fields in file header parsed ('parse_header')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: 81 metadata fields in file header parsed ('parse_header')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: data structure validated ('gce_valid')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: manually edited data set metadata ('ui_editmetadata')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 4 metadata fields ('addmeta')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+          <subStep>
+            <description>
+              <para>05/09/2016: updated 15 metadata fields in the Status, Data sections to reflect attribute metadata ('updatecols')</para>
+            </description>
+          </subStep>
+        </methodStep>
+        <qualityControl>
+          <description>
+            <para>Quality control analysis was performed using the GCE Data Toolbox for MATLAB software. Column data types are validated upon importing the table into MATLAB, and qualifier flags are automatically generated for data values based on QA/QC criteria for each data column pre-defined in metadata templates (e.g. value range checks, sanity checks, pattern checks). Qualifier flags are also assigned to values that are imputed or derived, revised, or otherwise differ from values in the original data submission. A column of coded qualifier flags is generated and included in the data table if flags are assigned to any value in a data column.</para>
+          </description>
+        </qualityControl>
+      </methods>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>Site_Number</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Site_Location</attributeName>
+          <attributeDefinition>Site location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Trap_Number</attributeName>
+          <attributeDefinition>Trap number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Trap number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Presence_Tallaperla_day_1</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of Tallaperla, day 1</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of Tallaperla, day 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Presence_Tallaperla_day_2</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of Tallaperla, day 2</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of Tallaperla, day 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>Presence_Tallaperla_day_3</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of Tallaperla, day 3</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of Tallaperla, day 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>Presence_crayfish_day_1</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of crayfish, day 1</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of crayfish, day 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.8">
+          <attributeName>Presence_crayfish_day_2</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of crayfish, day 2</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of crayfish, day 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.9">
+          <attributeName>Presence_crayfish_day_3</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of crayfish, day 3</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of crayfish, day 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.10">
+          <attributeName>Presence_snails_day_1</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of snails, day 1</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of snails, day 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.11">
+          <attributeName>Presence_snails_day_2</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of snails, day 2</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of snails, day 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.12">
+          <attributeName>Presence_snails_day_3</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of snails, day 3</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of snails, day 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.13">
+          <attributeName>Presence_sculpin_day_1</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of sculpin, day 1</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of sculpin, day 1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.14">
+          <attributeName>Presence_sculpin_day_2</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of sculpin, day 2</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of sculpin, day 2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.15">
+          <attributeName>Presence_sculpin_day_3</attributeName>
+          <attributeDefinition>Presence (1) or absence (0) of sculpin, day 3</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Presence (1) or absence (0) of sculpin, day 3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NaN</code>
+            <codeExplanation>value not recorded or invalid</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="4064.kml">
+      <entityName>4064.kml</entityName>
+      <entityDescription>Google Earth Keyhole Markup Language file describing the geographic locations sampled in data set knb-lter-cwt.4064.13</entityDescription>
+      <physical>
+        <objectName>4064.kml</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.google-earth.kml+xml</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-cwt/4064/13/0bc5c21ed52faca0813fca763013eb54</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=CWT,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>KML</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-mcm.41.7"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=MCM,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/e99a5bb39c63965eeb4d87d69bdbcbac</alternateIdentifier>
+    <shortName>limnprpr</shortName>
+    <title>McMurdo Dry Valleys Lakes Phytoplankton Primary Production</title>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Priscu</surName>
+      </individualName>
+      <organizationName>Montana State University</organizationName>
+      <address>
+        <deliveryPoint>LRES, 334 Leon Johnson Hall</deliveryPoint>
+        <city>Bozeman</city>
+        <administrativeArea>MT</administrativeArea>
+        <postalCode>59717</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(406) 994-3250</phone>
+      <electronicMailAddress>jpriscu@montana.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Amy</givenName>
+        <surName>Chiuchiolo</surName>
+      </individualName>
+      <organizationName>Montana State University</organizationName>
+      <address>
+        <deliveryPoint>LRES, 334 Leon Johnson Hall</deliveryPoint>
+        <city>Bozeman</city>
+        <administrativeArea>MT</administrativeArea>
+        <postalCode>59717</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(406) 994-2360</phone>
+      <phone phonetype="facsimile">(406) 994-5863</phone>
+      <electronicMailAddress>achiuchiolo@montana.edu</electronicMailAddress>
+      <role>field crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Kathleen</givenName>
+        <surName>Welch</surName>
+      </individualName>
+      <organizationName>Ohio State University</organizationName>
+      <address>
+        <deliveryPoint>Byrd Polar Center</deliveryPoint>
+        <city>Columbus</city>
+        <administrativeArea>OH</administrativeArea>
+        <postalCode>43210</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>welch.189@osu.edu</electronicMailAddress>
+      <role>lab crew</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Inigo</givenName>
+        <surName>San Gil</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <address>
+        <deliveryPoint>Department of Biology, MSC03 2020 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(505) 277-2625</phone>
+      <phone phonetype="facsimile">(505) 277-2541</phone>
+      <electronicMailAddress>isangil@lternet.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>RenÃ©e</givenName>
+        <surName>Brown</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <address>
+        <deliveryPoint>MSC03 2020; Department of Biology</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(505) 277-9342</phone>
+      <phone phonetype="facsimile">(505) 277-0304</phone>
+      <electronicMailAddress>rfbrown@unm.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <pubDate>2014-11-04</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>An important part of the McMurdo Long Term Ecological Research (LTER) is monitoring of spatial and temporal patterns, and processes that control phytoplankton production in perennial ice-covered lakes. This dataset addresses this core area of research and quantifies carbon production at specific depths in McMurdo Dry Valley lakes.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>net primary production</keyword>
+      <keyword>net primary productivity</keyword>
+      <keyword>primary production</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Antarctica</keyword>
+      <keyword>carbon</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>lake</keyword>
+      <keyword>limnology</keyword>
+      <keyword>phytoplankton</keyword>
+      <keyword>primary production</keyword>
+      <keyword>primary productivity</keyword>
+      <keyword>production</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>primary production</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>
+        <literalLayout>If the dpm for the dark bottle was higher than the average dpm of the light bottles then primary production was reported as zero. Incubation times are usually 0700 hours local time to 0700 hours the following day.</literalLayout>
+      </para>
+    </additionalInfo>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>MCM LTER data may be used freely with the following restrictions: The Principal Investigator be sent a notice stating reasons for acquiring any data and a description of the publication intentions. The Principal Investigator of the data set be sent a copy of the report or manuscript prior to submission and be adequately cited in any resultant publications. A copy of any resultant publications should be sent to the McMurdo data manager and principal investigator. The end-user follow the guidelines set forth in the LTER Network Data Access Policy, Data Access Requirements, and General Data Use Agreement here: Definitions â€œData Setâ€ â€“ Digital data and its metadata derived from any research activity such as field observations, collections, laboratory analysis, experiments, or the post-processing of existing data and identified by a unique identifier issued by a recognized cataloging authority such as a site, university, agency, or other organization. â€œData Userâ€ - individual to whom access has been granted to this Data Set, including his or her immediate collaboration sphere, defined here as the institutions, partners, students and staff with whom the Data User collaborates, and with whom access must be granted, in order to fulfill the Data User's intended use of the Data Set â€œData Set Creatorâ€ - individual or institution that produced the Data Set â€œData Set Ownerâ€ â€“ individual or institution that holds intellectual property rights to the dataset. Note that this may or may not be defined as a legal copyright. If no other party is designated in the metadata as Data Set Owner, it may be presumed that these rights are held by the Data Set Creator. â€œData Set Distributorâ€ - individual or institution providing access to the Data Sets. â€œData Set Contactâ€ - party designated in the accompanying metadata of the Data Set as the primary contact for the Data Set. Conditions of Use The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: McKee, W. 2001. Vascular plant list on the Andrews Experimental Forest and nearby Research Natural Areas: Long-Term Ecological Research. Corvallis, OR: Forest Science Data Bank: SA002. [Database]. http://www.fsl.orst.edu/lter/data/abstract.cfm?dbcode=SA002. (21 October 2004) 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Forest Science Data Bank, a partnership between the Department of Forest Science, Oregon State University, and the U.S. Forest Service Pacific Northwest Research Station, Corvallis, Oregon. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers BSR-90-11663 and DEB-96-32921). 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://mcm.lternet.edu/content/lakes-phytoplankton-primary-production</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Bonney is a saline lake with permanent ice cover at the western end of Taylor Valley in the McMurdo Dry Valleys of Victoria Land, Antarctica. It is 7 kilometres or 4.3 mi long and up to 900 metres or 3,000 ft wide. A narrow channel only 50 metres or 160 ft wide. Lake Bonney at Narrows separates the lake into East Lake Bonney 3.32 square kilometres or 1.28 sq mi and West Lake Bonney, 0.99 square kilometres or 0.38 sq mi. The west lobe is flanked by Taylor glacier. Valley: Taylor Distance to Sea : 25 Maximum Length (km): 4.8 Maximum Width (km): 0.9 Maximum Depth (m): 37 Surface Area (km^2): 3.32 Ice Thickness Average Surface (m): 3 - 4.5 Volume (m^3 * 10^6): 54.7</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.353210449219</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.536209106445</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.697700500488</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.724441528320</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>57</altitudeMinimum>
+            <altitudeMaximum>57</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>The Lake Fryxell basin is formed by a moraine depression in a wider portion of the Taylor Valley. It has a number of moraine islands and shallower areas, as well as several relatively well developed deltas. The lake is fed by at least 10 meltwater streams with a total drainage catchment of 230 km2. The lake is dammed to the southwest by the Canada Glacier and is topographically closed. It is perennially ice covered; during summer months, an ice-free moat generally forms around much of the lake margin. Lake levels have risen ~2 m between 1971 and 1996. There are no surface outflows; the only known water loss is through ice ablation (evaporation, sublimation and physical scouring). Valley: Taylor Distance to Sea : 9 Maximum Length (km): 5.8 Maximum Width (km): 2.1 Maximum Depth (m): 20 Surface Area (km^2): 7.08 Ice Thickness Average Surface (m): 3.3 - 4.5 Volume (m^3 * 10^6): 25.2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.048782348633</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.259582519531</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.597076416016</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.622711181641</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>18</altitudeMinimum>
+            <altitudeMaximum>18</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Hoare occupies a narrower portion of the Taylor Valley, dammed by the Canada Glacier. It would drain almost completely without this dam. There are a number of islands which may be related to an old terminal of Canada Glacier. The lake is fed primarily from direct runoff from the glacier, as well as meltwater streams. (Lake level rose ~1.5 m between 1972 and 1996). There are no surface outflows; the only known water loss is through ice ablation (evaporation, sublimation and physical scouring). Valley: Taylor Distance to Sea : 15 Maximum Length (km): 4.2 Maximum Width (km): 1 Maximum Depth (m): 34 Surface Area (km^2): 1.94 Ice Thickness Average Surface (m): 3.1 - 5.5 Volume (m^3 * 10^6): 17.5</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.784423828125</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.935836791992</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.623085021973</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.639259338379</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>73</altitudeMinimum>
+            <altitudeMaximum>73</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Bonney is a saline lake with permanent ice cover at the western end of Taylor Valley in the McMurdo Dry Valleys of Victoria Land, Antarctica. It is 7 kilometres or 4.3 mi long and up to 900 metres or 3,000 ft wide. A narrow channel only 50 metres or 160 ft wide. Lake Bonney at Narrows separates the lake into East Lake Bonney 3.32 square kilometres or 1.28 sq mi and West Lake Bonney, 0.99 square kilometres or 0.38 sq mi. Valley: Taylor Distance to Sea : 28 Maximum Length (km): 2.6 Maximum Width (km): 0.9 Maximum Depth (m): 40 Surface Area (km^2): 0.99 Ice Thickness Average Surface (m): 2.8-4.5 Volume (m^3 * 10^6): 10.1</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.269104003906</westBoundingCoordinate>
+          <eastBoundingCoordinate>162.354934692383</eastBoundingCoordinate>
+          <northBoundingCoordinate>-77.714805603027</northBoundingCoordinate>
+          <southBoundingCoordinate>-77.727287292480</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>57</altitudeMinimum>
+            <altitudeMaximum>57</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lake Miers lies in the Miers Valley. Valley: Miers Distance to Sea : 20 Maximum Length (km): 1.5 Maximum Width (km): 0.7 Maximum Depth (m): 21 Surface Area (km^2): 1.3 Ice Thickness Average Surface (m): 3.4 - 6 Volume (m^3 * 10^6): 2.9</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>163.812332153320</westBoundingCoordinate>
+          <eastBoundingCoordinate>163.886840820313</eastBoundingCoordinate>
+          <northBoundingCoordinate>-78.094047546387</northBoundingCoordinate>
+          <southBoundingCoordinate>-78.101478576660</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>240</altitudeMinimum>
+            <altitudeMaximum>240</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-10-27</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017-12-20</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>On 2015, data and metadata were moved to the DEIMS system. Â Data from this table was submitted to INSTAAR by John Priscu's team at Montana State University. The raw data files listed under 'file name' are the names of the original files submitted. The 1993/94 and 1994/95 datasets are Microsoft Excel version 6.0 files, and the 1995/96, 1996/97 and 1997/98 datasets are ascii text files. Upon arrival at INSTAAR, the data manager fine-tuned the location codes and limno runs to match those provided in the "locations, dates, codes for lake chemistry, biology samples" file. The file was imported into Microsoft Access on INSTAAR's Unix system, and can currently be found there. The file was then exported in ascii, comma delimited text and MS-DOS text (table layout) on the MCM LTER web site. Both of these files are linked to this web page above. Information for the metadata was obtained from the Metappr9697.rtf file. The file was called up using Microsoft Word version 6.0. Text from this file was used to create this page in html format.</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>McMurdo Dry Valleys LTER</organizationName>
+      <onlineUrl>http://mcm.lternet.edu</onlineUrl>
+    </publisher>
+    <pubPlace>McMurdo Dry Valleys LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>General Methodology Lake water samples are collected at specific depths with a five-liter Niskin bottle during normal LTER limnological sampling. In a darkened environment, water is decanted through tubing directly from the Niskin bottle into three-150 mL borosilicate glass bottles with Teflon screw cap liners (2-light, 1-dark). Each sample is inoculated with an appropriate volume of 14C bicarbonate (activity of working solution should be between 100-121 uCi mL-1). Sample bottles are attached to a depth-calibrated cable and incubated in situ for 24 hours. At the end of the incubation period, the bottles are removed from the lake and placed in a darkened box for transport to the field lab. Each sample bottle is filtered through a 25 mm Whatman GF/F filter, and placed at the bottom of a 20 mL scintillation vial (organic matter up). 0.5 mL of 3N HCl is pipetted into each vial and dried slowly on a heating block (60C) in a fume hood. Once the filters are dry, the scintillation vials are recapped and stored until scintillation counting. 10 mL of Cytoscint cocktail is added to each vial and counted on a calibrated 14C liquid scintillation counter. Primary production (ug C L-1 d-1) is calculated using the following equation: PPR = (DPML - DPMD) a * b alpha * t where DPML is the average dpm of the light bottles, DPMD is the dpm of the dark bottle, a is the concentration of dissolved inorganic carbon at the respective depth, b is a constant (1.06) to adjust for isotopic discrimination of 14C radiolabeled carbon, alpha is the total dpm of 14C added to the sample, and t is the incubation period. PAR is measured at one depth during primary production experiments. See the "Photosynthetically Active Radiation (PAR) logged during PPR experiments" dataset for these measurements as well as notes about the weather during PPR experiments.Â  Notes on PPR 2006-2007 season data and methodology The IRGA malfunctioned during the 0607 season yielding DIC data that were highly suspect. Alkalinity titrations were done according to standard methods and DIC was estimated based on Wetzel R.G. and G.E. Likens. 1991. Limnological Analyses. 2nd Edition. Springer-Verlag New York Inc. pp. 111-118. Note that hydrogen acceptors other than the carbonate system exist in the lakes yielding an overestimate of DIC. Hence PPR data at depths of high ionic strength (deeper depths) which used DIC values obtained from alkalinity may be overestimated. We also computed average DIC values from the 05-06 and 07-08 seasons. DIC data changes relatively little over time; A paired t-test revealed that there was no significant difference between DIC for these 2 years (p&amp;gt;0.05). We report in the database PPR data calculated using DIC values computed from alkalinity titrations, and provide a link in the metadata to PPR data calculated using DIC values computed from averages of 05-06 and 07-08 DIC. The file containing PPR values calculated using DIC values computed from the average of previous and next season DIC values can be found in the following link:</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>LIMNO_PPR</entityName>
+      <entityDescription>The details about the spreadsheet containing primary production data.  Units used, columns, definitions, delimiters.</entityDescription>
+      <physical>
+        <objectName>LIMNO_PPR.csv</objectName>
+        <size>252005</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>1</numFooterLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-mcm/41/7/a41da0017c5e2ec4b0edc1d95ac1e68e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DATASET_CODE</attributeName>
+          <attributeLabel>DATASET_CODE</attributeLabel>
+          <attributeDefinition>Code to ID the data table</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code to ID the data table</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LIMNO_RUN</attributeName>
+          <attributeLabel>Limno Run</attributeLabel>
+          <attributeDefinition>Code for lake's sampling location and date</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for lake's sampling location and date</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOCATION NAME</attributeName>
+          <attributeLabel>LOCATION NAME</attributeLabel>
+          <attributeDefinition>Name of lake where measurement was made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake where measurement was made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LOCATION CODE</attributeName>
+          <attributeLabel>LOCATION CODE</attributeLabel>
+          <attributeDefinition>Code for site where measurement was made</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Code for site where measurement was made</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DATE_TIME</attributeName>
+          <attributeLabel>DATE_TIME</attributeLabel>
+          <attributeDefinition>Date on which sample was gathered</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DEPTH (m)</attributeName>
+          <attributeLabel>DEPTH (m)</attributeLabel>
+          <attributeDefinition>Distance below ice from which sample was drawn</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">25</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PPR (ug C/L*d)</attributeName>
+          <attributeLabel>PPR (ug C/L*d)</attributeLabel>
+          <attributeDefinition>Primary productivity, measured as inorganic carbon uptake using 14C-bicarbonate</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>ugCarbon/liter*day</customUnit>
+              </unit>
+              <precision>0.001</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>Null</code>
+            <codeExplanation>See comments</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PPR COMMENTS</attributeName>
+          <attributeLabel>PPR COMMENTS</attributeLabel>
+          <attributeDefinition>Helpful hints about the sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Helpful hints about the sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FILE NAME</attributeName>
+          <attributeLabel>FILE NAME</attributeLabel>
+          <attributeDefinition>Name of file in which data was submitted</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of file in which data was submitted</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DEPTH MASL</attributeName>
+          <attributeLabel>DEPTH MASL</attributeLabel>
+          <attributeDefinition>Depth referred to the Sea level. Distance below Mean Average Sea water level reference from which sample was drawn</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="" id="ugCarbon/liter*day"
+          name="ugCarbon/liter*day" unitType="">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

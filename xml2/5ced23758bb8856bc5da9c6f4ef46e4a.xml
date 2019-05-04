@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:eml packageId="vmc.11.277.1" scope="system" system="vmc" xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+	
+
+	<access authSystem="knb" order="allowFirst" scope="document">
+		 
+		<allow>
+			 
+			<principal>public</principal>
+			
+ 
+			<permission>read</permission>
+			
+ 
+		</allow>
+		
+ 
+	</access>
+	
+   
+	<dataset id="2017-10-24 04:46:54,11.277,11.277.1">
+		<title>Forest Bird Species Codes</title>
+		<creator>
+			<individualName>
+				<givenName>Steven</givenName>
+				<surName>Faccio</surName>
+			</individualName>
+			<organizationName>Vermont Center for Ecostudies, VCE</organizationName>
+		</creator>
+		<abstract>
+			<para>Species codes used for taxonomic identification of birds</para>
+		</abstract>
+		<keywordSet>
+			<keyword>surveys</keyword>
+			<keyword>long term monitoring</keyword>
+			<keyword>forest ecosystems</keyword>
+			<keyword>habitat</keyword>
+			<keyword>birds</keyword>
+		</keywordSet>
+		<contact>
+			<organizationName>Forest Ecosystem Monitoring Cooperative</organizationName>
+			<address>
+				<deliveryPoint>705 Spear Street</deliveryPoint>
+				<city>South Burlington</city>
+				<administrativeArea>Vermont</administrativeArea>
+				<postalCode>05403</postalCode>
+				<country>United States of America</country>
+			</address>
+			<phone>(802) 656-2975</phone>
+			<electronicMailAddress>femc@uvm.edu</electronicMailAddress>
+			<onlineUrl>https://www.uvm.edu/femc</onlineUrl>
+		</contact>
+		<project>
+			<title>Forest Bird Surveys</title>
+			<personnel>
+				<individualName>
+					<givenName>Charles</givenName>
+					<surName>Darmstadt</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Steven</givenName>
+					<surName>Faccio</surName>
+				</individualName>
+				<role>principalInvestigator</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Kent</givenName>
+					<surName>McFarland</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Christopher</givenName>
+					<surName>Rimmer</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<abstract>
+				<para>The primary goal is to conduct habitat-specific monitoring of forest interior breeding birds and to determine trends over time.</para>
+			</abstract>
+		</project>
+		<dataTable>
+			<entityName>Forest Bird Species Codes</entityName>
+			<entityDescription>Species codes used for taxonomic identification of birds</entityDescription>
+			<physical>
+				<objectName>FEMC.11.277</objectName>
+				<dataFormat>
+					<textFormat>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://www.uvm.edu/femc/data/archive/project/forest-bird-surveys/dataset/forest-bird-species-codes</url>
+					</online>
+				</distribution>
+			</physical>
+			<coverage>
+				<geographicCoverage>
+					<geographicDescription>No geographic description is available for this dataset</geographicDescription>
+					<boundingCoordinates>
+						<westBoundingCoordinate>-72.8403</westBoundingCoordinate>
+						<eastBoundingCoordinate>-72.816115</eastBoundingCoordinate>
+						<northBoundingCoordinate>44.536363</northBoundingCoordinate>
+						<southBoundingCoordinate>44.527427</southBoundingCoordinate>
+					</boundingCoordinates>
+				</geographicCoverage>
+				<temporalCoverage scope="document">
+					<singleDateTime>
+						<calendarDate>1991-01-01</calendarDate>
+					</singleDateTime>
+				</temporalCoverage>
+			</coverage>
+			<attributeList>
+				<attribute>
+					<attributeName>AOU #</attributeName>
+					<attributeLabel>AOU #</attributeLabel>
+					<attributeDefinition>AOU #</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>AOU #</code>
+										<definition>AOU #</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Common Name</attributeName>
+					<attributeLabel>Common Name</attributeLabel>
+					<attributeDefinition>Common Name</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>Common Name</code>
+										<definition>Common Name</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>Species Code</attributeName>
+					<attributeLabel>Species Code</attributeLabel>
+					<attributeDefinition>Species Code</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>Species Code</code>
+										<definition>Species Code</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+</ns0:eml>

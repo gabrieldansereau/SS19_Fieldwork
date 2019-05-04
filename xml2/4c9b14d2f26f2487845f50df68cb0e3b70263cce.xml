@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="msb-tempbiodev.1111181.1"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=MACROECO,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV-ADMIN,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=TEMPBIODEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>
+Macrosystems Results for nifH in 6 Plot Soil Samples
+</title>
+    <creator>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <onlineUrl>http://ieg.ou.edu/</onlineUrl>
+    </creator>
+    <pubDate>2016-06-24</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>
+Patterns of biodiversity, such as the increase toward the tropics and the peaked curve during ecological succession, are fundamental phenomena for ecology. Such patterns have multiple, interacting causes, but temperature emerges as a dominant factor across organisms from microbes to trees and mammals, and across terrestrial, marine, and freshwater environments. However, there is little consensus on the underlying mechanisms, even as global temperatures increase and the need to predict their effects becomes more pressing. The purpose of this project is to generate and test theory for how temperature impacts biodiversity through its effect on biochemical processes and metabolic rate. A combination of standardized surveys in the field and controlled experiments in the field and laboratory measure diversity of three taxa -- trees, invertebrates, and microbes -- and key biogeochemical processes of decomposition in seven forests distributed along a geographic gradient of increasing temperature from cold temperate to warm tropical. This data set captures temperature-dependent latitudinal microbial diversity sampled for in forest soils based on taxonomic and phylogenetic diversity observed in bacterial nitrogenase subunit H (nifH) for determining the diversity of nitrogen fixing bacteria important for N fixation, which is critical in biogeochemical cycling of N. This sequencing was done by the University of Oklahoma Institute for Environmental Genomics as part of a macrosystems biodiversity and latitude project supported by the National Science Foundation under Cooperative Agreement DEB#1065836.
+</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">nifH</keyword>
+      <keyword keywordType="theme">Bacteria</keyword>
+      <keyword keywordType="theme">Nitrogen fixing</keyword>
+      <keyword keywordType="theme">Genes</keyword>
+      <keyword keywordType="theme">OTUs</keyword>
+      <keyword keywordType="theme">Diversity</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keyword keywordType="theme">Forest</keyword>
+      <keyword keywordType="theme">HJ Andrews LTER</keyword>
+      <keyword keywordType="theme">Niwot Ridge LTER</keyword>
+      <keyword keywordType="theme">Luquillo LTER</keyword>
+      <keyword keywordType="theme">Harvard Forest LTER</keyword>
+      <keyword keywordType="theme">Coweeta LTER</keyword>
+      <keyword keywordType="theme">Barro Colorado Island</keyword>
+      <keyword keywordType="theme">Mt. Bigelow, Arizona</keyword>
+      <keyword keywordType="theme">Macrosystems</keyword>
+      <keyword keywordType="theme">Biodiversity</keyword>
+      <keyword keywordType="theme">Latitude</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>http://www.lternet.edu/policies/data-access</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">
+http://macroeco2.lternet.edu/content/macrosystems-results-nifh-6-plot-soil-samples
+</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Harvard Forest LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.17899</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.17329</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.54054</northBoundingCoordinate>
+          <southBoundingCoordinate>42.53692</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at HJ Andrews LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.1536</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.14934</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.23211</northBoundingCoordinate>
+          <southBoundingCoordinate>44.22948</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Niwot Ridge LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.56056</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.5563</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.04253</northBoundingCoordinate>
+          <southBoundingCoordinate>40.03892</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Barro Colorado Island.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-79.84786</westBoundingCoordinate>
+          <eastBoundingCoordinate>-79.84419</eastBoundingCoordinate>
+          <northBoundingCoordinate>9.16053</northBoundingCoordinate>
+          <southBoundingCoordinate>9.15681</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Coweeta LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.43311</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.42906</eastBoundingCoordinate>
+          <northBoundingCoordinate>35.05164</northBoundingCoordinate>
+          <southBoundingCoordinate>35.04825</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>
+Study area at Luquillo LTER.
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-65.81766</westBoundingCoordinate>
+          <eastBoundingCoordinate>-65.8135</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.32614</northBoundingCoordinate>
+          <southBoundingCoordinate>18.32242</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Ye</givenName>
+        <surName>Deng</surName>
+      </individualName>
+      <organizationName>
+University of Oklahoma - Institute for Environmental Genomics
+</organizationName>
+      <electronicMailAddress>dengye@ou.edu</electronicMailAddress>
+    </contact>
+    <pubPlace>Experimental Macroecology Data</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>
+To determine whether soil microbes exhibit latitudinal diversity gradients and whether such patterns are temperature dependent, we examined the latitudinal diversity patterns of microbes (bacteria, fungi, N fixing bacteria) in 126 soil samples from the six experimental sites (HJ Andrews, Luquillo, Barro Colorado, Niwot Ridge, Harvard Forest, and Coweeta). At each site, a central subplot was located first and then laid out 1-m2 subplots in four directions with distances of 1m, 10m, 50m, 100m and 200m from the central subplot. To determine the biodiversity of microbial communities, three genes targeting different taxonomic groups with different taxonomic resolutions were sequenced. The third of these was bacterial nitrogenase subunit H (nifH) for determining the diversity of nitrogen fixing bacteria important for N fixation, which is critical in biogeochemical cycling of N. All of the target genes were amplified and sequenced to a great depth using Illumina MiSeq.
+</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <otherEntity>
+      <entityName>
+Macrosystems Results for nifH in 6 Plot Soil Samples - UParse Resample 10K
+</entityName>
+      <entityDescription>
+The results of sampling for OTUs all locations for diversity of nifH using UParse method - resampled.
+</entityDescription>
+      <physical>
+        <objectName>nifH_UParse_resample10K.txt</objectName>
+        <size>9211224</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111181/1/16be84e3ae348f1f002a95d5c19dc719</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2013-09-23</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2013-09-26</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems Results for nifH in 6 Plot Soil Samples - UClust Resample 16K
+</entityName>
+      <entityDescription>
+The results of OTU sampling at all locations for diversity of nifH using UClust (resample).
+</entityDescription>
+      <physical>
+        <objectName>nifH_UClust_resample16K.txt</objectName>
+        <size>23146434</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111181/1/8f48ba83b4041123d0e78e9ff05ffa50</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems Results for nifH in 6 Plot Soil Samples - UParse Original
+</entityName>
+      <entityDescription>
+The results of OTU sampling at all locations for diversity of nifH using UParse (original).
+</entityDescription>
+      <physical>
+        <objectName>nifH_otu95_UParse_ori.txt</objectName>
+        <size>11906835</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111181/1/1548ce0912d4c94d26ce3d25dbb904f8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>
+Macrosystems Results for nifH in 6 Plot Soil Samples - UClust Original
+</entityName>
+      <entityDescription>
+The results of OTU sampling at all locations for diversity of nifH using UClust (original).
+</entityDescription>
+      <physical>
+        <objectName>nifH_otu95_UClust_ori.txt</objectName>
+        <size>26999007</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>tab</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/msb-tempbiodev/1111181/1/28aaa5487dbaedcdec046fd7178d8c3e</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>TXT file</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

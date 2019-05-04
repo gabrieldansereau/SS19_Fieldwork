@@ -1,0 +1,1930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.28.6" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=KNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>CGR01</alternateIdentifier>
+    <title>Sweep Sampling of Grasshoppers on Konza Prairie LTER watersheds in 1981 only</title>
+    <creator>
+      <individualName>
+        <givenName>Anthony</givenName>
+        <surName>Joern</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>402-472-2724</phone>
+      <electronicMailAddress>ajoern@ksu.edu</electronicMailAddress>
+    </creator>
+    <abstract>
+      <section>
+        <para>Sweep samples for estimating grasshopper (Acrididae) composition and relative
+					abundance at one site for each of 12 Konza Prairie LTER fire/grazing/soil treatment
+					combinations (3 fire treatments x 2 soils x 2 grazing treatments). Samples were collected
+					in June, August, and September. At each site on each occasion, 18 sets of 10 sweeps each
+					(180 sweeps total) were taken. Stored data include for each site on each occasion: total
+					number of each species (all instars combined) collected and total number for each instar
+					for each species (180 sweeps combined).</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="place">LTER</keyword>
+      <keyword keywordType="place">KNZ</keyword>
+      <keyword keywordType="place">Konza Prairie Biological Station</keyword>
+      <keyword keywordType="place">Kansas</keyword>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Acrididae</keyword>
+      <keyword>consumers</keyword>
+      <keyword>grasshoppers</keyword>
+      <keyword>insects</keyword>
+      <keyword>sweep sampling</keyword>
+      <keyword>relative abundance</keyword>
+      <keyword>species</keyword>
+      <keyword>species composition</keyword>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url>http://www.konza.ksu.edu/KNZ/pages/data/Knzdsdetail.aspx?datasetCode=CGR01</url>
+      </online>
+    </distribution>
+    <coverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1981-04-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1981-12-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <organizationName>LTER Network Office</organizationName>
+      <positionName>LNO Information Manager</positionName>
+    </contact>
+    <contact id="im">
+      <positionName>KNZ-LTER Data Manager</positionName>
+      <address>
+        <deliveryPoint> Division of Biology</deliveryPoint>
+        <deliveryPoint> Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+      </address>
+      <phone phonetype="voice">(785)532-6729</phone>
+      <phone phonetype="fax">(785)532-6653</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://www.konza.ksu.edu</onlineUrl>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+						For additional metadata see: <ulink>http://www.konza.ksu.edu/KNZ/datasets/textfiles/DC2011_1.pdf</ulink>
+          </para>
+          <para>For additional methods information see: <ulink>http://www.konza.ksu.edu/KNZ/datasets/textfiles/MM2011_1.pdf</ulink>
+          </para>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <alternateIdentifier>CGR011</alternateIdentifier>
+      <entityName>Data on the environmental variables. </entityName>
+      <entityDescription>Data on the environmental variables for grasshopper sampling at each site
+        including soil type, windy speed, ground temperature, relative humidity, and cloudy
+        cover.</entityDescription>
+      <physical>
+        <objectName>CGR011</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://www.konza.ksu.edu/harvest/PASTA/CGR011.CSV</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-04-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1981-12-31 </calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>rowid</attributeName>
+          <attributeDefinition>row id in file (internal book keeping)</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>Month of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>Day of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeDefinition>watershed</attributeDefinition>
+          <storageType>char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>watershed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Soiltype</attributeName>
+          <attributeDefinition>soil type</attributeDefinition>
+          <storageType>char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Fl</code>
+                    <definition>Florence soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tu</code>
+                    <definition>Tully soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecTime</attributeName>
+          <attributeDefinition>time sampling began</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>hhmm</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Wind</attributeName>
+          <attributeDefinition>wind speed at start of sampling. mean of 5 measurements at 30 seconds
+            intervals; 5' aboveground</attributeDefinition>
+          <storageType>numeric(5,1)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AirTemp</attributeName>
+          <attributeDefinition>air temperature at start of sampling ground level in
+            shade</attributeDefinition>
+          <storageType>numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RelHum</attributeName>
+          <attributeDefinition>relative humidity at ground level in shade at outset of sampling;
+            determined by wet/dry bulb psychrometer</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Cloudcov</attributeName>
+          <attributeDefinition>% of cloud cover directly overhead (estimated by
+            eye)</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <alternateIdentifier>CGR012</alternateIdentifier>
+      <entityName>Data on the individual number of each grasshopper species. </entityName>
+      <entityDescription>Data were on the individual number of each grasshopper species in each
+        sample set. 18 sets were designed at each site and 10 sweeps were taken in each set. This
+        dataset was about the first 10 sets at each sample site.</entityDescription>
+      <physical>
+        <objectName>CGR012</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>http://www.konza.ksu.edu/harvest/PASTA/CGR012.CSV</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-04-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1981-12-31 </calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>rowid</attributeName>
+          <attributeDefinition>row id in file (internal book keeping)</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>Month of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>Day of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeDefinition>watershed</attributeDefinition>
+          <storageType>char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>watershed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Soiltype</attributeName>
+          <attributeDefinition>soil type (Tully or Florence)</attributeDefinition>
+          <storageType>char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Fl</code>
+                    <definition>Florence soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tu</code>
+                    <definition>Tully soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spcode</attributeName>
+          <attributeDefinition>species code</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>brachystol magna</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>melanoplus scudderi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>melanoplus sanguinip</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>melanoplus femurrubr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>melanoplus packardii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>melanoplus different</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>melanoplus keel luri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>melanoplus bivittatu</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>melanoplus confusus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>melanoplus species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>schistocer lineata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>eritettix simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>26</code>
+                    <definition>syrbula admirabil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>27</code>
+                    <definition>orphulella speciosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>28</code>
+                    <definition>mermiria picta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>mermiria bivittata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>paratylotr brunneri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30</code>
+                    <definition>opeia obscura</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>31</code>
+                    <definition>pseudopoma brachypte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>32</code>
+                    <definition>boopedon auriventr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>33</code>
+                    <definition>boopedon nubilum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>34</code>
+                    <definition>boopedon gracile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>35</code>
+                    <definition>ageneotett deorum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>36</code>
+                    <definition>mermiria species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>hypochlora alba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>chortophag viridifas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>46</code>
+                    <definition>dissosteir carolina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>47</code>
+                    <definition>arphia xanthopte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>48</code>
+                    <definition>arphia simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>49</code>
+                    <definition>arphia conspersa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>campylacan olivacea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50</code>
+                    <definition>hadrotetti trifascia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>hippiscus rugosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>52</code>
+                    <definition>pardalopho apiculata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>53</code>
+                    <definition>pardalopho haldemani</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>54</code>
+                    <definition>pardalopho species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>55</code>
+                    <definition>arphia species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>hesperotet speciosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>hesperotet viridis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>hesperotet species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>phoetaliot nebrascen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>90</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>95</code>
+                    <definition>total</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>abbreviated species name</attributeDefinition>
+          <storageType>varchar(25)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>abbreviated species name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S1</attributeName>
+          <attributeDefinition>number of individuals in sample 1</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S2</attributeName>
+          <attributeDefinition>number of individuals in sample 2</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S3</attributeName>
+          <attributeDefinition>number of individuals in sample 3</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S4</attributeName>
+          <attributeDefinition>number of individuals in sample 4</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S5</attributeName>
+          <attributeDefinition>number of individuals in sample 5</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S6</attributeName>
+          <attributeDefinition>number of individuals in sample 6</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S7</attributeName>
+          <attributeDefinition>number of individuals in sample 7</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S8</attributeName>
+          <attributeDefinition>number of individuals in sample 8</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S9</attributeName>
+          <attributeDefinition>number of individuals in sample 9</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S10</attributeName>
+          <attributeDefinition>number of individuals in sample 10</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total</attributeName>
+          <attributeDefinition>total number of individuals all samples</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <alternateIdentifier>CGR013</alternateIdentifier>
+      <entityName>Individual number of each grasshopper species in each set.</entityName>
+      <entityDescription>Data was recorded on the individual number of each grasshopper species in
+        each set. This dataset was about the set from No.11 to No. 18 set at each sample
+        site.</entityDescription>
+      <physical>
+        <objectName>CGR013</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/28/6/Individual+number+of+each+grasshopper+species+in+each+set.</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-04-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1981-12-31 </calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>rowid</attributeName>
+          <attributeDefinition>row id in file (internal book keeping)</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DateCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>Month of record</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>Day of record</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeDefinition>watershed</attributeDefinition>
+          <storageType>char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>watershed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Soiltype</attributeName>
+          <attributeDefinition>soil type (Tully or Florence)</attributeDefinition>
+          <storageType>char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Fl</code>
+                    <definition>Florence soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tu</code>
+                    <definition>Tully soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spcode</attributeName>
+          <attributeDefinition>species code</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>brachystol magna</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>melanoplus scudderi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>melanoplus sanguinip</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>melanoplus femurrubr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>melanoplus packardii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>melanoplus different</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>melanoplus keel luri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>melanoplus bivittatu</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>melanoplus confusus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>melanoplus species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>schistocer lineata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>eritettix simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>26</code>
+                    <definition>syrbula admirabil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>27</code>
+                    <definition>orphulella speciosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>28</code>
+                    <definition>mermiria picta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>mermiria bivittata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>paratylotr brunneri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30</code>
+                    <definition>opeia obscura</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>31</code>
+                    <definition>pseudopoma brachypte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>32</code>
+                    <definition>boopedon auriventr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>33</code>
+                    <definition>boopedon nubilum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>34</code>
+                    <definition>boopedon gracile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>35</code>
+                    <definition>ageneotett deorum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>36</code>
+                    <definition>mermiria species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>hypochlora alba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>chortophag viridifas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>46</code>
+                    <definition>dissosteir carolina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>47</code>
+                    <definition>arphia xanthopte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>48</code>
+                    <definition>arphia simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>49</code>
+                    <definition>arphia conspersa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>campylacan olivacea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50</code>
+                    <definition>hadrotetti trifascia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>hippiscus rugosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>52</code>
+                    <definition>pardalopho apiculata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>53</code>
+                    <definition>pardalopho haldemani</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>54</code>
+                    <definition>pardalopho species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>55</code>
+                    <definition>arphia species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>hesperotet speciosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>hesperotet viridis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>hesperotet species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>phoetaliot nebrascen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>90</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>95</code>
+                    <definition>total</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>abbreviated species name</attributeDefinition>
+          <storageType>varchar(25)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>abbreviated species name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S11</attributeName>
+          <attributeDefinition>number of individuals in sample 11</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S12</attributeName>
+          <attributeDefinition>number of individuals in sample 12</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S13</attributeName>
+          <attributeDefinition>number of individuals in sample 13</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S14</attributeName>
+          <attributeDefinition>number of individuals in sample 14</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S15</attributeName>
+          <attributeDefinition>number of individuals in sample 15</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S16</attributeName>
+          <attributeDefinition>number of individuals in sample 16</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S17</attributeName>
+          <attributeDefinition>number of individuals in sample 17</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>S18</attributeName>
+          <attributeDefinition>number of individuals in sample 18</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total</attributeName>
+          <attributeDefinition>total number of individuals/all samples</attributeDefinition>
+          <storageType>smallint</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <alternateIdentifier>CGR014</alternateIdentifier>
+      <entityName>Data on the individual number of instar and adult stage.</entityName>
+      <entityDescription>Data was recorded on the individual number of instar and adult stage.
+        Instars were classified into first, second, third, fourth, and fifth
+        stage.</entityDescription>
+      <physical>
+        <objectName>CGR014</objectName>
+        <encodingMethod>None</encodingMethod>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <collapseDelimiters>no</collapseDelimiters>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/28/6/Data+on+the+individual+number+of+instar+and+adult+stage.</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1981-04-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1981-12-31 </calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>rowid</attributeName>
+          <attributeDefinition>row id in file (internal book keeping)</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeDefinition>Dataset code</attributeDefinition>
+          <storageType>char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>dataset code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeDefinition>Record type</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>record type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeDefinition>Year of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeDefinition>Month of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDay</attributeName>
+          <attributeDefinition>Day of record</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeDefinition>watershed</attributeDefinition>
+          <storageType>char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>watershed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Soiltype</attributeName>
+          <attributeDefinition>soiltype</attributeDefinition>
+          <storageType>char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Fl</code>
+                    <definition>Florence soil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Tu</code>
+                    <definition>Tully soil</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Spcode</attributeName>
+          <attributeDefinition>species code</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>brachystol magna</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>melanoplus scudderi</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>melanoplus sanguinip</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>melanoplus femurrubr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>melanoplus packardii</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>melanoplus different</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>melanoplus keel luri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>melanoplus bivittatu</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>melanoplus confusus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>melanoplus species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>schistocer lineata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>25</code>
+                    <definition>eritettix simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>26</code>
+                    <definition>syrbula admirabil</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>27</code>
+                    <definition>orphulella speciosa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>28</code>
+                    <definition>mermiria picta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>mermiria bivittata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>paratylotr brunneri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30</code>
+                    <definition>opeia obscura</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>31</code>
+                    <definition>pseudopoma brachypte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>32</code>
+                    <definition>boopedon auriventr</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>33</code>
+                    <definition>boopedon nubilum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>34</code>
+                    <definition>boopedon gracile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>35</code>
+                    <definition>ageneotett deorum</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>36</code>
+                    <definition>mermiria species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>hypochlora alba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>chortophag viridifas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>46</code>
+                    <definition>dissosteir carolina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>47</code>
+                    <definition>arphia xanthopte</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>48</code>
+                    <definition>arphia simplex</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>49</code>
+                    <definition>arphia conspersa</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>campylacan olivacea</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50</code>
+                    <definition>hadrotetti trifascia</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>hippiscus rugosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>52</code>
+                    <definition>pardalopho apiculata</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>53</code>
+                    <definition>pardalopho haldemani</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>54</code>
+                    <definition>pardalopho species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>55</code>
+                    <definition>arphia species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>hesperotet speciosus</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>hesperotet viridis</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>hesperotet species</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>phoetaliot nebrascen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>90</code>
+                    <definition>unknown</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>95</code>
+                    <definition>total</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>abbreviated species name</attributeDefinition>
+          <storageType>varchar(80)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>abbreviated species name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FirstInstar</attributeName>
+          <attributeDefinition>number of individuals in first instar</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SecondInstar</attributeName>
+          <attributeDefinition>number of individuals in second instar</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ThirdInstar</attributeName>
+          <attributeDefinition>number of individuals in third instar</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FourthInstar</attributeName>
+          <attributeDefinition>number of individuals in fourth instar</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FifthInstar</attributeName>
+          <attributeDefinition>number of individuals in fifth instar</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Adults</attributeName>
+          <attributeDefinition>total number of adults</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Total</attributeName>
+          <attributeDefinition>total number of indivisuals of all stages</attributeDefinition>
+          <storageType>int</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="time in military hours and minutes"
+          multiplierToSI="1&#xd;&#xa;       "
+          name="time in military hours and minutes"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="year (yyyy)" multiplierToSI="1&#xd;&#xa;       "
+          name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="month of year"
+          multiplierToSI="1&#xd;&#xa;       " name="month of year"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+        <stmml:unit id="day of month"
+          multiplierToSI="1&#xd;&#xa;       " name="day of month"
+          parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime"/>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

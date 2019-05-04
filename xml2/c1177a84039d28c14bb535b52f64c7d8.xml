@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<eml:eml packageId="nikkis.34.20" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=victoriag,o=SAEON,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Andover Vegetation Surveys</title>
+ <creator id="1184654021593" scope="document"> <organizationName>SAEON Ndlovu node</organizationName>
+ <address scope="document"> <deliveryPoint>Box 22</deliveryPoint>
+ <deliveryPoint>Phalaborwa</deliveryPoint>
+ <postalCode>1390</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">013 735 3540</phone>
+ <phone phonetype="fax">013 7353544</phone>
+ <electronicMailAddress>tony@saeon.ac.za</electronicMailAddress>
+ </creator>
+ <associatedParty scope="document"> <references>1196845282109</references>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+ <abstract> <para>Vegetation was surveyed in Andover Reserve, Limpopo as part of the reserve monitoring plan.</para>
+ </abstract>
+ <keywordSet> <keyword>Vegetation</keyword>
+ <keyword>herbaceous</keyword>
+ <keyword>Monitoring</keyword>
+ <keyword>Trees</keyword>
+ <keyword>Grass</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>SAEON, South Africa</keyword>
+ <keyword>Ndlovu SAEON Node, South Africa</keyword>
+ </keywordSet>
+ <intellectualRights> <para>1. This dataste is publically avaiable.
+2. LEDET must be acknowledged for facilitating the collection of this data set. 
+3. SAEON must be acknowleged for facilitating the adata transfer
+4. In any publications, reports, thesis' etc the data package must be referenced as the following: Andover Vegetation Surveys. 
+KNB Data Registry: urn:lsid:knb.ecoinformatics.org:nikkis:34:16 (http://knb.ecoinformatics.org/knb/metacat/nikkis.34.16/sanparks). 
+
+Please note: Digital and non-digital data and metadata belonging to the data provider are provided on an 'as-is' basis with no guarentee as to data quality. Neither the data provider nor the South African Environmental Observation Network (SAEON) maybe held liable for any loss of any sort resulting from the use of data and metadata provided.</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage scope="document"> <singleDateTime> <calendarDate>1996-01-05</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Andover Reserve</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>31.169649</westBoundingCoordinate>
+ <eastBoundingCoordinate>31.226274</eastBoundingCoordinate>
+ <northBoundingCoordinate>-24.55522</northBoundingCoordinate>
+ <southBoundingCoordinate>-24.615187</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1184653932671" scope="document"> <individualName> <salutation>Mr</salutation>
+ <givenName>Ian</givenName>
+ <surName>Sharp</surName>
+ </individualName>
+ <organizationName>Limpopo parks</organizationName>
+ <positionName>Ecologist</positionName>
+ <phone phonetype="voice">0824197181</phone>
+ </contact>
+ <contact id="1196845282109" scope="document"> <individualName> <surName>Stevens</surName>
+ </individualName>
+ <organizationName>SAEON</organizationName>
+ <positionName>Nicola</positionName>
+ <address scope="document"> <deliveryPoint>Box 22</deliveryPoint>
+ <deliveryPoint>Phalaborwa</deliveryPoint>
+ <postalCode>1390</postalCode>
+ <country>South Africa</country>
+ </address>
+ <phone phonetype="voice">013 735 3540</phone>
+ <phone phonetype="fax">013 7353544</phone>
+ <electronicMailAddress>nikki@saeon.ac.za</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Herbaceous layer measurements</title>
+ <para>1.	100 points along tape measure, every meter</para>
+ <para>2.	Id nearest sp = grass,sedge or forb</para>
+ <para>3.	If grass is an annual or it is a sedge or forb then ID the nearest perennial grass</para>
+ <para>4.	Measure distance from the transect to each perennial</para>
+ <para>5.	Measure diameter of perennial grasss</para>
+ <para>6.	Record weather under canopy</para>
+ </section>
+ </description>
+ <instrumentation>100m tape measure</instrumentation>
+ </methodStep>
+ <methodStep> <description> <section> <title>Woody layer quantification</title>
+ <para>1.	Transect along tape 2m wide</para>
+ <para>2.	Alternate outside tape, inside tape etc</para>
+ <para>3.	ID woody pleants each meter blocl</para>
+ <para>4.	Classify height</para>
+ <para>a.	0-1m = 1</para>
+ <para>b.	1-2m = 2</para>
+ <para>c.	2-5m = 3</para>
+ <para>d.	5m+ = 4</para>
+ <para>5.	Count number of stems</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>Reserve wide, see associated maps for details of transect relocation</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>Sampling units spread across different vegetation types across the park</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1196850898953" scope="document"> <entityName>Sitetable.txt</entityName>
+ <entityDescription>Site description</entityDescription>
+ <physical id="1196850896671" scope="document"> <objectName>Sitetable.txt</objectName>
+ <size unit="byte">3542</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nikkis.36.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1196850898968" scope="document"> <attributeName>Autonumber</attributeName>
+ <attributeDefinition>Access number assigned as a unique identifier</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850898984" scope="document"> <attributeName>Reserve name</attributeName>
+ <attributeDefinition>Reserve name</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>Reserve names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899000" scope="document"> <attributeName>Property</attributeName>
+ <attributeDefinition>If measurements are recorded on private land the proerty name is notes</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Property name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899015" scope="document"> <attributeName>Site number</attributeName>
+ <attributeDefinition>Site numbers assigned to the sites</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.00000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899031" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>DAte measurement took place</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy-mm-dd</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899046" scope="document"> <attributeName>GPS S</attributeName>
+ <attributeDefinition>Southern GPS co-ordinate</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>decimal degrees</customUnit>
+ </unit>
+ <precision>0.0000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899062" scope="document"> <attributeName>GPS E</attributeName>
+ <attributeDefinition>Eastern co-ordinate, measured in decomal degreesa</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>decimal degrees</customUnit>
+ </unit>
+ <precision>0.0000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899078" scope="document"> <attributeName>Vegetation unit</attributeName>
+ <attributeDefinition>THe vegetation unit in which the transect/sites are placed</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description of veetation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899093" scope="document"> <attributeName>Compass bearing</attributeName>
+ <attributeDefinition>Compass bearing from marker to site</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>bearings</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899109" scope="document"> <attributeName>Marker tree</attributeName>
+ <attributeDefinition>Description of the marker tree</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196850899125" scope="document"> <attributeName>Notes</attributeName>
+ <attributeDefinition>General notes and descriptions on getting to and finding the site</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>22</numberOfRecords>
+ </dataTable>
+ <dataTable id="1196851798375" scope="document"> <entityName>herbaceous data.txt</entityName>
+ <entityDescription>grass measurements and composition</entityDescription>
+ <physical id="1196851798312" scope="document"> <objectName>herbaceous data.txt</objectName>
+ <size unit="byte">56307</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nikkis.37.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1196851798406" scope="document"> <attributeName>Transect point</attributeName>
+ <attributeDefinition>Point along transect where measurement is taken, every 1m</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.000000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851798421" scope="document"> <attributeName>Grass point</attributeName>
+ <attributeDefinition>Point 1 refers to the closest living grass/forb next to the transect number. If the nearest point is a forb or an annual grass then the nearest perennial is recorded, i.e. point number2</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.0000000000000000000001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851798437" scope="document"> <attributeName>Gr species</attributeName>
+ <attributeDefinition>Grass species names, in code. For detailed list of codes please see LUT_species_name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1196851970140</entityReference>
+ <valueAttributeReference>1196851970156</valueAttributeReference>
+ <definitionAttributeReference>1196851970171</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851798453" scope="document"> <attributeName>Distance</attributeName>
+ <attributeDefinition>Distance from nearest grass/forb from the transect point</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851798468" scope="document"> <attributeName>Diameter</attributeName>
+ <attributeDefinition>Tuft diameter</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>3027</numberOfRecords>
+ </dataTable>
+ <dataTable id="1196851970140" scope="document"> <entityName>LUT_species_names.txt</entityName>
+ <entityDescription>Species codes</entityDescription>
+ <physical id="1196851970062" scope="document"> <objectName>LUT_species_names.txt</objectName>
+ <size unit="byte">4199</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nikkis.38.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1196851970156" scope="document"> <attributeName>Grass code</attributeName>
+ <attributeDefinition>Coded name for grass species</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>grass codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851970171" scope="document"> <attributeName>Genus name</attributeName>
+ <attributeDefinition>Grass and tree genus names</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>genus names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196851970187" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>Grass and tree species names</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>definitions</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>126</numberOfRecords>
+ </dataTable>
+ <dataTable id="1196852488375" scope="document"> <entityName>Tree data.txt</entityName>
+ <entityDescription>Tree records</entityDescription>
+ <physical id="1196852488296" scope="document"> <objectName>Tree data.txt</objectName>
+ <size unit="byte">38952</size>
+ <dataFormat> <textFormat> <numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nikkis.39.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1196852488406" scope="document"> <attributeName>Transect point</attributeName>
+ <attributeDefinition>Point along transect where trees are recorded. Sometimes more than one.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.000000000000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196852488421" scope="document"> <attributeName>Height class</attributeName>
+ <attributeDefinition>Height class of tree</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.5</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196852488437" scope="document"> <attributeName>Tree species</attributeName>
+ <attributeDefinition>Tree code</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1196851970140</entityReference>
+ <valueAttributeReference>1196851970156</valueAttributeReference>
+ <definitionAttributeReference>1196851970171</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196852488453" scope="document"> <attributeName>Height class</attributeName>
+ <attributeDefinition>Height of trees divided into classes</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>1</code>
+ <definition>0-1m</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>1-2m</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>2-5m</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>5+ m</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1196852488468" scope="document"> <attributeName>no. stems</attributeName>
+ <attributeDefinition>Number of tree stems</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1859</numberOfRecords>
+ </dataTable>
+ <dataTable id="1210586389343" scope="document"> <entityName>Andover vegetation monitoring plots</entityName>
+ <entityDescription>Map of vegetation monitoring plots for Andover Game reserve, 1996</entityDescription>
+ <physical scope="document"> <objectName>Andover Vegetation transect locations II.tif</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>tiff</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nikkis.57.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1210586389359" scope="document"> <attributeName>Map</attributeName>
+ <attributeDefinition>Vegetation map</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Map</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="decimal degrees" name="decimal degrees" unitType="co-ordinate"> <description>Unit of spatial position</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

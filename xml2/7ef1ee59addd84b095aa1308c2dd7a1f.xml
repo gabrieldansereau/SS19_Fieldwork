@@ -1,0 +1,1416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.ltern.org.au/knb/metacat/ltern.111.51/html" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+    <dataset>
+        <title>Desert Ecology Plot Network: Mammal, Reptile and Vegetation Data Associated with Weather, Simpson Desert, Western Queensland, Australia, 1990–2011</title>
+        <creator id="1429510367847">
+            <individualName>
+                <salutation>Professor</salutation>
+                <givenName>Glenda</givenName>
+                <surName>Wardle</surName>
+            </individualName>
+            <organizationName>The University of Sydney</organizationName>
+            <positionName>Plot Leader</positionName>
+            <address>
+                <deliveryPoint>Heydon-Laurence Building A08</deliveryPoint>
+                <deliveryPoint>The University of Sydney</deliveryPoint>
+                <city>Sydney</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2006</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9351 7113 or 0425 382 205</phone>
+            <electronicMailAddress>glenda.wardle@sydney.edu.au</electronicMailAddress>
+        </creator>
+        <creator id="1429510757823">
+            <individualName>
+                <salutation>Professor</salutation>
+                <givenName>Chris</givenName>
+                <surName>Dickman</surName>
+            </individualName>
+            <organizationName>The University of Sydney</organizationName>
+            <positionName>Plot Leader</positionName>
+            <address>
+                <deliveryPoint>Heydon-Laurence Building A08</deliveryPoint>
+                <deliveryPoint>The University of Sydney</deliveryPoint>
+                <city>Sydney</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2006</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9351 2318</phone>
+            <electronicMailAddress>chris.dickman@sydney.edu.au</electronicMailAddress>
+        </creator>
+        <pubDate>2015-04-20</pubDate>
+        <abstract>
+            <para>This data package is a derivative comprising of a subset of data from four existing data packages: • Weather Data (daily and monthly), Simpson Desert, Western Queensland, 1995–2011 (http://www.ltern.org.au/knb/metacat/ltern.48/html) • Vegetation Plot-data, Simpson Desert, Western Queensland, 1990–2011 (http://www.ltern.org.au/knb/metacat/ltern.44/html) • Mammal Abundance Plot-data, Simpson Desert, Western Queensland, 1990–2011 (http://www.ltern.org.au/knb/metacat/ltern.37/html) • Reptile Abundance Plot-data, Simpson Desert, Western Queensland, 1990–2011 (http://www.ltern.org.au/knb/metacat/ltern.42/html)  These data are used to produce the graphs found in figure 10.25 on pages 411–412 in Lindenmayer et. al 2014, Biodiversity and Environmental Change: Monitoring Challenges and Direction.   They have been combined to illustrate the vegetation and vertebrate response to weather patterns, and the interaction between predator and prey during these cycles. The data includes:  • monthly rainfall data for automatic weather stations situated at 13 sites separated by distances of between 5 and 80 km. • percentage ground cover of spinifex (Triodia basedowii) • mammal abundance data for two species of rodent (Spinifex Hopping-mouse &amp; Sandy Inland Mouse) who feed on spinifex seed • mammal abundance data for the Lesser Hairy-footed Dunnart (an insectivore) • mammal abundance data for the Brush-tailed Mulgara, a predator who feeds on  the Spinifex Hopping-mouse &amp; Sandy Inland Mouse • reptile abundance data for the Military Dragon  • reptile abundance data for the Central Netted Dragon Vegetation attributes were recorded in an area occupying 2.5 m radius around six traps on each trapping grid and have been aggregated to grid level data.   Weather data is collected from automatic weather stations situated at 13 sites separated by distances of between 5 and 80 km. Capture data for a specified duration of trapping nights (usually 3 night session) in the Simpson Desert, Western Queensland. Captured mammal and reptile fauna were identified and recaptures during the same session were removed (i.e. individuals were only counted once). Date, site and grid number were recorded for all captures, and captured animals were also marked by a unique ear notch prior to their release to identify recaptures. The network program uses a core of 12 sites which are sampled every April-May. The trapping survey aims to quantitatively track long-term shifts in biodiversity and ecological processes in relation to key drivers, including unpredictable rainfall and droughts, fire, feral predators and grazing. A synopsis of related data packages which have been collected as part of the Desert Ecology's full program is provided at http://www.ltern.org.au/index.php/ltern-plot-networks/desert-ecology.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>On plot weather</keyword>
+            <keyword>Plant species abundance</keyword>
+            <keyword>Mammals</keyword>
+            <keyword>Herpetofauna</keyword>
+            <keywordThesaurus>LTERN Monitoring Themes</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0501</keyword>
+            <keyword>0602</keyword>
+            <keyword>0608</keyword>
+            <keywordThesaurus>ANZSRC-FOR</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Earth Science Services &gt; Models &gt; Weather Research</keyword>
+            <keyword>Earth Science &gt; Biosphere &gt; Vegetation</keyword>
+            <keyword>Earth Science &gt; Biological Classification &gt; Animals/Vertebrates &gt; Mammals</keyword>
+            <keyword>Biological Classification &gt; Animals/Vertebrates &gt; Reptiles</keyword>
+            <keywordThesaurus>GCMD</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Weather</keyword>
+            <keyword>Vegetation</keyword>
+            <keyword>Spinifex</keyword>
+            <keyword>Mammals</keyword>
+            <keyword>Reptiles</keyword>
+            <keywordThesaurus>Keywords List</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use. Special Conditions Data users must request permission from the Data Provider (Glenda Wardle or Chris Dickman) before access to latitudinal and longitudinal data is granted. •Data relating to the exact location of grids (i.e. latitudinal and longitudinal data) is restricted to mediated access in order to mitigate the risk of interference or theft of threatened or rare species. •All other Project or Background Data will be open.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+            </online>
+        </distribution>
+        <coverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>1990</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2011</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <taxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Ctenophorus isolepis</taxonRankValue>
+                    <commonName>Military Dragon</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Ctenophorus nuchalis</taxonRankValue>
+                    <commonName>Central Netted Dragon</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Dasycercus blythi</taxonRankValue>
+                    <commonName>Brush Tailed Mulgara</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Pseudomys hermannsburgensis</taxonRankValue>
+                    <commonName>Sandy Inland Mouse</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Sminthopsis youngsoni</taxonRankValue>
+                    <commonName>Lesser Hairy Footed Dunnart</commonName>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                    <taxonRankName>Species</taxonRankName>
+                    <taxonRankValue>Triodia basedowii</taxonRankValue>
+                    <commonName>Spinifex</commonName>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+            <geographicCoverage>
+                <geographicDescription>Simpson Desert, Western Queensland.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>137.86511</westBoundingCoordinate>
+                    <eastBoundingCoordinate>138.6059</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-23.20549</northBoundingCoordinate>
+                    <southBoundingCoordinate>-23.99417</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <contact>
+            <references>1429510367847</references>
+        </contact>
+        <contact>
+            <references>1429510757823</references>
+        </contact>
+        <contact id="1429578419957">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Aaron</givenName>
+                <surName>Greenville</surName>
+            </individualName>
+            <organizationName>The University of Sydney</organizationName>
+            <positionName>Research Assistant</positionName>
+            <address>
+                <deliveryPoint>Heydon-Laurence Building A08</deliveryPoint>
+                <deliveryPoint>The University of Sydney</deliveryPoint>
+                <city>Sydney</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2006</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9351 8577</phone>
+            <electronicMailAddress>aaron.greenville@sydney.edu.au</electronicMailAddress>
+        </contact>
+        <contact id="1429578477379">
+            <individualName>
+                <salutation>Mr</salutation>
+                <givenName>Bobby</givenName>
+                <surName>Tamayo</surName>
+            </individualName>
+            <organizationName>The University of Sydney</organizationName>
+            <positionName>Operational Manager</positionName>
+            <address>
+                <deliveryPoint>Heydon-Laurence Building A08</deliveryPoint>
+                <deliveryPoint>The University of Sydney</deliveryPoint>
+                <city>Sydney</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2006</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9351 8577</phone>
+            <electronicMailAddress>bobby.tamayo@sydney.edu.au</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Weather Station setup – rainfall data</title>
+                        <para>The network program uses 12 sites which are spaced at least 15 km apart, each comprising at least two 1-ha trapping grids, or plots which are spaced between 0.5-2 km apart. The 12 primary sites are spaced at least 15 km apart with an Environdata™ weather station at each site.</para>
+                    </section>
+                </description>
+                <instrumentation>Environdata™ weather station</instrumentation>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data retrieval preparation – rainfall data</title>
+                        <para>The weather stations record measured rainfall via a tipping bucket every minute. Data are pooled for each day. The automatic rain gauge is set up approximately 3 m from the instrument stand and housing. In addition to the automatic rain gauge, a manual rain gauge has been set up at each site.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data retrieval – rainfall data</title>
+                        <para>Power is maintained using a solar panel, which is angled towards the north. The information stored in the data logger is retrieved using a laptop computer (or PDA/tablet) at roughly three-month intervals.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Plot setup – vegetation data</title>
+                        <para>The network program uses 12 sites which are spaced at least 15 km apart, each comprising at least two 1-ha trapping grids, or plots which are spaced between 0.5-2 km apart. Additional grids have been used at some of the sites. Trapping grids are set out with thirty-six traps arrayed in a grid covering 1 ha; each grid comprises 6 lines of 6 traps spaced 20 m apart. Vegetation attributes (plant species occurrence and cover estimates) are recorded in a 2.5 m radius around pitfall traps on each vertebrate trapping grid.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data collection – vegetation data</title>
+                        <para>Percentage cover of all species, flowering index and seeding index (from 0-5, where 0 is no flowering or seeding and 5 is maximal flowering /seeding) are recorded. This index represents the total amount of flowering or seeding per species. For example, a score of 5 is awarded if all plants are flowering or seeding at their greatest extent. Sampling intervals are usually in April-May and samples are taken at the same time as the animal trapping. Data are recorded on paper field sheets. For this data package only the percentage cover of Spinfex is included.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Plot setup – mammal trapping data</title>
+                        <para>The network program uses 12 sites which are spaced at least 15 km apart, each comprising at least two 1-ha trapping grids, or plots which are spaced between 0.5-2 km apart. Additional grids have been used at some of the sites. Trapping grids are set out with thirty-six traps arrayed in a grid covering 1 ha; each grid comprises 6 lines of 6 traps spaced 20 m apart. The top line of traps extends along the dune crest, where consecutive numbering starts, and finishes along the sixth line 100 m distant in the dune valley or ‘swale’. Traps on each grid are opened for 1–6 nights (usually 3) at an annual sampling interval (usually each April) and checked in the mornings and sometimes afternoons, and animals are removed for processing.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Pitfall trap setup – mammal trapping data</title>
+                        <para>Mammal fauna are captured in pitfall traps. Each pitfall is made from PVC stormwater pipe, 160 mm in diameter and 600 mm deep, sunk vertically into the ground so that its top is flush with ground level. To increase trap success, by intercepting and guiding surface-active animals into the trap, a drift fence of aluminium wire mesh (flyscreen) extends outwards from the top of each trap, secured in place by means of a shallow trench. The fence is 30 cm high and runs for 2.5 m on each side of the pitfall opening. The bottom end of the pit is covered with flyscreen to form a floor to prevent captured animals from digging their way out, and all pits are capped with metal lids when not in use. A tiny amount of insecticide (Coopex) is sprinkled around each trap to prevent ant attack.</para>
+                        <para>• Pitfalls must be dug into the ground, so that the lip of the pipe is level to the ground, this can be done using a shovel. Wire mesh drift fence is bent at about 10 cm to form an L-shape and dug into the ground and pulled straight and upright.</para>
+                        <para>• Open all 36 pits using a spoon or pocket screwdriver</para>
+                        <para>• Make sure the mesh is directly over the open pit and there is no a lip as reptiles can use it as a bridge over the pit and don’t get caught.</para>
+                        <para>• Empty out excess sand from all pits .</para>
+                        <para>• Sprinkle Coopex around the edge of each pit to deter ants.</para>
+                        <para>• Check pitfall traps in the cool of the early morning to reduce stress on the animal.</para>
+                        <para>• Thoroughly check each pitfall, first by visually  ensuring that there is not a snake or other venomous animal inside the pit. Once certain that it is safe, cover hand with calico trapping bag and stick arm down pit and feel around for any mammals or reptiles, carefully sift through the sand as Leristas and other small lizards are hard to see. Leather gloves can be worn for extra protection against bites and scratches.</para>
+                        <para>• Remove any invertebrates from the pit, such as scorpions and centipedes and release at point of capture.</para>
+                        <para>• Be careful when removing animals from pitfalls, do not grab any animal by the tail. Place bag over animal and invert it inside pit to safely secure animal.</para>
+                        <para>• Place each animal in a separate calico bag and tie the top tightly to avoid escapes. Write trap and grid number on bag with permanent marker to ensure animal can be relased at point of capture after processing. Store the animals in large calico bag.</para>
+                        <para>• Once all traps are checked, animals are processed on site and released at point of capture.</para>
+                        <para>• At the end of the trapping survey (on the third day), place metal lids firmly on pitfall trap and ensure lid sits tight. Cover lid with a bit of sand to reduce exposure to sunlight and curious animals</para>
+                    </section>
+                </description>
+                <instrumentation>pitfall traps capped with metal</instrumentation>
+                <instrumentation>PVC stormwater pipe, 160 mm in diameter and 600 mm deep</instrumentation>
+                <instrumentation>drift fence of aluminium wire mesh (flyscreen) 30 cm x 2.5 m</instrumentation>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data collection and capture marking– mammal trapping data</title>
+                        <para>Date, site and grid number were recorded for all captures, and captured animals were also marked with unique ID numbers allowing identification of recaptured animals (related data packages contain data relating to morphometric observations, along with unique ID numbers). Ear samples are retained in ethanol as DNA samples. Any scats that are produced by animals during handling, or while they are in handling-bags, are kept in separately labelled vials for later analysis of their diet.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Release – mammal trapping data</title>
+                        <para>Date, site and grid number were recorded for all captures, and captured animals were also marked with unique ID numbers by ear notching prior to their release, allowing identification of recaptured animals.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Plot setup – reptile trapping</title>
+                        <para>The network program uses 12 sites which are spaced at least 15 km apart, each comprising at least two 1-ha trapping grids, or plots which are spaced between 0.5-2 km apart. Additional grids have been used at some of the sites. Trapping grids are set out with thirty-six traps arrayed in a grid covering 1 ha; each grid comprises 6 lines of 6 traps spaced 20 m apart. The top line of traps extends along the dune crest, where consecutive numbering starts, and finishes along the sixth line 100 m distant in the dune valley or ‘swale’. Traps on each grid are opened for 1–6 nights (usually 3) at an annual sampling interval (usually each April) and checked in the mornings and sometimes afternoons, and animals are removed for processing</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Pitfall trap setup – reptile trapping</title>
+                        <para>Herpetofauna are captured in pitfall traps. Each pitfall is made from PVC stormwater pipe, 160 mm in diameter and 600 mm deep, sunk vertically into the ground so that its top is flush with ground level. To increase trap success, by intercepting and guiding surface-active animals into the trap, a drift fence of aluminium wire mesh (flyscreen) extends outwards from the top of each trap, secured in place by means of a shallow trench. The fence is 30 cm high and runs for 2.5 m on each side of the pitfall opening. The bottom end of the pit is covered with flyscreen to form a floor to prevent captured animals from digging their way out, and all pits are capped with metal lids when not in use. A tiny amount of insecticide (Coopex) is sprinkled around each trap to prevent ant attack.</para>
+                        <para>• Pitfalls must be dug into the ground, so that the lip of the pipe is level to the ground, this can be done using a shovel. Wire mesh drift fence is bent at about 10 cm to form an L-shape and dug into the ground and pulled straight and upright.</para>
+                        <para>• Open all 36 pits using a spoon or pocket screwdriver</para>
+                        <para>• Make sure the mesh is directly over the open pit and there is no a lip as reptiles can use it as a bridge over the pit and don’t get caught.</para>
+                        <para>• Empty out excess sand from all pits .</para>
+                        <para>• Sprinkle Coopex around the edge of each pit to deter ants.</para>
+                        <para>• Check pitfall traps in the cool of the early morning to reduce stress on the animal.</para>
+                        <para>• Thoroughly check each pitfall, first by visually  ensuring that there is not a snake or other venomous animal inside the pit. Once certain that it is safe, cover hand with calico trapping bag and stick arm down pit and feel around for any mammals or reptiles, carefully sift through the sand as Leristas and other small lizards are hard to see. Leather gloves can be worn for extra protection against bites and scratches.</para>
+                        <para>• Remove any invertebrates from the pit, such as scorpions and centipedes and release at point of capture.</para>
+                        <para>• Be careful when removing animals from pitfalls, do not grab any animal by the tail. Place bag over animal and invert it inside pit to safely secure animal.</para>
+                        <para>• Place each animal in a separate calico bag and tie the top tightly to avoid escapes. Write trap and grid number on bag with permanent marker to ensure animal can be relased at point of capture after processing. Store the animals in large calico bag.</para>
+                        <para>• Once all traps are checked, animals are processed on site and released at point of capture.</para>
+                        <para>• At the end of the trapping survey (on the third day), place metal lids firmly on pitfall trap and ensure lid sits tight. Cover lid with a bit of sand to reduce exposure to sunlight and curious animals</para>
+                    </section>
+                </description>
+                <instrumentation>pitfall traps capped with metal</instrumentation>
+                <instrumentation>PVC stormwater pipe, 160 mm in diameter and 600 mm deep</instrumentation>
+                <instrumentation>drift fence of aluminium wire mesh (flyscreen) 30 cm x 2.5 m</instrumentation>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data collection – reptile trapping</title>
+                        <para>Date, site and grid number were recorded for all captures, and captured animals were also marked with unique ID numbers allowing identification of recaptured animals.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Release - reptiles</title>
+                        <para>Animals then are released within 10 m of the trap at which they were captured, either in vegetation or at sites offering local shelter.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Trip Report</title>
+                        <para>After every field trip, a ‘trip report’ is written to document the activities, and events in the survey. The trip reports can be found at http://www.desertecology.edu.au/</para>
+                        <para>Total number of captures over the survey trip were noted, and then this was standardised for unequal trapping effort. Dividing by the product of number of traps opened and the number of nights traps were opened.</para>
+                    </section>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>The core of 12 sites are sampled every April-May, however in 2012 there was not a complete survey, and so there are only 2 (Field River South and Main Camp) sites represented in this table.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>The network program uses a core of 12 sites which are spaced at least 15 km apart, each comprising two 1-ha trapping grids, or plots which are spaced between 0.5-2 km apart. The project involved sampling vegetation structure and plant species composition on the live-trapping grids (used for mammal and reptile sampling) in the Simpson Desert since 1990. Vegetation attributes (plant species occurrence and cover estimates) are recorded in a 2.5 m radius around six pitfall traps on each vertebrate trapping grid (one trap/line, selected at random - see Figure 6.5). The same traps on each grid are re-surveyed each trip; in general, these surveys are conducted around two traps each on the swale, side and crest of the dune. The core of 12 sites are sampled every April-May, however in 2012 there was not a complete survey, and so there are only 2 (Field River South and Main Camp) sites represented in this table. Other elements of the plot network’s full program share the sampling structure and core sites/plot/grid configuration of the study design.</para>
+                </samplingDescription>
+            </sampling>
+        </methods>
+        <project>
+            <title>Desert Ecology Plot Network</title>
+            <personnel>
+                <references>1429510367847</references>
+                <role>Data Owner</role>
+            </personnel>
+            <personnel>
+                <references>1429510757823</references>
+                <role>Data Owner</role>
+            </personnel>
+            <personnel>
+                <references>1429578419957</references>
+                <role>Plot Contact</role>
+            </personnel>
+            <personnel>
+                <references>1429578477379</references>
+                <role>Plot Contact</role>
+            </personnel>
+            <funding>
+                <para>These data were curated and published with strategic funds from a TERN initiative to publish long term data packages from the book Lindenmayer et al.  2014 Biodiversity and Environmental Change: Monitoring, Challenges and Direction.  Since 2012 the Desert Ecology Plot Network has been part of the Long Term Ecological Research Network (LTERN). This work was supported by the  Australian Government’s Terrestrial Ecosystems Research Network (www.tern.org.au) – an Australian research infrastructure project established under the  National Collaborative Research Infrastructure Strategy and Education Infrastructure Fund–Super Science Initiative through the (now) Department of  Education.</para>
+            </funding>
+        </project>
+        <dataTable id="1431414206727">
+            <entityName>derg_monthly_rainfall_summary_data_1995-2011_P365T621.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.20 on p408 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1431413874470">
+                <objectName>derg_monthly_rainfall_summary_data_1995-2011_P365T621.csv</objectName>
+                <size unit="byte">191653</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1431414206728">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206729">
+                    <attributeName>sitename</attributeName>
+                    <attributeDefinition>Name of site</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206730">
+                    <attributeName>month</attributeName>
+                    <attributeDefinition>Month</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>MM</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206731">
+                    <attributeName>countrainfall</attributeName>
+                    <attributeDefinition>Number of days weather station was working within the month</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>whole</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206732">
+                    <attributeName>totalrainfall</attributeName>
+                    <attributeDefinition>Total monthly rainfall</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206733">
+                    <attributeName>raindays</attributeName>
+                    <attributeDefinition>Number of days rain was recorded during the month</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>whole</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206734">
+                    <attributeName>meanrain</attributeName>
+                    <attributeDefinition>Mean rainfall per month</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206735">
+                    <attributeName>maxevent</attributeName>
+                    <attributeDefinition>Max rainfall event size per month</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206736">
+                    <attributeName>mean_mintemp</attributeName>
+                    <attributeDefinition>Mean minimum temp per month °C</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206737">
+                    <attributeName>mean_maxtemp</attributeName>
+                    <attributeDefinition>Mean maximum temp per month °C</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1431414206738">
+                    <attributeName>mean_temp</attributeName>
+                    <attributeDefinition>Mean monthly temperature °C</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>2307</numberOfRecords>
+        </dataTable>
+        <dataTable id="1432169050660">
+            <entityName>derg_spinfex_summary_data_1990-2011_P365T622.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.21 on p408 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1432168823748">
+                <objectName>derg_spinfex_summary_data_1990-2011_P365T622.csv</objectName>
+                <size unit="byte">7323</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1432169050661">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050662">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050663">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050664">
+                    <attributeName>scientific_name</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050665">
+                    <attributeName>mean_spinifex_cover</attributeName>
+                    <attributeDefinition>Mean percentage cover of spinifex</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050666">
+                    <attributeName>number_of_grids_cover_measured_at</attributeName>
+                    <attributeDefinition>The number of grids where spinifex cover was measured</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>whole</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050667">
+                    <attributeName>standard_deviation</attributeName>
+                    <attributeDefinition>Standard deviation for mean percentage cover of spinifex</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1432169050668">
+                    <attributeName>standard_error</attributeName>
+                    <attributeDefinition>Standard error margin for mean percentage cover of spinifex</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>91</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433814626341">
+            <entityName>derg_spinfex_hopping-mouse_summary_data_1990-2011_P365T883.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (A) on p411 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433814470663">
+                <objectName>derg_spinfex_hopping-mouse_summary_data_1990-2011_P365T883.csv</objectName>
+                <size unit="byte">12031</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433814626342">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626343">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626344">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626345">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626346">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626347">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626348">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814626349">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>126</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433814835982">
+            <entityName>derg_sandy_inland_mouse_summary_data_1990-2011_P365T892.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (B) on p411 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433814710948">
+                <objectName>derg_sandy_inland_mouse_summary_data_1990-2011_P365T892.csv</objectName>
+                <size unit="byte">14691</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433814835983">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835984">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835985">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835986">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835987">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835988">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835989">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433814835990">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>126</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433815462158">
+            <entityName>derg_brush-tailed_mulgara_summary_data_1990-2011_P365T894.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (C) on p411 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433815320079">
+                <objectName>derg_brush-tailed_mulgara_summary_data_1990-2011_P365T894.csv</objectName>
+                <size unit="byte">10880</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433815462166">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462167">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462168">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462169">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462170">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462171">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462172">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815462173">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>126</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433815644445">
+            <entityName>derg_lesser_hairy-footed_dunnart_summary_data_1990-2011_P365T893.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (D) on p412 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433815512355">
+                <objectName>derg_lesser_hairy-footed_dunnart_summary_data_1990-2011_P365T893.csv</objectName>
+                <size unit="byte">14688</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433815644446">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644447">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644448">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644449">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644450">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644451">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644452">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815644453">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>126</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433815805635">
+            <entityName>derg_military_dragon_summary_data_1990-2011_P365T895.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (E) on p412 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433815693771">
+                <objectName>derg_military_dragon_summary_data_1990-2011_P365T895.csv</objectName>
+                <size unit="byte">13179</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433815805636">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805637">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805638">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805639">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805640">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805641">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805642">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815805643">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>125</numberOfRecords>
+        </dataTable>
+        <dataTable id="1433815956339">
+            <entityName>derg_central_netted_dragon_summary_data_1990-2011_P365T896.csv</entityName>
+            <entityDescription>Summary data used to generate the graph in Figure 10.25 (F) on p412 of the book Lindenmayer et al. 2014 Biodiversity and Environmental Change</entityDescription>
+            <physical id="1433815846439">
+                <objectName>derg_central_netted_dragon_summary_data_1990-2011_P365T896.csv</objectName>
+                <size unit="byte">11458</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.ltern.org.au/knb/metacat/ltern.111.51/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1433815956340">
+                    <attributeName>year</attributeName>
+                    <attributeDefinition>Year of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>YYYY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956341">
+                    <attributeName>monthyear</attributeName>
+                    <attributeDefinition>Month and year of survey identifier</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>Mmm.YY</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956342">
+                    <attributeName>tripno</attributeName>
+                    <attributeDefinition>Arbitrary trip identifier</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956343">
+                    <attributeName>fauna_descriptor</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956344">
+                    <attributeName>common_name</attributeName>
+                    <attributeDefinition>Species common name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Character</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956345">
+                    <attributeName>mean</attributeName>
+                    <attributeDefinition>Mean number of standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956346">
+                    <attributeName>standard_deviation_sample</attributeName>
+                    <attributeDefinition>Sample standard deviation for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1433815956347">
+                    <attributeName>standard_error_sample</attributeName>
+                    <attributeDefinition>Sample standard error for standardised captures over all grid sites during the survey period</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>125</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <additionalLinks>
+                <url name="Desert Ecology Plot Network home page">http://www.ltern.org.au/ltern-plot-networks/desert-ecology</url>
+            </additionalLinks>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <additionalProjectInfo>This data package is comprised of data from the book Lindenmayer et al. 2014 Biodiversity and Environmental Change: Monitoring Challenges and Direction</additionalProjectInfo>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

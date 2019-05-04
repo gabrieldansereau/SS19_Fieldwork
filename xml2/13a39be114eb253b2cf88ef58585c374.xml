@@ -1,0 +1,32 @@
+<DryadDataFile xmlns="http://purl.org/dryad/schema/terms/v3.1" xmlns:dwc="http://rs.tdwg.org/dwc/terms/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:bibo="http://purl.org/dryad/schema/dryad-bibo/v3.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://purl.org/dryad/schema/terms/v3.1 http://datadryad.org/profile/v3.1/dryad.xsd">
+  <dcterms:type>file</dcterms:type>
+  <dcterms:creator>Kaltenpoth, Martin</dcterms:creator>
+  <dcterms:creator>Steiger, Sandra</dcterms:creator>
+  <dcterms:title>Alignment of two mitochondrial and two nuclear markers across eight species of carrion beetles (Coleoptera, Silphidae) and an outgroup taxon (Tribolium castaneum), in nexus format with MrBayes block</dcterms:title>
+  <dcterms:identifier>https://doi.org/10.5061/dryad.2m854/3</dcterms:identifier>
+  <dcterms:rights>http://creativecommons.org/publicdomain/zero/1.0/</dcterms:rights>
+  <dcterms:description>For an analysis of the evolutionary history of microbial communities across the Silphidae, the host phylogeny was reconstructed based on two mitochondrial (cytochrome oxidase I and II, COI and COII hereafter) and two nuclear genes (28S rRNA gene and carbamoylphosphate synthetase, 28S and CAD hereafter). Most sequences for Nicrophorus spp., Ne. americana, and the outgroup species Tribolium castaneum were obtained from the NCBI database. The dataset was completed by sequencing CAD for Ne. americana, COI/COII for Ni. tomentosus, and CAD, COI, and 28S rRNA for O. noveboracense. COII could not successfully be amplified and sequenced for O. noveboracense, so it was coded as missing data for the analysis. Amplicons were sequenced bidirectionally with (CAD, some COI/II) or without (28S, most COI/II fragments) prior subcloning with the StrataClone PCR Cloning Kit (Agilent Technologies, USA). Curated protein-coding sequences (CAD, COI, and COII) were aligned based on their amino acid translation in Geneious Pro 5.4 (Drummond et al. 2011), and partial 28S rRNA gene sequences were aligned using the SINA aligner (Pruesse et al. 2012). The alignments were concatenated, and phylogenetic relationships were reconstructed using approximately-maximum-likelihood (ML, FastTree) and Bayesian algorithms (MrBayes 3.1.2, Huelsenbeck &amp; Ronquist 2001; Huelsenbeck et al. 2001; Ronquist &amp; Huelsenbeck 2003). For the ML analysis, the general time-reversible (GTR) model was used. For the Bayesian analysis, the dataset was partitioned into the four genes. For the three protein-coding genes, six substitution rates were allowed (GTR model), whereas all substitutions were restricted to the same rate (JC model) for the ribosomal gene. Due to saturation, third codon positions were excluded from the analysis for the two mitochondrial genes (COI and COII). We ran the analysis with four chains and a temperature of 0.2 for 10,000,000 generations (1,000,000 generations for the reduced dataset, see below) and confirmed that the standard deviation of split frequencies was consistently less than 0.01. Trees were sampled every 1000 generations, and a “burnin” of 1000 was used. We computed a 50% majority rule consensus tree with posterior probabilities for every node. We ran all analyses with the complete set of taxa as well as with a reduced set containing only the species analyzed in this study. In both cases, T. castaneum was included and defined as the outgroup to root the tree.</dcterms:description>
+  <dcterms:subject>Bacteria</dcterms:subject>
+  <dcterms:subject>Coevolution</dcterms:subject>
+  <dcterms:subject>Host Parasite Interactions</dcterms:subject>
+  <dcterms:subject>Insects</dcterms:subject>
+  <dcterms:subject>Microbial Biology</dcterms:subject>
+  <dcterms:subject>Species Interactions</dcterms:subject>
+  <dcterms:subject>Mutualism</dcterms:subject>
+  <dcterms:subject>symbiosis</dcterms:subject>
+  <dcterms:subject>microbiota</dcterms:subject>
+  <dcterms:subject>burying beetle</dcterms:subject>
+  <dwc:scientificName>Silphidae</dwc:scientificName>
+  <dwc:scientificName>Silphinae</dwc:scientificName>
+  <dwc:scientificName>Nicrophorinae</dwc:scientificName>
+  <dwc:scientificName>Nicrophorus</dwc:scientificName>
+  <dwc:scientificName>Necrophila</dwc:scientificName>
+  <dwc:scientificName>Oiceoptoma</dwc:scientificName>
+  <dcterms:spatial>USA</dcterms:spatial>
+  <dcterms:spatial>Germany</dcterms:spatial>
+  <dcterms:dateSubmitted>2013-07-24T18:28:58Z</dcterms:dateSubmitted>
+  <dcterms:available>2013-09-18T19:23:52Z</dcterms:available>
+  <dcterms:provenance>Made available in DSpace on 2013-07-24T18:28:58Z (GMT). No. of bitstreams: 1
+Host_phylogeny_selected_Silphidae_concat.nex: 40614 bytes, checksum: 34ed2e8f4d202e9164f6d188877ec99f (MD5)</dcterms:provenance>
+  <dcterms:isPartOf>https://doi.org/10.5061/dryad.2m854</dcterms:isPartOf>
+</DryadDataFile>

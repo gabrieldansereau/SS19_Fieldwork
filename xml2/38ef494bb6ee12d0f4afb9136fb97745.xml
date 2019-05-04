@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="Savan.10.14" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" "> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=edupacifico,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Experimental burns in the Brazilian Amazon</title>
+ <creator id="1317216358602" scope="document"> <organizationName>Amazon Environmental Research Institute - IPAM</organizationName>
+ <electronicMailAddress>nobrega.caroline@gmail.com</electronicMailAddress>
+ </creator>
+ <abstract> <para>This research program was conducted to quantify how increasing understory ï¬res alter forest features and the patterns of tree mortality. Data collected include floristic survey with measurement of diameter at breast height (dbh),bark thickness, fire scars, etc. Forest features include Leaf Area Index (LAI), litterfall and Vapor Pressure Deficit (VPD), temperature, relative humidity and precipitation throughout the year. Some features directly related to the fire was VPD during the fire and char heigth (proxy  of fire intensity) .</para>
+ </abstract>
+ <keywordSet> <keyword>Amazon</keyword>
+ <keyword>Fire</keyword>
+ <keyword>Tree mortality</keyword>
+ <keyword>Tropical forest</keyword>
+ </keywordSet>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>The study site is located on a privately owned land holding in the Brazilian state of Mato Grosso, in the southern Amazon basin, 30 km north of the forest-cerrado boundary (13â¦04â35ââ S, 52â¦23â08ââ W).</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-52.38555556</westBoundingCoordinate>
+ <eastBoundingCoordinate>-52.38555556</eastBoundingCoordinate>
+ <northBoundingCoordinate>-13.07638889</northBoundingCoordinate>
+ <southBoundingCoordinate>-13.07638889</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2004</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2010</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1317216682378" scope="document"> <individualName> <givenName>Paulo</givenName>
+ <surName>Monteiro Brando</surName>
+ </individualName>
+ <electronicMailAddress>paulobrando@gmail.com</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Fire-induced tree mortality</title>
+ <para>Tree mortality and forest features was measured in three 50-ha treatment  plots (0.5Ã1.0 km), which include a unburned control (A), a plot burned every three years (B), and a plot burned annually (C). Experimental burns were conducted in either August or September, near the end of the dry season, when many escaped wild ï¬res typically occur</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Full_Dataset_Mort_Bark_Fire_ABCRES_Synthesis.Rdata</title>
+ <para>This archive in format .RData has information about tree present in the studied plots</para>
+ <para>sc: specie code</para>
+ <para>placa: individual number to each tree</para>
+ <para>dap:  diameter at breast height (dbh)</para>
+ <para>p.bark.t: bark thickness</para>
+ <para>metragem:  east- west distance (meters)</para>
+ <para>ans: south- north distance (meters)</para>
+ <para>m: living trees in 2004 and which remain alive each year.</para>
+ <para>eg.  m.04.05 âliving trees in 2004 and which remain alive in 2005.</para>
+ <para>am: fire scar height to each year, from 2004 to 2009.</para>
+ <para>pq: proportion of basal area burned each year,  from 2004 to 2009.</para>
+ </section>
+ </description>
+ <instrumentation>Trees were sampled according three diameter classes: from 10 to 20 cm in diameter, from 20 to 40 cm and above 40 cm in diameter. Each class was sampled with different sampling effort. In the first diameter class we surveyed an area with only 1.22ha, in second diameter class the surveyed an area of 4.97ha and in the third class the surveyed area was 50 ha (the entire area).</instrumentation>
+ </methodStep>
+ <methodStep> <description> <section> <title>Dataset_LAI_carol.RData</title>
+ <para>This archive in format .RData has information about Leaf Area Index (LAI) measured from 2005 to 2010. LAI was estimated using two LiCor 2000 Plant Canopy Analyzers (LI-COR,1992) operating in differential mode.</para>
+ <para>parcela: treatment plots (A, B and C)</para>
+ <para>lev.1: east - west transects</para>
+ <para>lev.2: south - north transects</para>
+ <para>LAI : Leaf Area Index</para>
+ <para>MTA:</para>
+ <para>mes: month</para>
+ <para>yr: year</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>A1_Master_ATUALIZADO_maio_2011.csv</title>
+ <para>Litterfall data was collected bi-weekly from 2004 to 2011 from mesh traps (0.5m2) in the understorey of the three plots.</para>
+ <para>parcel: treatment plots (A,B and C)</para>
+ <para>date: date in the format mm/dd/yy</para>
+ <para>ponto: east-west and south-north transects union</para>
+ <para>weight: litterfall and bag weight</para>
+ <para>bagweight: only bag weight</para>
+ <para>OBS: observations</para>
+ <para>days: day</para>
+ <para>linha: east-west transects</para>
+ <para>ponto2: south-north transects</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Chuva_Tanguro.csv</title>
+ <para>Rainfall information measured at the Darro station</para>
+ <para>'first column': year</para>
+ <para>Month: month</para>
+ <para>1,2,3,â¦, 31: rainfall related to each day</para>
+ <para>Total mensal: accumulated rainfall in the month</para>
+ <para>ObservaÃ§Ãµes: observations</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ </dataset>
+ </eml:eml>

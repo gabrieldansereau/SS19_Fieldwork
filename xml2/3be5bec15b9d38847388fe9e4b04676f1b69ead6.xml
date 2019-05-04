@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-sbc.50.4"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=sbc,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=mobrien,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>uid=lkui,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>knb-lter-sbc.50</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/f5f871e8b2980bb52005ead1bf246e25</alternateIdentifier>
+    <shortName>kelp forest species biomass</shortName>
+    <title>SBC LTER: Reef: Annual time series of biomass for kelp forest species, ongoing since 2000</title>
+    <creator>
+      <organizationName>Santa Barbara Coastal LTER</organizationName>
+      <address>
+        <deliveryPoint>Marine Science Institute,University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93106</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Daniel C</givenName>
+        <surName>Reed</surName>
+      </individualName>
+      <electronicMailAddress>dan.reed@lifesci.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org/">https://orcid.org/0000-0003-3015-8717</userId>
+    </creator>
+    <pubDate>2018-01-26</pubDate>
+    <language>English</language>
+    <abstract>
+      <para>
+  These data are annual estimates of biomass of approximately 225 taxa
+  of reef algae, invertebrates and fish in permanent transects at 11
+  kelp forest reefs in the Santa Barbara Channel (2-8 transects per
+  reef). Abundance is measured annually (as percent cover or density, by
+  size) and converted to biomass using published taxon-specific
+  algorithms. Data collection began in summer 2000 and continues
+  annually in summer to provide information on community structure,
+  population dynamics and species change. See Methods for more
+  information.  
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Disturbance Patterns</keyword>
+      <keyword>populations</keyword>
+      <keywordThesaurus>LTER Core Research Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>abundance</keyword>
+      <keyword>aquatic invertebrates</keyword>
+      <keyword>biomass</keyword>
+      <keyword>gastropods</keyword>
+      <keyword>invertebrates</keyword>
+      <keyword>long term</keyword>
+      <keyword>long term ecological research</keyword>
+      <keyword>LTER</keyword>
+      <keyword>macroinvertebrates</keyword>
+      <keyword>marine</keyword>
+      <keyword>measurements</keyword>
+      <keyword>mollusks</keyword>
+      <keyword>organism</keyword>
+      <keyword>populations</keyword>
+      <keyword>Santa Barbara Coastal</keyword>
+      <keyword>species</keyword>
+      <keyword>transects</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary v1</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Community Structure</keyword>
+      <keyword>Kelp Forest</keyword>
+      <keyword>populations</keyword>
+      <keyword>Reef</keyword>
+      <keywordThesaurus>SBC-LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Arroyo Quemado Reef</keyword>
+      <keyword>Carpinteria Reef</keyword>
+      <keyword>Mohawk Reef</keyword>
+      <keyword>Naples Reef</keyword>
+      <keywordThesaurus>Santa Barbara Coastal LTER Places</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Cover</keyword>
+      <keyword>Estimation</keyword>
+      <keyword>Live Weight</keyword>
+      <keyword>Reefs</keyword>
+      <keyword>Species</keyword>
+      <keywordThesaurus>NBII Biocomplexity</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>biomass</keyword>
+      <keyword>core</keyword>
+      <keyword>crustaceans</keyword>
+      <keyword>LTER</keyword>
+      <keyword>ongoing</keyword>
+    </keywordSet>
+    <intellectualRights>
+
+      <para>
+  This data package is released under the Creative Commons license
+  Attribution 4.0 International (CC BY 4.0 , see
+  <ulink url="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ulink>).
+  This license states that consumers ("Data Users" herein) may
+  distribute, adapt, reuse, remix, and build upon this work, as long as
+  they give appropriate credit, provide a link to the license, and
+  indicate if changes were made. If redistributed, a Data User may not
+  apply additional restrictions or technological measures that prevent
+  access.
+</para>
+      <para>
+  The Data User has an ethical obligation to cite the data source
+  appropriately in any publication or product that results from its use,
+  and notify the data contact or creator. Communication, collaboration,
+  or co-authorship (as appropriate) with the creators of this data
+  package is encouraged to prevent duplicate research or publication.
+  The Data User is urged to contact the authors of these data if any
+  questions about methodology or results occur. The Data User should
+  realize that these data may be actively used by others for ongoing
+  research and that coordination may be necessary to prevent duplication
+  or inappropriate use. The Data User should realize that
+  misinterpretation may occur if data are used outside of the context of
+  the original study. The Data User should be aware that data are
+  updated periodically and it is the responsibility of the Data User to
+  check for new versions of the data.
+</para>
+      <para>
+  While substantial efforts are made to ensure the accuracy of data and
+  associated documentation, complete accuracy of data sets cannot be
+  guaranteed. This data package (with its components) is made available
+  “as is” and with no warranty of accuracy or fitness for use. The
+  creators of this data package and the repository where these data were
+  obtained shall not be liable for any damages resulting from
+  misinterpretation, use or misuse of the data package or its
+  components.
+</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://sbc.lternet.edu/</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>ABUR: Arroyo Burro Reef is located on the Santa Barbara Channel&#xd;
+  near the mouth of Arroyo Burro Creek and Beach. Depth ranges from 5.4 to 7 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.7445915</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.7445915</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.400275</northBoundingCoordinate>
+          <southBoundingCoordinate>34.400275</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>AHND: Arroyo Hondo Reef is located on the Santa Barbara Channel near the east end of Gaviota State Park, CA. Depth ranges from -4.3m to -6.6 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.1426165</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.1426165</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.471817</northBoundingCoordinate>
+          <southBoundingCoordinate>34.471817</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>AQUE: Arroyo Quemado Reef: Arroyo Quemado Reef depth range from 5.4m to 10.7m. There are 7 permanent transects: Transect I --- Transect VII. Reference on Land is close to US101/Arroyo Quemada Ln.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.11905</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.11905</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.46774988</northBoundingCoordinate>
+          <southBoundingCoordinate>34.46774988</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>BULL: Builto: Bulito has three permanent transect: Transect I, III, VI. Depth Range from -5.5 to -7.3. Reference on land is close to Ranch Real road and Hollister Ranch road crossing section.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.33349</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.33349</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.45850533</northBoundingCoordinate>
+          <southBoundingCoordinate>34.45850533</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>CARP: Carpinteria Reef is located on the Santa Barbara Channel offshore of the Carpinteria Salt Marsh. Depth range is from -2.2 to -8.8 meters</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.5416933</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.5416933</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3916319</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3916319</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Goleta Bay: Goleta Bay: Goleta Bay is located on the Santa Barbara Channel east of Goleta Pier. Depth range is -4.2 to -5 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.8221</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.8221</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4137165</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4137165</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>IVEE: Isla Vista (IV) Reef is located on the Santa Barbara Channel near the University of California Santa Barbara, CA. Depth range is from -8.2 to -8.8 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.85755</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.85755</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.402783</northBoundingCoordinate>
+          <southBoundingCoordinate>34.402783</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>MOHK: Mohawk Reef: Mohawk Reef depth ranges from 4.5m to 6.0 m. Reference on land is Mohawk Rd / Edgewater Way.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.72957</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.72957</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.3940708</northBoundingCoordinate>
+          <southBoundingCoordinate>34.3940708</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>NAPL: Naples Reef is located on the Santa Barbara Channel near the community of Naples and Dos Pueblos Canyon, Santa Barbara County, CA. Depth ranges from -5.9 to -13.4 meters.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95154</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.95154</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.4221216</northBoundingCoordinate>
+          <southBoundingCoordinate>34.4221216</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Santa Cruz Island, Diablo: Santa Cruz Island, Diablo</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.75763</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.75763</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.05865</northBoundingCoordinate>
+          <southBoundingCoordinate>34.05865</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Santa Cruz Island, Twin Harbor West: Santa Cruz Island, Twin Harbor West</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.71513</westBoundingCoordinate>
+          <eastBoundingCoordinate>-119.71513</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.0444335</northBoundingCoordinate>
+          <southBoundingCoordinate>34.0444335</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2000</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2017</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="sbc-boilerplate-contact_SBC" scope="system" system="sbclter">
+      <positionName>Information Manager, Santa Barbara Coastal LTER</positionName>
+      <address scope="document">
+        <deliveryPoint>Marine Science Institute</deliveryPoint>
+        <deliveryPoint>University of California</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>California</administrativeArea>
+        <postalCode>93106-6150</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">805 893 2071</phone>
+      <electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress>
+      <onlineUrl>http://sbc.lternet.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Santa Barbara Coastal Long Term Ecological Research Project</organizationName>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Annual time series of biomass for kelp forest species</title>
+            <para>
+    Annual field measurements of percent cover or size specific density
+    were converted to biomass (g m2) for each alga and invertebrate
+    surveyed using the taxon specific relationships of Reed et al 2009,
+    Harrer et al 2013 and Reed et al 2016. Fish size specific density
+    was converted to biomass using literature based relationships
+    (Walford 1932, Young 1963, Quast 1968b, Thorson 1976, DeMartini et
+    al 1987, Love 1990, Taylor 1997, Love and Johnson 1999 and
+    fishbase.org.). Percent cover or size specific density of rare
+    species was converted to biomass using relationships derived for
+    morphologically similar taxa. In the event that no size data was
+    available to be coupled with field measures of taxon density, mean
+    taxon size at a specific site was used to calculate taxon biomass at
+    that site.
+  </para>
+          </section>
+          <section>
+            <title>Biomass of algae</title>
+            <para>
+    Annual measurements of percent cover for crustose alga, low lying
+    turfs and foliose algae were converted to de-calcified dry biomass
+    (g m2) using the equations of Harrer et al 2013. Frond density of
+    adult Macrocystis pyrifera along permanent transects was converted
+    to de-calcified dry biomass (g m2) using the equation of Reed et al
+    2009. Size specific density measurements of understory kelps,
+    invasive fucoids and juvenile M. pyrifera were converted to
+    de-calcified dry biomass (g m2) using the equations of Harrer et al
+    2013. Estimates of juvenile biomass and adult biomass were summed
+    for each taxon. In the event that no size data was available to be
+    coupled with taxon density, mean size recorded at a specific site
+    was used to calculate biomass.
+  </para>
+            <para>
+    Estimates of de-calcified dry biomass were converted to wet biomass
+    (g m2) and ash free dry biomass (g m2) by applying laboratory
+    derived conversion ratios established for each representative taxon.
+  </para>
+          </section>
+          <section>
+            <title>Biomass of invertebrates</title>
+            <para>
+    Annual measurements of percent cover for colonial species (e.g.
+    compound ascidians, bryozoans, sponges) and small aggregating taxa
+    (e.g. hydrozoans, anthozoans, polychaetes) were converted to wet
+    biomass (g m2) using the equations of Reed et al 2016. Annual
+    measurements of size specific density of solitary species were also
+    converted to wet biomass using the equations of Reed et al 2016.
+    Estimates of wet biomass were converted to de-calcified dry biomass
+    (g m2) and ash free dry biomass (g m2) using taxon specific
+    conversion factors provided in Reed et al 2016.
+  </para>
+          </section>
+          <section>
+            <title>Biomass of fish</title>
+            <para>
+    Annual measurements of size specific density of all reef fish
+    surveyed were converted to wet biomass (g m2) using literature based
+    relationships between length and wet mass (Walford 1932, Young 1963,
+    Quast 1968b, DeMartini et al 1987, Love 1990, Love and Johnson 1999
+    and fishbase.org). Estimates of wet mass for bony fish were
+    converted to bone-in dry mass (g m2) and ash free dry mass (g m2)
+    using an average conversion factor from Taylor 1997. Estimates of
+    wet mass for elasmobranchs were converted to dry mass (g m2) and ash
+    free dry mass using an average conversion factor from Thorson 1976
+  </para>
+          </section>
+          <section>
+            <title>Related references: </title>
+            <para>
+              <ulink url="http://dx.doi.org/">Harrer, S. , DC. Reed and RJ.
+    Miller. 2013. SBC LTER: Reef: Macrolgal photosynthetic parameters
+    and biomass relationships. Santa Barbara Coastal LTER.
+    doi:10.6073/pasta/b4531c4092cb8a40cf5bdd3a00b6c9c3.</ulink>
+            </para>
+            <para>
+              <ulink url="http://dx.doi.org/10.1007/s00227-009-1238-6">Reed, D.
+    C., A. R. Rassweiler and K. Arkema. 2009. Density derived estimates
+    of standing crop and net primary production in the giant kelp
+    Macrocystis pyrifera. Marine Biology, 156: 2077-2083. doi:
+    10.1007/s00227-009-1238-6</ulink>
+            </para>
+            <para>
+              <ulink url="http://dx.doi.org/10.1007/s00227-016-2879-x">Reed, D. C,
+    J. C. Nelson, S. L. Harrer, and R. J. Miller. 2016. Estimating
+    biomass of benthic kelp forest invertebrates from body size and
+    percent cover data. Marine Biology. DOI:
+    10.1007/s00227-016-2879-x.</ulink>
+            </para>
+          </section>
+        </description>
+        <protocol>
+          <title>SBC LTER Protocols: Biomass of algae invertebrates and fish</title>
+          <creator>
+            <individualName>
+              <surName>Reed</surName>
+            </individualName>
+          </creator>
+          <distribution>
+            <online>
+              <url function="download">http://sbc.lternet.edu/external/Reef/Protocols/Kelp_Forest_Community_Dynamics/SBC_LTER_protocol_Reed_Kelp_forest_community_biomass_bytaxon_20161018.pdf</url>
+            </online>
+          </distribution>
+        </protocol>
+      </methodStep>
+    </methods>
+    <project id="sbc-boilerplate-project_SBC" scope="system" system="sbclter">
+      <title>Santa Barbara Coastal Long Term Ecological Research Project</title>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Daniel</givenName>
+          <surName>Reed</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-6150</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 8363</phone>
+        <electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>John</givenName>
+          <surName>Melack</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-5131</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3879</phone>
+        <electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Sally</givenName>
+          <surName>Holbrook</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3777</phone>
+        <electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>Steven</givenName>
+          <surName>Gaines</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Marine Science Institute</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-9620</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 3764</phone>
+        <electronicMailAddress>gaines@msi.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <personnel scope="document">
+        <individualName>
+          <salutation>Dr.</salutation>
+          <givenName>David</givenName>
+          <surName>Siegel</surName>
+        </individualName>
+        <address scope="document">
+          <deliveryPoint>Institute for Computational Earth System Science</deliveryPoint>
+          <deliveryPoint>University of California</deliveryPoint>
+          <city>Santa Barbara</city>
+          <administrativeArea>California</administrativeArea>
+          <postalCode>93106-3060</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">805 893 4547</phone>
+        <electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress>
+        <role>Co-principal Investigator</role>
+      </personnel>
+      <abstract>
+        <section>
+          <para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis> ) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para>
+        </section>
+      </abstract>
+      <funding>
+        <section>
+          <para>NSF Award OCE-0620276</para>
+        </section>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>SBC LTER Annual time series of biomass for kelp forest species</entityName>
+      <entityDescription>Areal biomass of more than 200 kelp forest species at permanent sites.</entityDescription>
+      <physical>
+        <objectName>Annual_Algal_Invert_Fish_Biomass_20180121.csv</objectName>
+        <size unit="byte">22308635</size>
+        <authentication method="MD5">336532d5803c329fc2a5690013c1996d</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/50/4/24d18d9ebe4f6e8b94e222840096963c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>YEAR</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Calendar year</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE</attributeName>
+          <attributeLabel>Site Name</attributeLabel>
+          <attributeDefinition>SBC code for this field site.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AQUE</code>
+                    <definition>Arroyo Quemado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CARP</code>
+                    <definition>Carpinteria</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MOHK</code>
+                    <definition>Mohawk</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NAPL</code>
+                    <definition>Naples</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TRANSECT</attributeName>
+          <attributeLabel>Transect Name</attributeLabel>
+          <attributeDefinition>40m transects defined by six permanent markers (stainless steel eyebolts or rebar stakes) at 0, 8, 16, 24, 32, and 40m</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_KINGDOM</attributeName>
+          <attributeLabel>Kingdom</attributeLabel>
+          <attributeDefinition>Phylogenetic Kingdom </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_PHYLUM</attributeName>
+          <attributeLabel>Phylum</attributeLabel>
+          <attributeDefinition>Phylogenetic Phylum</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_CLASS</attributeName>
+          <attributeLabel>Class</attributeLabel>
+          <attributeDefinition>Phylogenetic Class</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_ORDER</attributeName>
+          <attributeLabel>Order</attributeLabel>
+          <attributeDefinition>Phylogenetic Order</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_FAMILY</attributeName>
+          <attributeLabel>Family</attributeLabel>
+          <attributeDefinition>Phylogenetic Family</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_GENUS</attributeName>
+          <attributeLabel>Genus</attributeLabel>
+          <attributeDefinition>Genus name of taxon in Linnean taxanomic system.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TAXON_SPECIES</attributeName>
+          <attributeLabel>Species</attributeLabel>
+          <attributeDefinition>Species name of taxon in Linnean taxanomic systems.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SP_CODE</attributeName>
+          <attributeLabel>Species Code</attributeLabel>
+          <attributeDefinition>SBC species code for this taxon. Generally 3-6 char. </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>any text</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WM_gm2</attributeName>
+          <attributeLabel>Wet Mass</attributeLabel>
+          <attributeDefinition>Areal wet mass of individuals or colony, including chitonous or calcareous structures</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DM_gm2</attributeName>
+          <attributeLabel>Dry Mass</attributeLabel>
+          <attributeDefinition>Areal dry mass of shell-free, decalcified individuals or colony (fish include bones), see methods for treatment	</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AFDM_gm2</attributeName>
+          <attributeLabel>Ash-Free Dry Mass</attributeLabel>
+          <attributeDefinition>Areal ash-free dry mass, see methods for treatment</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>gramPerMeterSquared</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>density</attributeName>
+          <attributeLabel>Density</attributeLabel>
+          <attributeDefinition>The density taxon per squared meter</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerMeterSquared</standardUnit>
+              </unit>
+              <precision>1e-10</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>percent_cover</attributeName>
+          <attributeLabel>Percent cover</attributeLabel>
+          <attributeDefinition>Percent cover of the species noted, determined by a uniform point contact method (80 points per 40 meter squared transect). Vertical layering of cover is accounted</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-99999</code>
+            <codeExplanation>value not recorded or not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>GROUP</attributeName>
+          <attributeLabel>Organism Group</attributeLabel>
+          <attributeDefinition>Functional grouping term for observed taxon.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ALGAE</code>
+                    <definition>Organism functional group is algae.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FISH</code>
+                    <definition>Organism functional group is fish.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INVERT</code>
+                    <definition>Organism functional group is invertebrate.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Guild</attributeName>
+          <attributeLabel>Guild</attributeLabel>
+          <attributeDefinition>Feeding guild as described in MacDonald et al 2010.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CONSUMER</code>
+                    <definition>Organism is a consumer.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PRODUCER</code>
+                    <definition>Organism is a producer.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Mobility</attributeName>
+          <attributeLabel>Mobility</attributeLabel>
+          <attributeDefinition>Either Sessile or Mobile depending on the animals locomotive schemea.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MOBILE</code>
+                    <definition>Organism is mobile.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SEESILE</code>
+                    <definition>Organism is sessile.</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>163013</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <unit abbreviation="g/m2" constantToSI="0"
+          id="gramPerMeterSquared" multiplierToSI="0.001"
+          name="gramPerMeterSquared" parentSI="kilogramsPerSquareMeter" unitType="arealMassDensity">
+          <description>grams per square meter</description>
+        </unit>
+        <unit id="numberPerMeterSquared" multiplierToSI="1"
+          name="numberPerMeterSquared" unitType="arealDensity">
+          <description>number per meter squared</description>
+        </unit>
+        <unit abbreviation="%" id="percent" multiplierToSI="1"
+          name="percent" unitType="dimensionless">
+          <description>ratio of two quantities as percent composition (1:100)</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

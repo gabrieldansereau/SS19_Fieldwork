@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:eml packageId="vmc.11.13.1" scope="system" system="vmc" xmlns:ns0="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+	
+
+	<access authSystem="knb" order="allowFirst" scope="document">
+		 
+		<allow>
+			 
+			<principal>public</principal>
+			
+ 
+			<permission>read</permission>
+			
+ 
+		</allow>
+		
+ 
+	</access>
+	
+   
+	<dataset id="2017-11-03 11:00:07,11.13,11.13.1">
+		<title>Forest Bird Monitoring Program Annual Surveys, 1991 to 2016</title>
+		<creator>
+			<individualName>
+				<givenName>Steven</givenName>
+				<surName>Faccio</surName>
+			</individualName>
+			<organizationName>Vermont Center for Ecostudies, VCE</organizationName>
+		</creator>
+		<abstract>
+			<para>Point counts of breeding birds seen or heard conducted twice during breeding season</para>
+		</abstract>
+		<keywordSet>
+			<keyword>surveys</keyword>
+			<keyword>long term monitoring</keyword>
+			<keyword>forest ecosystems</keyword>
+			<keyword>habitat</keyword>
+			<keyword>birds</keyword>
+		</keywordSet>
+		<contact>
+			<organizationName>Forest Ecosystem Monitoring Cooperative</organizationName>
+			<address>
+				<deliveryPoint>705 Spear Street</deliveryPoint>
+				<city>South Burlington</city>
+				<administrativeArea>Vermont</administrativeArea>
+				<postalCode>05403</postalCode>
+				<country>United States of America</country>
+			</address>
+			<phone>(802) 656-2975</phone>
+			<electronicMailAddress>femc@uvm.edu</electronicMailAddress>
+			<onlineUrl>https://www.uvm.edu/femc</onlineUrl>
+		</contact>
+		<project>
+			<title>Forest Bird Surveys</title>
+			<personnel>
+				<individualName>
+					<givenName>Charles</givenName>
+					<surName>Darmstadt</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Steven</givenName>
+					<surName>Faccio</surName>
+				</individualName>
+				<role>principalInvestigator</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Kent</givenName>
+					<surName>McFarland</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<personnel>
+				<individualName>
+					<givenName>Christopher</givenName>
+					<surName>Rimmer</surName>
+				</individualName>
+				<role>contentProvider</role>
+			</personnel>
+			<abstract>
+				<para>The primary goal is to conduct habitat-specific monitoring of forest interior breeding birds and to determine trends over time.</para>
+			</abstract>
+		</project>
+		<dataTable>
+			<entityName>Forest Bird Monitoring Program Annual Surveys, 1991 to 2016</entityName>
+			<entityDescription>Point counts of breeding birds seen or heard conducted twice during breeding season</entityDescription>
+			<physical>
+				<objectName>FEMC.11.13</objectName>
+				<dataFormat>
+					<textFormat>
+						<attributeOrientation>column</attributeOrientation>
+						<simpleDelimited>
+							<fieldDelimiter>,</fieldDelimiter>
+						</simpleDelimited>
+					</textFormat>
+				</dataFormat>
+				<distribution>
+					<online>
+						<url>https://www.uvm.edu/femc/data/archive/project/forest-bird-surveys/dataset/forest-bird-monitoring-program-annual-surveys</url>
+					</online>
+				</distribution>
+			</physical>
+			<coverage>
+				<geographicCoverage>
+					<geographicDescription>No geographic description is available for this dataset</geographicDescription>
+					<boundingCoordinates>
+						<westBoundingCoordinate>-72.8403</westBoundingCoordinate>
+						<eastBoundingCoordinate>-72.816115</eastBoundingCoordinate>
+						<northBoundingCoordinate>44.536363</northBoundingCoordinate>
+						<southBoundingCoordinate>44.527427</southBoundingCoordinate>
+					</boundingCoordinates>
+				</geographicCoverage>
+				<temporalCoverage scope="document">
+					<singleDateTime>
+						<calendarDate>1991-06-07</calendarDate>
+					</singleDateTime>
+				</temporalCoverage>
+			</coverage>
+			<attributeList>
+				<attribute>
+					<attributeName>SITENAME</attributeName>
+					<attributeLabel>Site Name</attributeLabel>
+					<attributeDefinition>Name of site where data was collected</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>SITENAME</code>
+										<definition>Name of site where data was collected</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>SITEDATE</attributeName>
+					<attributeLabel>Site Date</attributeLabel>
+					<attributeDefinition>Date when data was collected</attributeDefinition>
+					<storageType>datetime</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>other</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>SITESTATION</attributeName>
+					<attributeLabel>Site Station</attributeLabel>
+					<attributeDefinition>Sampling stations or point counts within the site</attributeDefinition>
+					<storageType>decimal</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>SITESTATION</code>
+										<definition>Sampling stations or point counts within the site</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>SURVEYID</attributeName>
+					<attributeLabel>Survey Identification</attributeLabel>
+					<attributeDefinition>Identification number given to data count </attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<ordinal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>SURVEYID</code>
+										<definition>Identification number given to data count </definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</ordinal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>SERIES</attributeName>
+					<attributeLabel>Series</attributeLabel>
+					<attributeDefinition>Orders first and second data collection within sample month</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<ordinal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>SERIES</code>
+										<definition>Orders first and second data collection within sample month</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</ordinal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>SPECIES</attributeName>
+					<attributeLabel>Species</attributeLabel>
+					<attributeDefinition>Bird species</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>SPECIES</code>
+										<definition>Bird species</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>RAWCOUNT</attributeName>
+					<attributeLabel>Raw Count</attributeLabel>
+					<attributeDefinition>Number of birds seen during data collection</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<precision>1</precision>
+							<numericDomain>
+								<numberType>integer</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>TIMEINTERVAL</attributeName>
+					<attributeLabel>Time Interval</attributeLabel>
+					<attributeDefinition>Time interval within ten minute sampling period</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>TIMEINTERVAL</code>
+										<definition>Time interval within ten minute sampling period</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>DIST_EST</attributeName>
+					<attributeLabel>Estimated Distance</attributeLabel>
+					<attributeDefinition>Estimated distance of bird</attributeDefinition>
+					<storageType>int</storageType>
+					<measurementScale>
+						<ratio>
+							<unit>
+								<standardUnit>dimensionless</standardUnit>
+							</unit>
+							<precision>0</precision>
+							<numericDomain>
+								<numberType>natural</numberType>
+							</numericDomain>
+						</ratio>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>OBSERVATION_TYPE</attributeName>
+					<attributeLabel>Observation Type</attributeLabel>
+					<attributeDefinition>Observation Method</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>OBSERVATION_TYPE</code>
+										<definition>Observation Method</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>STARTTIME</attributeName>
+					<attributeLabel>Start Time</attributeLabel>
+					<attributeDefinition>Start time of data collection</attributeDefinition>
+					<storageType>datetime</storageType>
+					<measurementScale>
+						<dateTime>
+							<formatString>hh:mm:ss</formatString>
+						</dateTime>
+					</measurementScale>
+				</attribute>
+				<attribute>
+					<attributeName>OBS </attributeName>
+					<attributeLabel>Observer</attributeLabel>
+					<attributeDefinition>Initials of observer/ data collector</attributeDefinition>
+					<storageType>text</storageType>
+					<measurementScale>
+						<nominal>
+							<nonNumericDomain>
+								<enumeratedDomain>
+									<codeDefinition>
+										<code>OBS </code>
+										<definition>Initials of observer/ data collector</definition>
+									</codeDefinition>
+								</enumeratedDomain>
+							</nonNumericDomain>
+						</nominal>
+					</measurementScale>
+				</attribute>
+			</attributeList>
+		</dataTable>
+	</dataset>
+</ns0:eml>

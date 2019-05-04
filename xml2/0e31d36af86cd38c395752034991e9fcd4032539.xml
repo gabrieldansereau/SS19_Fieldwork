@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-knz.400.2"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=KNZ,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/830c75a07a9adb9d8bfb7aade8659d50</alternateIdentifier>
+    <shortName>EJR01</shortName>
+    <title>EJR01 Foraging decisions underlying restricted space-use: effects of fire and forage maturation on large herbivore nutrient uptake on Konza Prairie</title>
+    <creator>
+      <individualName>
+        <givenName>Edward</givenName>
+        <surName>Raynor</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ejraynor@ksu.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Anthony</givenName>
+        <surName>Joern</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">402-472-2724</phone>
+      <phone phonetype="facsimile">402-472-2083</phone>
+      <electronicMailAddress>ajoern@ksu.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </metadataProvider>
+    <pubDate>2016-08-30</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Recent models suggest that herbivores optimize nutrient intake by selecting patches of low to intermediate vegetation biomass. We assessed the application of this hypothesis to plains bison (Bison bison) in an experimental grassland managed with fire by estimating daily rates of nutrient intake in relation to grass biomass and by measuring patch selection in experimental watersheds in which grass biomass was manipulated by prescribed burning. Digestible crude protein content of grass declined linearly with increasing biomass, and the mean digestible protein content relative to grass biomass was greater in burned watersheds than watersheds not burned that spring (intercept; F1,251 = 50.57, P &amp;lt; 0.0001). Linking these values to published functional response parameters, ad libitum protein intake, and protein expenditure parameters, Fryxell's (Am. Nat., 1991, 138, 478) model predicted that the daily rate of protein intake should be highest when bison feed in grasslands with 400â€“600 kg/ha. In burned grassland sites, where bison spend most of their time, availability of grass biomass ranged between 40 and 3650 kg/ha, bison selected foraging areas of roughly 690 kg/ha, close to the value for protein intake maximization predicted by the model. The seasonal net protein intake predicted for large grazers in this study suggest feeding in burned grassland can be more beneficial for nutrient uptake relative to unburned grassland as long as grass regrowth is possible. Foraging site selection for grass patches of low to intermediate biomass help explain patterns of uniform space use reported previously for large grazers in fire-prone systems. This data set was used to test the forage maturation hypothesis in the Konza Prairie bison enclosure from 2012-2013. Our objectives were to quantify foraging site selection of Plains bison in order to determine if bison in a fire-prone grassland selected sites of low-to-intermediate forage biomass as posited by Fryxellâ€™s (1991) forage maturation hypothesis. Additionally, to understand how foraging patterns shifted when grass regrowth was not possible, we quantified the annual diet of four GPS-collared bison via stable isotope analysis of tail hair plucked during roundup.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>Disturbance</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Others</keyword>
+      <keywordThesaurus>Section</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>biomass</keyword>
+      <keyword>Bison</keyword>
+      <keyword>Consumers</keyword>
+      <keyword>Fire</keyword>
+      <keyword>graduate student research</keyword>
+      <keyword>Herbivores</keyword>
+      <keyword>isotope</keyword>
+      <keyword>KNZ</keyword>
+      <keyword>Konza Prairie</keyword>
+      <keyword>Konza Prairie Biological Station</keyword>
+      <keyword>LTER</keyword>
+      <keywordThesaurus>Station Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>Data Use Agreements: The Intellectual Rights within the metadata associated with each KNZ data set determines the exact data and metadata use agreement between the data user and the KNZ LTER site. KNZ LTER data and metadata may be released under the license: CC BY - Attribution (https://creativecommons.org/licenses/by/4.0/). This license lets others distribute, remix, tweak, and build upon KNZ work (even commercially), as long as the KNZ program is credited for the original creation. Alternatively, some KNZ LTER data and metadata may be released into the public domain: CC0 - No Rights Reserved (https://creativecommons.org/share-your-work/public-domain/cc0/). CC0 states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. In either case, users of KNZ data are referred to the following guidelines: "The consumer of these data ("Data User" herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you".</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.konza.ksu.edu/content/ejr01-foraging-decisions-underlying-restricted-space-use-effects-fire-and-forage-maturation</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Konza Prairie Biological Station (KPBS) is located on a 3,487 hectare native tallgrass prairie preserve jointly owned by The Nature Conservancy and Kansas State University. The KPBS is located in the Flint Hills of northeastern Kansas (39°05’ N, 96°35’ W), a grassland region of steep-slopes overlain by shallow limestone soils unsuitable for cultivation.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.5833</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.5833</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0833</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0833</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>397</altitudeMinimum>
+            <altitudeMaximum>397</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2012-04-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Konza</givenName>
+        <surName>LTER</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Division of Biology</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">785-532-6729</phone>
+      <electronicMailAddress>knzlter@ksu.edu</electronicMailAddress>
+      <onlineUrl>http://lter.konza.ksu.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Edward</givenName>
+        <surName>Raynor</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>116 Ackert Hall, Division of Biology, Kansas State University</deliveryPoint>
+        <city>Manhattan</city>
+        <administrativeArea>KS</administrativeArea>
+        <postalCode>66506</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>ejraynor@ksu.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Konza LTER</organizationName>
+      <onlineUrl>http://www.konza.ksu.edu/</onlineUrl>
+    </publisher>
+    <pubPlace>Konza Prairie LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>Foraging site vegetation data: Data set contains estimates of vegetation characteristics at bison foraging sites and paired random non-grazed sites nearby and live graminoid foliar crude protein and adjusted crude protein content at these paired sites for watersheds where bison grazing occurred in 2012-2013. Bison tail hair stable isotope data: Data set contains d13C of yearly composite hair profiles in relation to hair follicle length (cm) for four matriarchal female bison. Values represent averages of d13C every 5 mm over a 4-year period (2010â€“ 2013) per individual. Hair follicle length represents the distance from the base of the follicle (collection in late October each year) to older portions of the hair closest to the hair tip. This was Graduate Student Research, a part of research related to KNZ LTER project.Â  For additional metadata and method information, please contact knzlter@ksu.edu or see Raynor et al. 2016 paper.</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>EJR011</entityName>
+      <entityDescription>Foraging site vegetation data</entityDescription>
+      <physical>
+        <objectName>EJR011.csv</objectName>
+        <size>24038</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/400/2/a5056252db806e7ecd00b8619c8d235c</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Dataset Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Dataset Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeLabel>RecType</attributeLabel>
+          <attributeDefinition>Record Type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record Type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Recyear</attributeName>
+          <attributeLabel>Recyear</attributeLabel>
+          <attributeDefinition>Year that data was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year (YYYY)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecMonth</attributeName>
+          <attributeLabel>RecMonth</attributeLabel>
+          <attributeDefinition>Month that data was collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Month that data was collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecDate</attributeName>
+          <attributeLabel>RecDate</attributeLabel>
+          <attributeDefinition>Date that data was collected</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>MM:DD:YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DaysSinceMay1</attributeName>
+          <attributeLabel>DaysSinceMay1</attributeLabel>
+          <attributeDefinition>The number of days since 1 May of that year</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Strata</attributeName>
+          <attributeLabel>Strata</attributeLabel>
+          <attributeDefinition>sample group</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample group</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Status</attributeName>
+          <attributeLabel>Status</attributeLabel>
+          <attributeDefinition>On for grazed site, Off for site not grazer during observation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>On for grazed site, Off for site not grazer during observation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Biomass</attributeName>
+          <attributeLabel>Biomass</attributeLabel>
+          <attributeDefinition>Dried biomass(averaged across three sub-plots) of all vegetation in 0.1 m2 clipping extrapolated to g/m2</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CP</attributeName>
+          <attributeLabel>CP</attributeLabel>
+          <attributeDefinition>Graminoid crude protein content derived from NIRS analysis, percentage</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DCP</attributeName>
+          <attributeLabel>DCP</attributeLabel>
+          <attributeDefinition>Graminoid adjusted crude protein content derived from NIRS analysis</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Watershed</attributeName>
+          <attributeLabel>Watershed</attributeLabel>
+          <attributeDefinition>Name of bison watershed that sample was collected</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of bison watershed that sample was collected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Green</attributeName>
+          <attributeLabel>Green</attributeLabel>
+          <attributeDefinition>Percentage of green of all vegetation in plot (averaged)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grass</attributeName>
+          <attributeLabel>Grass</attributeLabel>
+          <attributeDefinition>Percentage of grass in plot (averaged).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Forbs</attributeName>
+          <attributeLabel>Forbs</attributeLabel>
+          <attributeDefinition>Percentage of forbs in plot (averaged).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Litter</attributeName>
+          <attributeLabel>Litter</attributeLabel>
+          <attributeDefinition>Percentage of litter in plot (averaged)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Burn</attributeName>
+          <attributeLabel>Burn</attributeLabel>
+          <attributeDefinition>Whether or not watershed burned that spring</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether or not watershed burned that spring</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Grassweight</attributeName>
+          <attributeLabel>Grassweight</attributeLabel>
+          <attributeDefinition>Mass of 0.1 g/m2 grass clippings extrapolated to g m2 for use in FMH simulation.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>EJR012</entityName>
+      <entityDescription>Bison tail hair stable isotope data</entityDescription>
+      <physical>
+        <objectName>EJR012.csv</objectName>
+        <size>10943</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-knz/400/2/5685dc7255e12535ce92cd1040b62c57</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>DataCode</attributeName>
+          <attributeLabel>DataCode</attributeLabel>
+          <attributeDefinition>Data set Code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Data set Code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecType</attributeName>
+          <attributeLabel>RecType</attributeLabel>
+          <attributeDefinition>Record Type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Record Type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RecYear</attributeName>
+          <attributeLabel>RecYear</attributeLabel>
+          <attributeDefinition>Year that data was collected</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>Year (YYYY)</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Animal</attributeName>
+          <attributeLabel>Animal</attributeLabel>
+          <attributeDefinition>animal ear tag number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>animal ear tag number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Increment_fr_follicle</attributeName>
+          <attributeLabel>Increment_fr_follicle</attributeLabel>
+          <attributeDefinition>increment is section of hair analyzed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>d13C</attributeName>
+          <attributeLabel>d13C</attributeLabel>
+          <attributeDefinition>Value of d13C from the segement analyzed.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Value of d13C from the segement analyzed.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit id="Year (YYYY)">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

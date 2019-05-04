@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-arc.10582.3"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=ARC,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>ARC_Lakes_Physchem_2010-2014</shortName>
+    <title>Physical and chemical data for various lakes near Toolik Research Station, Arctic LTER. Summer 2010 to 2014</title>
+    <creator>
+      <individualName>
+        <givenName>Anne</givenName>
+        <surName>Giblin</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>agiblin@mbl.edu</electronicMailAddress>
+      <onlineUrl>http://www.mbl.edu/ecosystems/faculty/giblin/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>George</givenName>
+        <surName>Kling</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>University of Michigan,Department of Ecology and Evolutionary Biology,830 North University</deliveryPoint>
+        <city>Ann Arbor</city>
+        <administrativeArea>MI</administrativeArea>
+        <postalCode>48109-1048</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>gwk@umich.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Arctic</givenName>
+        <surName>LTER MBL</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>James</givenName>
+        <surName>Laundre</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Laboratory,Ecosystems Center</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>jlaundre@mbl.edu</electronicMailAddress>
+      <role>data manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <surName>White</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Marine Biological Laboratory,Ecosystems Center,7 MBL Street</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <role>lab crew</role>
+    </associatedParty>
+    <pubDate>2015-12-14</pubDate>
+    <language>English</language>
+    <abstract>
+      <section>
+        <para>
+          <literalLayout>Decadal file describing the physical/chemical values recorded at various lakes near Toolik Research Station. Sample site descriptors include site, date, time, depth. Depth profiles of physical measures collected in situ with Hydrolab Datasonde in the field include temperature, conductivity, pH, dissolved oxygen in both percent saturation and mg/l, SCUFA chlorophyll-a values in both volts and Âµg/l, and PAR.</literalLayout>
+        </para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>inorganic nutrients</keyword>
+      <keywordThesaurus>Core Areas</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>temperature</keyword>
+      <keyword>specific conductivity</keyword>
+      <keyword>photosynthetically active radiation</keyword>
+      <keyword>ph</keyword>
+      <keyword>limnology</keyword>
+      <keyword>light</keyword>
+      <keyword>irradiance</keyword>
+      <keyword>inorganic nutrients</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>dissolved oxygen</keyword>
+      <keyword>conductivity</keyword>
+      <keyword>chlorophyll a</keyword>
+      <keyword>chlorophyll</keyword>
+      <keyword>chemistry</keyword>
+      <keyword>aquatic ecosystems</keyword>
+      <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>
+          <literalLayout>The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. Permission to use this dataset is granted to the Data User free of charge subject to the following terms: 1) Acceptable use. Use of the dataset will be restricted to academic, research, educational, government, recreational, or other not-for-profit professional purposes. The Data User is permitted to produce and distribute derived works from this dataset provided that they are released under the same license terms as those accompanying this Data Set. Any other uses for the Data Set or its derived products will require explicit permission from the dataset owner. 2 ) Redistribution. The data are provided for use by the Data User. The metadata and this license must accompany all copies made and be available to all users of this Data Set. The Data User will not redistribute the original Data Set beyond this collaboration sphere. 3 ) Citation. It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator, Year of Data Publication, Title of Dataset, Publisher, Dataset identifier. For example: Shaver, G. 1989. Above ground biomass in acidic tussock tundra experimental site, 1989, Arctic LTER, Toolik, Alaska. Arctic LTER, Marine Biological Lab, Woods Hole, Ma 02543. 1989gsttbm http://ecosystems.mbl.edu/arc/terrest/biomass/index.shtml 4 ) Acknowledgement. The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data sets were provided by the Arctic LTER. This material is based upon work supported by the National Science Foundation under Grants #DEB-981022, 9211775, 8702328; #OPP-9911278, 9911681, 9732281, 9615411, 9615563, 9615942, 9615949, 9400722, 9415411, 9318529; #BSR 9019055, 8806635, 8507493. 5 ) Notification. The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed. The Data User will provide the data contact with two reprints of any publications resulting from use of the Data Set and will provide copies, or on-line access to, any derived digital products. Notification will include an explanation of how the Data Set was used to produce the derived work. 6 ) Collaboration. The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. By accepting this Data Set, the Data User agrees to abide by the terms of this agreement. The Data Owner shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Disclaimer While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available "as is". The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</literalLayout>
+        </para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://arc-lter.ecosystems.mbl.edu/arclakesphyschem2010-2014</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Toolik Lake Main Station</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.613</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.613</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.63</northBoundingCoordinate>
+          <southBoundingCoordinate>68.63</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>719</altitudeMinimum>
+            <altitudeMaximum>719</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 14</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.595</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.595</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6406</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6406</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>719</altitudeMinimum>
+            <altitudeMaximum>719</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 13</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.596</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.596</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6256</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6256</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>719</altitudeMinimum>
+            <altitudeMaximum>719</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LAKE LTER Site number 103</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.607</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.607</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6399</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6399</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>731</altitudeMinimum>
+            <altitudeMaximum>731</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lake N2</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.625</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.625</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6409</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6409</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>724</altitudeMinimum>
+            <altitudeMaximum>724</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 148</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.602</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.602</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6245</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6245</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>720</altitudeMinimum>
+            <altitudeMaximum>720</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 156</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.651</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.651</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6301</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6301</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>750</altitudeMinimum>
+            <altitudeMaximum>750</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 149</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.611</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.611</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6272</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6272</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>720</altitudeMinimum>
+            <altitudeMaximum>720</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 107</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.642</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.642</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6294</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6294</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>731</altitudeMinimum>
+            <altitudeMaximum>731</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 152</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.644</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.644</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6301</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6301</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>731</altitudeMinimum>
+            <altitudeMaximum>731</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 111</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.588</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.588</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5687</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5687</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>785</altitudeMinimum>
+            <altitudeMaximum>785</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 112</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.566</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5713</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5713</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>785</altitudeMinimum>
+            <altitudeMaximum>785</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 113</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.584</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.584</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5755</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5755</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>774</altitudeMinimum>
+            <altitudeMaximum>774</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 114</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.584</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.584</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5796</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5796</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>770</altitudeMinimum>
+            <altitudeMaximum>770</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 115</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.59</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.59</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5874</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5874</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>767</altitudeMinimum>
+            <altitudeMaximum>767</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 116</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.593</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.593</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5966</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5966</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>754</altitudeMinimum>
+            <altitudeMaximum>754</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 117</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.597</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.597</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6009</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6009</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>742</altitudeMinimum>
+            <altitudeMaximum>742</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 118</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.582</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.582</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6102</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6102</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>744</altitudeMinimum>
+            <altitudeMaximum>744</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 158</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.659</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.659</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6315</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6315</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>754</altitudeMinimum>
+            <altitudeMaximum>754</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 182</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.601</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.601</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5969</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5969</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>754</altitudeMinimum>
+            <altitudeMaximum>754</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 172</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.537</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.537</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5737</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5737</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>808</altitudeMinimum>
+            <altitudeMaximum>808</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 388</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.566</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.566</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.5563</northBoundingCoordinate>
+          <southBoundingCoordinate>68.5563</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>801</altitudeMinimum>
+            <altitudeMaximum>801</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 120</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.601</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.601</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6108</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6108</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>736</altitudeMinimum>
+            <altitudeMaximum>736</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 189</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.591</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.591</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.622</northBoundingCoordinate>
+          <southBoundingCoordinate>68.622</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>725</altitudeMinimum>
+            <altitudeMaximum>725</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 146</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.555</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.555</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6262</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6262</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>762</altitudeMinimum>
+            <altitudeMaximum>762</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 145</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.458</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.458</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6426</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6426</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>719</altitudeMinimum>
+            <altitudeMaximum>719</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>E 06</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.441</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.441</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6434</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6434</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>792</altitudeMinimum>
+            <altitudeMaximum>792</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 108</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.617</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.617</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.65</northBoundingCoordinate>
+          <southBoundingCoordinate>68.65</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>699</altitudeMinimum>
+            <altitudeMaximum>699</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER Site number 171</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-149.599</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149.599</eastBoundingCoordinate>
+          <northBoundingCoordinate>68.6526</northBoundingCoordinate>
+          <southBoundingCoordinate>68.6526</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>747</altitudeMinimum>
+            <altitudeMaximum>747</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1983-07-13</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1989-08-26</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>
+          <literalLayout>May 1995 Original Data entered by Neil Bettez April 2013 - Data from all lakes compiled into one spreadsheet per year - C. Harris Jan 2014 - Version Checked for keywords against LTER network preferred list and non-preferred terms replaced - J.Laundre Jan 2015 - Data compiled by decade and missing values added - J.Drysdale Version 01: Data updated to 2014 Version 2: November 2015 - Data values, sites, dates and metadata corrected and updated and version 2 of this file was created. All previous versions of data from these sites should be replaced by this file - G. Kling Feb 2016 Moved to new Arctic LTER web site. Jim L Version 3: February - Data values, sites, dates and metadata corrected and updated and version 3 of this file was created. A word file &amp;quot;ARC_Lakes_Physchem_2010-2014_Version3_update.docx&amp;quot; was created to record all changes made between version 2 and version 3. All previous versions of data from these sites should be replaced by this file - Dan White</literalLayout>
+        </para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Arctic_LTER</givenName>
+        <surName>Information Manager</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02536</postalCode>
+        <country>US</country>
+      </address>
+      <phone phonetype="voice">(508) 548-3705</phone>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <individualName>
+        <givenName>Arctic</givenName>
+        <surName>LTER MBL</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>7 M B L St.</deliveryPoint>
+        <city>Woods Hole</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>02543</postalCode>
+        <country>US</country>
+      </address>
+      <electronicMailAddress>arc_im@mbl.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>Arctic LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>
+              <literalLayout>The physical characteristics and chemistry of lake waters of the Arctic LTER were sampled at various locations either weekly, monthly or once per field season depending on the site and the year. Until 1992 (inclusive) Dissolved O2 and temperature were measured using a YSI 57 Oxygen Meter, water calibrated. Temperature and conductivity were ready by a YSI model 33 conductivity meter. Carbonate alkalinity was titrated against pH depending on expected alkalinity (Wetzel and Likens, 1979). pH was measured electrometrically with a corning portable expanded standard pH buffer and corrected for the temperature of the sample. From 1993 to 2001 a Hydrolab SVR3-DL Surveyor 3 data logger and Hydrolab H2O-BT STd multiprobe were used to measure depth, temperature, pH, specific conductivity and dissolved oxygen. Alkalinity was measured by performing Gran titrations using DL12K Mettler autotitrator. Surface and underwater light transmission was measured using a Licor digital light meter until 1998. From 1998 onward Surface and underwater light transmission was measured using a Licor LI 1400 digital light meter with surface and underwater quantum sensors. The hydrolab was calibrated for O2 weekly using Winkler titrations. Conductivity, pH and depth were calibrated monthly. From 2002 to present A Hydrolab Surveyor 4 data logger and Datsonde 4 (2000 to 2004) and Datasonde DS5 (2005-2009) Multiprobe were used to measure: depth, temperature, pH, specific conductivity, dissolved oxygen (mg/l), in-vivo fluorescence, and Photosynthetically active radiation (PAR) at half meter or meter intervals depending on the lake. Depth reading on sonde was calibrated in the field so that a depth of 0m was the water surface. The in vivo fluorescence measurements were taken using a Turner designs SCUFA(r) (Self-Contained Underwater Fluorescence Apparatus) attached to the Hydrolab Datasonde 4. The PAR measurements at both the surface and at each depth were taken using flat-faced, &amp;quot;cosine-corrected&amp;quot; Licor underwater quantum sensors attached to the Datasonde 4. The Hydrolab was calibrated weekly for oxygen, using the barometer in the Surveyor 4. Conductivity, and pH were also calibrated weekly using commercial standards. Because of the low conductivity of the waters around Toolik the potassium chloride (KCl) concentration in the reference electrode was changed weekly prior to calibration. For all years Secchi disk depth was measured using a Secchi disk, a 22 cm black and white disk, that is lowered by hand into the water to the depth at which it vanishes from sight. This distance was then recorded. As there is only one depth for each site, the same Secchi depth is indicated for all depths measured at a particular site on a particular day. This measurement is generally made on the shady side of the boat and measured to the nearest 0.1 meters. Reference Citations: Wetzel, R.G., G.E. Likens. 1979. Limnological Methods. Saunders. Philadelphia. SITE SPECIFIC INFORMATION to present: The following lakes have been used as experimental through 2014: Nutrient enrichment: E5, E6, N2 Fert, N1 Food web manipulations: E1, S6, S11, I8 Reference lakes (no manipulations): Toolik, Fog 2, Fog 4, I6, Green Cabin Lake, S7, NE9B, I-Minus 1, N2 Ref 1. Lake N2 was separated into two parts with a dividing curtain in 1985, with half being fertilized at a rate calculated to be approximately 5 times the normal loading of nitrogen and phosphorous. The fertilizers used were ammonium nitrate and phosphoric acid. The site name &amp;quot;N2 Fert&amp;quot; indicates measurements from the fertilized side of the curtain (Measurements beginning July 5, 1985) and &amp;quot;N2 Ref&amp;quot; indicates the control (or reference) portion of the lake which was not fertilized. The curtain was removed in 2011. Prior to 1985 and after 2011 data from this lake was simply called Lake N2. This lake is now being monitored. More information can be found at http://ecosystems.mbl.edu/ARC/lakes/lakedescriptions/n2.html 2. I-Series lakes: These lakes are found in a series making up the largest tributary leading into Toolik Lake, where lake I1 is the furthest up-stream and lake I9 is the closest to Toolik lake inlet. Lake I8 has been part of a long term fish density manipulation since 1989. This manipulation involves removing low numbers of fish each summer to simulate fishing pressure on the system. Lake I6 serves as a reference lake for lake I8. More information can be found at http://ecosystems.mbl.edu/ARC/lakes/lakedescriptions/iseries.html and http://ecosystems.mbl.edu/ARC/lakes/lakedescriptions/i8.html 3. Fog 4 - has undergone no manipulation but serves as a reference lake for nutrient enrichment of lake E6 4. E5 - This is a deep lake that contains fish. In 2001 a nutrient enrichment began to mimic effects of increased nutrient availability. Lake Fog 2 serves a reference control for this lake. More information can be found at http://ecosystems.mbl.edu/ARC/lakes/lakedescriptions/e5.html 5. E6 - This is a shallow lake with no fish. In 2001 a nutrient enrichment began to mimic effects of increased nutrient availability. Lake Fog 4 serves as a reference lake for lake E6. A thermokarst was discovered on this lake however and so lake NE9B has been used in more recent years as a reference lake for E6. More information can be found at http://ecosystems.mbl.edu/ARC/lakes/lakedescriptions/e6.html 6. NE14 - has an active thermokarst</literalLayout>
+            </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>ARC_Lakes_Physchem_2010-2014_csv</entityName>
+      <entityDescription>Physical and chemical data for various lakes near Toolik Research Station, Arctic LTER. Summer 2010 to 2014</entityDescription>
+      <physical>
+        <objectName>ARC_Lakes_Physchem_2010-2014.csv</objectName>
+        <size>599035</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <numFooterLines>0</numFooterLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10582/3/79ad876dacd80833e58fc0768320dbd6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SortChem_#</attributeName>
+          <attributeLabel>SortChem_#</attributeLabel>
+          <attributeDefinition>Number used to identify samples - generally not used until later data but column remains with older data to enable comparison</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number used to identify samples - generally not used until later data but column remains with older data to enable comparison</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Site</attributeName>
+          <attributeLabel>Site</attributeLabel>
+          <attributeDefinition>Site Name: Name of the lake where measurements were taken. There are discrete sampling sites defined by water depth, generally they are at the point of maximum depth.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Name: Name of the lake where measurements were taken. There are discrete sampling sites defined by water depth, generally they are at the point of maximum depth.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date readings were taken on.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>dd-mon-yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Rounded Depth (m)</attributeName>
+          <attributeLabel>Rounded Depth (m)</attributeLabel>
+          <attributeDefinition>Depth of water measurement taken at starting from the surface as 0. This depth corresponds with data in other files (Nutrients, Chemistry)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Hydrolab Depth</attributeName>
+          <attributeLabel>Hydrolab Depth</attributeLabel>
+          <attributeDefinition>Depth measured by hydrolab (where used), otherwise regular measured depth recorded</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Time_hr_dst</attributeName>
+          <attributeLabel>Time_hr_dst</attributeLabel>
+          <attributeDefinition>Exact time that each reading was recorded in Alaska Daylight Savings Time (1 hour ahead of Alaska Standard Time: if 13:00 DST than 12:00 AST)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Exact time that each reading was recorded in Alaska Daylight Savings Time (1 hour ahead of Alaska Standard Time: if 13:00 DST than 12:00 AST)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IBVSvr4a_V</attributeName>
+          <attributeLabel>IBVSvr4a_V</attributeLabel>
+          <attributeDefinition>Internal Battery Voltage of the Surveyor 4a Datalogger.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Temp_C</attributeName>
+          <attributeLabel>Temp_C</attributeLabel>
+          <attributeDefinition>Water temperature at depth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>celsius</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Cond_uS</attributeName>
+          <attributeLabel>Cond_uS</attributeLabel>
+          <attributeDefinition>Electrical conductivity of the water at depth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemenPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>pH</attributeName>
+          <attributeLabel>pH</attributeLabel>
+          <attributeDefinition>pH (opposite of the log of the hydrogen ion concentration).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>dimensionless</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DO_Sat</attributeName>
+          <attributeLabel>DO_Sat</attributeLabel>
+          <attributeDefinition>The percent saturation of dissolved oxygen at depth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>percent</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DO_mg/l</attributeName>
+          <attributeLabel>DO_mg/l</attributeLabel>
+          <attributeDefinition>The concentration of dissolved oxygen at depth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>milligramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DO_umoles/L</attributeName>
+          <attributeLabel>DO_umoles/L</attributeLabel>
+          <attributeDefinition>The concentration of dissolved oxygen at depth.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>micromolePerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_V</attributeName>
+          <attributeLabel>Chl_V</attributeLabel>
+          <attributeDefinition>In Vivo measurement of chlorophyll-a concentration.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>volt</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chl_ug/l</attributeName>
+          <attributeLabel>Chl_ug/l</attributeLabel>
+          <attributeDefinition>In Vivo measurement of chlorophyll-a concentration.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microgramPerLiter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PAR_uEm2s</attributeName>
+          <attributeLabel>PAR_uEm2s</attributeLabel>
+          <attributeDefinition>PAR (photosynthetically active radiation) measured below the water surface.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEinsteinPerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>refPAR_uEm2s</attributeName>
+          <attributeLabel>refPAR_uEm2s</attributeLabel>
+          <attributeDefinition>PAR (photosynthetically active radiation) measured with Deck unit to correct for changes in ambient light.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microEinsteinPerMeterSquaredPerSecond</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Hydrolab</attributeName>
+          <attributeLabel>Hydrolab</attributeLabel>
+          <attributeDefinition>This field indicates which Hydrolab Datasonde instrument was used to take measurements</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>This field indicates which Hydrolab Datasonde instrument was used to take measurements</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Secchi_m</attributeName>
+          <attributeLabel>Secchi_m</attributeLabel>
+          <attributeDefinition>Measure of water transparency by depth a 22 cm Secchi Disk is visible to in meters (note where indicated "greater than" due to disk hitting the bottom before disappearing).</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>meter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing or Not Measured</codeExplanation>
+          </missingValueCode>
+          <missingValueCode>
+            <code>&gt;Xm</code>
+            <codeExplanation>Secchi disk hits bottom before a reading, X is the depth in meters see notes</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Notes</attributeName>
+          <attributeLabel>Notes</attributeLabel>
+          <attributeDefinition>Any additional information pertaining to measurements made for a particular depth, place and time.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any additional information pertaining to measurements made for a particular depth, place and time.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>ARC_Lakes_Physchem_2010-2014_excel</entityName>
+      <entityDescription>Excel file with metadata and data sheets. Physical and chemical data for various lakes near Toolik Research Station, Arctic LTER. Summer 2010 to 2014</entityDescription>
+      <physical>
+        <objectName>ARC_Lakes_Physchem_2010-2014.xls</objectName>
+        <size>2066944</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/vnd.ms-excel</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-arc/10582/3/4c232652b74990fca2527795c44b1da8</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>document</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns="http://www.xml-cml.org/schema/stmml"
+        xmlns:sch="http://www.ascc.net/xml/schematron"
+        xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xml-cml.org/schema/stmml-1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.0/stmml.xsd">
+        <stmml:unit abbreviation="m" id="meter" name="meter" unitType="length">
+          <stmml:description>SI unit of length</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="V" id="volt" name="volt" unitType="potentialDifference">
+          <stmml:description>volt</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="C" constantToSI="273.18" id="celsius"
+          multiplierToSI="1" name="celsius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>A common unit of temperature</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="microsiemenPerCentimeter">
+          <stmml:description/>
+        </stmml:unit>
+        <stmml:unit abbreviation="" id="dimensionless"
+          name="dimensionless" unitType="dimensionless">
+          <stmml:description>a designation asserting the absence of an associated unit</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="%" constantToSI="0" id="percent"
+          multiplierToSI="100" name="percent" parentSI="numberPerNumber" unitType="dimensionless">
+          <stmml:description>ratio of two quantities as percent composition (1:100)</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="mg/l" constantToSI="0"
+          id="milligramPerLiter" multiplierToSI="0.001"
+          name="milligramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>milligrams / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µmol/L" constantToSI="0"
+          id="micromolePerLiter" multiplierToSI="0.000001"
+          name="micromolePerLiter" parentSI="molarity" unitType="amountOfSubstanceConcentration">
+          <stmml:description>micromoles per liter of solution</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="µg/l" constantToSI="0"
+          id="microgramPerLiter" multiplierToSI="0.000001"
+          name="microgramPerLiter" parentSI="kilogramPerCubicMeter" unitType="massDensity">
+          <stmml:description>micrograms / liter</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation=""
+          id="microEinsteinPerMeterSquaredPerSecond"
+          name="microEinsteinPerMeterSquaredPerSecond" unitType="arealConcentrationFlux">
+          <stmml:description/>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
