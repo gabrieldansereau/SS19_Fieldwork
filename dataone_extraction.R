@@ -7,38 +7,61 @@ library(tidyverse)
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
 (qy <- dataone::query(cn, list(
-  rows = "100", 
+  rows = "40", 
   q    = "title:forest", #keyword
   fq   = "wildlife", #filter keyword
   fl   = ""), 
   as = "data.frame"))
 View(qy)
 
-# Fitler to get the most recent articles by excluding the DOI
-# (here the 10th observation = doi:10.5063/AA/kgordon.4.36)
+id <- qy[,'id']
+dataUrl <- qy[,'dataUrl']
+checksum <- qy[,"checksum"]
 
-qy_1 <- slice(qy, grep("^https", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
-qy_1 <- slice(qy_1, grep("^knb", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
-qy_1 <- slice(qy_1, grep("^Global", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
-qy_1 <- arrange(qy_1, desc(id), desc(dateModified)) # to have the most recent ones
-id <- qy_1[,'id']
-length(id)
+# httr::GET(url = dataUrl[33])
 
-# cn <- CNode("PROD")
-# mn <- getMNode(cn, "urn:node:KNB")
-# mySearchTerms <- list(q="keywords:wildlife",
-#                       fl="",
-#                       fq="",
-#                       sort="dateUploaded+desc")
-# result <- query(mn, solrQuery=mySearchTerms, as="data.frame")
-# result[,c("id", "title")]
-# id <- result[,'id']
+# eml_URL <- qy %>% 
+#   as_tibble %>% 
+#   mutate(metadata = map(dataUrl, safely(httr::GET)))
+# 
+# # testing a file download
+# curl::curl_download(dataUrl[33], destfile = 'test_33.xml')
+# eml_URL$metadata[[33]][["result"]] %>% View
+
+# download all the files at once! 
+walk2(dataUrl, checksum, ~ curl::curl_download(url = .x, destfile = paste0("xml/", .y, ".xml")))
 
 eml_take_two <- qy_1 %>% 
   as_tibble %>% 
   mutate(metadata = map(id, ~ getObject(mn, .x)))
 
-test <- parsed_eml <- eml_take_two %>% 
+parsed_eml <- eml_take_two %>% 
+  select(id, metadata) %>% 
+  mutate(doc = map(metadata, ~ .x %>%
+                     rawToChar %>%
+                     xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
+                     xmlRoot %>% 
+                     xmlToList))
+
+parsed_data <- parsed_eml %>% 
+  mutate(from_contact = map(doc, pluck, "dataset", "contact", "address"),
+         from_creator = map(doc, pluck, "dataset", "creator", "address")) %>%
+  mutate(df_contact = map(from_contact, safely(flatten_df)))
+
+
+### GetObject version
+# qy_1 <- slice(qy, grep("^https", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
+# qy_1 <- slice(qy_1, grep("^knb", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
+# qy_1 <- slice(qy_1, grep("^Global", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
+# qy_1 <- arrange(qy_1, desc(id), desc(dateModified)) # to have the most recent ones
+id <- qy_1[,'id']
+length(id)
+
+eml_take_two <- qy_1 %>% 
+  as_tibble %>% 
+  mutate(metadata = map(id, ~ getObject(mn, .x)))
+
+parsed_eml <- eml_take_two %>% 
   select(id, metadata) %>% 
   mutate(doc = map(metadata, ~ .x %>%
                      rawToChar %>%
@@ -66,8 +89,6 @@ for (i in 1:length(id)) {
   ## Structure sometimes different
   # code with if?
 }
-
-
 
 # Version 2
 for (i in 1:length(id)) {

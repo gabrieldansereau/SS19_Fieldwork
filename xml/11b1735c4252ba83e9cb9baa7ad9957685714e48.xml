@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.600.2" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.600.2</shortName>
+    <title>Canopy cover in mature black spruce forest, mature mixed forest, and early successional forest in Bonanza Creek Experimental Forest.</title>
+    <creator>
+      <individualName>
+        <givenName>Dashiell</givenName>
+        <givenName>Sheene</givenName>
+        <surName>Feierabend</surName>
+      </individualName>
+      <!--No position recorded in Database ( pers/position when lead_contact=1 )-->
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife, University of Alaska Fairbanks, Murie Building</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 947-5760</phone>
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <electronicMailAddress>dsfeierabend@gmail.com</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Knut</givenName>
+        <surName>Kielland</surName>
+      </individualName>
+      <positionName>Associate Professor of Ecology</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7164</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2015-11-08</pubDate>
+    <abstract>
+      <para>This dataset contains measurements of canopy cover in three habitats commonly used by snowshoe hares in Bonanza Creek Experimental Forest.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>vegetation</keyword>
+      <keyword>canopy cover</keyword>
+      <keyword>black spruce</keyword>
+      <keyword>early succession</keyword>
+      <keywordThesaurus>Stand Structure</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Access to Data</title>
+        <para>While metadata will be freely available to those requesting it, the data manager will assure that any restrictions on access to data sets in the database will be enforced. Data will not be released without proper permission first being obtained from the investigator who generated the data. </para>
+      </section>
+      <section>
+        <title>Use of data</title>
+        <para>Researchers should receive adequate acknowledgment for the use of their data by others and should be provided with copies of publications using their data. Users of data from the data base must be aware that data is not to be sold or redistributed.</para>
+      </section>
+      <section>
+        <title>Citing Bonanza Creek LTER Datasets</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User will properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. </para>
+      </section>
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data_detail.cfm?datafile_pkey=600</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/e_long is not empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.2682</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.2964</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7088</northBoundingCoordinate>
+          <southBoundingCoordinate>64.6991</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-01-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Completed</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>These data were collected in order to compare canopy cover among seasons in habitats commonly used by snowshoe hares in Bonanza Creek Experimental Forest.</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>FIELD:  Canopy cover was measured at random points along transects in established snowshoe hare trapping grids using a spherical densitometer.  Data were collected in spring, summer, and fall in order to compare changes in cover among seasons and habitats.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>bonbs -- Site used for live-trapping snowshoe hares to monitor abundance and survival.  Located in a mature lowland black spruce stand..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2964</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2964</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7088</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7088</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>bonrip -- Bonanza Riparian is a flood zone along the Tanana River and Bonanza Mature is a mature black spruce forest approximately 1 km inland from the river and 2 km from the riparian plot. Bonanza Riparian consisted of willow (Salix spp.), paper birch (Betula papyrifera), alder (Alnus spp.), white spruce (Picea glauca), fireweed (Epilobium augustifolium) and several grasses.  Site used for live-trapping snowshoe hares to monitor abundance and survival..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2682</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2682</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6991</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6991</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2010-01-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2013-01-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Irregular</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <dataTable>
+      <entityName>600_Trapping_Grid_Canopy_Cover_BNZ.txt</entityName>
+      <entityDescription>Canopy cover in mature black spruce forest</entityDescription>
+      <physical>
+        <objectName>600_Trapping_Grid_Canopy_Cover_BNZ.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/600/2/4dec73377e82435ce6acb7acbbc20783</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Date</attributeName>
+          <attributeLabel>Date</attributeLabel>
+          <attributeDefinition>Date of cover measurement.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Date of cover measurement.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Season</attributeName>
+          <attributeLabel>Season</attributeLabel>
+          <attributeDefinition>Season in which the cover measurement was taken.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Season in which the cover measurement was taken.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Grid</attributeName>
+          <attributeLabel>Grid</attributeLabel>
+          <attributeDefinition>Name of grid in which the cover measurement was taken.  BONBS denotes Bonanza Creek Black Spruce snowshoe hare trapping grid; BONRIP denotes Bonanaza Creek Riparian snowshoe hare trapping grid; BONMIX denotes Bonanza Creek Mixed Forest grid (not used for trapping)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of grid in which the cover measurement was taken.  BONBS denotes Bonanza Creek Black Spruce snowshoe hare trapping grid; BONRIP denotes Bonanaza Creek Riparian snowshoe hare trapping grid; BONMIX denotes Bonanza Creek Mixed Forest grid (not used for trapping)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Transect</attributeName>
+          <attributeLabel>Transect</attributeLabel>
+          <attributeDefinition>Transect number in grid</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Transect number in grid</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Sample</attributeName>
+          <attributeLabel>Sample</attributeLabel>
+          <attributeDefinition>Number of sample in transect</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Number of sample in transect</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Cover</attributeName>
+          <attributeLabel>Cover</attributeLabel>
+          <attributeDefinition>Percent canopy cover as measured using a spherical densitometer.</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>
