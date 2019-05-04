@@ -78,16 +78,10 @@ spFW <- cbind(gros_data$fw_lng, gros_data$fw_lat)
 dist <- distGeo(p1=spUNI, p2=spFW)
 tab_final  <- cbind(gros_data, dist/1000)
 tab_final <- tab_final[,c(14,1:13,15)]
-# tab_final<- tab_final[,c(12,1,2,5,4,10,11,13)]
-# names(tab_final)<- c("id", "city","country", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
+names(tab_final)<-c("id","name","city","country","deliveryPoint_creator","west", "east", "north","south","CC","uni_lng","uni_lat","fw_lat","fw_lng","dist_km")
 
-
-# tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_uni", "lat_fw", "lng_fw")], data = tab_final)
-# ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
-# proj4string(tab_final_sp) <- proj4string(ERA)
-# rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
-#ajout identité à ligne
-
+#oups! enlever lignes où lat-long fw = 0
+tab_final<- tab_final[-c(55,46,120),]
 WriteXLS(tab_final, ExcelFileName = "data1.xls")
 
 ### créer table pour figures ----
