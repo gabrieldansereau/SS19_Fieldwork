@@ -29,19 +29,22 @@ checksum <- qy[,"checksum"]
 # eml_URL$metadata[[33]][["result"]] %>% View
 
 # download all the files at once! 
-walk2(dataUrl, checksum, ~ curl::curl_download(url = .x, destfile = paste0("xml/", .y, ".xml")))
+walk2(dataUrl, checksum, ~ curl::curl_fetch_disk(.x, paste0("xml/", .y, ".xml")))
 
 
-# for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
-#   dir(path = "xml/", full.names = TRUE)[i] %>% 
-#     set_names(., basename(.)) %>% 
-#           read_file_raw() %>% 
-#           rawToChar %>%
-#           xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
-#           xmlRoot %>% 
-#           xmlToList
-# }
+# Remove error files (rerun as often as needed)
+for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
+  dir(path = "xml/", full.names = TRUE)[i] %>%
+    set_names(., basename(.)) %>%
+          read_file_raw() %>%
+          rawToChar %>%
+          xmlTreeParse(., asText=TRUE, trim = TRUE, ignoreBlanks = TRUE, error = xmlErrorCumulator(immediate = FALSE)) # %>%
+          # xmlRoot %>%
+          # xmlToList
+}
 # file.remove(dir(path = "xml/", full.names = TRUE)[i])
+
+# Parse files for metadata
 parsed_files <- dir(path = "xml/", full.names = TRUE) %>% 
   set_names(., basename(.)) %>% 
   map(~.x %>% 
@@ -53,9 +56,10 @@ parsed_files <- dir(path = "xml/", full.names = TRUE) %>%
 
 parsed_files <- parsed_files %>% tibble::enframe()
 
-
+# Set map_chr default parameters
 mc <- partial(map_chr, .default = NA_character_)
 
+# Organize metadata as columns
 parsed_data <- parsed_files %>% 
   mutate(city_contact = mc(value, pluck, "dataset", "contact", "address", "city"),
          country_contact = mc(value, pluck, "dataset", "contact", "address", "country"),
@@ -67,29 +71,14 @@ parsed_data <- parsed_files %>%
          east = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "eastBoundingCoordinate"),
          north = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "northBoundingCoordinate"),
          south = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "southBoundingCoordinate")) 
-  # unnest(city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
-         # west, east, north, south) %>% 
-  # select(name, city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
-         # keyword, west, east, north, south)
-  # mutate(df_contact = map(from_contact, safely(flatten_df))) %>% 
-  # mutate(df_creator = map(from_creator, safely(flatten_df)))
 
+# Export to csv
 parsed_data %>% 
   select(-value) %>% 
-  write_csv("data/data1.csv")
+  write_csv("data/data2.csv")
 
-data <- parsed_data %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  mutate(df_result = map(df_contact, "result")) %>% 
-  filter(!map_lgl(df_result, is_null)) %>% 
-  select(name, df_result) %>% 
-  unnest(df_result) %>% 
-  select(name, city, country)
 
+###### Older versions of code #####
 ### GetObject version
 # qy_1 <- slice(qy, grep("^https", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
 # qy_1 <- slice(qy_1, grep("^knb", id, invert = TRUE)) #if we need to eliminate some id who doesn't work
