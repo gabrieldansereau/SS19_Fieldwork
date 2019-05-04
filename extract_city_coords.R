@@ -27,6 +27,8 @@ names(gdb)<- c("country", "GDB")
 
 tab_city <- data.frame(city = c("New York", "Montreal", "Burlington", "London", "Waterloo"), country =c("United States", "Canada", "United States", "United Kingdom", "Belgium"))
 
+#ici importer notre vraie table de données
+data<- read.table ("data1_clean.txt")
 # fusionner les deux tables pour faire une table de référence dans laquelle piger les mots de recherche
 
 tab_ref <- left_join(tab_city, countries)

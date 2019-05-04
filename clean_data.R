@@ -16,4 +16,7 @@ data$country_contact[is.na(data$country_contact)] <- "USA"
 
 data[data == "USA"] <- "United States"
 
+write.table(data, "data1_clean.txt")
+
+
 
