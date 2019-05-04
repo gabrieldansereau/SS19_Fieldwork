@@ -1,0 +1,2469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4020.22"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HT004</alternateIdentifier>
+    <title>Stream and air temperature data from stream gages and stream confluences in the Andrews Experimental Forest, 1950 to present</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Stanley</givenName>
+        <givenName>V.</givenName>
+        <surName>Gregory</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;Nash Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1951</phone>
+      <electronicMailAddress>stanley.gregory@oregonstate.edu</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Craig</givenName>
+        <surName>Creel</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7326</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>ccreel@fs.fed.us</electronicMailAddress>
+      <role>Method Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Daly</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>PRISM Group;Northwest Alliance for Computational Science and Engineering ;2000 Kelley Engineering Center;Oregon State University;;;</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-2531</phone>
+      <electronicMailAddress>daly@nacse.org</electronicMailAddress>
+      <onlineUrl>http://prism.oregonstate.edu</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Stanley</givenName>
+        <givenName>V.</givenName>
+        <surName>Gregory</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fisheries and Wildlife;Nash Hall 104</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1951</phone>
+      <electronicMailAddress>stanley.gregory@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Sherri</givenName>
+        <givenName>L.</givenName>
+        <surName>Johnson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 758-7771</phone>
+      <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Moreau</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>H.J. Andrews Experimental Forest;Box 300</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 822-6305</phone>
+      <electronicMailAddress>moreauj@fsl.orst.edu</electronicMailAddress>
+      <role>Method Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Randall</givenName>
+        <givenName>C.</givenName>
+        <surName>Wildman</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Fish and Wildlife</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-1967</phone>
+      <phone>(541) 822-3425</phone>
+      <electronicMailAddress>randy.wildman@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2016-04-29</pubDate>
+    <abstract>
+      <para>Stream temperature at stream gages and air temperature above the stream are measured at all stream gaging sites and at selected major stream confluences.  Current temperature data are collected as hourly averages of instantaneous measurements. these data began ~1996. Historic data, starting in 1950 at Lookout Creek gage, are included at daily mean or maximum and minimum. 
+</para>
+      <para>Other Andrews Forest related databases: Long term air temperature data from the reference and benchmark climate stations are also available in MS001. Previous high resolution stream temperature data at some of the small watershed stream gages are available in HT001 and stream temperature data throughout the Andrews Forest stream networks during several years are available in HT002.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Air temperature</keyword>
+      <keyword keywordType="theme">Climate data</keyword>
+      <keyword keywordType="theme">Ecosystem monitoring</keyword>
+      <keyword keywordType="theme">Microclimate</keyword>
+      <keyword keywordType="theme">Stream gradient</keyword>
+      <keyword keywordType="theme">Water temperature</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>Key references of this database include:
+Johnson, Sherri L. and Jones, Julia A. Stream temperature responses to forest harvest and debris flows in western Cascades, Oregon. Canadian Journal of Fisheries and Aquatic Sciences. 2000; 57(Suppl. 2):30-39.</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Johnson, Sherri L.; Jones, Julia A. 2000. Stream temperature responses to forest harvest and debris flows in western Cascades, Oregon. Canadian Journal of Fisheries and Aquatic Sciences. 57(Suppl. 2): 30-39.</para>
+      <para>
+        <emphasis>Related Files</emphasis>
+      </para>
+      <para>Title: Air and Stream Temperature site and measurement parameter descriptions</para>
+      <para>Description: View by site</para>
+      <para>URL: http://andrewsforest.oregonstate.edu/data/studies/ht04/template.cfm?page=datalist  &amp;  topnav=135</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=HT004&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Oregon: western Cascades - HJ Andrews Experimental Forest Gauging Stations at WS1, 2, 3, 6, 7, 8, 10, Mack Creek, and Lookout Creek.  Stream thermograph sites on upper Lookout, upper McRae, Mack/Lookout confluence, and legacy sites Mack old-growth, McRae/Lookout confluence, Quartz Creek (Blue River tributary), and Grasshopper Creek (S. Fork McKenzie).</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.30199700</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.12162890</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.26629426</northBoundingCoordinate>
+          <southBoundingCoordinate>44.19831900</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>428</altitudeMinimum>
+            <altitudeMaximum>995</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1976-08-11</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-04-13</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Stream temperature is a critical parameter in stream ecosystems and controls rates of multiple processes, such as metabolism, growth, decomposition, and solubility of gases, as well as biotic interactions. Measuring stream temperature at stream gages allows examination of long term responses to forest dynamics and forest harvest. These stream and air temperature data also are relevant to research on nutrient dynamics, stream flow, invertebrate and vertebrate responses to microclimate conditions.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>continually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>In October 1991, all thermograph data were run through a data checking program.  Many pre-1987 24-hr mean values were recalculated using weighted daytime and nighttime means (values are flagged as 'S').</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1991-10-31</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>As of October 1994, all data were run through another set of checking routines.  These included 1) missing flag check to ensure that all missing data really has the appropriate flag; 2) date/time check to verify that a record exists for each date (and hour if applicable) and that records fall in the correct order; 3) relative mean/max/min check for each record to make sure that min &lt;= mean &lt;= max; 4) similar sites were paired and the values compared to catch any gross outliers.  As a result of #4, some thermograph charts had to be redigitized.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>1994-10-31</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>1994-11-16</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>The data is actively managed as an extension of MS001 (and not HT004).  Daily formats are identical to MS001 entity 01.  Hourly data for the Stream thermograph sites begin in the years 1995 to 1998 and are originally accommodated by MS001 entity 11.</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>1998-06-01</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Appended all data to master files.  Separated stream temperature from air temperature and placed in separate entities.  Reformatted all thermograph sites to use MS001 01,11 formats (daily air temp, hourly  air temp) and created similar entities 24, 34 (daily stream temp, hourly stream temp).  Also reformatted all data for discontinued sites.  Uploaded to the web.</changeScope>
+        <oldValue>Version5</oldValue>
+        <changeDate>2003-02-02</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data is prepared for move into SQLServer as study dataset HT004.  A new data abstract is prepared.  Stream temperature site data is updated for current sites.  All day/night data has been removed and stored in P:\FSDB\HT04\day_night, and this data will only be available by request and not available on the web.</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2004-11-05</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for all stream gauging sites for WY 2003 &amp; 2004 (all entities).</changeScope>
+        <oldValue>Version8</oldValue>
+        <changeDate>2005-10-03</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for all stream gauging sites for WY 2005 through January 2007 and reference stream sites from January 2004 through March 2007 (all entities).</changeScope>
+        <oldValue>Version9</oldValue>
+        <changeDate>2007-04-19</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for Mack and Watersheds (1,2,3,6,7,8,10) for WY07 (Jan 06-Oct 07) 02/05/2009</changeScope>
+        <oldValue>Version10</oldValue>
+        <changeDate>2009-02-05</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for Mack and Watersheds (1,2,3,6,7,8,10) for WY08 and WY09 (Oct 07-Jan 10) 02/08/2010</changeScope>
+        <oldValue>Version11</oldValue>
+        <changeDate>2010-02-08</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for GSLOOK and confluence streams (TSLOMA, TSLOOK, TSMCRA) for 3/2007-3/2010  04/06/2010</changeScope>
+        <oldValue>Version12</oldValue>
+        <changeDate>2010-04-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for Mack and Watersheds (1,2,3,6,7,8,10) for WY10 (Jan 10-Mar 11)</changeScope>
+        <oldValue>Version13</oldValue>
+        <changeDate>2011-09-08</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated data for GSLOOK and confluence streams (TSLOMA, TSLOOk,TSMCRA) for 3/2/2010-12/31/2011.
+Also ran QA/QC on entire dataset and fixed a few problems (mainly some missing hours).  Uploaded this new dataset (entirely) to SQL.</changeScope>
+        <oldValue>Version16</oldValue>
+        <changeDate>2012-03-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated watershed data (mack, 1,2,3,6,7,8,10) from 20110301 to 20120110.</changeScope>
+        <oldValue>Version17</oldValue>
+        <changeDate>2012-07-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated attribute description for attributes with a fine resolution datetime measurement scale to include 'PST' (pacific standard time).</changeScope>
+        <oldValue>Version18</oldValue>
+        <changeDate>2012-08-30</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated air and water temperature data for GSLOOK and confluence streams (TSLOMA, TSLOOk,TSMCRA) for 01/01/2012 to 07/31/2013 and watershed data (mack, 1,2,3,6,7,8,10) from 20120110 to 12/31/2012.  Also ran QA/QC on entire dataset.  Uploaded new dataset (entirely) to SQL and to master.</changeScope>
+        <oldValue>Version19</oldValue>
+        <changeDate>2013-08-16</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated watershed data for Mack and Watersheds 1, 2, 3, 6, 7, 8, and 10 with new data from 1 Jan 2013 to 15 Jan 2014.</changeScope>
+        <oldValue>Version20</oldValue>
+        <changeDate>2014-07-18</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Updated all daily and hourly stream and air temperature at current stream temperature station sites through calendar year 2014, which includes watersheds (Mack, 1,2,3,6,7,8,10) from 01/14/2014 to 01/06/2015 and streams (GSLOOK, TSLOOK, TSLOMA, TSMCRA) from 08/01/2013 to 12/31/2014.</changeScope>
+        <oldValue>Version21</oldValue>
+        <changeDate>2015-06-04</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Restructured HT004 to be consistent with entity structures and naming conventions used in MS001 and MS005 study databases. Method code and event codes are added to each entity and a QC level indicator. All data is updated for calendar year 2015.</changeScope>
+        <oldValue>Version22</oldValue>
+        <changeDate>2016-04-29</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - HT004: General</para>
+          <para>Originally, thermographs (later replaced with data loggers and thermistors) were installed at each stream site to continuously monitor stream  temperature with an adjacent  air temperature site near the stream.  Stream temperature probes are generally anchored near the stream bottom.  Air temperature was generally measured at 1 meter above the forest floor and insulated originally with an A-frame shield (later replaced with pvc-constructed shields).  Many of the probes were repositioned in the early 1990's at 1 meter above average winter snow level. Generally, sites are visited and charts/CR10 records collected on a monthly basis.  In 1987, Campbell Scientific CR-10 data loggers replaced 8 circular chart installations at the original sites.  Early Lookout Creek stream temperature data 1950-1981 was collected by the USGS.</para>
+          <para>The original thermograph instrument was the Dual Recording Thermometer Model RFHTT. This instrument records temperatures from two separate locations (air and soil) simultaneously on a single chart. Each of the two thermometer mechanisms operate with a mercury-filled sensing bulb which expands or contracts in response to temperature changes and in turn moves the recording pen along the calibrated chart. To prevent interference between the two pens, the right-hand pen records 1/12 revolution behind the left-hand pen. The recorder uses 10 inch 30- and 31-day Partlow circular charts that have  ranges from -30°F - 170°F or 20°F - 120°F. </para>
+          <para>
+These original thermograph charts were replaced with Campbell Scientific data loggers ( typically CR10, CR21X, CR500, or CR23X) beginning in 1987.  The temperature probes used with the data loggers were type T thermocouple soldered from thermocouple wire.  These thermocouple wires have gradually been replaced through the late 1990-s with Campbell Scientific model 107 temperature probes (CS107B or CS107B-L) which include the Fenwal Electronics UUT51J1 thermistor. </para>
+        </description>
+        <instrumentation>The original thermograph instrument was the Dual Recording Thermometer Model RFHTT, which recorded on Partlow circular charts. Campbell Scientific data loggers with type T thermocouple soldered from thermocouple wire to measure temperature were used beginning 1987. Beginning in the late 990s Campbell Scientific model 107 temperature probes (CS107B or CS107B-L) which include the Fenwal Electronics UUT51J1 thermistor were gradually installed.</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Field Methods - HT004: Stream and air temperature</para>
+          <para>A description of sites and measurement history is here:</para>
+          <para>http://andrewsforest.oregonstate.edu/data/studies/ht04/template.cfm?page=datalist &amp; topnav=135</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Laboratory Methods - HT004</para>
+          <para>Digitizing chart records was the primary method of capturing data until 1987 when data loggers begin to be installed.  Digitizing continued for some sites until 1995.  Charts were digitized and the record summarized by daytime, nighttime, and 24-hr period. The 24-hr mean values before 1987 are sunrise to sunrise; after January 1987 the 24-hr values are midnight to midnight. All daytime/nighttime calculation ended in 1998, and this data is only available by request.</para>
+        </description>
+        <instrumentation>Digitizer is the Summagraphics/Houston Instruments model MM 1812. (Comparable product is now http://www.calcomp.com/productsummagrid6.htm)</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Quality Assurance - HT004</para>
+          <para>Quality assurance procedures included 1) missing flag check to ensure that all missing data really has the appropriate flag; 2) date/time check to verify that a record exists for each date (and hour if applicable) and that records fall in the correct order; 3) relative mean/max/min check for each record to make sure that min  less than or equal to  mean  less than or equal to  max; 4) similar sites were paired and the values compared to catch any gross outliers.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Air and water temperatures are measured at gauged watersheds within the Andrews Forest and at  other stream sites including Mack and McRae Creek confluences with Lookout Creek. Stream sites nearby the Andrews were collected briefly but were discontinued. Data collection began in 1976 but several sites were discontinued by the mid-1990s. Most of the gauged watershed collections were started between 1995 and 1998.</para>
+            <para>Sampling frequency: Continually</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Stream and air temperature sites were originally selected in the upper elevations of the three major stream segments, upper Lookout, upper Mack and upper McRae Creek, that combine to form Lookout Creek, as well as off-Andrews sites in Grasshopper and Quartz Creeks.  These stream temperature sites were initiated in the late 1970's as an extension to the air and soil temperature network.  The upper Mack Creek, Quartz and Grasshopper Creek sites have been discontinued. Additional sites were added in 1995 to the confluences of Lookout-Mack and Lookout-McRae Creeks to examine mixing of water temperature compared to relative flows.  However, due to problems with maintaining sensors during winter and flood flows, the Lookout-McRae site was discontinued. In 1997, stream and air temperature sensors were placed at all Andrews gaging stations (WS#9 was not instrumented due to threat of potential vandalism).  A legacy stream temperature data set, maintained by USGS, exists from 1950 to 1981 (missing 1955-1963) at Lookout Creek gaging station.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25802700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25802700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20733900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20733900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>439</altitudeMinimum>
+                <altitudeMaximum>439</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  2 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24487600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24487600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21201500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21201500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>545</altitudeMinimum>
+                <altitudeMaximum>545</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  3 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24300000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24300000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21944000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21944000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>471</altitudeMinimum>
+                <altitudeMaximum>471</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  6 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18070700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18070700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26150800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26150800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>878</altitudeMinimum>
+                <altitudeMaximum>878</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  7 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17526500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17526500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26463700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26463700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>918</altitudeMinimum>
+                <altitudeMaximum>918</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed  8 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17079300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17079300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26629426</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26629426</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>962</altitudeMinimum>
+                <altitudeMaximum>962</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Watershed 10 Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26105600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.26105600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21705700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21705700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>461</altitudeMinimum>
+                <altitudeMaximum>461</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Mack Creek Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16744700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16744700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21943600</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21943621</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>755</altitudeMinimum>
+                <altitudeMaximum>755</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Andrews Lookout Creek Gaging Station</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25714600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25714600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21012600</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21012600</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>422</altitudeMinimum>
+                <altitudeMaximum>422</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout Creek upper thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12162890</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12162890</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22478329</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22478329</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>998</altitudeMinimum>
+                <altitudeMaximum>998</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack Creek old-growth thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16547369</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16547369</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21664907</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21664907</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>792</altitudeMinimum>
+                <altitudeMaximum>792</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>McRae Creek upper thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16757303</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16757303</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25638612</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25638612</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>840</altitudeMinimum>
+                <altitudeMaximum>840</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Quartz Creek (Blue River tributary) thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.30199700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.30199700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.19831900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19831900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>520</altitudeMinimum>
+                <altitudeMaximum>520</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout and Mack Creek confluence thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16802024</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16802024</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22756413</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22756413</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>674</altitudeMinimum>
+                <altitudeMaximum>674</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Lookout and McRae Creek confluence thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20863436</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20863436</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23298992</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23298992</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>552</altitudeMinimum>
+                <altitudeMaximum>552</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <section>
+            <para>Quality assurance procedures included 1) missing flag check to ensure that all missing data really has the appropriate flag; 2) date/time check to verify that a record exists for each date (and hour if applicable) and that records fall in the correct order; 3) relative mean/max/min check for each record to make sure that min &lt;= mean &lt;= max; 4) similar sites were paired and the values compared to catch any gross outliers.</para>
+          </section>
+        </description>
+      </qualityControl>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="HT00401">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>HT00401</entityName>
+      <entityDescription>Air temperature (daily): </entityDescription>
+      <physical>
+        <objectName>HT00401_v7.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4020/22/3b2cecfc0d9822f76086fd347306e6d6</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1976-08-11</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-04-03</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HT00401.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HT004</code>
+                    <definition>Study code HT004</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code for the meteorological measurement station</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSWS01</code>
+                    <definition>Andrews Watershed  1 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS02</code>
+                    <definition>Andrews Watershed  2 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS03</code>
+                    <definition>Andrews Watershed  3 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS06</code>
+                    <definition>Andrews Watershed  6 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS07</code>
+                    <definition>Andrews Watershed  7 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS08</code>
+                    <definition>Andrews Watershed  8 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS10</code>
+                    <definition>Andrews Watershed 10 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSMACK</code>
+                    <definition>Andrews Mack Creek Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSLOOK</code>
+                    <definition>Andrews Lookout Creek Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSGRAS</code>
+                    <definition>Grasshopper Creek (S. Fork McKenzie) thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOOK</code>
+                    <definition>Lookout Creek upper thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSMACK</code>
+                    <definition>Mack Creek old-growth thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSMCRA</code>
+                    <definition>McRae Creek upper thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSQRTZ</code>
+                    <definition>Quartz Creek (Blue River tributary) thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOMA</code>
+                    <definition>Lookout and Mack Creek confluence thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOMC</code>
+                    <definition>Lookout and McRae Creek confluence thermograph site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_METHOD">
+          <attributeName>AIRTEMP_METHOD</attributeName>
+          <attributeDefinition>An indication of the the general methodology and instrumentation used to collect this air temperature data</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AIR818</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 395 cm height (See method AIR618)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR807</code>
+                    <definition>Mean daily, max and min air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Instrument is type T thermocouple wire housed in a locally designed PVC radiation shield at 395 cm height (Daily output only)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR814</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 305 cm height (See method AIR614)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR815</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 350 cm height (See method AIR615)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR838</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 450 cm height (See method AIR638)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR813</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 295 cm height (See method AIR613)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR810</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 240 cm height (See method AIR610)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR812</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 255 cm height (See method AIR612)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR817</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 370 cm height (See method AIR617)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR811</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 250 cm height (See method AIR611)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR801</code>
+                    <definition>Mean, max and min daily (sunrise to sunrise) air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 100 cm height in small shelter and corrected.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR816</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 365 cm height (See method AIR616)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR806</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 300 cm height in small shelter on tree and corrected to standard rdg.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR826</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 395 cm height (See method AIR626)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR824</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 305 cm height (See method AIR624)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR834</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 305 cm height (See method AIR634)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR820</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 450 cm height (See method AIR620)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR823</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 295 cm height (See method AIR623)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR821</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 240 cm height (See method AIR621)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR822</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 255 cm height (See method AIR622)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR825</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 370 cm height (See method AIR625)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR819</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 400 cm height (See method AIR619)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR827</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 400 cm height (See method AIR627)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR802</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 100 cm height in small shelter on tree and corrected to standard rdg.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR809</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 200 cm height (See method AIR609)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR808</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings.Thermocouple wire; PVC radiation shield; 395 cm height (See method AIR608)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR836</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 395 cm height (See method AIR636)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR828</code>
+                    <definition>Mean daily air temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings. CS Model 107; PVC radiation shield; 450 cm height (See method AIR628)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR833</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 295 cm height (See method AIR633)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR831</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 240 cm height (See method AIR631)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR832</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 255 cm height (See method AIR632)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR835</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 370 cm height (See method AIR635)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR837</code>
+                    <definition>Mean daily air temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS Model 107; PVC radiation shield; 400 cm height (See method AIR637)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR805</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 240 cm height in small shelter on tree and corrected to standard rdg.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR804</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 200 cm height in small shelter on tree and corrected to standard rdg.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR803</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb at 160 cm height in small shelter on tree and corrected to standard rdg.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR708</code>
+                    <definition>Air temperature is sampled by type T thermocouple soldered from thermocouple wire housed in a locally designed PVC radiation shield at 395 cm height with a Campbell Scientific data logger; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR709</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 200 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR710</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 240 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR711</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 250 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR712</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 255 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR713</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 295 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR714</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 305 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR715</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 350 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR716</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 365 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR717</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 370 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR718</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 395 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR719</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 400 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR720</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 450 cm height; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR721</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 240 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR722</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 255 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR723</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 295 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR724</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 305 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR725</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 370 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR726</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 395 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR727</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 400 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR728</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 450 cm height; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR731</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 240 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR732</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 255 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR733</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 295 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR734</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 305 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR735</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 370 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR736</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 395 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR737</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 400 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIR738</code>
+                    <definition>Air temperature is sampled by a Campbell Scientific model 107 thermistor housed in a locally designed PVC radiation shield at 450 cm height; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.HEIGHT">
+          <attributeName>HEIGHT</attributeName>
+          <attributeDefinition>Height of sensor from ground surface</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">100.0000</minimum>
+                  <maximum exclusive="false">450.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.QC_LEVEL">
+          <attributeName>QC_LEVEL</attributeName>
+          <attributeDefinition>Quality control flag indicates level of quality checking performed including an indication of "provisional" data.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1A</code>
+                    <definition>Data is published and unlikely to change - automated range checking and manual review has been conducted. Quality is indicated in data value qualifier flags.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 1A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1P</code>
+                    <definition>Data is provisional and subject to revision - preliminary quality checks have been performed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2A</code>
+                    <definition>Data is published and unlikely to change - Level 1A data has been modified such that data gaps may be filled or problem data may be removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 2A</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.PROBE_CODE">
+          <attributeName>PROBE_CODE</attributeName>
+          <attributeDefinition>Probe number code indicates the measurement type, site, and sensor number (e.g., AIRGS101)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WATGSL01</code>
+                    <definition>Stream temperature at GSLOOK, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGSL02</code>
+                    <definition>Stream temperature at GSLOOK, probe no. 02, maintained by USGS, legacy data 1950-1981 (missing 1955-1963)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGSM01</code>
+                    <definition>Stream temperature at GSMACK, probe no. 01, downstream of flume in sampling pool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS001</code>
+                    <definition>Stream temperature at GSWS10, probe no. 01, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS101</code>
+                    <definition>Stream temperature at GSWS01, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS201</code>
+                    <definition>Stream temperature at GSWS02, probe no. 01, downstream of flume in sampling pool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS301</code>
+                    <definition>Stream temperature at GSWS03, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS601</code>
+                    <definition>Stream temperature at GSWS06, probe no. 01, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS701</code>
+                    <definition>Stream temperature at GSWS07, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS801</code>
+                    <definition>Stream temperature at GSWS08, probe no. 01, open canopy, discontinued 2001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS802</code>
+                    <definition>Stream temperature at GSWS08, probe no. 02, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMA01</code>
+                    <definition>Stream temperature at TSLOMA, probe no. 01 located in Lookout Cr. above the confluence with Mack Cr.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMA02</code>
+                    <definition>Stream temperature at TSLOMA, probe no. 02 located in Mack Cr. above the confluence with Lookout Cr.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMC01</code>
+                    <definition>Stream temperature at TSLOMC, probe no. 01 located in Lookout Cr. above the confluence with McRae cr., discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMC02</code>
+                    <definition>Stream temperature at TSLOMC, probe no. 02 located in McRae Cr. above the confluence with Lookout Cr., discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTGR01</code>
+                    <definition>Stream temperature at TSGRAS, probe no. 01, discontinued 1987</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTLO01</code>
+                    <definition>Stream temperature at TSLOOK, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTMA01</code>
+                    <definition>Stream temperature at TSMACK, probe no. 01, discontinued 1994</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTMC01</code>
+                    <definition>Stream temperature at TSMCRA, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTQZ01</code>
+                    <definition>Stream temperature at TSQRTZ, probe no. 01, discontinued 1994</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS001</code>
+                    <definition>Air temperature at GSWS10, probe no. 01 at height 400 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS101</code>
+                    <definition>Air temperature at GSWS01, probe no. 01 at height 305 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS201</code>
+                    <definition>Air temperature at GSWS02, probe no. 01 at height 450 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS301</code>
+                    <definition>Air temperature at GSWS03, probe no. 01 at height 295 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS601</code>
+                    <definition>Air temperature at GSWS06, probe no. 01 at height 240 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS701</code>
+                    <definition>Air temperature at GSWS07, probe no. 01 at height 255 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS801</code>
+                    <definition>Air temperature at GSWS08, probe no. 01 at height 370 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGSL01</code>
+                    <definition>Air temperature at GSLOOK, probe no. 01 at height 395 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGSM01</code>
+                    <definition>Air temperature at GSMACK, probe no. 01 at height 350 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRLMA01</code>
+                    <definition>Air temperature at TSLOMA, probe no. 01 at height 350 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRLMC01</code>
+                    <definition>Air temperature at TSLOMC, probe no. 01 at height 365 cm, discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTGR01</code>
+                    <definition>Air temperature at TSGRAS, probe no. 01 at height 100 cm, discontinued 1987</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTLO01</code>
+                    <definition>Air temperature at TSLOOK, probe no. 01 at height 240 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTMA01</code>
+                    <definition>Air temperature at TSMACK, probe no. 01 at height 200 cm, discontinued 1995</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTMC01</code>
+                    <definition>Air temperature at TSMCRA, probe no. 01 at height 200 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTQZ01</code>
+                    <definition>Air temperature at TSQRTZ, probe no. 01 at height 100 cm, discontinued 1994</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">8/11/1976 12:00:00 AM</minimum>
+                  <maximum exclusive="false">4/3/2016 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MEAN_DAY">
+          <attributeName>AIRTEMP_MEAN_DAY</attributeName>
+          <attributeDefinition>Mean air temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-16.8000</minimum>
+                  <maximum exclusive="false">26.3000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MEAN_FLAG">
+          <attributeName>AIRTEMP_MEAN_FLAG</attributeName>
+          <attributeDefinition>Mean air temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in snow; value is the snow temperature</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on 24 hour period defined from sunrise to sunrise</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MAX_DAY">
+          <attributeName>AIRTEMP_MAX_DAY</attributeName>
+          <attributeDefinition>Maximum air temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-14.2000</minimum>
+                  <maximum exclusive="false">41.2000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MAX_FLAG">
+          <attributeName>AIRTEMP_MAX_FLAG</attributeName>
+          <attributeDefinition>Maximum air temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in snow; value is the snow temperature</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on 24 hour period defined from sunrise to sunrise</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MAXTIME">
+          <attributeName>AIRTEMP_MAXTIME</attributeName>
+          <attributeDefinition>Time of day (HHMM) in Pacific Standard Time (PST) of maximum air temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of day (HHMM) in Pacific Standard Time (PST) of maximum air temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MIN_DAY">
+          <attributeName>AIRTEMP_MIN_DAY</attributeName>
+          <attributeDefinition>Minimum air temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-20.2000</minimum>
+                  <maximum exclusive="false">21.7000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MIN_FLAG">
+          <attributeName>AIRTEMP_MIN_FLAG</attributeName>
+          <attributeDefinition>Minimum air temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in snow; value is the snow temperature</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on 24 hour period defined from sunrise to sunrise</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.AIRTEMP_MINTIME">
+          <attributeName>AIRTEMP_MINTIME</attributeName>
+          <attributeDefinition>Time of day (HHMM) in Pacific Standard Time (PST) of minimum air temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of day (HHMM) in Pacific Standard Time (PST) of minimum air temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00401.EVENT_CODE">
+          <attributeName>EVENT_CODE</attributeName>
+          <attributeDefinition>Type of comment that exists independently for any event, disruption in protocol, or unusual conditions that occur at the given date or time and may have an effect on the data values</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CALIBR</code>
+                    <definition>Associated with the inspection or replacement of sensors for calibration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INSREM</code>
+                    <definition>Sensor is installed or removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOGGER</code>
+                    <definition>Change in data logger, data logger program, or wiring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAINTE</code>
+                    <definition>A maintenance event has occurred</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>METHOD</code>
+                    <definition>Change in data collection method</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>No event is reported (not applicable)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUALTY</code>
+                    <definition>Event may directly affect data quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WEATHR</code>
+                    <definition>A weather event has occurred that may affect reading</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HT00401.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HT00401.DATE</attributeReference>
+            <attributeReference>HT00401.PROBE_CODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HT00401.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HT00401.DATE</attributeReference>
+            <attributeReference>HT00401.AIRTEMP_MEAN_FLAG</attributeReference>
+            <attributeReference>HT00401.AIRTEMP_MAX_FLAG</attributeReference>
+            <attributeReference>HT00401.AIRTEMP_MIN_FLAG</attributeReference>
+            <attributeReference>HT00401.PROBE_CODE</attributeReference>
+            <attributeReference>HT00401.DBCODE</attributeReference>
+            <attributeReference>HT00401.SITECODE</attributeReference>
+            <attributeReference>HT00401.ENTITY</attributeReference>
+            <attributeReference>HT00401.HEIGHT</attributeReference>
+            <attributeReference>HT00401.AIRTEMP_METHOD</attributeReference>
+            <attributeReference>HT00401.QC_LEVEL</attributeReference>
+            <attributeReference>HT00401.EVENT_CODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>113420</numberOfRecords>
+    </dataTable>
+    <dataTable id="HT00441">
+      <alternateIdentifier>41</alternateIdentifier>
+      <entityName>HT00441</entityName>
+      <entityDescription>Stream temperature (daily): Includes legacy Lookout Creek USGS data 1950-1981 (1955-1963 missing)</entityDescription>
+      <physical>
+        <objectName>HT00441_v7.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4020/22/7adb807569c148b7107eaa737eb38677</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1949-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-04-12</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="HT00441.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>HT004</code>
+                    <definition>Study code HT004</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">41.0000</minimum>
+                  <maximum exclusive="false">41.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code for the meteorological measurement station</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GSWS01</code>
+                    <definition>Andrews Watershed  1 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS02</code>
+                    <definition>Andrews Watershed  2 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS03</code>
+                    <definition>Andrews Watershed  3 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS06</code>
+                    <definition>Andrews Watershed  6 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS07</code>
+                    <definition>Andrews Watershed  7 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS08</code>
+                    <definition>Andrews Watershed  8 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSWS10</code>
+                    <definition>Andrews Watershed 10 Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSMACK</code>
+                    <definition>Andrews Mack Creek Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GSLOOK</code>
+                    <definition>Andrews Lookout Creek Gaging Station</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSGRAS</code>
+                    <definition>Grasshopper Creek (S. Fork McKenzie) thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOOK</code>
+                    <definition>Lookout Creek upper thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSMACK</code>
+                    <definition>Mack Creek old-growth thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSMCRA</code>
+                    <definition>McRae Creek upper thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSQRTZ</code>
+                    <definition>Quartz Creek (Blue River tributary) thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOMA</code>
+                    <definition>Lookout and Mack Creek confluence thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TSLOMC</code>
+                    <definition>Lookout and McRae Creek confluence thermograph site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_METHOD">
+          <attributeName>WATERTEMP_METHOD</attributeName>
+          <attributeDefinition>An indication of the the general methodology and instrumentation used to collect this water temperature data</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WAT007</code>
+                    <definition>Stream temperature is sampled by a Campbell Scientific model 107 thermistor secured in the stream inside a colander-like metal pipe shade shelter; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT006</code>
+                    <definition>Stream temperature is sampled by a Campbell Scientific data logger using type T thermocouple soldered from thermocouple wire placed in the stream inside a colander-like metal pipe shade shelter; mean temperature is output every 60 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT009</code>
+                    <definition>Stream temperature is sampled by a Campbell Scientific CS547A conductivity and temperature probe secured in the stream inside a colander-like metal pipe shade shelter; mean, min, max temperature is output every 5 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT008</code>
+                    <definition>Stream temperature is sampled by a Campbell Scientific CS547A conductivity and temperature probe secured in the stream inside a colander-like metal pipe shade shelter; mean temperature is output every 15 minutes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT101</code>
+                    <definition>Max and min daily stream temperature is provided by the USGS National Water Information System</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT102</code>
+                    <definition>Daily stream temperature is not collected during this period</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT103</code>
+                    <definition>Mean, max and min daily (sunrise to sunrise) air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb placed in the stream with shade shelter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT104</code>
+                    <definition>Mean, max and min daily air temperature is determined from digitizing circular Partlow charts. Temperature is recorded by a Dual Recording Thermometer Model RFHTT with mercury bulb placed in the stream with shade shelter</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT105</code>
+                    <definition>Mean, max and min daily stream temperature is calculated by a Campbell Scientific datalogger based on 10 second samples. Instrument is type T thermocouple soldered from thermocouple wire and placed in stream with shade shelter (Daily output only)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT106</code>
+                    <definition>Mean daily stream temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings.Thermocouple wire; metal pipe shade shelter (See method WAT006)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT107</code>
+                    <definition>Mean daily stream temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings.CS Model 107 thermistor; metal pipe shade shelter (See method WAT007)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT108</code>
+                    <definition>Mean daily stream temperature is calculated by the Campbell Scientific datalogger based on 10 second samples. Max-min values are based on instantaneous 10 second readings.CS547A; metal pipe shade shelter (See method WAT008)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WAT109</code>
+                    <definition>Mean daily stream temperature is post-calculated from all 5 minute values, and max-min values are determined based on all instantaneous 10 second readings. CS547A; metal pipe shade shelter (See method WAT009)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.QC_LEVEL">
+          <attributeName>QC_LEVEL</attributeName>
+          <attributeDefinition>Quality control flag indicates level of quality checking performed including an indication of "provisional" data.</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1A</code>
+                    <definition>Data is published and unlikely to change - automated range checking and manual review has been conducted. Quality is indicated in data value qualifier flags.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 1A</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1P</code>
+                    <definition>Data is provisional and subject to revision - preliminary quality checks have been performed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2A</code>
+                    <definition>Data is published and unlikely to change - Level 1A data has been modified such that data gaps may be filled or problem data may be removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2D</code>
+                    <definition>Data is published and unlikely to change - data is derived or aggregated from published data of level 2A</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.PROBE_CODE">
+          <attributeName>PROBE_CODE</attributeName>
+          <attributeDefinition>Probe number code indicates the measurement type, site, and sensor number (e.g., AIRGS101)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(8)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WATGSL01</code>
+                    <definition>Stream temperature at GSLOOK, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGSL02</code>
+                    <definition>Stream temperature at GSLOOK, probe no. 02, maintained by USGS, legacy data 1950-1981 (missing 1955-1963)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGSM01</code>
+                    <definition>Stream temperature at GSMACK, probe no. 01, downstream of flume in sampling pool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS001</code>
+                    <definition>Stream temperature at GSWS10, probe no. 01, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS101</code>
+                    <definition>Stream temperature at GSWS01, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS201</code>
+                    <definition>Stream temperature at GSWS02, probe no. 01, downstream of flume in sampling pool</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS301</code>
+                    <definition>Stream temperature at GSWS03, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS601</code>
+                    <definition>Stream temperature at GSWS06, probe no. 01, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS701</code>
+                    <definition>Stream temperature at GSWS07, probe no. 01, downstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS801</code>
+                    <definition>Stream temperature at GSWS08, probe no. 01, open canopy, discontinued 2001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATGS802</code>
+                    <definition>Stream temperature at GSWS08, probe no. 02, upstream of flume</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMA01</code>
+                    <definition>Stream temperature at TSLOMA, probe no. 01 located in Lookout Cr. above the confluence with Mack Cr.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMA02</code>
+                    <definition>Stream temperature at TSLOMA, probe no. 02 located in Mack Cr. above the confluence with Lookout Cr.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMC01</code>
+                    <definition>Stream temperature at TSLOMC, probe no. 01 located in Lookout Cr. above the confluence with McRae cr., discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATLMC02</code>
+                    <definition>Stream temperature at TSLOMC, probe no. 02 located in McRae Cr. above the confluence with Lookout Cr., discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTGR01</code>
+                    <definition>Stream temperature at TSGRAS, probe no. 01, discontinued 1987</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTLO01</code>
+                    <definition>Stream temperature at TSLOOK, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTMA01</code>
+                    <definition>Stream temperature at TSMACK, probe no. 01, discontinued 1994</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTMC01</code>
+                    <definition>Stream temperature at TSMCRA, probe no. 01</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATTQZ01</code>
+                    <definition>Stream temperature at TSQRTZ, probe no. 01, discontinued 1994</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS001</code>
+                    <definition>Air temperature at GSWS10, probe no. 01 at height 400 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS101</code>
+                    <definition>Air temperature at GSWS01, probe no. 01 at height 305 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS201</code>
+                    <definition>Air temperature at GSWS02, probe no. 01 at height 450 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS301</code>
+                    <definition>Air temperature at GSWS03, probe no. 01 at height 295 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS601</code>
+                    <definition>Air temperature at GSWS06, probe no. 01 at height 240 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS701</code>
+                    <definition>Air temperature at GSWS07, probe no. 01 at height 255 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGS801</code>
+                    <definition>Air temperature at GSWS08, probe no. 01 at height 370 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGSL01</code>
+                    <definition>Air temperature at GSLOOK, probe no. 01 at height 395 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRGSM01</code>
+                    <definition>Air temperature at GSMACK, probe no. 01 at height 350 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRLMA01</code>
+                    <definition>Air temperature at TSLOMA, probe no. 01 at height 350 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRLMC01</code>
+                    <definition>Air temperature at TSLOMC, probe no. 01 at height 365 cm, discontinued 1996</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTGR01</code>
+                    <definition>Air temperature at TSGRAS, probe no. 01 at height 100 cm, discontinued 1987</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTLO01</code>
+                    <definition>Air temperature at TSLOOK, probe no. 01 at height 240 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTMA01</code>
+                    <definition>Air temperature at TSMACK, probe no. 01 at height 200 cm, discontinued 1995</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTMC01</code>
+                    <definition>Air temperature at TSMCRA, probe no. 01 at height 200 cm</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AIRTQZ01</code>
+                    <definition>Air temperature at TSQRTZ, probe no. 01 at height 100 cm, discontinued 1994</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/1/1949 12:00:00 AM</minimum>
+                  <maximum exclusive="false">4/12/2016 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MEAN_DAY">
+          <attributeName>WATERTEMP_MEAN_DAY</attributeName>
+          <attributeDefinition>Mean water temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.0000</minimum>
+                  <maximum exclusive="false">19.4000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MEAN_FLAG">
+          <attributeName>WATERTEMP_MEAN_FLAG</attributeName>
+          <attributeDefinition>Mean water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in sediment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on sunrise to sunrise (not midnight to midnight)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MAX_DAY">
+          <attributeName>WATERTEMP_MAX_DAY</attributeName>
+          <attributeDefinition>Maximum water temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.0000</minimum>
+                  <maximum exclusive="false">23.7000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MAX_FLAG">
+          <attributeName>WATERTEMP_MAX_FLAG</attributeName>
+          <attributeDefinition>Maximum water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in sediment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on sunrise to sunrise (not midnight to midnight)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MAXTIME">
+          <attributeName>WATERTEMP_MAXTIME</attributeName>
+          <attributeDefinition>Time of day (HHMM) in Pacific Standard Time (PST) of maximum water temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of day (HHMM) in Pacific Standard Time (PST) of maximum water temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MIN_DAY">
+          <attributeName>WATERTEMP_MIN_DAY</attributeName>
+          <attributeDefinition>Minimum water temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>0.100000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1.0000</minimum>
+                  <maximum exclusive="false">19.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MIN_FLAG">
+          <attributeName>WATERTEMP_MIN_FLAG</attributeName>
+          <attributeDefinition>Minimum water temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests applied as represented by the quality level</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Sensor buried in sediment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>Estimated value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Daily value based on sunrise to sunrise (not midnight to midnight)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.WATERTEMP_MINTIME">
+          <attributeName>WATERTEMP_MINTIME</attributeName>
+          <attributeDefinition>Time of day (HHMM) in Pacific Standard Time (PST) of minimum water temperature</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Time of day (HHMM) in Pacific Standard Time (PST) of minimum water temperature</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="HT00441.EVENT_CODE">
+          <attributeName>EVENT_CODE</attributeName>
+          <attributeDefinition>Type of comment that exists independently for any event, disruption in protocol, or unusual conditions that occur at the given date or time and may have an effect on the data values</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CALIBR</code>
+                    <definition>Associated with the inspection or replacement of sensors for calibration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>INSREM</code>
+                    <definition>Sensor is installed or removed</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>LOGGER</code>
+                    <definition>Change in data logger, data logger program, or wiring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAINTE</code>
+                    <definition>A maintenance event has occurred</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>METHOD</code>
+                    <definition>Change in data collection method</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>No event is reported (not applicable)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>QUALTY</code>
+                    <definition>Event may directly affect data quality</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WEATHR</code>
+                    <definition>A weather event has occurred that may affect reading</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="HT00441.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>HT00441.DATE</attributeReference>
+            <attributeReference>HT00441.PROBE_CODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="HT00441.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>HT00441.DATE</attributeReference>
+            <attributeReference>HT00441.WATERTEMP_MEAN_FLAG</attributeReference>
+            <attributeReference>HT00441.WATERTEMP_MAX_FLAG</attributeReference>
+            <attributeReference>HT00441.WATERTEMP_MIN_FLAG</attributeReference>
+            <attributeReference>HT00441.PROBE_CODE</attributeReference>
+            <attributeReference>HT00441.DBCODE</attributeReference>
+            <attributeReference>HT00441.SITECODE</attributeReference>
+            <attributeReference>HT00441.ENTITY</attributeReference>
+            <attributeReference>HT00441.QC_LEVEL</attributeReference>
+            <attributeReference>HT00441.EVENT_CODE</attributeReference>
+            <attributeReference>HT00441.WATERTEMP_METHOD</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>132941</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="centimeters" multiplierToSI="0.01"
+          name="centimeters" parentSI="meter" unitType="length">
+          <stmml:description>centimeters; .01 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="degrees Celcius" multiplierToSI="273.18"
+          name="degrees Celcius" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

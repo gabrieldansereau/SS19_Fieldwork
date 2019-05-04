@@ -1,0 +1,2380 @@
+<eml:eml packageId="knb-lter-and.4019.11" system="http://andrewsforest.oregonstate.edu/data/mastercatalog.cfm?topnav=97" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <access authSystem="knb" order="allowFirst" scope="document">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MS007</alternateIdentifier>
+    <title>Snow depth and snow water equivalent measurements along a road course in the Andrews Experimental Forest, 1978 to present</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Alfred</givenName>
+        <givenName>B.</givenName>
+        <surName>Levno</surName>
+      </individualName>
+      <address>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>
+      </phone>
+      <electronicMailAddress>ablevno@comcast.net</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Frederick</givenName>
+        <givenName>A.</givenName>
+        <surName>Bierlmaier</surName>
+      </individualName>
+      <address>
+        <administrativeArea>OR</administrativeArea>
+        <country>USA</country>
+      </address>
+      <phone>
+      </phone>
+      <electronicMailAddress>bierlmaier@clearwire.net</electronicMailAddress>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Daly</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>PRISM Group;Northwest Alliance for Computational Science and Engineering ;2000 Kelley Engineering Center;Oregon State University;;;</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-2531</phone>
+      <electronicMailAddress>daly@nacse.org</electronicMailAddress>
+      <onlineUrl>http://prism.oregonstate.edu</onlineUrl>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Greg</givenName>
+        <surName>Downing</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Forestry Sciences Lab;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97333</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7283</phone>
+      <phone>(541) 822-6301</phone>
+      <electronicMailAddress>greg.downing@oregonstate.edu</electronicMailAddress>
+      <role>Method Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Moreau</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>H.J. Andrews Experimental Forest;Box 300</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 822-6305</phone>
+      <electronicMailAddress>moreauj@fsl.orst.edu</electronicMailAddress>
+      <role>Tool Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Anne</givenName>
+        <givenName>W.</givenName>
+        <surName>Nolin</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Department of Geosciences;104 Wilkinson Hall;Oregon State University</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5506</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>541-737-8051</phone>
+      <electronicMailAddress>nolina@science.oregonstate.edu</electronicMailAddress>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Adam</givenName>
+        <givenName>B.</givenName>
+        <surName>Mazurkiewicz</surName>
+      </individualName>
+      <address>
+        <administrativeArea>CA</administrativeArea>
+      </address>
+      <phone>
+      </phone>
+      <electronicMailAddress>amazurkiewicz@sfwater.org</electronicMailAddress>
+      <role>Former Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Mark</givenName>
+        <givenName>David</givenName>
+        <surName>Schulze</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+      </address>
+      <phone>541-822-6336</phone>
+      <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <givenName>J.</givenName>
+        <surName>Still</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Forest Ecosyst &amp; Society; Oregon State University; 321 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone>
+      </phone>
+      <electronicMailAddress>chris.still@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2014-12-12</pubDate>
+    <abstract>
+      <para>With an increase in emphasis on snow data collection within our climate monitoring program, a snow course is designed around a dispersed sampling scheme rather than a point intensive scheme as previously employed in the historic Reference Stand snow course.  Primary objectives are noting the presence/absence of snow, snow depth, and time of melt-off.  Snow depths are read from stakes placed near the road to allow for routine and frequent observation.  Stakes are placed at different elevations and aspects in paired forested/open sites. Truthing of points with snow core sampling for snow moisture content (snow water equivalent) will be done when possible, usually 1-2 times per year.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Clearcuts</keyword>
+      <keyword keywordType="theme">Climate data</keyword>
+      <keyword keywordType="theme">Hydrologic modeling</keyword>
+      <keyword keywordType="theme">Microclimate</keyword>
+      <keyword keywordType="theme">Old-growth forests</keyword>
+      <keyword keywordType="theme">Precipitation</keyword>
+      <keyword keywordType="theme">Reference stands</keyword>
+      <keyword keywordType="theme">Road networks</keyword>
+      <keyword keywordType="theme">Snow hydrology</keyword>
+      <keyword keywordType="theme">Snow moisture</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo> <para>The historic Reference Stand snow course was conducted throughout the 1980's and 1990's.  The first measurement listed for a year is generally the first measurable snow of that year.  However, the data suffers from not knowing the difference between no snow on the ground and no measurement of snow making a determination of snow melt-off difficult or impossible.  Reference Stands with some snow measurements include RS03, RS04, RS05, RS12, RS13, RS14, RS18, RS26, and TS38. After 1993 only data from RS04 and two reference stands from the Wildcat RNA (RS13, RS14) are collected.</para> </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+<para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+<para><itemizedlist>
+		<listitem><para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para></listitem>
+		<listitem><para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para></listitem>
+		<listitem><para> not redistribute original data and documentation; 
+		</para></listitem>
+		<listitem><para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para></listitem>
+		<listitem><para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para></listitem>		
+</itemizedlist></para>
+<para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+<para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+<para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para></intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=MS007&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>The current snow course includes old-growth stands and adjacent open areas along the road network within the H. J. Andrews Experimental Forest of the western Oregon Cascades. The historic snow course survey includes some Andrews Reference Stands and Wildcat RNA sites.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.24641700</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.09452900</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.34393100</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20513900</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>430</altitudeMinimum>
+            <altitudeMaximum>1450</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1978-01-18</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2012-12-17</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Provide a baseline for characterizing distribution and variation in snow depth, moisture, and duration in the Andrews Forest for climatological and hydrological modelling, and examine differences in snow accumulation in clearcut and adjacent closed forest stand microclimates.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1982-12-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>The historic Reference Stand snow course data set was developed with the 10 individual snow core measurements (only 5 were taken after 1988) averaged for each site.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>1996-05-01</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>The snow course data was prepared and processed through the FSDB quality assurance system.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2004-11-08</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>The metadata is updated and prepared for placement in the FSDB online metadata system.</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>2004-11-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>This is a major update and restructuring. Former Enities 1 &amp; 2 are combined into a single Entity 1 (both snow depth and snow water equivalent are merged). Data for Entity 1 road course is updated for WY2004- WY2007. Data for Entity 2 (now Reference Stand snow course) is updated from WY1995-WY2003 from old check sheets and is now complete as this snow course is no longer collected. Metadata abstract and methods are revised, and attribute and entity defintions are improved. - DH</changeScope>
+        <oldValue>Version6</oldValue>
+        <changeDate>2007-10-29</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Wateryear 2008 snow stake data is updated (MS00701) through June 2008.</changeScope>
+        <oldValue>Version7</oldValue>
+        <changeDate>2009-03-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Snow stake data (entity 1) is updated through 29 Dec 2010. Corrections were made to "position" from last update, 2006-2008. Duplicate record errors were found and corrected from 12 Jan 1999, 23 Dec 1997, and more recent ones - errors were due to incorrect entry of sitecode.</changeScope>
+        <oldValue>Version8</oldValue>
+        <changeDate>2011-01-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Snow stake data is updated through 9 April 2014 (end of snow season for WY 2014).</changeScope>
+        <oldValue>Version11</oldValue>
+        <changeDate>2014-12-12</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - MS007: Road snow course</para>
+          <para>A snow stake is established at each site with a metal fence post driven into the ground to support a 2" PVC pipe that slides over the post.  Survey rod decals are placed on most of the PVC pipes except at lower elevation sites where shorter stakes are adequate and stream level metal guys are used as the calibration system.  Slope, aspect, and canopy closure are recorded for all sites, as well as the initial stake tare reading on the ground (not all stake readings begin at zero).</para>
+<para>
+A check sheet is established to keep the collected data organized.  Depth measurements are routinely recorded at the stakes while driving by on the way to other field activities.  Typically the Upper Lookout stakes on Rd. 1506 and Rd. 350 stakes read once every 3 weeks. The 1507 stakes are sampled only once or twice a year. </para>
+<para>
+A special trip is made at least once per year to collect snow water equivalent measurements as a way of ground truthing the snow stake for snow moisture. The nearby snow stake is measured at the same time.  Ground-truthing (snow water equivalent measurement) of each stake is conducted by taking three snow core measurements with the Mt Rose snow tube sampling equipment to establish a relationship between snow pack water equivalence and depth.  The snow tube core sampler is pushed to soil surface interface, depth is recorded, and snow is extracted.  The snow is weighed on a spring balance, the tare weight of the corer is subtracted, and actual snow weight is converted to millimeters of equivalent water.</para>
+<para>
+This procedure generally follows the NRCS snow sampling procedure except only three cores are taken. If there is a complete snow pack around the snowstake 3 points are taken in the immediate vicinity of the snowstake (3 points approximately 1 meter equidistant from stake) and averaged. If the snow coverage is patchy, core sample placement becomes more subjective with limited spots where a useful core can be sampled. In the NRCS snowcourse a particular point not having any snow would be recorded as zero, but here all of our ground truthing cores have some amount of snow because points are selected for representation of the density of the snow (and not for representative depth). The % snowcover is estimated to gain a sense of snow patchiness.</para></description>
+        <instrumentation>Mt. Rose snow core sampler.  Note that a new snow core sampler was put into use on approximately March 1, 1999.  The new scale is capable of measuring greater weights.  Generally, comparable snow cores weigh less on the new scale in comparison to the older one.</instrumentation>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Field Methods - MS007: Reference Stand snow course</para>
+          <para>At each site, snow is sampled at 10 points along a transect at 5 meter intervals.  In 1988 the number of points was reduced to 5 per site. The snow tube core sampler is pushed to soil surface interface, depth is recorded, and snow is extracted.  The length of the snow core is measured as an indicator of snow compaction.  The snow is weighed on a spring balance, the tare weight of the corer is subtracted, and actual snow weight is converted to inches of equivalent water. In Reference Stands 4,12,13,14 paired transects in closed forest and open areas are taken. An open site was added at RS03 and RS26 for 1 year (WY90). At RS04, the open canopy site was moved to the road beginning WY91. Throughout the 1990's only RS04 and Wilcat RNA sites (RS13, RS14 open-closed canopy pairs) are measured, and only RS13 and RS14 after 2000. These measurement s were discontinued in 2003.</para>
+        </description>
+        <instrumentation>Mt. Rose snow core sampler.</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Measurement sites include recent clearcuts and adjacent old-growth stands in the H. J. Andrews and vicinity from Reference Stands at 430 -1450 m elevation, and include two open-forest paired sites in the Wildcat Research Natural Area.</para> <para>Sampling frequency: twice monthly</para></description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Snow stakes are established starting at the Primary Met Station (430 meters elevation) and at approximately 150 meter elevation increments along Andrews Forest roads.  Sites are established in open canopy/closed forest pairs, with stakes at each paired location as close together as possible.  One stake is placed in a forest opening (no canopy interference with snow accumulation) and one stake is placed in an older forest (preferably an old growth stand).  Snow water equivalent measurements (snow moisture content) are collected once or twice per year with 3 snow cores taken in the vicinity of the snow stake and averaged. The historic Reference Stand snow course included paired open and closed canopy locations within the Andrews Reference Stands and Wildcat RNA thermograph sites.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Reference Stand RS03 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15846354</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15846354</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25886274</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25886274</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>978</altitudeMinimum>
+                <altitudeMaximum>978</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Reference Stand RS04 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.13686341</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.13686341</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.27307944</northBoundingCoordinate>
+              <southBoundingCoordinate>44.27307944</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1307</altitudeMinimum>
+                <altitudeMaximum>1307</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Reference Stand RS12 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12067463</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12067463</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22586082</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22586082</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>987</altitudeMinimum>
+                <altitudeMaximum>987</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Reference Stand RS13 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12321700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12321700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.34393100</northBoundingCoordinate>
+              <southBoundingCoordinate>44.34393100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1350</altitudeMinimum>
+                <altitudeMaximum>1350</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Reference Stand RS14 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.09452900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.09452900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.32745400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.32745400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1430</altitudeMinimum>
+                <altitudeMaximum>1430</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Reference Stand RS26 thermograph site</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17440170</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17440170</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26757433</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26757433</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1037</altitudeMinimum>
+                <altitudeMaximum>1037</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Thermograph site 38</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18110079</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18110079</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26403748</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26403748</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>957</altitudeMinimum>
+                <altitudeMaximum>957</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Mack West raingage</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17117700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17117700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21180000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21180000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1167</altitudeMinimum>
+                <altitudeMaximum>1167</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Midway raingage</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18503100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18503100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25113900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25113900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>767</altitudeMinimum>
+                <altitudeMaximum>767</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 forest site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20174200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20174200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24209400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24209400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>675</altitudeMinimum>
+                <altitudeMaximum>675</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 forest site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18273900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18273900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25210800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25210800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>805</altitudeMinimum>
+                <altitudeMaximum>805</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 forest site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17370800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17370800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26465800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26465800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>935</altitudeMinimum>
+                <altitudeMaximum>935</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 forest site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18490300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18490300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26346700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26346700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>978</altitudeMinimum>
+                <altitudeMaximum>978</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 open site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20133600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20133600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24231900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24231900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>661</altitudeMinimum>
+                <altitudeMaximum>661</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 open site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18181100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18181100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25333600</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25333600</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>793</altitudeMinimum>
+                <altitudeMaximum>793</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 open site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17390600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17390600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26435800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26435800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>916</altitudeMinimum>
+                <altitudeMaximum>916</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 320 open site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.17673600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.17673600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26657200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26657200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>997</altitudeMinimum>
+                <altitudeMaximum>997</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 forest site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15224900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15224900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23884400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23884400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>919</altitudeMinimum>
+                <altitudeMaximum>919</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 forest site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15223200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15223200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24724500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24724500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1057</altitudeMinimum>
+                <altitudeMaximum>1057</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 forest site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14758700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14758700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26136800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26136800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1233</altitudeMinimum>
+                <altitudeMaximum>1233</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 forest site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.13978800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.13978800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.27693200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.27693200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1408</altitudeMinimum>
+                <altitudeMaximum>1408</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 open site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15193900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15193900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23760500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23760500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>892</altitudeMinimum>
+                <altitudeMaximum>892</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 open site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15286300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15286300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24768100</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24768100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1063</altitudeMinimum>
+                <altitudeMaximum>1063</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 open site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14359100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14359100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.26367200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.26367200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1263</altitudeMinimum>
+                <altitudeMaximum>1263</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 350 open site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.13901500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.13901500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.27641000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.27641000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1387</altitudeMinimum>
+                <altitudeMaximum>1387</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 360 forest site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.19413000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.19413000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23154400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23154400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>622</altitudeMinimum>
+                <altitudeMaximum>622</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 360 forest site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16940200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16940200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22220000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22220000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>761</altitudeMinimum>
+                <altitudeMaximum>761</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 360 open site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.19334000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.19334000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23108900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23108900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>629</altitudeMinimum>
+                <altitudeMaximum>629</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 360 open site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16975200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16975200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22222000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22222000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>769</altitudeMinimum>
+                <altitudeMaximum>769</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.24641700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.24641700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21576700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21576700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>453</altitudeMinimum>
+                <altitudeMaximum>453</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.22297500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22297500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22731100</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22731100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>574</altitudeMinimum>
+                <altitudeMaximum>574</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18417800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18417800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23240800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23240800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>629</altitudeMinimum>
+                <altitudeMaximum>629</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16105800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16105800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23290000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23290000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>780</altitudeMinimum>
+                <altitudeMaximum>780</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 5 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12591400</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12591400</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23078100</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23078100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1006</altitudeMinimum>
+                <altitudeMaximum>1006</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 forest site 6 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.11292800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.11292800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21371900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21371900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1164</altitudeMinimum>
+                <altitudeMaximum>1164</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20588900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20588900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21184200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21184200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>430</altitudeMinimum>
+                <altitudeMaximum>430</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.22970200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22970200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22692400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22692400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>568</altitudeMinimum>
+                <altitudeMaximum>568</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.18324200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.18324200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23222800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23222800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>632</altitudeMinimum>
+                <altitudeMaximum>632</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16731700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16731700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23025800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23025800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>739</altitudeMinimum>
+                <altitudeMaximum>739</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 5 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12786700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12786700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23107800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23107800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>970</altitudeMinimum>
+                <altitudeMaximum>970</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1506 open site 6 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.11356700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.11356700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21491100</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21491100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1125</altitudeMinimum>
+                <altitudeMaximum>1125</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 forest site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21875100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21875100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22067900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22067900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>780</altitudeMinimum>
+                <altitudeMaximum>780</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 forest site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20488400</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20488400</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21894800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21894800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>946</altitudeMinimum>
+                <altitudeMaximum>946</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 forest site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20711100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20711100</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21523900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21523900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1069</altitudeMinimum>
+                <altitudeMaximum>1069</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 forest site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16847300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16847300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20736500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20736500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1193</altitudeMinimum>
+                <altitudeMaximum>1193</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 open site 1 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21871200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21871200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21922700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21922700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>766</altitudeMinimum>
+                <altitudeMaximum>766</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 open site 2 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20464200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20464200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21963500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21963500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>927</altitudeMinimum>
+                <altitudeMaximum>927</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 open site 3 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.20448900</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.20448900</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.21483200</northBoundingCoordinate>
+              <southBoundingCoordinate>44.21483200</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1098</altitudeMinimum>
+                <altitudeMaximum>1098</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Road 1507 open site 4 snow stake</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.16812700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.16812700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20752300</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20752300</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1180</altitudeMinimum>
+                <altitudeMaximum>1180</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Roads End raingage</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.13794700</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.13794700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20513900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20513900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1348</altitudeMinimum>
+                <altitudeMaximum>1348</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+        </address>
+        <phone>
+        </phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para> 
+
+<para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+
+<para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para></abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor name="Long-Term Ecological Research" citableClassificationSystem="false">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="MS00701">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>MS00701</entityName>
+      <entityDescription>Snow depth and snow water equivalent measurements along road course: </entityDescription>
+      <physical>
+        <objectName>MS00701_v2.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://andlter.forestry.oregonstate.edu/ltermeta/ltersearch/dataaccess.aspx?docid=MS00701_v2.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1994-12-08</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2014-04-09</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="MS00701.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>Study code MS007</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MS007</code>
+                    <definition>Study code MS007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code incorporates the last 3 digits of the USFS road number, and includes an "O"=open site or an "F"=forest site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RS03__</code>
+                    <definition>Reference Stand RS03 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS04__</code>
+                    <definition>Reference Stand RS04 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS12__</code>
+                    <definition>Reference Stand RS12 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS13__</code>
+                    <definition>Reference Stand RS13 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS14__</code>
+                    <definition>Reference Stand RS14 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS26__</code>
+                    <definition>Reference Stand RS26 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TS38__</code>
+                    <definition>Thermograph site 38</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS13O_</code>
+                    <definition>Reference Stand RS13 Open canopy thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MACKWE</code>
+                    <definition>Mack West raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIDWAY</code>
+                    <definition>Midway raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F1</code>
+                    <definition>Road 320 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F2</code>
+                    <definition>Road 320 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F3</code>
+                    <definition>Road 320 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F4</code>
+                    <definition>Road 320 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O1</code>
+                    <definition>Road 320 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O2</code>
+                    <definition>Road 320 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O3</code>
+                    <definition>Road 320 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O4</code>
+                    <definition>Road 320 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F1</code>
+                    <definition>Road 350 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F2</code>
+                    <definition>Road 350 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F3</code>
+                    <definition>Road 350 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F4</code>
+                    <definition>Road 350 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O1</code>
+                    <definition>Road 350 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O2</code>
+                    <definition>Road 350 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O3</code>
+                    <definition>Road 350 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O4</code>
+                    <definition>Road 350 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360F1</code>
+                    <definition>Road 360 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360F2</code>
+                    <definition>Road 360 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360O1</code>
+                    <definition>Road 360 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360O2</code>
+                    <definition>Road 360 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F1</code>
+                    <definition>Road 1506 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F2</code>
+                    <definition>Road 1506 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F3</code>
+                    <definition>Road 1506 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F4</code>
+                    <definition>Road 1506 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F5</code>
+                    <definition>Road 1506 forest site 5 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F6</code>
+                    <definition>Road 1506 forest site 6 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O1</code>
+                    <definition>Road 1506 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O2</code>
+                    <definition>Road 1506 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O3</code>
+                    <definition>Road 1506 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O4</code>
+                    <definition>Road 1506 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O5</code>
+                    <definition>Road 1506 open site 5 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O6</code>
+                    <definition>Road 1506 open site 6 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F1</code>
+                    <definition>Road 1507 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F2</code>
+                    <definition>Road 1507 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F3</code>
+                    <definition>Road 1507 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F4</code>
+                    <definition>Road 1507 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O1</code>
+                    <definition>Road 1507 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O2</code>
+                    <definition>Road 1507 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O3</code>
+                    <definition>Road 1507 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O4</code>
+                    <definition>Road 1507 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RDSEND</code>
+                    <definition>Roads End raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS03O_</code>
+                    <definition>Reference Stand RS03 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS04O_</code>
+                    <definition>Reference Stand RS04 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS05O_</code>
+                    <definition>Reference Stand RS05 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS12O_</code>
+                    <definition>Reference Stand RS12 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS14O_</code>
+                    <definition>Reference Stand RS14 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS18O_</code>
+                    <definition>Reference Stand RS18 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS26O_</code>
+                    <definition>Reference Stand RS26 Open canopy snow course site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.POSITION">
+          <attributeName>POSITION</attributeName>
+          <attributeDefinition>Position number notes changes in location of snow stake and snow core sampling</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">3.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of measurement (PST)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">12/8/1994 12:00:00 AM</minimum>
+                  <maximum exclusive="false">4/9/2014 3:30:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.SNOW_DEPTH">
+          <attributeName>SNOW_DEPTH</attributeName>
+          <attributeDefinition>Snow depth as measured against an established snow stake</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>15.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3414.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE0">
+          <attributeName>FE0</attributeName>
+          <attributeDefinition>Snow depth qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>+</code>
+                    <definition>Snow depth exceeds height of snow stake - a snow  core depth will be used if taken, otherwise the maximum stake height is used</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft.)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.SNOW_WATER">
+          <attributeName>SNOW_WATER</attributeName>
+          <attributeDefinition>Instantaneous snow water equivalent measurement using a Mt. Rose snow tube sampler (represents an average of multiple sample cores) - measurement location varies within the vicinity of the site snow stake</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>15.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">3.0000</minimum>
+                  <maximum exclusive="false">1397.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE1">
+          <attributeName>FE1</attributeName>
+          <attributeDefinition>Snow water equivalent qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bulk sample taken due to low snow depth - 3 samples combined using weighted average</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Insufficient snow depth for core sampler measurement of snow moisture</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Single snow core sample point only - usually 3 cores are taken</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.TUBE_DEPTH">
+          <attributeName>TUBE_DEPTH</attributeName>
+          <attributeDefinition>Snow depth as measured by the Mt. Rose snow tube sampler (represents an average of multiple depth readings) - measurement location varies within the vicinity of the site snow stake</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>15.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">25.0000</minimum>
+                  <maximum exclusive="false">3454.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE2">
+          <attributeName>FE2</attributeName>
+          <attributeDefinition>Snow tube depth qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Insufficient snow depth for core sampler measurement of snow depth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft., 1-15 mm)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Single snow core sample point only  - usually 3 cores are taken</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bulk core sample - one bulk sample is used rather than multiple independent samples to determine SWE</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.SNOW_COVER">
+          <attributeName>SNOW_COVER</attributeName>
+          <attributeDefinition>Visual estimate of percent of area covered with snow in immediate vicinity</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>10.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">100.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE3">
+          <attributeName>FE3</attributeName>
+          <attributeDefinition>Snow coverage percent qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft.)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.LOW_DEPTH">
+          <attributeName>LOW_DEPTH</attributeName>
+          <attributeDefinition>Visual estimate of lowest snow depth in the immediate vicinity based on variation from the observed depth measurement at the survey stake</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>50.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3353.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE4">
+          <attributeName>FE4</attributeName>
+          <attributeDefinition>Low snow depth qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft.)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.HI_DEPTH">
+          <attributeName>HI_DEPTH</attributeName>
+          <attributeDefinition>Visual estimate of highest snow depth in the immediate vicinity based on variation from the observed depth measurement at the survey stake</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>50.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3475.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00701.FE5">
+          <attributeName>FE5</attributeName>
+          <attributeDefinition>High snow depth qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft., 3-15 mm)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="MS00701.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>MS00701.DATE_TIME</attributeReference>
+            <attributeReference>MS00701.SITECODE</attributeReference>
+            <attributeReference>MS00701.POSITION</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="MS00701.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>MS00701.DATE_TIME</attributeReference>
+            <attributeReference>MS00701.STCODE</attributeReference>
+            <attributeReference>MS00701.SITECODE</attributeReference>
+            <attributeReference>MS00701.FORMAT</attributeReference>
+            <attributeReference>MS00701.POSITION</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>7610</numberOfRecords>
+    </dataTable>
+    <dataTable id="MS00702">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>MS00702</entityName>
+      <entityDescription>Reference Stand snow depth and snow water equivalent measurements - discontinued in 2003: </entityDescription>
+      <physical>
+        <objectName>MS00702_v1.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">http://andlter.forestry.oregonstate.edu/ltermeta/ltersearch/dataaccess.aspx?docid=MS00702_v1.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1978-01-18</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2003-05-14</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="MS00702.STCODE">
+          <attributeName>STCODE</attributeName>
+          <attributeDefinition>Study code MS007</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MS007</code>
+                    <definition>Study code MS007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.FORMAT">
+          <attributeName>FORMAT</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code incorporates the last 3 digits of the USFS road number, and includes an "O"=open site or an "F"=forest site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RS03__</code>
+                    <definition>Reference Stand RS03 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS04__</code>
+                    <definition>Reference Stand RS04 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS12__</code>
+                    <definition>Reference Stand RS12 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS13__</code>
+                    <definition>Reference Stand RS13 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS14__</code>
+                    <definition>Reference Stand RS14 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS26__</code>
+                    <definition>Reference Stand RS26 thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TS38__</code>
+                    <definition>Thermograph site 38</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS13O_</code>
+                    <definition>Reference Stand RS13 Open canopy thermograph site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MACKWE</code>
+                    <definition>Mack West raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MIDWAY</code>
+                    <definition>Midway raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F1</code>
+                    <definition>Road 320 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F2</code>
+                    <definition>Road 320 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F3</code>
+                    <definition>Road 320 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320F4</code>
+                    <definition>Road 320 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O1</code>
+                    <definition>Road 320 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O2</code>
+                    <definition>Road 320 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O3</code>
+                    <definition>Road 320 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R320O4</code>
+                    <definition>Road 320 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F1</code>
+                    <definition>Road 350 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F2</code>
+                    <definition>Road 350 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F3</code>
+                    <definition>Road 350 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350F4</code>
+                    <definition>Road 350 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O1</code>
+                    <definition>Road 350 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O2</code>
+                    <definition>Road 350 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O3</code>
+                    <definition>Road 350 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R350O4</code>
+                    <definition>Road 350 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360F1</code>
+                    <definition>Road 360 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360F2</code>
+                    <definition>Road 360 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360O1</code>
+                    <definition>Road 360 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R360O2</code>
+                    <definition>Road 360 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F1</code>
+                    <definition>Road 1506 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F2</code>
+                    <definition>Road 1506 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F3</code>
+                    <definition>Road 1506 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F4</code>
+                    <definition>Road 1506 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F5</code>
+                    <definition>Road 1506 forest site 5 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506F6</code>
+                    <definition>Road 1506 forest site 6 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O1</code>
+                    <definition>Road 1506 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O2</code>
+                    <definition>Road 1506 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O3</code>
+                    <definition>Road 1506 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O4</code>
+                    <definition>Road 1506 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O5</code>
+                    <definition>Road 1506 open site 5 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R506O6</code>
+                    <definition>Road 1506 open site 6 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F1</code>
+                    <definition>Road 1507 forest site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F2</code>
+                    <definition>Road 1507 forest site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F3</code>
+                    <definition>Road 1507 forest site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507F4</code>
+                    <definition>Road 1507 forest site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O1</code>
+                    <definition>Road 1507 open site 1 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O2</code>
+                    <definition>Road 1507 open site 2 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O3</code>
+                    <definition>Road 1507 open site 3 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R507O4</code>
+                    <definition>Road 1507 open site 4 snow stake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RDSEND</code>
+                    <definition>Roads End raingage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS03O_</code>
+                    <definition>Reference Stand RS03 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS04O_</code>
+                    <definition>Reference Stand RS04 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS05O_</code>
+                    <definition>Reference Stand RS05 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS12O_</code>
+                    <definition>Reference Stand RS12 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS14O_</code>
+                    <definition>Reference Stand RS14 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS18O_</code>
+                    <definition>Reference Stand RS18 Open canopy snow course site</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RS26O_</code>
+                    <definition>Reference Stand RS26 Open canopy snow course site</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.DATE_TIME">
+          <attributeName>DATE_TIME</attributeName>
+          <attributeDefinition>Date and time of measurement (PST)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimePrecision>1.000000</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1/18/1978 2:00:00 PM</minimum>
+                  <maximum exclusive="false">5/14/2003 12:00:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.SNOW_WATER2">
+          <attributeName>SNOW_WATER2</attributeName>
+          <attributeDefinition>Instantaneous snow water equivalent measurement (snow moisture) using a Mt. Rose snow tube sampler along a fixed snow course transect (represents an average of multiple sample cores)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">1537.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.FE1">
+          <attributeName>FE1</attributeName>
+          <attributeDefinition>Snow water equivalent qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bulk sample taken due to low snow depth - 3 samples combined using weighted average</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Insufficient snow depth for core sampler measurement of snow moisture</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Single snow core sample point only - usually 3 cores are taken</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.SNOW_DEPTH2">
+          <attributeName>SNOW_DEPTH2</attributeName>
+          <attributeDefinition>Snow depth as measured by the Mt.Rose snow tube sampler along a fixed snow course transect (represents an average of multiple sample cores)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">3531.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS00702.FE2">
+          <attributeName>FE2</attributeName>
+          <attributeDefinition>Snow tube depth qualifier flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>   </code>
+                    <definition>Good value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Insufficient snow depth for core sampler measurement of snow depth</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>Trace of snow (&lt;0.05 ft., 1-15 mm)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Single snow core sample point only  - usually 3 cores are taken</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Bulk core sample - one bulk sample is used rather than multiple independent samples to determine SWE</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="MS00702.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>MS00702.DATE_TIME</attributeReference>
+            <attributeReference>MS00702.STCODE</attributeReference>
+            <attributeReference>MS00702.SITECODE</attributeReference>
+            <attributeReference>MS00702.FORMAT</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>826</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit name="percent" unitType="dimensionless" id="percent" parentSI="dimensionless" multiplierToSI="1">
+          <stmml:description>percent; a number</stmml:description>
+        </stmml:unit>
+        <stmml:unit name="number" unitType="dimensionless" id="number" parentSI="dimensionless" multiplierToSI="1">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit name="millimeters" unitType="length" id="millimeters" parentSI="meter" multiplierToSI="0.001">
+          <stmml:description>millimeters; .001 meters</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

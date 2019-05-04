@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<eml:eml xmlns:eml='eml://ecoinformatics.org/eml-2.1.0'
+         xmlns:stmml='http://www.xml-cml.org/schema/stmml-1.1'
+         xmlns:ds='eml://ecoinformatics.org/dataset-2.1.0'
+         xmlns:xs='http://www.w3.org/2001/XMLSchema'
+         xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+         xsi:schemaLocation='eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd'
+         packageId='knb-lter-sev.274.131549'
+         system='knb'>
+
+<access scope="document" order="allowFirst" authSystem="knb">
+    <allow>
+    <principal>uid=SEV,o=LTER,dc=ecoinformatics,dc=org</principal>
+    <permission>all</permission>
+  </allow>
+  <allow>
+    <principal>public</principal>
+    <permission>read</permission>
+  </allow>
+</access>
+<dataset>
+  <title>Ecosystem-Scale Rainfall Manipulation in a Piñon-Juniper Forest at the Sevilleta National Wildlife Refuge, New Mexico: Soil Temperature Data</title>
+  <creator>
+    <individualName>
+      <givenName>William</givenName>
+      <surName>Pockman</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Department of Biology, MSC03 2020, 1 University of New Mexico</deliveryPoint>
+      <city>Albuquerque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+    </address>
+    <electronicMailAddress>pockman@unm.edu</electronicMailAddress>
+    <userId directory="http://sev.lternet.edu/">12857</userId>
+  </creator>
+  <creator>
+    <individualName>
+      <givenName>Nathan</givenName>
+      <surName>McDowell</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Earth and Environmental Sciences, LANL</deliveryPoint>
+      <city>Los Alamos</city>
+      <administrativeArea>NM</administrativeArea>
+    </address>
+    <electronicMailAddress>mcdowell@lanl.gov</electronicMailAddress>
+  </creator>
+  <metadataProvider>
+    <positionName>, </positionName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Department of Biology, University of New Mexico</deliveryPoint>
+      <city>Albuqeurque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+      <country>United States</country>
+    </address>
+  </metadataProvider>
+  <associatedParty>
+    <individualName>
+      <givenName>Robert</givenName>
+      <surName>Pangle</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Dept. of Biology, Room 137, Castetter Hall, University of New Mexico</deliveryPoint>
+      <city>Albuquerque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+    </address>
+    <electronicMailAddress>robert.pangle@gmail.com</electronicMailAddress>
+    <role>data manager</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Enrico Yepez</givenName>
+      <surName>Yepez</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <electronicMailAddress>yepezglz@itson.mx</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Jennifer</givenName>
+      <surName>Plaut</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <electronicMailAddress>jplaut@unm.edu</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Robert</givenName>
+      <surName>Pangle</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Dept. of Biology, Room 137, Castetter Hall, University of New Mexico</deliveryPoint>
+      <city>Albuquerque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+    </address>
+    <electronicMailAddress>robert.pangle@gmail.com</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Nathan</givenName>
+      <surName>Gehres</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <electronicMailAddress>gehresn@hotmail.com</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Amanda</givenName>
+      <surName>Boutz</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>, </deliveryPoint>
+      <postalCode>0</postalCode>
+    </address>
+    <electronicMailAddress>aboutz@unm.edu</electronicMailAddress>
+    <userId directory="http://sev.lternet.edu/">15592</userId>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Patrick</givenName>
+      <surName>Hudson</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <electronicMailAddress>husdon.patrick.j@gmail.com</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <associatedParty>
+    <individualName>
+      <givenName>Ben</givenName>
+      <surName>Specter</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <electronicMailAddress>ben_specter@yahoo.com</electronicMailAddress>
+    <role>field crew</role>
+  </associatedParty>
+  <language>english</language>
+  <abstract>
+    <section>
+      <para>Climate models predict that water limited regions around the world will become drier and warmer in the near future, including southwestern North America. We developed a large-scale experimental system that allows testing of the ecosystem impacts of precipitation changes. Four treatments were applied to 1600 m2 plots (40 m × 40 m), each with three replicates in a piñon pine (Pinus edulis) and juniper (Juniper monosperma) ecosystem. These species have extensive root systems, requiring large-scale manipulation to effectively alter soil water availability.  Treatments consisted of: 1) irrigation plots that receive supplemental water additions, 2) drought plots that receive 55% of ambient rainfall, 3) cover-control plots that receive ambient precipitation, but allow determination of treatment infrastructure artifacts, and 4) ambient control plots. Our drought structures effectively reduced soil water potential and volumetric water content compared to the ambient, cover-control, and water addition plots. Drought and cover control plots experienced an average increase in maximum soil and air temperature at ground level of 1-4° C during the growing season compared to ambient plots, and concurrent short-term diurnal increases in maximum air temperature were also observed directly above and below plastic structures. Our drought and irrigation treatments significantly influenced tree predawn water potential, sap-flow, and net photosynthesis, with drought treatment trees exhibiting significant decreases in physiological function compared to ambient and irrigated trees. Supplemental irrigation resulted in a significant increase in both plant water potential and xylem sap-flow compared to trees in the other treatments. This experimental design effectively allows manipulation of plant water stress at the ecosystem scale, permits a wide range of drought conditions, and provides prolonged drought conditions comparable to historical droughts in the past – drought events for which wide-spread mortality in both these species was observed.  Soil temperature impacts both the abiotic and biotic processes at our site. The rate of evaporation, soil water content, VPD, and many other environmental factors are directly or indirectly affected by the temperature of the system. By monitoring the soil temperature at our site, we were able to determine its influence on the target trees and their associated physiological functions. Differences in soil temperature between plots can be impacted by the drought and cover-control structures used in our rainfall-manipulation treatments. Therefore, measuring soil temperatures in all three cover types and all four treatment regimes also allowed us to tease-out the temperature differences that were an artifact of the treatment structures as opposed to the actual treatments. </para>
+    </section>
+  </abstract>
+  <keywordSet>
+    <keyword>inorganic nutrients</keyword>
+    <keyword>populations</keyword>
+    <keywordThesaurus>Core Areas</keywordThesaurus>
+  </keywordSet>
+  <keywordSet>
+    <keyword>communities</keyword>
+    <keyword>plant communities</keyword>
+    <keyword>species</keyword>
+    <keyword>meteorology</keyword>
+    <keyword>biology</keyword>
+    <keyword>ecology</keyword>
+    <keyword>plant ecology</keyword>
+    <keyword>measurements</keyword>
+    <keyword>ecosystem properties</keyword>
+    <keyword>precipitation</keyword>
+    <keyword>temperature</keyword>
+    <keyword>soil temperature</keyword>
+    <keyword>terrestrial</keyword>
+    <keyword>montane</keyword>
+    <keyword>methods</keyword>
+    <keyword>field methods</keyword>
+    <keyword>disturbance</keyword>
+    <keyword>forest disturbance</keyword>
+    <keyword>monitoring</keyword>
+    <keyword>soil</keyword>
+    <keyword>ecosystems</keyword>
+    <keyword>terrestrial ecosystems</keyword>
+    <keyword>forest ecosystems</keyword>
+    <keyword>forests</keyword>
+    <keyword>organisms</keyword>
+    <keyword>plants</keyword>
+    <keyword>trees</keyword>
+    <keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus>
+  </keywordSet>
+  <additionalInfo>
+    <para>
+      <literalLayout>The Plot Temperature data-set contains 15 minute interval data from 2006 thru 2012.   Data Qa/Qc has been performed on these files.   PJ day refers to days since start of project (i.e., 1/1/2006).   PJ Timestamp denotes/records each 15 minute interval entry from 1/1/2006.The treatment classes provided in the file are as follows; ambient control (1), drought (2), cover control (3), and irrigation (4).  The experiment used plot aspect as the blocking factor.   There are 3 different replicate blocks and block classifications designated in the files; flat aspect (1), north aspect (2), and south aspect (3).  This will be obvious when viewing the files.Detailed information on header columns for the SensorID, Tree_Name, Species, and Sensor_Location variables.   SensorID refers to the label given to each thermocouple probe (it is installed beneath a target tree or a bare inter-canopy location).   The tree name is an identifier that provides both the SensorID information and the location of probe as either a soil temperature or air temperature measurement.  Species indicates the cover type where the measurement was made; PIED, JUMO, or bare ground/intercanopy (INCA).   And the Sensor_Location simply indicates weather the reported value is a soil or air temperature value (in Celsius degrees).   Tree numbers are always grouped by species as follows (regardless of plot); Trees 1-5 are original Pinus edulis, Trees 6-10 are original Juniper monosperma.  B1 through B5 always designate an inter-canopy (i.e., bare) location.  Note, For the Tsoil and Tair data – there are no “replacement” trees.  All temperature measurements were made original target trees, i,e., the temperature probe installation positions/locations remained in their original locations regardless of any later tree death or mortality.Similar to the Sapflow-JS data, there may be differing tree labels (and sample sizes, i.e., n=3, n=4, or n=5) for each cover type in differing plots depending on; 1) the specific target trees under which measurements were made, and 2) the total number of target trees in a given plot under which thermocouples were installed (this varies from n=3 to n=5 per cover type for differing plots).    This will be obvious when you view the files for different plots.</literalLayout>
+    </para>
+  </additionalInfo>
+  <intellectualRights>
+    <section>
+      <title>Data Policies</title>
+      <para>
+        <literalLayout>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement of the Sevilleta LTER.  Datasets must be cited as in the example below.
+
+Muldavin, E. 2004. Sevilleta LTER Fertilizer NPP Study Dataset. Albuquerque, NM: Sevilleta Long Term Ecological Research Site Database: SEV155.  (Date of download)
+
+A copy of any publications using these data must be supplied to the Sevilleta LTER Information Manager.  
+ </literalLayout>
+      </para>
+    </section>
+  </intellectualRights>
+  <distribution>
+    <online>
+      <url function="information">http://sev.lternet.edu/node/6840</url>
+    </online>
+  </distribution>
+  <coverage>
+    <geographicCoverage>
+      <geographicDescription>Location: Site situated on the eastern flank of Los Pinos Mountains, approx. 3 miles south of NM state route 60, directly adjacent to the eastern boundary of the Sevillets USFWS National Refuge.  Landform: Located at the base of the eastern flank of the Los Pinos Mountains. Slope varies from 0-2% in experimental plots situated in level portions of the site, with steeper grades ranging from 6-18% for plots established on hill-slopes., Soils: Soil texture analysis across the site (both hill-slope and flat/level topography) revealed surface soils that are predominately silt loam with; (1) a transition to
+sandy loam texture at depth, and (2) a significant percentage of coarse fragments present both at the soil surface and throughout the profile. Soil depth across the site ranges from 20 to ≥ 100 cm, with shallower soil depths occurring on hill-slopes where depth to caliche and/or bed-rock is only 20-30 cm in some instances.
+, Hydrology: Well drained., Vegetation: The site is a piñon pine (Pinus edulis, Engelm.) and juniper (Juniperus monosperma (Engelm.) Sarg.) woodland, with several other commonly observed woody shrub species present, notably; Mahonia spp. (algerita), Falugia paradoxa (Apache plume), Quercus turbinella (shrub live oak), and Rhus spp. (sumac). Multiple species of cacti and agave (Cylindropuntia spp., Opuntia spp., and Yucca spp.) are present, along with numerous species of perennial grasses and forbs; including an extensive inter-canopy coverage by grasses of the genus Bouteloua.
+, Climate: Climate records (20-yr) from a nearby Sevilleta LTER meteorological station
+(Cerro Montoso #42; http://sev.lternet.edu/) indicate a mean annual precipitation total of 362.7 mm/yr. The region is strongly influenced by the North American Monsoon, with a large fraction of annual precipitation occurring in July, August, and September when monsoon circulation is active. Mean annual temperature (20-yr) at this nearby LTER site was 12.78 C, with a mean July maximum of 31.08 C and a mean December minimum of 3.38 C.
+, </geographicDescription>
+      <boundingCoordinates>
+        <westBoundingCoordinate>-106.5294</westBoundingCoordinate>
+        <eastBoundingCoordinate>-106.5294</eastBoundingCoordinate>
+        <northBoundingCoordinate>34.3864</northBoundingCoordinate>
+        <southBoundingCoordinate>34.3864</southBoundingCoordinate>
+        <boundingAltitudes>
+          <altitudeMinimum>1911</altitudeMinimum>
+          <altitudeMaximum>1911</altitudeMaximum>
+          <altitudeUnits>meter</altitudeUnits>
+        </boundingAltitudes>
+      </boundingCoordinates>
+    </geographicCoverage>
+    <temporalCoverage>
+      <rangeOfDates>
+        <beginDate>
+          <calendarDate>2006-01-01</calendarDate>
+        </beginDate>
+        <endDate>
+          <calendarDate>2012-12-31</calendarDate>
+        </endDate>
+      </rangeOfDates>
+    </temporalCoverage>
+  </coverage>
+  <contact>
+    <individualName>
+      <givenName>William</givenName>
+      <surName>Pockman</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Department of Biology, MSC03 2020, 1 University of New Mexico</deliveryPoint>
+      <city>Albuquerque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+    </address>
+    <electronicMailAddress>pockman@unm.edu</electronicMailAddress>
+    <userId directory="http://sev.lternet.edu/">12857</userId>
+  </contact>
+  <contact>
+    <individualName>
+      <givenName>Robert</givenName>
+      <surName>Pangle</surName>
+    </individualName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Dept. of Biology, Room 137, Castetter Hall, University of New Mexico</deliveryPoint>
+      <city>Albuquerque</city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+    </address>
+    <electronicMailAddress>robert.pangle@gmail.com</electronicMailAddress>
+  </contact>
+  <publisher>
+    <positionName>, </positionName>
+    <organizationName>SEV LTER</organizationName>
+    <address>
+      <deliveryPoint>Department of Biology, University of New Mexico</deliveryPoint>
+      <city>Albuquerque, NM  </city>
+      <administrativeArea>NM</administrativeArea>
+      <postalCode>87131</postalCode>
+      <country>United States</country>
+    </address>
+  </publisher>
+  <pubPlace>Sevilleta LTER</pubPlace>
+  <methods>
+    <methodStep>
+      <description>
+        <section>
+          <para>
+            <literalLayout>Site DescriptionIn total, our study site consisted of 12 experimental plots located in three replicate blocks that varied in slope % and aspect. Slope varied from 0-2% in experimental plots situated in level portions of the site, with steeper grades ranging from 6-18% for plots established on hill-slopes. Soil depth across the site ranged from 20 to ≥ 100 cm, with shallower soil depths occurring on hill-slopes where depth to caliche and/or bed-rock was only 20-30 cm in some instances.  The study utilized four different experimental treatments applied in three replicate blocks. The four experimental treatments included 1) un-manipulated, ambient control plots, 2) drought plots, 3) supplemental irrigation plots, and 4) cover-control plots that have a similar infrastructure to the drought plots, but remove no precipitation.  The three replicated blocks differed in their slope and aspect. One block of four plots was located on south facing slopes, one on north facing slopes, and one in a flat area of the landscape.   Experimental Treatment Design To effectively reduce water availability to trees, we installed treatments of sufficient size to minimize tree water uptake from outside of the plot. Thus, we constructed three replicated drought structures that were 40 m × 40 m (1600 m2). We targeted a 50% reduction in ambient precipitation through water removal troughs that covered ~50% of the land surface area. Drought plot infrastructure was positioned to insure that targeted Piñon pine and juniper were centrally located within each drought plot to provide the maximum distance between tree stems and the nearest plot boundary.  Each drought and cover-control plot consists of 27 parallel troughs running across the 40 m plot. Each trough was constructed with overlapping 3ft ×10 ft (0.91 m × 3.05 m) pieces of thermoplastic polymer sheets (Makloron SL Polycarbonate Sheet, Sheffield Plastics Inc, Sheffield, MA) fixed with self-tapping metal screws to horizontal rails that are approximately waist height and are supported by vertical posts every 2.5-3.5 m. The plastic sheets were bent into a concave shape to collect and divert the precipitation off of the plot. The bending and spacing of the plastic resulted in 0.81 m (32 in) troughs separated by 0.56 m (22 in) walkways.  Individual troughs often intersected the canopy of trees because of their height. The troughs were installed as close to the bole of the tree as possible without damaging branches in order to maximize the area covered by the plastic across the entire plot. An end-cap was attached to the downstream edge of the trough to prevent water from falling onto the base of the tree. The end-caps were 81 cm × 30 cm and made with the same plastic as the troughs. Each end-cap was fixed to the trough with a 75 cm piece of 20 gauge angle iron cut to match the curve of the bottom of the trough and held in place with self-tapping screws. The plastic junctures were then sealed with acrylic cement (Weld-On #3 epoxy, IPS Corp., Compton, CA). The middle of the end-cap was fitted with a 3 in (7.62 cm) PVC collar to allow water to flow through. A piece of 3 in (7.62 cm) PVC pipe or suction hose (used when the bole of a tree was directly below trough) was then attached to the downstream side of the end-cap, enabling water to flow into the trough on the other side of a tree. End-caps were also placed at the downhill end of the troughs on the edge of the plot and fitted with 90o fittings to divert water down into a 30 cm2 gutter (open on top) that ran perpendicular to the plot. Collected water was then channeled from the gutter into adjacent arroyos for drainage away from the study area.  We built cover-control infrastructures to investigate the impact of the plastic drought structures independent of changes in precipitation. This was necessary because of the high radiation environment in central New Mexico, in which the clear plastic troughs can effectively act as a greenhouse structure. The cover-control treatment had the same dimensions as the drought plots with one key difference. The plastic was attached to the rails in a convex orientation so precipitation would fall on top of the plastic and then drain directly down onto the plot. The cover-control plots were designed to receive the same amount of precipitation as un-manipulated ambient plots, with the precipitation falling and draining into the walkways between the rows of troughs. Cover-control plots were constructed between June-21-07 and July-24-07; drought plots were constructed between August-09-07 and August-27-07.  The total plastic coverage in each plot is 45% ± 1% of the 1600 m2 plot area due to the variable terrain and canopy cover. A direct test of the amount of precipitation excluded via the plastic troughs was performed over a 2-week period during the summer monsoon season of 2008. Two rainfall collection gutters (7.6 cm width, 6.1 m length) were installed in a perpendicular arrangement across four plastic drought structures and four intervening open walkways. One gutter was located below the troughs (~0.6 m above ground), and the other was located just above (~1.35 m) and offset, to determine the interception of rainfall by the troughs. Rainfall totals collected via the perpendicular gutters were measured using Series 525 tipping bucket rain gauges (Texas Electronics, Dallas, TX).  Our irrigation system consisted of above-canopy sprinkler nozzles configured to deliver supplemental rainstorm event(s) at a rate of 19 mm hr-1. Our irrigation system is a modified design of the above-canopy irrigation system outlined by Munster et al. (2006). Each of the three irrigation plots has three 2750 gal (10.41 m3) water storage tanks connected in parallel.  These tanks were filled with filtered reverse osmosis (RO) water brought to the site with multiple tractor-trailer trucks. During irrigation events, water is pumped from the tanks through a series of hoses that decrease from 7.62 cm (3 in) main lines out of the tank to 2.54 cm (1 in) hoses attached to 16 equally-spaced sprinklers within the plot. Each sprinkler is 6.1 m (20 ft) tall (2-3 m higher than mean tree height), and fitted with a sprinkler nozzle that creates an even circular distribution of water with a radius of 5 m on the ground. Due to the varying topography, sprinklers located downslope (if unregulated) would receive more pressure than those at the top of a hill and thus spray more water. To mitigate this problem, each sprinkler line was fitted with a pressure gauge and variable globe valve (inline water spigot with precise regulation) equidistant from the top of the sprinkler. Each sprinkler line was then set so that the pressure gauges were equal, thus ensuring equal distribution of water throughout the plot, regardless of elevational differences.  The irrigation systems were tested in October 2007 (2 mm supplemental), and full applications (19 mm) were applied in 2008 on 24-June, 15-July, and 26-August. During the 24-June event, we deployed six ~1 m2 circular trays across one of the irrigation plots to test the spatial variation of the wetting. Data from this test indicated that on average, collection trays received 19.5 (± 2.5) mm of water.  During subsequent years (2009-2012), a total of four to six irrigation  events (19mm each) were applied (please contact Will Pockman and/or  Robert Pangle for specific application dates and rates). Site Abiotic MonitoringWe utilized Campbell Scientific dataloggers to continuously monitor and record abiotic conditions and physiological measurements across the site.  All systems were connected to a solar-powered wireless network with NL100 relays (Campbell Scientific, Logan, UT).  Plots were instrumented with CR-1000, CR-7, and CR-10X dataloggers (Campbell Scientific, Logan, UT).  Each CR-1000 datalogger was accompanied by AM25T and AM 16/32 multiplexers to expand sensor measurement capacity (Campbell Scientific, Logan, UT). Abiotic conditions were measured under each cover type (n=3-5 locations per cover type): under piñon, juniper, and intercanopy areas between trees.  These measurements included; a) soil temperature (TS) at –5 cm depth and shielded air temperature (TA) at 10 cm (above soil surface), both measured with 24 gauge Type–T thermocouples (Omega, Stamford, CT), b) shallow soil volumetric water content (VWC) at –5 cm measured using EC-20 ECH2O probes (Decagon, Pullman, WA), and c) soil VWC at depth using EC-5 soil moisture probes (Decagon, Pullman, WA).  Soil VWC profiles had sensors installed at –15 cm, –20 cm, and as deep as possible (down to –100 cm, depending on soil conditions).</literalLayout>
+          </para>
+        </section>
+      </description>
+    </methodStep>
+    <qualityControl>
+      <description>
+        <para>
+          <literalLayout> Data processing and QA-QC were performed using either Matlab (The Mathworks, Inc.) or Microsoft Office 2010 Excel (Microsoft Corporation) software.  All raw and/or processed data traces were visually plotted and inspected for noisy, erroneous, or out of range data points or sensors traces.  All removed data points had a “NaN” value assigned.   Despite this QA-QC review and data cleaning, all data sets should still be evaluated for outliers, etc., as standard outlier statistical tests were not performed.</literalLayout>
+        </para>
+      </description>
+    </qualityControl>
+  </methods>
+</dataset>
+</eml:eml>

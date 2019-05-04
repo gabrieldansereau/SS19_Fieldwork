@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4003.3"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>SP027</alternateIdentifier>
+    <title>Willamette National Forest soil resource inventory (SRI 1992) clipped to the Andrews Experimental Forest</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Rosana</givenName>
+        <givenName>A.</givenName>
+        <surName>Costello</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Willamette National Forest Supervisor's Office;P.O. Box 10607</deliveryPoint>
+        <city>Eugene</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97440</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 225-6383</phone>
+      <electronicMailAddress>rcostello@fs.fed.us</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <pubDate>2005-06-17</pubDate>
+    <abstract>
+      <para>This layer contains the delineations of the soil landtype mapping units defined in the 1992 update to the SRI (Soil Resource Inventory)</para>
+      <para>The mapping units are derived and defined on the basis of  soil, landform, geology and vegetation characteristics.  The average delineation size for each mapping unit is 50 to 600 acres.  This data was originally mapped at the 1:24000 scale.  Due to the reconnaissance nature of this survey, it lacks detail for use in high-intensity, small-area projects.  These projects require additional on-site study by various technical specialists, including soil scientists.</para>
+      <para>The dominant landtype of the mapping unit is described in the mapping unit description and identified by the same number as used for the mapping unit. Within the mapping unit, other landtypes occur. Those most commonly associated with the dominant landtype of the mapping unit are included in the descriptions as inclusions. These inclusions of other landtypes account for no more than 30 percent of the mapping unit. (for further descriptions of mapping unit symbology see SOIL RESOURCE INVENTORY" Willamette National Forest, Basic Soil Information and Interpretive Tables </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Soil classification</keyword>
+      <keyword keywordType="theme">Soils</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=SP027&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Andrews Experimental Forest within the Willamette National Forest, western Cascades, Oregon, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.26054400</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.09967500</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.28211800</northBoundingCoordinate>
+          <southBoundingCoordinate>44.19785400</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1992-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1992-06-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>For use with the HJ Andrews GIS database. </para>
+      <para>Many symbols shown on the maps have three digits and are called "Mapping Unit Complexes." These are mapping units used in areas where two or more defined mapping units are present in an arrangement too complex to separate at the one-inch per mile scale. The Legend of Complexes indicates the mapping unit components of the complex and the approximate percentage of each component.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>GIS coverage creation date.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1992-01-06</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata files created in ARC/catalog as HTML format.  ARC/Info Export files, shape files, or other data file on ftp.fsl.orst.edu.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2004-11-03</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Upper level gis metadata (catalog, databases, entity, sub_entity, catalog_component, cross_reference, update_history) restructured and moved into SQLServer metadata database LTERMETA.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2005-06-17</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - SP027</para>
+          <para>Soil resource inventory, landtypes based on percentage of soil types present in a specific landform 9/5/1997 Costello Detroit soil type mapping was incorporated into the forestwide coverage 9/24/1997 Costello Item "soil_depth" was added. 12/2004 Data was clipped to the HJ Andrews Boundary from the Willamette National Forest Coverage. </para>
+          <para>
+Coverage was converted to a shapefile and projected to Nad83 Datum.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <spatialVector>
+      <alternateIdentifier>sp02701
+</alternateIdentifier>
+      <entityName>sp02701
+</entityName>
+      <entityDescription>This layer contains the delineations of the soil landtype mapping units defined in the 1992 update to the SRI (Soil Resource Inventory)</entityDescription>
+      <physical>
+        <objectName>sri</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file </formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/4003/3/588007d733508b17279d4182a1166314</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Soil resource inventory, landtypes based on percentage of soil types present in a specific landform 9/5/1997 Costello Detroit soil type mapping was incorporated into the forestwide coverage 9/24/1997 Costello </para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Data was clipped to the HJ Andrews Boundary from the Willamette National Forest Coverage.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Item "soil_depth" was added. 12/2004 </para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>coverage was converted to a shapefile and projected from NAD27 to NAD83</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AREA</attributeName>
+          <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Positive real numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PERIMETER</attributeName>
+          <attributeDefinition>Perimeter of feature in internal units.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Positive real numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SRI_</attributeName>
+          <attributeDefinition>internal unique number from coverage format.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SRI_ID</attributeName>
+          <attributeDefinition>user defined unique number from coverage format</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SRI_TYPE</attributeName>
+          <attributeDefinition>Soil resource inventory soil type
+
+</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Perpetual Snow, Ice, Rock Outcrop, and Talus</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Rock Outcrop, Andesites and Basalts</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>rock Outcrop, Volcanic Breccias and Tuffs</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Talus, Rock Outcrop, Avalance Chutes, and Low-Site Timber</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Recent Volcanic Lava Flows</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Cinder Cones</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Wet Non-Forest Land</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Dry Non-Forest Land</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Steep Dissected Landforms from Volcanic Breccias and Tuffs</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Steep Dissected Landfrom, from Andesites, Basalts and Breccias</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Other Soils</code>
+                    <definition>For All Other Soils see Soil Resource Inventory-Willamette National Forest Document.</definition>
+                    <source>Willamette NF Metadata</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TIMBERSUIT</attributeName>
+          <attributeDefinition>Suitability for timber production</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>su</code>
+                    <definition>Suited for timber production</definition>
+                    <source>Willamette National Forest documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>un</code>
+                    <definition>Unsuited for timber production</definition>
+                    <source>Willamette National Forest documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WHY_UN</attributeName>
+          <attributeDefinition>Why unsuited.  Unsuited &amp; unmanageable landtype occur in 2 basic categories: those that are unregenerable &amp; those where timber harvest will cause irreversible resource damage.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>rd</code>
+                    <definition>Regeneration difficulty - noncommercial forest land or non reforestable within 5 yrs.</definition>
+                    <source>Willamette NF metadata</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vu</code>
+                    <definition>Very unstable - landtypes where timber harvest will result in irreversible resource damage primarily because they are actively unstable or potentially highly unstable.</definition>
+                    <source>Willamette NF metadata</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SITE_CLASS</attributeName>
+          <attributeDefinition>Timber site class (productivity). Class limits correspond to height (site index) of Douglas fir at 100 yrs.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Class I -- greater than 185 S.I.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Class II -- 185 S.I. To 155 S.I.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Class III -- 155 S.I. To 125 S.I.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Class IV -- 125 S.I. To 95 S.I.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Class V -- less than 95 S.I.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>&gt;5</code>
+                    <definition>less productive than Class V </definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>STABILITY</attributeName>
+          <attributeDefinition>Natural stability.This rating is based on the relative stability of the soil mapping units as they occur in the natural state. It includes any movement or loss other than surface erosion; includes slumps, slides, and all kinds of deep-seated failures.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>Very stable: no evidence of failure</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I-II</code>
+                    <definition>Very stable - stable</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>II</code>
+                    <definition>Stable: Occasional failures are observed</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>II-III</code>
+                    <definition>Stable - moderately stable</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>III</code>
+                    <definition>Moderately stable: Several failures are observed</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>III-IV</code>
+                    <definition>Moderately stable - unstable</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IV</code>
+                    <definition>Unstable: Many failures are observed</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Very unstable: Entire area shows evidence of recent &amp; past failures</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EROSION</attributeName>
+          <attributeDefinition>Surface soil erosion potential. This rating is based on expected losses of surface soil when all vegetative cover is removed. Evaluations of climate, slope, gradient &amp; length, soil characteristics, hydrologic characteristics of the soil &amp; bedrock materials of each landtype unit are considered in making ratings.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>mod</code>
+                    <definition>moderate</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mod-sev</code>
+                    <definition>moderate - severe</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sev</code>
+                    <definition>severe</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sev-vs</code>
+                    <definition>severe - very severe</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sl</code>
+                    <definition>slight</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>sl-mod</code>
+                    <definition>slight - moderate</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SEDIMENT</attributeName>
+          <attributeDefinition>Silt &amp; clay sediment yield potential. Potential for water sedimentation antipollution from silt and clay particles carried in suspension following timber harvest, road construction, or other activities. Factors considered in making ratings are soil texture &amp; structure, drainage patterns, landform and climate.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>H</code>
+                    <definition>high</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>low</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L-M</code>
+                    <definition>Low - moderate</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Moderate</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M-H</code>
+                    <definition>Moderate - high</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WATERYIELD</attributeName>
+          <attributeDefinition>Water yield class. Indication of rate &amp; amount of water yield expected from each soil.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>I</code>
+                    <definition>Class I: High water detention storage capacity &amp; low rate of runoff.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I-II</code>
+                    <definition>Class I - II</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>I-III</code>
+                    <definition>Class I - III</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>II</code>
+                    <definition>Class II: Moderate water detention storage capacity &amp; moderate rate of runoff.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>II-III</code>
+                    <definition>Class II - III</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>III</code>
+                    <definition>Class III: Low water detention storage capacity &amp; high rate of runoff.</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOIL_DEPTH</attributeName>
+          <attributeDefinition>shallow soil types</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>Shallow</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SC</code>
+                    <definition>shallow complex</definition>
+                    <source>Willamette National Forest sri.pat documentation</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>104</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

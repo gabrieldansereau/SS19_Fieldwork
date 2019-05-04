@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-hfr.281.2" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF281">
+    <alternateIdentifier>HF281</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/10b8e12edf5a203d0598fd0d9d3ffda6</alternateIdentifier>
+    <title>Harvard Forest Summer Research Program in Ecology Alumni Survey since 2006</title>
+    <creator>
+      <individualName>
+        <givenName>Aaron</givenName>
+        <surName>Ellison</surName>
+      </individualName>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Manisha</givenName>
+        <surName>Patel</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>McDevitt</surName>
+      </individualName>
+      <role>Researcher</role>
+    </associatedParty>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <section>
+        <title>Program Context</title>
+        <para>Since its inception in 1985, when a single undergraduate worked on a study of old-growth forests, the Harvard Forest Summer Research Program in Ecology (HF-SRPE) has developed into a thriving and well-coordinated program that is central to the educational and research mission of the biological field station. With core support since 1993 from a succession of NSF REU Site awards and NSF REU supplements, and with additional funding from Harvard University, HF-SRPE has grown to support 20-30 undergraduate students annually.  Students are mentored by principle investigators and senior scientists in conducting research in ecology, soil science, paleoecology, wildlife biology, conservation biology, and atmospheric sciences.</para>
+        <para>	The research conducted by our HF-SRPE students contributes substantially to long-term scientific investigations supported by NSF’s Long-Term Ecological Research (LTER) and National Ecological Observatory Network (NEON), NASA Earth System Science Pathfinder (ESSP) – Earth Ventures (EV) programs, The Smithsonian Institution’s ForestGEO network of plots, and Department of Energy’s (DOE) National Institute for Global Environmental Change (NIGEC). The overarching objectives of the program are to: enhance the ability of students to undertake high-quality interdisciplinary research; build teams of researchers in which students bring different strengths to the table, collaborate on cutting-edge projects, and find their own intellectual “voice”; encourage students to link fundamental and applied issues in their research; and cultivate the next generation of ecological scientists and educators that reflects the diversity of backgrounds and experiences of students in the United States.</para>
+      </section>
+      <section>
+        <title>Problem Statement</title>
+        <para>Starting in 2005 the National Science Foundation (NSF), as one of the largest funders of undergraduate research programs, began emphasizing the use of project evaluations to both qualitatively and quantitatively measure the success of REU programs (Research Experiences for Undergraduates (REU) Supplements and Sites: Program Solicitation NSF 05-592, 2005). One objective of this initiative, reaffirmed by the America COMPETES Reauthorization Act of 2010, is to track the success and outcomes of REU participants. Section 514 of this Act requires that “student participants are tracked, for employment and continued matriculation in STEM fields, through receipt of the undergraduate degree and for at least 3 years thereafter”. Due to the long term mission of Harvard Forest and the HF-SRPE, we are actively tracking the success of participants for a minimum of 10 years following their participation in the program.</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>education</keyword>
+      <keyword>surveys</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public under Creative Commons license CC BY (Attribution). Please keep the designated contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf281</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Harvard Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-72.19</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.19</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.53</northBoundingCoordinate>
+          <southBoundingCoordinate>+42.53</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>340</altitudeMinimum>
+            <altitudeMaximum>340</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2006</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Homo</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>sapiens</taxonRankValue>
+            <commonName>human</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Aaron</givenName>
+        <surName>Ellison</surName>
+      </individualName>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <electronicMailAddress>aellison@fas.harvard.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>In 2012, we developed a simple 15 question survey to track where HF-SRPE alumni were in their academic and professional careers. The survey link was administered each fall through a regularly updated alumni email listing as well as on the private HF-SRPE Facebook page. All questions were optional and based upon their answers, participants were asked to skip to certain questions. In 2015, revisions were made to the survey to make the format more user friendly and to encourage more meaningful responses from participants. We also provided an easier mechanism to link participant’s confidential responses to other personal data (with their consent) collected about their summer program experience.</para>
+            <para>To ensure confidentiality of participant responses, all open-ended responses have been removed from this dataset.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf281-01">
+      <entityName>hf281-01-REU-survey-questions-since-2006.csv</entityName>
+      <entityDescription>REU survey questions, since 2006</entityDescription>
+      <physical id="1461763562773">
+        <objectName>hf281-01-REU-survey-questions-since-2006.csv</objectName>
+        <size unit="byte">10642</size>
+        <authentication method="MD5">fcf16b98b9609298fb0568cb2555e086</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/281/2/77fa11c1b34964849d9869c8f61a92e6</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1461763954021">
+          <attributeName>question.code</attributeName>
+          <attributeDefinition>question codes as they appear in data file
+      hf281-02-REU-survey-answers-since-2006.csv</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>question codes as they appear in data file
+          hf281-02-REU-survey-answers-since-2006.csv</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954036">
+          <attributeName>question.text</attributeName>
+          <attributeDefinition>survey questions that correspond to each
+      question.code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>survey questions that correspond to each question.code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954052">
+          <attributeName>question.type</attributeName>
+          <attributeDefinition>type of survey question</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of survey question</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954067">
+          <attributeName>data.type</attributeName>
+          <attributeDefinition>type of data generated by survey question</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>type of data generated by survey question</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954083">
+          <attributeName>code.0</attributeName>
+          <attributeDefinition>value for each survey question when answer=0</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=0</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954099">
+          <attributeName>code.1</attributeName>
+          <attributeDefinition>value for each survey question when answer=1</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954114">
+          <attributeName>code.2</attributeName>
+          <attributeDefinition>value for each survey question when answer=2</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=2</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954130">
+          <attributeName>code.3</attributeName>
+          <attributeDefinition>value for each survey question when answer=3</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=3</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954145">
+          <attributeName>code.4</attributeName>
+          <attributeDefinition>value for each survey question when answer=4</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=4</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954161">
+          <attributeName>code.5</attributeName>
+          <attributeDefinition>value for each survey question when answer=5</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=5</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954162">
+          <attributeName>code.6</attributeName>
+          <attributeDefinition>value for each survey question when answer=6</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=6</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954178">
+          <attributeName>code.7</attributeName>
+          <attributeDefinition>value for each survey question when answer=7</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>value for each survey question when answer=7</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954193">
+          <attributeName>notes.2015.update</attributeName>
+          <attributeDefinition>notes, 2015 update</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes, 2015 update</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461763954209">
+          <attributeName>notes.2012.2014</attributeName>
+          <attributeDefinition>notes, 2012-2014 surveys</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes, 2012-2014 surveys</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>37</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf281-02">
+      <entityName>hf281-02-REU-survey-answers-since-2006.csv</entityName>
+      <entityDescription>REU survey answers, since 2006</entityDescription>
+      <physical id="1461764002903">
+        <objectName>hf281-02-REU-survey-answers-since-2006.csv</objectName>
+        <size unit="byte">61929</size>
+        <authentication method="MD5">d59f54e52a4949ebb0fcfe4410a341c8</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/281/2/7bf3e74055b096eadd5ea42992d2cfc5</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1461765335698">
+          <attributeName>year</attributeName>
+          <attributeDefinition>HF-SRPE program year</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>HF-SRPE program year</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335713">
+          <attributeName>alum.q1</attributeName>
+          <attributeDefinition>I have read the information in this consent form. All my questions about
+      the research have been answered to my satisfaction.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>I do not consent to this study</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>I consent to this survey however I would not like my responses to be included
+           in the long-term study</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>I consent to this survey and to link my responses to the long-term research
+           study</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335729">
+          <attributeName>alum.q4</attributeName>
+          <attributeDefinition>What year did you participate in the Summer Program?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What year did you participate in the Summer Program?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335745">
+          <attributeName>alum.q5</attributeName>
+          <attributeDefinition>Have you completed your undergraduate degree?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Have you completed your undergraduate degree?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335760">
+          <attributeName>alum.q6</attributeName>
+          <attributeDefinition>Where are you in your undergraduate studies?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Freshman</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Sophomore</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Junior</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Senior</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>5th year senior</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>I am taking a break from my undergraduate studies</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>I do not plan on returning to my undergraduate studies</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335776">
+          <attributeName>alum.q7</attributeName>
+          <attributeDefinition>What year do you anticipate graduating college?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What year do you anticipate graduating college?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335791">
+          <attributeName>alum.q8</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your
+      current short term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335807">
+          <attributeName>alum.q9</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your long
+      term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>Neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335823">
+          <attributeName>alum.q11</attributeName>
+          <attributeDefinition>What year did you graduate college?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What year did you graduate college?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335838">
+          <attributeName>alum.q12</attributeName>
+          <attributeDefinition>What degree did you receive?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What degree did you receive?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335854">
+          <attributeName>alum.q13</attributeName>
+          <attributeDefinition>From what department did you receive your [undergraduate]
+      degree?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>From what department did you receive your [undergraduate] degree?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335869">
+          <attributeName>alum.q14</attributeName>
+          <attributeDefinition>Are you currently attending or have you completed graduate
+      school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Are you currently attending or have you completed graduate school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335870">
+          <attributeName>alum.q15</attributeName>
+          <attributeDefinition>Opting out of Undergrad Education questions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Opting out of Undergrad Education questions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335886">
+          <attributeName>alum.q16</attributeName>
+          <attributeDefinition>Are you currently attending or have you completed graduate
+      school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Are you currently attending or have you completed graduate school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1461765335902">
+          <attributeName>alum.q17</attributeName>
+          <attributeDefinition>What year do you anticipate graduating graduate
+      school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What year do you anticipate graduating graduate school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335917">
+          <attributeName>alum.q18</attributeName>
+          <attributeDefinition>What degree(s) are you pursuing or have you earned in graduate
+      school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What degree(s) are you pursuing or have you earned in graduate
+          school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335933">
+          <attributeName>alum.q19</attributeName>
+          <attributeDefinition>From what department will you receive your degree?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>From what department will you receive your degree?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335948">
+          <attributeName>alum.q20</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your
+      current short term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335964">
+          <attributeName>alum.q21</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your long
+      term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335980">
+          <attributeName>alum.q22</attributeName>
+          <attributeDefinition>Outside of traditional graduate school revenue sources (e.g. teaching
+      assistantships, research assistantships, fellowships) are you currently
+      employed?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Outside of traditional graduate school revenue sources (e.g. teaching
+          assistantships, research assistantships, fellowships) are you currently
+          employed?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765335995">
+          <attributeName>alum.q23</attributeName>
+          <attributeDefinition>What year did you graduate graduate school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What year did you graduate graduate school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336011">
+          <attributeName>alum.q24</attributeName>
+          <attributeDefinition>What degree(s) did you earned in graduate school?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What degree(s) did you earned in graduate school?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336026">
+          <attributeName>alum.q25</attributeName>
+          <attributeDefinition>From what department did you receive your degree?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>From what department did you receive your degree?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336042">
+          <attributeName>alum.q26</attributeName>
+          <attributeDefinition>Are you currently employed?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Are you currently employed?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336058">
+          <attributeName>alum.q27</attributeName>
+          <attributeDefinition>Opting out of Graduate Education questions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Opting out of Graduate Education questions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336073">
+          <attributeName>alum.q28</attributeName>
+          <attributeDefinition>Are you currently employed?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Are you currently employed?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336089">
+          <attributeName>alum.q29</attributeName>
+          <attributeDefinition>In which sector are you employed?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>In which sector are you employed?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336104">
+          <attributeName>alum.q31</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your
+      current short term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336120">
+          <attributeName>alum.q32</attributeName>
+          <attributeDefinition>How important was the Harvard Forest Summer Program in shaping your long
+      term career goals?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Not Applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Low importance</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Slightly important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>neutral</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>Moderately important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>Extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336136">
+          <attributeName>alum.q33</attributeName>
+          <attributeDefinition>Do you use your ecology/environmental background in your
+      job?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Do you use your ecology/environmental background in your job?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1461765336151">
+          <attributeName>alum.q34</attributeName>
+          <attributeDefinition>Opting out of Employment questions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Opting out of Employment questions</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>499</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>ongoing</status>
+        <researchTopic>historical</researchTopic>
+        <studyType>long-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+  <additionalMetadata>
+    <metadata>
+      <additionalLinks>
+        <url name="Harvard Forest Summer Research Program in Ecology Pre/Post Survey 2006-2015">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf279</url>
+        <url name="Harvard Forest Summer Research Program in Ecology URSSA Survey since 2006">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf280</url>
+      </additionalLinks>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,2495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-hfr.173.4" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=HFR,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="HF173">
+    <alternateIdentifier>HF173</alternateIdentifier>
+    <title>Role of Personal Connections in Shaping Decisions About Private Forest Use in Central Massachusetts 2008</title>
+    <creator>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Kittredge</surName>
+      </individualName>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Rickenbach</surName>
+      </individualName>
+    </creator>
+    <pubDate>2011</pubDate>
+    <abstract>
+      <section>
+        <para>We begin with a simple premise: Social and ecological systems are interconnected in complex ways. Forests are, perhaps, one of the most intriguing examples of this interconnectedness--particularly those in private ownerships. Forested landscapes are essential in maintaining human systems through the provision of multiple ecosystem services that span public (e.g., clean water, nutrient cycling) and private (e.g., fiber, maple syrup, home sites) goods. However, the majority of forestland in the Eastern United States is a mosaic of small landholdings (less than 20 ha) where property management is largely uncoordinated. On such landscapes, decentralized, ownership-centric decision-making defines the mix of ecosystem services provided and the landscape patterns present now and in the future. While somewhat effective for less spatially sensitive ecosystem services (e.g., fiber production), this ownership-centric approach is ill suited to spatially sensitive ones (e.g., water quality) and may, in some cases, be detrimental to them (e.g., habitat fragmentation). Improving the ecological and landscape sensitivity of private forest conservation and management is a major challenge facing researchers, practitioners, and policymakers in sustaining forest ecosystems.</para>
+        <para>Central to unraveling this challenge is a fundamental understanding of how landowners simultaneously fit within their social and bio-physical landscapes. Despite their importance to broader forest sustainability, our collectively understanding of forest landowners has been primarily concerned with individual landowners and/or individual properties. For example, most research surrounding private forest landowners centers on primarily agent-based theories of behavior or decision-making (e.g., rational actor, theory of planned behavior). This perspective is useful in predicting and effecting behavior at broad scales, but lacks the specificity needed to address local landscape concerns and/or opportunities. Other studies  have begun to unpack the social and ecological connections at landscape scales to provide useful insights and suggestions, but often take case study and/or qualitative approaches and do not adequately separate confounding contextual drivers (e.g., threat of regulation) that make application to other settings with different contexts difficult.</para>
+        <para>The purpose of this exploratory study is to formally investigate the social networks of private landowners and the connection of those networks to the bio-physical landscape. Our work will specifically consider the networks of information sources and the specific role played by resource professionals in key land management decisions (i.e., harvest timber from, place conservation easement on the land) that can fundamentally alter/preserve landscape patterns.  Our specific objective is to characterize and compare the egocentric networks that inform landowner decision-making related to two land management decisions, and assess relative satisfaction with the outcomes of those decisions.</para>
+        <para>Landowners can acquire (directly or indirectly, through publications or other media) information about forests from "experts", "peers", or a combination of both. Experts would include those with professional training (e.g., foresters, ecologists, land trust staff, etc.,) or equivalent experience (e.g., loggers). In many cases, landowners may pay experts to carry out portions of the forest management practice. However, experts are not always directly employed by the landowner, but are instead employed by others to work with them (e.g., foresters employed by public agencies or sawmills, land trust staff). Peers usually do not have equivalent training, but may (or may not) be knowledgeable on aspects salient to the decision. Experts and peers are important sources of information in decision-making and this is true in the private landowner context (see e.g., Sisock 2007; West et al 1988).</para>
+        <para>In evaluating experts and peers, past research has shown that decision-makers may consider and weigh several dimensions of the source including expertise, homophily, accessibility, information quality, trust, and cost (e.g., Borgatti and Cross 2003; Rogers 2003; Cross and Sproul 2004; Levin and Cross 2004). With experts, additional concerns may arise from oversight challenges described in agency theory due to asymmetric information and/or misaligned objectives (e.g., Eisenhardt 1989).  Recent studies (e.g., Rickenbach et al 2005; Gass et al, In review) indicate that landowners face some agency concerns in dealing with professional foresters. And, some perspectives perceive that landowners "underutilize" experts in decision-making regarding their property (Butler and Leatherberry 2004).</para>
+      </section>
+    </abstract>
+    <keywordSet>
+      <keyword>conservation</keyword>
+      <keyword>humans</keyword>
+      <keyword>management</keyword>
+      <keyword>timber harvest</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>disturbance</keyword>
+      <keywordThesaurus>LTER core area</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>Harvard Forest</keyword>
+      <keyword>HFR</keyword>
+      <keyword>LTER</keyword>
+      <keyword>USA</keyword>
+      <keywordThesaurus>HFR default</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <para>This dataset is released to the public and may be freely downloaded. Please keep the designated Contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement. For more information on LTER Network data access and use policies, please see: http://www.lternet.edu/data/netpolicy.html.</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://harvardforest.fas.harvard.edu:8080/exist/xquery/data.xq?id=hf173</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Central Massachusetts</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-71.92306</westBoundingCoordinate>
+          <eastBoundingCoordinate>-72.47918</eastBoundingCoordinate>
+          <northBoundingCoordinate>+42.72851</northBoundingCoordinate>
+          <southBoundingCoordinate>+42.30162</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>50</altitudeMinimum>
+            <altitudeMaximum>400</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-06-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2008-08-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>genus</taxonRankName>
+          <taxonRankValue>Homo</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>species</taxonRankName>
+            <taxonRankValue>sapiens</taxonRankValue>
+            <commonName>human</commonName>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>David</givenName>
+        <surName>Kittredge</surName>
+      </individualName>
+      <organizationName>University of Massachusetts</organizationName>
+      <address>
+        <deliveryPoint>Dept. of Forestry and Wildlife Management</deliveryPoint>
+        <deliveryPoint>Holdsworth Natural Resources Center</deliveryPoint>
+        <city>Amherst</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01003</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(413) 545-2943</phone>
+      <electronicMailAddress>dbk@forwild.umass.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Harvard Forest</organizationName>
+      <address>
+        <deliveryPoint>324 North Main Street</deliveryPoint>
+        <city>Petersham</city>
+        <administrativeArea>MA</administrativeArea>
+        <postalCode>01366</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(978) 724-3302</phone>
+      <phone phonetype="fax">(978) 724-3595</phone>
+      <onlineUrl>http://harvardforest.fas.harvard.edu</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Finding People</title>
+            <para>In order to develop a list of people that had timber harvested from their land  in the last (2) years, the state Forest Practice Act (Massachusetts General Laws chapter 132) approved Forest Cutting Plans  for 18 towns in the North Quabbin study area were accessed. Those towns were Athol, Orange, New Salem, Petersham, Royalston, Phillipston, Montague, Northfield, Hubbardston, Shutesbury,  Erving, Templeton, Winchendon, Wendell, Warwick, Hardwick, Barre and Pelham. For each name of a woodland owner, an address and phone number were found, using  the phone book or websites such as anywho.com. To get a list of people who had recently done conservation restrictions, we accessed the registry of deeds online for the counties in which the towns of interest fell. As with the timber sale subjects, the addresses and phone numbers were found. Next, using a random sequence generator, we chose 20 people from each list to send letters to in the first wave. If the person selected did not have an address, we moved on to the next person in the sequence, until we had 20 people. We then sent out a letter to the selected people explaining our project. After about three days, we contacted the people by phone and, if they were interested, scheduled an interview time with them. If we did not have a phone number for them, we sent the letter regardless, with the hope that perhaps they would contact us. If the person was known to be a forester or logger, they were not contacted.</para>
+            <para>In soliciting participation, 47 letters were originally sent to people that have completed a conservation restriction and 75 to people that have done a timber sale on their land. We phoned 35 people from the CR list, and 55 people from the timber sale list. If we did not have their phone number, we did not call them. If we had an address and no phone number, we still sent a letter.</para>
+          </section>
+          <section>
+            <title>Interviews</title>
+            <para>The interviews generally took about 30 minutes. One person would ask the questions, while the other recorded the answers. After the interview, the interviewee was assigned a number, and thus when their data were entered into the computer, it was referred to solely by that number thereby ensuring anonymity of each interview subject. The worksheet with the names and corresponding numbers was kept separate from the data. If we interviewed a couple, the procedure changed slightly. Their answers were recorded separately, either on separate scripts or using different notations. Generally, they brainstormed a list of alters (i.e., contacts in the social network) together. Then, if many of their answers had been different, they filled out the contact response forms separately. If however, most of their answers had been the same or agreed upon, they filled out the contact response forms jointly. When the data were entered, couples were entered with the same identification number, distinguished with a letter, for example, 7a and 7b. If the interviewee was unwilling to provide alters or fill out contact response forms, yet it was evident that alters did exist, the interview data were discarded. If the timber sale or CR had not actually been completed, the interview was also discarded. We used NA when there was no data for that question.</para>
+            <para>Interviews elicited data on information sources through a series of "name generator" questions being sensitive to the potential pitfalls of this technique (Marsden 2005). Interview participants were given a blank piece of paper and asked to write down the names of people who might have a relationship to them in the context of their woodlands, and were prompted with these questions: Who do you talk to about your land? Who do you get information or help from? Did anyone talk to you about your land? Was there anyone that was involved in or influenced the decision or process of the timber sale/easement? Did you talk to anyone or did anyone talk to you about the timber sale/easement? Participants were then asked to indicate on their list of people those that were either involved in the timber sale / easement, assisted them with an understanding of completing the timber sale/easement, or otherwise influenced how they approached the timber sale/easement; hereafter termed "influentials".  It was stressed that involvement may not be limited to knowledge or actual effort. It could reflect someone’s “moral support” or assistance in helping them "think through" the process. It could also be technical advice from a resource professional, or an important suggestion they received from a neighbor or a friend. 
+As part of the interview process, participants quantitatively evaluated each influential's expertise, similarity of opinions and attitudes, contribution to the decision, and other basic background information (e.g.,  peer/expert status, how they were acquainted, where they live/work). Interviewees were also asked to provide an overall assessment of the particular decision (e.g., positive/negative outcome, fit with expectations) and basic personal demographic information.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <dataTable id="hf173-01">
+      <entityName>hf173-01-ease-interview.csv</entityName>
+      <entityDescription>easement interview</entityDescription>
+      <physical id="1323716699570">
+        <objectName>hf173-01-ease-interview.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/14dcb040a33259c37773d9452ad483ca</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1323722174898">
+          <attributeName>Code</attributeName>
+          <attributeDefinition>code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722204179">
+          <attributeName>Gender</attributeName>
+          <attributeDefinition>gender</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>male</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722239491">
+          <attributeName>Year of land</attributeName>
+          <attributeDefinition>what year did you acquire your land?</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722279445">
+          <attributeName>Acquire</attributeName>
+          <attributeDefinition>how did you acquire your land?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>inherit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>purchase</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722312304">
+          <attributeName>Acres</attributeName>
+          <attributeDefinition>how amny acres?</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323718288976">
+          <attributeName>Acres on CR</attributeName>
+          <attributeDefinition>number of acres on the CR</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323718288991">
+          <attributeName>Current home site</attributeName>
+          <attributeDefinition>reason for owning land: current home site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289007">
+          <attributeName>Income</attributeName>
+          <attributeDefinition>reason for owning land: income</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289023">
+          <attributeName>Recreation</attributeName>
+          <attributeDefinition>reason for owning land: recreation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289038">
+          <attributeName>Legacy</attributeName>
+          <attributeDefinition>reason for owning land: legacy</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289054">
+          <attributeName>Protect wildlife</attributeName>
+          <attributeDefinition>reason for owning land: protect wildlife</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289070">
+          <attributeName>Protect enviro</attributeName>
+          <attributeDefinition>reason for owning land: protect environment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289085">
+          <attributeName>Enjoy scenery</attributeName>
+          <attributeDefinition>reason for owning land: enjoy scenery</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289101">
+          <attributeName>Other</attributeName>
+          <attributeDefinition>reason for owning land:</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>reason for owning land: other</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289116">
+          <attributeName>Birth year</attributeName>
+          <attributeDefinition>birth year</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323718289132">
+          <attributeName>Distance</attributeName>
+          <attributeDefinition>how far from land/harvest do you live</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>on or beside</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>0-10 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>11-25 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>26-50 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>51-100 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>more than 100 miles away</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289148">
+          <attributeName>Time on land</attributeName>
+          <attributeDefinition>how often do you spend time in your woodlands?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>once or more/week</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>once or twice/month</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>once or twice/3 months</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>once or twice/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>less than once/year</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289163">
+          <attributeName>School</attributeName>
+          <attributeDefinition>highest level of schooling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>grade 11 or less</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>diploma or GED</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>some college</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>college grad</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>grad or professional school</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289179">
+          <attributeName>Income</attributeName>
+          <attributeDefinition>total household income in 2007</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>less than 25K</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>25k-49999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>50k-74999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>75k-99999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>100k-149999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>150k or more</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289195">
+          <attributeName>Profession</attributeName>
+          <attributeDefinition>what is/was primary profession</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>what is/was primary profession</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289210">
+          <attributeName>Retired</attributeName>
+          <attributeDefinition>retired?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289226">
+          <attributeName>Circumstances</attributeName>
+          <attributeDefinition>circumstances</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>circumstances</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289241">
+          <attributeName>Management plan</attributeName>
+          <attributeDefinition>was there a written management plan at time of sale?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>don't know</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289257">
+          <attributeName>Financially</attributeName>
+          <attributeDefinition>rate easement outcome: financially (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate easement outcome: financially (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289273">
+          <attributeName>Ecologically</attributeName>
+          <attributeDefinition>rate easement outcome: ecologically (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate easement outcome: ecologically (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289288">
+          <attributeName>Effort</attributeName>
+          <attributeDefinition>rate easement outcome: effort (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate easement outcome: effort (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289304">
+          <attributeName>Recommend</attributeName>
+          <attributeDefinition>rate easement outcome: recommend (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate easement outcome: recommend (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289320">
+          <attributeName>Overall</attributeName>
+          <attributeDefinition>rate easement outcome: overall (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate easement outcome: overall (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289335">
+          <attributeName>Difficulty</attributeName>
+          <attributeDefinition>describe the process: difficulty (range -3 to 3, where -3 is difficult and 3 is easy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>describe the process: difficulty (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289351">
+          <attributeName>Negative</attributeName>
+          <attributeDefinition>describe the process: negative (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>describe the process: negative (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289366">
+          <attributeName>Over again</attributeName>
+          <attributeDefinition>over again?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>exactly the same</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>mostly the same</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>differently (explanation)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>not again (explanation)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323718289382">
+          <attributeName>Alters</attributeName>
+          <attributeDefinition>number of alters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323718289398">
+          <attributeName>VIP</attributeName>
+          <attributeDefinition>number of VIPs</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323718289413">
+          <attributeName>Dummy</attributeName>
+          <attributeDefinition>VIP professionals</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>all professionals</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>professionals and other (friend, neighbor, family..)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>25</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf173-02">
+      <entityName>hf173-02-ease-influentials.csv</entityName>
+      <entityDescription>easement interview influentials</entityDescription>
+      <physical id="1323721924820">
+        <objectName>hf173-02-ease-influentials.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/5d4e5d19075965d9de994b45b15b16d3</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1323722875382">
+          <attributeName>Code</attributeName>
+          <attributeDefinition>code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875398">
+          <attributeName>Related to</attributeName>
+          <attributeDefinition>related to</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>related to</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875413">
+          <attributeName>Expertise</attributeName>
+          <attributeDefinition>contribution to decision: expertise  (range -3 to 3, where -3 is low and 3 is high)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: expertise  (range -3 to 3, where -3 is low and 3 is high)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875429">
+          <attributeName>Trust</attributeName>
+          <attributeDefinition>contribution to decision: trust  (range -3 to 3, where -3 is untrustworthy and 3 is trustworthy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: trust  (range -3 to 3, where -3 is untrustworthy and 3 is trustworthy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875445">
+          <attributeName>Accessibility</attributeName>
+          <attributeDefinition>contribution to decision: accessibility (range -3 to 3, where -3 is difficult and 3 is easy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: accessibility (range -3 to 3, where -3 is difficult and 3 is easy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875460">
+          <attributeName>Info quality</attributeName>
+          <attributeDefinition>contribution to decision: info quality (range -3 to 3, where -3 is useless and 3 is useful)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: info quality (range -3 to 3, where -3 is useless and 3 is useful)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875476">
+          <attributeName>Overall</attributeName>
+          <attributeDefinition>contribution to decision: overall (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: overall (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875491">
+          <attributeName>Similarity</attributeName>
+          <attributeDefinition>similarity (range -3 to 3, where -3 is dissimilar and 3 is similar)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>similarity (range -3 to 3, where -3 is dissimilar and 3 is similar)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875507">
+          <attributeName>Payment</attributeName>
+          <attributeDefinition>payment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875523">
+          <attributeName>Relative</attributeName>
+          <attributeDefinition>relative</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875538">
+          <attributeName>Close friend</attributeName>
+          <attributeDefinition>close friend</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875554">
+          <attributeName>Frequency</attributeName>
+          <attributeDefinition>frequency of contact</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>once or more/week</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>once or twice/month</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>once or twice/ 3 months</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>once or twice/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>less than once/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>contact only during process</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875570">
+          <attributeName>Own forestland</attributeName>
+          <attributeDefinition>own forestland</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875585">
+          <attributeName>Neighbor</attributeName>
+          <attributeDefinition>neighbor</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875601">
+          <attributeName>Local</attributeName>
+          <attributeDefinition>local</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875616">
+          <attributeName>Forester</attributeName>
+          <attributeDefinition>forester</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875632">
+          <attributeName>Logger</attributeName>
+          <attributeDefinition>logger</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323722875648">
+          <attributeName>Role in Easement</attributeName>
+          <attributeDefinition>role in easement</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>role in easement</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>40</numberOfRecords>
+    </dataTable>
+    <otherEntity id="hf173-03">
+      <entityName>hf173-03-ease-notes.txt</entityName>
+      <entityDescription>easement interview narrative notes</entityDescription>
+      <physical>
+        <objectName>hf173-03-ease-notes.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/669d9d3ceb1ec556426aee136178804b</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text file</entityType>
+    </otherEntity>
+    <otherEntity id="hf173-04">
+      <entityName>hf173-04-ease-script.pdf</entityName>
+      <entityDescription>easement interview script</entityDescription>
+      <physical>
+        <objectName>hf173-04-ease-script.pdf</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/76e7de3dc66567aaf07b3d4f56d26fdc</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf</entityType>
+    </otherEntity>
+    <dataTable id="hf173-05">
+      <entityName>hf173-05-timber-interview.csv</entityName>
+      <entityDescription>timber sale interview</entityDescription>
+      <physical id="1323786284734">
+        <objectName>hf173-05-timber-interview.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/f812be717976d2a6b77d97ab6f942eb2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1323790733609">
+          <attributeName>Code</attributeName>
+          <attributeDefinition>code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733625">
+          <attributeName>Gender</attributeName>
+          <attributeDefinition>gender</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>male</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733641">
+          <attributeName>Year of land</attributeName>
+          <attributeDefinition>what year did you acquire your land?</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790733656">
+          <attributeName>Acquire</attributeName>
+          <attributeDefinition>how did you acquire your land?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>inherit</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>purchase</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>other</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733672">
+          <attributeName>Acres</attributeName>
+          <attributeDefinition>how many acres?</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790733687">
+          <attributeName>Harvest acres</attributeName>
+          <attributeDefinition>how many acres is on the TS?</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>acre</standardUnit>
+              </unit>
+              <precision>0.1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790733703">
+          <attributeName>Current home site</attributeName>
+          <attributeDefinition>reasons for owning land: current home site</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733719">
+          <attributeName>Income</attributeName>
+          <attributeDefinition>reasons for owning land: income</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733734">
+          <attributeName>Recreation</attributeName>
+          <attributeDefinition>reasons for owning land: recreation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733750">
+          <attributeName>Legacy</attributeName>
+          <attributeDefinition>reasons for owning land: legacy</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733766">
+          <attributeName>Protect wildlife</attributeName>
+          <attributeDefinition>reasons for owning land: protect wildlife</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733781">
+          <attributeName>Protect enviro</attributeName>
+          <attributeDefinition>reasons for owning land: protect environment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733797">
+          <attributeName>Enjoy scenery</attributeName>
+          <attributeDefinition>reasons for owning land: enjoy scenery</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>not at all important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>somewhat important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>very important</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>extremely important</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733812">
+          <attributeName>Other</attributeName>
+          <attributeDefinition>reasons for owning land: other</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>reasons for owning land: other</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733828">
+          <attributeName>Birth year</attributeName>
+          <attributeDefinition>what year were you born?</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790733844">
+          <attributeName>Distance</attributeName>
+          <attributeDefinition>how far from land/harvest do you live?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>on or beside</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>0-10 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>11-25 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>26-50 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>51-100 miles away</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>more than 100 miles away</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733859">
+          <attributeName>Time on land</attributeName>
+          <attributeDefinition>how often do you spend time in your woodlands?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>once or more/week</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>once or twice/month</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>once or twice/3 months</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>once or twice/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>less than once/year</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733875">
+          <attributeName>School</attributeName>
+          <attributeDefinition>highest level of schooling?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>grade 11 or less</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>diploma or GED</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>some college</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>college grad</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>grad or professional school</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733891">
+          <attributeName>Income</attributeName>
+          <attributeDefinition>total household income in 2007?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>less than 25K</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>25k-49999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>50k-74999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>75k-99999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>100k-149999</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>150k or more</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733906">
+          <attributeName>Profession</attributeName>
+          <attributeDefinition>what is/was primary profession?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>what is/was primary profession?</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733922">
+          <attributeName>Retired</attributeName>
+          <attributeDefinition>retired?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733937">
+          <attributeName>Circumstances</attributeName>
+          <attributeDefinition>circumstances</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>circumstances</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733953">
+          <attributeName>Management plan</attributeName>
+          <attributeDefinition>was there a written management plan at time of sale?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>I don't know</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733969">
+          <attributeName>Timber sale contract</attributeName>
+          <attributeDefinition>was there a written signed timber sale contract?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790733984">
+          <attributeName>Timber sale before</attributeName>
+          <attributeDefinition>have you had a harvest before this one?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734000">
+          <attributeName>Contract Signed</attributeName>
+          <attributeDefinition>who signed the timber sale contract?</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>NA</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734016">
+          <attributeName>Financially</attributeName>
+          <attributeDefinition>rate timber sale outcome: financially (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate timber sale outcome: financially (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734031">
+          <attributeName>Ecologically</attributeName>
+          <attributeDefinition>rate timber sale outcome: ecologically (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate timber sale outcome: ecologically (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734047">
+          <attributeName>Effort</attributeName>
+          <attributeDefinition>rate timber sale outcome: effort (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate timber sale outcome: effort (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734062">
+          <attributeName>Recommend</attributeName>
+          <attributeDefinition>rate timber sale outcome: recommend (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate timber sale outcome: recommend (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734078">
+          <attributeName>Overall</attributeName>
+          <attributeDefinition>rate timber sale outcome: overall (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>rate timber sale outcome: overall (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734094">
+          <attributeName>Difficulty</attributeName>
+          <attributeDefinition>describe the process: difficulty (range: -3 to 3. where -3 is difficult and 3 is easy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>describe the process: difficulty (range: -3 to 3. where -3 is difficult and 3 is easy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734109">
+          <attributeName>Negative</attributeName>
+          <attributeDefinition>describe the process: negative (range: -3 to 3. where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>describe the process: negative (range: -3 to 3. where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734125">
+          <attributeName>Over again</attributeName>
+          <attributeDefinition>over agian</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>exactly the same</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>mostly the same</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>differently (explanation)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>not again (explanation)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323790734141">
+          <attributeName>Alters</attributeName>
+          <attributeDefinition>number of alters</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790734156">
+          <attributeName>VIP</attributeName>
+          <attributeDefinition>number of VIPs</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1323790734172">
+          <attributeName>Dummy</attributeName>
+          <attributeDefinition>VIP professionals</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>all professionals</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>professionals and other (friend, neighbor, family..)</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>17</numberOfRecords>
+    </dataTable>
+    <dataTable id="hf173-06">
+      <entityName>hf173-06-timber-influentials.csv</entityName>
+      <entityDescription>timber sale influentials</entityDescription>
+      <physical id="1323792205344">
+        <objectName>hf173-06-timber-influentials.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/4e5512a2930d43fe72ed352e9bc0c062</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1323792570266">
+          <attributeName>Code</attributeName>
+          <attributeDefinition>code</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570281">
+          <attributeName>Related to</attributeName>
+          <attributeDefinition>related to</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>related to</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570297">
+          <attributeName>Expertise</attributeName>
+          <attributeDefinition>contribution to decision: expertise (range -3 to 3, where -3 is low and 3 is high)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: expertise (range -3 to 3, where -3 is low and 3 is high)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570312">
+          <attributeName>Trust</attributeName>
+          <attributeDefinition>contribution to decision: trust (range -3 to 3, where -3 is untrustworthy and 3 is trustworthy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: trust (range -3 to 3, where -3 is untrustworthy and 3 is trustworthy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570328">
+          <attributeName>Accessibility</attributeName>
+          <attributeDefinition>contribution to decision: accessibility (range -3 to 3, where -3 is difficult and 3 is easy)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: accessibility (range -3 to 3, where -3 is difficult and 3 is easy)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570344">
+          <attributeName>Info quality</attributeName>
+          <attributeDefinition>contribution to decision: info quality (range -3 to 3, where -3 is useless and 3 is useful)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: info quality (range -3 to 3, where -3 is useless and 3 is useful)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570359">
+          <attributeName>Overall</attributeName>
+          <attributeDefinition>contribution to decision: overall (range -3 to 3, where -3 is negative and 3 is positive)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>contribution to decision: overall (range -3 to 3, where -3 is negative and 3 is positive)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570375">
+          <attributeName>Similarity</attributeName>
+          <attributeDefinition>similarity (range -3 to 3, where -3 is dissimilar and 3 is similar)</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>similarity (range -3 to 3, where -3 is dissimilar and 3 is similar)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570391">
+          <attributeName>Payment</attributeName>
+          <attributeDefinition>payment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570406">
+          <attributeName>Relative</attributeName>
+          <attributeDefinition>relative</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570422">
+          <attributeName>Close friend</attributeName>
+          <attributeDefinition>close friend</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570437">
+          <attributeName>Frequency</attributeName>
+          <attributeDefinition>frequency of contact</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>once or more/week</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>once or twice/month</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>once or twice/ 3 months</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>once or twice/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>less than once/year</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>contact only during process</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570453">
+          <attributeName>Own forestland</attributeName>
+          <attributeDefinition>own forestland</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+                <textDomain>
+                  <definition>Free text (unrestricted)</definition>
+                  <pattern>.*</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570469">
+          <attributeName>Neighbor</attributeName>
+          <attributeDefinition>neighbor</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570484">
+          <attributeName>Local</attributeName>
+          <attributeDefinition>local</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570500">
+          <attributeName>Forester</attributeName>
+          <attributeDefinition>forester</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570516">
+          <attributeName>Logger</attributeName>
+          <attributeDefinition>logger</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>no</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1323792570531">
+          <attributeName>Role in Easement</attributeName>
+          <attributeDefinition>role in TS</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>role in TS</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>30</numberOfRecords>
+    </dataTable>
+    <otherEntity id="hf173-07">
+      <entityName>hf173-07-timber-notes.txt</entityName>
+      <entityDescription>timber sale interview narrative notes</entityDescription>
+      <physical>
+        <objectName>hf173-07-timber-notes.txt</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text file</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/367be1f78d84d56fea32705c0c6d8a7f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text file</entityType>
+    </otherEntity>
+    <otherEntity id="hf173-08">
+      <entityName>hf173-08-timber-script.pdf</entityName>
+      <entityDescription>timber sale interview script</entityDescription>
+      <physical>
+        <objectName>hf173-08-timber-script.pdf</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>pdf</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-hfr/173/4/df32e49b94657499a24fc35b73266a09</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>pdf</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalClassifications>
+        <status>completed</status>
+        <researchTopic>conservation</researchTopic>
+        <studyType>short-term measurement</studyType>
+      </additionalClassifications>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

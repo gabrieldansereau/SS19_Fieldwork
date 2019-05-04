@@ -7,7 +7,7 @@ library(tidyverse)
 cn <- CNode("PROD")
 mn <- getMNode(cn, "urn:node:KNB")
 (qy <- dataone::query(cn, list(
-  rows = "40", 
+  rows = "10000", 
   q    = "title:forest", #keyword
   fq   = "wildlife", #filter keyword
   fl   = ""), 
@@ -31,23 +31,64 @@ checksum <- qy[,"checksum"]
 # download all the files at once! 
 walk2(dataUrl, checksum, ~ curl::curl_download(url = .x, destfile = paste0("xml/", .y, ".xml")))
 
-eml_take_two <- qy_1 %>% 
-  as_tibble %>% 
-  mutate(metadata = map(id, ~ getObject(mn, .x)))
 
-parsed_eml <- eml_take_two %>% 
-  select(id, metadata) %>% 
-  mutate(doc = map(metadata, ~ .x %>%
-                     rawToChar %>%
-                     xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
-                     xmlRoot %>% 
-                     xmlToList))
+# for (i in 1:length(dir(path = "xml/", full.names = TRUE))) {
+#   dir(path = "xml/", full.names = TRUE)[i] %>% 
+#     set_names(., basename(.)) %>% 
+#           read_file_raw() %>% 
+#           rawToChar %>%
+#           xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
+#           xmlRoot %>% 
+#           xmlToList
+# }
+# file.remove(dir(path = "xml/", full.names = TRUE)[i])
+parsed_files <- dir(path = "xml/", full.names = TRUE) %>% 
+  set_names(., basename(.)) %>% 
+  map(~.x %>% 
+        read_file_raw() %>% 
+        rawToChar %>%
+        xmlTreeParse(asText=TRUE, trim = TRUE, ignoreBlanks = TRUE) %>% 
+        xmlRoot %>% 
+        xmlToList)
 
-parsed_data <- parsed_eml %>% 
-  mutate(from_contact = map(doc, pluck, "dataset", "contact", "address"),
-         from_creator = map(doc, pluck, "dataset", "creator", "address")) %>%
-  mutate(df_contact = map(from_contact, safely(flatten_df)))
+parsed_files <- parsed_files %>% tibble::enframe()
 
+
+mc <- partial(map_chr, .default = NA_character_)
+
+parsed_data <- parsed_files %>% 
+  mutate(city_contact = mc(value, pluck, "dataset", "contact", "address", "city"),
+         country_contact = mc(value, pluck, "dataset", "contact", "address", "country"),
+         city_creator = mc(value, pluck, "dataset", "creator", "address", "city"),
+         country_creator = mc(value, pluck, "dataset", "creator", "address", "country"),
+         deliveryPoint_creator = mc(value, pluck, "dataset", "creator", "address", "deliveryPoint"),
+         # keyword = mc(value, pluck, "dataset", "keywordSet", "keyword"),
+         west = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "westBoundingCoordinate"),
+         east = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "eastBoundingCoordinate"),
+         north = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "northBoundingCoordinate"),
+         south = mc(value, pluck, "dataset", "coverage", "geographicCoverage", "boundingCoordinates", "southBoundingCoordinate")) 
+  # unnest(city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
+         # west, east, north, south) %>% 
+  # select(name, city_contact, country_contact, city_creator, country_creator, deliveryPoint_creator,
+         # keyword, west, east, north, south)
+  # mutate(df_contact = map(from_contact, safely(flatten_df))) %>% 
+  # mutate(df_creator = map(from_creator, safely(flatten_df)))
+
+parsed_data %>% 
+  select(-value) %>% 
+  write_csv("data/data1.csv")
+
+data <- parsed_data %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  mutate(df_result = map(df_contact, "result")) %>% 
+  filter(!map_lgl(df_result, is_null)) %>% 
+  select(name, df_result) %>% 
+  unnest(df_result) %>% 
+  select(name, city, country)
 
 ### GetObject version
 # qy_1 <- slice(qy, grep("^https", id, invert = TRUE)) #if we need to eliminate some id who doesn't work

@@ -1,0 +1,3936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3178.9"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>DF007</alternateIdentifier>
+    <title>Dendrochronology study of fire history, Andrews Experimental Forest and central western Cascades, Oregon, 1482-1952</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>D. Adrian</givenName>
+        <surName>Teensma</surName>
+      </individualName>
+      <address/>
+      <phone/>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Frederick</givenName>
+        <givenName>J.</givenName>
+        <surName>Swanson</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7355</phone>
+      <electronicMailAddress>fred.swanson@oregonstate.edu</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>D. Adrian</givenName>
+        <surName>Teensma</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Peter</givenName>
+        <givenName>J.</givenName>
+        <surName>Weisberg</surName>
+      </individualName>
+      <address>
+        <city>Reno</city>
+        <administrativeArea>NV</administrativeArea>
+        <country>USA</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>pweisberg@cabnr.unr.edu</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2016-06-20</pubDate>
+    <abstract>
+      <para>Fire history is documented for an 11,000 hectare (27,110 acre) area in the western Oregon Cascades , including H. J. Andrews Experimental Forest. Fire scar and tree origin data were collected mainly from stumps at 359 sites. Thirty-five fire events are mapped from 1482 to 1952. Mean fire return intervals are derived from data at individual sites, about 5 hectares in size, rather than from the corrected master fire chronology.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Dendrochronology</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Fire</keyword>
+      <keyword keywordType="theme">Fire history</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>This data is published in:
+Fire History and Fire Regimes of the Central Western Cascades of Oregon
+by Peter Dominic Adrian Teensma
+A Dissertation, Department of Geography, University of Oregon, PhD, August 1987</para>
+      <para>
+        <emphasis>Related Publications</emphasis>
+      </para>
+      <para>Teensma, Peter Dominic Adrian. 1987. Fire history and fire regimes of the central western Cascades of Oregon. Eugene, OR: University of Oregon. 188 p. Ph.D. dissertation.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=DF007&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Central western Oregon Cascades (McKenzie River Watershed)</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.31685300</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.03133400</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.39708900</northBoundingCoordinate>
+          <southBoundingCoordinate>44.19854100</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>472</altitudeMinimum>
+            <altitudeMaximum>1540</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1984-01-10</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1987-08-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>To describe the historical fire regime of the study area. To compare fire frequencies over different historical periods. To test whether fire regimes vary spatially according to landscape or topographic controls.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Original metadata creation.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1995-08-21</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Much of the raw data was never directly recovered from Peter Teensma, and what there is comes directly from his thesis.  GIS files representing this work have been developed. - DH 9/15/95</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>1995-09-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata restructured and moved into SQLServer metadata database LTERMETA. Data moved into SQLServer database FSDBDATA.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2002-03-18</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Minor revisions before posting to PASTA: attributes are renamed with more descriptive names, sites are changed from numeric sequence to place_keyword-based domain, DF020 database reference added, citation added</changeScope>
+        <oldValue>Version8</oldValue>
+        <changeDate>2016-06-17</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Entity 2 added: Corrected master fire chronology</changeScope>
+        <oldValue>Version9</oldValue>
+        <changeDate>2016-06-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Donald</givenName>
+        <givenName>L.</givenName>
+        <surName>Henshaw</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service Research;Pacific Northwest (PNW) Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7335</phone>
+      <electronicMailAddress>don.henshaw@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>dhenshaw@fs.fed.us</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - DF007</para>
+          <para>Tree origin dates and fire scar dates were recorded on stumps in the field. Increment cores were collected and used for trees in intact stands.  A master fire chronology was constructed where the presence of seral tree species regeneration or fire scars for each fire year is listed for each site.  Each fire episode was then mapped.  Fire frequency was determined, and compared according to elevation, aspect, physiographic unit and cultural period.  ANOVA and multiple comparisons tests were used for these comparisons.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para/>
+            <para>Sampling frequency: once only</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>An average of 6.5 (range: 1 - 23) stumps or trees were sampled (for origin dates, scar dates) over 359 sample sites, 30 of which lie just outside the study area.  Study sites were selected to represent the range of stand age-class patches as interpreted from 1:12,000 aerial photograpy, and to include the boundaries between these patches.  Since, most sites are located in clearcuts, the distribution of clearcuts strongly influenced the distribution of sample sites.  Within sites, trees or stumps were sampled to include all age- classes present, to include the oldest individual present, and to include a maximal number of fire scars.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Experimental Forest (HJA)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.26172200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.10084700</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28196400</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19770400</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1631</altitudeMinimum>
+                <altitudeMaximum>1631</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Peter Teensma study sites</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.31685300</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.03133400</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.39708900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19854100</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1540</altitudeMinimum>
+                <altitudeMaximum>1540</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="DF00701">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>DF00701</entityName>
+      <entityDescription>Fire history and fire regimes: </entityDescription>
+      <physical>
+        <objectName>DF00701_v4.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3178/9/a949c7815206f7b9fac7365654259d6c</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1984-01-10</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1987-08-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="DF00701.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DF007</code>
+                    <definition>FSDB database code DF007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Teensma site codes</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>TEENSMA001</code>
+                    <definition>Teensma site number 001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA002</code>
+                    <definition>Teensma site number 002</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA003</code>
+                    <definition>Teensma site number 003</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA004</code>
+                    <definition>Teensma site number 004</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA005</code>
+                    <definition>Teensma site number 005</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA006</code>
+                    <definition>Teensma site number 006</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA007</code>
+                    <definition>Teensma site number 007</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA008</code>
+                    <definition>Teensma site number 008</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA009</code>
+                    <definition>Teensma site number 009</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA010</code>
+                    <definition>Teensma site number 010</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA011</code>
+                    <definition>Teensma site number 011</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA012</code>
+                    <definition>Teensma site number 012</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA013</code>
+                    <definition>Teensma site number 013</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA014</code>
+                    <definition>Teensma site number 014</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA015</code>
+                    <definition>Teensma site number 015</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA016</code>
+                    <definition>Teensma site number 016</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA017</code>
+                    <definition>Teensma site number 017</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA018</code>
+                    <definition>Teensma site number 018</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA028</code>
+                    <definition>Teensma site number 028</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA030</code>
+                    <definition>Teensma site number 030</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA031</code>
+                    <definition>Teensma site number 031</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA032</code>
+                    <definition>Teensma site number 032</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA033</code>
+                    <definition>Teensma site number 033</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA035</code>
+                    <definition>Teensma site number 035</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA036</code>
+                    <definition>Teensma site number 036</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA037</code>
+                    <definition>Teensma site number 037</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA041</code>
+                    <definition>Teensma site number 041</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA045</code>
+                    <definition>Teensma site number 045</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA046</code>
+                    <definition>Teensma site number 046</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA047</code>
+                    <definition>Teensma site number 047</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA048</code>
+                    <definition>Teensma site number 048</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA049</code>
+                    <definition>Teensma site number 049</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA050</code>
+                    <definition>Teensma site number 050</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA051</code>
+                    <definition>Teensma site number 051</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA052</code>
+                    <definition>Teensma site number 052</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA053</code>
+                    <definition>Teensma site number 053</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA054</code>
+                    <definition>Teensma site number 054</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA055</code>
+                    <definition>Teensma site number 055</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA056</code>
+                    <definition>Teensma site number 056</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA057</code>
+                    <definition>Teensma site number 057</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA058</code>
+                    <definition>Teensma site number 058</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA059</code>
+                    <definition>Teensma site number 059</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA060</code>
+                    <definition>Teensma site number 060</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA061</code>
+                    <definition>Teensma site number 061</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA062</code>
+                    <definition>Teensma site number 062</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA063</code>
+                    <definition>Teensma site number 063</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA064</code>
+                    <definition>Teensma site number 064</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA065</code>
+                    <definition>Teensma site number 065</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA066</code>
+                    <definition>Teensma site number 066</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA067</code>
+                    <definition>Teensma site number 067</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA068</code>
+                    <definition>Teensma site number 068</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA069</code>
+                    <definition>Teensma site number 069</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA070</code>
+                    <definition>Teensma site number 070</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA071</code>
+                    <definition>Teensma site number 071</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA072</code>
+                    <definition>Teensma site number 072</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA073</code>
+                    <definition>Teensma site number 073</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA074</code>
+                    <definition>Teensma site number 074</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA075</code>
+                    <definition>Teensma site number 075</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA076</code>
+                    <definition>Teensma site number 076</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA077</code>
+                    <definition>Teensma site number 077</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA078</code>
+                    <definition>Teensma site number 078</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA079</code>
+                    <definition>Teensma site number 079</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA080</code>
+                    <definition>Teensma site number 080</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA081</code>
+                    <definition>Teensma site number 081</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA082</code>
+                    <definition>Teensma site number 082</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA083</code>
+                    <definition>Teensma site number 083</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA084</code>
+                    <definition>Teensma site number 084</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA085</code>
+                    <definition>Teensma site number 085</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA086</code>
+                    <definition>Teensma site number 086</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA087</code>
+                    <definition>Teensma site number 087</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA088</code>
+                    <definition>Teensma site number 088</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA089</code>
+                    <definition>Teensma site number 089</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA090</code>
+                    <definition>Teensma site number 090</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA091</code>
+                    <definition>Teensma site number 091</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA093</code>
+                    <definition>Teensma site number 093</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA094</code>
+                    <definition>Teensma site number 094</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA095</code>
+                    <definition>Teensma site number 095</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA096</code>
+                    <definition>Teensma site number 096</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA097</code>
+                    <definition>Teensma site number 097</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA098</code>
+                    <definition>Teensma site number 098</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA099</code>
+                    <definition>Teensma site number 099</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA100</code>
+                    <definition>Teensma site number 100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA101</code>
+                    <definition>Teensma site number 101</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA102</code>
+                    <definition>Teensma site number 102</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA103</code>
+                    <definition>Teensma site number 103</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA104</code>
+                    <definition>Teensma site number 104</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA105</code>
+                    <definition>Teensma site number 105</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA106</code>
+                    <definition>Teensma site number 106</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA107</code>
+                    <definition>Teensma site number 107</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA108</code>
+                    <definition>Teensma site number 108</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA109</code>
+                    <definition>Teensma site number 109</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA110</code>
+                    <definition>Teensma site number 110</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA111</code>
+                    <definition>Teensma site number 111</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA112</code>
+                    <definition>Teensma site number 112</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA113</code>
+                    <definition>Teensma site number 113</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA114</code>
+                    <definition>Teensma site number 114</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA115</code>
+                    <definition>Teensma site number 115</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA116</code>
+                    <definition>Teensma site number 116</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA117</code>
+                    <definition>Teensma site number 117</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA118</code>
+                    <definition>Teensma site number 118</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA119</code>
+                    <definition>Teensma site number 119</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA121</code>
+                    <definition>Teensma site number 121</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA123</code>
+                    <definition>Teensma site number 123</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA124</code>
+                    <definition>Teensma site number 124</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA125</code>
+                    <definition>Teensma site number 125</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA126</code>
+                    <definition>Teensma site number 126</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA127</code>
+                    <definition>Teensma site number 127</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA128</code>
+                    <definition>Teensma site number 128</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA129</code>
+                    <definition>Teensma site number 129</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA130</code>
+                    <definition>Teensma site number 130</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA131</code>
+                    <definition>Teensma site number 131</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA132</code>
+                    <definition>Teensma site number 132</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA133</code>
+                    <definition>Teensma site number 133</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA134</code>
+                    <definition>Teensma site number 134</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA135</code>
+                    <definition>Teensma site number 135</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA136</code>
+                    <definition>Teensma site number 136</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA137</code>
+                    <definition>Teensma site number 137</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA138</code>
+                    <definition>Teensma site number 138</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA139</code>
+                    <definition>Teensma site number 139</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA140</code>
+                    <definition>Teensma site number 140</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA141</code>
+                    <definition>Teensma site number 141</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA142</code>
+                    <definition>Teensma site number 142</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA143</code>
+                    <definition>Teensma site number 143</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA144</code>
+                    <definition>Teensma site number 144</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA145</code>
+                    <definition>Teensma site number 145</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA146</code>
+                    <definition>Teensma site number 146</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA147</code>
+                    <definition>Teensma site number 147</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA148</code>
+                    <definition>Teensma site number 148</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA149</code>
+                    <definition>Teensma site number 149</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA150</code>
+                    <definition>Teensma site number 150</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA151</code>
+                    <definition>Teensma site number 151</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA152</code>
+                    <definition>Teensma site number 152</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA153</code>
+                    <definition>Teensma site number 153</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA154</code>
+                    <definition>Teensma site number 154</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA155</code>
+                    <definition>Teensma site number 155</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA156</code>
+                    <definition>Teensma site number 156</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA157</code>
+                    <definition>Teensma site number 157</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA158</code>
+                    <definition>Teensma site number 158</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA159</code>
+                    <definition>Teensma site number 159</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA160</code>
+                    <definition>Teensma site number 160</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA161</code>
+                    <definition>Teensma site number 161</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA162</code>
+                    <definition>Teensma site number 162</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA163</code>
+                    <definition>Teensma site number 163</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA164</code>
+                    <definition>Teensma site number 164</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA165</code>
+                    <definition>Teensma site number 165</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA166</code>
+                    <definition>Teensma site number 166</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA167</code>
+                    <definition>Teensma site number 167</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA168</code>
+                    <definition>Teensma site number 168</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA169</code>
+                    <definition>Teensma site number 169</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA170</code>
+                    <definition>Teensma site number 170</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA171</code>
+                    <definition>Teensma site number 171</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA172</code>
+                    <definition>Teensma site number 172</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA173</code>
+                    <definition>Teensma site number 173</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA174</code>
+                    <definition>Teensma site number 174</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA175</code>
+                    <definition>Teensma site number 175</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA176</code>
+                    <definition>Teensma site number 176</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA177</code>
+                    <definition>Teensma site number 177</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA178</code>
+                    <definition>Teensma site number 178</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA179</code>
+                    <definition>Teensma site number 179</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA180</code>
+                    <definition>Teensma site number 180</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA181</code>
+                    <definition>Teensma site number 181</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA182</code>
+                    <definition>Teensma site number 182</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA183</code>
+                    <definition>Teensma site number 183</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA184</code>
+                    <definition>Teensma site number 184</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA185</code>
+                    <definition>Teensma site number 185</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA186</code>
+                    <definition>Teensma site number 186</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA187</code>
+                    <definition>Teensma site number 187</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA188</code>
+                    <definition>Teensma site number 188</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA189</code>
+                    <definition>Teensma site number 189</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA190</code>
+                    <definition>Teensma site number 190</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA191</code>
+                    <definition>Teensma site number 191</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA192</code>
+                    <definition>Teensma site number 192</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA193</code>
+                    <definition>Teensma site number 193</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA194</code>
+                    <definition>Teensma site number 194</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA195</code>
+                    <definition>Teensma site number 195</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA196</code>
+                    <definition>Teensma site number 196</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA197</code>
+                    <definition>Teensma site number 197</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA206</code>
+                    <definition>Teensma site number 206</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA207</code>
+                    <definition>Teensma site number 207</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA208</code>
+                    <definition>Teensma site number 208</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA209</code>
+                    <definition>Teensma site number 209</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA210</code>
+                    <definition>Teensma site number 210</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA211</code>
+                    <definition>Teensma site number 211</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA212</code>
+                    <definition>Teensma site number 212</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA213</code>
+                    <definition>Teensma site number 213</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA214</code>
+                    <definition>Teensma site number 214</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA215</code>
+                    <definition>Teensma site number 215</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA216</code>
+                    <definition>Teensma site number 216</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA217</code>
+                    <definition>Teensma site number 217</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA218</code>
+                    <definition>Teensma site number 218</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA219</code>
+                    <definition>Teensma site number 219</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA220</code>
+                    <definition>Teensma site number 220</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA221</code>
+                    <definition>Teensma site number 221</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA222</code>
+                    <definition>Teensma site number 222</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA223</code>
+                    <definition>Teensma site number 223</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA224</code>
+                    <definition>Teensma site number 224</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA225</code>
+                    <definition>Teensma site number 225</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA226</code>
+                    <definition>Teensma site number 226</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA227</code>
+                    <definition>Teensma site number 227</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA228</code>
+                    <definition>Teensma site number 228</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA229</code>
+                    <definition>Teensma site number 229</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA230</code>
+                    <definition>Teensma site number 230</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA231</code>
+                    <definition>Teensma site number 231</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA232</code>
+                    <definition>Teensma site number 232</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA233</code>
+                    <definition>Teensma site number 233</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA234</code>
+                    <definition>Teensma site number 234</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA236</code>
+                    <definition>Teensma site number 236</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA237</code>
+                    <definition>Teensma site number 237</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA238</code>
+                    <definition>Teensma site number 238</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA239</code>
+                    <definition>Teensma site number 239</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA240</code>
+                    <definition>Teensma site number 240</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA241</code>
+                    <definition>Teensma site number 241</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA246</code>
+                    <definition>Teensma site number 246</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA247</code>
+                    <definition>Teensma site number 247</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA384</code>
+                    <definition>Teensma site number 384</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA412</code>
+                    <definition>Teensma site number 412</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA413</code>
+                    <definition>Teensma site number 413</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA416</code>
+                    <definition>Teensma site number 416</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA417</code>
+                    <definition>Teensma site number 417</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA418</code>
+                    <definition>Teensma site number 418</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA420</code>
+                    <definition>Teensma site number 420</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA423</code>
+                    <definition>Teensma site number 423</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA424</code>
+                    <definition>Teensma site number 424</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA425</code>
+                    <definition>Teensma site number 425</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA426</code>
+                    <definition>Teensma site number 426</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA427</code>
+                    <definition>Teensma site number 427</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA428</code>
+                    <definition>Teensma site number 428</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA429</code>
+                    <definition>Teensma site number 429</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA430</code>
+                    <definition>Teensma site number 430</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA431</code>
+                    <definition>Teensma site number 431</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA432</code>
+                    <definition>Teensma site number 432</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA434</code>
+                    <definition>Teensma site number 434</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA435</code>
+                    <definition>Teensma site number 435</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA436</code>
+                    <definition>Teensma site number 436</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA437</code>
+                    <definition>Teensma site number 437</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA438</code>
+                    <definition>Teensma site number 438</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA439</code>
+                    <definition>Teensma site number 439</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA440</code>
+                    <definition>Teensma site number 440</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA441</code>
+                    <definition>Teensma site number 441</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA442</code>
+                    <definition>Teensma site number 442</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA443</code>
+                    <definition>Teensma site number 443</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA444</code>
+                    <definition>Teensma site number 444</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA445</code>
+                    <definition>Teensma site number 445</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA446</code>
+                    <definition>Teensma site number 446</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA447</code>
+                    <definition>Teensma site number 447</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA448</code>
+                    <definition>Teensma site number 448</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA449</code>
+                    <definition>Teensma site number 449</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA450</code>
+                    <definition>Teensma site number 450</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA451</code>
+                    <definition>Teensma site number 451</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA452</code>
+                    <definition>Teensma site number 452</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA453</code>
+                    <definition>Teensma site number 453</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA454</code>
+                    <definition>Teensma site number 454</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA455</code>
+                    <definition>Teensma site number 455</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA456</code>
+                    <definition>Teensma site number 456</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA457</code>
+                    <definition>Teensma site number 457</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA458</code>
+                    <definition>Teensma site number 458</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA459</code>
+                    <definition>Teensma site number 459</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA460</code>
+                    <definition>Teensma site number 460</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA481</code>
+                    <definition>Teensma site number 481</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA482</code>
+                    <definition>Teensma site number 482</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA483</code>
+                    <definition>Teensma site number 483</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA491</code>
+                    <definition>Teensma site number 491</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA497</code>
+                    <definition>Teensma site number 497</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA499</code>
+                    <definition>Teensma site number 499</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA500</code>
+                    <definition>Teensma site number 500</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA503</code>
+                    <definition>Teensma site number 503</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA504</code>
+                    <definition>Teensma site number 504</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA505</code>
+                    <definition>Teensma site number 505</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA506</code>
+                    <definition>Teensma site number 506</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA507</code>
+                    <definition>Teensma site number 507</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA508</code>
+                    <definition>Teensma site number 508</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA509</code>
+                    <definition>Teensma site number 509</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA510</code>
+                    <definition>Teensma site number 510</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA512</code>
+                    <definition>Teensma site number 512</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA513</code>
+                    <definition>Teensma site number 513</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA514</code>
+                    <definition>Teensma site number 514</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA515</code>
+                    <definition>Teensma site number 515</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA516</code>
+                    <definition>Teensma site number 516</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA517</code>
+                    <definition>Teensma site number 517</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA518</code>
+                    <definition>Teensma site number 518</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA519</code>
+                    <definition>Teensma site number 519</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA521</code>
+                    <definition>Teensma site number 521</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA523</code>
+                    <definition>Teensma site number 523</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA525</code>
+                    <definition>Teensma site number 525</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA527</code>
+                    <definition>Teensma site number 527</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA528</code>
+                    <definition>Teensma site number 528</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA529</code>
+                    <definition>Teensma site number 529</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA530</code>
+                    <definition>Teensma site number 530</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA531</code>
+                    <definition>Teensma site number 531</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA532</code>
+                    <definition>Teensma site number 532</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA534</code>
+                    <definition>Teensma site number 534</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA535</code>
+                    <definition>Teensma site number 535</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA536</code>
+                    <definition>Teensma site number 536</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA537</code>
+                    <definition>Teensma site number 537</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA538</code>
+                    <definition>Teensma site number 538</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA539</code>
+                    <definition>Teensma site number 539</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA540</code>
+                    <definition>Teensma site number 540</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA541</code>
+                    <definition>Teensma site number 541</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA542</code>
+                    <definition>Teensma site number 542</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA543</code>
+                    <definition>Teensma site number 543</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA544</code>
+                    <definition>Teensma site number 544</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA545</code>
+                    <definition>Teensma site number 545</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA546</code>
+                    <definition>Teensma site number 546</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA547</code>
+                    <definition>Teensma site number 547</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA548</code>
+                    <definition>Teensma site number 548</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA549</code>
+                    <definition>Teensma site number 549</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA550</code>
+                    <definition>Teensma site number 550</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA551</code>
+                    <definition>Teensma site number 551</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA552</code>
+                    <definition>Teensma site number 552</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA553</code>
+                    <definition>Teensma site number 553</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA555</code>
+                    <definition>Teensma site number 555</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA556</code>
+                    <definition>Teensma site number 556</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA557</code>
+                    <definition>Teensma site number 557</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA558</code>
+                    <definition>Teensma site number 558</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA559</code>
+                    <definition>Teensma site number 559</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA560</code>
+                    <definition>Teensma site number 560</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA561</code>
+                    <definition>Teensma site number 561</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA562</code>
+                    <definition>Teensma site number 562</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA563</code>
+                    <definition>Teensma site number 563</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA564</code>
+                    <definition>Teensma site number 564</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA565</code>
+                    <definition>Teensma site number 565</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA566</code>
+                    <definition>Teensma site number 566</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA567</code>
+                    <definition>Teensma site number 567</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA568</code>
+                    <definition>Teensma site number 568</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA571</code>
+                    <definition>Teensma site number 571</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA572</code>
+                    <definition>Teensma site number 572</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA573</code>
+                    <definition>Teensma site number 573</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA574</code>
+                    <definition>Teensma site number 574</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA575</code>
+                    <definition>Teensma site number 575</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA034</code>
+                    <definition>Teensma site number 034</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA038</code>
+                    <definition>Teensma site number 038</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA039</code>
+                    <definition>Teensma site number 039</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA040</code>
+                    <definition>Teensma site number 040</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA042</code>
+                    <definition>Teensma site number 042</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA242</code>
+                    <definition>Teensma site number 242</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA329</code>
+                    <definition>Teensma site number 329</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA330</code>
+                    <definition>Teensma site number 330</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA331</code>
+                    <definition>Teensma site number 331</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA340</code>
+                    <definition>Teensma site number 340</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA382</code>
+                    <definition>Teensma site number 382</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA383</code>
+                    <definition>Teensma site number 383</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA411</code>
+                    <definition>Teensma site number 411</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA414</code>
+                    <definition>Teensma site number 414</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA415</code>
+                    <definition>Teensma site number 415</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA461</code>
+                    <definition>Teensma site number 461</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA462</code>
+                    <definition>Teensma site number 462</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA463</code>
+                    <definition>Teensma site number 463</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA468</code>
+                    <definition>Teensma site number 468</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA469</code>
+                    <definition>Teensma site number 469</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA470</code>
+                    <definition>Teensma site number 470</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA471</code>
+                    <definition>Teensma site number 471</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA473</code>
+                    <definition>Teensma site number 473</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA474</code>
+                    <definition>Teensma site number 474</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA475</code>
+                    <definition>Teensma site number 475</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA477</code>
+                    <definition>Teensma site number 477</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA479</code>
+                    <definition>Teensma site number 479</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA484</code>
+                    <definition>Teensma site number 484</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA489</code>
+                    <definition>Teensma site number 489</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA569</code>
+                    <definition>Teensma site number 569</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.SITE_NUMBER">
+          <attributeName>SITE_NUMBER</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">575.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.ELEVATION">
+          <attributeName>ELEVATION</attributeName>
+          <attributeDefinition>Elevation</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1550.0000</minimum>
+                  <maximum exclusive="false">5050.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.ASPECT">
+          <attributeName>ASPECT</attributeName>
+          <attributeDefinition>General aspect</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>B</code>
+                    <definition>Valley bottom</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>E</code>
+                    <definition>East</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>North</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NE</code>
+                    <definition>Northeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NW</code>
+                    <definition>Northwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>R</code>
+                    <definition>Ridgetop</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>S</code>
+                    <definition>South</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SE</code>
+                    <definition>Southeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SW</code>
+                    <definition>Southwest</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>W</code>
+                    <definition>West</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.FIRE_COUNT">
+          <attributeName>FIRE_COUNT</attributeName>
+          <attributeDefinition>Number of fires recorded</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">15.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.AGE_CLASS_COUNT">
+          <attributeName>AGE_CLASS_COUNT</attributeName>
+          <attributeDefinition>Number of age-classes</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">8.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.UNDERBURN_COUNT">
+          <attributeName>UNDERBURN_COUNT</attributeName>
+          <attributeDefinition>Number of recorded underburns</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">11.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.RETURN_INT_COMP">
+          <attributeName>RETURN_INT_COMP</attributeName>
+          <attributeDefinition>Composite mean fire return interval</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.0000</minimum>
+                  <maximum exclusive="false">428.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.RETURN_INT_STAND">
+          <attributeName>RETURN_INT_STAND</attributeName>
+          <attributeDefinition>Stand (or partial stand) replacement mean fire return interval</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.0000</minimum>
+                  <maximum exclusive="false">428.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.LENGTH_REC">
+          <attributeName>LENGTH_REC</attributeName>
+          <attributeDefinition>Length of fire record</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">9.0000</minimum>
+                  <maximum exclusive="false">475.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00701.HABITAT_TYPE">
+          <attributeName>HABITAT_TYPE</attributeName>
+          <attributeDefinition>Habitat type, following syntax of Dyrness, Franklin, and Moir (1974)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>01</code>
+                    <definition>PSME/HODI   douglas-fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>02</code>
+                    <definition>PSME-TSHE/COCOCA transition zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>03</code>
+                    <definition>TSHE/CACH western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>04</code>
+                    <definition>TSHE/RHMA-GASH  western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>05</code>
+                    <definition>TSHE/RHMA-BENE western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>06</code>
+                    <definition>TSHE/ACCI western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>07</code>
+                    <definition>TSHE/POMU western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>08</code>
+                    <definition>TSHE/POMU-OXOR western hemlock zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>09</code>
+                    <definition>TSHE-ABAM/RHMA-BENE transition zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>TSHE-ABAM/ACCI-BENE transition zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>11</code>
+                    <definition>TSHE-ABAM/LIBO transition zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>ABAM/TSME-XETE silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>13</code>
+                    <definition>ABAM/VAMA-XETE silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>14</code>
+                    <definition>ABAM/RHMA-XETE silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>15</code>
+                    <definition>ABAM/VAAL-COCA silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>16</code>
+                    <definition>ABAM/ACTR silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>17</code>
+                    <definition>ABAM/TIUN silver fir zone</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>99</code>
+                    <definition>Undetermined/unmapped; not within H.J. Andrews Experimental Forest.</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>18</code>
+                    <definition>Habitat 18 is undefined</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="DF00701.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>DF00701.SITECODE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="DF00701.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>DF00701.ASPECT</attributeReference>
+            <attributeReference>DF00701.ELEVATION</attributeReference>
+            <attributeReference>DF00701.RETURN_INT_COMP</attributeReference>
+            <attributeReference>DF00701.RETURN_INT_STAND</attributeReference>
+            <attributeReference>DF00701.ENTITY</attributeReference>
+            <attributeReference>DF00701.HABITAT_TYPE</attributeReference>
+            <attributeReference>DF00701.LENGTH_REC</attributeReference>
+            <attributeReference>DF00701.AGE_CLASS_COUNT</attributeReference>
+            <attributeReference>DF00701.FIRE_COUNT</attributeReference>
+            <attributeReference>DF00701.UNDERBURN_COUNT</attributeReference>
+            <attributeReference>DF00701.SITE_NUMBER</attributeReference>
+            <attributeReference>DF00701.DBCODE</attributeReference>
+            <attributeReference>DF00701.SITECODE</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>329</numberOfRecords>
+    </dataTable>
+    <dataTable id="DF00702">
+      <alternateIdentifier>2</alternateIdentifier>
+      <entityName>DF00702</entityName>
+      <entityDescription>Corrected master fire chronology: </entityDescription>
+      <physical>
+        <objectName>DF00702_v1.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/3178/9/34db2591fa1dc95dc06a82cb5883df4b</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>1984-01-10</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>1987-08-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="DF00702.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB database code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DF007</code>
+                    <definition>FSDB database code DF007</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00702.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(1,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.0000</minimum>
+                  <maximum exclusive="false">2.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00702.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Teensma site codes</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>TEENSMA001</code>
+                    <definition>Teensma site number 001</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA002</code>
+                    <definition>Teensma site number 002</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA003</code>
+                    <definition>Teensma site number 003</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA004</code>
+                    <definition>Teensma site number 004</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA005</code>
+                    <definition>Teensma site number 005</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA006</code>
+                    <definition>Teensma site number 006</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA007</code>
+                    <definition>Teensma site number 007</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA008</code>
+                    <definition>Teensma site number 008</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA009</code>
+                    <definition>Teensma site number 009</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA010</code>
+                    <definition>Teensma site number 010</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA011</code>
+                    <definition>Teensma site number 011</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA012</code>
+                    <definition>Teensma site number 012</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA013</code>
+                    <definition>Teensma site number 013</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA014</code>
+                    <definition>Teensma site number 014</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA015</code>
+                    <definition>Teensma site number 015</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA016</code>
+                    <definition>Teensma site number 016</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA017</code>
+                    <definition>Teensma site number 017</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA018</code>
+                    <definition>Teensma site number 018</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA028</code>
+                    <definition>Teensma site number 028</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA030</code>
+                    <definition>Teensma site number 030</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA031</code>
+                    <definition>Teensma site number 031</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA032</code>
+                    <definition>Teensma site number 032</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA033</code>
+                    <definition>Teensma site number 033</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA035</code>
+                    <definition>Teensma site number 035</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA036</code>
+                    <definition>Teensma site number 036</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA037</code>
+                    <definition>Teensma site number 037</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA041</code>
+                    <definition>Teensma site number 041</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA045</code>
+                    <definition>Teensma site number 045</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA046</code>
+                    <definition>Teensma site number 046</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA047</code>
+                    <definition>Teensma site number 047</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA048</code>
+                    <definition>Teensma site number 048</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA049</code>
+                    <definition>Teensma site number 049</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA050</code>
+                    <definition>Teensma site number 050</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA051</code>
+                    <definition>Teensma site number 051</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA052</code>
+                    <definition>Teensma site number 052</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA053</code>
+                    <definition>Teensma site number 053</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA054</code>
+                    <definition>Teensma site number 054</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA055</code>
+                    <definition>Teensma site number 055</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA056</code>
+                    <definition>Teensma site number 056</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA057</code>
+                    <definition>Teensma site number 057</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA058</code>
+                    <definition>Teensma site number 058</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA059</code>
+                    <definition>Teensma site number 059</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA060</code>
+                    <definition>Teensma site number 060</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA061</code>
+                    <definition>Teensma site number 061</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA062</code>
+                    <definition>Teensma site number 062</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA063</code>
+                    <definition>Teensma site number 063</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA064</code>
+                    <definition>Teensma site number 064</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA065</code>
+                    <definition>Teensma site number 065</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA066</code>
+                    <definition>Teensma site number 066</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA067</code>
+                    <definition>Teensma site number 067</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA068</code>
+                    <definition>Teensma site number 068</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA069</code>
+                    <definition>Teensma site number 069</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA070</code>
+                    <definition>Teensma site number 070</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA071</code>
+                    <definition>Teensma site number 071</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA072</code>
+                    <definition>Teensma site number 072</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA073</code>
+                    <definition>Teensma site number 073</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA074</code>
+                    <definition>Teensma site number 074</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA075</code>
+                    <definition>Teensma site number 075</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA076</code>
+                    <definition>Teensma site number 076</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA077</code>
+                    <definition>Teensma site number 077</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA078</code>
+                    <definition>Teensma site number 078</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA079</code>
+                    <definition>Teensma site number 079</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA080</code>
+                    <definition>Teensma site number 080</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA081</code>
+                    <definition>Teensma site number 081</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA082</code>
+                    <definition>Teensma site number 082</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA083</code>
+                    <definition>Teensma site number 083</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA084</code>
+                    <definition>Teensma site number 084</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA085</code>
+                    <definition>Teensma site number 085</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA086</code>
+                    <definition>Teensma site number 086</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA087</code>
+                    <definition>Teensma site number 087</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA088</code>
+                    <definition>Teensma site number 088</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA089</code>
+                    <definition>Teensma site number 089</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA090</code>
+                    <definition>Teensma site number 090</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA091</code>
+                    <definition>Teensma site number 091</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA093</code>
+                    <definition>Teensma site number 093</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA094</code>
+                    <definition>Teensma site number 094</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA095</code>
+                    <definition>Teensma site number 095</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA096</code>
+                    <definition>Teensma site number 096</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA097</code>
+                    <definition>Teensma site number 097</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA098</code>
+                    <definition>Teensma site number 098</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA099</code>
+                    <definition>Teensma site number 099</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA100</code>
+                    <definition>Teensma site number 100</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA101</code>
+                    <definition>Teensma site number 101</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA102</code>
+                    <definition>Teensma site number 102</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA103</code>
+                    <definition>Teensma site number 103</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA104</code>
+                    <definition>Teensma site number 104</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA105</code>
+                    <definition>Teensma site number 105</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA106</code>
+                    <definition>Teensma site number 106</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA107</code>
+                    <definition>Teensma site number 107</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA108</code>
+                    <definition>Teensma site number 108</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA109</code>
+                    <definition>Teensma site number 109</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA110</code>
+                    <definition>Teensma site number 110</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA111</code>
+                    <definition>Teensma site number 111</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA112</code>
+                    <definition>Teensma site number 112</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA113</code>
+                    <definition>Teensma site number 113</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA114</code>
+                    <definition>Teensma site number 114</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA115</code>
+                    <definition>Teensma site number 115</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA116</code>
+                    <definition>Teensma site number 116</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA117</code>
+                    <definition>Teensma site number 117</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA118</code>
+                    <definition>Teensma site number 118</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA119</code>
+                    <definition>Teensma site number 119</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA121</code>
+                    <definition>Teensma site number 121</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA123</code>
+                    <definition>Teensma site number 123</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA124</code>
+                    <definition>Teensma site number 124</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA125</code>
+                    <definition>Teensma site number 125</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA126</code>
+                    <definition>Teensma site number 126</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA127</code>
+                    <definition>Teensma site number 127</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA128</code>
+                    <definition>Teensma site number 128</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA129</code>
+                    <definition>Teensma site number 129</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA130</code>
+                    <definition>Teensma site number 130</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA131</code>
+                    <definition>Teensma site number 131</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA132</code>
+                    <definition>Teensma site number 132</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA133</code>
+                    <definition>Teensma site number 133</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA134</code>
+                    <definition>Teensma site number 134</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA135</code>
+                    <definition>Teensma site number 135</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA136</code>
+                    <definition>Teensma site number 136</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA137</code>
+                    <definition>Teensma site number 137</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA138</code>
+                    <definition>Teensma site number 138</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA139</code>
+                    <definition>Teensma site number 139</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA140</code>
+                    <definition>Teensma site number 140</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA141</code>
+                    <definition>Teensma site number 141</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA142</code>
+                    <definition>Teensma site number 142</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA143</code>
+                    <definition>Teensma site number 143</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA144</code>
+                    <definition>Teensma site number 144</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA145</code>
+                    <definition>Teensma site number 145</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA146</code>
+                    <definition>Teensma site number 146</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA147</code>
+                    <definition>Teensma site number 147</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA148</code>
+                    <definition>Teensma site number 148</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA149</code>
+                    <definition>Teensma site number 149</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA150</code>
+                    <definition>Teensma site number 150</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA151</code>
+                    <definition>Teensma site number 151</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA152</code>
+                    <definition>Teensma site number 152</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA153</code>
+                    <definition>Teensma site number 153</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA154</code>
+                    <definition>Teensma site number 154</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA155</code>
+                    <definition>Teensma site number 155</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA156</code>
+                    <definition>Teensma site number 156</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA157</code>
+                    <definition>Teensma site number 157</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA158</code>
+                    <definition>Teensma site number 158</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA159</code>
+                    <definition>Teensma site number 159</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA160</code>
+                    <definition>Teensma site number 160</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA161</code>
+                    <definition>Teensma site number 161</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA162</code>
+                    <definition>Teensma site number 162</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA163</code>
+                    <definition>Teensma site number 163</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA164</code>
+                    <definition>Teensma site number 164</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA165</code>
+                    <definition>Teensma site number 165</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA166</code>
+                    <definition>Teensma site number 166</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA167</code>
+                    <definition>Teensma site number 167</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA168</code>
+                    <definition>Teensma site number 168</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA169</code>
+                    <definition>Teensma site number 169</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA170</code>
+                    <definition>Teensma site number 170</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA171</code>
+                    <definition>Teensma site number 171</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA172</code>
+                    <definition>Teensma site number 172</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA173</code>
+                    <definition>Teensma site number 173</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA174</code>
+                    <definition>Teensma site number 174</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA175</code>
+                    <definition>Teensma site number 175</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA176</code>
+                    <definition>Teensma site number 176</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA177</code>
+                    <definition>Teensma site number 177</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA178</code>
+                    <definition>Teensma site number 178</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA179</code>
+                    <definition>Teensma site number 179</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA180</code>
+                    <definition>Teensma site number 180</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA181</code>
+                    <definition>Teensma site number 181</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA182</code>
+                    <definition>Teensma site number 182</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA183</code>
+                    <definition>Teensma site number 183</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA184</code>
+                    <definition>Teensma site number 184</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA185</code>
+                    <definition>Teensma site number 185</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA186</code>
+                    <definition>Teensma site number 186</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA187</code>
+                    <definition>Teensma site number 187</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA188</code>
+                    <definition>Teensma site number 188</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA189</code>
+                    <definition>Teensma site number 189</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA190</code>
+                    <definition>Teensma site number 190</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA191</code>
+                    <definition>Teensma site number 191</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA192</code>
+                    <definition>Teensma site number 192</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA193</code>
+                    <definition>Teensma site number 193</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA194</code>
+                    <definition>Teensma site number 194</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA195</code>
+                    <definition>Teensma site number 195</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA196</code>
+                    <definition>Teensma site number 196</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA197</code>
+                    <definition>Teensma site number 197</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA206</code>
+                    <definition>Teensma site number 206</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA207</code>
+                    <definition>Teensma site number 207</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA208</code>
+                    <definition>Teensma site number 208</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA209</code>
+                    <definition>Teensma site number 209</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA210</code>
+                    <definition>Teensma site number 210</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA211</code>
+                    <definition>Teensma site number 211</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA212</code>
+                    <definition>Teensma site number 212</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA213</code>
+                    <definition>Teensma site number 213</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA214</code>
+                    <definition>Teensma site number 214</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA215</code>
+                    <definition>Teensma site number 215</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA216</code>
+                    <definition>Teensma site number 216</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA217</code>
+                    <definition>Teensma site number 217</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA218</code>
+                    <definition>Teensma site number 218</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA219</code>
+                    <definition>Teensma site number 219</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA220</code>
+                    <definition>Teensma site number 220</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA221</code>
+                    <definition>Teensma site number 221</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA222</code>
+                    <definition>Teensma site number 222</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA223</code>
+                    <definition>Teensma site number 223</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA224</code>
+                    <definition>Teensma site number 224</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA225</code>
+                    <definition>Teensma site number 225</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA226</code>
+                    <definition>Teensma site number 226</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA227</code>
+                    <definition>Teensma site number 227</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA228</code>
+                    <definition>Teensma site number 228</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA229</code>
+                    <definition>Teensma site number 229</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA230</code>
+                    <definition>Teensma site number 230</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA231</code>
+                    <definition>Teensma site number 231</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA232</code>
+                    <definition>Teensma site number 232</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA233</code>
+                    <definition>Teensma site number 233</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA234</code>
+                    <definition>Teensma site number 234</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA236</code>
+                    <definition>Teensma site number 236</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA237</code>
+                    <definition>Teensma site number 237</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA238</code>
+                    <definition>Teensma site number 238</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA239</code>
+                    <definition>Teensma site number 239</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA240</code>
+                    <definition>Teensma site number 240</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA241</code>
+                    <definition>Teensma site number 241</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA246</code>
+                    <definition>Teensma site number 246</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA247</code>
+                    <definition>Teensma site number 247</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA384</code>
+                    <definition>Teensma site number 384</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA412</code>
+                    <definition>Teensma site number 412</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA413</code>
+                    <definition>Teensma site number 413</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA416</code>
+                    <definition>Teensma site number 416</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA417</code>
+                    <definition>Teensma site number 417</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA418</code>
+                    <definition>Teensma site number 418</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA420</code>
+                    <definition>Teensma site number 420</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA423</code>
+                    <definition>Teensma site number 423</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA424</code>
+                    <definition>Teensma site number 424</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA425</code>
+                    <definition>Teensma site number 425</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA426</code>
+                    <definition>Teensma site number 426</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA427</code>
+                    <definition>Teensma site number 427</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA428</code>
+                    <definition>Teensma site number 428</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA429</code>
+                    <definition>Teensma site number 429</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA430</code>
+                    <definition>Teensma site number 430</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA431</code>
+                    <definition>Teensma site number 431</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA432</code>
+                    <definition>Teensma site number 432</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA434</code>
+                    <definition>Teensma site number 434</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA435</code>
+                    <definition>Teensma site number 435</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA436</code>
+                    <definition>Teensma site number 436</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA437</code>
+                    <definition>Teensma site number 437</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA438</code>
+                    <definition>Teensma site number 438</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA439</code>
+                    <definition>Teensma site number 439</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA440</code>
+                    <definition>Teensma site number 440</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA441</code>
+                    <definition>Teensma site number 441</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA442</code>
+                    <definition>Teensma site number 442</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA443</code>
+                    <definition>Teensma site number 443</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA444</code>
+                    <definition>Teensma site number 444</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA445</code>
+                    <definition>Teensma site number 445</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA446</code>
+                    <definition>Teensma site number 446</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA447</code>
+                    <definition>Teensma site number 447</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA448</code>
+                    <definition>Teensma site number 448</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA449</code>
+                    <definition>Teensma site number 449</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA450</code>
+                    <definition>Teensma site number 450</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA451</code>
+                    <definition>Teensma site number 451</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA452</code>
+                    <definition>Teensma site number 452</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA453</code>
+                    <definition>Teensma site number 453</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA454</code>
+                    <definition>Teensma site number 454</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA455</code>
+                    <definition>Teensma site number 455</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA456</code>
+                    <definition>Teensma site number 456</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA457</code>
+                    <definition>Teensma site number 457</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA458</code>
+                    <definition>Teensma site number 458</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA459</code>
+                    <definition>Teensma site number 459</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA460</code>
+                    <definition>Teensma site number 460</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA481</code>
+                    <definition>Teensma site number 481</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA482</code>
+                    <definition>Teensma site number 482</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA483</code>
+                    <definition>Teensma site number 483</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA491</code>
+                    <definition>Teensma site number 491</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA497</code>
+                    <definition>Teensma site number 497</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA499</code>
+                    <definition>Teensma site number 499</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA500</code>
+                    <definition>Teensma site number 500</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA503</code>
+                    <definition>Teensma site number 503</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA504</code>
+                    <definition>Teensma site number 504</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA505</code>
+                    <definition>Teensma site number 505</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA506</code>
+                    <definition>Teensma site number 506</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA507</code>
+                    <definition>Teensma site number 507</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA508</code>
+                    <definition>Teensma site number 508</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA509</code>
+                    <definition>Teensma site number 509</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA510</code>
+                    <definition>Teensma site number 510</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA512</code>
+                    <definition>Teensma site number 512</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA513</code>
+                    <definition>Teensma site number 513</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA514</code>
+                    <definition>Teensma site number 514</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA515</code>
+                    <definition>Teensma site number 515</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA516</code>
+                    <definition>Teensma site number 516</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA517</code>
+                    <definition>Teensma site number 517</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA518</code>
+                    <definition>Teensma site number 518</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA519</code>
+                    <definition>Teensma site number 519</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA521</code>
+                    <definition>Teensma site number 521</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA523</code>
+                    <definition>Teensma site number 523</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA525</code>
+                    <definition>Teensma site number 525</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA527</code>
+                    <definition>Teensma site number 527</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA528</code>
+                    <definition>Teensma site number 528</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA529</code>
+                    <definition>Teensma site number 529</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA530</code>
+                    <definition>Teensma site number 530</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA531</code>
+                    <definition>Teensma site number 531</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA532</code>
+                    <definition>Teensma site number 532</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA534</code>
+                    <definition>Teensma site number 534</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA535</code>
+                    <definition>Teensma site number 535</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA536</code>
+                    <definition>Teensma site number 536</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA537</code>
+                    <definition>Teensma site number 537</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA538</code>
+                    <definition>Teensma site number 538</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA539</code>
+                    <definition>Teensma site number 539</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA540</code>
+                    <definition>Teensma site number 540</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA541</code>
+                    <definition>Teensma site number 541</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA542</code>
+                    <definition>Teensma site number 542</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA543</code>
+                    <definition>Teensma site number 543</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA544</code>
+                    <definition>Teensma site number 544</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA545</code>
+                    <definition>Teensma site number 545</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA546</code>
+                    <definition>Teensma site number 546</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA547</code>
+                    <definition>Teensma site number 547</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA548</code>
+                    <definition>Teensma site number 548</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA549</code>
+                    <definition>Teensma site number 549</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA550</code>
+                    <definition>Teensma site number 550</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA551</code>
+                    <definition>Teensma site number 551</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA552</code>
+                    <definition>Teensma site number 552</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA553</code>
+                    <definition>Teensma site number 553</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA555</code>
+                    <definition>Teensma site number 555</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA556</code>
+                    <definition>Teensma site number 556</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA557</code>
+                    <definition>Teensma site number 557</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA558</code>
+                    <definition>Teensma site number 558</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA559</code>
+                    <definition>Teensma site number 559</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA560</code>
+                    <definition>Teensma site number 560</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA561</code>
+                    <definition>Teensma site number 561</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA562</code>
+                    <definition>Teensma site number 562</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA563</code>
+                    <definition>Teensma site number 563</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA564</code>
+                    <definition>Teensma site number 564</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA565</code>
+                    <definition>Teensma site number 565</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA566</code>
+                    <definition>Teensma site number 566</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA567</code>
+                    <definition>Teensma site number 567</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA568</code>
+                    <definition>Teensma site number 568</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA571</code>
+                    <definition>Teensma site number 571</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA572</code>
+                    <definition>Teensma site number 572</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA573</code>
+                    <definition>Teensma site number 573</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA574</code>
+                    <definition>Teensma site number 574</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA575</code>
+                    <definition>Teensma site number 575</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA034</code>
+                    <definition>Teensma site number 034</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA038</code>
+                    <definition>Teensma site number 038</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA039</code>
+                    <definition>Teensma site number 039</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA040</code>
+                    <definition>Teensma site number 040</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA042</code>
+                    <definition>Teensma site number 042</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA242</code>
+                    <definition>Teensma site number 242</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA329</code>
+                    <definition>Teensma site number 329</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA330</code>
+                    <definition>Teensma site number 330</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA331</code>
+                    <definition>Teensma site number 331</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA340</code>
+                    <definition>Teensma site number 340</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA382</code>
+                    <definition>Teensma site number 382</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA383</code>
+                    <definition>Teensma site number 383</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA411</code>
+                    <definition>Teensma site number 411</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA414</code>
+                    <definition>Teensma site number 414</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA415</code>
+                    <definition>Teensma site number 415</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA461</code>
+                    <definition>Teensma site number 461</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA462</code>
+                    <definition>Teensma site number 462</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA463</code>
+                    <definition>Teensma site number 463</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA468</code>
+                    <definition>Teensma site number 468</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA469</code>
+                    <definition>Teensma site number 469</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA470</code>
+                    <definition>Teensma site number 470</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA471</code>
+                    <definition>Teensma site number 471</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA473</code>
+                    <definition>Teensma site number 473</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA474</code>
+                    <definition>Teensma site number 474</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA475</code>
+                    <definition>Teensma site number 475</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA477</code>
+                    <definition>Teensma site number 477</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA479</code>
+                    <definition>Teensma site number 479</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA484</code>
+                    <definition>Teensma site number 484</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA489</code>
+                    <definition>Teensma site number 489</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TEENSMA569</code>
+                    <definition>Teensma site number 569</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00702.SITE_NUMBER">
+          <attributeName>SITE_NUMBER</attributeName>
+          <attributeDefinition>Site number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(3,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">575.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00702.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of fire history notation from tree ring date</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>year (yyyy)</customUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1435.0000</minimum>
+                  <maximum exclusive="false">1935.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="DF00702.FIRE_HISTORY">
+          <attributeName>FIRE_HISTORY</attributeName>
+          <attributeDefinition>Description of presence of fire, fire scars or origin dates</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>No data, i.e., no trees present at this site in 1985 are old enough to have been present at the time of this fire</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Fire scar(s) present for this fire episode</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Regeneration (origin dates) recorded for this fire episode</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Both fire scars and origin dates recorded for this fire episode</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>No record of fire, but trees present at this site in 1985 are old enough to have been present at the time of this fire</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="DF00702.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>DF00702.SITECODE</attributeReference>
+            <attributeReference>DF00702.YEAR</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="DF00702.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>DF00702.ENTITY</attributeReference>
+            <attributeReference>DF00702.SITE_NUMBER</attributeReference>
+            <attributeReference>DF00702.DBCODE</attributeReference>
+            <attributeReference>DF00702.SITECODE</attributeReference>
+            <attributeReference>DF00702.YEAR</attributeReference>
+            <attributeReference>DF00702.FIRE_HISTORY</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>12565</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="feet" multiplierToSI="0.3048" name="feet"
+          parentSI="meter" unitType="length">
+          <stmml:description>feet; 12 inches</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number of years" multiplierToSI="31536000"
+          name="number of years" parentSI="second" unitType="time">
+          <stmml:description>one year excluding leap seconds and leap days, 31536000 seconds (often used for age in years)</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="number" multiplierToSI="1" name="number"
+          parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="year (yyyy)" multiplierToSI="1"
+          name="year (yyyy)" parentSI="YYYY-MM-DDThh:mm:ss" unitType="datetime">
+          <stmml:description>year (4 character) portion of date</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

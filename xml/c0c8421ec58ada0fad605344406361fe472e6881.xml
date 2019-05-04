@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.4543.4"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MS036</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/a701c8b93c527690b823e50a3efa10b5</alternateIdentifier>
+    <title>Cold air drainage transect studies at the Andrews Experimental Forest, 2002 to 2016</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Daly</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>PRISM Group;Northwest Alliance for Computational Science and Engineering ;2000 Kelley Engineering Center;Oregon State University;;;</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-2531</phone>
+      <electronicMailAddress>daly@nacse.org</electronicMailAddress>
+      <onlineUrl>http://prism.oregonstate.edu</onlineUrl>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Christopher</givenName>
+        <surName>Daly</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>PRISM Group;Northwest Alliance for Computational Science and Engineering ;2000 Kelley Engineering Center;Oregon State University;;;</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-2531</phone>
+      <electronicMailAddress>daly@nacse.org</electronicMailAddress>
+      <onlineUrl>http://prism.oregonstate.edu</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Moreau</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>H.J. Andrews Experimental Forest;Box 300</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 822-6305</phone>
+      <electronicMailAddress>moreauj@fsl.orst.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Adam</givenName>
+        <givenName>M</givenName>
+        <surName>Kennedy</surName>
+      </individualName>
+      <address>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>US</country>
+      </address>
+      <phone/>
+      <electronicMailAddress>adam.kennedy@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <givenName>I.</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Joseph</givenName>
+        <givenName>I.</givenName>
+        <surName>Smith</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Method Contact</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Greg</givenName>
+        <givenName>M</givenName>
+        <surName>Cohn</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USFS Rd 15-130-132</deliveryPoint>
+        <city>Blue River</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97413</postalCode>
+      </address>
+      <phone>541-822-6305</phone>
+      <electronicMailAddress>cohng@oregonstate.edu</electronicMailAddress>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2017-07-18</pubDate>
+    <abstract>
+      <para>Temperature data are being collected to investigate the effects of elevation and local topographic position on the patterns of cold air drainage and pooling in the HJ Andrews Forest, and how they vary with synoptic weather patterns.  The main focus of the study is cold air drainage in the Lookout Creek area, but others sites have been added to sample temperature signatures at other locations of the forest with topographic positions that need to be better understood.  Here, daily minimum and maximum temperatures are available from several stations along 4 separate transects or clusters with some additional single sensors also included.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Air temperature</keyword>
+      <keyword keywordType="theme">Climate change</keyword>
+      <keyword keywordType="theme">Climate data</keyword>
+      <keyword keywordType="theme">Forest ecosystems</keyword>
+      <keyword keywordType="theme">Long-Term Ecological Research (LTER)</keyword>
+      <keyword keywordType="theme">Meteorological measurements</keyword>
+      <keyword keywordType="theme">Topography</keyword>
+      <keyword keywordType="theme">Complex terrain</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> The re-use of scientific data has the potential to greatly increase communication, collaboration and synthesis within and among disciplines, and thus is fostered, supported and encouraged. This Data Set is released to the public domain under the Creative Commons license CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/).   Creative Commons license CC0 1.0 - No Rights Reserved states that data are placed in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restriction under copyright or database law. </para>
+      <para>It is considered professional conduct and an ethical obligation to acknowledge the work of other scientists. The Data User is asked to provide attribution of the original work if this data package is shared in whole or by individual parts or used in the derivation of other products.  A recommended citation is provided for each Data Set in the Andrews LTER data catalog (see: http://andlter.forestry.oregonstate.edu/data/catalog/datacatalog.aspx). A generic citation is also provided for this Data Set on the website https://portal.edirepository.org in the summary metadata page. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator. </para>
+      <para>While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed and all data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. </para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andlter.forestry.oregonstate.edu/data/abstract.aspx?dbcode=MS036</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>HJ Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.22055560</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.12083330</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.28138889</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20344500</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>1616</altitudeMinimum>
+            <altitudeMaximum>527</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2002-07-24</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-11-03</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Temperature data are being collected to investigate the effects of elevation and local topographic position on the patterns of cold air drainage and pooling in the HJ Andrews Forest, and how they vary with synoptic weather patterns.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Created study code for Cold Air Temperature Transects in SQL.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2007-07-20</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Created entities and attributes in SQL.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2011-03-10</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Entity 1 is established online for the first time, 2002-2016. Entity 2 15-minute data will not be prepared for online distribution. Attributes were renamed to match MS001 convention.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2017-06-29</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Enhanced abstract, purpose and attribute "sitecode" descriptions in the metadata. Added a "transect" attribute to categorize the individual stations. Also corrects intellectual rights and adds checksum.</changeScope>
+        <oldValue>Version4</oldValue>
+        <changeDate>2017-07-18</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - MS036</para>
+          <para>Data are sampled every 15 minutes with Hobo portable sensors mounted on rebar approximately 1.5 m above ground. Radiation shields are the “HJA short” type, which is made from PVC tubing, cut lengthwise and mounted above the sensor; sensors are open to the ground. Most sensors are located under dense forest canopy, with little solar radiation exposure. Many sensors also record illumination, which is useful in quantifying light exposure.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Sites are selected along transects to represent elevational change moving in lateral directions away from a stream, or are clustered above or below a spring or depression. Two single points are selected at high elevations to represent one low and one high topographic position.</para>
+            <para>Sampling frequency: 15-min and daily</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Observed temperatures on “cold air” transects at 34 locations within the HJ Andrews Forest. The lower Lookout Creek transect (10 stations) is located just to the west of the concrete bridge, and intersects RS10. The upper Lookout Creek transect (11 stations) extends north from the north slope of Lookout Mountain, across Lookout Creek, and ends below the CENMET benchmark station. East of the upper transect, there is a short, 4-station transect across Cold Creek, a tributary of Lookout Creek. North of the upper transect, a 5-station cluster samples locations near a stream channel, above and below a spring. Single sensors are located downslope from the Roads End rain gauge near the southern border of the forest (high elevation, but locally low topographic position), and near the summit of Carpenter Mountain, on the northern border of the forest (high elevation, high topographic position, exposed to the free atmosphere). Two sensors will located temporarily in and above a sink northeast of the CENMET benchmark station. The upper and lower Lookout Creek transects were established in 2002, with others placed at later dates.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>HJA Cold Air Transects</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.22055560</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22055560</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28138889</northBoundingCoordinate>
+              <southBoundingCoordinate>44.28138889</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1616</altitudeMinimum>
+                <altitudeMaximum>1616</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #501, Lower Lookout transect, elevation 669m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21916670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21916670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23611111</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23611111</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>669</altitudeMinimum>
+                <altitudeMaximum>669</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #502, Lower Lookout transect, elevation 646m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21888890</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21888890</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23500000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23500000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>646</altitudeMinimum>
+                <altitudeMaximum>646</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #503, Lower Lookout transect, elevation,557m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21861110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21861110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23194444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23194444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>557</altitudeMinimum>
+                <altitudeMaximum>557</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #504, Lower Lookout transect, elevation, 527m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21916670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21916670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23055556</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23055556</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>527</altitudeMinimum>
+                <altitudeMaximum>527</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #505, Lower Lookout transect, elevation, 528m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21750000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21750000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23027778</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23027778</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>528</altitudeMinimum>
+                <altitudeMaximum>528</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #506, Lower Lookout transect, elevation, 577m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21416670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21416670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22944444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22944444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>577</altitudeMinimum>
+                <altitudeMaximum>577</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #507, Lower Lookout transect, elevation, 596m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21388890</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21388890</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22861111</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22861111</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>596</altitudeMinimum>
+                <altitudeMaximum>596</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #508, Lower Lookout transect, elevation, 624m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21277780</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21277780</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22777778</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22777778</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>624</altitudeMinimum>
+                <altitudeMaximum>624</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #509, Daly Spring cluster, elevation 986, above spring</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14277780</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14277780</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24222222</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24222222</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>986</altitudeMinimum>
+                <altitudeMaximum>986</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #510, Upper Lookout transect, elevation, 903m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14361110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14361110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23694444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23694444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>903</altitudeMinimum>
+                <altitudeMaximum>903</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #511, Upper Lookout transect, elevation, 912m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14444440</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14444440</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23527778</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23527778</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>912</altitudeMinimum>
+                <altitudeMaximum>912</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #512, Upper Lookout transect, elevation, 841m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23388889</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23388889</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>841</altitudeMinimum>
+                <altitudeMaximum>841</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #513, Upper Lookout transect, elevation, 806m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23222222</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23222222</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>806</altitudeMinimum>
+                <altitudeMaximum>806</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #514, Upper Lookout transect, elevation, 813m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23194444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23194444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>813</altitudeMinimum>
+                <altitudeMaximum>813</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #515, Upper Lookout transect, elevation, 813m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23166667</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23166667</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>813</altitudeMinimum>
+                <altitudeMaximum>813</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #516, Upper Lookout transect, elevation, 845m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23111111</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23111111</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>845</altitudeMinimum>
+                <altitudeMaximum>845</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #517, Upper Lookout transect, elevation, 876m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23055556</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23055556</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>876</altitudeMinimum>
+                <altitudeMaximum>876</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #518, Upper Lookout transect, elevation, 900m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23027778</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23027778</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>900</altitudeMinimum>
+                <altitudeMaximum>900</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #519A, Lower Lookout transect, elevation, 613m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.21861110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.21861110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23361111</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23361111</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>613</altitudeMinimum>
+                <altitudeMaximum>613</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #519B, Upper Lookout transect, elevation, 925m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22972222</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22972222</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>925</altitudeMinimum>
+                <altitudeMaximum>925</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #520, Upper Lookout transect, elevation, 957m, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14500000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14500000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22916667</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22916667</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>957</altitudeMinimum>
+                <altitudeMaximum>957</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #521, Daly Spring cluster, elevation 987, above spring</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14250000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14250000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24194444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24194444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>987</altitudeMinimum>
+                <altitudeMaximum>987</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #522, Daly Spring cluster, elevation 980, below spring</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14361110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14361110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24250000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24250000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>980</altitudeMinimum>
+                <altitudeMaximum>980</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #523, Daly Spring cluster, elevation 974, below spring</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14416670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14416670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24250000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24250000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>974</altitudeMinimum>
+                <altitudeMaximum>974</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #524, Daly Spring cluster, elevation 962, below spring</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14444440</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14444440</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.24194444</northBoundingCoordinate>
+              <southBoundingCoordinate>44.24194444</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>962</altitudeMinimum>
+                <altitudeMaximum>962</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #525, Cold Creek transect, elevation 1058, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12111110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12111110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23000000</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23000000</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1058</altitudeMinimum>
+                <altitudeMaximum>1058</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #526, Cold Creek transect, elevation 1063, south</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12083330</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12083330</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.22972222</northBoundingCoordinate>
+              <southBoundingCoordinate>44.22972222</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1063</altitudeMinimum>
+                <altitudeMaximum>1063</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #527, Cold Creek transect, elevation 1051, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12138890</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12138890</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23027778</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23027778</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1051</altitudeMinimum>
+                <altitudeMaximum>1051</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #528, Cold Creek transect, elevation 1064, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.12166670</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.12166670</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23055556</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23055556</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1064</altitudeMinimum>
+                <altitudeMaximum>1064</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station #529, Lower Lookout transect, elevation, 756m, north</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.22055560</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.22055560</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.23916667</northBoundingCoordinate>
+              <southBoundingCoordinate>44.23916667</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>756</altitudeMinimum>
+                <altitudeMaximum>756</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station on Carpenter Mountain, elevation 1616m, high topographic position</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.14361110</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.14361110</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.28138889</northBoundingCoordinate>
+              <southBoundingCoordinate>44.28138889</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1616</altitudeMinimum>
+                <altitudeMaximum>1616</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station Moreau Depression Pit, elevation 1134, in sink</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15598800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15598800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25027500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25027500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1134</altitudeMinimum>
+                <altitudeMaximum>1134</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station Moreau Depression Ridge, elevation 1138, above sink</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.15585000</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.15585000</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.25128600</northBoundingCoordinate>
+              <southBoundingCoordinate>44.25128600</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1138</altitudeMinimum>
+                <altitudeMaximum>1138</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>HJA Cold Air Station at Road's End, elevation 1320m, low topographic position</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.13985200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.13985200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20344500</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20344500</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1320</altitudeMinimum>
+                <altitudeMaximum>1320</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <onlineUrl>http://fw.oregonstate.edu/content/sherri-johnson</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/jones/</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-9429-8925</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Hannah</givenName>
+          <surName>Gosnell</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Geosciences;Oregon State University;260 Wilkinson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>541-737-1222</phone>
+        <electronicMailAddress>gosnellh@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://ceoas.oregonstate.edu/profile/gosnell/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Matthew</givenName>
+          <givenName>G</givenName>
+          <surName>Betts</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201E Richardson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>(541) 737-3841</phone>
+        <electronicMailAddress>matt.betts@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://fes.forestry.oregonstate.edu/people?path=people/betts-matthew</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Department of Forest Ecosystems and Society; 201K Richarson Hall; College of Forestry; Oregon State University</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+        </address>
+        <phone>541-737-9221</phone>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-6917-4752</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 1440409), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB1440409</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="MS03601">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>MS03601</entityName>
+      <entityDescription>Air Temperature (Daily minimum and maximum): </entityDescription>
+      <physical>
+        <objectName>MS03601.csv</objectName>
+        <authentication method="MD5">baf86ff97a5a89f8d5346f71340f1bd4</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/4543/4/9a309949a19bc53555612f4863f145ec</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2002-07-24</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2016-11-03</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="MS03601.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>FSDB Database Code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MS036</code>
+                    <definition>FSDB Database Code MS036</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity Number</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>number</customUnit>
+              </unit>
+              <precision>1.000000</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.TRANSECT">
+          <attributeName>TRANSECT</attributeName>
+          <attributeDefinition>Transect or cluster for the given site</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>LL</code>
+                    <definition>Lower Lookout transect</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UL</code>
+                    <definition>Upper Lookout transect</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CC</code>
+                    <definition>Cold Creek transect</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DS</code>
+                    <definition>Daly Spring cluster</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MD</code>
+                    <definition>Moreau Depression paired sites</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CM</code>
+                    <definition>Carpenter Mountain single high topographic position sensor</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RE</code>
+                    <definition>Road's End single low topographic position sensor</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.SITECODE">
+          <attributeName>SITECODE</attributeName>
+          <attributeDefinition>Site code for the air temperature measurement station</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(6)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>CA501</code>
+                    <definition>HJA Cold Air Station #501, Lower Lookout transect, elevation 669m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA502</code>
+                    <definition>HJA Cold Air Station #502, Lower Lookout transect, elevation 646m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA503</code>
+                    <definition>HJA Cold Air Station #503, Lower Lookout transect, elevation,557m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA504</code>
+                    <definition>HJA Cold Air Station #504, Lower Lookout transect, elevation, 527m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA505</code>
+                    <definition>HJA Cold Air Station #505, Lower Lookout transect, elevation, 528m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA506</code>
+                    <definition>HJA Cold Air Station #506, Lower Lookout transect, elevation, 577m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA507</code>
+                    <definition>HJA Cold Air Station #507, Lower Lookout transect, elevation, 596m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA508</code>
+                    <definition>HJA Cold Air Station #508, Lower Lookout transect, elevation, 624m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA509</code>
+                    <definition>HJA Cold Air Station #509, Daly Spring cluster, elevation 986, above spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA510</code>
+                    <definition>HJA Cold Air Station #510, Upper Lookout transect, elevation, 903m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA511</code>
+                    <definition>HJA Cold Air Station #511, Upper Lookout transect, elevation, 912m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA512</code>
+                    <definition>HJA Cold Air Station #512, Upper Lookout transect, elevation, 841m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA513</code>
+                    <definition>HJA Cold Air Station #513, Upper Lookout transect, elevation, 806m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA514</code>
+                    <definition>HJA Cold Air Station #514, Upper Lookout transect, elevation, 813m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA515</code>
+                    <definition>HJA Cold Air Station #515, Upper Lookout transect, elevation, 813m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA516</code>
+                    <definition>HJA Cold Air Station #516, Upper Lookout transect, elevation, 845m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA517</code>
+                    <definition>HJA Cold Air Station #517, Upper Lookout transect, elevation, 876m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA518</code>
+                    <definition>HJA Cold Air Station #518, Upper Lookout transect, elevation, 900m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA519A</code>
+                    <definition>HJA Cold Air Station #519A, Lower Lookout transect, elevation, 613m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA519B</code>
+                    <definition>HJA Cold Air Station #519B, Upper Lookout transect, elevation, 925m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA520</code>
+                    <definition>HJA Cold Air Station #520, Upper Lookout transect, elevation, 957m, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA521</code>
+                    <definition>HJA Cold Air Station #521, Daly Spring cluster, elevation 987, above spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA522</code>
+                    <definition>HJA Cold Air Station #522, Daly Spring cluster, elevation 980, below spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA523</code>
+                    <definition>HJA Cold Air Station #523, Daly Spring cluster, elevation 974, below spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA524</code>
+                    <definition>HJA Cold Air Station #524, Daly Spring cluster, elevation 962, below spring</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA525</code>
+                    <definition>HJA Cold Air Station #525, Cold Creek transect, elevation 1058, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA526</code>
+                    <definition>HJA Cold Air Station #526, Cold Creek transect, elevation 1063, south</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA527</code>
+                    <definition>HJA Cold Air Station #527, Cold Creek transect, elevation 1051, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA528</code>
+                    <definition>HJA Cold Air Station #528, Cold Creek transect, elevation 1064, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CA529</code>
+                    <definition>HJA Cold Air Station #529, Lower Lookout transect, elevation, 756m, north</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CACARP</code>
+                    <definition>HJA Cold Air Station on Carpenter Mountain, elevation 1616m, high topographic position</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAMDPI</code>
+                    <definition>HJA Cold Air Station Moreau Depression Pit, elevation 1134, in sink</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAMDRI</code>
+                    <definition>HJA Cold Air Station Moreau Depression Ridge, elevation 1138, above sink</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CAROAD</code>
+                    <definition>HJA Cold Air Station at Road's End, elevation 1320m, low topographic position</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.DATE">
+          <attributeName>DATE</attributeName>
+          <attributeDefinition>Date of Measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">7/24/2002 12:00:00 AM</minimum>
+                  <maximum exclusive="false">11/3/2016 12:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MAX_DAY">
+          <attributeName>AIRTEMP_MAX_DAY</attributeName>
+          <attributeDefinition>Maximum air temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.200000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-15.6000</minimum>
+                  <maximum exclusive="false">51.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MAX_FLAG">
+          <attributeName>AIRTEMP_MAX_FLAG</attributeName>
+          <attributeDefinition>Maximum air temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MAX_QC">
+          <attributeName>AIRTEMP_MAX_QC</attributeName>
+          <attributeDefinition>Maximum air temperature quality control codes provides justification for AIRTEMP_MAX_FLAG</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Value passed QC test</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>No data collected - instrument failure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Insufficient number of hourly observations to generate a valid daily observation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Too little variation in hourly observations to generate a valid daily observation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Too many consecutive days with the same daily value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MIN_DAY">
+          <attributeName>AIRTEMP_MIN_DAY</attributeName>
+          <attributeDefinition>Minimum air temperature for the day</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,1)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>degrees Celcius</customUnit>
+              </unit>
+              <precision>0.200000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-19.6000</minimum>
+                  <maximum exclusive="false">24.9000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MIN_FLAG">
+          <attributeName>AIRTEMP_MIN_FLAG</attributeName>
+          <attributeDefinition>Minimum air temperature flag</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Accepted value has passed all QC tests</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Missing value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Q</code>
+                    <definition>Questionable value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MS03601.AIRTEMP_MIN_QC">
+          <attributeName>AIRTEMP_MIN_QC</attributeName>
+          <attributeDefinition>Minimum air temperature quality control codes provides justification for AIRTEMP_MIN_FLAG</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(1)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>Value passed quality control test</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>No data collected - instrument failure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Insufficient number of hourly observations to generate a valid daily observation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Too little variation in hourly observations to generate a valid daily observation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>9</code>
+                    <definition>Too many consecutive days with the same daily value</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="MS03601.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>MS03601.SITECODE</attributeReference>
+            <attributeReference>MS03601.DATE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="MS03601.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>MS03601.DBCODE</attributeReference>
+            <attributeReference>MS03601.ENTITY</attributeReference>
+            <attributeReference>MS03601.SITECODE</attributeReference>
+            <attributeReference>MS03601.DATE</attributeReference>
+            <attributeReference>MS03601.AIRTEMP_MAX_FLAG</attributeReference>
+            <attributeReference>MS03601.AIRTEMP_MIN_FLAG</attributeReference>
+            <attributeReference>MS03601.AIRTEMP_MAX_QC</attributeReference>
+            <attributeReference>MS03601.AIRTEMP_MIN_QC</attributeReference>
+            <attributeReference>MS03601.TRANSECT</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>154128</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit abbreviation="number" id="number" multiplierToSI="1"
+          name="number" parentSI="dimensionless" unitType="dimensionless">
+          <stmml:description>dimensionless number, i.e., ratio, count</stmml:description>
+        </stmml:unit>
+        <stmml:unit abbreviation="deg c" id="degrees Celcius"
+          multiplierToSI="1" name="celsiusDegree" parentSI="kelvin" unitType="temperature">
+          <stmml:description>Degrees Celsius; a common unit of temperature; constantToSI=273.18</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

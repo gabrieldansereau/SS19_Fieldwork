@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.28.21" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.28.21</shortName>
+    <title>Spruce Seedling Data Bonanza Creek Experimental Forest Floodplain Inside and Outside of the Moose Exclosures</title>
+    <creator>
+      <individualName>
+        <givenName>Knut</givenName>
+        <surName>Kielland</surName>
+      </individualName>
+      <positionName>Senior Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7164</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>kkielland@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://faculty.iab.uaf.edu/knut_kielland</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Karl</givenName>
+        <surName>Olson</surName>
+      </individualName>
+      <positionName>Technician</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5540</phone>
+      <!--No fax info on file for this person-->
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>2005-12-31</pubDate>
+    <abstract>
+      <para>This study started in September 2002 focused on the indirect effect of moose browsing on white spruce regeneration on the Tanana River floodplain. Twelve exclosures (7m X 10m, 2m high), with adjacent control plots of the same size, were constructed using chain-link fence panels. Exclosures were located  along the Tanana River between FP 1A and FP 1C and instrumented with Hobo Microstations for monitoring of soil and air temperature, relative humidity,  and PAR. Browsing effects on deciduous vegetation (biomass removal and canopy height) and soil properties were analyzed in relation to the performance (germination, growth and biochemistry) of planted white spruce seeds and seedlings (n=98/exclosure). Additionally, direct browsing by snowshoe hares on spruce seedlings (growth and survival) was evaluated in relation to canopy cover and terrace age. The study is ongoing.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>seedlings</keyword>
+      <keyword>black spruce</keyword>
+      <keywordThesaurus>Decomposition</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/28</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.29207666667</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.16160166667</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.729221666667</northBoundingCoordinate>
+          <southBoundingCoordinate>64.676203333333</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2003-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2010-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Ongoing</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Methods</title>
+            <para>Twelve exclosures (7m X 10m, 2m high), with adjacent control plots of the same size, were constructed using chain-link fence panels. Exclosures were located  along the Tanana River between FP 1A and FP 1C and instrumented with Hobo Microstations for monitoring of soil and air temperature, relative humidity,  and PAR.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 01 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.161601666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.161601666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7292216666666</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7292216666666</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 02 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.185436666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.185436666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71982</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71982</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 03 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.220178333333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.220178333333</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7054016666666</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7054016666666</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 04 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.220203333333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.220203333333</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.704445</northBoundingCoordinate>
+                <southBoundingCoordinate>64.704445</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 05 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.242498333333</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.242498333333</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6846633333333</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6846633333333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 06 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.273285</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.273285</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6821966666666</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6821966666666</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 07 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.273206666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.273206666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6815833333333</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6815833333333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 08 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.275205</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.275205</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6805633333333</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6805633333333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 09 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.275635</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.275635</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6799566666666</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6799566666666</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 10 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.287291666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.287291666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6780783333333</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6780783333333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 11 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.288656666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.288656666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6762033333333</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6762033333333</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>SpruceExclosure 12 -- This is one of twelve moose enclosure sites located in spruce sites along the Tanana River.  The lower the number of the site the further upstream the site is located..  Site alternate names:  </geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.292076666666</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.292076666666</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6767416666666</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6767416666666</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2003-01-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2010-12-31</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>yearly</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>28_LTER_Spruce_Seedling_Data_2010.txt</entityName>
+      <entityDescription>Data monitoring the indirect effect of moose browsing on white spruce regeneration.</entityDescription>
+      <physical>
+        <objectName>28_LTER_Spruce_Seedling_Data_2010.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/28/21/99d58ee08fc475c607c4fd16c3e7953f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeLabel>Year</attributeLabel>
+          <attributeDefinition>Year of seed count</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>yyyy</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Ex #</attributeName>
+          <attributeLabel>Ex #</attributeLabel>
+          <attributeDefinition>Exclosure Number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Exclosure Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>IN/OUT</attributeName>
+          <attributeLabel>IN/OUT</attributeLabel>
+          <attributeDefinition>In or outside fo the exclosure</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>IN </code>
+                    <definition> Inside the exclosure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> OUT </code>
+                    <definition> Outside of the exclosure</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Seedling #</attributeName>
+          <attributeLabel>Seedling #</attributeLabel>
+          <attributeDefinition>Seedling number</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Seedling number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>Height, cm</attributeName>
+          <attributeLabel>Height, cm</attributeLabel>
+          <attributeDefinition>The height of the seedling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>MISSING</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Diam., mm</attributeName>
+          <attributeLabel>Diam., mm</attributeLabel>
+          <attributeDefinition>The Diameter of the seedling</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>MISSING</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="yyyy"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5178.3"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>MV003</alternateIdentifier>
+    <title>Throughfall and Isotopic Ratios on WS1 at the Andrews Experimental Forest, 2010-2011</title>
+    <creator>
+      <individualName>
+        <givenName>Scott</givenName>
+        <givenName>Thomas</givenName>
+        <surName>Allen</surName>
+      </individualName>
+      <address/>
+      <phone>410-336-3383</phone>
+      <electronicMailAddress>scottallen1@gmail.com</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Barbara</givenName>
+        <givenName>J</givenName>
+        <surName>Bond</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>Oregon State University;Dept. of Forest Science;330 Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 737-6110</phone>
+      <phone>(541) 908-2515</phone>
+      <electronicMailAddress>barbara.bond@oregonstate.edu</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/~bond</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <pubDate>2016-05-04</pubDate>
+    <abstract>
+      <para>The data in this set describes the throughfall collection on WS1 during 2010 and 2011, as well as the isotopic data assessed from these samples.  In the Fall of 2010 there were eleven collection periods and in the Spring of 2011 there were eight collection periods. Data is no longer being collected.  Throughfall and rainfall were measured at point locations, measured for the quantity and isotopic composition (Oxygen-16/18 and Hydrogen/Deuterium).  Stemflow was also collected off of two PSME trees, one on the north-facing and one on the south-facing slope. These are the "plots" for this study, although they have no defined radius.  During the Fall 2010 collection period, thirteen collectors were used, near the stream channel, along the trail in WS1.  During the Spring 2011, there were eighteen collectors at each of two plots. Rainfall was also measured in an opening at the WS1 landing for comparison.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Evaporation</keyword>
+      <keyword keywordType="theme">Interception</keyword>
+      <keyword keywordType="theme">Throughfall</keyword>
+      <keyword keywordType="theme">Water balance</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=MV003&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>WS01 at the HJ Andrews Experimental Forest</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25591200</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.25850600</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.20695800</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20596900</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2010-10-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-07-10</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>All Organisms                           </taxonRankName>
+          <taxonRankValue>All Organisms                                                                                                                                                                                           </taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>Highest common category (ca. kingdom)   </taxonRankName>
+            <taxonRankValue>Plantae                                                                                                                                                                                                 </taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Magnoliophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Magnoliopsida                                                                                                                                                                                           </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Hamamelididae                                                                                                                                                                                           </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Fagales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Fagaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Chrysolepis                                                                                                                                                                                             </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Castanopsis chrysophylla                                                                                                                                                                                </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Betulaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Alnus                                                                                                                                                                                                   </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Alnus rubra                                                                                                                                                                                             </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Rosidae                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Rhamnales                                                                                                                                                                                               </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Rhamnaceae                                                                                                                                                                                              </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Rhamnus                                                                                                                                                                                                 </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Rhamnus purshiana                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Rosales                                                                                                                                                                                                 </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Rosaceae                                                                                                                                                                                                </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Prunus                                                                                                                                                                                                  </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Prunus emarginata                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Sapindales                                                                                                                                                                                              </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Aceraceae                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Acer                                                                                                                                                                                                    </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Acer macrophyllum                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Subclass                                </taxonRankName>
+                  <taxonRankValue>Dilleniidae                                                                                                                                                                                             </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Order                                   </taxonRankName>
+                    <taxonRankValue>Ericales                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Family                                  </taxonRankName>
+                      <taxonRankValue>Ericaceae                                                                                                                                                                                               </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Genus                                   </taxonRankName>
+                        <taxonRankValue>Arbutus                                                                                                                                                                                                 </taxonRankValue>
+                        <taxonomicClassification>
+                          <taxonRankName>Species                                 </taxonRankName>
+                          <taxonRankValue>Arbutus menziesii                                                                                                                                                                                       </taxonRankValue>
+                        </taxonomicClassification>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+            <taxonomicClassification>
+              <taxonRankName>Division or Phylum                      </taxonRankName>
+              <taxonRankValue>Coniferophyta                                                                                                                                                                                           </taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>Class                                   </taxonRankName>
+                <taxonRankValue>Pinopsida                                                                                                                                                                                               </taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Pinales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Cupressaceae                                                                                                                                                                                            </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Thuja                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Thuja plicata                                                                                                                                                                                           </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Pinaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Pseudotsuga                                                                                                                                                                                             </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Pseudotsuga menziesii                                                                                                                                                                                   </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Tsuga                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Tsuga heterophylla                                                                                                                                                                                      </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+                <taxonomicClassification>
+                  <taxonRankName>Order                                   </taxonRankName>
+                  <taxonRankValue>Taxales                                                                                                                                                                                                 </taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>Family                                  </taxonRankName>
+                    <taxonRankValue>Taxaceae                                                                                                                                                                                                </taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>Genus                                   </taxonRankName>
+                      <taxonRankValue>Taxus                                                                                                                                                                                                   </taxonRankValue>
+                      <taxonomicClassification>
+                        <taxonRankName>Species                                 </taxonRankName>
+                        <taxonRankValue>Taxus brevifolia                                                                                                                                                                                        </taxonRankValue>
+                      </taxonomicClassification>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <purpose>
+      <para>Our goal was to develop a better understanding of the canopy processes that control the isotopic variations of throughfall.  Additionally we were interested in patterns of throughfall isotopic composition and depth. Better understanding of throughfall patterns in heterogeneous terrain is important because since both rainfall and vegetation patterns are highly variable in complex terrain, and summer interception loss could be an important control over the spatial variability of the availability of moisture, coinciding with when vegetation is most water-limited.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2012-06-14</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata and data have been uploaded to SQL and QC'd.  Data is being restricted pending publication of journal articles.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2013-08-12</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Data is being released per originator after the publication of 2 journal papers.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2016-05-04</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - MV003</para>
+          <para>Throughfall collectors during the fall used were commercially fabricated raingages, listed as EZ-read raingages, constructed by headwind consumer products, inc.  These were a long tube with a 7390 sq. mm collection area.
+
+In the spring, Throughfall was collected using gages we constrcuted from standard polyethylene 2l and 4l jugs.  A 4 liter jug had the bottom cut off, used as a funnel.  This funnel connected to a 2l bottle used as a the colletion bottle.  They were connected by two caps attached with eight 1/8" holes drilled through.</para>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>Two plots located on WS1 with indefinite boundaries. For the fall, collection of throughfall was on a haphazardly placed collectors along the WS1 trail, with collectors 8-13 being located south of the stream, along the first switchback ascending the north-aspect slope.  Collectors 1-7 were located along the trail, on the section north of the stream, paralleling the stream.  All collectors were under Douglas-fir trees.
+
+During the spring collection period, a different sampling regime was used.  Plots were located on both the north and south aspect slopes (coordinates are listed in metadata).  Within each of the plots there were 36 potential collection locations.  Of these 36 locations, 18 were randomly selection and sampled for each collection period.  Therefore, collector number refers to a collection location that is permanent, rather than a specific collector used.</para>
+            <para>Sampling frequency: irregularly, dependent on precipitation events</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Two trees were selected for rainfall/throughfall analysis, one on the north slope and one on the south slope. A control was also constructed in a corresponding open area. During the first year of collection, the sampling was sporadic and samplers randomly placed. During the second year of collection, samplers were placed in coordinated locations under douglas fir trees of similar sizes and 18 of 36 collectors were randomly collected, and their water isotopic compositions analyzed.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Andrews Watershed  1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25683100</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.23581300</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20851700</northBoundingCoordinate>
+              <southBoundingCoordinate>44.19901700</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>1027</altitudeMinimum>
+                <altitudeMaximum>1027</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>Throughfall plots in WS01 (Scott Allen)</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25591200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25850600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20695800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20596900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>0</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>WS1 Throughfall Collection, Landing of WS1</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25850600</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25850600</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20695800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20695800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>0</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>WS1 Throughfall Collection, South side (north-aspect) plot</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25664800</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25664800</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20596900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20596900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>0</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>WS1 Throughfall Collection, North side (south-aspect) plot</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25591200</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25591200</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20681900</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20681900</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>0</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>WS1 Throughfall Collection, Fall sampling Plot</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-122.25700500</westBoundingCoordinate>
+              <eastBoundingCoordinate>-122.25700500</eastBoundingCoordinate>
+              <northBoundingCoordinate>44.20694800</northBoundingCoordinate>
+              <southBoundingCoordinate>44.20694800</southBoundingCoordinate>
+              <boundingAltitudes>
+                <altitudeMinimum>0</altitudeMinimum>
+                <altitudeMaximum>0</altitudeMaximum>
+                <altitudeUnits>meter</altitudeUnits>
+              </boundingAltitudes>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <dataTable id="MV00301">
+      <alternateIdentifier>1</alternateIdentifier>
+      <entityName>MV00301</entityName>
+      <entityDescription>Throughfall amount and isotopic composition on Watershed 1: </entityDescription>
+      <physical>
+        <objectName>MV00301_v1.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-and/5178/3/d9680e5a53f400815c25f1727aa12fbb</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2010-10-01</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2011-07-31</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="MV00301.DBCODE">
+          <attributeName>DBCODE</attributeName>
+          <attributeDefinition>Database Code (assigned by FSDB data manager)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(5)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>MV003</code>
+                    <definition>FSDB Database code MV003</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.ENTITY">
+          <attributeName>ENTITY</attributeName>
+          <attributeDefinition>Entity number (data table number)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">1.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.YEAR">
+          <attributeName>YEAR</attributeName>
+          <attributeDefinition>Year of measurement</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(4,0)</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>number</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false"/>
+                  <maximum exclusive="false"/>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.PERIOD">
+          <attributeName>PERIOD</attributeName>
+          <attributeDefinition>Site code</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(4)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>FALL</code>
+                    <definition>Fall sampling period from 2010</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SPNG</code>
+                    <definition>Spring of 2011 collection period</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.START_DATETIME">
+          <attributeName>START_DATETIME</attributeName>
+          <attributeDefinition>date and time of deployment</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/9/2010 9:30:00 AM</minimum>
+                  <maximum exclusive="false">6/19/2011 7:00:00 PM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.END_DATETIME">
+          <attributeName>END_DATETIME</attributeName>
+          <attributeDefinition>date and of collectoin</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">10/10/2010 5:30:00 PM</minimum>
+                  <maximum exclusive="false">7/1/2011 11:00:00 AM</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.TYPE">
+          <attributeName>TYPE</attributeName>
+          <attributeDefinition>Throughfall, rainfall, or stemflow</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(2)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>TF</code>
+                    <definition>Throughfall</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SF</code>
+                    <definition>Stemflow</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RF</code>
+                    <definition>Rainfal</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.COLNUM">
+          <attributeName>COLNUM</attributeName>
+          <attributeDefinition>collector number (refers to a consistent point location)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(2,0)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.0000</minimum>
+                  <maximum exclusive="false">36.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.PLOT">
+          <attributeName>PLOT</attributeName>
+          <attributeDefinition>plot</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(10)</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>WS01_SA_L</code>
+                    <definition>WS1 Throughfall Collection, Landing of WS1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS01_SA_S</code>
+                    <definition>WS1 Throughfall Collection, South side (north-aspect) plot</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS01_SA_N</code>
+                    <definition>WS1 Throughfall Collection, North side (south-aspect) plot</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WS01_SA_F</code>
+                    <definition>WS1 Throughfall Collection, Fall sampling Plot</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.COLLECTORSIZE">
+          <attributeName>COLLECTORSIZE</attributeName>
+          <attributeDefinition>diameter of collector used</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">char(3)</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>93</code>
+                    <definition>93 millimeter diameter collector</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>97</code>
+                    <definition>97 millimeter diameter collector</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>155</code>
+                    <definition>155 millimeter diameter collector</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>No collector used</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.VOL">
+          <attributeName>VOL</attributeName>
+          <attributeDefinition>Volume measured in the collector</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,0)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>5.000000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">11000.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.DEPTH">
+          <attributeName>DEPTH</attributeName>
+          <attributeDefinition>Throughfall/rainfall depth (vol / collector's area)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(5,2)</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0000</minimum>
+                  <maximum exclusive="false">300.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.DEL18O">
+          <attributeName>DEL18O</attributeName>
+          <attributeDefinition>Oxygen-18 as compared to the Vienna Standard Mean Ocean Water (VSMOW)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(6,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.070000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-16.0000</minimum>
+                  <maximum exclusive="false">-5.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute id="MV00301.DEL2H">
+          <attributeName>DEL2H</attributeName>
+          <attributeDefinition>Deuterium (heavy hydrogen) as compared to the Vienna Standard Mean Ocean Water (VSMOW)</attributeDefinition>
+          <storageType typeSystem="Microsoft SQL Server 2008">numeric(7,2)</storageType>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <precision>0.280000</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-200.0000</minimum>
+                  <maximum exclusive="false">-30.0000</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <constraint id="MV00301.PRIMARY">
+        <primaryKey>
+          <constraintName>PRIMARY</constraintName>
+          <key>
+            <attributeReference>MV00301.COLNUM</attributeReference>
+            <attributeReference>MV00301.START_DATETIME</attributeReference>
+            <attributeReference>MV00301.PLOT</attributeReference>
+            <attributeReference>MV00301.TYPE</attributeReference>
+          </key>
+        </primaryKey>
+      </constraint>
+      <constraint id="MV00301.NOTNULL">
+        <notNullConstraint>
+          <constraintName>NOTNULL</constraintName>
+          <key>
+            <attributeReference>MV00301.COLNUM</attributeReference>
+            <attributeReference>MV00301.END_DATETIME</attributeReference>
+            <attributeReference>MV00301.START_DATETIME</attributeReference>
+            <attributeReference>MV00301.DBCODE</attributeReference>
+            <attributeReference>MV00301.ENTITY</attributeReference>
+            <attributeReference>MV00301.PERIOD</attributeReference>
+            <attributeReference>MV00301.PLOT</attributeReference>
+            <attributeReference>MV00301.TYPE</attributeReference>
+            <attributeReference>MV00301.YEAR</attributeReference>
+          </key>
+        </notNullConstraint>
+      </constraint>
+      <numberOfRecords>500</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList>
+        <stmml:unit id="permil" multiplierToSI="0.001" name="permil"
+          parentSI="gramPerGram" unitType="massPerMass">
+          <stmml:description>parts per thousand, relative to a standard. for isotopes. Isotope data uses LC-delta=(Rx/Rs-1)*1000</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="millimeters" multiplierToSI="0.001"
+          name="millimeters" parentSI="meter" unitType="length">
+          <stmml:description>millimeters; .001 meters</stmml:description>
+        </stmml:unit>
+        <stmml:unit id="milliliters" multiplierToSI="0.000001"
+          name="milliliters" parentSI="meterCubed" unitType="volume">
+          <stmml:description>milliliters; 1/1000 of a liter</stmml:description>
+        </stmml:unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

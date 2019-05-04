@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.3240.4"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>HF015</alternateIdentifier>
+    <title>Hydrologic response units (base units for PRMS streamflow model), Andrews Experimental Forest, 1993</title>
+    <creator>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Gordon</givenName>
+        <givenName>E.</givenName>
+        <surName>Grant</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7328</phone>
+      <electronicMailAddress>gordon.grant@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>ggrant@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/wpg/gordon.htm</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Alok</givenName>
+        <givenName>K.</givenName>
+        <surName>Sikka</surName>
+      </individualName>
+      <address/>
+      <phone/>
+    </creator>
+    <metadataProvider>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Gordon</givenName>
+        <givenName>E.</givenName>
+        <surName>Grant</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7328</phone>
+      <electronicMailAddress>gordon.grant@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>ggrant@fs.fed.us</electronicMailAddress>
+      <onlineUrl>http://www.fsl.orst.edu/wpg/gordon.htm</onlineUrl>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>George</givenName>
+        <givenName>W.</givenName>
+        <surName>Lienkaemper</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW ResearchStation;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7343</phone>
+      <electronicMailAddress>geo@fsl.orst.edu</electronicMailAddress>
+      <electronicMailAddress>george.lienkaemper@usgs.gov</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+      <role>Distributor</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+      <role>Abstractor</role>
+    </associatedParty>
+    <pubDate>2005-07-25</pubDate>
+    <abstract>
+      <para>Hydrologic Response Units are used as base units for the Precipitation-Runoff Modeling System (PRMS) streamflow model.  Created by Alok Sikka as part of landscape runoff modeling.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Hydrologic modeling</keyword>
+      <keyword keywordType="theme">Hydrologic processes</keyword>
+      <keyword keywordType="theme">Hydrology - vegetation model</keyword>
+      <keyword keywordType="theme">Streamflow</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <additionalInfo>
+      <para>All intermediate coverages reside on optical disk as well as AMLs for determining dominant aspect, soil, and seral stage and mean slope and elevation.  These programs are named: domaspect.aml, domsoil.aml, rveg.aml, elevmean.aml and slopeavg.aml.  These parameters are required by the PRMS model.</para>
+    </additionalInfo>
+    <intellectualRights>
+      <para>Data Use Agreement:</para>
+      <para> Any Andrews Experimental Forest data set and accompanying metadata available on these web pages can be downloaded for academic, research, recreational, and other professional purposes. Permission to download data sets is granted to the Data User without a fee subject to the following terms. The Data User will: </para>
+      <para>
+        <itemizedlist>
+          <listitem>
+            <para> notify the designated contact (e.g., Principle Investigator or Data Set Contact) when any derivative work based on or derived from the data and documentation is distributed;
+		</para>
+          </listitem>
+          <listitem>
+            <para> notify users that such derivative work is a modified version and not the original data and documentation distributed by the Andrews LTER;
+		</para>
+          </listitem>
+          <listitem>
+            <para> not redistribute original data and documentation; 
+		</para>
+          </listitem>
+          <listitem>
+            <para> acknowledge the support of the Andrews LTER and appropriate NSF Grant numbers in any publications using these data and documentation. (See general acknowledgement below and see web page for specific data citation for each study data set);
+		</para>
+          </listitem>
+          <listitem>
+            <para> send two reprints of any publications resulting from use of the data and documentation to the following address:  Andrews Experimental Forest LTER Program, c/o Don Henshaw, Forestry Sciences Lab, 3200 SW Jefferson Way, Corvallis, OR 97331
+		</para>
+          </listitem>
+        </itemizedlist>
+      </para>
+      <para> By using or copying these data and documentation, the Data User agrees to abide by the terms of this agreement. The Andrews Experimental Forest LTER Site shall have the right to terminate this agreement immediately by written notice upon the Data User's breach of, or non-compliance with, any of its terms. The Data User may be held responsible for any misuse that is caused or encouraged by the Data User's failure to abide by the terms of this agreement. Thank you for your cooperation. We hope your collaboration with our site is a productive one!</para>
+      <para> Disclaimer:  While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The Andrews Experimental Forest LTER shall not be liable for damages resulting from any use or misinterpretation of data sets.</para>
+      <para>General acknowledgement:  Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. </para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=HF015&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Andrews Experimental Forest within the Willamette National Forest, western Cascades, Oregon, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.26108100</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.09971900</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.28020000</northBoundingCoordinate>
+          <southBoundingCoordinate>44.19567900</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1993-10-06</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>1993-10-06</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>For use with the PRMS streamflow model. HRUs were created using a combination of watershed subbasins, soils, hydrography, and vegetation data layers.  The combined coverage was edited to for use in the model. Soil polygons were grouped according to soil texture, other component layers were of good quality.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>GIS coverage creation date.</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>1993-06-10</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Metadata files created in ARC/catalog as HTML format.  ARC/Info Export files, shape files, or other data file on ftp.fsl.orst.edu.</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2004-01-16</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>Upper level gis metadata (catalog, databases, entity, sub_entity, catalog_component, cross_reference, update_history) restructured and moved into SQLServer metadata database LTERMETA.</changeScope>
+        <oldValue>Version3</oldValue>
+        <changeDate>2005-06-16</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Theresa</givenName>
+        <givenName>J.</givenName>
+        <surName>Valentine</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7333</phone>
+      <electronicMailAddress>theresa.valentine@oregonstate.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - HF015</para>
+          <para>HF01501: HRUs were created using a combination of watershed subbasins, soils, hydrograpy, and vegetation data layers. The combined coverage was edited for use in the model.
+</para>
+          <para>All intermediate coverages reside on optical disk as well as AMLs for determining dominant aspect, soil, and seral stage and mean slope and elevation. These programs are named: domaspect.aml, domsoil.aml, rveg.aml, elevmean.aml, and slopeavg.aml. These parameters are required by the PRMS model. 
+</para>
+          <para>Dataset did not line up with existing UTM Zone 10, NAD27 data. An earlier shift was done. George Lienkaemper corrected by the following procedure: Dataset moved by projecting it to NAD83 with an x shift of 84.0 and a y shift or 10.0. Project define your new coverage as NAD27 </para>
+          <para>Coverage was converted to a shape file and projected to Nad83 Datum.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>HJ Andrews Experimental Forest;PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <spatialVector>
+      <alternateIdentifier>HF01501</alternateIdentifier>
+      <entityName>HF01501</entityName>
+      <entityDescription>Hydrologic Response Units. Base units for PRMS streamflow model. Created by Alok Sikka as part of landscape runoff modeling.</entityDescription>
+      <physical>
+        <objectName>hrus</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip file with ARC/INFO shape file </formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/3240/4/1f45ef0d3612f4a15bf087ec1f95d851</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>HRUs were created using a combination of watershed subbasins, soils, hydrograpy, and vegetation data layers. The combined coverage was edited for use in the model. All intermediate coverages reside on optical disk as well as AMLs for determining dominant aspect, soil, and seral stage and mean slope and elevation. These programs are named: domaspect.aml, domsoil.aml, rveg.aml, elevmean.aml, and slopeavg.aml. These parameters are required by the PRMS model.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Dataset did not line up with existing UTM Zone 10, NAD27 data. An earlier shift was done. George Lienkaemper corrected by the following proceedure: Dataset moved by projecting it to NAD83 with an xshift of 84.0 and a yshift or 10.0. Projectdefine the new coverage as NAD27</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>coverage was converted to a shapefile and projected from NAD27 to NAD83</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AREA</attributeName>
+          <attributeDefinition>Area of feature in internal units squared.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Positive real numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PERIMETER</attributeName>
+          <attributeDefinition>Perimeter of feature in internal units.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Positive real numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HRUS_</attributeName>
+          <attributeDefinition>Internal feature number, from coverage format.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HRUS_ID</attributeName>
+          <attributeDefinition>user defined  feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TENTHRU3_E</attributeName>
+          <attributeDefinition>intermediate reference number from tenthru3 layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TENTHRU3_1</attributeName>
+          <attributeDefinition>intermediate reference number from tenthru3 layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TENTHRU_E1</attributeName>
+          <attributeDefinition>intermediate reference number from tenthru layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TENTHRU__1</attributeName>
+          <attributeDefinition>intermediate reference number from tenthru layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOILVEG_E1</attributeName>
+          <attributeDefinition>intermediate reference number from spoilveg layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SOILVEG__1</attributeName>
+          <attributeDefinition>ntermediate reference number from spoilveg layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>U1CODE</attributeName>
+          <attributeDefinition>intermediate reference number (not part of the product)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HFBAS_PJ_</attributeName>
+          <attributeDefinition>ntermediate reference number from hfbas_pj layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HFBAS_PJ_I</attributeName>
+          <attributeDefinition>ntermediate reference number from hfbas_pj layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GRID_CODE</attributeName>
+          <attributeDefinition>intermediate analysis code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition> whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ELEVATION_</attributeName>
+          <attributeDefinition>intermediate reference number, for the elevation layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ELEVATION1</attributeName>
+          <attributeDefinition>intermediate reference number, for the elevation layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HECTARES</attributeName>
+          <attributeDefinition>area in hectares (area / 10000)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>hectares calculated from area /10000</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GAGWS_</attributeName>
+          <attributeDefinition>intermediate reference number, for the gagws layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>GAGWS_ID</attributeName>
+          <attributeDefinition>intermediate reference number, for the gagws layer</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique whole number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WS_</attributeName>
+          <attributeDefinition>gaged watershed number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>Watershed 1</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>Watershed 2</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>Watershed 3</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>Watershed 6</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>Watershed 8</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MAC</code>
+                    <definition>Mack Creek Watershed</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>EDGE</attributeName>
+          <attributeDefinition>polygon perimeter  (value = kilometer)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>kilometers calculated from perimeter / 1000</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ACODE</attributeName>
+          <attributeDefinition>aspect code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>10000</code>
+                    <definition>315 - 45 degrees North</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>30000</code>
+                    <definition>45 - 135 degrees East</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>50000</code>
+                    <definition>135 - 225 degrees South</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>70000</code>
+                    <definition>225 - 315 degrees West</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VCODE</attributeName>
+          <attributeDefinition>predominant vegetation code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>200</code>
+                    <definition>brushfields</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>300</code>
+                    <definition>open canopy saplings</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>400</code>
+                    <definition>closed canopy small trees</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>500</code>
+                    <definition>closed canopy large trees</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SCODE</attributeName>
+          <attributeDefinition>soil series</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>01</code>
+                    <definition>quarries</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>02</code>
+                    <definition>convoy</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>03</code>
+                    <definition>quentin</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>10</code>
+                    <definition>wetland</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>12</code>
+                    <definition>carpenter</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>20</code>
+                    <definition>rockland</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>21</code>
+                    <definition>flunky</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>22</code>
+                    <definition>blue river</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>24</code>
+                    <definition>tidbits</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>29</code>
+                    <definition>lucky boy</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>41</code>
+                    <definition>limberlost</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>44</code>
+                    <definition>budworm</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>45</code>
+                    <definition>slipout</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>51</code>
+                    <definition>frissell</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>55</code>
+                    <definition>mckenzie river</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SLCODE</attributeName>
+          <attributeDefinition>slope  (percent)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>computer generated</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>DCODE</attributeName>
+          <attributeDefinition>slope code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1000</code>
+                    <definition>10 - 20 degrees</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2000</code>
+                    <definition>20 -30 degrees</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3000</code>
+                    <definition>30 - 40 degrees</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HRU_CODE</attributeName>
+          <attributeDefinition>combination of ecode, acode, vcode, dcode, scode</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Example:      hru-code = 311412
+
+     Elevation 800 - 1200 meters
+     Aspect North
+     Slope 10 - 20 degrees
+     Vegetation small trees
+     Soil carpenter
+</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ECODE</attributeName>
+          <attributeDefinition>elevation code</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>400000</code>
+                    <definition>1200 - 1600 meters</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>300000</code>
+                    <definition>800 - 1200 meters</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>200000</code>
+                    <definition>400 - 800 meters</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>HRU_NUM</attributeName>
+          <attributeDefinition>hru reference number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whole unique number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ASP_MODE</attributeName>
+          <attributeDefinition>dominant aspect value in hru</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>north (337.5 - 22.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>northeast (22.5 - 67.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>east (67.5 - 112.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>4</code>
+                    <definition>southeast (112.5 - 157.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>5</code>
+                    <definition>south (157.5 - 202.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>6</code>
+                    <definition>southwest (202.5 - 247.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>7</code>
+                    <definition>west (247.5 - 292.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>8</code>
+                    <definition>northwest (292.5 - 337.5 degrees)</definition>
+                    <source>FSL Metadata Document</source>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SLOPE_MEAN</attributeName>
+          <attributeDefinition>mean slope value of polygon</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>values are in degrees</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>XELEV</attributeName>
+          <attributeDefinition>mean elevation of polygon (meters)</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whole integer representing elevation in meters</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+      <geometricObjectCount>84</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+  </dataset>
+</eml:eml>

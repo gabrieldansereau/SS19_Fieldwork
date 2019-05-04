@@ -1,0 +1,412 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="knb-lter-sbc.56.1" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd"><access authSystem="knb" order="denyFirst" scope="document"><allow><principal>uid=sbc,o=LTER,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>uid=j_dugan,o=LTER,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>uid=mobrien,o=LTER,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>uid=jbyrnes,o=LTER,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>public</principal><permission>read</permission></allow></access><dataset scope="document"><shortName>kelp forest food web</shortName><title>SBC LTER: Reef: Feeding relationships for kelp forest species</title><creator id="sbc-boilerplate-creator_SBC" scope="system" system="sbclter"><organizationName>SBCLTER</organizationName><address scope="document"><deliveryPoint>Santa Barbara Coastal LTER</deliveryPoint><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-6150</postalCode><country>United States</country></address><onlineUrl>http://sbc.lternet.edu</onlineUrl></creator><creator id="Jarret E. Byrnes" scope="document"><individualName><givenName>Jarret E.</givenName><surName>Byrnes</surName></individualName><positionName>Post Doctoral Associate</positionName><address scope="document"><deliveryPoint>National Center for Ecological Analysis and Synthesis</deliveryPoint><deliveryPoint>735 State Street, Suite 300</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93101</postalCode><country>United States</country></address><phone phonetype="voice">805-892-2512</phone><electronicMailAddress>byrnes@nceas.ucsb.edu</electronicMailAddress></creator><creator id="dreed" scope="document"><individualName><salutation>Dr.</salutation><givenName>Daniel</givenName><surName>Reed</surName></individualName><address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-6150</postalCode><country>United States</country></address><phone phonetype="voice">805 893 8363</phone><electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress></creator><creator id="Bradley J. Cardinale" scope="document"><individualName><givenName>Bradley J.</givenName><surName>Cardinale</surName></individualName><address scope="document"><deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint><deliveryPoint>Univeristy of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-9620</postalCode><country>United States</country></address><phone phonetype="voice">805-893-4157</phone><electronicMailAddress>cardinale@lifesci.ucsb.edu</electronicMailAddress></creator><creator id="Kyle C. Cavanaugh" scope="document"><individualName><givenName>Kyle C.</givenName><surName>Cavanaugh</surName></individualName><address scope="document"><deliveryPoint>Institute for Computational Earth System Science</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106</postalCode><country>United States</country></address><phone phonetype="voice">805-893-8116</phone><electronicMailAddress>kyle@icess.ucsb.edu</electronicMailAddress></creator><creator id="Sally J. Holbrook" scope="document"><individualName><givenName>Sally J.</givenName><surName>Holbrook</surName></individualName><address scope="document"><deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106</postalCode><country>United States</country></address><phone phonetype="voice">805-893-3956</phone><electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress></creator><creator id="Russell J. Schmitt" scope="document"><individualName><givenName>Russell J.</givenName><surName>Schmitt</surName></individualName><address scope="document"><deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-9620</postalCode><country>United States</country></address><phone phonetype="voice">805-893-2051</phone><electronicMailAddress>schmitt@lifesci.ucsb.edu</electronicMailAddress></creator><associatedParty scope="document"><individualName><salutation>Ms.</salutation><givenName>Shannon</givenName><surName>Harrer</surName></individualName><address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-6150</postalCode><country>United States</country></address><phone phonetype="voice">805 893 7295</phone><electronicMailAddress>harrer@msi.ucsb.edu</electronicMailAddress><onlineUrl>sbc.lternet.edu</onlineUrl><role>Point of Contact</role></associatedParty><pubDate>2011</pubDate><abstract><para>These data are an assembled food web for all species sampled in the SBC LTER annual kelp
+        forest community surveys. Relationships are taken from literature review on diets and
+        consumption habits of target species, plus searches of theses, grey literature, and student
+        report databases at major west coast libraries. Only feeding observations from studies that
+        showed direct consumption or provided strong evidence of a direct feeding relationship
+        between two taxa were used. Our final food web was revised and verified after consultation
+        with several experts in the field of kelp forest community ecology. See Methods section for
+        complete information on cited literature and contributing experts.</para><para>These data represent Table S1 for Appendix S1 for a published paper:<ulink url="http://dx.doi.org/10.1111/j.1365-2486.2011.02409.x">Byrnes, J. E., D. C. Reed, B. J.
+          Cardinale, K. C. Cavanaugh, S. J. Holbrook and R. J. Schmitt. 2011. Climate-driven
+          increases in storm frequency simplify kelp forest food webs. Global Change Biology, 17:
+          2513–2524. doi: 10.1111/j.1365-2486.2011.02409.x</ulink>.</para><!--from paper
+        &lt;para&gt;
+        food web relationships using 
+        
+        Climate models predict a dramatic increase in the annual frequency and severity of
+        extreme weather events during the 14 next century. Here we show that increases in the annual
+        frequency of severe storms lead to a decrease in the diversity 15 and complexity of food
+        webs of giant kelp forests, one of the most productive habitats on Earth. We demonstrate
+        this 16 by linking natural variation in storms with measured changes in kelp forest food web
+        structure in the Santa Barbara 17 Channel using structural equations modeling (SEM). We then
+        match predictions from statistical models to results 18 from a multiyear kelp removal
+        experiment designed to simulate frequent large storms. Both SEM model s and 19 experiments
+        agree: if large storms remain at their current annual frequency (roughly one major
+        kelp-removing storm 20 every 3.5 years), periodic storms help maintain the complexity of
+        kelp forest food webs. However, if large storms 21 increase in annual frequency and begin to
+        occur year after year, kelp forest food webs become less diverse and 22 complex as species
+        go locally extinct. The loss of complexity occurs primarily due to decreases in the
+        diversity and 23 complexity of higher trophic levels. Our findings demonstrate that shifts
+        in climate-driven disturbances that affect 24 foundation species are likely to have impacts
+        that cascade through entire ecosystems.&lt;/para&gt;--></abstract><!--TODO: KEY WORDS--><keywordSet><keyword keywordType="theme">Santa Barbara Coastal</keyword><keyword keywordType="theme">LTER</keyword></keywordSet><keywordSet><keyword keywordType="theme">Disturbance Patterns</keyword><keyword keywordType="theme">Population Studies</keyword><keywordThesaurus>LTER Core Research Areas</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Kelp Forest</keyword><keyword keywordType="theme">Reef</keyword><keywordThesaurus>Santa Barbara Coastal LTER: Habitats</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Community Structure</keyword><keywordThesaurus>Santa Barbara Coastal LTER: Measurement Types</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="place">Arroyo Burro Reef</keyword><keyword keywordType="place">Arroyo Hondo Reef</keyword><keyword keywordType="place">Arroyo Quemado Reef</keyword><keyword keywordType="place">Bullito Reef</keyword><keyword keywordType="place">Carpinteria Reef</keyword><keyword keywordType="place">Goleta Bay</keyword><keyword keywordType="place">Isla Vista</keyword><keyword keywordType="place">Mohawk Reef</keyword><keyword keywordType="place">Naples Reef</keyword><keywordThesaurus>Santa Barbara Coastal LTER: Places</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">long term ecological research</keyword><keyword keywordType="theme">transects</keyword><keyword keywordType="theme">marine</keyword><keyword keywordType="theme">species</keyword><keyword keywordType="theme">organism</keyword><keyword keywordType="theme">abundance</keyword><keyword keywordType="theme">forests</keyword><keyword keywordType="theme">biomass</keyword><keywordThesaurus>LTER Controlled Vocabulary</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Reefs</keyword><keyword keywordType="theme">Species</keyword><keyword keywordType="theme">Cover</keyword><keyword keywordType="theme">Estimation</keyword><keyword keywordType="theme">Kelps</keyword><keyword keywordType="theme">Density</keyword><keywordThesaurus>NBII Biocomplexity Thesaurus</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">ongoing</keyword><keyword keywordType="theme">climate change</keyword><keyword keywordType="theme">disturbance</keyword><keyword keywordType="theme">food web</keyword><keyword keywordType="theme">food web</keyword><keyword keywordType="theme">kelp forest</keyword><keyword keywordType="theme">network theory</keyword><keyword keywordType="theme">structural equation modeling</keyword><keyword keywordType="theme">kelp forest food web</keyword></keywordSet><intellectualRights><para><itemizedlist><listitem><para>The user of SBC LTER data agrees to contact the data owner (i.e., the SBC
+              investigator responsible for data) prior to publishing. Where appropriate, users whose
+              projects are integrally dependent on SBC LTER data are encouraged to consider
+              collaboration and/or co-authorship with the data owner.</para></listitem><listitem><para>The user agrees to cite SBC LTER in all publications that use SBC LTER data by
+              inlcuding the following statement in the Acknowledgments: &quot;Data were provided by the
+              Santa Barbara Coastal LTER, funded by the US National Science Foundation (OCE
+              0620276)&quot;.</para></listitem><listitem><para>The user agrees to send the full citation of any publication using SBC LTER data
+              to sbclter@msi.ucsb.edu</para></listitem><listitem><para>Users are prohibited from selling or redistributing any data provided by SBC
+              LTER.</para></listitem><listitem><para>Extensive efforts are made to ensure that online data are accurate and up to date,
+              but SBC LTER will not take responsibility for any errors that may exist.</para></listitem><listitem><para>The user agrees also to adhere to the Data Use Agreement of the Long Term
+              Ecological Research Network.</para></listitem><listitem><para>Any violation of the terms of this agreement will result in immediate forfeiture
+              of the data and loss of access privileges to other SBC LTER data sets.</para></listitem><listitem><para>SBC LTER is committed to protecting the privacy and accuracy of your confidential
+              information. See our Privacy Policy for more information.</para></listitem></itemizedlist></para></intellectualRights><distribution id="Santa Barbara Coastal LTER" scope="system" system="sbclter"><online><url function="information">http://sbc.lternet.edu</url></online></distribution><coverage scope="document"><geographicCoverage id="sbc-boilerplate-geoCov_SBC" system="sbclter" scope="system"><geographicDescription>The Santa Barbara Coastal LTER research area extends 
+        from Point Conception (W) to the mouth of the Santa Clara River (E) and from 
+        the Santa Ynez Mountains (N) to the north shores of the Channel Islands (S), 
+        California, USA</geographicDescription><boundingCoordinates><westBoundingCoordinate>-120.475</westBoundingCoordinate><eastBoundingCoordinate>-119.255</eastBoundingCoordinate><northBoundingCoordinate>34.531</northBoundingCoordinate><southBoundingCoordinate>34.000</southBoundingCoordinate></boundingCoordinates></geographicCoverage></coverage><contact id="sbc-boilerplate-contact_SBC" scope="system" system="sbclter"><positionName>Information Manager, Santa Barbara Coastal LTER</positionName><address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-6150</postalCode><country>United States</country></address><phone phonetype="voice">805 893 2071</phone><electronicMailAddress>sbclter@msi.ucsb.edu</electronicMailAddress><onlineUrl>http://sbc.lternet.edu</onlineUrl></contact><publisher id="sbc-boilerplate-publisher_SBC" scope="system" system="sbclter"><organizationName>Santa Barbara Coastal Long Term Ecological Research
+        Project</organizationName></publisher><pubPlace>Santa Barbara, CA, USA</pubPlace><methods><!--TO DO  
+      &lt;methodStep&gt;
+        &lt;description&gt;
+          &lt;section&gt;
+            &lt;title&gt;R Software&lt;/title&gt;
+            &lt;para&gt;R code for determining food web relationships under wave stress using structural
+            equation modeling &lt;/para&gt;--><!--TO DO 
+            &lt;para&gt;NOTE TO JARRET: For now, because of time constraints, we will include a link to
+              software here. Later, we will structure metadata for the whole project, and publish
+              the software package as its own product, along with links to supporting datasets.
+            &lt;/para&gt;
+          &lt;/section&gt;
+        &lt;/description&gt;
+        &lt;software&gt;
+          &lt;title&gt;INSERT TITLE&lt;/title&gt;
+          &lt;creator&gt;
+            &lt;individualName&gt;
+              &lt;surName&gt;Byrnes&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/creator&gt;
+          &lt;implementation&gt;
+            &lt;distribution&gt;
+              &lt;online&gt;
+                &lt;url&gt;http://sbc.lternet.edu/INSERT/PATH/HERE&lt;/url&gt;
+              &lt;/online&gt;
+            &lt;/distribution&gt;
+            &lt;programmingLanguage&gt;R&lt;/programmingLanguage&gt;
+          &lt;/implementation&gt;
+          &lt;version&gt;0.1&lt;/version&gt;
+        &lt;/software&gt;
+        &lt;software&gt;
+          &lt;title&gt;The sem.additions package for R &lt;/title&gt;
+          &lt;creator&gt;
+            &lt;individualName&gt;
+              &lt;givenName&gt;John&lt;/givenName&gt;
+               &lt;surName&gt;Fox&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/creator&gt;
+          &lt;creator&gt;
+            &lt;individualName&gt;
+              &lt;givenName&gt;Jarrett&lt;/givenName&gt;
+              &lt;givenName&gt;E&lt;/givenName&gt;
+              &lt;surName&gt;Byrnes&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/creator&gt;
+          &lt;implementation&gt;
+            &lt;distribution&gt;
+              &lt;online&gt;
+                &lt;url&gt;http://cran.r-project.org/web/packages/sem/index.html/&lt;/url&gt;
+              &lt;/online&gt;
+            &lt;/distribution&gt;
+            &lt;programmingLanguage&gt;R&lt;/programmingLanguage&gt;
+          &lt;/implementation&gt;
+          &lt;version&gt;3 - Alpha&lt;/version&gt;
+        &lt;/software&gt;
+        &lt;dataSource&gt;
+          &lt;title&gt;INSERT TITLE, DATASET 1&lt;/title&gt;
+          &lt;creator&gt;
+            &lt;individualName&gt;
+              &lt;surName&gt;Reed&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/creator&gt;
+          &lt;contact&gt;
+            &lt;individualName&gt;
+              &lt;surName&gt;Reed&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/contact&gt;
+        &lt;/dataSource&gt;
+        &lt;dataSource&gt;
+          &lt;title&gt;INSERT TITLE, DATASET 2&lt;/title&gt;
+          &lt;creator&gt;
+            &lt;individualName&gt;
+              &lt;surName&gt;Reed&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/creator&gt;
+          &lt;contact&gt;
+            &lt;individualName&gt;
+              &lt;surName&gt;Reed&lt;/surName&gt;
+            &lt;/individualName&gt;
+          &lt;/contact&gt;
+        &lt;/dataSource&gt;
+        &lt;/methodStep&gt;--><methodStep><description><section><title>Kelp Forest Food Web Assembly</title><para>In order to assemble a food web for all species sampled in the SBC LTERs summer
+              kelp forest community surveys, we conducted a literature review on diets and
+              consumptive habits of target species. After obtaining information from several general
+              reviews of the natural history of kelp forest fish and invertebrates (Limbaugh,
+              1955; Quast, 1968; Foster &amp; Schiel, 12 1985; Hobson &amp; Chess, 1986, 2001) we
+              performed a search for each species using ISI Web of Science, Google Scholar, Avano,
+              and Aquatic Commons. Each species name was searched with the additional keywords of
+              ‘diet*’, ‘predator’, ‘prey’, ‘gut content*’, and ‘feeding’ (asterisks used to expand
+              search terms). In addition, we searched these five keywords in theses, grey
+              literature, and student report databases at the Cadet Hand Library at the Bodega
+              Marine Laboratory, the Moss Landing Marine Laboratory Library, the Miller Library at
+              the Hopkins Marine Station, and the Scripps Institute of Oceanography Library. Only
+              feeding observations from studies that showed direct consumption (e.g., either a
+              feeding observation in the field, gut contents, or lab preference study) or provided
+              strong evidence of a direct feeding relationship between two taxa were used. Our final
+              food web was revised and verified after consultation with several experts in the field
+              of kelp forest community ecology.</para><para>Studies had to meet different criteria depending on their origin in order to be
+              used. Information on feeding habits was obtained from papers in the peer reviewed
+              literature, unpublished dissertations, government reports, observations from
+              undergraduate field classes, or from consultation with experts. This information could
+              be from field observations, gut contents analyses, laboratory experiments (i.e., it
+              was assumed that researchers were creating treatments from a priori knowledge of the
+              natural history of organisms), or summaries of natural history information. Only field
+              and laboratory observations with quantitative data were used from PhD dissertations,
+              Masters theses, and agency reports. Only direct field observations or gut contents
+              information was used from undergraduate theses and student reports. All references are
+              reported in the feeding list. When completed, we solicited expert opinions from the
+              scientists (below)</para></section></description></methodStep><methodStep><description><section><title>Notes</title><para>The quality of data varied greatly by taxon and author. In many cases, diet
+              information was taxonomically vague (e.g., “Gastropods”). We therefore categorized the
+              information by the level of taxonomic resolution provided. If information was provided
+              at the genus or family level, all prey items in that genus or family are listed.
+              Additionally, SBC LTER associates individual species with a ‘group’ categorization
+              that blends Class and Phyla in many cases (e.g., Gastropods versus Bryozoans). This
+              matched how data were often reported in the literature, and as such, Group has
+              therefore been included as the coarsest level of categorization. The level of
+              taxonomic specificity for each prey item is listed in a separate data column. Analyses
+              were carried out using each level of taxonomic uncertainty (e.g. both with a stringent
+              ‘species only’ analysis as well as a ‘group and below’ analysis). As results did not
+              qualitatively differ, we here only report results of the species only analysis. We
+              report the higher-level information in order to provide a broader picture of
+              kelp-forest food webs, and we hope that it will be refined by future efforts.</para><para>Note that some consumer and prey species are not listed because they are not
+              sampled by SBC LTER. See the supplemental list of all species sampled in SBC LTER
+              monitoring.</para><para>In addition, we applied the following criteria to clarify feeding links where
+              ambiguous:</para><para>1) If a species was a filter feeder or alga, no prey were listed.</para><para>2) Only predators and prey for which the SBC LTER collects data for are listed.
+              For example, while nudibranchs are consumed by several species listed here, the SBC
+              LTER collects no information on nudibranchs, and hence they are not listed as prey.
+              Similarly, only one type of amphipod – Amphipod Tube Mat – is listed, and many species
+              consumed amphipods. It is therefore found in the diets of a wide variety of
+              species.</para><para>3) SBC LTER samples several categories of fish that are not identified to the
+              species level. They were dealt with as follows:</para><para>Embiotocid spp. and Sebastes spp. – these typically referred to juvenile
+              Embiotocids or Rockfish respectively. As their diets are obviously not the same as
+              adults, they are only listed as eating amphipods.</para><para>Bothid spp. – This category was for unidentified flatfishes. We therefore used
+              the diets of several flounder species native to the area.</para><para>Gibbonsia spp. and Cottid spp. – These two fish groupings had species represented
+              in the data with detailed diets. We therefore combined diets of these other
+              represented species (which were typically quite similar) to create a diet for these
+              taxonomically broader groups. This was a conservative approach, as individuals sampled
+              within these two groups could have been one of the already listed species, but eluded
+              identification due to age or poor visibility.</para><para>4) In cases where information on prey was general, but a size range of prey was
+              provided, (Quast 1968), all prey of that taxon whose maximum size was less than the
+              maximum size given were listed as prey at the group level. Similarly, many species
+              consumed smaller individuals of a given prey species than are commonly observed in the
+              survey. We therefore assumed that if a large individual of a prey species was observed
+              in the survey, small individuals likely existed at the site as well. See additional
+              notes in table S1.</para><para>5) For two species no diet information was found – the sarcastic fringehead
+              Neoclinus blanchardi and the threaded abalone Haliotis kamtschatkana. Neoclinus was
+              excluded from the analysis as a predator, as it did not have sufficiently similar or
+              congeneric species in the data set. However, for Haliotis kamtschatkana, we have
+              listed all kelp species as potential prey. Because all other species of abalone
+              consumed kelp, this appeared to be a reasonable assumption. These species were also
+              rare within the dataset.</para><para>6) There is a surprising lack of detail on the diets of sea urchins in the
+              literature. This is largely due to their ability to rapidly grind and macerate their
+              prey. However, they are well known to completely denude vast areas of algae. The work
+              of Watanabe and Harrold was particularly helpful here, as it provides an example of
+              species that are eliminated after urchins move in as a front. As such, we have
+              generally assumed urchins will eat any algae. In our own work, we have observed purple
+              urchins Strongylocentrotus purpuratus removing all types of ascidians, sponges, and
+              bryozoans (Byrnes and Stachowicz 2009). There was also very little information on the
+              diet of the white sea urchin Lytechinus anamesus other than observations of it eating
+              other urchins (Coyer et al. 1987). We have therefore assumed that their diet is
+              similar to S. purpuratus.</para></section></description></methodStep><methodStep><description><section><title>Expert scientists:</title><para>Paul Dayton - Professor, Scripps Institution of Oceanography, University of
+              California San Diego, kelp forest community ecologist</para><para>Jim Watanabe - Lecturer, Hopkins Marine Station, Stanford, kelp forest
+              invertebrate community ecologist</para><para>Jack Engle – Research Biologist, Marine Science Institute, University of
+              California Santa Barbara, kelp forest community ecologist</para><para>Shane Anderson – Marine Collector, Marine Science Institute, University of
+              California Santa Barbara</para><para>Milton Love - Research Biologist, Marine Science Institute, University of
+              California Santa Barbara, ichthyologist</para><para>Larry Allen - Professor of Biology, California State University Northridge, fish
+              ecologist</para><para>Mark Steele - Assistant Professor of Biology, California State University
+              Northridge, fish ecologist</para><para>Based on these opinions, several feeding links were added, deleted, or refined to
+              a lower taxonomic level, and are marked as such in Supplementary Table 1.</para></section></description></methodStep><methodStep><description><section><title>Literature references for food web relationships</title><para>Ackerman, L. T. 1971. Contributions to the biology of the leopard shark, Triakis
+              semifasciata (Girard) in Elkhorn Slough, Monterey Bay, CA. M. S. Thesis. Sacramento
+              State College.</para><para>Alguilar Rosas, R. l. 1990. Qualitative analysis of the macroalgal diet of the
+              snail Astrea undosa Wood 1828 in Punta Banda, Maja California, Mexico. Ciencia Marina
+              16:111-120.</para><para>Allen, L. G. and T. E. Howey. 2001. Kelp Bass. California&apos;s Marine Living
+              Resources: A Status Report. California Department of Fish and Game.</para><para>Ambrose, R. F. 1984. Food preferences, prey availability, and the diet of Octopus
+              bimaculatus Verrill. Journal of Experimental Marine Biology and Ecology
+              77:29-44.</para><para>Anderson, T. W. 2001. Predator responses, prey refuges, and density-dependent
+              mortality of a marine fish. Ecology 82:245-257.</para><para>Annett, C. and R. Pierotti. 1984. Foraging behavior and prey selection of the
+              leather seastar Dermasterias imbricata. Marine Ecology Progress Series
+              14:197-206.</para><para>Barry, J. and M. Ehret. 1993. Diet, food preference, and algal availability for
+              fishes and crabs on intertidal reef communities in southern California. Environmental
+              Biology of Fishes 37:75-95.</para><para>Barry, J. P., M. M. Yoklavich, G. M. Cailliet, D. A. Ambrose, and B. S. Antrim.
+              1996. Trophic ecology of the dominant fishes in Elkhorn Slough, California, 1974-1980.
+              Estuaries 19:115-138.</para><para>Beaudreau, A. H. and T. E. Essington. 2007. Spatial, temporal, and ontogenetic
+              patterns of predation on rockfishes by lingcod. Transactions of the American Fisheries
+              Society 136:1438-1452.</para><para>Bellquist, L. F., C. G. Lowe, and J. E. Caselle. 2008. Fine-scale movement
+              patterns, site fidelity, and habitat selection of ocean whitefish (Caulolatilus
+              princeps). Fisheries Research 91:325-335.</para><para>Bingham, B. L. and L. F. Braithwaite. 1986. Defense adaptations of the
+              dendrochirote holothurian Psolus chitonoides Clark. Journal of Experimental Marine
+              Biology and Ecology 98:311-322.</para><para>Bray, R. N., A. C. Miller, S. Johnson, P. R. Krause, D. L. Robertson, and A. M.
+              Westcott. 1988. Ammonium excretion by macroinvertebrates and fishes on a subtidal
+              rocky reef in southern California. Marine Biology 100:21-30.</para><para>Breitburg, D. L. 1984. Residual effects of grazing: Inhibition of competitor
+              recruitment by encrusting coralline algae. Ecology 65:1136-1143.</para><para>Bryant, M. 1978. Ecological studies of the striped perch Embiotoca lateralis and
+              the kelp greenling Hexagrammus decagrammus in Carmel Bay, California. M. S. Thesis.
+              California State University Fresno.</para><para>Byrnes, J. E. and J. J. Stachowicz. 2009. The consequences of consumer diversity
+              loss: different answers from different experimental designs. Ecology
+              90:2879-2888.</para><para>Byrnes, J. E., J. J. Stachowicz, K. M. Hultgren, A. R. Hughes, S. V. Olyarnik, and
+              C. S. Thornber. 2006. Predator diversity strengthens trophic cascades in kelp forests
+              by modifying herbivore behavior. Ecology Letters 9:61-71.</para><para>Cowen, R. 1986. Site-specific differences in the feeding ecology of the California
+              sheephead, Semicossyphus pulcher (Labridae). Environmental Biology of Fishes
+              16:193-203.</para><para>Cowen, R. K. 1979. Trophic interactions within a central California kelp forest.
+              M. S. Thesis. California State University Hayward.</para><para>Cox, T. and S. Murray. 2006. Feeding preferences and the relationships between
+              food choice and assimilation efficiency in the herbivorous marine snail Lithopoma
+              undosum (Turbinidae). Marine Biology 148:1295-1306.</para><para>Coyer, J. A., J. M. Engle, R. F. Ambrose, and B. V. Nelson. 1987. Utilization of
+              purple and red sea urchins (Strongylocentrotus purpuratus Simpson and S. franciscanus
+              Agassiz) as food by the white sea urchin (Lytechinus anamesus Clark) in the field and
+              laboratory. Journal of Experimental Marine Biology and Ecology 105:21-38.</para><para>Curtner, W. W. 1917. Observations on the growth and habits of the red and black
+              abalones. M. S. Thesis. Stanford University.</para><para>Day, R. W. and R. W. Osman. 1981. Predation by Patiria miniata (Asteroidea) on
+              bryozoans: Prey diversity may depend on the mechanism of succession. Oecologia
+              51:300-309.</para><para>Dean, T. A., F. R. Jacobsen, K. Thies, and S. L. Lagos. 1988. Differential effects
+              of grazing by white sea urchins on recruitment of brown algae. Marine Ecology Progress
+              Series 48:99-102.</para><para>Domier, M. L. 2001. Giant sea bass. Pages 209-211 in W. S. Leet, C. M. Dewes, R.
+              Klingbeil, and E. J. Larson, editors. California&apos;s Living Marine Resources: A Status
+              Report. California Department of Fish and Game, Sacramento.</para><para>Duggins, D. O. 1981. Sea urchins and kelp: The effects of short-term changes in
+              urchin diet. Limnology and Oceanography 26:391-394.</para><para>Ebert, D. A. and T. B. Ebert. 2005. Reproduction, diet and habitat use of leopard
+              sharks, Triakis semifasciata (Girard), in Humboldt Bay, California, USA. Marine and
+              Freshwater Research 56:1089-1098.</para><para>Elliott, J. 1992. The role of sea anemones as refuges and feeding habitats for the
+              temperate fish Oxylebius pictus. Environmental Biology of Fishes 35:381-400.</para><para>Ellison, J. P., C. Terry, and J. S. Stephens. 1979. Food resource utilization
+              among five species of embiotocids at King Harbor, California, with preliminary
+              estimates of caloric intake. Marine Biology 52:161-169.</para><para>Elorduy-Garay, J. and J. Caraveo-Patiño. 1994. Feeding habits of the ocean
+              whitefish Caulolatilus princeps Jenyns 1842 (Pices: Branchiostegidae), in La Paz Bay,
+              B.C.S., Mexico. Ciencia Marina 20:199-218.</para><para>Engle, J. M. 1979. Ecology and growth of juvenile California spiny lobster,
+              Panulirus interruptus (Randall). Ph. D. Thesis. University of California San
+              Diego.</para><para>Fitzgerald, S. A. 1979. Dietary habits and food preferences of Pugettia producta
+              from the U.S. Coast Guard wharf and south jetty of the Bodega Harbor, Bodega Bay, CA.
+              Problems in Marine Biology. Unpublished manuscript at Bodega Marine Laboratory.
+              University of California Berkeley.</para><para>Foster, M. S. and D. R. Schiel. 1985. The Ecology of Giant Kelp Forests In
+              California: A Community Profile. Fish and Wildlife Service, U.S. Department of the
+              Interior.</para><para>Froese, R. and D. Pauly. 2009. FishBase. http://www.fishbase.org. Last accessed
+              October 10, 2009.</para><para>Gerard, V. A. 1976. Some aspects of material dynamics and energy flow in a kelp
+              forest in Monterey Bay, California. Ph. D. Thesis. University of California Santa
+              Cruz, Santa Cruz, CA.</para><para>Graham, M. H., B. S. Halpern, and M. H. Carr. 2008. Diversity and dynamics of
+              Californian subtidal kelp forests. Pages 103-134 in T. R. McClanahan and G. R. Branch,
+              editors. Food Webs and the Dynamics of Marine Benthic Ecosystems. Oxford University
+              Press.</para><para>Grossman, G. D. 1986. Food resource partitioning in a rocky intertidal fish
+              assemblage. Journal of Zoology (London) 1:317-355.</para><para>Halliday, E. B. B. 1991. The natural history and ecology of Astraea undosa in a
+              southern California kelp forest. M. S. Thesis. University of California Santa
+              Cruz.</para><para>Harris, L. G. 1991. Comparative ecology of subtidal actiniarians from the coasts
+              of California and the Gulf of Maine, USA. Hydrobiologia 216-217:271-278.</para><para>Harrold, C. 1981. Feeding ecology of the asteroid Pisaster giganteus in a kelp
+              forest system: Prey selection, predator-prey interactions, and energetics. Ph. D.
+              Thesis. University of California Santa Cruz.</para><para>Hart, J. L. 1973. Pacific Fishes of Canada. Fisheries Research Board of Canada,
+              Ottowa, Canada.</para><para>Hartman, H. 1983. The Importance of body size in the subtidal ecology of Norrisia
+              norrisii (Sowerby) (Gastropoda, Prosobranchia). Journal of Natural History
+              17:247-255.</para><para>Hartney, K. 1989. The foraging ecology of two sympatric gobiid fishes: importance
+              of behavior in prey type selection. Environmental Biology of Fishes 26:105-118.</para><para>Hilaski, R. 1972. Stomach contents of flatfish. M. A. Thesis. California State
+              University Fresno, Moss Landing Marine Labs.</para><para>Hines, A. H. 1982. Coexistence in a kelp forest: Size, population dynamics, and
+              resource partitioning in a guild of spider crabs (Brachyura, Majidae). Ecological
+              Monographs 52:179-198.</para><para>Hobday, A. J. and S. M. Rumsey. 1999. Population dynamics of the sheep crab
+              Loxorhynchus grandis (Majidae) Stimpson 1857 at La Jolla California. UC San Diego:
+              Scripps Institution of Oceanography.</para><para>Hobson, E. S. and J. R. Chess. 2001. Influence of trophic relations on form and
+              behavior among fishes and benthic invertebrates in some California marine communities.
+              Environmental Biology of Fishes 60:411-457.</para><para>Holbrook, S. J., R. J. Schmitt, and J. A. Coyer. 1985. Age-related dietary
+              patterns of sympatric adult surfperch. Copeia 1985:986-994.</para><para>Howard, D. K. and K. R. Silerberg. 2001. Kelp Greenling.in W. S. Leet, C. M.
+              Dewes, R. Klingbeil, and E. J. Larson, editors. California&apos;s Marine Living Resources:
+              A Status Report. California Department of Fish and Game.</para><para>Iampietro, P. J. 1999. Distribution, diet, and pigmentation of the northern kep
+              crab, Pugettia producta (Randall) in central California kelp forests. M. S. Thesis.
+              California State University Stanislaus.</para><para>Johnson, D. W. 2006. Predation, habitat complexity, and variation in
+              density-dependent mortality of temperate reef fishes. Ecology 87:1179-1188.</para><para>Johnson, K. 2005. Pugettia can be a cannibal on itself. Unpublished work on file
+              at the Bodega Marine Laboratory. Bodega Marine Lab.</para><para>Johnson, M. E. and H. J. Snook. 1935. Seashore Animals of the Pacific Coast.
+              Macmillan, New York.</para><para>Kohn, A. J. 1966. Food specialization in Conus in Hawaii and California. Ecology
+              47:1041-1043.</para><para>Korb, R. 2003. Lack of dietary specialization in adult Aplysia californica:
+              evidence from stable carbon isotope composition. Journal of the Marine Biological
+              Association of the UK 83:501-505.</para><para>Kosman, E. T., M. A. Colton, and R. J. Larson. 2007. Feeding preferences and
+              size-related dietary shifts of treefish (Scorpaenidae: Sebastes serriceps) off
+              southern California. California Fish and Game 93:40-48.</para><para>Krekorian, C. O., D. C. Sommerville, and R. F. Ford. 1974. Laboratory study of
+              behavioral interactions between the American lobster, Homarus americanus and the
+              California spiny lobster, Panulirus interruptus with comparative observations on the
+              rock crab. Fisheries Bulletin 72:1146-1159.</para><para>Kupfermann, I. and T. J. Carew. 1974. Behavior patterns of Aplysia californica in
+              its natural environment. Behavioral Biology 12:317-337.</para><para>Landenberger, D. E. 1968. Studies on selective feeding in the Pacific starfish
+              Pisaster in Southern California. Ecology 49:1062-1075.</para><para>Larson, R. J. 1972. The food habits of four kelp-bed rockfishes (Scorpaenidae,
+              Sebastes) off Santa Barbara, California. M. A. Thesis. University of California Santa
+              Barbara.</para><para>Leighton, D. and R. A. Boolootian. 1963. Diet and growth in the black abalone,
+              Haliotis cracerodii. Ecology 44:228-238.</para><para>Leighton, D. L. 1959. Diet and its relation to growth in the black abalone,
+              Haliotis cracherodii Leach. M. S. Thesis. University of California Los Angeles.</para><para>Leighton, D. L. 1966. Studies of food preference in algivorous invertebrates of
+              Southern California kelp beds. Pacific Science 20:104-113.</para><para>Limbaugh, C. 1955. Fish life in the kelp beds and the effects of kelp harvesting.
+              University of California San Diego.</para><para>Lindberg, R. G. 1955. Growth, population dynamics, and field behavior in the spiny
+              lobster, Panulirus interruptus (Randall). University of California Publications in
+              Zoology 59:157-248.</para><para>Lonhart, S. I. 2001. An invasive whelk as predator and prey: The ecology of
+              Kelletia kelletii in Monterey Bay, California. Ph. D. Thesis. University of California
+              Santa Cruz.</para><para>Love, M. 1996. Probably More Than You Want to Know About the Fishes of the Pacific
+              Coast. Really Big Press, Santa Barbara, CA.</para><para>Love, M. S., M. M. Yoklavich, and L. Thorsteinson. 2006. The Rockfishes of the
+              Northeast Pacific. University of California Press.</para><para>MacGinitie, G. E. 1937. Notes on the natural history of several marine Crustacea.
+              American Midland Naturalist 18:1031-1037.</para><para>Mauzey, K. P., C. Birkeland, and P. K. Dayton. 1968. Feeding behavior of asteroids
+              and escape responses of their prey in the Puget Sound region. Ecology
+              49:603-619.</para><para>Morris, R. H., D. R. Abbott, and E. C. Haderlie. 1980. Intertidal Invertebrates of
+              California. Stanford University Press.</para><para>Murie, D. J. 1995. Comparative feeding ecology of two sympatric rockfish
+              congeners, Sebastes caurinus (copper rockfish) and S. maliger (quillback rockfish).
+              Marine Biology 124:341-353.</para><para>Nakashima, R. 1974. Asteroid predation in Monterey Bay. B. S. Thesis. University
+              of California Santa Barbara.</para><para>Nichols, A. W. 1979. Predation by tidepool and nearshore fishes and its impact on
+              the rocky intertidal zone community. Unpublished manuscript on file at Hopkins Marine
+              Station Laboratory. Hopkins Marine Stations.</para><para>O&apos;Connell, C. P. 1953. The life history of the cabezon Scorpaenichthys marmoratus
+              (Ayres). M. A. Thesis. Stanford.</para><para>Page, H. M., J. E. Dugan, D. M. Schroeder, M. M. Nishimoto, M. S. Love, and J. C.
+              Hoesterey. 2007. Trophic links and condition of a temperate reef fish: comparisons
+              among offshore oil platform and natural reef habitats. Marine Ecology Progress Series
+              344:245-256.</para><para>Paul, A. J. and J. M. Feder. 1975. The food of the seastar Pycnopodia
+              helioanthoides (Brandt) in Prince William Sound, Alaska. Ophelia 14:15-22.</para><para>Pennings, S. C. 1962. The ecology of Aplysia californica at Santa Catalina Island,
+              CA: recruitment, specialization, and predation risk. Ph. D Thesis. University of
+              California Santa Barbara, Santa Barbara, CA.</para><para>Pennings, S. C. 1990. Size-related shifts in herbivory: specialization in the sea
+              hare Aplysia californica Cooper. Journal of Experimental Marine Biology and Ecology
+              142:43-61.</para><para>Pennings, S. C. 1991. Spatial and temporal variation in recruitment of Aplysia
+              californica Cooper: Patterns, mechanisms and consequences. Journal of Experimental
+              Marine Biology and Ecology 146:253-274.</para><para>Perez, M. M. 1981. The possible relationship between the feeding guilds of
+              selected species of rockfish (Scorpaenidae) and surfperch (Embiotocidae) and their
+              diet related parasites. B. A. Thesis. University of California Santa Cruz.</para><para>Quast, J. 1968. Observations on the food of the kelp-bed fishes. Pages 109-142 in
+              W. J. N. a. C. L. Hubbs, editor. Utilization of kelp-bed resources in southern
+              California. California Department of Fish and Game, Fish Bulletin.</para><para>Raith, M. R. 2007. Feeding preferenes of the marine gastropod Aplysia vaccaria.
+              B.S. Thesis. California State University Fullerton.</para><para>Robbins, E. A. 2006. Essential fish habitat in Santa Monica bay, San Pedro Bay,
+              and San Diego Bay: A reference guide for managers. M. S. Thesis. Duke
+              University.</para><para>Roberts, D. A. 1979. Food habits as an ecological partitioning mechanism in the
+              nearshore rockfishes (Sebastes) of Carmel Bay, CA. M. S. Thesis. San Francisco State
+              University.</para><para>Roberts, D. A., E. E. DeMartini, and K. M. Plummer. 1984. The feeding habits of
+              juvenile-small adult barred sand bass (Paralabrax nebulifer) in nearshore waters off
+              northern San Diego county. CalCOFI Reports 25:105-111.</para><para>Robles, C. and J. Robb. 1993. Varied carnivore effects and the prevalence of
+              intertidal algal turfs. Journal of Experimental Marine Biology and Ecology
+              166:65-91.</para><para>Robles, C., D. A. Sweetnam, and D. Dittman. 1989. Diel variation of intertidal
+              foraging by Cancer productus in British Columbia. Journal of Natural History
+              23:1041-1049.</para><para>Rohwer, S. 1978. Parent cannibalism of offspring and egg raiding as a courtship
+              strategy. The American Naturalist 112:429-440.</para><para>Rosenthal, R. J. and J. R. Chess. 1972. A predator-prey relationship between the
+              leather star, Dermasterias imbricata, and the purple urchin, Strongylocentrotus
+              purpuratus. Fishery Bulletin (Seattle) 70:205-216.</para><para>Rosenthal, R. J., W. D. Clarke, and P. K. Dayton. 1974. Ecology and natural
+              history of a stand of giant kelp, Macrocystis pyrifera, off Del Mar, California.
+              Fishery Bulletin 72:670-684.</para><para>Scanland, T. B. 1971. Effects of predation on epifaunal assemblages in a submarine
+              canyon. Ph. D. Thesis. University of California San Diego.</para><para>Schiel, D. R. and B. C. Welden. 1987. Responses to predators of cultured and wild
+              red abalone, Haliotis rufescens, in laboratory experiments. Aquaculture
+              60:173-188.</para><para>Schmitt, R. J. 1982. Consequences of dissimilar defenses against predation in a
+              subtidal marine community. Ecology 63:1588-1601.</para><para>Schmitt, R. J. 1987. Indirect interactions between prey: Apparent competition,
+              predator aggregation, and habitat segregation. Ecology 68:1887-1897.</para><para>Shiviji, M., D. Parker, B. Hartwick, M. J. Smith, and N. A. Sloan. 1983. Feeding
+              and distribution study of the sunflower sea star Pycnopodia helianthoides (Brandt,
+              1835). Pacific Science 37:133-140.</para><para>Steele, M. A. 1997. The relative importance of processes affecting recruitment of
+              two temperate fishes. Ecology 78:129-145.</para><para>Stewart, J. and W. F. Gilly. 2005. Piscivorous behavior of a temperate cone snail,
+              Conus californicus. Biology Bulletin 209:146-153.</para><para>Taylor, P. B. and L.-C. Chen. 1969. The predator-prey relationship between the
+              octopus (Octopus bimaculatus) and the California scorpionfish (Scorpaena guttata).
+              Pacific Science 23.</para><para>Tullis, R. E., J. L. Carter, and G. W. Lanlois. 1981. Salton Sea Sampling Program:
+              Baseline Studies. Lawrence Livermore Laboratory.</para><para>Tutschulte, T. C. and J. J. Connell. 1988. Feeding behavior and algal food of
+              three species of abalones (Haliotis) in southern California. Marine Ecology Progress
+              Series 49:57-64.</para><para>Vadas, R. L. 1977. Preferential feeding: An optimization strategy in sea urchins.
+              Ecological Monographs 47:337-371.</para><para>Van Dykhuizen, G. S. 1983. Activity patterns and feeding chronology of the kelp
+              rockfish, Sebastes atrovirens, in a central California kelp forest. M. S. Thesis. San
+              Jose State University.</para><para>Van Veldhuizen, H. D. 1978. Feeding biology of subtidal Pisaster brevispinus on
+              soft substrate in Bodega Harbor, California. Ph. D. Thesis. University of California
+              Davis.</para><para>Van Veldhuizen, H. D. and D. W. Phillips. 1978. Prey capture by Pisaster
+              brevispinus (Asteriodea: Echinodermata) on Soft Substrate. Marine Biology
+              48:89-97.</para><para>Wiley, J. W. 1973. Life history of the western North American goby, Coryphopterus
+              nicholsii (Bean). Transactions of the San Diego Society of Natural History
+              17:187-208.</para><para>Winget, R. R. 1968. Trophic relationships and metabolic energy budget of the
+              California spiny lobster, Panulirus interruptus (Randall). M. S. Thesis. San Diego
+              State College.</para><para>Winkler, L. R. and E. Y. Dawson. 1963. Observations and experiments on the food
+              habits of California Sea Hares of the genus Aplysia. Pacific Science
+              17:102-105.</para><para>Yang, M. S. and P. A. Livingston. 1986. Food habits and diet overlap of two
+              congeneric species, Atherestes stomias and Atherestes evermanni, in the Eastern Bering
+              Sea. Fishery Bulletin (Seattle) 82:615-623.</para><para>Zimmer-Faust, R. K. 1982. The influence of odors on food search: studies with
+              marine decapod Crustacea. Ph. D. Thesis. University of California Santa
+              Barbara.</para></section></description></methodStep></methods><project id="sbc-boilerplate-project_SBC" scope="system" system="sbclter"><title>Santa Barbara Coastal Long Term Ecological Research Project</title><personnel scope="document"><individualName><salutation>Dr.</salutation><givenName>Daniel</givenName><surName>Reed</surName></individualName><address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-6150</postalCode><country>United States</country></address><phone phonetype="voice">805 893 8363</phone><electronicMailAddress>reed@lifesci.ucsb.edu</electronicMailAddress><role>Principal Investigator</role></personnel><personnel scope="document"><individualName><salutation>Dr.</salutation><givenName>John</givenName><surName>Melack</surName></individualName><address scope="document"><deliveryPoint>Bren School of Environmental Science and Management</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-5131</postalCode><country>United States</country></address><phone phonetype="voice">805 893 3879</phone><electronicMailAddress>melack@lifesci.ucsb.edu</electronicMailAddress><role>Co-principal Investigator</role></personnel><personnel scope="document"><individualName><salutation>Dr.</salutation><givenName>Sally</givenName><surName>Holbrook</surName></individualName><address scope="document"><deliveryPoint>Ecology, Evolution and Marine Biology</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-9620</postalCode><country>United States</country></address><phone phonetype="voice">805 893 3777</phone><electronicMailAddress>holbrook@lifesci.ucsb.edu</electronicMailAddress><role>Co-principal Investigator</role></personnel><personnel scope="document"><individualName><salutation>Dr.</salutation><givenName>Steven</givenName><surName>Gaines</surName></individualName><address scope="document"><deliveryPoint>Marine Science Institute</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-9620</postalCode><country>United States</country></address><phone phonetype="voice">805 893 3764</phone><electronicMailAddress>gaines@msi.ucsb.edu</electronicMailAddress><role>Co-principal Investigator</role></personnel><personnel scope="document"><individualName><salutation>Dr.</salutation><givenName>David</givenName><surName>Siegel</surName></individualName><address scope="document"><deliveryPoint>Institute for Computational Earth System Science</deliveryPoint><deliveryPoint>University of California</deliveryPoint><city>Santa Barbara</city><administrativeArea>California</administrativeArea><postalCode>93106-3060</postalCode><country>United States</country></address><phone phonetype="voice">805 893 4547</phone><electronicMailAddress>davey@icess.ucsb.edu</electronicMailAddress><role>Co-principal Investigator</role></personnel><abstract><section><para>The primary research objective of the Santa Barbara Coastal LTER is to investigate
+            the importance of land and ocean processes in structuring giant kelp
+            (<emphasis>Macrocystis pyrifera</emphasis>) forest ecosystems. As in many temperate
+            regions, the shallow rocky reefs in the Santa Barbara Channel, California, are dominated
+            by giant kelp forests. Because of their close proximity to shore, kelp forests are
+            influenced by physical and biological processes occurring on land as well as in the open
+            ocean. SBC LTER research focuses on measuring and modeling the patterns, transport, and
+            processing of material constituents (e.g., nutrients, carbon, sediment, organisms, and
+            pollutants) from terrestrial watersheds and the coastal ocean to these reefs.
+            Specifically, we are examining the effects of these material inputs on the primary
+            production of kelp, and the population dynamics, community structure, and trophic
+            interactions of kelp forest ecosystems.</para></section></abstract><funding><section><para>NSF Award OCE-0620276</para></section></funding></project><dataTable scope="document"><entityName>byrnes_foodweb_table1.csv</entityName><entityDescription>Feeding relationships for kelp forest species</entityDescription><physical scope="document"><objectName>byrnes_foodweb_table1.csv</objectName><dataFormat><textFormat><numHeaderLines>1</numHeaderLines><recordDelimiter>\n</recordDelimiter><attributeOrientation>column</attributeOrientation><simpleDelimited><fieldDelimiter>,</fieldDelimiter><quoteCharacter>&quot;</quoteCharacter></simpleDelimited></textFormat></dataFormat><!--TODO--><distribution id="byrnes_foodweb_table1" scope="document"><online><url function="download">http://sbc.lternet.edu/external/Reef/Data/Kelp_Forest_Foodweb/byrnes_foodweb_table1.csv</url></online></distribution></physical><attributeList><attribute id="Predator" scope="document"><attributeName>Predator</attributeName><attributeLabel>Predator</attributeLabel><attributeDefinition>Predator name or code</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale></attribute><attribute id="Prey" scope="document"><attributeName>Prey</attributeName><attributeLabel>Prey</attributeLabel><attributeDefinition>Prey name or code</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale></attribute><attribute id="Pred_taxon" scope="document"><attributeName>Pred_taxon</attributeName><attributeLabel>Pred_taxon</attributeLabel><attributeDefinition>Predator&apos;s species binomial</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale></attribute><attribute id="Prey_taxon" scope="document"><attributeName>Prey_taxon</attributeName><attributeLabel>Prey_taxon</attributeLabel><attributeDefinition>Prey&apos;s species binomial</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale></attribute><attribute id="Feeding_link" scope="document"><attributeName>Feeding_link</attributeName><attributeLabel>Feeding Link</attributeLabel><attributeDefinition>Boolean value 
+            indicating whether a predator is documented to feed on the prey</attributeDefinition><storageType typeSystem="http://www.esri.com/metadata/esriprof80.html">integer</storageType><measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>0</code><definition>false</definition></codeDefinition><codeDefinition><code>1</code><definition>true</definition></codeDefinition></enumeratedDomain></nonNumericDomain></nominal></measurementScale></attribute><attribute id="Specificity" scope="document"><attributeName>Specificity</attributeName><attributeLabel>Specificity</attributeLabel><attributeDefinition>lowest level of
+            taxonomic certainty for the feeding relationship. Groups refers to an aggregated
+            taxonomic listing in the SBC LTER (see methods)</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>Family</code><definition>Taxanomic Family</definition></codeDefinition><codeDefinition><code>Genus</code><definition>Taxanomic Genus</definition></codeDefinition><codeDefinition><code>Group</code><definition>Taxanomic Group</definition></codeDefinition><codeDefinition><code>Species</code><definition>Taxanomic Species</definition></codeDefinition></enumeratedDomain></nonNumericDomain></nominal></measurementScale><missingValueCode><code>-99999</code><codeExplanation>value not recorded or not available</codeExplanation></missingValueCode></attribute><attribute id="Reference" scope="document"><attributeName>Reference</attributeName><attributeLabel>Reference</attributeLabel><attributeDefinition>Literature references for this relationship</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale><missingValueCode><code>-99999</code><codeExplanation>value not recorded or not available</codeExplanation></missingValueCode></attribute><attribute id="Notes" scope="document"><attributeName>Notes</attributeName><attributeLabel>Notes</attributeLabel><attributeDefinition>Text annotations to data observations</attributeDefinition><storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">string</storageType><measurementScale><nominal><nonNumericDomain><textDomain><definition>any text</definition></textDomain></nonNumericDomain></nominal></measurementScale><missingValueCode><code>-99999</code><codeExplanation>value not recorded or not available</codeExplanation></missingValueCode></attribute></attributeList><numberOfRecords>1820</numberOfRecords></dataTable></dataset><additionalMetadata><metadata><stmml:unitList convention="CML"><stmml:unitType id="dimensionless" name="dimensionless"><stmml:dimension name="dimensionless" power="1.0"></stmml:dimension></stmml:unitType><stmml:unit id="numberPerNumber" name="numberPerNumber" abbreviation="num/num" unitType="dimensionless" parentSI="gramsPerGram" multiplierToSI="1" constantToSI="0"><stmml:description>ratio with no scaling</stmml:description></stmml:unit><stmml:unit id="percent" name="percent" abbreviation="%" unitType="dimensionless" parentSI="numberPerNumber" multiplierToSI="100" constantToSI="0"><stmml:description>ratio of two quantities as percent composition
+            (1:100)</stmml:description></stmml:unit><stmml:unit id="gramPerMeterSquared" name="gramPerMeterSquared" abbreviation="g/m²" unitType="arealMassDensity" parentSI="kilogramsPerSquareMeter" multiplierToSI="0.001" constantToSI="0"><stmml:description>grams per square meter</stmml:description></stmml:unit></stmml:unitList></metadata></additionalMetadata></eml:eml>

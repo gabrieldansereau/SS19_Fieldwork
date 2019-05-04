@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.211.20" scope="system"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0&#xa;&#x9;&#x9;&#x9;&#x9;http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=BNZ,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>knb-lter-bnz.211.20</shortName>
+    <title>White Spruce Seedling Counts at Bonanza Creek Experimental Forest Vegetation Plots (4-sq meters)</title>
+    <creator>
+      <individualName>
+        <givenName>Leslie</givenName>
+        <givenName>A.</givenName>
+        <surName>Viereck</surName>
+      </individualName>
+      <!--No position recorded in Database ( pers/position when lead_contact=1 )-->
+      <!--No address recorded in database ( pers/address when lead_contact=1 )-->
+      <!--No phone info in Database  ( pers/tel1, tel2 or cell when lead_contact=1 )-->
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <!--No email present on file  ( pers/email1 or email2 when lead_contact=1 )-->
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Keith</givenName>
+        <surName>Van Cleve</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Forest Soils Laboratory University of Alaska Fairbanks O'Neill Bldg</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-7200</postalCode>
+        <country>United States</country>
+      </address>
+      <!--No phone info in Database  ( pers/tel1, tel2 or cell when lead_contact=1 )-->
+      <!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+      <electronicMailAddress>kvancl@rockisland.com</electronicMailAddress>
+      <!--No personal web address info on file-->
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>F.</givenName>
+        <givenName>Stuart</givenName>
+        <surName>Chapin</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 455-6408</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://terrychapin.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Roger</givenName>
+        <givenName>W.</givenName>
+        <surName>Ruess</surName>
+      </individualName>
+      <positionName>Primary Investigator</positionName>
+      <address>
+        <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-0180</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7153</phone>
+      <phone phonetype="fax">(907) 474-6967</phone>
+      <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+    </creator>
+    <creator>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Brian</givenName>
+        <surName>Charlton</surName>
+      </individualName>
+      <positionName>BNZ LTER Lead Field Tech </positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775-6780</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-5104</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Hollingsworth</surName>
+      </individualName>
+      <positionName>Bonanza Creek LTER Site Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit University of Alaska Fairbanks  School of Agriculture and Land Resources Management P.O. Box 756780</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK </administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>United States</country>
+      </address>
+      <phone phonetype="voice">(907) 474-7470</phone>
+      <phone phonetype="fax">(907) 474-6251</phone>
+      <role>Associated investigator</role>
+    </associatedParty>
+    <pubDate>1998-04-14</pubDate>
+    <abstract>
+      <para>This study is a survey of the spruce seedlings of 24 LTER sites in Bonanza Creek Experimental Forest. The 24 sites are divided into three replicates for six primary successional stages onthe floodplains (3 replicates X 5 successional stages = 15 sites) and three replicates for three secondary sucessional stages in the uplands (3 replicates X 3 successional stages = 9 sites). White spruce seedlings were surveyed on some sites as early as 1975 and every 1-2 years from the 1980's through 2004.  Seedlings are currently surveyed as part of the &lt;a href="http://www.lter.uaf.edu/data_detail.cfm?datafile_pkey=530"&gt; Shrub, Seedling and Sapling Density at Bonanza Creek LTER Research Sites (2006-Present) &lt;/a&gt; data package.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>boreal forests</keyword>
+      <keyword>disturbance</keyword>
+      <keyword>fire effects</keyword>
+      <keyword>plant communities</keyword>
+      <keyword>succession</keyword>
+      <keyword>taiga</keyword>
+      <keyword>vegetation</keyword>
+      <keywordThesaurus>Primary Production</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Use</title>
+        <para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network.</para>
+      </section>
+      <section>
+        <title>Citation</title>
+        <para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+      </section>
+      <section>
+        <title>Acknowledgement</title>
+        <para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+      </section>
+      <section>
+        <title>Notification</title>
+        <para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+      </section>
+      <section>
+        <title>Collaboration</title>
+        <para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+      </section>
+      <section>
+        <title>Disclaimer</title>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+      </section>
+      <!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+    </intellectualRights>
+    <distribution id="distributionReference">
+      <online>
+        <url function="information">http://www.lter.uaf.edu/data/data-detail/id/211</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage id="geoReference">
+        <geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.3790685</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.1426888</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.7666796</northBoundingCoordinate>
+          <southBoundingCoordinate>64.6719571</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1975-06-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2004-06-16</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <section>
+          <title>Status</title>
+          <para>Completed</para>
+        </section>
+      </description>
+    </maintenance>
+    <contact>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <positionName>Data Manager</positionName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+      <electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+      <onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Bonanza Creek LTER</organizationName>
+      <address>
+        <deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+        <deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+        <deliveryPoint>P.O. Box 756780 </deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-6364</phone>
+      <phone phonetype="fax">907-474-6251</phone>
+    </publisher>
+    <pubPlace>Bonanza Creek LTER</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Experimental Design</title>
+            <para>We selected points in the succession sequence where, within a relatively short interval, critical changes in ecosystem structure are accompanied by functional changes. These changes have far-reaching effects on ecosystem development. At six turning points in the floodplain succession and three turning points in the upland succession, three replicates of experimental plots were established. These plots are for experimental projects and follow the natural changes occuring in ecosystem structure and function. At each of these 27 sites (9x3) a 50x60 meter "control plot" was established to monitor vegetation change. See BCEF Experimental Design for additional information.</para>
+          </section>
+          <section>
+            <title>Methods</title>
+            <para>Frequency of occurence (counts), % cover (visual estimates) and height data (cm) were recorded in 20 4m2 permanent plots. The 20 nested plots are distibuted evenly over a larger 50m x 60m "control" site established at each of the 27 BCEF LTER experimental sites. At each plot, white spruce seedlings were counted, maximum and average height were measured, and percent cover was estimated.  Anomalies were sometimes noted in the notes column.</para>
+          </section>
+        </description>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>FP1A -- FP1A is located on a low early successional terrace (1.8 - 2 m above winter low river level) adjacent to the Tanana River. Vegetation establishment occurred in 1982 to 1983. Significant bank erosion has occurred since the establishment of the study area, resulting in loss of some study plots..  Site alternate names:  211, GPIIC, Gravel Pit Willow, BCII, IIIAC, IIIAT, IIIBC, IIIBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2576912</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2576912</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69859835</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69859835</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP1B -- FP1B is located on a low early successional terrace adjacent to the Tanana River..  Site alternate names:  212</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.149437</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.149437</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73146502</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73146502</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP1C -- FP1C is located on a low early successional terrace adjacent to the Tanana River..  Site alternate names:  213</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2744455</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2744455</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68671338</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68671338</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2A -- FP2A is located adjacent to the LTER-2 weather station on a terrace that formed ca 1965..  Site alternate names:  221, GPIVC, GP4C, BCIV, VAC, VAT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2524731</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2524731</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69878244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69878244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2B -- Tall Balsam Poplar w/ Alder Understory Stand.  Site alternate names:  222, SCIVC, Beaver Site, FSL-LD-FP2B_alder, VBC, VBT</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1588656</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1588656</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7059757</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7059757</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP2C -- Tall Balsam Poplar w/ Alder Understory Stand.  Site alternate names:  223, FSL-LD-FP2C_alder</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2698825</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2698825</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68689244</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68689244</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3A -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  231, FSL-LD-FP3A_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15094</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15094</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72322993</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72322993</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3B -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  232, FSL-LD-FP3B_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2169588</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2169588</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69355792</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69355792</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP3C -- Mixed Balsam Poplar and White Spruce (Open Populus balsamifera-Picea glauca community).  Site alternate names:  233, Eagle Site, FSL-LD-FP3C_poplar</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2081387</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2081387</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.7081671</northBoundingCoordinate>
+                <southBoundingCoordinate>64.7081671</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4A -- Mature white spruce.  Site alternate names:  241, SMVIIIC, FSL-LD-FP4A_ws, VIIIWS, VIIIAC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2368605</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2368605</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67878586</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67878586</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4B -- Mature white spruce.  Site alternate names:  242, FSL-LD-FP4B_ws, VIIIYI, VIIIBC</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2707843</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2707843</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.67129926</northBoundingCoordinate>
+                <southBoundingCoordinate>64.67129926</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP4C -- Mature white spruce.  Site alternate names:  243, LV132, FSL-LD-FP4C_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1827217</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1827217</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71354433</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71354433</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5A -- This is a subxeric-mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  251, BCEFM1</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2490622</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2490622</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68147876</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68147876</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5B -- Woodland white spruce/Labrador tea-lingonberry/feathermoss community. Black spruce seedlings and saplings have invaded the site..  Site alternate names:  252</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2138057</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2138057</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68149311</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68149311</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5C -- FP5C is located on an older terrace of the Tanana River on the south side of the river opposite Sam Charley Island.  The climate station and neighboring research plots were burned in August of 2010 by the Willow Creek Wildfire..  Site alternate names:  253, BCEFY3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1472629</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1472629</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71361404</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71361404</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP5D -- This is a mesic, black spruce site on the Tanana River floodplain..  Site alternate names:  254, BCEFM3</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.19274</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.19274</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72541</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72541</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP0A -- Newly vegetated sandbar.  Site alternate names:  281, FP0A</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.1530229</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.1530229</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.70611029</northBoundingCoordinate>
+                <southBoundingCoordinate>64.70611029</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>FP0B -- Site 2101 is part of the historical vegetation studies database of the Boreal Ecology Cooperative Research Unit (formerly Institute of Northern Forestry).  This site is one of hundreds located across the state of Alaska, USA in a diversity of habitats.  Repeated measurements have been made at varying time intervals using the same sampling protocols.  Data collected at this site include plant species composition and abundance. .  Site alternate names:  282</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.15355</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.15355</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73188</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73188</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1A -- UP1A was established to follow the development of vegetation following the burning of a well developed 200 year old white spruce stand on a south facing slope. The vegetation has progressed from an herbaceous community following the fire to an open hardwood stand..  Site alternate names:  111, Midslope White Spruce (MW), Rosie Creek Fire studies: Gregory stand #806, Zasada stand: Bonanza Creek #2 (white spruce seed study), Reserve West (Juday), FSL-LD-UP1A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3027284</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3027284</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73554387</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73554387</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1B -- Young Paper Birch/Shrub/Herbaceous Stand.  Site alternate names:  112, FSL-LD-UP1B_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3000982</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3000982</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.73463679</northBoundingCoordinate>
+                <southBoundingCoordinate>64.73463679</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP1C -- Young Aspen Forest.  Site alternate names:  113, LTER #113, Aspen Ridge (Rosie Creek Fires study), FSL-LD-UP1C_aspen</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2983546</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2983546</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.71826931</northBoundingCoordinate>
+                <southBoundingCoordinate>64.71826931</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2A -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  121, LTER #121, FSL-LD-UP2A_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.35568</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.35568</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.69546067</northBoundingCoordinate>
+                <southBoundingCoordinate>64.69546067</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2B -- Closed Mixed White Spruce - Paper Birch Stand.  Site alternate names:  122, LTER #122, FSL-LD-UP2B_birch</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3641664</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3641664</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.6905617</northBoundingCoordinate>
+                <southBoundingCoordinate>64.6905617</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP2C -- Closed Mixed Aspen - White Spruce Stand.  Site alternate names:  123, FSL-LD-UP2C_aspen</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3834237</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3834237</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.68927697</northBoundingCoordinate>
+                <southBoundingCoordinate>64.68927697</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3A -- Mature white spruce spruce stand on a south-facing slope.  Site alternate names:  131, LTER #131, Tower site: Parks Hwy, South side: Gregory stand #148, Zasada stand: Bonanza Creek - 1 (seed studies), Semi-intensive site #12, Juday, Parks Loop West, Tower Site, FSL-LD-UP3A_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2795018</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2795018</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76742521</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76742521</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3B -- Closed White Spruce Forest.  Site alternate names:  132, LTER #132, FSL-LD-UP3B_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.2508148</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.2508148</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.76051099</northBoundingCoordinate>
+                <southBoundingCoordinate>64.76051099</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <geographicCoverage>
+              <geographicDescription>UP3C -- Closed White Spruce Forest.  Site alternate names:  133, LTER #133, FSL-LD-UP3C_ws</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-148.3306337</westBoundingCoordinate>
+                <eastBoundingCoordinate>-148.3306337</eastBoundingCoordinate>
+                <northBoundingCoordinate>64.72538077</northBoundingCoordinate>
+                <southBoundingCoordinate>64.72538077</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>1975-06-09</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2004-06-16</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyExtent>
+        <samplingDescription>
+          <section>
+            <title>Sampling Frequency</title>
+            <para>Variable
+</para>
+          </section>
+        </samplingDescription>
+      </sampling>
+    </methods>
+    <project>
+      <title>The Bonanza Creek LTER</title>
+      <personnel id="VanCleveID">
+        <individualName>
+          <givenName>Keith</givenName>
+          <surName>Van Cleve</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="ChapinID">
+        <individualName>
+          <givenName>F.S.</givenName>
+          <givenName>Stuart</givenName>
+          <surName>Chapin</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 455-6408</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://terrychapin.org/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel id="RuessID">
+        <individualName>
+          <givenName>Roger</givenName>
+          <givenName>W.</givenName>
+          <surName>Ruess</surName>
+        </individualName>
+        <organizationName>Bonanza Creek LTER</organizationName>
+        <positionName>Lead Principal Investigator</positionName>
+        <address>
+          <deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+          <city>Fairbanks</city>
+          <administrativeArea>AK </administrativeArea>
+          <postalCode>99775-0180</postalCode>
+          <country>United States</country>
+        </address>
+        <phone phonetype="voice">(907) 474-7153</phone>
+        <phone phonetype="fax">(907) 474-6967</phone>
+        <electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+        <onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>
+        <para>NSF Grant numbers DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+        <para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>211_SeedlingCountData.txt</entityName>
+      <entityDescription>Survey of the spruce seedlings</entityDescription>
+      <physical>
+        <objectName>211_SeedlingCountData.txt</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>3</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <physicalLineDelimiter>\n</physicalLineDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/211/20/d70684a1c39714dea800d4742679b935</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SITE</attributeName>
+          <attributeLabel>SITE</attributeLabel>
+          <attributeDefinition>Site Id</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Site Id</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>COUNT_DATE</attributeName>
+          <attributeLabel>COUNT_DATE</attributeLabel>
+          <attributeDefinition>Count Date of sample</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>mm/dd/yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>SPEC</attributeName>
+          <attributeLabel>SPEC</attributeLabel>
+          <attributeDefinition>Species name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>PLOT</attributeName>
+          <attributeLabel>PLOT</attributeLabel>
+          <attributeDefinition>Seedling Count plot</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Seedling Count plot</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <!--No missing value/character in database (datafilevarible/errorcode)-->
+        </attribute>
+        <attribute>
+          <attributeName>COUNT</attributeName>
+          <attributeLabel>COUNT</attributeLabel>
+          <attributeDefinition>Seedling count number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>river</code>
+                    <definition>plot consumed by river change</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MAXHT</attributeName>
+          <attributeLabel>MAXHT</attributeLabel>
+          <attributeDefinition>Maximume height of a seedling</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AVGHT</attributeName>
+          <attributeLabel>AVGHT</attributeLabel>
+          <attributeDefinition>Average height of the seedlings</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>COVER</attributeName>
+          <attributeLabel>COVER</attributeLabel>
+          <attributeDefinition>Percent cover of seedlings in the plot</attributeDefinition>
+          <storageType>integer</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>.</code>
+            <codeExplanation>Missing Value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="mm/dd/yyyy"/>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

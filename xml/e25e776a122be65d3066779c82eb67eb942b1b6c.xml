@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-and.5345.2"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=AND,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier>GI011</alternateIdentifier>
+    <title>LiDAR data (October 2011) for the Blue River Watershed, Willamette National Forest</title>
+    <creator>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <givenName>A.</givenName>
+        <surName>Spies</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7354</phone>
+      <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Thomas</givenName>
+        <givenName>A.</givenName>
+        <surName>Spies</surName>
+      </individualName>
+      <address>
+        <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+        <country>USA</country>
+      </address>
+      <phone>(541) 750-7354</phone>
+      <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+      <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+      <role>Principal Investigator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Russell</givenName>
+        <givenName>N.</givenName>
+        <surName>Faux</surName>
+      </individualName>
+      <address/>
+      <phone/>
+      <role>Other Researcher</role>
+    </associatedParty>
+    <pubDate>2014-10-20</pubDate>
+    <abstract>
+      <para>Watershed Sciences, Inc. (WSI) collected Light Detection and Ranging (LiDAR) data on October 27th, 28th and November 1st, 2011 for the United States Forest Service and Environmental Protection Agency. </para>
+      <para>
+This study includes bare-earth, highest hit, vegetation height, and intensity grids.  The raw point cloud data is available on request, due to massive size of the data.  Derived entities include aspect, percent slope, hill shades (bare-earth and high hits), flow accumulation grid, and contours.  </para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keywordThesaurus>LTER controlled vocabulary</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">Biomass (trees)</keyword>
+      <keyword keywordType="theme">Disturbance</keyword>
+      <keyword keywordType="theme">Forest structure</keyword>
+      <keyword keywordType="theme">GIS</keyword>
+      <keyword keywordType="theme">Geology/geomorphology</keyword>
+      <keyword keywordType="theme">Topography</keyword>
+      <keyword keywordType="theme">Vegetation</keyword>
+      <keyword keywordType="theme">Spatial data</keyword>
+      <keywordThesaurus>Andrews Experimental Forest site
+								thesaurus</keywordThesaurus>
+    </keywordSet>
+    <distribution>
+      <online>
+        <url function="information">http://andrewsforest.oregonstate.edu/lter/data/abstract.cfm?dbcode=GI011&amp;topnav=135</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Oregon, Willamette Basin, Blue River Watershed, Upper Blue River Watershed</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.33415500</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.12946700</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.34008500</northBoundingCoordinate>
+          <southBoundingCoordinate>44.20296600</southBoundingCoordinate>
+          <boundingAltitudes>
+            <altitudeMinimum>401</altitudeMinimum>
+            <altitudeMaximum>1631</altitudeMaximum>
+            <altitudeUnits>meter</altitudeUnits>
+          </boundingAltitudes>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-10-27</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-11-01</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <purpose>
+      <para>Study was developed as part of the LTER 6 digital forest initiative, with the cooperation of the US Environmental Protection Agency (EPA). The coverage of this area, combined with the Andrews Forest LiDAR (GI010) provides complete coverage of the Blue River Watershed.</para>
+    </purpose>
+    <maintenance>
+      <description>
+        <section>
+          <para> An update history is logged and maintained with each new
+									version of every dataset. </para>
+        </section>
+      </description>
+      <maintenanceUpdateFrequency>notPlanned</maintenanceUpdateFrequency>
+      <changeHistory>
+        <changeScope>Study code and preliminary metadata established</changeScope>
+        <oldValue>Version1</oldValue>
+        <changeDate>2014-10-15</changeDate>
+      </changeHistory>
+      <changeHistory>
+        <changeScope>study updated and made available on-line</changeScope>
+        <oldValue>Version2</oldValue>
+        <changeDate>2014-10-20</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Andrews Forest LTER Program</deliveryPoint>
+        <deliveryPoint>US Forest Service Pacific Northwest Research Station</deliveryPoint>
+        <deliveryPoint>3200 SW Jefferson Way </deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 750-7335</phone>
+      <electronicMailAddress>hjaweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Andrews Forest LTER Site</organizationName>
+      <address>
+        <deliveryPoint>Forest Ecosystems and Society Department in Forestry</deliveryPoint>
+        <deliveryPoint>Oregon State University</deliveryPoint>
+        <deliveryPoint>201K Richardson Hall</deliveryPoint>
+        <city>Corvallis</city>
+        <administrativeArea>OR</administrativeArea>
+        <postalCode>97331-5752</postalCode>
+      </address>
+      <phone phonetype="voice">(541) 737-8480</phone>
+      <electronicMailAddress>lterweb@fsl.orst.edu</electronicMailAddress>
+      <onlineUrl>http://andrewsforest.oregonstate.edu/</onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Field Methods - GI011</para>
+          <para>The LiDAR survey utilized a Leica ALS60 Phase II sensor in a Cessna Caravan 208B. The sensors operate with Automatic Gain Control (AGC) for intensity correction. The Leica systems were set to acquire 105,000 laser pulses per second (i.e. 105 kHz pulse rate) and flown at 900 meters above ground level (AGL), capturing a scan angle of ±14o from nadir. These settings were developed to yield points with an average native pulse density of 8 pulses per square meter over terrestrial surfaces. It is not uncommon for some types of surfaces (e.g. dense vegetation or water) to return fewer pulses than the laser originally emitted. These discrepancies between ‘native’ and ‘delivered’ density will vary depending on terrain, land cover, and the prevalence of water bodies.</para>
+          <para>All areas were surveyed with an opposing flight line side-lap of =50% (=100% overlap) to reduce laser shadowing and increase surface laser painting. The Leica laser systems allow up to four range measurements (returns) per pulse, and all discernible laser returns were processed for the output dataset.
+To accurately solve for laser point position (geographic coordinates x, y, z), the positional coordinates of the airborne sensor and the attitude of the aircraft were recorded continuously throughout the LiDAR data collection mission. Aircraft position was measured twice per second (2 Hz) by an onboard differential GPS unit. Aircraft attitude was measured 200 times per second (200 Hz) as pitch, roll and yaw (heading) from an onboard inertial measurement unit (IMU). To allow for post-processing correction and calibration, aircraft/sensor position and attitude data are indexed by GPS time.</para>
+          <para>See the complete documentation for more detail descriptions of the methodology.</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - GI011</para>
+          <para>1. Resolved kinematic corrections for aircraft position data using kinematic aircraft GPS and static ground GPS data.
+Software: Waypoint GPS v.8.10, Trimble Geomatics Office v.1.62 </para>
+          <para>2. Developed a smoothed best estimate of trajectory (SBET) file that blends post-processed aircraft position with attitude data. Sensor head position and attitude were calculated throughout the survey. The SBET data were used extensively for laser point processing.
+Software: IPAS v.1.35</para>
+          <para>3. Calculated laser point position by associating SBET position to each laser point return time, scan angle, intensity, etc. Created raw laser point cloud data for the entire survey in *.las (ASPRS v. 1.2) format.
+Software: ALS Post Processing Software v.2.70</para>
+          <para>4. Imported raw laser points into manageable blocks (less than 500 MB) to perform manual relative accuracy calibration and filter for pits/birds. Ground points were then classified for individual flight lines (to be used for relative accuracy testing and calibration).
+Software: TerraScan v.11.007</para>
+          <para>5. Using ground classified points per each flight line, the relative accuracy was tested. Automated line-to-line calibrations were then performed for system attitude parameters (pitch, roll, heading), mirror flex (scale) and GPS/IMU drift. Calibrations were performed on ground classified points from paired flight lines. Every flight line was used for relative accuracy calibration.
+Software: TerraMatch v.11.005</para>
+          <para>6. Position and attitude data were imported. Resulting data were classified as ground and non-ground points. Statistical absolute accuracy was assessed via direct comparisons of ground classified points to ground RTK survey data. Data were then converted to orthometric elevations (NAVD83) by applying a Geoid03 correction. Software: TerraScan v.11.007, TerraModeler v.11.002</para>
+          <para>7. Bare Earth models were created as a triangulated surface and exported as ArcInfo ASCII grids at a 1 m pixel resolution. Highest Hit models were created for any class at 1 m grid spacing and exported as ArcInfo ASCII grids.
+Software: TerraScan v.11.007, ArcMap v. 9.3.1, TerraModeler v.11.002</para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Processing Procedures - GI011 (1)</para>
+          <para>Raw DEM's were processed using ArcGIS 10.1 desktop software.  Aspect, percent slope, flow accumulation, and hill shade grids were produced using standard methods.   10, 25, and 50 meter contours were produced using generalized 10 meter DEM's and smoothed.</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-Term Ecological Research</title>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>E.</givenName>
+          <surName>Harmon</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Dept. of Forest Science;321 Richardson Hall</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5752</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-8455</phone>
+        <phone>(978) 724-0045 ext 223</phone>
+        <electronicMailAddress>mark.harmon@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Sherri</givenName>
+          <givenName>L.</givenName>
+          <surName>Johnson</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>US Forest Service ;Pacific NW Research Station ;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 758-7771</phone>
+        <electronicMailAddress>sherri.johnson@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>sherrijohnson@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Julia</givenName>
+          <givenName>A.</givenName>
+          <surName>Jones</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>Oregon State University;Department of Geosciences; Wilkinson Hall 104</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331-5506</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 737-1224</phone>
+        <electronicMailAddress>geojulia@comcast.net</electronicMailAddress>
+        <electronicMailAddress>jonesj@geo.oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.geo.oregonstate.edu/people/faculty/jonesj.htm</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Thomas</givenName>
+          <givenName>A.</givenName>
+          <surName>Spies</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>USDA Forest Service;Pacific NW Research Station;3200 SW Jefferson Way</deliveryPoint>
+          <city>Corvallis</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97331</postalCode>
+          <country>USA</country>
+        </address>
+        <phone>(541) 750-7354</phone>
+        <electronicMailAddress>tom.spies@oregonstate.edu</electronicMailAddress>
+        <electronicMailAddress>tspies@fs.fed.us</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <givenName>P.</givenName>
+          <surName>Nelson</surName>
+        </individualName>
+        <address/>
+        <phone/>
+        <electronicMailAddress>mpnelson@oregonstate.edu</electronicMailAddress>
+        <onlineUrl>http://www.michaelpnelson.com</onlineUrl>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Mark</givenName>
+          <givenName>David</givenName>
+          <surName>Schulze</surName>
+        </individualName>
+        <address>
+          <deliveryPoint>H.J. Andrews Experimental Forest; PO Box 300</deliveryPoint>
+          <city>Blue River</city>
+          <administrativeArea>OR</administrativeArea>
+          <postalCode>97413</postalCode>
+        </address>
+        <phone>541-822-6336</phone>
+        <electronicMailAddress>mark.schulze@oregonstate.edu</electronicMailAddress>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>The H.J. Andrews Experimental Forest is a living laboratory that provides unparalleled opportunities for the study of forest and stream ecosystems in the central Cascade Range of Oregon. Since 1980, as a part of the National Science Foundation Long Term Ecological Research (NSF-LTER) program, the Andrews Experimental Forest has become a leader in the analysis of forest and stream ecosystem dynamics.</para>
+        <para>Long-term field experiments and measurement programs have focused on climate dynamics, streamflow, water quality, and vegetation succession. Currently researchers are working to develop concepts and tools needed to predict effects of natural disturbance, land use, and climate change on ecosystem structure, function, and species composition. </para>
+        <para>The Andrews Experimental Forest is administered cooperatively by the USDA Forest Service Pacific Northwest Research Station, Oregon State University and the Willamette National Forest. Funding for the research program comes from the National Science Foundation (NSF), US Forest Service Pacific Northwest Research Station, Oregon State University, and other sources.</para>
+      </abstract>
+      <funding>Data were provided by the HJ Andrews Experimental Forest research program, funded by the National Science Foundation's Long-Term Ecological Research Program (DEB 08-23380), US Forest Service Pacific Northwest Research Station, and Oregon State University. National Science Foundation: DEB0823380</funding>
+      <studyAreaDescription>
+        <descriptor citableClassificationSystem="false" name="Long-Term Ecological Research">
+          <descriptorValue>The Andrews Forest is situated in the western Cascade Range of Oregon, and covers the entire 15,800-acre (6400-ha) drainage basin of Lookout Creek. Elevation ranges from 1350 to 5340 feet (410 to 1630 m). Broadly representative of the rugged mountainous landscape of the Pacific Northwest, the Andrews Forest contains excellent examples of the region's conifer forests and associated wildlife and stream ecosystems. These forests are among the tallest and most productive in the world, with tree heights of often greater than 250 ft (75 m). Streams are steep, cold and clean, providing habitat for numerous aquatic organisms.</descriptorValue>
+        </descriptor>
+      </studyAreaDescription>
+    </project>
+    <spatialRaster>
+      <alternateIdentifier>gi01101.zip</alternateIdentifier>
+      <entityName>gi01101.zip</entityName>
+      <entityDescription>This dataset represents the Blue River Watershed survey area in Linn and Lane County, OR. This bare earth digital elevation model (DEM) represent the earth's surface with all vegetation and human-made structures removed. The bare earth DEMs were derived from LiDAR data using TIN processing of the ground point returns. The DEM grid cell size is 1 meter. The elevation units are in meters. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water, over dense vegetation). Watershed Sciences, Inc. collected the LiDAR and created this data set for the EPA and USFS.</entityDescription>
+      <physical>
+        <objectName>gi01101.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/8c38a5a5724680e011b8092147360016</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and
+                            November 1, 2011. The survey used a Leica ALS60ii laser system mounted
+                            in a Cessna Caravan 208B. Near nadir scan angles were used to increase
+                            penetration of vegetation to ground surfaces. Ground level GPS and
+                            aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete
+                            coverage of the study area and positional accuracy of the laser points.
+                            2. Laser point return coordinates were computed using ALS Post Processor
+                            software, IPAS Pro GPS/INS software, and Waypoint GPS, based on
+                            independent data from the LiDAR system, IMU, and aircraft. 3. The raw
+                            LiDAR file was assembled into flight lines per return with each point
+                            having an associated x, y, and z coordinate. 4. Visual inspection of
+                            swath to swath laser point consistencies within the study area were used
+                            to perform manual refinements of system alignment. 5. Custom algorithms
+                            were designed to evaluate points between adjacent flight lines.
+                            Automated system alignment was computed based upon randomly selected
+                            swath to swath accuracy measurements that consider elevation, slope, and
+                            intensities. Specifically, refinement in the combination of system
+                            pitch, roll and yaw offset parameters optimize internal consistency. 6.
+                            Noise (e.g., pits and birds) was filtered using ALS postprocessing
+                            software, based on known elevation ranges and included the removal of
+                            any cycle slips. 7. Using TerraScan and Microstation, ground
+                            classifications utilized custom settings appropriate to the study area.
+                            8. The corrected and filtered return points were compared to the RTK
+                            ground survey points collected to verify the vertical and horizontal
+                            accuracies. 9. Points were output as laser points, TINed and GRIDed
+                            surfaces.</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>elevation above sea level in meters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>continuous domain values calculated by comptuer program</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.
+LiDAR data has been collected and processed to the extent of the boundary shapefile provided.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent. overlap greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue> 0.052</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01102.zip</alternateIdentifier>
+      <entityName>gi01102.zip</entityName>
+      <entityDescription>This dataset represents the Blue River Watershed survey area in Linn and Lane County, OR. The highest hit digital surface models (DSM) represent the earth's surface with all vegetation and human-made structures included. The highest hit DSMs were derived from LiDAR data using the highest hit method. The DSM grid cell size is 1 meter. The elevation units are in meters. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water, over dense vegetation). Watershed Sciences, Inc. collected the LiDAR and created this data set for the EPA and USFS</entityDescription>
+      <physical>
+        <objectName>gi01102.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/208b8d342fdc38f183f1ba1325bb4dd2</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces. 10. The Highest Hit Algorithm was used to create a vegetation DEM.</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>elevation above sea level in meters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>continuous domain values calculated by comptuer program </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>RMSE = 0.052 meters</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01103.zip</alternateIdentifier>
+      <entityName>gi01103.zip</entityName>
+      <entityDescription>This dataset represents the Blue River Watershed survey area in Linn and Lane County, OR. The highest hit digital surface models (DSM) represent the earth's surface with all vegetation and human-made structures included. The highest hit DSMs were derived from LiDAR data using the highest hit method. The DSM grid cell size is 1 meter. The elevation units are in meters. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water, over dense vegetation). Watershed Sciences, Inc. collected the LiDAR and created this data set for the EPA and USFS</entityDescription>
+      <physical>
+        <objectName>gi01103.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/5caf6ee172feae473a3e70e34669aaec</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces. 10. The Highest Hit Algorithm was used to create a vegetation DEM.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The bare-earth DEM was subtracted from the Highest hits DEM to produce a vegetation height raster. ArcGIS was used to do the process</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>vegetation height calculated from subtracting bare-earth DEM from High Hits DEM, in meters</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>continuous domain values calculated by comptuer program </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>RMSE = 0.052 meters</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01104.zip</alternateIdentifier>
+      <entityName>gi01104.zip</entityName>
+      <entityDescription>This dataset represents the Blue River Watershed survey area in Linn and Lane County, OR. Each intensity image depicts, at a 0.5 meter resolution, normalized intensity values of the LiDAR laser returns. Watershed Sciences, Inc. collected the LiDAR and created this data set for the USDA Forest Service and the US Environmental Protection Agency.Variability in the magnitude of intensity values across similar targets is a function of receiver auto gain control, laser power setting, atmospherics (transmissivity and target range), and angle of incidence. (Gain is a laser system setting that amplifies or dampens a return signal, resulting in artificially high or low intensity values.) These components influence intensity at different rates and magnitudes, with auto gain comprising the majority of influence. Variability in each of these components is minimized mathematically to arrive at a normalized intensity value that approaches a true radiometric value for each discrete LiDAR return. WSI employs proprietary software to normalize intensity values, based on assessment of the components discussed above, to a reference gain value for each laser employed in a LiDAR survey.</entityDescription>
+      <physical>
+        <objectName>gi01104.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/96814a236bd2a4e8ec3cc3d5d7c1412f</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 &amp; November 1, 2011. The survey utilized a Leica ALS60ii mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>LiDAR Data Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processing software, REALM survey suite, IPAS, and PosPac based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software and REALM software tools, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to RTK ground survey points collected to verify the vertical accuracies. 9. Intensity values were normalized to sharpen mosaics and to reduce dissimilarities between adjacent flightlines. 10. Points were broken into 750 square meter tiles and output as GeoTiffs, colored (0-255) by intensity values, then mosaiced to the survey boundary extent.</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>OID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Value</attributeName>
+          <attributeDefinition>value: Laser return intensity is a unitless measure of discrete return voltage, stored as an integer value from 0 to 255 (8-bit).  Intensity values  correspond to the reflectivity and composition of the target.  Variability in intensity manifests visually as differences (e.g. streaking, shading) within and between swaths in point-derived imagery shaded by intensity values (Figure 1).  This variability represents a source of noise with respect to the radiometric accuracy of a laser return.   </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">255</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>count</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>whole number </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="North American 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>Horizontal Accuracy Report not present</accuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>0.500000</cellSizeXDirection>
+      <cellSizeYDirection>0.500000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>30160</rows>
+      <columns>32392</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>pixel</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01006.zip</alternateIdentifier>
+      <entityName>gi01006.zip</entityName>
+      <entityDescription>Watershed Sciences, Inc. (WS) collected Light Detection and Ranging (LiDAR) data for the Blue River Watershed in 2011.This raster contains an computer generated aspect model of the LiDAR (the bare-earth Digital Elevation Model.</entityDescription>
+      <physical>
+        <objectName>gi01006.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/4fa0ed738b9975a9ef4e2c4697df3399</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces. </para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The bare-earth DEM was used to calculate an aspect grid, using commands in ArcGIS desktop version 10.1</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>aspect of the cell, value is in radians with a range of values from 0 to 360 degrees.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">360</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>The vertical accuracy of the LiDAR data is described as the mean and standard
+                deviation (sigma ~ σ) of divergence of LiDAR point coordinates from RTK ground
+                survey point coordinates. To provide a sense of the model predictive power of the
+                dataset, the root mean square error (RMSE) for vertical accuracy is also provided.
+                These statistics assume the error distributions for x, y, and z are normally
+                distributed, thus we also consider the skew and kurtosis of distributions when
+                evaluating error statistics. Statements of statistical accuracy apply to fixed
+                terrestrial surfaces only and may not be applied to areas of dense vegetation or
+                steep terrain. Additional control points are needed to assess accuracy in different
+                land covers</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>1</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>see above</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1</cellSizeXDirection>
+      <cellSizeYDirection>1</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>9432</rows>
+      <columns>14112</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01007.zip</alternateIdentifier>
+      <entityName>gi01007.zip</entityName>
+      <entityDescription>Watershed Sciences, Inc. (WS) collected Light Detection and Ranging (LiDAR) data for the Blue River Watershed in 2011.This raster contains an computer generated percent slope model of the LiDAR (the bare-earth Digital Elevation Model.</entityDescription>
+      <physical>
+        <objectName>gi01007.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/229d32ca421aae6d105a05192808fa8f</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces. </para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The bare-earth DEM was used to calculate a percent slope grid, using commands in ArcGIS desktop version 10.1.</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>percent slope of the cell,  Values are in percent, with 100 percent = 45 degrees and 0 = a flat surface.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Values are in percent, with 100 percent = 45 degrees. For percent rise, the range is 0 to essentially infinity. A flat surface is 0 percent, a 45 degree surface is 100 percent, and as the surface becomes more vertical, the percent rise becomes increasingly larger. from ArcGIS on-line help version 10.1</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>The vertical accuracy of the LiDAR data is described as the mean and standard
+                deviation (sigma ~ σ) of divergence of LiDAR point coordinates from RTK ground
+                survey point coordinates. To provide a sense of the model predictive power of the
+                dataset, the root mean square error (RMSE) for vertical accuracy is also provided.
+                These statistics assume the error distributions for x, y, and z are normally
+                distributed, thus we also consider the skew and kurtosis of distributions when
+                evaluating error statistics. Statements of statistical accuracy apply to fixed
+                terrestrial surfaces only and may not be applied to areas of dense vegetation or
+                steep terrain. Additional control points are needed to assess accuracy in different
+                land covers</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>1</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>see above</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Vertical Accuracy Report not present</accuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1</cellSizeXDirection>
+      <cellSizeYDirection>1</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>9432</rows>
+      <columns>14112</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01108.zip</alternateIdentifier>
+      <entityName>gi01108.zip</entityName>
+      <entityDescription>The hillshade was generated from the 1 meter bare-earth digital elevation model (DEM) based on the 2011 LiDAR flight over the Blue River Watershed, Willamette National Forest. The hillshade is at 1 meter resolution, and provides a detailed visualization of the forest with the vegetation removed. The hillshade command in spatial analyst was used with a sun azmuth of 345 degress and the altitude was set for 65 degrees.</entityDescription>
+      <physical>
+        <objectName>gi01108.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/7cd3b02f9d283ea22c0383e8ab93722f</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The hillshade command in spatial analyst was used with a sun azmuth of 345 degress and the altitude was set for 65 degrees. </para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>Rowid</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>value for shading based on solar azimuth and angle.
+The value represents illumination, where 0 = shadow, and 255 = full sunlight.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">255</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT</attributeName>
+          <attributeDefinition>number of times a value code occures in the grid</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sum of cells for particular values</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.
+LiDAR data has been collected and processed to the extent of the boundary shapefile provided.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue> 0.052</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialVector>
+      <alternateIdentifier>gi01109.zip</alternateIdentifier>
+      <entityName>gi01109.zip</entityName>
+      <entityDescription>The 10 meter contour lines were generated from a 10 meter digital elevation model (DEM) that was produced from the 1 meter Blue River Watershed Bare-earth DEM. The contour lines from the 1 meter DEM were too ragged to use for mapping purposes, hense the need to generalize the DEM out to 10 meters. The data is in an esri format shape file, and the contour lines are at 10 meter intervals. The value represents the number of meters above see level (elevation).</entityDescription>
+      <physical>
+        <objectName>gi01109.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/9dee32c6c0e900657782b1c461f2cddc</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>The 1 meter bare earth DEM was generalized into a 10 meter DEM using ArcGIS tools.
+The resulting 10 meter DEM was used to create contour lines at a 10 meter interval
+
+Resample T:\Groups\HJA_LIDAR\blue_river\Rasters\bare_earth\be_bluerivws T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 "10 10" NEAREST
+
+Aggregate "New Group Layer\hja_be" J:\hja83\lidar\hja_be10 10 MEAN EXPAND DATA
+Contour T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 C:\blue_river\br10_con10.shp 10 0 1</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>internal identification number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CONTOUR</attributeName>
+          <attributeDefinition>Elevation in meters for the contour line represented in the shapefile.  </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>height of contour lines in 10 meter increments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>LinearRing</geometry>
+      <geometricObjectCount>1773</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <alternateIdentifier>gi01110.zip</alternateIdentifier>
+      <entityName>gi01110.zip</entityName>
+      <entityDescription>The 25 meter contour lines were generated from a 10 meter digital elevation model (DEM) that was produced from the 1 meter Blue River Watershed Bare-earth DEM. The contour lines from the 1 meter DEM were too ragged to use for mapping purposes, hense the need to generalize the DEM out to 10 meters. The data is in an esri format shape file, and the contour lines are at 25 meter intervals. The value represents the number of meters above see level (elevation).</entityDescription>
+      <physical>
+        <objectName>gi01110.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/5410bb5371c803b19b8381d04f21dce8</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>The 1 meter bare earth DEM was generalized into a 10 meter DEM using ArcGIS tools.
+The resulting 10 meter DEM was used to create contour lines at a 25 meter interval
+
+Resample T:\Groups\HJA_LIDAR\blue_river\Rasters\bare_earth\be_bluerivws T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 "10 10" NEAREST
+
+Aggregate "New Group Layer\hja_be" J:\hja83\lidar\hja_be10 10 MEAN EXPAND DATA
+
+Contour T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 C:\blue_river\br10_con25.shp 25 0 1</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>internal identification number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CONTOUR</attributeName>
+          <attributeDefinition>Elevation in meters for the contour line represented in the shapefile.  </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>height of contour lines in 25 meter increments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>LinearRing</geometry>
+      <geometricObjectCount>718</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+    <spatialVector>
+      <alternateIdentifier>gi01111.zip</alternateIdentifier>
+      <entityName>gi01111.zip</entityName>
+      <entityDescription>The 50 meter contour lines were generated from a 10 meter digital elevation model (DEM) that was produced from the 1 meter Blue River Watershed Bare-earth DEM. The contour lines from the 1 meter DEM were too ragged to use for mapping purposes, hense the need to generalize the DEM out to 10 meters. The data is in an esri format shape file, and the contour lines are at 50 meter intervals. The value represents the number of meters above see level (elevation).</entityDescription>
+      <physical>
+        <objectName>gi01111.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/6bc72cbed6119c223906f559c034ba1b</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>The 1 meter bare earth DEM was generalized into a 10 meter DEM using ArcGIS tools.
+The resulting 10 meter DEM was used to create contour lines at a 50 meter interval
+
+Resample T:\Groups\HJA_LIDAR\blue_river\Rasters\bare_earth\be_bluerivws T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 "10 10" NEAREST
+
+Aggregate "New Group Layer\hja_be" J:\hja83\lidar\hja_be10 10 MEAN EXPAND DATA
+
+Contour T:\Groups\HJA_LIDAR\blue_river\Rasters\derived_products\br_bare10 C:\blue_river\br10_con50.shp 50 0 1</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>FID</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Shape</attributeName>
+          <attributeDefinition>Feature geometry.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Coordinates defining the features.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ID</attributeName>
+          <attributeDefinition>internal identification number</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CONTOUR</attributeName>
+          <attributeDefinition>Elevation in meters for the contour line represented in the shapefile.  </attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>height of contour lines in 50 meter increments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>LinearRing</geometry>
+      <geometricObjectCount>357</geometricObjectCount>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+    </spatialVector>
+    <spatialRaster>
+      <alternateIdentifier>gi01112.zip</alternateIdentifier>
+      <entityName>gi01112.zip</entityName>
+      <entityDescription>The hillshade was generated from the 1 meter highest-hits digital elevation model(DEM) based on the 2011 LiDAR flight over the Blue River Watershed, Willamette National Forest. The hillshade is at 1 meter resolution, and provides a detailed visualization of the forest, including the vegetation. The hillshade command in spatial analyst was used with a sun azmuth of 345 degress and the altitude was set for 65 degrees.</entityDescription>
+      <physical>
+        <objectName>gi01112.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/c2142186c6df111cc81609e282937548</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The hillshade command in spatial analyst was used with a sun azmuth of 345 degress and the altitude was set for 65 degrees. </para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>Rowid</attributeName>
+          <attributeDefinition>Internal feature number.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sequential unique whole numbers that are automatically generated.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>value for shading based on solar azimuth and angle.
+The value represents illumination, where 0 = shadow, and 255 = full sunlight.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">255</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>COUNT</attributeName>
+          <attributeDefinition>number of times a value code occures in the grid</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sum of cells for particular values</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.
+LiDAR data has been collected and processed to the extent of the boundary shapefile provided.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue> 0.052</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+    <spatialRaster>
+      <alternateIdentifier>gi01113.zip</alternateIdentifier>
+      <entityName>gi01113.zip</entityName>
+      <entityDescription>This dataset has been derived from the Blue River 1 meter LiDAR data. The values represnt the number of cells (1 meter by 1 meter) that drain to the cell. This data is used to derive stream and watershed layers. Output cells with a high flow accumulation are areas of concentrated flow and can be used to identify stream channels. Output cells with a flow accumulation of zero are local topographic highs and can be used to identify ridges.This dataset represents the Blue River Watershed survey area in Linn and Lane County, OR. This bare earth digital elevation model (DEM) represent the earth's surface with all vegetation and human-made structures removed. The bare earth DEMs were derived from LiDAR data using TIN processing of the ground point returns. The DEM grid cell size is 1 meter. The elevation units are in meters. Some elevation values have been interpolated across areas in the ground model where there is no elevation data (e.g. over water, over dense vegetation). Watershed Sciences, Inc. collected the LiDAR and created this data set for the EPA and USFS.</entityDescription>
+      <physical>
+        <objectName>gi01113.zip</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>zip</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/knb-lter-and/5345/2/d850f5ea99140508ce6cb69920f94b10</url>
+          </online>
+        </distribution>
+      </physical>
+      <methods>
+        <methodStep>
+          <description>
+            <para>Acquisition. The LiDAR data was collected on October 27, 28 and November 1, 2011. The survey used a Leica ALS60ii laser system mounted in a Cessna Caravan 208B. Near nadir scan angles were used to increase penetration of vegetation to ground surfaces. Ground level GPS and aircraft IMU were collected during the flight.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>Processing. 1. Flight lines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points. 2. Laser point return coordinates were computed using ALS Post Processor software, IPAS Pro GPS/INS software, and Waypoint GPS, based on independent data from the LiDAR system, IMU, and aircraft. 3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate. 4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment. 5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll and yaw offset parameters optimize internal consistency. 6. Noise (e.g., pits and birds) was filtered using ALS postprocessing software, based on known elevation ranges and included the removal of any cycle slips. 7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area. 8. The corrected and filtered return points were compared to the RTK ground survey points collected to verify the vertical and horizontal accuracies. 9. Points were output as laser points, TINed and GRIDed surfaces.</para>
+          </description>
+        </methodStep>
+        <methodStep>
+          <description>
+            <para>The bare-earth DEM sinks were filled (using the fill  tool).  This grid was used to create a flow direction grid (using the flow direction tool).  The resulting grid was used to create this flow accumulation grid.</para>
+          </description>
+        </methodStep>
+      </methods>
+      <attributeList>
+        <attribute>
+          <attributeName>value</attributeName>
+          <attributeDefinition>number of cells that drain to a particular cell,  as determined by accumulating the weight for all cells that flow into each downslope cell.</attributeDefinition>
+          <storageType typeSystem="http://www.esri.com/metadata/esriprof80.html"/>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition> values calculated by computer program</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <spatialReference>
+        <horizCoordSysDef name="NAD 1983 UTM Zone 10N">
+          <projCoordSys>
+            <geogCoordSys>
+              <datum name="D North American 1983"/>
+              <spheroid denomFlatRatio="298.257222101" name="GRS 1980" semiAxisMajor="6378137.0"/>
+              <primeMeridian longitude="0.0" name=" Greenwich"/>
+              <unit name="degree"/>
+            </geogCoordSys>
+            <projection name="Transverse Mercator">
+              <parameter
+                description="a multiplier for reducing a distance obtained from a map by computation or scaling to the actual distance along the central meridian."
+                name="Scale factor at central meridian" value="0.9996"/>
+              <parameter
+                description="The line of logitude at the center of the map projection"
+                name="Longitude at central meridian" value="-123.0"/>
+              <parameter
+                description="The latitude chosen as center of the projection"
+                name="Latitude of projection origin" value="0.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Easting" value="500000.0"/>
+              <parameter
+                description="A value added in a rectangular coordinate system, usually used to avoid negative values"
+                name="False Northing" value="0.0"/>
+              <unit name="meter"/>
+            </projection>
+          </projCoordSys>
+        </horizCoordSysDef>
+      </spatialReference>
+      <horizontalAccuracy>
+        <accuracyReport>LiDAR flight lines have been examined to ensure that there was at least 50% sidelap, there are no gaps between flightlines, and overlapping flightlines have consistent elevation values. Shaded relief images have been visually inspected for data errors such as pits, border artifacts, gaps, and shifting. The data was examined at a 1:2000 scale.
+LiDAR data has been collected and processed to the extent of the boundary shapefile provided.</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue>GT 50</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>flight overlap and extent greater than 50 percent.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </horizontalAccuracy>
+      <verticalAccuracy>
+        <accuracyReport>Root Mean Square Error</accuracyReport>
+        <quantitativeAccuracyReport>
+          <quantitativeAccuracyValue> 0.052</quantitativeAccuracyValue>
+          <quantitativeAccuracyMethod>The Root Mean Square Error (RMSE) of the data set is 0.052 meters. Accuracy was assessed using 419 ground survey RTK (real time kinematic) points. Please see LiDAR data report for a discussion of statistics related to these datasets.</quantitativeAccuracyMethod>
+        </quantitativeAccuracyReport>
+      </verticalAccuracy>
+      <cellSizeXDirection>1.000000</cellSizeXDirection>
+      <cellSizeYDirection>1.000000</cellSizeYDirection>
+      <numberOfBands>1</numberOfBands>
+      <rasterOrigin>Lower Left</rasterOrigin>
+      <rows>15080</rows>
+      <columns>16196</columns>
+      <verticals>unknown</verticals>
+      <cellGeometry>matrix</cellGeometry>
+    </spatialRaster>
+  </dataset>
+</eml:eml>
