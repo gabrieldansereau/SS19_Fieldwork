@@ -72,20 +72,24 @@ for (i in 1:length(tout$city)){
 
 tout$lat <- as.numeric(tout$lat)
 tout$lng <- as.numeric(tout$lng)
-
+tout$id <- 1:length(tout$city)
 #séparer en objet par type de point
 spUNI <- cbind(tout$lng, tout$lat)
 spFW <- cbind(tout$fw_lng, tout$fw_lat)
 dist <- distGeo(p1=spUNI, p2=spFW)
 tab_final  <- cbind(tout, dist/1000)
-tab_final<- tab_final[,c(1,2,5,4,10:12)]
-names(tab_final)<- c("country", "city", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
-tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_uni", "lat_fw", "lng_fw")], data = tab_final)
-ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
-proj4string(tab_final_sp) <- proj4string(ERA)
+tab_final<- tab_final[,c(12,1,2,5,4,10,11,13)]
+names(tab_final)<- c("id", "city","country", "lat_uni", "lng_uni", "lat_fw", "lng_fw", "dist_km")
 
+
+# tab_final_sp <- SpatialPointsDataFrame(coords = tab_final[ , c("lat_uni", "lng_uni", "lat_fw", "lng_fw")], data = tab_final)
+# ERA <- raster("/Users/aureliechagnon-lafortune/Desktop/ERA-interim/tif/tsl1_20170731.tif")
+# proj4string(tab_final_sp) <- proj4string(ERA)
 # rgdal::writeOGR(tab_final_sp, dsn="tab_final_sp", driver="ESRI Shapefile", layer = "points2")
+#ajout identité à ligne
 
 WriteXLS(tab_final, ExcelFileName = "tab_dist_coord.xls")
 
-
+### créer table pour figures ----
+tab_aurelie <- dplyr::left_join(tab_final, gdb)
+write.table(tab_aurelie, "tab_aurelie.txt")
