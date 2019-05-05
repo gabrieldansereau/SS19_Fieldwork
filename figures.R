@@ -33,12 +33,29 @@ pal = brewer.pal(n = length(unique(tab$city)), name = "Paired")      # n = nb de
 pal = colorRampPalette(pal)                   # colorRamp c'est pour interpoler des couleurs dans la palette
 pal = pal(length(unique(tab$city))) 
 
+
+
+#palette chaud_froid
+library(colorRamps)
+cbPalette<-colorRamps::matlab.like(length(unique(tab$city))) #froid -> chaud 
+cbPalette[6]<- "gold"
+cbPalette[5]<- "olivedrab3"
+cbPalette[4]<- "lightseagreen"
+cbPalette[1]<- "midnightblue"
+cbPalette[3]<- "dodgerblue"
+
+library(joey)
+
 ggplot(data=tab, aes(x=tab$group))+
        geom_bar(position = position_dodge(preserve = "single"), aes(fill=factor(city)))+
       scale_fill_manual(values=pal, breaks=c("Albuquerque", "Amherst", "Bangalore", "Bangkok", "Corvallis", "Fairbanks", "Petersham",  "Redding"), name = "Cities")
 
-
-geom_bar(position = position_dodge(preserve = "single"))
-      scale_f
-gg <- ggplot(mtcars, aes(x=cyl))
-p1 <- gg + geom_bar(position="dodge", aes(fill=factor(vs))) 
+library(dplyr)
+tab %>% 
+  mutate(city = forcats::fct_reorder(city, uni_lat)) %>% 
+  ggplot(aes(x=uni_lat, y=dist_km, fill=city))  + 
+  stat_summary(aes(x = uni_lat - 2), color="darkgrey", fun.y = median, fun.ymax = max, fun.ymin = min) +
+# geom_boxplot() + 
+  geom_point(pch = 21, size = 3, position = position_jitter(width = 0.5, height = 0)) +
+  scale_fill_brewer(palette = "Spectral") + 
+  scale_y_sqrt()
