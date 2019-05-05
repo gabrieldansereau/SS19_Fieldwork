@@ -93,7 +93,7 @@ data1<- readxl::read_xls("data1.xls")
 data_tout <- rbind(data1, tab_final)
 
 data_tout<- data_tout[!duplicated(data_tout$name),]
-
+data_tout$id <- 1:length(data_tout$city)
 
 write.csv(data_tout, file = "data_tout.csv")
 
