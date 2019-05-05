@@ -82,7 +82,7 @@ names(tab_final)<-c("id","name","city","country","deliveryPoint_creator","west",
 
 #oups! enlever lignes où lat-long fw = 0
 tab_final<- tab_final[-c(55,46,120),]
-WriteXLS(tab_final, ExcelFileName = "data1.xls")
+write.csv(tab_final, ExcelFileName = "data1.csv")
 
 ### créer table pour figures ----
 tab_aurelie <- dplyr::left_join(tab_final, gdb)
