@@ -97,6 +97,4 @@ data_tout$id <- 1:length(data_tout$city)
 
 write.csv(data_tout, file = "data_tout.csv")
 
-### créer table pour figures ----
-tab_aurelie <- dplyr::left_join(tab_final, gdb)
-write.table(tab_aurelie, "tab_aurelie.txt")
+
