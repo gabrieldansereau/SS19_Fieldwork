@@ -24,8 +24,13 @@ gdb <- read.table("GDB.txt", dec = ".", sep= "\t", header = T)
 names(gdb)<- c("country", "GDB")
 
 #ici importer notre vraie table de données
-data<- read.table ("data1_clean.txt")
+data<- read.table ("data3_clean.txt")
 names(data) <-c("name", "city","country", "deliveryPoint_creator", "west","east","north", "south")      
+#petite ligne égarée
+data$city <- as.character(data$city)
+data$country <- as.character(data$country)
+data$city[which(data$city=="Corvalis")] <- "Corvallis"
+data$country[which(data$city=="Rio de Janeiro")] <- "Brazil"
 # fusionner les deux tables pour faire une table de référence dans laquelle piger les mots de recherche
 
 tab_ref <- left_join(data, countries)
@@ -82,7 +87,15 @@ names(tab_final)<-c("id","name","city","country","deliveryPoint_creator","west",
 
 #oups! enlever lignes où lat-long fw = 0
 tab_final<- tab_final[-c(55,46,120),]
-write.csv(tab_final, ExcelFileName = "data1.csv")
+
+data1<- readxl::read_xls("data1.xls")
+
+data_tout <- rbind(data1, tab_final)
+
+data_tout<- data_tout[!duplicated(data_tout$name),]
+
+
+write.csv(data_tout, file = "data_tout.csv")
 
 ### créer table pour figures ----
 tab_aurelie <- dplyr::left_join(tab_final, gdb)
